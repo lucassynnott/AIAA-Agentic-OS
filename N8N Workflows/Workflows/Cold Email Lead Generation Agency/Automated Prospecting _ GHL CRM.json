@@ -1,0 +1,523 @@
+{
+  "name": "Automated Prospecting > GHL CRM",
+  "nodes": [
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.surfe.com/v2/companies/search",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"filters\": {\n    \"industries\": {{ $json.industryResearch }},\n    \"employeeCount\": {\n        \"from\": 1,\n        \"to\": {{ $json.employeeCount }}\n      },\n    \"countries\": [\"{{ $json.countryCode }}\"],\n    \"revenues\": [\"1-10M\"]\n  },\n  \"limit\": 20\n}",
+        "options": {
+          "redirect": {
+            "redirect": {}
+          }
+        }
+      },
+      "id": "56a2ed53-edd5-4bf2-9ce5-aa9c2492658d",
+      "name": "Search ICP Companies",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [
+        -1904,
+        -112
+      ],
+      "typeVersion": 4.2,
+      "credentials": {
+        "httpBearerAuth": {
+          "id": "TMPJaOWGlFL6ZhbM",
+          "name": "Railway n8n mcp Auth"
+        },
+        "httpHeaderAuth": {
+          "id": "duXCss64S5P5Egu0",
+          "name": "Surfe: Rdavid"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.surfe.com/v2/people/search",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ $json }}",
+        "options": {
+          "redirect": {
+            "redirect": {}
+          }
+        }
+      },
+      "id": "b6e02086-6f55-4226-810f-0298ef500300",
+      "name": "Search People in Companies",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [
+        -1456,
+        -112
+      ],
+      "typeVersion": 4.2,
+      "credentials": {
+        "httpBearerAuth": {
+          "id": "TMPJaOWGlFL6ZhbM",
+          "name": "Railway n8n mcp Auth"
+        },
+        "httpHeaderAuth": {
+          "id": "duXCss64S5P5Egu0",
+          "name": "Surfe: Rdavid"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const people = $json.people || [];\n\nreturn [\n  {\n    json: {\n      \"include\": {\n        \"email\": true,\n        \"linkedInUrl\": false,\n        \"mobile\": true\n      },\n      \"notificationOptions\": {\n        \"webhookUrl\": \"\"\n      },\n      people: people.map((person) => ({\n        firstName: person.firstName || \"\",\n        lastName: person.lastName || \"\",\n        companyName: person.companyName || \"\",\n        companyDomain: person.companyDomain || \"\",\n        linkedinUrl: person.linkedInUrl || \"\",\n        externalID: `${person.firstName}_${person.lastName}_${person.companyDomain}`.toLowerCase().replace(/[^a-z0-9_]/g, '_')\n      }))\n    }\n  }\n];"
+      },
+      "id": "4d8d1dfc-9f52-40ed-aa1d-a9261514bb75",
+      "name": "Prepare JSON Payload Enrichment Request",
+      "type": "n8n-nodes-base.code",
+      "position": [
+        -1232,
+        -112
+      ],
+      "typeVersion": 2
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.surfe.com/v2/people/enrich",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ $json }}",
+        "options": {
+          "redirect": {
+            "redirect": {}
+          }
+        }
+      },
+      "id": "f6d00b66-c957-4299-b92d-9ac218a86186",
+      "name": "Surfe Bulk Enrichments API",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [
+        -1008,
+        -112
+      ],
+      "typeVersion": 4.2,
+      "credentials": {
+        "httpBearerAuth": {
+          "id": "TMPJaOWGlFL6ZhbM",
+          "name": "Railway n8n mcp Auth"
+        },
+        "httpHeaderAuth": {
+          "id": "duXCss64S5P5Egu0",
+          "name": "Surfe: Rdavid"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "=https://api.surfe.com/v2/people/enrich/{{ $json.enrichmentID }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "options": {
+          "redirect": {
+            "redirect": {}
+          }
+        }
+      },
+      "id": "fab4e33f-a4d0-4f27-baa8-a00b34ba2b27",
+      "name": "Surfe check enrichement status",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [
+        -784,
+        -112
+      ],
+      "typeVersion": 4.2,
+      "executeOnce": false,
+      "credentials": {
+        "httpBearerAuth": {
+          "id": "TMPJaOWGlFL6ZhbM",
+          "name": "Railway n8n mcp Auth"
+        },
+        "httpHeaderAuth": {
+          "id": "duXCss64S5P5Egu0",
+          "name": "Surfe: Rdavid"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "version": 2,
+            "leftValue": "",
+            "caseSensitive": true,
+            "typeValidation": "strict"
+          },
+          "combinator": "and",
+          "conditions": [
+            {
+              "id": "65a670df-84e8-4c87-956c-96758b8d8d26",
+              "operator": {
+                "name": "filter.operator.equals",
+                "type": "string",
+                "operation": "equals"
+              },
+              "leftValue": "={{ $json.status }}",
+              "rightValue": "COMPLETED"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "367708b0-7ff7-4393-9394-fa81b64851bb",
+      "name": "Is enrichment complete ?",
+      "type": "n8n-nodes-base.if",
+      "position": [
+        -560,
+        -176
+      ],
+      "typeVersion": 2.2
+    },
+    {
+      "parameters": {
+        "amount": 3
+      },
+      "id": "3c2062b2-dbff-4fc4-ab19-1107f6d2f7d8",
+      "name": "Wait 3 secondes",
+      "type": "n8n-nodes-base.wait",
+      "position": [
+        -336,
+        -16
+      ],
+      "webhookId": "faddf14b-4e33-4108-a141-c1a172e0a5d1",
+      "typeVersion": 1.1
+    },
+    {
+      "parameters": {
+        "jsCode": "const people = $json.people || [];\n\nreturn people.map(person => {\n  return {\n    json: {\n      id: person.id || '',\n      firstName: person.firstName || '',\n      lastName: person.lastName || '',\n      email: person.emails?.[0]?.email || '',\n      phone: person.mobilePhones?.[0]?.mobilePhone || '',\n      jobTitle: person.jobTitle || '',\n      companyName: person.companyName || '',\n      companyWebsite: person.companyDomain || '',\n      linkedinUrl: person.linkedInUrl || '',\n      country: person.country || '',\n      status: person.status || ''\n    }\n  };\n});"
+      },
+      "id": "51cf116c-fe62-4a34-8fb0-606b11f65f9d",
+      "name": "Extract list of peoples from Surfe API response",
+      "type": "n8n-nodes-base.code",
+      "position": [
+        -336,
+        -224
+      ],
+      "typeVersion": 2
+    },
+    {
+      "parameters": {
+        "sendTo": "<YOUR_EMAIL>",
+        "subject": "Your ICP prospecting enrichment is done.",
+        "message": "Your ICP prospecting enrichment is done.",
+        "options": {}
+      },
+      "id": "9d4ac88c-4263-49b2-9460-732b00c11bbc",
+      "name": "Gmail",
+      "type": "n8n-nodes-base.gmail",
+      "position": [
+        112,
+        -224
+      ],
+      "webhookId": "b46c028e-8212-40fe-b4d5-0f7c1890585e",
+      "executeOnce": true,
+      "notesInFlow": true,
+      "typeVersion": 2.1,
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "5fhyPq9lM8HJR0g2",
+          "name": "Gmail account 2"
+        }
+      },
+      "notes": "Notify end of enrichement"
+    },
+    {
+      "parameters": {
+        "jsCode": "const companies = $json.companyDomains || [];\n\nreturn {\n    \"companies\": {\n      \"domains\": companies\n    },\n    \"limit\": 20\n  };\n\n"
+      },
+      "id": "0abee93f-3ba2-4596-aafa-2dfcb8b641c5",
+      "name": "prepare JSON PAYLOAD WITH Company Domains",
+      "type": "n8n-nodes-base.code",
+      "position": [
+        -1680,
+        -112
+      ],
+      "typeVersion": 2
+    },
+    {
+      "parameters": {
+        "formTitle": "Build Prospect Lists",
+        "formDescription": "Fill out the form below to build your prospect list instantly.",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Industry Research",
+              "fieldType": "textarea",
+              "placeholder": "Software"
+            },
+            {
+              "fieldLabel": "Max Employee Count",
+              "fieldType": "number",
+              "placeholder": "50"
+            },
+            {
+              "fieldLabel": "Country Code (Alpha-2) ",
+              "placeholder": "FR, US, GB"
+            },
+            {
+              "fieldLabel": "What is your name?",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "What is your email?",
+              "fieldType": "email",
+              "requiredField": true
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.3,
+      "position": [
+        -2352,
+        -112
+      ],
+      "id": "22f85580-9ecf-406b-8454-06403ab2a516",
+      "name": "Build Prospect Lists",
+      "webhookId": "6bfefa59-2862-4922-90c4-9ec801f86895"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "fae22274-3eaf-43cd-ac76-51c75d419488",
+              "name": "industryResearch",
+              "value": "={{ $json['Industry Research'] }}",
+              "type": "string"
+            },
+            {
+              "id": "8e5c194f-2a2a-4653-b013-5d9e9c44cc00",
+              "name": "employeeCount",
+              "value": "={{ $json['Max Employee Count'] }}",
+              "type": "number"
+            },
+            {
+              "id": "9fd1763e-e51f-4a97-9f78-97edf729fc70",
+              "name": "countryCode",
+              "value": "={{ $json['Country Code (Alpha-2) '] }}",
+              "type": "string"
+            },
+            {
+              "id": "e40b5d47-b056-4912-b06c-ac1d2ee70d1f",
+              "name": "firstName",
+              "value": "={{ $json['What is your name?'] }}",
+              "type": "string"
+            },
+            {
+              "id": "5d175b27-7d65-4e68-8e4f-281aaf9770c1",
+              "name": "email",
+              "value": "={{ $json['What is your email?'] }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -2128,
+        -112
+      ],
+      "id": "452c1c6b-a368-4740-a7bb-c371c76d3af2",
+      "name": "Set Prospect Data"
+    },
+    {
+      "parameters": {
+        "email": "={{ $json.email }}",
+        "phone": "={{ $json.phone }}",
+        "additionalFields": {
+          "address1": "={{ $json.country }}",
+          "firstName": "={{ $json.firstName }}",
+          "lastName": "={{ $json.lastName }}",
+          "notes": "={{ $json.linkedinUrl }}",
+          "website": "={{ $json.companyWebsite }}"
+        },
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-base.highLevel",
+      "typeVersion": 2,
+      "position": [
+        -112,
+        -224
+      ],
+      "id": "db257cce-d812-4ac2-926e-ae198b95f2c5",
+      "name": "Create or update a contact",
+      "executeOnce": false,
+      "credentials": {
+        "highLevelOAuth2Api": {
+          "id": "0hWODSO7k62v5bkn",
+          "name": "HighLevel account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Wait 3 secondes": {
+      "main": [
+        [
+          {
+            "node": "Surfe check enrichement status",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Search ICP Companies": {
+      "main": [
+        [
+          {
+            "node": "prepare JSON PAYLOAD WITH Company Domains",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Is enrichment complete ?": {
+      "main": [
+        [
+          {
+            "node": "Extract list of peoples from Surfe API response",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Wait 3 secondes",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Search People in Companies": {
+      "main": [
+        [
+          {
+            "node": "Prepare JSON Payload Enrichment Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Surfe Bulk Enrichments API": {
+      "main": [
+        [
+          {
+            "node": "Surfe check enrichement status",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Surfe check enrichement status": {
+      "main": [
+        [
+          {
+            "node": "Is enrichment complete ?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare JSON Payload Enrichment Request": {
+      "main": [
+        [
+          {
+            "node": "Surfe Bulk Enrichments API",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "prepare JSON PAYLOAD WITH Company Domains": {
+      "main": [
+        [
+          {
+            "node": "Search People in Companies",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract list of peoples from Surfe API response": {
+      "main": [
+        [
+          {
+            "node": "Create or update a contact",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build Prospect Lists": {
+      "main": [
+        [
+          {
+            "node": "Set Prospect Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set Prospect Data": {
+      "main": [
+        [
+          {
+            "node": "Search ICP Companies",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create or update a contact": {
+      "main": [
+        [
+          {
+            "node": "Gmail",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "4d145d8d-9def-4db9-acdc-e3ccde02e597",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "94aed49fc73372525d542e924a8b65d38c4cfc7be69ff82b11f83d6bf3d06ce7"
+  },
+  "id": "xe00QGVPkvgFF8mu",
+  "tags": []
+}

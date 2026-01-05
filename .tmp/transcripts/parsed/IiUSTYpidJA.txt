@@ -1,0 +1,209 @@
+Ladies and gentlemen, in this video, we're going to be going through step by step what you need to do to make some big money off of a webinar. Most of you guys have no clue what you're doing when you launch a webinar. And when you try to actually make some serious money on it, everything starts to fall apart and go wrong. Or you're one of the people that has attempted to
+
+run them in the past. You only did it once, got absolutely nuked and vaporized your money, and therefore you haven't tried it again. I'm going to go through because we do webinars all the time for our clients and at a test budget, we usually spend somewhere between like 25 and $50ish,000 per webinar and we obviously want to make sure that goes right. So, we stack the
+
+probabilities through our step-by-step launch process that I'm going to go through with you here today inside of this video to make sure that our bets play out in our favor when we run these types of funnels. So, welcome in. If you're new to the channel, all we talk about around here is cracking milliondoll months. It's all we give a about. After you crack a million a
+
+month, we then give a about cracking the next million a month. So, welcome in if you're new to the channel. Of course, we have no idea who you are and whether you stand any chance at all of ever hitting a million dollars a month. According to the US Bureau of Labor Statistics, the probability to hit 10 million a year is.1%. Let alone the even smaller probability to crack
+
+million months at 12 million a year. So, no income claims, no earning potential. Get if you think that and leave the video now. And of course, if you're already a subscriber, welcome back.
+
+Absolute pleasure to have you. You're in for another treat today. Without further ado, let's dive in. So, when we first get started on webinar promotion, we want to do some math, and that's where typically everything begins. We crack open our webinar financial model that you can see here that we got in good old Google Sheets. We give this out to our master internet marketing students. We
+
+also give it out, of course, to all of our inner circle members. And we use this exact sheet as an example for our clients when we go to determine how much we're going to likely need to spend.
+
+Okay. The very first thing that we want to be conclusive about is exactly that. What is an ideal test budget? What's a number that we can all stomach that if we do happen to vaporize it, no one's going to be sad and crying in the casino? Okay, we don't want to be in that mental frame. We want to make sure that we spend enough though to have the numbers play out in our favor. There's a
+
+specific video I did. It's one of my early on videos where I look when you look at the thumbnail, it says something about like a datadriven decision was applied here and then it looks like a graph absolutely tearing up and to the right. In that specific video, I actually cover a tipping point example within a webinar client's math where we found that below a certain threshold of
+
+spend, like just by a couple dollars off, the webinar statistics would be random and above a certain level of spend, we would rid ourselves of the randomness. And just to be extremely articulate about what I mean, if you spend too little, okay, the probabilities are all over the place for all these subsequent statistics like your cost per lead, your show rate, your
+
+close rates, your booking rates. If you're going to do a direct to checkout versus a call booking funnel, got to be factored in, of course, AOV. There's just all kinds of randomness below a certain threshold of dollars spent. So, to be clear, we want to make sure that we spend a little bit above what the bare minimum looks like with a set of extremely conservative, rather
+
+worst case scenario statistics. So, in this example of a financial model, let's look at what might be considered conservative from a statistic perspective, and let's look at what might need to be even more conservative than where it's currently benchmarked.
+
+So, number one, $30 cost per opt-in. I'd say that's very conservative. I've seen cost per opt-in to webinars substantially cheaper than that. Usually, for most people that are selling a high ticket product to a sophisticated, richer audience, you could be in the teens, sometimes even less than that. When you're in the general public audience, it can be even
+
+lower relative to obviously your opt-in rate, all your advertising statistics, that combination of stats makes up what your cost per lead is going to come out to, but still $30 is very conservative.
+
+Now, a show rate to a webinar at 30%. Now, if this is an ice cold audience, a group of people who have no idea who the you are, a 30% show rate can absolutely be what you can expect, but it might not be the very first webinar.
+
+So, this is very important to understand. If you've already got a webinar and it's dialed in, there's a different set of statistics that you can model out for because you've got some consistency in webinar over webinar stats to project into a model. When it's your very first one, you want to obviously bias towards a more conservative set of statistics. I would
+
+tell you that about 10 to 15% for an ice cold audience should be your absolute bottom of the barrel, lowest you're going to likely get show rate to expect. So, if you wanted to model here and actually be extremely conservative, you'd likely throw 10% or maybe 15% into this specific part of our equation. From there, in this example of the math, we're doing a book a call rather than a
+
+direct to checkout webinar. And so, in that example, generally, it's somewhere between about 10 and 30%, if again, if you wanted to be extremely conservative, you'd bias towards the 10% benchmark.
+
+Once you get it dialed in, 30% should be your baseline of what you should expect. But your webinar skills might be completely different and might be very unpolished. Aka, you might suck ass at webinar. If you're really good at webinars and you're really good at stage selling and you've consistently done these things for a while, bias up a little bit. But if this is your first
+
+time or one of your first times doing a webinar and you're trying to add it into your mill funnel arsenal, you know, be a little more conservative and estimate that it might be around 10 to 15% for your first webinar until you dial in the webinar itself and get better at that.
+
+Okay. Now, call show rates. When you actually get people to book a call and then you try to get them to show up, you should definitely expect a higher show rate from a webinar call booking. If the webinar was executed successfully, especially if you've supplemented the back end of that webinar show rate process with all of our back-end selling systems that we teach and talk about
+
+extensively on this very channel. Anyway, 70% is about the norm. If you wanted to be conservative, you could go as low as about 50 to 60% close rate from a webinar. I would fire the out of a closer if they got less than a 30% close rate from webinar leads.
+
+Webinar leads are layup deals. However, some of you suck at webinars and so you therefore might have a lower close rate from the leads that book onto your closer calendar. If that's the case, you obviously need to be more conservative.
+
+I wouldn't go lower than 20%, 20% is insanely low for a close rate on a webinar lead, but hey, again, you might suck at webinars and maybe you'd want to model for even lower than that. You got your cash collected per sale, aka your AOV. Same thing. Make sure that you factor in the quantity of people that historically have done PIFFs versus the quantity of people that have done split
+
+pays. Make sure you factor out if you're going to push people to do funding options. What you are actually going to cash collect on average. Okay, that's what you want to plug into that model.
+
+From here, we have our sales team cost. We can factor in how much overhead we're going to have in commissions that we kick out. We're going to factor in our fixed costs as well that might come from delivering on the total quantity of people that we close. Again, this model is intended to be both gross profit and true net profit. And we want to be able to see that ahead of time before we
+
+actually spend money on the webinar. From there, we can kind of reverse engineer and see how much we need to spend and potentially push that number up. Once we actually have a number in mind, okay, and we've officially financially modeled out how our webinar is going to look before we actually spend money on it, we can get a very conclusive number about what we're
+
+likely going to spend and worstcase scenario statistic. Okay, that's the key. Before you actually spend money, you want to figure out how bad the stats can be before you actually start losing money. Okay, so again, worst case scenario, stats are extremely important.
+
+the quantity of people that have come to me that haven't done a lick of math in regards to financially modeling out worst case scenario statistics that then just vaporize money willingly because they didn't know how bad each statistic could be before it crossed into a threshold where it doesn't even make sense to spend money. They didn't know when a specific statistic was in
+
+like a code red territory. put all attention on it and make sure that we actually get it to the point where it's profitable because to be clear, they didn't know how bad the statistic could be before they become unprofitable. So that's why we always start with math.
+
+Once you've actually gotten to the point where you've done that math, obviously you're going to need to build some stuff out. So from here, we need to create our assets and that includes a handful of things. So to be clear, we have the actual funnel itself. The funnel has an opt-in page. It has a confirmation page after they've actually opted in it. In addition to that, we'll typically have
+
+the webinar itself, which doesn't need to be hosted on any specific like created by you page. Most of the time, we're using Zoom for the actual webinars itself nowadays. It's the most stable and largest of all the platforms.
+
+Typically has the best experience. And more importantly than anything else, the people who are going to show up to the webinar use Zoom all the time, too. In almost all instances, besides the bluecollar niches, but to be clear, we don't really need to build anything out for the actual webinar. What we will need to build out once the webinar is actually done is a replay page. From
+
+there, very important to note during the webinar itself, if you're doing a book a call process, you typically have an application page that will also have your scheduleuler on it. And then same thing, you have another confirmation page there. In most instances, depending on how you're selling things, you're going to have a few more things. You're typically going to have a checkout page,
+
+which is going to be where you actually cash collect on the dollars. And then you're going to have a purchase confirmation step. Okay. Now, with all these things factored in, these are like all the typical funnel steps that we're going to need. There's obviously a handful of confirmation pages. And so, if you're new to the channel, I talk about this rather frequently on these
+
+pages. We call them back-end selling systems. And there's four back-end selling systems in particular. Three of them don't cost money, one of them does. The one that costs money, we refer to as the hammer them strategy. It's a very simple strategy, but just to highlight it in a very summary way. There's whole videos that I have on my channel dedicated to this topic, just to be
+
+clear. The hammer them strategy, we'll take the people who opt into a webinar or the people who book a call from our webinar. In this case, we can do hammer them strategies for both to be clear.
+
+And we'll load up 30 to 50 short form pieces of content, 15 to 30 long form pieces of content. Think pieces of content like this for long form as an example. And we'll hammer the out of people who just opted into the webinar or who just booked a call from the webinar. That way we keep content in front of them in their newsfeed. It's extremely cost-effective to do this. It
+
+typically impacts all those backend stats successfully in a very positive way. Show rates, close rates, pay in full percentages, sales cycle, timelines being condensed is very effective for this when done properly. The other three that don't cost money, one of them being the most important where you typically capture people at their peak interest is our confirmation pages. If our
+
+confirmation pages are dialed in, they'll have a whole bunch of specific back-end selling system tactics involved. They'll have these things called breakout videos. They'll have a bunch of testimonials that show best case scenarios, but more importantly, worst case scenarios and how people can get and a handful of other things. And in addition to that, we have
+
+value dense email sequences. And of course, we have our setter best practices. Setters getting involved inside of a webinar helps with the show rate dramatically. But I'll cover that here shortly. For now, I just want you to understand we obviously need to build a funnel. Okay? In addition to the funnel, we need to go film some ads. So, we typically prefer video ads
+
+comparatively to image ads for most of our webinars. However, we'll also build some image ads, too, because I don't want to be right. I just want to make money. Okay, so moral of the story, we'll typically film nowadays at least 25 to 30 total video ads and then in addition to that, we usually have another 25 to 30 image ads on standby.
+
+Now, this is very important you understand this. Again, if you're new to the channel or maybe you already a subscriber and you just haven't seen this particular video, Meta, they announced the Andromeda update and if your account has been impacted around the month of July, we noticed a substantial quantity of people seem to have been impacted by this. CPM shot up
+
+through the roof. Um, all the traditional best practices that you would have historically executed on just started to fail at a high rate. And when you go and you look at the Andromeda best practices, I I have a whole video on my channel, by the way, dedicated to this algorithm update. It's a specific step within the algorithm creative recommendation process. It's the first
+
+step, believe it or not. It sorts through all the different creatives that are available and it tries to match it with the people who are probable to convert. That's the very first step in the ALGO creative recommendation process. It's called meta andromeda.
+
+Again, whole video on my channel dedicated to that. I won't go into it in too much detail here. However, I will say this. We launch and try to create this amount of creatives no matter what our spend is. That's the number one question I get from people who are like, &gt;&gt; "Oh, I'm only going to launch it like $100 a day &gt;&gt; or you're spending 50k a day. like you
+
+have to follow the Andromeda best practices. There's not like a a smaller amount of creatives they let you launch with to follow these best practices. You just have to do it nowadays. Now, typically when we actually go to launch the campaign, we we won't actually launch with all of these. We'll typically launch with about 25 to 30 and we'll mix in some videos and some
+
+images. And then from there, we're usually setting up with individual ads and we're pairing it with the dynamic copy that we can use like five headlines, five pieces of body copy. So from here once we actually get the video ads and the image ads created obviously we need the actual ad copy as well and as I just mentioned typically for the ad copy we'll have five headlines and we
+
+will have five pieces of body copy otherwise what's known as primary text inside of the meta platform. So anyway long story short from here we got a handful of things that we also need to create. We need an email sequence and ideally this follows the backend selling systems best practices. This should be a valued dense email sequence. Okay?
+
+Again, we have entire videos on my channel just dedicated to value dense email sequences. However, very simple to understand and articulate and kind of summarize for you here. We do not just do the reminderbased stuff. We will do that, but again, we don't just do that.
+
+We're trying to break down topics that people actually give a to know about that increases the probability that they show up. And we try to get them that information in a long form written email that's going to get sent out to that person prior to them actually showing up to the webinar.
+
+Okay? makes a substantial difference to the overall show rate and it helps a lot. Okay. Now, to be clear, once we get the email sequence, we'll also typically have some text. Now, one recent really interesting thing that we learned is we do not want to send the link to join the Zoom in the text. We found that that nuked our overall call booking rate when we ran that test recently because a lot
+
+of people are showing up on their phones. There's a huge difference in the intent of a lead who's watching a webinar when they show up and watch it on a device that's not a phone. Think of watching it on your TV, your computer, desktop, laptop, whatever it is, even a tablet. Phones, oh my gosh, a show rate was technically higher, but our booking rate was terrible. And we
+
+concluded that was our only variable that changed. We concluded that it was because of adding the Zoom link to the actual text message sequence. So again, texts don't need to be anything more than just reminders. In most instances, you can have some valueoriented communication that go out in a text sequence, but doesn't need to be anything crazy. Now, to be clear, once
+
+you got your funnel, once you got your videos and your images, your ad copy, you got your email sequence, you got your text sequence, if you don't have this, need I not say, you obviously need the webinar slides. Okay, once you get all of this created, very important to note, you're typically good to go and can get into the promotion cycle. So, when you look at the actual promotion
+
+timeline of a webinar, there's really two ways to look at it. You have the launch period when you're very first doing a webinar, and then you have you've already got it dialed in, and you've got figured out. I'll give you a great example of what that latter part means. Got a client right now, their webinar, they've been doing weekly webinars for months now, and we got that
+
+dialed in. I'm not going to promote that webinar at max. I'm going to do about 5 days out. I'm not promoting it longer than that, okay? only going to promote it about 3 to 5 days out ideally somewhere in that time frame. If I have never launched a webinar for somebody before, I'm going to give myself a longer duration of time to promote it because it's going to be a little more
+
+relenting if I need to fix something and it's not going to feel as high pressure. Okay, let me be really clear when I say this. I'm going to promote a dialedin webinar in that 3 to 5 day max promotion cycle before the webinar starts because my show r's going to be higher from getting people to opt in closer to when the webinar starts. You see, versus when I promote a webinar upwards of 14 days
+
+out, those leads, you can quantify this by the way if you've ever run a webinar before, especially with AI. Just take the creation date of each contact as it relates to like let's say 14 days out, 13 days out, 12 days out, 11 days out, etc., and map the individual show rate for those contacts. And you'll see it yourself. The people who opt in anywhere 48 hours out or longer, typically have
+
+low show rates compared to the people that opt in 2 days before, one day or before, or the highest obviously being the day of. So anyway, my point is if it's my first webinar, I'm giving myself roughly 10 to 14 days. Okay? That way when something inevitably with a high probability goes wrong, I got time to fix it. If I need to refilm new ads, you got to keep in mind like they've got to
+
+get edited. Okay? And in terms of editing ads, just to pepper this in, by the way, we typically just do standard like talking head ads, jump cuts, captions, you know, it's nothing crazy.
+
+For image ads, it's pretty much like the headline of the actual page for the opt-in of the webinar or the topic of the webinar. We're going to promote that in the image ads as well. So anyway, moral of the story, just to be extremely clear, if I've got 10 to 14 days out and something gets up, it is what it is. I'm going to have time to be able to fix it. If I do not have a dialed in
+
+webinar process and I go to promote that thing and I've only got 3 to 5 days and something gets up, I am cooked. Okay, I'm cooked. I don't have time to do I don't have time to to fix anything. Okay, so be very mindful of that. If it's new, it's 10 to 14 days in most instances. Okay, if it is dialed in, it is typically a 3 to 5 day promotion cycle. Okay, now when I'm
+
+promoting it, all I'm doing is I'm just going back to my math. I'm looking at how much spend I have. I'm also going to factor in, am I peppering in organic leads into this or am I just doing paid?
+
+Okay. When it's one of your first webinars, pushing anybody and everybody that you can to it is a good idea because you're going to have a higher probability of being profitable, which is what you want to be able to justify the continuation of this new effort and initiative. If I raw dog it and I just do cold paid advertising audiences, that's good. if you've got more money
+
+that you can vaporize and still be seated in the casino to continue your gambling efforts to get profitable. You understand? Very important that you get this part of this whole thing. Okay. So, when I go to launch the creatives, okay, if I have a paid audience and I'm going to pepper in organic, I'm going to duplicate the paid funnel and that means I'm now going to have two variations of
+
+optins. Okay? I'm going to have the paid version, I'm going to have the organic version. That way I can individually track each specific audience, their behavior, their show rates, their close rates, the revenue attributed to them, etc. Okay, each set of these audiences is going to have completely different stats, and you're going to want to be able to delineate between the two so you
+
+know if you're actually profitable or not and how your paid advertising stats were. So once you get to the point where obviously you're in the middle of promoting everything, what matters most when you get into the promotion cycle is your cost per lead and your show rate.
+
+Okay, your job initially is to just get as many people as you can that are ideally qualified to go and opt into this thing for as cheap as a cost per lead as you can possibly get. That way, your dollars are being spent efficiently. Okay? And in addition to that, you want to make sure that no tech is breaking. There are a lot of different tech components to a webinar
+
+promotion cycle. I'll give you a good one that we just ran into for a client literally this last week. our Zapier account hit the limit for the total amount of Zaps that could fire off relative to the plan that we had subscribed to. We caught it 4 hours before the webinar. So, we noticed there was a couple hundred person discrepancy of opt-ins in the CRM and that the
+
+salespeople were dialing on to help get the show up rates to be improved. And we were like, "What the is going on?" We went into Zapier. It was as simple as needing to upgrade the billing. You got to be attentive to like that.
+
+Sometimes zaps break, as an example, or whatever software you're using that's similar to Zapier if you're poor and have an alternative. The moral of the story is, and I can't stress this enough, okay? Check the tech. We've had little like a button on mobile not working on the opt-in page that nukes your cost per lead and your overall opt-in rate. Simply put, if a stat looks
+
+miserably up, might be a tech issue, right? if your stats look relatively up and can be improved in regards to like considering your comparison to like some other baseline benchmark, you know, like as an example, if an opt-in rate for a webinar is 1%.
+
+It's like that's tech issue territory. If an opt-in to a webinar is like 10 to 15%, that opt-in rate just sucks and it can be improved from a CRO perspective. You know, you understand the differences, right? If I see a couple hundred person discrepancy in like tracking or quantity of people in the CRM versus what the back end of the funnel says for my stats, tech issue,
+
+you understand? It's like check the tech during the promotion cycle. That happens an unbelievably frequent amount from what I've seen. So anyway, I digress. During the promotion cycle, there's a few things that also are kind of happening at the same time. You got your emails going out, you got your text reminders going out, and you should have your setters dialing on the leads. Okay,
+
+this combination of the emails, the texts, and the setters dialing on the leads, that can improve your show rate to a very high level in and of itself. Okay, you should be in a minimum range of like the 20s to maybe even low 30s with just those three variables. You want to juice it even further or at least just solidify the probability that you're in that range. Factor in the
+
+backend selling systems on top of that dialed in confirmation page. The email sequence has value dense emails. The setters aren't just reaching out and saying, "Hey, just want to make sure you show up." They're being valueoriented and following the setter best practices that we teach. Fire off the hammer them strategy and get everybody who opts in absolutely blitzed with content
+
+prior to that webinar, getting them excited. Okay, this combination ensures you have the highest show rate possible. From there, you just got to execute a phenomenal webinar. Now, one thing that we do for all of our inner circle members and also for our master internet marketing students and of course our clients, we have this 72page SOP called mastering webinars SOP. Now, this
+
+specific document contains several examples, literal recordings from top converting webinars from our clients and also from some of our inner circle members that have contributed theirs with their statistics. In addition to that, it goes through the outline of what should be covered in the webinar.
+
+It goes through risk reversal sections of the webinar to improve your overall conversion rate. It goes through examples of direct to checkout and call bookings. It has everything that you need to actually execute all steps of what I'm sitting here communicating to you. But more importantly, the actual webinar itself. Obviously, that's the most important part once you get
+
+everybody to show up is the webinar. Okay, just to be clear, we always do these live nowadays. Literally, while I'm sitting here shooting this for you right now, live webinars, they super hard, super OP. We find that automated webinars have been nerfed.
+
+They suck. They're doing absolutely terrible in direct comparison. And we're talking taking webinars that have converted extremely well trying to automate them, not working in comparison. I could sit here and throw a whole slew of assumptions at you and opinions about why that's the case, but I just need you to understand in a very matter-of-act way, you're going to want
+
+to do it live. You're not going to want to automate these. So, moral of the story, the actual webinar being produced, right? That is the most important part, having dialedin slides, having the right flow, having the right presenter. And if you're somebody who's sitting here in our ideal demographic of people that we can help get richer, I want you to check the links down in the
+
+description. If you're rich trying to get a lot richer, check out the inner circle program. Twice a month, one-on-one calls, weekly group calls, massive SOP library. We currently have 33 SOPs in there available for all our members. In addition to that, we have our quarterly in-person masterminds right here at our facility in good old Miami, Florida. I don't know if you can
+
+see all this behind me. We've got a 220in screen on the wall, 150 chairs, very comfortable. They're church chairs. We have four branded arcade machines, ping pong table, pool table. We got a get richer fridge. That's right, a fridge that says get richer on top of it and not like a residential fridge, commercial fridge. Beautiful facility, big flex fest with all the
+
+people who are a part of the group here that drive their nice cars up. And then we go over to the penthouse and we have our 2500 foot balcony where we do all our networking for day two of that event. And there's a whole bunch more.
+
+You get access to Jeremy AI, but I won't sit here and rant your head off about that. Go check out the link down in the description if that's you. And of course, check out our master internet marketing program. We on an annual basis go back and refresh literally the entire cohort. We redo all seven weeks of the classes. We add the latest information.
+
+Things like what I'm talking about right here, but in much more depth. Same thing. SOPs, 3 to 5 hour classes for 7 weeks worth of content, extensive homework libraries, and you can preview week one of that class down in the link in the description below. I'd encourage you check that out if you're interested in either one. Back to the point, you got to execute these webinars extremely
+
+well. Okay. What you need to do, and we've talked about this on this channel before, but I I want to make sure you understand this. Bottleneck analysis is breaking down step by step from the advertising all the way over to the sales process. What happened at each specific key statistic and which one might be contracted? As an example, let's say you get a really good cost per
+
+lead. You get a really good show rate, but then you get an absolutely dog conversion rate for either the direct to checkout or for the call booking. Well, that shows in that particular set of statistics that your webinar sucked ass, okay? And you need to redo the webinar.
+
+Let's say you have a really high cost per lead. You have a great show rate, a great conversion rate for the webinar, a great show rate to those calls you book, a great close rate, and a great AOV.
+
+That means your opt-in page sucks. That might be indicative of the actual page itself. It could also be indicative of the ads. You would check some of the advertising statistics in that example, too. Things like your link click-through rate, your CPMs, your retention in the video ads themselves, things like that.
+
+My point is, it's not random when a webinar doesn't work. Okay? It's a very specific bottleneck. there's some specific statistic within your KPIs that is contracted that if you put attention on it and open it up will obviously get a lot more money out the other side.
+
+Okay? It's not random. It's not emotional. It's just a specific contraction point that you must be attentive to, laser focus on, and attack. Okay? So don't act like webinars when they don't work are some like random act of God that made it so it didn't make you money. You it up somewhere in the process or maybe at multiple points in the process, weren't
+
+aware of it and never went back and attacked that specific contraction. Okay, very important that you execute this successfully once the webinar is done and you get to the point where you did it right, whether you did direct to checkout or whether you did your call booking. If you did a call booking one, obviously you still have a few more steps. You have the amount of people
+
+that are going to show up for those calls, the amount of people that are going to close, and what those closers on average are cash collecting per deal. Okay, those three stats have to be dialed in if you're doing a call booking. Okay, you got to make sure again, just to reiterate, you have back-end selling systems as soon as somebody books from the webinar. Should
+
+be its own hammer them sequence, should be its own value dense email sequence, should be its own confirmation page. You understand? You can have the setters, same as you did on the front end, reach out to the people who booked the call, congratulate them, answer questions prior to the call and make it so the call has a higher probability to be a sales call rather than an education
+
+call, right? Those deals should be layup deals. They should have as high of a close rate as upwards of like 40 to 50%. Okay, 30% is like the lowest that you want to tolerate in that set of statistics. And obviously, a large percentage of these people, assuming they're financially qualified, should be piffing. Okay, if you do the webinar right, they should be piffing, paying
+
+foss all day long. Should be raining deals. Moral of the story, after you get to the point where the webinar is actually done, the calls have happened, the deals are closed, as soon as the webinar is over, meaning as soon as the webinar is done, ideally you baited people. We talk about this inside of the mastering webinars SOP, was some kind of bonus for staying until the time of the
+
+pitch. Okay, the time of the pitch statistic is extremely important. From the peak show rate to the time of the pitch itself, you want to have about a 80% retention. Okay, that means 80% of the people that were there live at the peak show rate should still be there live during the time of the pitch. And when those people are still there, you want to bait them by saying, "Hey, I've
+
+got some bonuses that I'm going to send out right after this webinar concludes for the people that stay there with us live." Okay, super pro tip. I'm pulling that out of the mastering webinars SOP for free for you here on YouTube. Okay, make sure you execute that tip. It helps a lot with retention and people really look forward to those documents. Okay.
+
+So, moral of the story is once you get the webinar done, take the recording, throw it onto that replay page that we created in our asset creation phase of the webinar before we even started the promotional cycle and get that replay with an application embedded onto the page or a button right below that replay and get that fired off with the bonuses. Okay? Also, send it to
+
+everybody who opted in whether they showed up or not and make as much as you possibly can off the webinar. You want to milk the out of this thing. We have another strategy called the popup event, but I'll withhold that, of course, as long as as well as many other tips that I'm sitting here withholding from you for the people who actively pay us. So again, check out those links down
+
+in the description if you want the full sauce. I hope that you've enjoyed this video. Subscribe to the channel if you haven't done so already. Go check out some of my other videos. As I mentioned throughout this video, there are several that go indepth in each individual component of what we just talked about, and I would encourage you go check those out. Thank you for being here. Go get
+
+richer.

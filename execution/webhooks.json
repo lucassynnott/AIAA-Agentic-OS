@@ -1,0 +1,34 @@
+{
+  "webhooks": {
+    "create-proposal": {
+      "directive": "create_proposal_webhook",
+      "description": "Generate PandaDoc proposal and send follow-up email",
+      "tools": ["create_proposal", "send_email", "web_fetch"]
+    },
+    "instantly-autoreply": {
+      "directive": "instantly_autoreply",
+      "description": "Auto-respond to Instantly email replies based on intent",
+      "tools": ["send_email", "read_sheet", "update_sheet"]
+    },
+    "booked-meeting-alert": {
+      "directive": "booked_meeting_alert_prospect_research",
+      "description": "Alert on new booked meeting with prospect research",
+      "tools": ["send_email", "web_fetch", "update_sheet"]
+    },
+    "new-client-onboarding": {
+      "directive": "onboard_new_client",
+      "description": "Trigger onboarding automation when new client signs",
+      "tools": ["send_email", "update_sheet", "create_folder"]
+    },
+    "lead-notification": {
+      "directive": "lead_notification",
+      "description": "Notify team when new lead is captured",
+      "tools": ["send_email", "update_sheet"]
+    },
+    "daily-campaign-report": {
+      "directive": "daily_campaign_reports_health_metrics_bounce_rate_alerts",
+      "description": "Send daily cold email campaign health report",
+      "tools": ["read_sheet", "send_email"]
+    }
+  }
+}

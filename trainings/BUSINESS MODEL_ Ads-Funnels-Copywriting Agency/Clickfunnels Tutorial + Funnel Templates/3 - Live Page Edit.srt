@@ -1,0 +1,4159 @@
+1
+00:00:00,040 --> 00:00:03,490
+All right guys so I have a page
+
+2
+00:00:03,560 --> 00:00:06,030
+open here this is video number
+
+3
+00:00:06,030 --> 00:00:06,639
+three and I'm
+
+4
+00:00:06,700 --> 00:00:08,339
+literally gonna go over every
+
+5
+00:00:08,400 --> 00:00:10,369
+single button inside of the editor
+
+6
+00:00:10,369 --> 00:00:10,949
+for you guys
+
+7
+00:00:11,039 --> 00:00:12,880
+so first off again we have
+
+8
+00:00:13,330 --> 00:00:15,619
+sections the hierarchy of elements
+
+9
+00:00:15,619 --> 00:00:16,559
+inside of click
+
+10
+00:00:16,600 --> 00:00:18,510
+funnels is sections and then rows
+
+11
+00:00:18,519 --> 00:00:20,550
+are essentially contained inside
+
+12
+00:00:20,550 --> 00:00:21,120
+of sections
+
+13
+00:00:21,160 --> 00:00:23,429
+and then elements aren't contained
+
+14
+00:00:23,449 --> 00:00:25,390
+inside of rows and there's all
+
+15
+00:00:25,550 --> 00:00:25,879
+different
+
+16
+00:00:25,920 --> 00:00:27,539
+elements that you can have there's
+
+17
+00:00:27,539 --> 00:00:29,260
+headline sub headline bullet list
+
+18
+00:00:29,260 --> 00:00:30,359
+paragraph
+
+19
+00:00:30,399 --> 00:00:33,000
+links all this stuff right images
+
+20
+00:00:33,000 --> 00:00:35,310
+video audio all these different
+
+21
+00:00:35,439 --> 00:00:35,950
+things are
+
+22
+00:00:36,000 --> 00:00:38,030
+elements that you can place inside
+
+23
+00:00:38,030 --> 00:00:40,609
+of rows okay now inside of the
+
+24
+00:00:40,609 --> 00:00:42,039
+section say for
+
+25
+00:00:42,200 --> 00:00:44,130
+example I want to go and add a
+
+26
+00:00:44,469 --> 00:00:46,149
+section right here I go to add
+
+27
+00:00:46,229 --> 00:00:48,140
+section and I
+
+28
+00:00:48,210 --> 00:00:50,259
+basically can pick blank section
+
+29
+00:00:50,469 --> 00:00:51,899
+flex or I can do some sort of
+
+30
+00:00:51,899 --> 00:00:53,090
+template that they
+
+31
+00:00:53,240 --> 00:00:55,090
+have on the section level or I can
+
+32
+00:00:55,100 --> 00:00:56,799
+pick the saved or universal
+
+33
+00:00:56,799 --> 00:00:57,880
+essentially
+
+34
+00:00:57,920 --> 00:00:59,479
+flex I don't really use it too
+
+35
+00:00:59,479 --> 00:01:01,149
+much but it's just a little bit
+
+36
+00:01:01,149 --> 00:01:02,020
+more of like a
+
+37
+00:01:02,060 --> 00:01:03,679
+flexible section that you can move
+
+38
+00:01:03,679 --> 00:01:04,959
+it and adjust it some more I
+
+39
+00:01:04,959 --> 00:01:06,219
+always like to just
+
+40
+00:01:06,260 --> 00:01:08,670
+go here blank section by default
+
+41
+00:01:08,670 --> 00:01:10,780
+and then rows is where you can do
+
+42
+00:01:10,780 --> 00:01:11,609
+one column two
+
+43
+00:01:11,689 --> 00:01:15,010
+three four five six or flex so if
+
+44
+00:01:15,109 --> 00:01:18,370
+I pick six rows here or six
+
+45
+00:01:18,370 --> 00:01:19,840
+columns in the row
+
+46
+00:01:19,909 --> 00:01:21,500
+essentially you create you know a
+
+47
+00:01:21,500 --> 00:01:23,159
+bunch of different ones this is if
+
+48
+00:01:23,159 --> 00:01:23,730
+you want to do
+
+49
+00:01:23,780 --> 00:01:25,170
+like an icon list or like a bunch
+
+50
+00:01:25,170 --> 00:01:26,379
+of bullet point sections or
+
+51
+00:01:26,469 --> 00:01:27,230
+something like
+
+52
+00:01:27,319 --> 00:01:28,849
+that you can essentially just
+
+53
+00:01:28,859 --> 00:01:31,049
+build that out there most the time
+
+54
+00:01:31,099 --> 00:01:32,079
+though I'm doing
+
+55
+00:01:32,180 --> 00:01:33,849
+like one or two maybe three you
+
+56
+00:01:33,909 --> 00:01:35,909
+know if we're doing something like
+
+57
+00:01:36,019 --> 00:01:36,659
+I don't know if
+
+58
+00:01:36,700 --> 00:01:39,939
+this page has one but right this
+
+59
+00:01:39,939 --> 00:01:42,579
+is like a three row right here
+
+60
+00:01:42,579 --> 00:01:43,659
+with elements
+
+61
+00:01:43,700 --> 00:01:45,599
+inside of it an image element a
+
+62
+00:01:45,989 --> 00:01:47,640
+headline element sub headline
+
+63
+00:01:47,640 --> 00:01:48,900
+element and then a
+
+64
+00:01:48,939 --> 00:01:50,900
+bullet point element right and
+
+65
+00:01:51,230 --> 00:01:54,950
+then this is a row here and then
+
+66
+00:01:54,950 --> 00:01:56,200
+this section is
+
+67
+00:01:56,260 --> 00:02:01,629
+contained around it so if we go to
+
+68
+00:02:01,709 --> 00:02:04,659
+let's just say add a row it's
+
+69
+00:02:04,659 --> 00:02:05,310
+going to add a row
+
+70
+00:02:05,459 --> 00:02:06,799
+there and then we can pick an
+
+71
+00:02:06,799 --> 00:02:08,419
+element let's say we want to just
+
+72
+00:02:08,419 --> 00:02:09,270
+do you know this
+
+73
+00:02:09,349 --> 00:02:12,379
+right here and when I add a
+
+74
+00:02:12,379 --> 00:02:17,860
+headline so let's do a headline so
+
+75
+00:02:17,860 --> 00:02:19,360
+this page does
+
+76
+00:02:19,400 --> 00:02:21,610
+have a style sheet by the way I'm
+
+77
+00:02:21,689 --> 00:02:23,599
+just kind of keep that in mind it
+
+78
+00:02:23,599 --> 00:02:24,159
+does have an
+
+79
+00:02:24,259 --> 00:02:25,789
+overall style sheet already
+
+80
+00:02:25,810 --> 00:02:28,199
+selected onto it whoops I don't
+
+81
+00:02:28,199 --> 00:02:29,139
+know what was going on
+
+82
+00:02:29,210 --> 00:02:33,060
+there anyways settings if I click
+
+83
+00:02:33,060 --> 00:02:35,599
+here on this headline element and
+
+84
+00:02:35,599 --> 00:02:36,219
+go to settings
+
+85
+00:02:36,259 --> 00:02:37,349
+this is going to open up
+
+86
+00:02:37,349 --> 00:02:39,099
+essentially my just editor wizard
+
+87
+00:02:39,099 --> 00:02:40,659
+there's so many things
+
+88
+00:02:40,699 --> 00:02:43,199
+that you can do within 2.0 on this
+
+89
+00:02:43,199 --> 00:02:45,370
+I'm starting with you know adding
+
+90
+00:02:45,370 --> 00:02:46,180
+some custom
+
+91
+00:02:46,219 --> 00:02:47,550
+code to this headline element if
+
+92
+00:02:47,550 --> 00:02:48,699
+you want to do that you can do
+
+93
+00:02:48,699 --> 00:02:49,539
+that click here and
+
+94
+00:02:49,580 --> 00:02:51,659
+it's going to open this for you
+
+95
+00:02:51,860 --> 00:02:53,830
+but essentially if you want to
+
+96
+00:02:53,969 --> 00:02:55,180
+just edit real
+
+97
+00:02:55,219 --> 00:02:56,840
+quick you can go highlight and
+
+98
+00:02:56,840 --> 00:02:58,569
+then on this toolbar that pops up
+
+99
+00:02:58,669 --> 00:02:59,300
+on any text
+
+100
+00:02:59,340 --> 00:03:01,310
+element you can do bold you can go
+
+101
+00:03:01,610 --> 00:03:03,259
+italics you can go underlined
+
+102
+00:03:03,259 --> 00:03:04,819
+strike through move
+
+103
+00:03:04,860 --> 00:03:06,860
+it to the side move it to that
+
+104
+00:03:07,139 --> 00:03:08,969
+side move it to the middle or you
+
+105
+00:03:08,969 --> 00:03:10,250
+can hyperlink it add your
+
+106
+00:03:10,300 --> 00:03:11,719
+hyperlink you can also change the
+
+107
+00:03:11,719 --> 00:03:13,949
+color of the hyperlink here and if
+
+108
+00:03:13,949 --> 00:03:15,479
+you want to do
+
+109
+00:03:15,520 --> 00:03:17,430
+like telephone so it's a click the
+
+110
+00:03:17,740 --> 00:03:19,740
+call right you do something like
+
+111
+00:03:19,909 --> 00:03:25,419
+that big mail to is that if you
+
+112
+00:03:25,490 --> 00:03:29,680
+want to do mail like an email and
+
+113
+00:03:29,849 --> 00:03:31,900
+then other than that we go over
+
+114
+00:03:31,900 --> 00:03:34,050
+here to settings and if I
+
+115
+00:03:34,159 --> 00:03:35,759
+want to add some top margin
+
+116
+00:03:36,439 --> 00:03:37,879
+basically move that whole element
+
+117
+00:03:37,939 --> 00:03:39,449
+down as you can see right here
+
+118
+00:03:39,479 --> 00:03:39,939
+like
+
+119
+00:03:39,979 --> 00:03:42,490
+watch this okay it moves the whole
+
+120
+00:03:42,490 --> 00:03:46,550
+element down okay padding if I add
+
+121
+00:03:46,550 --> 00:03:48,930
+padding it's going to add padding
+
+122
+00:03:49,000 --> 00:03:53,210
+within that element okay if I want
+
+123
+00:03:53,370 --> 00:03:57,560
+to add padding to the bottom or
+
+124
+00:03:57,669 --> 00:04:00,280
+remove it I do that if I want to
+
+125
+00:04:00,319 --> 00:04:01,379
+add padding to the left and right
+
+126
+00:04:01,379 --> 00:04:04,539
+sides I do this that's what I want
+
+127
+00:04:04,710 --> 00:04:06,360
+to make this element you know
+
+128
+00:04:06,469 --> 00:04:08,969
+tighter or smaller so if I want to
+
+129
+00:04:08,969 --> 00:04:11,060
+for example make like this
+
+130
+00:04:11,060 --> 00:04:13,699
+headline here you know tighter I
+
+131
+00:04:13,699 --> 00:04:14,860
+can like
+
+132
+00:04:14,900 --> 00:04:16,170
+add that if I want to like stack
+
+133
+00:04:16,170 --> 00:04:17,500
+it in the middle for some reason
+
+134
+00:04:17,589 --> 00:04:23,490
+right so let's go back to here and
+
+135
+00:04:23,600 --> 00:04:26,000
+look at some more settings on the
+
+136
+00:04:26,000 --> 00:04:28,509
+actual headlines and text so again
+
+137
+00:04:28,639 --> 00:04:30,879
+if I want to override the actual
+
+138
+00:04:30,920 --> 00:04:33,519
+style sheet that I have I can hit
+
+139
+00:04:33,579 --> 00:04:36,189
+override and do that now again
+
+140
+00:04:36,189 --> 00:04:38,560
+this funnel is set to the style
+
+141
+00:04:38,560 --> 00:04:38,920
+sheet of
+
+142
+00:04:38,959 --> 00:04:41,000
+our ca our client here play
+
+143
+00:04:41,250 --> 00:04:42,930
+capital so I can go here edit
+
+144
+00:04:43,009 --> 00:04:44,879
+style and this will edit the
+
+145
+00:04:44,899 --> 00:04:46,540
+Blake's play capital
+
+146
+00:04:46,579 --> 00:04:48,360
+group style sheet okay if I click
+
+147
+00:04:48,860 --> 00:04:50,120
+anything there you know our style
+
+148
+00:04:50,120 --> 00:04:51,870
+guide as they call it right so I
+
+149
+00:04:51,899 --> 00:04:51,970
+can
+
+150
+00:04:52,040 --> 00:04:53,750
+click there and edit the style
+
+151
+00:04:53,769 --> 00:04:55,750
+guide this will change everything
+
+152
+00:04:55,829 --> 00:04:57,639
+on the page that has this style
+
+153
+00:04:57,639 --> 00:04:58,319
+guide and
+
+154
+00:04:58,360 --> 00:05:00,209
+style sheet basically active for
+
+155
+00:05:00,220 --> 00:05:02,029
+it and if you click that override
+
+156
+00:05:02,029 --> 00:05:03,750
+button that'll override that
+
+157
+00:05:03,829 --> 00:05:04,600
+specific
+
+158
+00:05:04,639 --> 00:05:06,370
+element so if I go here and I
+
+159
+00:05:06,860 --> 00:05:08,709
+change the headline font here this
+
+160
+00:05:08,709 --> 00:05:10,839
+will change it on all of the ones
+
+161
+00:05:10,879 --> 00:05:12,459
+all of the headlines that have
+
+162
+00:05:12,459 --> 00:05:14,220
+this style sheet applied to it if
+
+163
+00:05:14,230 --> 00:05:15,819
+that makes if that doesn't make
+
+164
+00:05:15,920 --> 00:05:17,720
+sense to you please let me know in
+
+165
+00:05:17,720 --> 00:05:19,550
+slack I'll be able to help you out
+
+166
+00:05:19,550 --> 00:05:21,100
+but it's pretty pretty simple
+
+167
+00:05:21,139 --> 00:05:22,970
+default or pretty simple there so
+
+168
+00:05:22,970 --> 00:05:24,689
+if I want to override it and say I
+
+169
+00:05:24,689 --> 00:05:26,920
+just want to edit this L this
+
+170
+00:05:26,920 --> 00:05:27,180
+headline
+
+171
+00:05:27,290 --> 00:05:30,079
+element standalone I can go to
+
+172
+00:05:30,079 --> 00:05:33,050
+here and I can change the font so
+
+173
+00:05:33,050 --> 00:05:36,519
+like let's make it for photo let's
+
+174
+00:05:36,519 --> 00:05:36,699
+make
+
+175
+00:05:36,740 --> 00:05:38,290
+it big right and this is on
+
+176
+00:05:38,290 --> 00:05:40,319
+desktop keep in mind we're on the
+
+177
+00:05:40,319 --> 00:05:42,120
+desktop editing so we're only
+
+178
+00:05:42,209 --> 00:05:42,779
+editing
+
+179
+00:05:42,910 --> 00:05:45,470
+desktop here if I want to add
+
+180
+00:05:45,470 --> 00:05:48,420
+letter spacing I can do that if I
+
+181
+00:05:48,439 --> 00:05:51,100
+want to add line height so say I
+
+182
+00:05:51,100 --> 00:05:51,579
+have two
+
+183
+00:05:51,649 --> 00:05:55,680
+lines let's type punch stuff words
+
+184
+00:05:55,680 --> 00:05:59,930
+words words words misspelled words
+
+185
+00:05:59,930 --> 00:06:04,350
+but hey it's all good it always
+
+186
+00:06:04,519 --> 00:06:06,569
+defaults like 125 percent or so or
+
+187
+00:06:06,810 --> 00:06:08,410
+135 I don't know why I think it
+
+188
+00:06:08,410 --> 00:06:10,060
+looks kind of weird I usually go
+
+189
+00:06:10,079 --> 00:06:10,139
+to
+
+190
+00:06:10,180 --> 00:06:12,560
+like 110 or like 105 and it'll
+
+191
+00:06:12,560 --> 00:06:14,379
+shrink that there as you guys can
+
+192
+00:06:14,379 --> 00:06:16,220
+see so we'll keep it there for you
+
+193
+00:06:16,339 --> 00:06:18,519
+for now if I want to change the
+
+194
+00:06:18,629 --> 00:06:20,930
+color now this is the color if it
+
+195
+00:06:20,930 --> 00:06:22,759
+is not bolded so as you can see
+
+196
+00:06:22,800 --> 00:06:24,259
+right now it is actually
+
+197
+00:06:24,269 --> 00:06:25,769
+hyperlinked so I need to
+
+198
+00:06:25,769 --> 00:06:27,699
+unhyperlink it and the way to do
+
+199
+00:06:27,699 --> 00:06:28,579
+that is just
+
+200
+00:06:28,649 --> 00:06:30,879
+basically exit out of it or
+
+201
+00:06:30,910 --> 00:06:34,139
+basically on whoops there you go
+
+202
+00:06:34,139 --> 00:06:38,019
+right here you can unhyperlink it
+
+203
+00:06:38,029 --> 00:06:38,379
+like that
+
+204
+00:06:38,420 --> 00:06:40,470
+now there's a couple different
+
+205
+00:06:40,709 --> 00:06:42,639
+color settings on the font so you
+
+206
+00:06:42,810 --> 00:06:44,680
+have your default color if it is
+
+207
+00:06:44,680 --> 00:06:44,899
+not
+
+208
+00:06:44,939 --> 00:06:46,579
+bolded and you have your bold
+
+209
+00:06:46,579 --> 00:06:48,290
+color right there then you have
+
+210
+00:06:48,389 --> 00:06:49,949
+your hyperlink color so if it is
+
+211
+00:06:50,000 --> 00:06:51,360
+hyperlinked you can edit it there
+
+212
+00:06:51,360 --> 00:06:53,000
+so right now this is not bolded
+
+213
+00:06:53,000 --> 00:06:55,600
+right if I go to bold it I can
+
+214
+00:06:55,600 --> 00:06:55,810
+click
+
+215
+00:06:55,860 --> 00:06:58,209
+there and I'll be able to change
+
+216
+00:06:58,209 --> 00:07:00,769
+the color now if it's bolded and
+
+217
+00:07:00,910 --> 00:07:05,129
+you can also do the actual font
+
+218
+00:07:05,209 --> 00:07:08,060
+weight so you can make it thin
+
+219
+00:07:08,069 --> 00:07:12,529
+make it super dark medium regular
+
+220
+00:07:12,529 --> 00:07:15,360
+headlines I usually like to do
+
+221
+00:07:15,389 --> 00:07:15,540
+like
+
+222
+00:07:15,620 --> 00:07:17,000
+semi bold or bold I think it looks
+
+223
+00:07:17,000 --> 00:07:18,220
+pretty good so we'll keep it a
+
+224
+00:07:18,310 --> 00:07:20,519
+nice semi bold there but let's do
+
+225
+00:07:20,579 --> 00:07:25,910
+like this is a headline let's go
+
+226
+00:07:26,029 --> 00:07:31,350
+let's go bold cool and as you can
+
+227
+00:07:31,399 --> 00:07:35,220
+see it is not on bold right here
+
+228
+00:07:35,220 --> 00:07:35,339
+so
+
+229
+00:07:35,379 --> 00:07:36,569
+what I like to do sometimes like
+
+230
+00:07:36,569 --> 00:07:37,610
+say I want to make headline
+
+231
+00:07:37,670 --> 00:07:40,560
+something different I'll hit bold
+
+232
+00:07:40,689 --> 00:07:45,410
+and I'll change the color of the
+
+233
+00:07:45,410 --> 00:07:48,160
+bold element so it's like
+
+234
+00:07:48,199 --> 00:07:52,079
+emphasizes a word it's pretty cool
+
+235
+00:07:52,699 --> 00:07:54,480
+next
+
+236
+00:07:54,519 --> 00:07:56,149
+some other things you can do the
+
+237
+00:07:56,149 --> 00:07:57,970
+text casing if you want everything
+
+238
+00:07:58,040 --> 00:07:59,639
+to be capitals you could do that
+
+239
+00:07:59,639 --> 00:07:59,810
+if
+
+240
+00:07:59,860 --> 00:08:02,060
+you want it to be mixed you can do
+
+241
+00:08:02,149 --> 00:08:04,769
+that lowercase only the first
+
+242
+00:08:04,910 --> 00:08:07,560
+letter capitalize you can do that
+
+243
+00:08:07,629 --> 00:08:11,819
+decoration underline strikethrough
+
+244
+00:08:11,990 --> 00:08:14,279
+you got that I've never used that
+
+245
+00:08:14,279 --> 00:08:16,910
+before so I don't know what
+
+246
+00:08:16,959 --> 00:08:18,920
+that is but never used it
+
+247
+00:08:19,250 --> 00:08:21,720
+positioning positioning here you
+
+248
+00:08:21,829 --> 00:08:23,709
+can make it the opacity you can
+
+249
+00:08:23,709 --> 00:08:24,240
+change that
+
+250
+00:08:24,310 --> 00:08:28,180
+right and if you want to add to
+
+251
+00:08:28,180 --> 00:08:32,798
+this element the full box element
+
+252
+00:08:32,798 --> 00:08:36,779
+here okay so all of this not just
+
+253
+00:08:36,820 --> 00:08:39,309
+this okay if you want to add a
+
+254
+00:08:39,309 --> 00:08:42,210
+background to that element what
+
+255
+00:08:42,288 --> 00:08:44,639
+you can do is you can do the image
+
+256
+00:08:44,679 --> 00:08:46,500
+here you can select you can select
+
+257
+00:08:46,500 --> 00:08:48,029
+the image style there like we
+
+258
+00:08:48,129 --> 00:08:49,919
+talked about before I can go here
+
+259
+00:08:49,919 --> 00:08:50,029
+and
+
+260
+00:08:50,080 --> 00:08:51,789
+make this whole element red right
+
+261
+00:08:51,799 --> 00:08:53,360
+see how the whole element does
+
+262
+00:08:53,360 --> 00:08:55,200
+this again the hierarchy sections
+
+263
+00:08:55,200 --> 00:08:55,470
+rows
+
+264
+00:08:55,559 --> 00:08:57,490
+elements now if I go here say for
+
+265
+00:08:57,830 --> 00:08:59,490
+example I just want to have like
+
+266
+00:08:59,490 --> 00:09:01,429
+the red extended here for whatever
+
+267
+00:09:01,509 --> 00:09:04,190
+reason I just go left to right I
+
+268
+00:09:04,190 --> 00:09:06,860
+can drag this you know a little
+
+269
+00:09:06,950 --> 00:09:09,480
+bit more there or another thing
+
+270
+00:09:09,480 --> 00:09:09,649
+that I
+
+271
+00:09:09,730 --> 00:09:14,860
+like to do is there you go I'll
+
+272
+00:09:14,860 --> 00:09:19,309
+basically make the width of the
+
+273
+00:09:19,429 --> 00:09:23,159
+row smaller if you want to like
+
+274
+00:09:23,200 --> 00:09:24,190
+condense the amount of red
+
+275
+00:09:24,190 --> 00:09:25,529
+highlight if you're putting some
+
+276
+00:09:25,529 --> 00:09:26,809
+background in an element that's
+
+277
+00:09:26,809 --> 00:09:27,360
+the way to do
+
+278
+00:09:27,399 --> 00:09:30,500
+do to do with the undo button and
+
+279
+00:09:30,500 --> 00:09:33,779
+go back let's get rid of this ugly
+
+280
+00:09:33,779 --> 00:09:39,840
+as heck background there toggle it
+
+281
+00:09:39,840 --> 00:09:39,919
+off
+
+282
+00:09:40,000 --> 00:09:41,850
+if I want to do a text shadow you
+
+283
+00:09:41,860 --> 00:09:43,850
+can do that and make it glow kind
+
+284
+00:09:43,850 --> 00:09:46,500
+of like how we have up here in the
+
+285
+00:09:46,570 --> 00:09:49,059
+eyebrow so it looks like that
+
+286
+00:09:49,059 --> 00:09:52,159
+looks pretty cool and if I want to
+
+287
+00:09:52,159 --> 00:09:55,960
+remove it you go there if I want
+
+288
+00:09:55,960 --> 00:09:56,039
+to
+
+289
+00:09:56,080 --> 00:09:57,460
+I add an icon before the headline
+
+290
+00:09:57,460 --> 00:09:58,669
+you can do that and they have
+
+291
+00:09:58,669 --> 00:10:00,179
+their icon library there you can
+
+292
+00:10:00,179 --> 00:10:00,500
+select
+
+293
+00:10:00,539 --> 00:10:02,419
+from you can change the size of
+
+294
+00:10:02,429 --> 00:10:04,269
+the icon you could change the
+
+295
+00:10:04,309 --> 00:10:06,350
+color of the icon you can add some
+
+296
+00:10:06,350 --> 00:10:06,720
+margin
+
+297
+00:10:06,759 --> 00:10:08,389
+to the left of it you can add some
+
+298
+00:10:08,389 --> 00:10:10,070
+margin to the right of it delete
+
+299
+00:10:10,070 --> 00:10:12,460
+and then same thing for icon after
+
+300
+00:10:12,500 --> 00:10:14,659
+now something to note is the
+
+301
+00:10:14,789 --> 00:10:17,250
+visibility settings so if you only
+
+302
+00:10:17,250 --> 00:10:19,720
+want something to basically be
+
+303
+00:10:19,720 --> 00:10:20,320
+shown on
+
+304
+00:10:20,389 --> 00:10:22,740
+desktop you have to go here and
+
+305
+00:10:22,740 --> 00:10:25,289
+click desktop only if you want it
+
+306
+00:10:25,399 --> 00:10:28,059
+to be visible on both desktop and
+
+307
+00:10:28,120 --> 00:10:30,159
+mobile you'll click all if you
+
+308
+00:10:30,399 --> 00:10:32,039
+want it to be visible on only
+
+309
+00:10:32,039 --> 00:10:34,580
+mobile you'll click mobile only if
+
+310
+00:10:34,580 --> 00:10:34,779
+you want
+
+311
+00:10:34,820 --> 00:10:36,730
+to hide it from all devices you'll
+
+312
+00:10:37,090 --> 00:10:38,539
+click this eye here if you want to
+
+313
+00:10:38,620 --> 00:10:40,340
+remove it from all devices and
+
+314
+00:10:40,340 --> 00:10:40,460
+just
+
+315
+00:10:40,500 --> 00:10:42,039
+delete the thing you'll click
+
+316
+00:10:42,049 --> 00:10:42,460
+remove
+
+317
+00:10:42,529 --> 00:10:45,570
+right there so
+
+318
+00:10:45,649 --> 00:10:47,470
+Sometimes as you're developing
+
+319
+00:10:47,899 --> 00:10:49,580
+right like this this just looked
+
+320
+00:10:49,580 --> 00:10:51,570
+terrible on mobile there is no way
+
+321
+00:10:51,570 --> 00:10:51,799
+to
+
+322
+00:10:51,870 --> 00:10:54,659
+You know make this like compressed
+
+323
+00:10:54,659 --> 00:10:56,019
+and make it look good on mobile
+
+324
+00:10:56,059 --> 00:10:58,570
+So what we did was we went and we
+
+325
+00:10:58,570 --> 00:11:00,580
+just designed a mobile only
+
+326
+00:11:00,580 --> 00:11:01,409
+version
+
+327
+00:11:01,500 --> 00:11:02,559
+Which you're gonna have to do
+
+328
+00:11:02,559 --> 00:11:03,580
+sometimes when you develop
+
+329
+00:11:03,789 --> 00:11:04,850
+something first on desktop and
+
+330
+00:11:04,950 --> 00:11:06,240
+that's what we do by the way
+
+331
+00:11:06,279 --> 00:11:07,809
+So we will develop the page
+
+332
+00:11:08,490 --> 00:11:09,919
+initially and build it initially
+
+333
+00:11:09,960 --> 00:11:12,279
+on desktop view on the desktop
+
+334
+00:11:12,279 --> 00:11:13,940
+version, so we'll create that and
+
+335
+00:11:14,070 --> 00:11:17,389
+After that is done then we'll look
+
+336
+00:11:17,490 --> 00:11:18,799
+at mobile we'll go over here and
+
+337
+00:11:18,889 --> 00:11:20,250
+toggle over and we'll start to
+
+338
+00:11:20,250 --> 00:11:21,419
+optimize mobile
+
+339
+00:11:21,460 --> 00:11:22,419
+So, you know
+
+340
+00:11:22,519 --> 00:11:24,279
+We'll go here and we'll change the
+
+341
+00:11:24,279 --> 00:11:25,970
+font size on mobile a little bit.
+
+342
+00:11:26,039 --> 00:11:27,149
+We'll change the line height on
+
+343
+00:11:27,149 --> 00:11:27,429
+mobile
+
+344
+00:11:27,480 --> 00:11:29,190
+We'll start just tweaking things,
+
+345
+00:11:29,210 --> 00:11:30,799
+you know add some more margin on
+
+346
+00:11:30,799 --> 00:11:32,250
+mobile because look once you
+
+347
+00:11:32,320 --> 00:11:33,360
+design something on desktop
+
+348
+00:11:33,399 --> 00:11:35,720
+And you try to optimize it on
+
+349
+00:11:35,720 --> 00:11:37,360
+mobile or you just open the mobile
+
+350
+00:11:37,360 --> 00:11:37,649
+view
+
+351
+00:11:37,720 --> 00:11:39,980
+It looks terrible most of the time
+
+352
+00:11:40,009 --> 00:11:41,860
+like you need to kind of develop
+
+353
+00:11:41,860 --> 00:11:42,179
+them
+
+354
+00:11:42,240 --> 00:11:45,240
+independently from each other so
+
+355
+00:11:45,309 --> 00:11:47,580
+sometimes we'll do
+
+356
+00:11:47,620 --> 00:11:49,860
+Like the whole page pretty much
+
+357
+00:11:49,909 --> 00:11:51,070
+we'll go to each section and
+
+358
+00:11:51,179 --> 00:11:52,960
+Duplicate it out.
+
+359
+00:11:52,960 --> 00:11:54,470
+So like hey for example, I wanted
+
+360
+00:11:54,470 --> 00:11:56,090
+this section to be only on mobile
+
+361
+00:11:56,240 --> 00:11:58,259
+I would duplicate it out and I
+
+362
+00:11:58,529 --> 00:11:59,080
+would make
+
+363
+00:11:59,120 --> 00:12:02,190
+one section desktop only
+
+364
+00:12:02,240 --> 00:12:04,679
+this main one and
+
+365
+00:12:04,720 --> 00:12:06,970
+Then I would go here and make this
+
+366
+00:12:07,009 --> 00:12:09,179
+section mobile only and I would
+
+367
+00:12:09,179 --> 00:12:10,759
+edit them irrespectively of each
+
+368
+00:12:10,879 --> 00:12:12,600
+other if I choose to do so
+
+369
+00:12:12,639 --> 00:12:15,070
+Um, but most of the time we'll
+
+370
+00:12:15,080 --> 00:12:16,889
+just develop it on desktop first
+
+371
+00:12:17,029 --> 00:12:18,679
+entirely build the full page on
+
+372
+00:12:18,799 --> 00:12:19,320
+desktop
+
+373
+00:12:20,000 --> 00:12:21,450
+Entirely first and just worry
+
+374
+00:12:21,450 --> 00:12:23,139
+about desktop optimization
+
+375
+00:12:23,200 --> 00:12:25,580
+Once that is complete then I will
+
+376
+00:12:25,580 --> 00:12:26,879
+go over here to the mobile view
+
+377
+00:12:26,879 --> 00:12:27,960
+and be like, okay, cool
+
+378
+00:12:28,080 --> 00:12:30,460
+Uh, you know this logo is a little
+
+379
+00:12:30,460 --> 00:12:31,799
+too close to the top.
+
+380
+00:12:31,879 --> 00:12:33,429
+Let's just add like a little bit
+
+381
+00:12:33,440 --> 00:12:34,279
+of margin there
+
+382
+00:12:34,320 --> 00:12:34,730
+Cool.
+
+383
+00:12:34,820 --> 00:12:35,799
+That looks better.
+
+384
+00:12:35,830 --> 00:12:36,279
+All right.
+
+385
+00:12:36,500 --> 00:12:37,639
+This is lining up really well
+
+386
+00:12:37,679 --> 00:12:39,279
+And this headline could be a
+
+387
+00:12:39,279 --> 00:12:39,960
+little bit
+
+388
+00:12:40,029 --> 00:12:42,519
+Smaller so let's go here and like
+
+389
+00:12:42,519 --> 00:12:43,720
+tweak it down a little bit
+
+390
+00:12:44,159 --> 00:12:45,840
+Right, you're just going step by
+
+391
+00:12:45,889 --> 00:12:46,120
+step
+
+392
+00:12:46,159 --> 00:12:47,720
+You're going section by section
+
+393
+00:12:47,720 --> 00:12:49,500
+element by element row by row and
+
+394
+00:12:49,509 --> 00:12:51,059
+just trying to adjust things
+
+395
+00:12:51,120 --> 00:12:52,580
+So they look clean on mobile and
+
+396
+00:12:52,580 --> 00:12:54,399
+if there's anything where like for
+
+397
+00:12:54,399 --> 00:12:55,000
+example
+
+398
+00:12:55,039 --> 00:12:57,159
+Let me just show you guys like
+
+399
+00:12:57,330 --> 00:12:57,919
+what this
+
+400
+00:12:58,029 --> 00:13:00,759
+Looked like, right
+
+401
+00:13:00,799 --> 00:13:03,710
+So i'm going to clone this
+
+402
+00:13:06,039 --> 00:13:07,080
+Settings
+
+403
+00:13:07,120 --> 00:13:07,919
+I'm going to show you what it
+
+404
+00:13:08,000 --> 00:13:09,090
+looked like initially when we
+
+405
+00:13:09,399 --> 00:13:10,190
+developed this on desktop
+
+406
+00:13:10,240 --> 00:13:11,450
+And i'll show you why we made an
+
+407
+00:13:11,450 --> 00:13:12,779
+independent one for mobile.
+
+408
+00:13:12,779 --> 00:13:13,559
+Okay, so look at this
+
+409
+00:13:14,159 --> 00:13:15,370
+And this i'm just going to change
+
+410
+00:13:15,370 --> 00:13:15,590
+it.
+
+411
+00:13:15,600 --> 00:13:16,029
+So we know
+
+412
+00:13:16,720 --> 00:13:18,110
+mobile
+
+413
+00:13:18,320 --> 00:13:20,279
+Or look at me
+
+414
+00:13:22,600 --> 00:13:25,610
+Right, it just didn't look clean.
+
+415
+00:13:25,629 --> 00:13:27,080
+I'd wanted to like center this and
+
+416
+00:13:27,080 --> 00:13:28,240
+stuff to be fair
+
+417
+00:13:28,320 --> 00:13:29,629
+It didn't look too too bad, but I
+
+418
+00:13:29,629 --> 00:13:30,750
+wanted to really center this and
+
+419
+00:13:30,759 --> 00:13:31,669
+if I centered it here
+
+420
+00:13:31,759 --> 00:13:33,799
+It would also center it on
+
+421
+00:13:34,049 --> 00:13:34,360
+desktop.
+
+422
+00:13:34,460 --> 00:13:35,399
+So it just didn't look good.
+
+423
+00:13:35,399 --> 00:13:36,940
+So all we did very simple
+
+424
+00:13:37,070 --> 00:13:39,570
+Was we duplicated out this
+
+425
+00:13:39,570 --> 00:13:40,190
+section.
+
+426
+00:13:40,210 --> 00:13:41,259
+We made one for desktop.
+
+427
+00:13:41,429 --> 00:13:42,590
+We made one for mobile
+
+428
+00:13:43,200 --> 00:13:45,159
+And we just had the mobile one
+
+429
+00:13:45,470 --> 00:13:46,269
+right here that we
+
+430
+00:13:46,350 --> 00:13:48,840
+Simply centered the the headline
+
+431
+00:13:48,840 --> 00:13:50,570
+and just developed it like that
+
+432
+00:13:50,639 --> 00:13:52,120
+So sometimes you'll have to do
+
+433
+00:13:52,149 --> 00:13:53,409
+that sometimes you'll have to make
+
+434
+00:13:53,409 --> 00:13:55,080
+some sections and elements desktop
+
+435
+00:13:55,080 --> 00:13:56,429
+only and mobile only
+
+436
+00:13:56,480 --> 00:13:57,870
+And in and basically edit them
+
+437
+00:13:57,870 --> 00:13:59,250
+independent of each other.
+
+438
+00:13:59,250 --> 00:14:01,870
+So if I were to edit, you know
+
+439
+00:14:01,950 --> 00:14:02,200
+this
+
+440
+00:14:02,269 --> 00:14:04,899
+section right here
+
+441
+00:14:04,960 --> 00:14:06,919
+Right say I change this word
+
+442
+00:14:08,080 --> 00:14:10,350
+It's only going to change it on
+
+443
+00:14:10,370 --> 00:14:11,799
+the mobile only version
+
+444
+00:14:11,950 --> 00:14:13,750
+Okay, because this is the only
+
+445
+00:14:13,750 --> 00:14:14,039
+thing
+
+446
+00:14:14,100 --> 00:14:17,720
+multifamily because this is the
+
+447
+00:14:17,759 --> 00:14:19,840
+Mobile only version of this
+
+448
+00:14:20,049 --> 00:14:21,879
+element just keeping that very
+
+449
+00:14:21,879 --> 00:14:22,500
+clear.
+
+450
+00:14:22,500 --> 00:14:22,669
+So
+
+451
+00:14:22,750 --> 00:14:25,559
+You know if that confused you guys
+
+452
+00:14:25,559 --> 00:14:27,600
+like I said just know that there
+
+453
+00:14:27,600 --> 00:14:28,679
+are ways to edit
+
+454
+00:14:29,629 --> 00:14:31,799
+elements on desktop as well as
+
+455
+00:14:31,889 --> 00:14:32,509
+mobile
+
+456
+00:14:32,580 --> 00:14:35,159
+And you just have to know like
+
+457
+00:14:35,250 --> 00:14:35,559
+okay
+
+458
+00:14:35,600 --> 00:14:37,399
+First i'm sitting down i'm
+
+459
+00:14:37,879 --> 00:14:38,879
+developing the desktop version and
+
+460
+00:14:38,879 --> 00:14:40,019
+then if there's anything that I
+
+461
+00:14:40,019 --> 00:14:41,240
+see once I switch to mobile
+
+462
+00:14:41,279 --> 00:14:43,649
+That I need to optimize around and
+
+463
+00:14:43,649 --> 00:14:45,000
+I can't really just get it
+
+464
+00:14:45,679 --> 00:14:47,039
+Without kind of screwing up how it
+
+465
+00:14:47,039 --> 00:14:47,879
+looks on desktop
+
+466
+00:14:47,950 --> 00:14:50,279
+I duplicate out the section the
+
+467
+00:14:50,279 --> 00:14:52,070
+element or the row make one
+
+468
+00:14:52,070 --> 00:14:53,149
+desktop only
+
+469
+00:14:53,200 --> 00:14:54,809
+Optimize it for desktop and I make
+
+470
+00:14:54,809 --> 00:14:56,419
+another one mobile only and
+
+471
+00:14:56,419 --> 00:14:57,399
+optimize it for
+
+472
+00:14:57,470 --> 00:14:58,679
+mobile
+
+473
+00:14:58,720 --> 00:14:58,909
+Okay
+
+474
+00:15:00,190 --> 00:15:02,179
+So that's pretty much all the
+
+475
+00:15:02,450 --> 00:15:03,889
+sections or the settings for the
+
+476
+00:15:03,929 --> 00:15:05,240
+actual like text elements
+
+477
+00:15:05,279 --> 00:15:06,700
+You know, there's a lot of other
+
+478
+00:15:06,700 --> 00:15:07,639
+things that we like to do
+
+479
+00:15:07,679 --> 00:15:10,070
+On click funnels like obviously we
+
+480
+00:15:10,070 --> 00:15:11,559
+have video as something that we
+
+481
+00:15:11,600 --> 00:15:13,690
+Really push all the time.
+
+482
+00:15:13,779 --> 00:15:14,950
+So we'll embed like wistia or
+
+483
+00:15:15,049 --> 00:15:16,759
+youtube traditionally wistia is
+
+484
+00:15:16,759 --> 00:15:17,480
+what we're going to do
+
+485
+00:15:17,519 --> 00:15:20,460
+And we always have auto play off.
+
+486
+00:15:20,460 --> 00:15:21,490
+I don't really like adding auto
+
+487
+00:15:21,570 --> 00:15:22,039
+play on
+
+488
+00:15:22,080 --> 00:15:23,559
+I think it's very annoying when
+
+489
+00:15:23,590 --> 00:15:24,679
+you land on the page and it's just
+
+490
+00:15:24,769 --> 00:15:24,919
+bam
+
+491
+00:15:24,960 --> 00:15:26,600
+There's a video starting to play
+
+492
+00:15:26,600 --> 00:15:27,440
+the audio is on.
+
+493
+00:15:27,440 --> 00:15:28,029
+I don't like that
+
+494
+00:15:28,799 --> 00:15:30,090
+Lazy loading if we're having
+
+495
+00:15:30,100 --> 00:15:31,919
+trouble getting this to load fast.
+
+496
+00:15:31,919 --> 00:15:33,399
+We'll turn on lazy loading
+
+497
+00:15:33,440 --> 00:15:35,879
+We don't do the block pause and
+
+498
+00:15:35,879 --> 00:15:37,990
+here you can add you know padding
+
+499
+00:15:37,990 --> 00:15:39,559
+on the video itself, right?
+
+500
+00:15:39,620 --> 00:15:42,919
+padding there
+
+501
+00:15:42,960 --> 00:15:44,019
+Can add some padding left and
+
+502
+00:15:44,019 --> 00:15:45,120
+right if you want to shrink it
+
+503
+00:15:45,250 --> 00:15:45,870
+within that frame
+
+504
+00:15:45,919 --> 00:15:48,169
+And then I was like adding a
+
+505
+00:15:48,210 --> 00:15:49,769
+border so as you can see is a
+
+506
+00:15:49,769 --> 00:15:51,730
+little thin line of blue around
+
+507
+00:15:51,730 --> 00:15:52,360
+that video
+
+508
+00:15:52,399 --> 00:15:53,649
+I think it looks very clean and
+
+509
+00:15:53,649 --> 00:15:54,360
+custom branded
+
+510
+00:15:54,399 --> 00:15:56,830
+So I always add a border and if
+
+511
+00:15:56,830 --> 00:15:57,850
+you want to change the settings of
+
+512
+00:15:57,919 --> 00:15:58,279
+the border
+
+513
+00:15:58,320 --> 00:16:00,279
+You can do that here
+
+514
+00:16:00,320 --> 00:16:01,500
+You know if you don't want it to
+
+515
+00:16:01,500 --> 00:16:02,029
+be at the top
+
+516
+00:16:02,080 --> 00:16:03,529
+You just take that off see how it
+
+517
+00:16:03,529 --> 00:16:04,629
+got rid of this blue border up
+
+518
+00:16:04,629 --> 00:16:05,220
+here at the top
+
+519
+00:16:05,279 --> 00:16:07,120
+I want to add it back on i'll do
+
+520
+00:16:07,129 --> 00:16:07,399
+that
+
+521
+00:16:07,440 --> 00:16:08,779
+If I don't remove it from the
+
+522
+00:16:08,779 --> 00:16:10,039
+bottom for whatever reason I can
+
+523
+00:16:10,139 --> 00:16:10,440
+do that
+
+524
+00:16:10,480 --> 00:16:11,940
+If I want to add the stroke size
+
+525
+00:16:11,950 --> 00:16:13,799
+and make it bigger I can do that
+
+526
+00:16:13,840 --> 00:16:15,870
+I like to add a nice little thin
+
+527
+00:16:16,120 --> 00:16:16,600
+one there
+
+528
+00:16:16,669 --> 00:16:18,919
+Nothing too big if I want to have
+
+529
+00:16:18,929 --> 00:16:20,090
+it like dotted I can do that
+
+530
+00:16:20,159 --> 00:16:21,220
+I want to have it look like a
+
+531
+00:16:21,220 --> 00:16:22,200
+bunch of little dots there
+
+532
+00:16:23,600 --> 00:16:24,419
+You know whatever you want to do
+
+533
+00:16:24,519 --> 00:16:26,440
+shadow if you want to add a shadow
+
+534
+00:16:29,360 --> 00:16:30,809
+This is how we do it so it looks
+
+535
+00:16:30,809 --> 00:16:31,070
+cool
+
+536
+00:16:31,120 --> 00:16:31,919
+You know
+
+537
+00:16:32,110 --> 00:16:36,039
+And corners if I want to
+
+538
+00:16:36,080 --> 00:16:39,320
+Make the corners like super super
+
+539
+00:16:39,320 --> 00:16:39,720
+round
+
+540
+00:16:39,759 --> 00:16:42,139
+You can do that want to make them
+
+541
+00:16:42,139 --> 00:16:43,730
+blocky just get rid of them there
+
+542
+00:16:47,919 --> 00:16:49,559
+And something I like to do as well
+
+543
+00:16:49,559 --> 00:16:51,370
+on some pages have a background
+
+544
+00:16:51,440 --> 00:16:51,879
+image
+
+545
+00:16:51,940 --> 00:16:54,919
+So we'll toggle on background
+
+546
+00:16:54,919 --> 00:16:56,139
+unless this is where you're using
+
+547
+00:16:56,139 --> 00:16:56,679
+the style sheet
+
+548
+00:16:56,799 --> 00:16:58,169
+So if you're using like universal
+
+549
+00:16:58,169 --> 00:16:58,509
+styles
+
+550
+00:16:59,120 --> 00:17:00,279
+On that you can select these
+
+551
+00:17:00,279 --> 00:17:01,879
+whichever background you want
+
+552
+00:17:01,919 --> 00:17:03,470
+If you want to override that
+
+553
+00:17:03,519 --> 00:17:05,450
+You just go here toggle on
+
+554
+00:17:05,809 --> 00:17:06,119
+background
+
+555
+00:17:06,160 --> 00:17:08,029
+And you could pick you know your
+
+556
+00:17:08,039 --> 00:17:09,068
+color if you want a different
+
+557
+00:17:09,068 --> 00:17:09,299
+color
+
+558
+00:17:09,359 --> 00:17:10,759
+You can choose your image
+
+559
+00:17:10,799 --> 00:17:11,950
+So we have an image of the car
+
+560
+00:17:11,950 --> 00:17:13,000
+wash in the background
+
+561
+00:17:13,039 --> 00:17:14,000
+Which is the thing they're trying
+
+562
+00:17:14,049 --> 00:17:15,000
+to get people to invest into
+
+563
+00:17:15,068 --> 00:17:17,640
+And I have the foreground set
+
+564
+00:17:17,779 --> 00:17:21,210
+Basically at 93% on the alpha
+
+565
+00:17:21,279 --> 00:17:22,400
+Because I don't want it to look
+
+566
+00:17:22,400 --> 00:17:23,529
+like this because it's hard to
+
+567
+00:17:23,568 --> 00:17:23,710
+read
+
+568
+00:17:23,759 --> 00:17:25,160
+It's very hard to read so
+
+569
+00:17:25,200 --> 00:17:28,200
+I go all black and I crank that up
+
+570
+00:17:28,200 --> 00:17:29,640
+so it's a nice fade that we have
+
+571
+00:17:29,640 --> 00:17:30,109
+in the background
+
+572
+00:17:30,240 --> 00:17:31,549
+So it still looks really clean
+
+573
+00:17:31,599 --> 00:17:32,599
+But in the background it's like
+
+574
+00:17:32,609 --> 00:17:33,420
+hey, I see it.
+
+575
+00:17:33,420 --> 00:17:34,130
+There's a car wash very
+
+576
+00:17:34,130 --> 00:17:34,599
+interesting
+
+577
+00:17:36,920 --> 00:17:37,319
+so
+
+578
+00:17:37,359 --> 00:17:39,519
+This is an faq section where it's
+
+579
+00:17:39,650 --> 00:17:41,240
+two rows essentially that we have
+
+580
+00:17:41,240 --> 00:17:42,039
+and then these are
+
+581
+00:17:42,079 --> 00:17:44,519
+a bunch of little just flex boxes
+
+582
+00:17:44,519 --> 00:17:44,680
+so
+
+583
+00:17:44,819 --> 00:17:48,910
+This one was you know pretty
+
+584
+00:17:48,910 --> 00:17:50,079
+simple to make we're going to have
+
+585
+00:17:50,079 --> 00:17:51,319
+this in the template for you guys
+
+586
+00:17:51,359 --> 00:17:53,210
+But basically if you want to add
+
+587
+00:17:53,220 --> 00:17:53,799
+some new ones
+
+588
+00:17:53,839 --> 00:17:54,799
+All you got to do is just
+
+589
+00:17:54,859 --> 00:17:55,880
+duplicate out these
+
+590
+00:17:55,920 --> 00:17:57,579
+And you could add some of them and
+
+591
+00:17:57,589 --> 00:17:59,150
+then these are just text box that
+
+592
+00:17:59,150 --> 00:18:01,960
+are inside of the faq
+
+593
+00:18:02,000 --> 00:18:03,640
+drop down element so
+
+594
+00:18:03,710 --> 00:18:07,029
+Let's go element here
+
+595
+00:18:07,119 --> 00:18:08,890
+You could also like add an image
+
+596
+00:18:08,890 --> 00:18:10,430
+inside of these boxes if you'd
+
+597
+00:18:10,430 --> 00:18:10,680
+like
+
+598
+00:18:10,720 --> 00:18:12,380
+You know click funnels really at
+
+599
+00:18:12,390 --> 00:18:13,220
+the end of the day.
+
+600
+00:18:13,220 --> 00:18:14,359
+It's just a big old
+
+601
+00:18:14,430 --> 00:18:17,160
+drag and drop builder, okay
+
+602
+00:18:17,200 --> 00:18:18,000
+You're gonna have to get your
+
+603
+00:18:18,099 --> 00:18:19,109
+hands dirty a little bit just
+
+604
+00:18:19,480 --> 00:18:20,549
+editing these things our templates
+
+605
+00:18:20,650 --> 00:18:21,170
+again make it
+
+606
+00:18:21,839 --> 00:18:24,440
+Super easy to use very simple to
+
+607
+00:18:24,440 --> 00:18:26,980
+to just plug and play slap into an
+
+608
+00:18:26,980 --> 00:18:29,960
+account and and go from but um
+
+609
+00:18:30,019 --> 00:18:31,549
+overall, you know
+
+610
+00:18:31,599 --> 00:18:33,019
+You're able to like do a lot of
+
+611
+00:18:33,019 --> 00:18:34,480
+cool stuff like dragging these
+
+612
+00:18:34,480 --> 00:18:35,799
+accordion features into there
+
+613
+00:18:36,400 --> 00:18:37,619
+Which are just drop downs
+
+614
+00:18:37,619 --> 00:18:39,390
+essentially for faqs and you just
+
+615
+00:18:39,390 --> 00:18:41,150
+have to like visualize it a little
+
+616
+00:18:41,150 --> 00:18:42,680
+bit in your mind of what you want
+
+617
+00:18:42,720 --> 00:18:43,519
+And then from there
+
+618
+00:18:43,680 --> 00:18:44,630
+It's just like dragging and
+
+619
+00:18:44,630 --> 00:18:45,769
+dropping different blocks and
+
+620
+00:18:45,970 --> 00:18:46,279
+elements.
+
+621
+00:18:46,380 --> 00:18:46,900
+That's really it.
+
+622
+00:18:46,900 --> 00:18:47,000
+So
+
+623
+00:18:47,039 --> 00:18:49,019
+Button styles is something i'll go
+
+624
+00:18:49,019 --> 00:18:50,069
+over real quick to you.
+
+625
+00:18:50,069 --> 00:18:50,769
+So button text
+
+626
+00:18:52,000 --> 00:18:52,950
+That's what you're gonna put there
+
+627
+00:18:52,950 --> 00:18:53,799
+if you want to have like a sub
+
+628
+00:18:54,289 --> 00:18:54,660
+button
+
+629
+00:18:54,750 --> 00:18:57,960
+You know text
+
+630
+00:18:58,000 --> 00:18:59,960
+You can have that there
+
+631
+00:19:00,000 --> 00:19:01,910
+Keep that there because i'll show
+
+632
+00:19:01,910 --> 00:19:02,599
+you guys how to edit
+
+633
+00:19:02,720 --> 00:19:05,960
+Now the button actions
+
+634
+00:19:06,000 --> 00:19:07,710
+This is pretty key
+
+635
+00:19:07,759 --> 00:19:10,200
+So if you want to go to a website
+
+636
+00:19:10,200 --> 00:19:11,640
+after they click that or some
+
+637
+00:19:11,640 --> 00:19:13,299
+other page after they click this
+
+638
+00:19:13,299 --> 00:19:13,640
+button
+
+639
+00:19:14,000 --> 00:19:16,210
+Do go to and then put the actual
+
+640
+00:19:16,289 --> 00:19:17,569
+don't worry about this too.
+
+641
+00:19:17,569 --> 00:19:18,690
+This is uh, something we're
+
+642
+00:19:18,690 --> 00:19:19,240
+testing, but
+
+643
+00:19:19,279 --> 00:19:21,849
+Um, you can click that and from
+
+644
+00:19:21,849 --> 00:19:22,119
+there
+
+645
+00:19:22,160 --> 00:19:24,119
+It'll go to a page, right?
+
+646
+00:19:24,160 --> 00:19:26,119
+So if I wanted to do google.com
+
+647
+00:19:26,440 --> 00:19:27,299
+whatever that's a stupid thing
+
+648
+00:19:27,359 --> 00:19:28,490
+But if you want to like drive it
+
+649
+00:19:28,490 --> 00:19:29,880
+to a scheduler page or something
+
+650
+00:19:29,880 --> 00:19:30,269
+like that
+
+651
+00:19:30,319 --> 00:19:31,519
+You would just put the scheduler
+
+652
+00:19:31,519 --> 00:19:32,119
+page url there
+
+653
+00:19:32,400 --> 00:19:33,710
+You can select if you want it to
+
+654
+00:19:33,720 --> 00:19:35,160
+be opened in a new window or not
+
+655
+00:19:35,160 --> 00:19:36,670
+and then some other things you can
+
+656
+00:19:36,789 --> 00:19:36,839
+do
+
+657
+00:19:36,910 --> 00:19:39,109
+Is I don't know why anyone would
+
+658
+00:19:39,170 --> 00:19:40,200
+put nothing happens, but hey
+
+659
+00:19:40,240 --> 00:19:42,420
+You know if you have a use case
+
+660
+00:19:42,529 --> 00:19:43,309
+for it go for it
+
+661
+00:19:43,359 --> 00:19:46,539
+Submit order or form so this is
+
+662
+00:19:46,539 --> 00:19:49,390
+where if I for example would have
+
+663
+00:19:49,390 --> 00:19:51,720
+a bunch of click funnels inputs
+
+664
+00:19:51,759 --> 00:19:55,339
+So if I had the input elements
+
+665
+00:19:55,339 --> 00:19:56,539
+here like
+
+666
+00:19:56,670 --> 00:19:59,980
+You know full name
+
+667
+00:20:00,480 --> 00:20:01,690
+Which I'll show you guys how to
+
+668
+00:20:01,690 --> 00:20:02,440
+add these in a sec
+
+669
+00:20:02,500 --> 00:20:06,549
+Phone number
+
+670
+00:20:09,079 --> 00:20:10,769
+Email I could have it as submit
+
+671
+00:20:10,789 --> 00:20:12,359
+form and it will submit whatever
+
+672
+00:20:12,359 --> 00:20:12,839
+information
+
+673
+00:20:12,960 --> 00:20:15,269
+Has been placed into these fields
+
+674
+00:20:15,269 --> 00:20:17,210
+here and then it will move on to
+
+675
+00:20:17,349 --> 00:20:18,799
+the next step.
+
+676
+00:20:18,799 --> 00:20:19,160
+So
+
+677
+00:20:19,200 --> 00:20:22,109
+The next step in the actual funnel
+
+678
+00:20:22,160 --> 00:20:25,230
+And I can hit this thing here that
+
+679
+00:20:25,230 --> 00:20:26,759
+says enable redirect override
+
+680
+00:20:26,759 --> 00:20:28,039
+because here's the thing
+
+681
+00:20:28,720 --> 00:20:30,920
+If I were to have this checked off
+
+682
+00:20:31,009 --> 00:20:32,680
+and I basically had a page that
+
+683
+00:20:32,690 --> 00:20:34,359
+collected name phone number email
+
+684
+00:20:34,359 --> 00:20:35,710
+and it had submit form as the
+
+685
+00:20:35,720 --> 00:20:36,039
+button
+
+686
+00:20:36,079 --> 00:20:38,529
+It would drive me to the next page
+
+687
+00:20:38,529 --> 00:20:39,960
+in the funnel automatically
+
+688
+00:20:40,000 --> 00:20:42,119
+If I want to send them somewhere
+
+689
+00:20:42,289 --> 00:20:43,579
+else after they submitted that
+
+690
+00:20:43,579 --> 00:20:43,720
+form
+
+691
+00:20:43,839 --> 00:20:45,700
+I would click here and I would put
+
+692
+00:20:46,039 --> 00:20:47,480
+whatever url that is right here
+
+693
+00:20:47,519 --> 00:20:49,450
+And that will send them over after
+
+694
+00:20:49,450 --> 00:20:50,759
+they submit the form and after
+
+695
+00:20:50,759 --> 00:20:51,490
+they click this button
+
+696
+00:20:52,079 --> 00:20:52,880
+Basically after they've entered
+
+697
+00:20:52,960 --> 00:20:53,890
+their information and click this
+
+698
+00:20:53,890 --> 00:20:55,220
+button will send them to that page
+
+699
+00:20:55,240 --> 00:20:57,160
+that I select or put right here
+
+700
+00:20:57,200 --> 00:20:59,140
+And you can also have something
+
+701
+00:20:59,480 --> 00:21:00,890
+where once they click on the the
+
+702
+00:21:00,890 --> 00:21:02,440
+button here and it's starting to
+
+703
+00:21:02,440 --> 00:21:03,240
+you know submit their stuff
+
+704
+00:21:03,359 --> 00:21:04,160
+Like there's that little loading
+
+705
+00:21:04,269 --> 00:21:06,119
+time in between whenever they
+
+706
+00:21:06,119 --> 00:21:07,910
+submitted the actual thing click
+
+707
+00:21:07,910 --> 00:21:09,000
+the button and when they land on
+
+708
+00:21:09,000 --> 00:21:09,400
+the next page
+
+709
+00:21:09,519 --> 00:21:11,339
+You can just have a message pull
+
+710
+00:21:11,339 --> 00:21:11,880
+up there
+
+711
+00:21:12,720 --> 00:21:14,049
+Size and spacing very simple
+
+712
+00:21:14,049 --> 00:21:15,650
+stuff, but if you want it to be
+
+713
+00:21:15,650 --> 00:21:16,279
+full width
+
+714
+00:21:16,319 --> 00:21:18,380
+Which means full width of the
+
+715
+00:21:18,609 --> 00:21:20,730
+actual row it's contained in you
+
+716
+00:21:20,730 --> 00:21:22,759
+can have it there if not
+
+717
+00:21:22,799 --> 00:21:25,799
+You just do disabled and
+
+718
+00:21:25,839 --> 00:21:28,680
+You can from there
+
+719
+00:21:28,720 --> 00:21:29,940
+You know kind of like pad the
+
+720
+00:21:29,940 --> 00:21:30,839
+sides of it and stuff
+
+721
+00:21:31,759 --> 00:21:33,319
+I usually like to do
+
+722
+00:21:33,359 --> 00:21:35,099
+Enable for the most part and if I
+
+723
+00:21:35,119 --> 00:21:37,329
+want to shrink this section, I'll
+
+724
+00:21:37,410 --> 00:21:39,400
+just shrink the whole row here
+
+725
+00:21:39,519 --> 00:21:43,160
+And something fancy I like to do
+
+726
+00:21:43,160 --> 00:21:44,430
+too is say for example
+
+727
+00:21:44,559 --> 00:21:46,940
+I wanted this button for whatever
+
+728
+00:21:46,940 --> 00:21:48,539
+reason to be you know half the
+
+729
+00:21:48,609 --> 00:21:50,549
+size of these input fields what I
+
+730
+00:21:50,549 --> 00:21:51,960
+could do is go add a row
+
+731
+00:21:52,029 --> 00:21:55,069
+knowing that you know my hierarchy
+
+732
+00:21:55,140 --> 00:21:58,849
+Is sections rows elements and then
+
+733
+00:21:58,930 --> 00:21:59,559
+I can go here
+
+734
+00:22:01,440 --> 00:22:03,079
+Kill the padding at the top kill
+
+735
+00:22:03,079 --> 00:22:04,529
+the padding at the bottom and then
+
+736
+00:22:04,539 --> 00:22:05,690
+I'll shrink this
+
+737
+00:22:05,759 --> 00:22:07,720
+You know to whatever it is there
+
+738
+00:22:08,039 --> 00:22:09,109
+obviously I'll need to go in and
+
+739
+00:22:09,210 --> 00:22:11,960
+go over to here override my
+
+740
+00:22:14,279 --> 00:22:15,079
+button style
+
+741
+00:22:15,150 --> 00:22:18,440
+Looks like shrink this
+
+742
+00:22:18,480 --> 00:22:22,440
+And there you go looks ugly, but
+
+743
+00:22:22,440 --> 00:22:24,029
+yeah, if I wanted to do that, you
+
+744
+00:22:24,039 --> 00:22:25,319
+can do that so
+
+745
+00:22:25,359 --> 00:22:29,009
+If you want to delete some just go
+
+746
+00:22:29,009 --> 00:22:30,839
+there delete it
+
+747
+00:22:31,339 --> 00:22:32,519
+But anyways
+
+748
+00:22:32,559 --> 00:22:33,359
+Let's keep going on here
+
+749
+00:22:33,519 --> 00:22:34,920
+So again, if I wanted to override
+
+750
+00:22:34,920 --> 00:22:35,720
+the button style
+
+751
+00:22:35,759 --> 00:22:36,970
+So if I want to override what it
+
+752
+00:22:36,970 --> 00:22:38,319
+looks like on hover what it looks
+
+753
+00:22:38,319 --> 00:22:39,319
+like when it's pressed
+
+754
+00:22:39,359 --> 00:22:40,329
+So hover is just when you're
+
+755
+00:22:40,339 --> 00:22:41,509
+hovering over it like this with
+
+756
+00:22:41,650 --> 00:22:41,960
+your mouse
+
+757
+00:22:42,000 --> 00:22:43,049
+You can change that
+
+758
+00:22:43,119 --> 00:22:44,450
+I mean you could have a different
+
+759
+00:22:44,450 --> 00:22:45,869
+color you can have the text change
+
+760
+00:22:45,869 --> 00:22:47,240
+colors different font so you can
+
+761
+00:22:47,240 --> 00:22:48,029
+go crazy with it
+
+762
+00:22:48,079 --> 00:22:50,099
+I'll usually change the the hover
+
+763
+00:22:50,369 --> 00:22:52,049
+hover color of the actual button
+
+764
+00:22:52,130 --> 00:22:53,970
+itself so the background of the
+
+765
+00:22:53,980 --> 00:22:54,519
+button
+
+766
+00:22:55,279 --> 00:22:56,480
+And also with press I'll have like
+
+767
+00:22:56,480 --> 00:22:57,650
+three different you know shades of
+
+768
+00:22:57,650 --> 00:22:59,000
+blue or something in this case
+
+769
+00:22:59,000 --> 00:22:59,799
+when this one's blue
+
+770
+00:22:59,839 --> 00:23:02,000
+So maybe like a darker one on
+
+771
+00:23:02,130 --> 00:23:03,480
+hover when it's pressed
+
+772
+00:23:03,519 --> 00:23:04,910
+I'll like change it to I don't
+
+773
+00:23:04,910 --> 00:23:06,059
+know like a really dark blue or
+
+774
+00:23:06,059 --> 00:23:07,480
+something or a super light blue
+
+775
+00:23:07,549 --> 00:23:08,759
+Something like that.
+
+776
+00:23:08,759 --> 00:23:09,259
+It's just kind of fun.
+
+777
+00:23:09,269 --> 00:23:10,119
+I don't really overthink it
+
+778
+00:23:10,210 --> 00:23:10,589
+honestly
+
+779
+00:23:11,200 --> 00:23:12,880
+And button font right here.
+
+780
+00:23:12,890 --> 00:23:13,960
+You can change the button font
+
+781
+00:23:14,000 --> 00:23:16,230
+You can make the font on the
+
+782
+00:23:16,289 --> 00:23:17,720
+button extra bold.
+
+783
+00:23:17,839 --> 00:23:18,910
+We can make it medium
+
+784
+00:23:18,960 --> 00:23:22,109
+Semi-bold whatever it is you
+
+785
+00:23:22,109 --> 00:23:23,839
+change the font size here again.
+
+786
+00:23:23,839 --> 00:23:24,599
+This is desktop.
+
+787
+00:23:24,599 --> 00:23:25,420
+I switched to mobile.
+
+788
+00:23:25,420 --> 00:23:26,880
+I can then change it on mobile
+
+789
+00:23:28,640 --> 00:23:30,019
+Uh letter spacing if I want to
+
+790
+00:23:30,019 --> 00:23:31,710
+change the spacing of the letters
+
+791
+00:23:31,720 --> 00:23:32,599
+there you go
+
+792
+00:23:32,640 --> 00:23:34,059
+And if I have multiple lines, I
+
+793
+00:23:34,059 --> 00:23:35,480
+could change the line height
+
+794
+00:23:35,519 --> 00:23:37,910
+So text casing we already covered
+
+795
+00:23:37,910 --> 00:23:38,859
+that earlier
+
+796
+00:23:38,990 --> 00:23:40,980
+Primary text shadow if I want to
+
+797
+00:23:41,140 --> 00:23:42,309
+add a shadow behind this text I
+
+798
+00:23:42,410 --> 00:23:43,160
+can do so there
+
+799
+00:23:43,200 --> 00:23:45,220
+And then subtext if I do have
+
+800
+00:23:45,380 --> 00:23:46,650
+subtext right here this little sub
+
+801
+00:23:46,720 --> 00:23:48,430
+headline thing I can increase the
+
+802
+00:23:48,430 --> 00:23:49,960
+margin I can change the uh
+
+803
+00:23:50,000 --> 00:23:51,309
+There's increase the margin.
+
+804
+00:23:51,309 --> 00:23:52,970
+I could change the button font the
+
+805
+00:23:52,970 --> 00:23:53,710
+weight
+
+806
+00:23:55,759 --> 00:23:56,519
+font size
+
+807
+00:23:56,589 --> 00:23:59,000
+Letter spacing
+
+808
+00:23:59,069 --> 00:24:01,319
+Crazy, right?
+
+809
+00:24:01,359 --> 00:24:02,880
+Yeah, that's that's wild usually
+
+810
+00:24:02,880 --> 00:24:03,640
+like invert it
+
+811
+00:24:03,710 --> 00:24:06,119
+line height
+
+812
+00:24:06,160 --> 00:24:06,920
+text casing
+
+813
+00:24:06,960 --> 00:24:08,920
+Decoration so just adding some
+
+814
+00:24:09,250 --> 00:24:10,200
+different things to it and if I
+
+815
+00:24:10,200 --> 00:24:11,720
+want to add like a subtext shadow
+
+816
+00:24:11,720 --> 00:24:12,440
+I can do that too
+
+817
+00:24:12,480 --> 00:24:16,170
+If I want to add a border that's
+
+818
+00:24:16,170 --> 00:24:16,750
+more, you know
+
+819
+00:24:16,829 --> 00:24:18,809
+aggressive or something like that
+
+820
+00:24:18,809 --> 00:24:19,640
+to the actual
+
+821
+00:24:19,700 --> 00:24:23,900
+Button itself I can do so there
+
+822
+00:24:25,789 --> 00:24:29,069
+Corners I can pick to change it
+
+823
+00:24:29,069 --> 00:24:29,480
+here
+
+824
+00:24:29,549 --> 00:24:33,140
+Separate edges if I want to like
+
+825
+00:24:33,140 --> 00:24:34,269
+make the top left like
+
+826
+00:24:34,319 --> 00:24:36,440
+You know cornered I can do that
+
+827
+00:24:36,609 --> 00:24:36,680
+there
+
+828
+00:24:36,720 --> 00:24:38,759
+Maybe only the bottom left and
+
+829
+00:24:38,980 --> 00:24:39,670
+like the top left.
+
+830
+00:24:39,670 --> 00:24:40,680
+I want to do something like that
+
+831
+00:24:40,720 --> 00:24:43,160
+Don't know why but there you go
+
+832
+00:24:43,200 --> 00:24:45,240
+And then if I want to have an icon
+
+833
+00:24:45,490 --> 00:24:47,170
+before so here's one before and
+
+834
+00:24:47,250 --> 00:24:48,490
+after which we will do a lot of
+
+835
+00:24:48,519 --> 00:24:49,079
+the times honestly
+
+836
+00:24:49,119 --> 00:24:50,369
+It looks pretty cool.
+
+837
+00:24:50,369 --> 00:24:52,019
+Um, we'll just go here and uh
+
+838
+00:24:52,900 --> 00:24:53,839
+select
+
+839
+00:24:53,950 --> 00:24:55,880
+whichever one we want
+
+840
+00:24:55,920 --> 00:24:57,670
+And we'll just make sure the sizes
+
+841
+00:24:57,680 --> 00:24:59,500
+match make sure the margin matches
+
+842
+00:24:59,500 --> 00:25:01,079
+and you are good to roll on that
+
+843
+00:25:01,079 --> 00:25:01,880
+so
+
+844
+00:25:01,920 --> 00:25:04,119
+Now a couple things on the input
+
+845
+00:25:04,210 --> 00:25:04,920
+fields, right?
+
+846
+00:25:04,960 --> 00:25:06,789
+So we have multiple different
+
+847
+00:25:07,160 --> 00:25:07,559
+input types
+
+848
+00:25:07,599 --> 00:25:08,849
+So an input field is essentially
+
+849
+00:25:08,849 --> 00:25:09,920
+just like a form field.
+
+850
+00:25:09,920 --> 00:25:11,160
+That's really that's literally it
+
+851
+00:25:11,200 --> 00:25:12,740
+Okay, it's a form field on click
+
+852
+00:25:12,740 --> 00:25:13,069
+funnels
+
+853
+00:25:13,519 --> 00:25:15,309
+So we have you know full name
+
+854
+00:25:15,309 --> 00:25:16,869
+first name last name email phone
+
+855
+00:25:16,970 --> 00:25:18,430
+shipping address shipping city
+
+856
+00:25:18,509 --> 00:25:21,619
+State country zip and custom type
+
+857
+00:25:21,710 --> 00:25:23,940
+So usually we're doing like full
+
+858
+00:25:23,970 --> 00:25:25,259
+name or we're doing first name and
+
+859
+00:25:25,259 --> 00:25:25,640
+last name
+
+860
+00:25:25,680 --> 00:25:27,509
+Then email and phone and maybe
+
+861
+00:25:27,509 --> 00:25:29,130
+we'll do custom type to ask like
+
+862
+00:25:29,200 --> 00:25:30,579
+one other thing from them
+
+863
+00:25:30,640 --> 00:25:32,460
+But basically if you go full name
+
+864
+00:25:32,460 --> 00:25:34,609
+for example, you can change the
+
+865
+00:25:34,690 --> 00:25:35,400
+label here.
+
+866
+00:25:35,480 --> 00:25:35,950
+So like full
+
+867
+00:25:38,279 --> 00:25:38,680
+name
+
+868
+00:25:39,079 --> 00:25:40,150
+You can have the label be on the
+
+869
+00:25:40,160 --> 00:25:41,670
+border up here plus in there.
+
+870
+00:25:41,670 --> 00:25:43,240
+You can have it just be default
+
+871
+00:25:43,309 --> 00:25:45,720
+within there for you
+
+872
+00:25:45,789 --> 00:25:48,599
+And you can also
+
+873
+00:25:48,640 --> 00:25:50,470
+change the actual like font of the
+
+874
+00:25:50,470 --> 00:25:51,240
+label itself
+
+875
+00:25:51,920 --> 00:25:54,500
+By clicking there the letter
+
+876
+00:25:54,500 --> 00:25:54,990
+spacing
+
+877
+00:25:55,059 --> 00:26:02,950
+Like label there change the actual
+
+878
+00:26:02,970 --> 00:26:04,650
+font too like I said
+
+879
+00:26:04,720 --> 00:26:09,359
+And we got to change the color to
+
+880
+00:26:09,359 --> 00:26:10,329
+actually see it.
+
+881
+00:26:10,329 --> 00:26:10,940
+There we go.
+
+882
+00:26:10,940 --> 00:26:12,210
+See now we can see it.
+
+883
+00:26:12,210 --> 00:26:13,319
+I saw the wondering where it went
+
+884
+00:26:13,359 --> 00:26:16,359
+You change there you can make it
+
+885
+00:26:16,359 --> 00:26:17,339
+bold and we're looking at this
+
+886
+00:26:17,410 --> 00:26:17,799
+thing here
+
+887
+00:26:19,279 --> 00:26:21,240
+Full name, right
+
+888
+00:26:21,279 --> 00:26:22,680
+Make it all caps
+
+889
+00:26:22,720 --> 00:26:26,599
+Shade it up a little bit
+
+890
+00:26:26,640 --> 00:26:28,190
+That text shadow
+
+891
+00:26:28,240 --> 00:26:29,269
+You guys see how it's all the same
+
+892
+00:26:29,279 --> 00:26:30,519
+stuff over and over again really
+
+893
+00:26:30,559 --> 00:26:32,819
+And you know you can change the
+
+894
+00:26:32,849 --> 00:26:34,200
+the width of the actual input
+
+895
+00:26:34,200 --> 00:26:35,000
+fields itself
+
+896
+00:26:35,039 --> 00:26:36,910
+You can add more padding
+
+897
+00:26:36,960 --> 00:26:39,670
+There you can add more padding
+
+898
+00:26:39,670 --> 00:26:40,099
+here
+
+899
+00:26:40,160 --> 00:26:42,750
+You can put the input in the
+
+900
+00:26:42,750 --> 00:26:43,480
+middle
+
+901
+00:26:45,200 --> 00:26:46,750
+Alignment within its actual
+
+902
+00:26:46,799 --> 00:26:48,759
+You know container itself
+
+903
+00:26:48,829 --> 00:26:53,240
+Add some corners to it
+
+904
+00:26:53,309 --> 00:26:56,279
+Add a border if you want
+
+905
+00:26:56,319 --> 00:26:58,119
+All these different things
+
+906
+00:26:58,160 --> 00:27:00,029
+Then from here just make sure that
+
+907
+00:27:00,039 --> 00:27:01,160
+you know if you want to toggle it
+
+908
+00:27:01,160 --> 00:27:02,359
+on as required or not required you
+
+909
+00:27:02,359 --> 00:27:02,910
+do so here
+
+910
+00:27:02,960 --> 00:27:04,349
+And then if you do have like a
+
+911
+00:27:04,349 --> 00:27:05,960
+full name first name last name
+
+912
+00:27:05,960 --> 00:27:07,160
+email phone number input or
+
+913
+00:27:07,160 --> 00:27:07,480
+whatever
+
+914
+00:27:07,519 --> 00:27:09,359
+I'm just like the right one here,
+
+915
+00:27:09,720 --> 00:27:09,720
+right
+
+916
+00:27:10,559 --> 00:27:12,339
+And one that we'll do like I said
+
+917
+00:27:12,339 --> 00:27:13,539
+is a custom type.
+
+918
+00:27:13,539 --> 00:27:15,720
+So we'll go here custom type
+
+919
+00:27:15,759 --> 00:27:17,539
+And say I want to know if they're
+
+920
+00:27:17,539 --> 00:27:19,069
+a business owner or not.
+
+921
+00:27:19,069 --> 00:27:21,799
+So like business owner
+
+922
+00:27:24,200 --> 00:27:25,000
+required
+
+923
+00:27:25,920 --> 00:27:26,440
+So
+
+924
+00:27:26,500 --> 00:27:29,140
+We could do
+
+925
+00:27:29,230 --> 00:27:31,799
+Are you a business
+
+926
+00:27:31,859 --> 00:27:33,710
+owner
+
+927
+00:27:36,039 --> 00:27:42,819
+And that could be you know they
+
+928
+00:27:42,950 --> 00:27:44,230
+essentially like type it in but
+
+929
+00:27:44,359 --> 00:27:44,750
+let's do
+
+930
+00:27:44,819 --> 00:27:50,839
+This would be again an input one
+
+931
+00:27:50,960 --> 00:27:52,299
+is where they type in stuff so
+
+932
+00:27:52,309 --> 00:27:54,099
+they would type in yes here
+
+933
+00:27:54,240 --> 00:27:55,609
+If you want to add something like
+
+934
+00:27:55,609 --> 00:27:57,690
+a drop down you would go to
+
+935
+00:28:00,039 --> 00:28:00,200
+Form
+
+936
+00:28:00,269 --> 00:28:03,359
+And you could have like a big old
+
+937
+00:28:03,359 --> 00:28:04,900
+text area by the way too you can
+
+938
+00:28:04,900 --> 00:28:05,400
+do that
+
+939
+00:28:05,460 --> 00:28:07,240
+I never really do that
+
+940
+00:28:07,279 --> 00:28:09,559
+You could have a freaking survey
+
+941
+00:28:09,599 --> 00:28:10,650
+As well
+
+942
+00:28:10,750 --> 00:28:13,240
+Which is super in-depth
+
+943
+00:28:13,309 --> 00:28:15,640
+Just individualized fields here
+
+944
+00:28:15,680 --> 00:28:17,390
+Which I again have never done
+
+945
+00:28:17,460 --> 00:28:21,960
+You can go
+
+946
+00:28:24,240 --> 00:28:26,599
+To checkbox input so if it's like
+
+947
+00:28:26,599 --> 00:28:28,660
+sometimes the ATP stuff will be
+
+948
+00:28:28,660 --> 00:28:30,279
+like you do like ATP
+
+949
+00:28:30,430 --> 00:28:31,640
+required
+
+950
+00:28:31,710 --> 00:28:36,440
+You know you go here and then you
+
+951
+00:28:36,529 --> 00:28:37,559
+can edit this and be like
+
+952
+00:28:37,619 --> 00:28:40,200
+Check here
+
+953
+00:28:42,519 --> 00:28:45,789
+The box here to subscribe to SMS
+
+954
+00:28:47,150 --> 00:28:47,799
+notifications
+
+955
+00:28:47,869 --> 00:28:49,500
+Sometimes you have to have like
+
+956
+00:28:49,509 --> 00:28:50,119
+the ATP stuff
+
+957
+00:28:50,160 --> 00:28:52,000
+Then you can change like the check
+
+958
+00:28:52,349 --> 00:28:53,000
+color if you want
+
+959
+00:28:53,069 --> 00:28:56,299
+You could change you could keep it
+
+960
+00:28:56,299 --> 00:28:57,410
+start checked if you'd like so
+
+961
+00:28:57,430 --> 00:28:58,680
+whenever they land an actual page
+
+962
+00:28:58,720 --> 00:28:59,519
+It's already checked off
+
+963
+00:28:59,680 --> 00:29:01,799
+And stuff along those lines
+
+964
+00:29:04,119 --> 00:29:06,599
+And some other ones that we can do
+
+965
+00:29:06,690 --> 00:29:07,230
+and the forms
+
+966
+00:29:09,680 --> 00:29:11,319
+Is a select box
+
+967
+00:29:11,359 --> 00:29:12,920
+So if you want to do
+
+968
+00:29:12,980 --> 00:29:16,690
+Countries you can do that but I
+
+969
+00:29:16,730 --> 00:29:19,000
+usually do custom options here so
+
+970
+00:29:19,000 --> 00:29:22,019
+are you a business owner
+
+971
+00:29:24,240 --> 00:29:26,380
+And I put it like this because you
+
+972
+00:29:26,529 --> 00:29:28,119
+can't it this is the string and
+
+973
+00:29:28,119 --> 00:29:28,759
+the output
+
+974
+00:29:28,829 --> 00:29:31,400
+That it shows this will show up in
+
+975
+00:29:31,400 --> 00:29:32,039
+like automation
+
+976
+00:29:32,079 --> 00:29:33,210
+So if you're doing automations,
+
+977
+00:29:33,210 --> 00:29:34,200
+it's you just have to know that
+
+978
+00:29:34,359 --> 00:29:35,309
+like they can't there can't be
+
+979
+00:29:35,309 --> 00:29:36,200
+spaces here basically
+
+980
+00:29:36,269 --> 00:29:37,789
+So yes
+
+981
+00:29:37,859 --> 00:29:39,299
+Yes
+
+982
+00:29:39,390 --> 00:29:41,319
+No
+
+983
+00:29:41,359 --> 00:29:42,839
+I am not
+
+984
+00:29:44,000 --> 00:29:46,029
+No, I am not you also make it
+
+985
+00:29:46,289 --> 00:29:46,759
+required or not
+
+986
+00:29:46,819 --> 00:29:50,940
+Change the whole background of the
+
+987
+00:29:50,940 --> 00:29:52,089
+input and
+
+988
+00:29:52,190 --> 00:29:54,589
+You know if we were to go to
+
+989
+00:29:54,589 --> 00:29:54,920
+preview
+
+990
+00:29:54,960 --> 00:29:57,390
+See if it shows it or if I have to
+
+991
+00:29:57,400 --> 00:29:58,200
+make it live or not
+
+992
+00:29:58,240 --> 00:29:59,400
+Yeah, I'll have to make it live
+
+993
+00:29:59,440 --> 00:30:00,730
+But definitely don't want to make
+
+994
+00:30:00,730 --> 00:30:01,869
+it live just a live page for a
+
+995
+00:30:01,880 --> 00:30:02,279
+client
+
+996
+00:30:02,319 --> 00:30:03,690
+But anyways you essentially would
+
+997
+00:30:03,690 --> 00:30:04,750
+click here and it would drop down
+
+998
+00:30:04,759 --> 00:30:05,319
+yes or no
+
+999
+00:30:05,359 --> 00:30:07,450
+And from there you could also
+
+1000
+00:30:07,650 --> 00:30:09,079
+again make it required or not
+
+1001
+00:30:09,119 --> 00:30:12,269
+So that is pretty much overall all
+
+1002
+00:30:12,289 --> 00:30:12,910
+of the uh
+
+1003
+00:30:12,960 --> 00:30:14,200
+elements within an actual
+
+1004
+00:30:14,240 --> 00:30:16,359
+You know click funnels page itself
+
+1005
+00:30:16,480 --> 00:30:17,380
+and if you don't want to save any
+
+1006
+00:30:17,410 --> 00:30:18,509
+of the things that you just did
+
+1007
+00:30:18,559 --> 00:30:20,789
+Guess what you got to do click
+
+1008
+00:30:20,849 --> 00:30:21,160
+over here
+
+1009
+00:30:21,279 --> 00:30:23,480
+It shows you everything will be
+
+1010
+00:30:23,569 --> 00:30:25,000
+lost hit okay and you're good to
+
+1011
+00:30:25,069 --> 00:30:27,640
+roll so that guys is an overview
+
+1012
+00:30:27,640 --> 00:30:27,960
+of
+
+1013
+00:30:28,000 --> 00:30:29,640
+Literally every single button
+
+1014
+00:30:29,640 --> 00:30:31,349
+within click funnels and now it's
+
+1015
+00:30:31,450 --> 00:30:32,680
+up to you to take the templates
+
+1016
+00:30:32,720 --> 00:30:34,369
+And essentially just build and
+
+1017
+00:30:34,440 --> 00:30:36,319
+combine these elements and makes a
+
+1018
+00:30:36,319 --> 00:30:37,390
+match and really you're just going
+
+1019
+00:30:37,390 --> 00:30:38,920
+to get super good at click funnels
+
+1020
+00:30:38,920 --> 00:30:39,640
+just by playing around
+
+1021
+00:30:39,680 --> 00:30:41,420
+Honestly, that's at the end of the
+
+1022
+00:30:41,440 --> 00:30:41,880
+day what
+
+1023
+00:30:41,920 --> 00:30:43,559
+What it is playing around and
+
+1024
+00:30:43,559 --> 00:30:44,700
+trying different elements and
+
+1025
+00:30:44,700 --> 00:30:45,809
+looking through their library and
+
+1026
+00:30:45,809 --> 00:30:46,680
+being like oh this thing could
+
+1027
+00:30:46,759 --> 00:30:47,470
+look kind of cool
+
+1028
+00:30:47,519 --> 00:30:48,809
+What if I like made the padding a
+
+1029
+00:30:48,819 --> 00:30:50,579
+little bit bigger here change this
+
+1030
+00:30:50,579 --> 00:30:51,960
+font or bolded this one here?
+
+1031
+00:30:52,000 --> 00:30:54,009
+Or you know added a strike through
+
+1032
+00:30:54,009 --> 00:30:54,910
+here and stuff like that
+
+1033
+00:30:54,960 --> 00:30:56,529
+Maybe if I broke this into two
+
+1034
+00:30:56,529 --> 00:30:56,829
+rows
+
+1035
+00:30:56,880 --> 00:30:58,259
+So let's add two rows instead of
+
+1036
+00:30:58,259 --> 00:30:59,920
+one row in the section and see how
+
+1037
+00:30:59,920 --> 00:31:01,130
+that looks a lot of different cool
+
+1038
+00:31:01,269 --> 00:31:01,809
+things you can do
+
+1039
+00:31:01,920 --> 00:31:03,069
+Let me know if you have any
+
+1040
+00:31:03,069 --> 00:31:04,200
+questions peace

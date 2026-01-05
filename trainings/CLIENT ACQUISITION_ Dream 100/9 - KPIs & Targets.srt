@@ -1,0 +1,519 @@
+1
+00:00:00,040 --> 00:00:01,020
+All right.
+
+2
+00:00:01,439 --> 00:00:03,560
+Module nine, KPIs and targets.
+
+3
+00:00:03,560 --> 00:00:04,629
+Let's dive in.
+
+4
+00:00:04,969 --> 00:00:08,019
+So setting your own KPIs and
+
+5
+00:00:08,080 --> 00:00:08,330
+targets.
+
+6
+00:00:08,380 --> 00:00:10,240
+So you need to have output targets
+
+7
+00:00:10,570 --> 00:00:11,910
+and performance KPIs.
+
+8
+00:00:11,910 --> 00:00:14,119
+So I don't really, you know, I
+
+9
+00:00:14,300 --> 00:00:14,919
+really like
+
+10
+00:00:14,960 --> 00:00:16,390
+to focus on more of the output
+
+11
+00:00:16,390 --> 00:00:17,929
+target side of things and then
+
+12
+00:00:17,929 --> 00:00:19,559
+kind of have my performance APIs
+
+13
+00:00:19,940 --> 00:00:21,230
+as a barometer to keep me on track
+
+14
+00:00:21,329 --> 00:00:22,690
+to say, okay, are my messaging, is
+
+15
+00:00:22,809 --> 00:00:23,550
+my messaging good?
+
+16
+00:00:23,739 --> 00:00:25,609
+Is, am I reaching out to the right
+
+17
+00:00:25,929 --> 00:00:26,260
+ICP?
+
+18
+00:00:26,260 --> 00:00:28,280
+Like if my outputs aren't really
+
+19
+00:00:28,280 --> 00:00:29,760
+performing that well,
+
+20
+00:00:30,039 --> 00:00:32,130
+what do I basically like need to
+
+21
+00:00:32,229 --> 00:00:34,520
+adjust based on the actual KPIs to
+
+22
+00:00:34,520 --> 00:00:36,780
+get a better result from this
+
+23
+00:00:36,829 --> 00:00:37,630
+campaign?
+
+24
+00:00:37,630 --> 00:00:39,009
+So output targets.
+
+25
+00:00:39,009 --> 00:00:40,909
+I like to set a target per day of
+
+26
+00:00:40,909 --> 00:00:42,380
+one to two to start.
+
+27
+00:00:42,380 --> 00:00:42,820
+That was,
+
+28
+00:00:42,859 --> 00:00:43,850
+that was my start one, one to two
+
+29
+00:00:44,259 --> 00:00:45,109
+deliverables that I send out per
+
+30
+00:00:45,109 --> 00:00:45,439
+day.
+
+31
+00:00:45,439 --> 00:00:48,130
+I set target pieces of content
+
+32
+00:00:48,179 --> 00:00:49,939
+that I want to make showcasing the
+
+33
+00:00:49,939 --> 00:00:51,219
+deliverable as well.
+
+34
+00:00:51,219 --> 00:00:52,770
+So that's a big thing to do is if
+
+35
+00:00:52,960 --> 00:00:53,140
+I just
+
+36
+00:00:53,179 --> 00:00:55,060
+redesigned a landing page for
+
+37
+00:00:55,369 --> 00:00:57,810
+somebody, I want to set, you know,
+
+38
+00:00:57,920 --> 00:01:01,140
+a target of one real or YouTube
+
+39
+00:01:01,179 --> 00:01:02,619
+video or Twitter post a day of me
+
+40
+00:01:02,619 --> 00:01:04,219
+showcasing that deliverable.
+
+41
+00:01:04,390 --> 00:01:06,129
+Like, Hey, I redesigned this page
+
+42
+00:01:06,129 --> 00:01:06,599
+for
+
+43
+00:01:06,640 --> 00:01:08,379
+Alex or Mosey, check it on out,
+
+44
+00:01:08,379 --> 00:01:08,920
+right?
+
+45
+00:01:08,989 --> 00:01:11,170
+That's another way to sign people.
+
+46
+00:01:11,170 --> 00:01:13,079
+And then also set a
+
+47
+00:01:13,120 --> 00:01:14,120
+target amount of follow-ups per
+
+48
+00:01:14,299 --> 00:01:15,159
+day that you want to do.
+
+49
+00:01:15,250 --> 00:01:16,340
+So those are the output targets I
+
+50
+00:01:16,340 --> 00:01:16,709
+set.
+
+51
+00:01:17,849 --> 00:01:18,810
+Performance KPIs.
+
+52
+00:01:18,810 --> 00:01:20,359
+These are mine that I like to do.
+
+53
+00:01:20,359 --> 00:01:21,920
+I've done a lot of dream 100
+
+54
+00:01:21,920 --> 00:01:23,540
+outreaches and
+
+55
+00:01:23,579 --> 00:01:25,319
+these are just what I like to
+
+56
+00:01:25,319 --> 00:01:26,090
+focus on.
+
+57
+00:01:26,090 --> 00:01:28,719
+So 40% response rate, 30% book
+
+58
+00:01:28,719 --> 00:01:31,760
+call rate, 50% consumed
+
+59
+00:01:31,799 --> 00:01:33,659
+deliverable rate and a 10% close
+
+60
+00:01:33,989 --> 00:01:35,209
+rate is what I go off of.
+
+61
+00:01:35,209 --> 00:01:37,200
+Now the close rate is super low.
+
+62
+00:01:37,200 --> 00:01:37,620
+Okay.
+
+63
+00:01:37,719 --> 00:01:38,299
+Mine has
+
+64
+00:01:38,340 --> 00:01:40,609
+been up near 30% with this thing.
+
+65
+00:01:40,689 --> 00:01:42,459
+It's really freaking good.
+
+66
+00:01:42,459 --> 00:01:44,030
+This is just bare moans.
+
+67
+00:01:44,260 --> 00:01:45,530
+Like, you know,
+
+68
+00:01:45,579 --> 00:01:47,049
+if you're like getting below a 10%
+
+69
+00:01:47,049 --> 00:01:48,349
+close rate on this, I mean, you're
+
+70
+00:01:48,450 --> 00:01:49,780
+just doing something really,
+
+71
+00:01:49,819 --> 00:01:50,739
+really bad.
+
+72
+00:01:50,739 --> 00:01:51,299
+Okay.
+
+73
+00:01:51,299 --> 00:01:53,409
+So like, yeah, this is a, these
+
+74
+00:01:53,730 --> 00:01:55,780
+are just like bare bones ones that
+
+75
+00:01:55,780 --> 00:01:56,540
+you need to just
+
+76
+00:01:56,579 --> 00:01:57,379
+like shoot for.
+
+77
+00:01:57,379 --> 00:01:58,840
+You can easily blow these out of
+
+78
+00:01:58,840 --> 00:02:00,170
+the water, but I'm just telling
+
+79
+00:02:00,489 --> 00:02:00,620
+you,
+
+80
+00:02:00,659 --> 00:02:02,069
+these are kind of like my targets
+
+81
+00:02:02,069 --> 00:02:03,200
+that I had initially.
+
+82
+00:02:03,239 --> 00:02:05,099
+So another thing you want to do
+
+83
+00:02:05,430 --> 00:02:07,750
+with dream 100 is factoring in the
+
+84
+00:02:07,750 --> 00:02:08,590
+cost of it.
+
+85
+00:02:08,590 --> 00:02:09,810
+So treating this like
+
+86
+00:02:09,879 --> 00:02:10,960
+any other acquisition channel, so
+
+87
+00:02:11,069 --> 00:02:12,000
+you could scale it properly.
+
+88
+00:02:13,539 --> 00:02:15,139
+So you want to think of, okay, how
+
+89
+00:02:15,139 --> 00:02:16,680
+much does it actually cost me in a
+
+90
+00:02:16,750 --> 00:02:17,520
+hard cost
+
+91
+00:02:17,560 --> 00:02:20,199
+to produce and deliver one unit,
+
+92
+00:02:20,199 --> 00:02:21,539
+one deliverable?
+
+93
+00:02:21,539 --> 00:02:21,900
+Okay.
+
+94
+00:02:21,900 --> 00:02:23,599
+So what like staff do I have to
+
+95
+00:02:23,849 --> 00:02:24,280
+pay for to
+
+96
+00:02:24,319 --> 00:02:25,229
+help me with?
+
+97
+00:02:25,229 --> 00:02:27,039
+Um, what platforms do I have to
+
+98
+00:02:27,189 --> 00:02:28,909
+pay to schedule that consulting
+
+99
+00:02:29,060 --> 00:02:29,740
+call?
+
+100
+00:02:30,169 --> 00:02:31,039
+Uh, stuff like
+
+101
+00:02:31,080 --> 00:02:31,490
+that.
+
+102
+00:02:31,780 --> 00:02:32,020
+Right.
+
+103
+00:02:32,020 --> 00:02:33,800
+And then you want to add the cost
+
+104
+00:02:33,949 --> 00:02:35,939
+of your time to deliver one unit.
+
+105
+00:02:36,009 --> 00:02:37,099
+So if your time is
+
+106
+00:02:37,139 --> 00:02:39,409
+valued at $70 an hour, add that in
+
+107
+00:02:39,409 --> 00:02:41,430
+there, that's going to be your,
+
+108
+00:02:41,430 --> 00:02:43,180
+uh, your cash, your customer
+
+109
+00:02:43,840 --> 00:02:44,199
+acquisition cost.
+
+110
+00:02:44,500 --> 00:02:44,680
+Okay.
+
+111
+00:02:44,680 --> 00:02:45,930
+So math is fun, right?
+
+112
+00:02:45,930 --> 00:02:47,500
+So you can actually back in your
+
+113
+00:02:47,500 --> 00:02:48,379
+customer acquisition
+
+114
+00:02:48,419 --> 00:02:50,280
+costs by using this formula right
+
+115
+00:02:50,610 --> 00:02:52,030
+here and to see, okay, every
+
+116
+00:02:52,349 --> 00:02:54,460
+single time, you know, it costs me
+
+117
+00:02:54,580 --> 00:02:57,000
+$500 to, uh, acquire client.
+
+118
+00:02:57,000 --> 00:02:59,050
+Now you can actually predictably
+
+119
+00:02:59,050 --> 00:03:00,479
+scale this system.
+
+120
+00:03:00,520 --> 00:03:03,240
+So quick one for module nine,
+
+121
+00:03:03,389 --> 00:03:06,060
+module 10, we're going to go into
+
+122
+00:03:06,060 --> 00:03:06,699
+a very fun one.
+
+123
+00:03:07,080 --> 00:03:07,460
+And it's the
+
+124
+00:03:07,500 --> 00:03:08,729
+what happens if, what happens if
+
+125
+00:03:08,900 --> 00:03:09,659
+they don't do this?
+
+126
+00:03:09,689 --> 00:03:10,509
+They don't love me.
+
+127
+00:03:10,509 --> 00:03:11,539
+They don't like me,
+
+128
+00:03:11,580 --> 00:03:12,120
+et cetera.
+
+129
+00:03:12,219 --> 00:03:13,449
+We're going to cover all that.
+
+130
+00:03:13,740 --> 00:03:14,620
+Well, let's dive in.

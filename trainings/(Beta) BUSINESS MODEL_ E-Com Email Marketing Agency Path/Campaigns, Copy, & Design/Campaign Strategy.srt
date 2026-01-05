@@ -1,0 +1,3103 @@
+1
+00:00:01,000 --> 00:00:02,759
+Okay, so we had our campaigns
+
+2
+00:00:02,759 --> 00:00:04,700
+intro, now let's get into like
+
+3
+00:00:04,700 --> 00:00:06,070
+actually the strategy of
+
+4
+00:00:06,070 --> 00:00:07,080
+campaigns.
+
+5
+00:00:07,179 --> 00:00:08,720
+Again, campaigns, one-time emails
+
+6
+00:00:08,720 --> 00:00:10,179
+that we're sending to our list.
+
+7
+00:00:10,240 --> 00:00:12,169
+Okay, so how often do we want to
+
+8
+00:00:12,169 --> 00:00:13,519
+send our emails?
+
+9
+00:00:13,580 --> 00:00:15,679
+So I'm going to save you now three
+
+10
+00:00:15,679 --> 00:00:17,760
+years, over three years of A-B
+
+11
+00:00:17,760 --> 00:00:19,719
+testing on campaign frequency.
+
+12
+00:00:19,780 --> 00:00:21,800
+We've tested it all from two per
+
+13
+00:00:21,800 --> 00:00:23,719
+day for some brands to two per
+
+14
+00:00:23,719 --> 00:00:24,420
+month.
+
+15
+00:00:24,480 --> 00:00:25,489
+This is what we found.
+
+16
+00:00:25,940 --> 00:00:27,329
+So this is the different sending
+
+17
+00:00:27,329 --> 00:00:29,079
+frequencies kind of like you can
+
+18
+00:00:29,179 --> 00:00:30,379
+do, grouped in.
+
+19
+00:00:30,440 --> 00:00:31,530
+So sending one to two times per
+
+20
+00:00:31,629 --> 00:00:32,820
+week, customer kind of forgets
+
+21
+00:00:32,850 --> 00:00:34,100
+about you, anything less.
+
+22
+00:00:34,179 --> 00:00:35,429
+The customer doesn't really
+
+23
+00:00:35,429 --> 00:00:36,780
+recognize you in the inbox and
+
+24
+00:00:36,780 --> 00:00:38,140
+it's kind of just more of a shock
+
+25
+00:00:38,189 --> 00:00:39,460
+to see you in the inbox.
+
+26
+00:00:39,520 --> 00:00:40,780
+And so they're unable to form that
+
+27
+00:00:40,780 --> 00:00:42,219
+habit of just consistently opening
+
+28
+00:00:42,219 --> 00:00:42,880
+your emails.
+
+29
+00:00:43,000 --> 00:00:44,210
+It's not quite enough and you're
+
+30
+00:00:44,210 --> 00:00:45,719
+just leaving money on the table.
+
+31
+00:00:45,780 --> 00:00:47,710
+You get lower on subscribes and
+
+32
+00:00:47,710 --> 00:00:49,820
+this can be okay, but you're just
+
+33
+00:00:49,850 --> 00:00:51,799
+leaving money on the table.
+
+34
+00:00:51,939 --> 00:00:53,539
+We want to get as much money as we
+
+35
+00:00:53,570 --> 00:00:55,020
+can from our email list.
+
+36
+00:00:55,439 --> 00:00:56,799
+And so you're just leaving money
+
+37
+00:00:56,799 --> 00:00:57,520
+on the table.
+
+38
+00:00:57,579 --> 00:00:59,119
+You're not really getting the
+
+39
+00:00:59,119 --> 00:01:01,060
+customer too familiar and situated
+
+40
+00:01:01,060 --> 00:01:01,759
+with you.
+
+41
+00:01:01,820 --> 00:01:02,719
+And then let's go on the other
+
+42
+00:01:02,719 --> 00:01:03,560
+side of the spectrum.
+
+43
+00:01:03,619 --> 00:01:04,920
+Let's say five to seven times per
+
+44
+00:01:04,950 --> 00:01:06,329
+week where we're sending almost
+
+45
+00:01:06,329 --> 00:01:06,980
+every day.
+
+46
+00:01:07,040 --> 00:01:08,739
+You get higher on subscribes.
+
+47
+00:01:08,799 --> 00:01:10,090
+You get customers that can be a
+
+48
+00:01:10,129 --> 00:01:11,480
+little bit more annoying.
+
+49
+00:01:11,540 --> 00:01:12,590
+Dilutes the power of your
+
+50
+00:01:12,730 --> 00:01:13,269
+messaging.
+
+51
+00:01:13,340 --> 00:01:15,450
+So anytime you send something, it
+
+52
+00:01:15,450 --> 00:01:17,560
+holds less weight because you're
+
+53
+00:01:17,560 --> 00:01:18,939
+sending so often.
+
+54
+00:01:19,000 --> 00:01:20,209
+And then your revenue kind of
+
+55
+00:01:20,209 --> 00:01:21,709
+plateaus at a certain point where
+
+56
+00:01:21,709 --> 00:01:23,079
+you get diminishing returns.
+
+57
+00:01:23,140 --> 00:01:24,819
+Where sending, you have like a,
+
+58
+00:01:24,819 --> 00:01:26,620
+it's like an exponential graph and
+
+59
+00:01:26,620 --> 00:01:28,109
+then it like plateaus after a
+
+60
+00:01:28,109 --> 00:01:29,159
+certain point.
+
+61
+00:01:29,239 --> 00:01:30,890
+So the juice just isn't quite
+
+62
+00:01:30,890 --> 00:01:32,689
+worth the squeeze at a certain
+
+63
+00:01:32,689 --> 00:01:33,340
+point.
+
+64
+00:01:33,519 --> 00:01:35,120
+So that's kind of like where we're
+
+65
+00:01:35,150 --> 00:01:36,599
+at with like the, with sending
+
+66
+00:01:36,700 --> 00:01:38,299
+five to seven times per week.
+
+67
+00:01:38,359 --> 00:01:39,659
+Okay.
+
+68
+00:01:39,719 --> 00:01:41,159
+And then now going to sending
+
+69
+00:01:41,159 --> 00:01:42,799
+three to four times per week.
+
+70
+00:01:42,900 --> 00:01:44,319
+Get high revenue.
+
+71
+00:01:44,379 --> 00:01:46,890
+You're getting more off the table.
+
+72
+00:01:46,959 --> 00:01:47,829
+You're getting lower on
+
+73
+00:01:47,829 --> 00:01:48,459
+subscribes.
+
+74
+00:01:48,659 --> 00:01:49,750
+You stay top of mind with the
+
+75
+00:01:49,849 --> 00:01:51,170
+customer and every email that you
+
+76
+00:01:51,170 --> 00:01:52,400
+send is like equal weight and
+
+77
+00:01:52,400 --> 00:01:52,959
+impact.
+
+78
+00:01:53,040 --> 00:01:54,269
+Now, this isn't just like an
+
+79
+00:01:54,269 --> 00:01:55,840
+arbitrary number that I pulled out
+
+80
+00:01:55,840 --> 00:01:56,560
+of nowhere.
+
+81
+00:01:56,620 --> 00:01:58,540
+The three to four times per week,
+
+82
+00:01:58,540 --> 00:02:00,530
+we've tested different lists and
+
+83
+00:02:00,530 --> 00:02:02,040
+sending one list down,
+
+84
+00:02:02,099 --> 00:02:04,140
+sending like seven times per week,
+
+85
+00:02:04,140 --> 00:02:06,140
+another sending once per week, and
+
+86
+00:02:06,170 --> 00:02:07,280
+then another sending three to
+
+87
+00:02:07,280 --> 00:02:07,640
+four.
+
+88
+00:02:07,700 --> 00:02:09,409
+We got the highest revenue, the
+
+89
+00:02:09,419 --> 00:02:11,439
+lowest unsubscribed, and just like
+
+90
+00:02:11,439 --> 00:02:12,699
+the best response.
+
+91
+00:02:12,759 --> 00:02:14,099
+And this was on an eight figure
+
+92
+00:02:14,110 --> 00:02:14,520
+list.
+
+93
+00:02:14,580 --> 00:02:16,659
+So this is just what the numbers
+
+94
+00:02:16,659 --> 00:02:17,219
+say.
+
+95
+00:02:18,039 --> 00:02:18,900
+Listen to me if you want.
+
+96
+00:02:18,939 --> 00:02:20,259
+I'm just going off the numbers.
+
+97
+00:02:20,319 --> 00:02:21,560
+So kind of just like I like to
+
+98
+00:02:21,560 --> 00:02:23,099
+think of this as just like you're
+
+99
+00:02:23,099 --> 00:02:24,819
+sending once per week on Monday.
+
+100
+00:02:24,939 --> 00:02:25,930
+It's just like, what is this brand
+
+101
+00:02:26,129 --> 00:02:26,879
+doing in my inbox?
+
+102
+00:02:26,930 --> 00:02:28,129
+A customer is subscribed to on
+
+103
+00:02:28,129 --> 00:02:29,659
+average like over 40 e-commerce
+
+104
+00:02:29,669 --> 00:02:30,759
+brands, email lists.
+
+105
+00:02:30,819 --> 00:02:31,680
+You just get lost.
+
+106
+00:02:31,740 --> 00:02:33,060
+Whereas like sending four times
+
+107
+00:02:33,069 --> 00:02:34,370
+per week, you're able to build
+
+108
+00:02:34,370 --> 00:02:35,319
+that engagement.
+
+109
+00:02:35,379 --> 00:02:37,060
+You're able to like the customer
+
+110
+00:02:37,060 --> 00:02:38,860
+can be affiliated with you and see
+
+111
+00:02:38,860 --> 00:02:39,900
+you and like you.
+
+112
+00:02:40,020 --> 00:02:41,259
+You've strong branded content and
+
+113
+00:02:41,259 --> 00:02:42,330
+you're giving them value.
+
+114
+00:02:42,460 --> 00:02:43,229
+And then it's like, oh, hey, I
+
+115
+00:02:43,229 --> 00:02:43,819
+know this brand.
+
+116
+00:02:43,849 --> 00:02:44,479
+I like this brand.
+
+117
+00:02:44,539 --> 00:02:46,060
+So there's that.
+
+118
+00:02:46,800 --> 00:02:48,319
+So again, just once per week isn't
+
+119
+00:02:48,319 --> 00:02:49,110
+going to cut it.
+
+120
+00:02:49,259 --> 00:02:50,479
+They're exposed to over 70
+
+121
+00:02:50,479 --> 00:02:51,949
+different e-commerce brands every
+
+122
+00:02:51,949 --> 00:02:52,289
+day.
+
+123
+00:02:52,360 --> 00:02:53,870
+Younger audience can be even
+
+124
+00:02:53,870 --> 00:02:55,439
+double with just the amount of
+
+125
+00:02:55,539 --> 00:02:57,219
+brands out there like over one
+
+126
+00:02:57,280 --> 00:02:58,289
+week and the amount of ads people
+
+127
+00:02:58,419 --> 00:02:58,800
+are seeing.
+
+128
+00:02:58,860 --> 00:03:00,300
+There's like 490 different brands.
+
+129
+00:03:00,360 --> 00:03:01,569
+So it's very, very easy for you to
+
+130
+00:03:01,569 --> 00:03:02,460
+get lost in the mix.
+
+131
+00:03:02,520 --> 00:03:04,120
+And your engagement and your open
+
+132
+00:03:04,150 --> 00:03:05,520
+rate will drop as a result of
+
+133
+00:03:05,520 --> 00:03:06,770
+sending once per week,
+
+134
+00:03:06,840 --> 00:03:08,030
+which a lot of people don't
+
+135
+00:03:08,030 --> 00:03:08,620
+expect.
+
+136
+00:03:08,680 --> 00:03:09,740
+It's just the customer isn't able
+
+137
+00:03:09,819 --> 00:03:10,520
+to get in that habit.
+
+138
+00:03:10,580 --> 00:03:12,000
+This was the result from pumping a
+
+139
+00:03:12,000 --> 00:03:13,530
+client from 2x per week to 4 per
+
+140
+00:03:13,530 --> 00:03:13,939
+week.
+
+141
+00:03:14,000 --> 00:03:15,800
+Open rates, crushed it.
+
+142
+00:03:15,860 --> 00:03:16,479
+Same list.
+
+143
+00:03:16,539 --> 00:03:18,319
+Click rates, crushed it.
+
+144
+00:03:18,379 --> 00:03:19,219
+Placed order rates up.
+
+145
+00:03:19,280 --> 00:03:19,789
+Revenue up.
+
+146
+00:03:19,860 --> 00:03:21,409
+That's just, it's just what the
+
+147
+00:03:21,419 --> 00:03:22,169
+numbers say.
+
+148
+00:03:22,340 --> 00:03:24,479
+I highly recommend that.
+
+149
+00:03:24,539 --> 00:03:26,229
+But 2x per day, ramming content
+
+150
+00:03:26,229 --> 00:03:27,879
+down the customer's throat.
+
+151
+00:03:27,939 --> 00:03:28,610
+They get annoyed.
+
+152
+00:03:28,680 --> 00:03:29,919
+You want to send a healthy amount.
+
+153
+00:03:29,979 --> 00:03:31,610
+But more importantly, we want to
+
+154
+00:03:31,620 --> 00:03:33,030
+send the right content.
+
+155
+00:03:33,099 --> 00:03:34,439
+So that's what we're going to talk
+
+156
+00:03:34,449 --> 00:03:35,120
+about next.
+
+157
+00:03:35,500 --> 00:03:36,740
+If you only send sales-focused
+
+158
+00:03:36,740 --> 00:03:38,039
+emails at your audience, then
+
+159
+00:03:38,039 --> 00:03:39,240
+they're going to be annoyed no
+
+160
+00:03:39,240 --> 00:03:40,139
+matter how much you send.
+
+161
+00:03:40,199 --> 00:03:41,060
+Even if it's once per week.
+
+162
+00:03:41,120 --> 00:03:41,990
+They're going to be like, why is
+
+163
+00:03:41,990 --> 00:03:42,419
+this a sale?
+
+164
+00:03:42,500 --> 00:03:44,960
+Why is it just this?
+
+165
+00:03:45,020 --> 00:03:46,110
+But what about giving them value?
+
+166
+00:03:46,180 --> 00:03:47,240
+Giving them entertainment.
+
+167
+00:03:47,360 --> 00:03:48,520
+Giving them tips and tricks.
+
+168
+00:03:48,580 --> 00:03:49,219
+Things like that.
+
+169
+00:03:49,280 --> 00:03:52,240
+That's just the healthy balance.
+
+170
+00:03:52,300 --> 00:03:53,759
+If you can find that, you're going
+
+171
+00:03:53,759 --> 00:03:55,099
+to be able to print cash while at
+
+172
+00:03:55,099 --> 00:03:56,150
+the same time building a
+
+173
+00:03:56,150 --> 00:03:57,430
+passionate fan base and not
+
+174
+00:03:57,439 --> 00:03:58,319
+annoying your list.
+
+175
+00:03:58,460 --> 00:04:00,189
+So this is what we want our fans
+
+176
+00:04:00,189 --> 00:04:00,759
+to be.
+
+177
+00:04:00,819 --> 00:04:02,120
+We want them to be rooting for us.
+
+178
+00:04:02,180 --> 00:04:03,780
+So what to send?
+
+179
+00:04:04,639 --> 00:04:06,289
+Again, nobody wants the pick-me
+
+180
+00:04:06,289 --> 00:04:07,199
+type content.
+
+181
+00:04:07,259 --> 00:04:08,159
+That's kind of the vibe you give
+
+182
+00:04:08,159 --> 00:04:09,120
+off when it's just like sales,
+
+183
+00:04:09,120 --> 00:04:09,750
+sales, sales.
+
+184
+00:04:09,819 --> 00:04:10,439
+Just like pick me.
+
+185
+00:04:10,500 --> 00:04:10,919
+Buy from us.
+
+186
+00:04:10,979 --> 00:04:11,469
+Buy from us.
+
+187
+00:04:11,539 --> 00:04:12,500
+You seem needy.
+
+188
+00:04:12,560 --> 00:04:13,889
+Nobody wants to buy from someone
+
+189
+00:04:13,889 --> 00:04:14,340
+needy.
+
+190
+00:04:14,400 --> 00:04:15,409
+Create sales resistance.
+
+191
+00:04:15,479 --> 00:04:17,000
+So we want to be altruistic.
+
+192
+00:04:17,060 --> 00:04:18,639
+We want to avoid asking for sales.
+
+193
+00:04:18,699 --> 00:04:20,480
+We want to make it seem like we're
+
+194
+00:04:20,480 --> 00:04:22,620
+better off without the customer.
+
+195
+00:04:22,680 --> 00:04:23,689
+We want to make them feel special,
+
+196
+00:04:23,810 --> 00:04:24,550
+but we want to make sure that
+
+197
+00:04:24,550 --> 00:04:25,560
+there's a balance there.
+
+198
+00:04:25,959 --> 00:04:27,319
+So by being altruistic and
+
+199
+00:04:27,319 --> 00:04:28,879
+avoiding asking for sales so
+
+200
+00:04:28,879 --> 00:04:30,839
+constantly, we avoid annoying our
+
+201
+00:04:30,839 --> 00:04:32,660
+list with discounts over and over
+
+202
+00:04:32,660 --> 00:04:34,500
+again in sales, sales, sales,
+
+203
+00:04:34,500 --> 00:04:35,480
+buyer stuff.
+
+204
+00:04:35,540 --> 00:04:36,879
+And also you position yourself as
+
+205
+00:04:36,889 --> 00:04:38,129
+like a sought-after brand who
+
+206
+00:04:38,129 --> 00:04:39,740
+doesn't need to beg for purchases.
+
+207
+00:04:39,800 --> 00:04:41,170
+And inherently, that proves to
+
+208
+00:04:41,170 --> 00:04:42,519
+people that you're legit.
+
+209
+00:04:42,860 --> 00:04:43,949
+If you're just sending valuable
+
+210
+00:04:44,050 --> 00:04:45,100
+content, you're sending good
+
+211
+00:04:45,100 --> 00:04:46,300
+content, just educating on your
+
+212
+00:04:46,300 --> 00:04:47,759
+product, people are like, huh,
+
+213
+00:04:47,759 --> 00:04:49,439
+they kind of know their stuff.
+
+214
+00:04:49,500 --> 00:04:51,339
+So like this is bad content.
+
+215
+00:04:51,399 --> 00:04:52,120
+You make people mad.
+
+216
+00:04:52,180 --> 00:04:52,759
+Good content.
+
+217
+00:04:52,819 --> 00:04:53,519
+Tips and tricks.
+
+218
+00:04:53,579 --> 00:04:54,639
+Message from the founder.
+
+219
+00:04:54,699 --> 00:04:55,899
+Watch out for this in your
+
+220
+00:04:55,899 --> 00:04:56,620
+industry.
+
+221
+00:04:56,680 --> 00:04:57,899
+Watch out for fluoride in your
+
+222
+00:04:57,899 --> 00:04:58,360
+water.
+
+223
+00:04:58,379 --> 00:04:58,699
+I don't know.
+
+224
+00:04:58,759 --> 00:04:59,269
+Something like that.
+
+225
+00:04:59,560 --> 00:05:00,620
+Our favorite picks for this.
+
+226
+00:05:00,740 --> 00:05:03,980
+What does this, what does creatine
+
+227
+00:05:03,980 --> 00:05:04,779
+mean?
+
+228
+00:05:04,879 --> 00:05:06,160
+What is creatine?
+
+229
+00:05:06,220 --> 00:05:06,699
+Stuff like that.
+
+230
+00:05:06,759 --> 00:05:07,850
+Educational stuff that the
+
+231
+00:05:07,949 --> 00:05:09,250
+customer will actually enjoy.
+
+232
+00:05:09,319 --> 00:05:10,819
+So this is where we want to be.
+
+233
+00:05:10,879 --> 00:05:12,920
+Education plus positioning.
+
+234
+00:05:12,980 --> 00:05:14,420
+We want to educate the customer
+
+235
+00:05:14,420 --> 00:05:15,910
+and then position them on our,
+
+236
+00:05:15,910 --> 00:05:17,459
+position our product as like the
+
+237
+00:05:17,470 --> 00:05:18,300
+solution.
+
+238
+00:05:18,360 --> 00:05:19,699
+So the modern customer today, they
+
+239
+00:05:19,709 --> 00:05:21,000
+want to do their due diligence and
+
+240
+00:05:21,000 --> 00:05:22,129
+they want to understand what
+
+241
+00:05:22,129 --> 00:05:23,300
+product they're buying.
+
+242
+00:05:23,360 --> 00:05:24,819
+We're kind of in like, especially
+
+243
+00:05:24,819 --> 00:05:26,350
+if you're in the health industry,
+
+244
+00:05:26,350 --> 00:05:28,100
+people want to know these things.
+
+245
+00:05:28,240 --> 00:05:30,399
+We're in like a health awakening,
+
+246
+00:05:30,399 --> 00:05:32,759
+what's the, health enlightenment,
+
+247
+00:05:32,860 --> 00:05:34,959
+there we go, history class.
+
+248
+00:05:35,019 --> 00:05:36,009
+So we want to remove as much
+
+249
+00:05:36,209 --> 00:05:37,649
+friction for them as possible in
+
+250
+00:05:37,649 --> 00:05:38,480
+that process.
+
+251
+00:05:38,540 --> 00:05:40,370
+We don't want to have them have to
+
+252
+00:05:40,370 --> 00:05:41,990
+go look at a ton of different
+
+253
+00:05:41,990 --> 00:05:44,040
+research studies and whatnot.
+
+254
+00:05:44,100 --> 00:05:45,089
+We want to give them everything
+
+255
+00:05:45,089 --> 00:05:45,759
+that they need.
+
+256
+00:05:45,819 --> 00:05:48,720
+So the content that wins in 2025
+
+257
+00:05:48,720 --> 00:05:51,149
+for getting sales, it's going to
+
+258
+00:05:51,149 --> 00:05:53,220
+A, educate the customer on a
+
+259
+00:05:53,220 --> 00:05:56,259
+problem, a process, or a solution.
+
+260
+00:05:56,600 --> 00:05:57,350
+It'll educate them.
+
+261
+00:05:57,420 --> 00:05:59,189
+And then B, it'll position your
+
+262
+00:05:59,189 --> 00:06:00,899
+product as the solution and as
+
+263
+00:06:00,899 --> 00:06:02,720
+the, as like the thing that ties
+
+264
+00:06:02,720 --> 00:06:04,000
+it all together.
+
+265
+00:06:04,060 --> 00:06:05,250
+And if you can do both, you'll
+
+266
+00:06:05,250 --> 00:06:06,600
+guide the customer, hold their
+
+267
+00:06:06,600 --> 00:06:07,699
+hand into making the right
+
+268
+00:06:07,699 --> 00:06:09,420
+decision, which is going with you
+
+269
+00:06:09,420 --> 00:06:10,819
+if your product's good.
+
+270
+00:06:10,879 --> 00:06:12,120
+And also you're going to earn
+
+271
+00:06:12,120 --> 00:06:13,759
+trust points in the process, which
+
+272
+00:06:13,759 --> 00:06:15,120
+are needed to make that buying
+
+273
+00:06:15,120 --> 00:06:15,860
+decision.
+
+274
+00:06:15,920 --> 00:06:17,240
+So with every piece of valuable
+
+275
+00:06:17,250 --> 00:06:18,839
+content you give the customer, you
+
+276
+00:06:18,839 --> 00:06:20,329
+earn trust points and you can cash
+
+277
+00:06:20,329 --> 00:06:21,759
+in on those trust points when you
+
+278
+00:06:21,759 --> 00:06:22,689
+ask for sales.
+
+279
+00:06:23,639 --> 00:06:24,649
+You're going to be able to cash in
+
+280
+00:06:24,680 --> 00:06:25,459
+on that if they don't buy
+
+281
+00:06:25,459 --> 00:06:26,180
+automatically.
+
+282
+00:06:26,240 --> 00:06:28,550
+So product education, promotion,
+
+283
+00:06:28,660 --> 00:06:30,339
+we want the right balance,
+
+284
+00:06:30,339 --> 00:06:32,060
+everything like that.
+
+285
+00:06:32,120 --> 00:06:32,959
+And that's for every email
+
+286
+00:06:32,980 --> 00:06:33,459
+campaign.
+
+287
+00:06:33,519 --> 00:06:34,740
+We want to have that balance.
+
+288
+00:06:34,800 --> 00:06:36,850
+So how we do that is we're going
+
+289
+00:06:36,850 --> 00:06:38,490
+to use micro topics.
+
+290
+00:06:38,560 --> 00:06:40,160
+This is something that I made up
+
+291
+00:06:40,189 --> 00:06:41,810
+that I've seen work the best,
+
+292
+00:06:41,810 --> 00:06:43,339
+which again, we're going to
+
+293
+00:06:43,370 --> 00:06:44,959
+continue to talk about.
+
+294
+00:06:45,019 --> 00:06:46,519
+So micro topics are just little
+
+295
+00:06:46,519 --> 00:06:48,209
+subtopics of information on your
+
+296
+00:06:48,209 --> 00:06:50,069
+industry, your process, whatever
+
+297
+00:06:50,069 --> 00:06:51,759
+it may be, and your product.
+
+298
+00:06:51,819 --> 00:06:52,699
+Just little subtopics of
+
+299
+00:06:53,009 --> 00:06:53,339
+information.
+
+300
+00:06:53,399 --> 00:06:55,259
+So this allows the customer to
+
+301
+00:06:55,259 --> 00:06:57,259
+digest the information easier
+
+302
+00:06:57,259 --> 00:06:59,399
+because it's easier to just learn
+
+303
+00:06:59,399 --> 00:07:01,779
+one little micro topic, get taught
+
+304
+00:07:01,810 --> 00:07:03,610
+one little thing rather than
+
+305
+00:07:03,629 --> 00:07:05,939
+trying to learn like 10 points in
+
+306
+00:07:05,939 --> 00:07:07,529
+one email where we're overwhelming
+
+307
+00:07:07,529 --> 00:07:08,139
+the customer.
+
+308
+00:07:08,199 --> 00:07:08,899
+That just doesn't work.
+
+309
+00:07:09,240 --> 00:07:10,540
+So each email, like we have to
+
+310
+00:07:10,569 --> 00:07:12,290
+understand also the customer, each
+
+311
+00:07:12,319 --> 00:07:13,639
+email is getting viewed for a
+
+312
+00:07:13,639 --> 00:07:15,459
+maximum of three to five seconds.
+
+313
+00:07:15,519 --> 00:07:17,019
+Nobody's sitting down annotating
+
+314
+00:07:17,019 --> 00:07:18,600
+their emails being like, oh, it's
+
+315
+00:07:18,699 --> 00:07:19,860
+time to check my email.
+
+316
+00:07:19,920 --> 00:07:21,519
+And no, that's just not what's
+
+317
+00:07:21,550 --> 00:07:22,720
+happening today.
+
+318
+00:07:22,779 --> 00:07:23,769
+People are checking their email
+
+319
+00:07:23,970 --> 00:07:25,089
+while they're at a red light.
+
+320
+00:07:25,259 --> 00:07:26,250
+As bad as it is, people will check
+
+321
+00:07:26,449 --> 00:07:27,720
+their email while they're driving
+
+322
+00:07:27,720 --> 00:07:28,800
+like that and just quickly,
+
+323
+00:07:28,800 --> 00:07:29,920
+quickly skim something while
+
+324
+00:07:29,920 --> 00:07:31,459
+they're waiting for the bathroom.
+
+325
+00:07:31,519 --> 00:07:32,230
+They'll just quickly check their
+
+326
+00:07:32,230 --> 00:07:32,480
+email.
+
+327
+00:07:32,540 --> 00:07:33,829
+So we just want to focus on one
+
+328
+00:07:33,829 --> 00:07:35,420
+specific point in each email that
+
+329
+00:07:35,420 --> 00:07:36,949
+our customer, who's brain dead
+
+330
+00:07:36,949 --> 00:07:38,310
+right now in that – not that
+
+331
+00:07:38,310 --> 00:07:39,519
+they're brain dead.
+
+332
+00:07:39,560 --> 00:07:40,589
+I'm not – just in that when
+
+333
+00:07:40,769 --> 00:07:41,889
+they're scrolling their phone,
+
+334
+00:07:42,000 --> 00:07:42,939
+they're brain dead.
+
+335
+00:07:43,000 --> 00:07:44,779
+They're kind of on autopilot.
+
+336
+00:07:44,839 --> 00:07:46,069
+So we just want to make it super
+
+337
+00:07:46,069 --> 00:07:46,839
+easy for them.
+
+338
+00:07:46,899 --> 00:07:48,569
+If we try to give them too much,
+
+339
+00:07:48,569 --> 00:07:50,360
+they're not going to get any.
+
+340
+00:07:50,420 --> 00:07:51,379
+But if we try to give them one
+
+341
+00:07:51,410 --> 00:07:52,490
+thing, they'll take that one
+
+342
+00:07:52,490 --> 00:07:52,889
+thing.
+
+343
+00:07:53,540 --> 00:07:54,490
+So just ask yourself when you're
+
+344
+00:07:54,490 --> 00:07:55,540
+creating your email, what is the
+
+345
+00:07:55,540 --> 00:07:56,480
+one thing I want my customer to
+
+346
+00:07:56,480 --> 00:07:57,839
+know after looking at this email?
+
+347
+00:07:57,920 --> 00:07:59,519
+One email, one topic, one
+
+348
+00:07:59,550 --> 00:08:00,379
+takeaway.
+
+349
+00:08:00,439 --> 00:08:01,439
+That's it.
+
+350
+00:08:01,500 --> 00:08:02,420
+And that is the micro-topic
+
+351
+00:08:02,689 --> 00:08:03,629
+philosophy in the campaigns that
+
+352
+00:08:03,629 --> 00:08:04,399
+you're sending.
+
+353
+00:08:04,459 --> 00:08:05,819
+And again, we'll go over this.
+
+354
+00:08:05,879 --> 00:08:07,649
+So customers, like back in the
+
+355
+00:08:07,649 --> 00:08:09,620
+day, this is like an easy example
+
+356
+00:08:09,620 --> 00:08:10,800
+that I think of.
+
+357
+00:08:10,860 --> 00:08:11,949
+It's like, oh, yes, the morning
+
+358
+00:08:12,050 --> 00:08:12,459
+newspaper.
+
+359
+00:08:12,509 --> 00:08:13,819
+I can't wait to read all these
+
+360
+00:08:13,850 --> 00:08:14,759
+long articles.
+
+361
+00:08:14,819 --> 00:08:15,240
+Awesome.
+
+362
+00:08:15,300 --> 00:08:17,610
+But now, like, customer, thanks
+
+363
+00:08:17,720 --> 00:08:19,959
+to, like, all these social media
+
+364
+00:08:19,959 --> 00:08:22,350
+platforms, they'd rather do weird
+
+365
+00:08:22,379 --> 00:08:24,379
+things than actually read.
+
+366
+00:08:24,439 --> 00:08:26,100
+And, like, nobody reads like that
+
+367
+00:08:26,100 --> 00:08:27,639
+in terms of, like, the younger
+
+368
+00:08:27,639 --> 00:08:29,079
+audience and people who are on
+
+369
+00:08:29,079 --> 00:08:30,000
+their phone.
+
+370
+00:08:30,060 --> 00:08:30,959
+They're not doing that to read.
+
+371
+00:08:31,019 --> 00:08:32,460
+People like reading, but when they
+
+372
+00:08:32,460 --> 00:08:33,908
+set time aside to read, the people
+
+373
+00:08:33,908 --> 00:08:35,309
+aren't setting aside time to read
+
+374
+00:08:35,309 --> 00:08:36,019
+their email.
+
+375
+00:08:36,080 --> 00:08:37,519
+So that is kind of the campaign
+
+376
+00:08:37,519 --> 00:08:39,038
+strategy that we're doing.
+
+377
+00:08:39,100 --> 00:08:40,519
+We want to educate and position
+
+378
+00:08:40,519 --> 00:08:42,168
+ourselves by sending good content
+
+379
+00:08:42,179 --> 00:08:43,480
+and by sending educational
+
+380
+00:08:43,480 --> 00:08:44,110
+content.
+
+381
+00:08:44,500 --> 00:08:45,549
+And how we do that is by sending
+
+382
+00:08:45,690 --> 00:08:46,259
+micro-topics.
+
+383
+00:08:46,320 --> 00:08:47,750
+And we're sending those three to
+
+384
+00:08:47,750 --> 00:08:48,830
+four times per week.
+
+385
+00:08:48,899 --> 00:08:50,460
+So that is the campaign strategy
+
+386
+00:08:50,460 --> 00:08:51,740
+that we want to follow.
+
+387
+00:08:51,799 --> 00:08:54,879
+Okay, so we had our campaigns
+
+388
+00:08:54,980 --> 00:08:55,980
+intro.
+
+389
+00:08:56,039 --> 00:08:57,879
+Now let's get into, like, actually
+
+390
+00:08:57,879 --> 00:08:59,519
+the strategy of campaigns.
+
+391
+00:08:59,580 --> 00:09:01,120
+Again, campaigns, one-time emails
+
+392
+00:09:01,120 --> 00:09:02,580
+that we're sending to our list.
+
+393
+00:09:02,639 --> 00:09:04,570
+Okay, so how often do we want to
+
+394
+00:09:04,570 --> 00:09:05,919
+send our emails?
+
+395
+00:09:05,980 --> 00:09:07,919
+So I'm going to save you now three
+
+396
+00:09:07,919 --> 00:09:09,840
+years, over three years of A-B
+
+397
+00:09:09,840 --> 00:09:12,139
+testing on campaign frequency.
+
+398
+00:09:12,480 --> 00:09:14,350
+We've tested it all from two per
+
+399
+00:09:14,350 --> 00:09:16,129
+day for some brands to two per
+
+400
+00:09:16,129 --> 00:09:16,830
+month.
+
+401
+00:09:16,899 --> 00:09:17,940
+This is what we found.
+
+402
+00:09:18,000 --> 00:09:19,769
+So this is the different sending
+
+403
+00:09:19,769 --> 00:09:21,600
+frequencies kind of like you can
+
+404
+00:09:21,600 --> 00:09:22,779
+do, grouped in.
+
+405
+00:09:22,860 --> 00:09:23,899
+So sending one to two times per
+
+406
+00:09:24,049 --> 00:09:24,240
+week.
+
+407
+00:09:24,299 --> 00:09:25,559
+Customer kind of forgets about
+
+408
+00:09:25,559 --> 00:09:25,899
+you.
+
+409
+00:09:25,960 --> 00:09:26,539
+Anything lasts.
+
+410
+00:09:26,600 --> 00:09:27,659
+The customer doesn't really
+
+411
+00:09:27,789 --> 00:09:29,059
+recognize you in the inbox.
+
+412
+00:09:29,120 --> 00:09:30,370
+And it's kind of just more of a
+
+413
+00:09:30,370 --> 00:09:31,870
+shock to see you in the inbox.
+
+414
+00:09:31,940 --> 00:09:33,200
+And so they're unable to form that
+
+415
+00:09:33,200 --> 00:09:34,639
+habit of just consistently opening
+
+416
+00:09:34,639 --> 00:09:35,299
+your emails.
+
+417
+00:09:35,419 --> 00:09:36,620
+It's not quite enough.
+
+418
+00:09:36,740 --> 00:09:37,690
+And you're just leaving money on
+
+419
+00:09:37,690 --> 00:09:38,159
+the table.
+
+420
+00:09:38,220 --> 00:09:39,820
+You get lower unsubscribes.
+
+421
+00:09:39,879 --> 00:09:42,190
+And this can be okay.
+
+422
+00:09:42,299 --> 00:09:43,659
+But you're just leaving money on
+
+423
+00:09:43,659 --> 00:09:44,279
+the table.
+
+424
+00:09:44,340 --> 00:09:45,940
+We want to get as much money as we
+
+425
+00:09:45,970 --> 00:09:47,419
+can from our email list.
+
+426
+00:09:47,500 --> 00:09:49,070
+And so you're just leaving money
+
+427
+00:09:49,070 --> 00:09:49,809
+on the table.
+
+428
+00:09:49,980 --> 00:09:51,519
+You're not really getting the
+
+429
+00:09:51,519 --> 00:09:53,460
+customer too familiar and situated
+
+430
+00:09:53,460 --> 00:09:54,159
+with you.
+
+431
+00:09:54,220 --> 00:09:55,120
+And then let's go on the other
+
+432
+00:09:55,120 --> 00:09:55,980
+side of the spectrum.
+
+433
+00:09:56,039 --> 00:09:57,340
+Let's say five to seven times per
+
+434
+00:09:57,370 --> 00:09:58,730
+week where we're sending almost
+
+435
+00:09:58,730 --> 00:09:59,379
+every day.
+
+436
+00:10:00,000 --> 00:10:00,990
+You get higher unsubscribes.
+
+437
+00:10:01,200 --> 00:10:02,490
+You get customers that can be a
+
+438
+00:10:02,529 --> 00:10:03,899
+little bit more annoying.
+
+439
+00:10:03,960 --> 00:10:05,049
+It dilutes the power of your
+
+440
+00:10:05,149 --> 00:10:05,690
+messaging.
+
+441
+00:10:05,759 --> 00:10:07,870
+So anytime you send something, it
+
+442
+00:10:07,870 --> 00:10:09,980
+holds less weight because you're
+
+443
+00:10:09,980 --> 00:10:11,360
+sending so often.
+
+444
+00:10:11,419 --> 00:10:12,620
+And then your revenue kind of
+
+445
+00:10:12,620 --> 00:10:14,110
+plateaus at a certain point where
+
+446
+00:10:14,110 --> 00:10:15,480
+you get diminishing returns.
+
+447
+00:10:15,539 --> 00:10:17,139
+Where sending, you have like a,
+
+448
+00:10:17,169 --> 00:10:18,899
+it's like an exponential graph.
+
+449
+00:10:19,019 --> 00:10:20,620
+And then it like plateaus after a
+
+450
+00:10:20,620 --> 00:10:21,600
+certain point.
+
+451
+00:10:21,659 --> 00:10:23,309
+So the juice just isn't quite
+
+452
+00:10:23,309 --> 00:10:25,090
+worth the squeeze at a certain
+
+453
+00:10:25,090 --> 00:10:25,700
+point.
+
+454
+00:10:25,960 --> 00:10:27,620
+So that's kind of like where we're
+
+455
+00:10:27,620 --> 00:10:29,230
+at with like the, with sending
+
+456
+00:10:29,230 --> 00:10:30,720
+five to seven times per week.
+
+457
+00:10:30,779 --> 00:10:32,080
+Okay.
+
+458
+00:10:32,139 --> 00:10:33,580
+And then now going to sending
+
+459
+00:10:33,580 --> 00:10:35,220
+three to four times per week.
+
+460
+00:10:35,340 --> 00:10:36,740
+Get high revenue.
+
+461
+00:10:36,799 --> 00:10:39,309
+You're getting more off the table.
+
+462
+00:10:39,379 --> 00:10:40,879
+You're getting lower unsubscribes.
+
+463
+00:10:40,940 --> 00:10:42,000
+You stay top of mind with the
+
+464
+00:10:42,129 --> 00:10:42,669
+customer.
+
+465
+00:10:42,740 --> 00:10:43,980
+And every email that you send is
+
+466
+00:10:43,980 --> 00:10:45,379
+like equal weight and impact.
+
+467
+00:10:45,440 --> 00:10:46,669
+Now, this isn't just like an
+
+468
+00:10:46,669 --> 00:10:48,240
+arbitrary number that I pulled out
+
+469
+00:10:48,240 --> 00:10:48,960
+of nowhere.
+
+470
+00:10:49,019 --> 00:10:50,759
+The three to four times per week,
+
+471
+00:10:50,759 --> 00:10:52,440
+we've tested different lists.
+
+472
+00:10:52,759 --> 00:10:54,429
+And sending one list down, sending
+
+473
+00:10:54,429 --> 00:10:55,840
+like seven times per week.
+
+474
+00:10:55,960 --> 00:10:58,429
+Another sending once per week.
+
+475
+00:10:58,500 --> 00:10:59,710
+And then another sending three to
+
+476
+00:10:59,710 --> 00:11:00,049
+four.
+
+477
+00:11:00,120 --> 00:11:01,830
+We got the highest revenue, the
+
+478
+00:11:01,840 --> 00:11:03,860
+lowest unsubscribed, and just like
+
+479
+00:11:03,860 --> 00:11:05,120
+the best response.
+
+480
+00:11:05,179 --> 00:11:06,519
+And this was on an eight-figure
+
+481
+00:11:06,529 --> 00:11:06,940
+list.
+
+482
+00:11:07,000 --> 00:11:09,080
+So this is just what the numbers
+
+483
+00:11:09,080 --> 00:11:09,639
+say.
+
+484
+00:11:09,700 --> 00:11:11,299
+Listen to me if you want.
+
+485
+00:11:11,360 --> 00:11:12,659
+I'm just going off the numbers.
+
+486
+00:11:12,720 --> 00:11:13,960
+So kind of just like I like to
+
+487
+00:11:13,960 --> 00:11:15,500
+think of this as just like you're
+
+488
+00:11:15,500 --> 00:11:17,220
+sending once per week on Monday.
+
+489
+00:11:17,340 --> 00:11:18,330
+It's just like what is this brand
+
+490
+00:11:18,529 --> 00:11:19,299
+doing in my inbox?
+
+491
+00:11:19,360 --> 00:11:20,419
+Because a customer is subscribed
+
+492
+00:11:20,549 --> 00:11:21,669
+to, on average, like over 40
+
+493
+00:11:21,769 --> 00:11:23,179
+e-commerce brands, email lists.
+
+494
+00:11:23,240 --> 00:11:24,100
+You just get lost.
+
+495
+00:11:24,159 --> 00:11:25,480
+Whereas like sending four times
+
+496
+00:11:25,490 --> 00:11:26,789
+per week, you're able to build
+
+497
+00:11:26,789 --> 00:11:27,740
+that engagement.
+
+498
+00:11:27,799 --> 00:11:29,480
+You're able to like the customer
+
+499
+00:11:29,480 --> 00:11:31,279
+can be affiliated with you and see
+
+500
+00:11:31,279 --> 00:11:32,320
+you and like you.
+
+501
+00:11:32,440 --> 00:11:33,679
+You've strong branded content and
+
+502
+00:11:33,679 --> 00:11:34,750
+you're giving them value.
+
+503
+00:11:34,879 --> 00:11:35,649
+And then it's like, oh, hey, I
+
+504
+00:11:35,649 --> 00:11:36,240
+know this brand.
+
+505
+00:11:36,269 --> 00:11:36,879
+I like this brand.
+
+506
+00:11:36,940 --> 00:11:38,440
+So there's that.
+
+507
+00:11:38,500 --> 00:11:40,480
+So again, just once per week isn't
+
+508
+00:11:40,480 --> 00:11:41,580
+going to cut it.
+
+509
+00:11:41,679 --> 00:11:42,740
+They're exposed to over 70
+
+510
+00:11:42,870 --> 00:11:44,309
+different e-commerce brands every
+
+511
+00:11:44,309 --> 00:11:44,700
+day.
+
+512
+00:11:45,080 --> 00:11:46,470
+Younger audience can be even
+
+513
+00:11:46,470 --> 00:11:47,970
+double with just the amount of
+
+514
+00:11:47,970 --> 00:11:49,600
+brands out there like over one
+
+515
+00:11:49,700 --> 00:11:50,740
+week and the amount of ads people
+
+516
+00:11:50,750 --> 00:11:51,220
+are seeing.
+
+517
+00:11:51,279 --> 00:11:52,700
+There's like 490 different brands.
+
+518
+00:11:52,759 --> 00:11:53,970
+So it's very, very easy for you to
+
+519
+00:11:53,970 --> 00:11:54,879
+get lost in the mix.
+
+520
+00:11:54,940 --> 00:11:56,539
+And your engagement and your open
+
+521
+00:11:56,570 --> 00:11:57,940
+rate will drop as a result of
+
+522
+00:11:57,940 --> 00:11:59,679
+sending once per week, which a lot
+
+523
+00:11:59,679 --> 00:12:00,960
+of people don't expect.
+
+524
+00:12:01,080 --> 00:12:02,139
+It's just the customer isn't able
+
+525
+00:12:02,220 --> 00:12:02,940
+to get in that habit.
+
+526
+00:12:03,000 --> 00:12:04,379
+This was the result from pumping a
+
+527
+00:12:04,379 --> 00:12:05,870
+client from 2x per week to 4 per
+
+528
+00:12:05,870 --> 00:12:06,340
+week.
+
+529
+00:12:06,399 --> 00:12:08,210
+Open rates, crushed it.
+
+530
+00:12:08,279 --> 00:12:08,879
+Same list.
+
+531
+00:12:08,940 --> 00:12:10,720
+Click rates, crushed it.
+
+532
+00:12:10,779 --> 00:12:11,639
+Placed order rates up.
+
+533
+00:12:11,700 --> 00:12:12,190
+Revenue up.
+
+534
+00:12:12,860 --> 00:12:14,059
+That's just, it's just what the
+
+535
+00:12:14,059 --> 00:12:14,700
+numbers say.
+
+536
+00:12:14,759 --> 00:12:16,899
+I highly recommend that.
+
+537
+00:12:16,960 --> 00:12:18,649
+But 2x per day, ramming content
+
+538
+00:12:18,649 --> 00:12:20,299
+down the customer's throat.
+
+539
+00:12:20,360 --> 00:12:21,029
+They get annoyed.
+
+540
+00:12:21,100 --> 00:12:22,340
+You want to send a healthy amount.
+
+541
+00:12:22,399 --> 00:12:24,029
+But more importantly, we want to
+
+542
+00:12:24,039 --> 00:12:25,450
+send the right content.
+
+543
+00:12:25,519 --> 00:12:26,860
+So that's what we're going to talk
+
+544
+00:12:26,870 --> 00:12:27,539
+about next.
+
+545
+00:12:27,600 --> 00:12:28,840
+If you only send sales-focused
+
+546
+00:12:28,840 --> 00:12:30,139
+emails at your audience, then
+
+547
+00:12:30,139 --> 00:12:31,389
+they're going to be annoyed no
+
+548
+00:12:31,389 --> 00:12:32,559
+matter how much you send.
+
+549
+00:12:32,620 --> 00:12:33,480
+Even if it's once per week.
+
+550
+00:12:33,539 --> 00:12:34,409
+They're going to be like, why is
+
+551
+00:12:34,409 --> 00:12:34,840
+this a sale?
+
+552
+00:12:34,919 --> 00:12:37,379
+Why is it just this?
+
+553
+00:12:37,440 --> 00:12:38,529
+But what about giving them value?
+
+554
+00:12:38,600 --> 00:12:39,659
+Giving them entertainment.
+
+555
+00:12:39,779 --> 00:12:40,940
+Giving them tips and tricks.
+
+556
+00:12:41,000 --> 00:12:41,639
+Things like that.
+
+557
+00:12:42,580 --> 00:12:44,559
+That's just the healthy balance.
+
+558
+00:12:44,620 --> 00:12:46,080
+If you can find that, you're going
+
+559
+00:12:46,080 --> 00:12:47,419
+to be able to print cash while at
+
+560
+00:12:47,419 --> 00:12:48,470
+the same time building a
+
+561
+00:12:48,470 --> 00:12:49,690
+passionate fan base and not
+
+562
+00:12:49,690 --> 00:12:50,820
+annoying your list.
+
+563
+00:12:50,879 --> 00:12:52,610
+So this is what we want our fans
+
+564
+00:12:52,610 --> 00:12:53,179
+to be.
+
+565
+00:12:53,240 --> 00:12:54,539
+We want them to be rooting for us.
+
+566
+00:12:54,600 --> 00:12:56,200
+So what to send?
+
+567
+00:12:56,259 --> 00:12:58,440
+Again, nobody wants the pick-me
+
+568
+00:12:58,440 --> 00:12:59,600
+type content.
+
+569
+00:12:59,659 --> 00:13:00,559
+That's kind of the vibe you give
+
+570
+00:13:00,559 --> 00:13:01,519
+off when it's just like sales,
+
+571
+00:13:01,519 --> 00:13:02,169
+sales, sales.
+
+572
+00:13:02,240 --> 00:13:02,860
+Just like pick me.
+
+573
+00:13:02,919 --> 00:13:03,340
+Buy from us.
+
+574
+00:13:03,399 --> 00:13:03,879
+Buy from us.
+
+575
+00:13:03,940 --> 00:13:04,919
+You seem needy.
+
+576
+00:13:04,980 --> 00:13:06,299
+Nobody wants to buy from someone
+
+577
+00:13:06,309 --> 00:13:06,740
+needy.
+
+578
+00:13:06,799 --> 00:13:07,809
+Create sales resistance.
+
+579
+00:13:07,879 --> 00:13:09,419
+So we want to be altruistic.
+
+580
+00:13:09,480 --> 00:13:11,080
+We want to avoid asking for sales.
+
+581
+00:13:11,840 --> 00:13:13,269
+We want to make it seem like we're
+
+582
+00:13:13,269 --> 00:13:15,039
+better off without the customer.
+
+583
+00:13:15,100 --> 00:13:16,110
+We want to make them feel special,
+
+584
+00:13:16,230 --> 00:13:16,970
+but we want to make sure that
+
+585
+00:13:16,970 --> 00:13:17,980
+there's a balance there.
+
+586
+00:13:18,039 --> 00:13:19,450
+So by being altruistic and
+
+587
+00:13:19,450 --> 00:13:21,059
+avoiding asking for sales so
+
+588
+00:13:21,220 --> 00:13:23,080
+constantly, we avoid annoying our
+
+589
+00:13:23,080 --> 00:13:24,970
+list with discounts over and over
+
+590
+00:13:24,970 --> 00:13:26,850
+again in sales, sales, sales,
+
+591
+00:13:26,850 --> 00:13:27,879
+buyer stuff.
+
+592
+00:13:28,379 --> 00:13:29,570
+And also you position yourself as
+
+593
+00:13:29,570 --> 00:13:30,669
+like a sought-after brand who
+
+594
+00:13:30,669 --> 00:13:32,159
+doesn't need to beg for purchases.
+
+595
+00:13:32,220 --> 00:13:33,590
+And inherently, that proves to
+
+596
+00:13:33,590 --> 00:13:34,940
+people that you're legit.
+
+597
+00:13:35,000 --> 00:13:36,080
+If you're not – if you're just
+
+598
+00:13:36,190 --> 00:13:37,419
+sending valuable content, you're
+
+599
+00:13:37,419 --> 00:13:38,519
+sending good content, just
+
+600
+00:13:38,519 --> 00:13:39,879
+educating on your product, people
+
+601
+00:13:39,879 --> 00:13:41,129
+are like, huh, they kind of know
+
+602
+00:13:41,129 --> 00:13:41,879
+their stuff.
+
+603
+00:13:41,940 --> 00:13:43,750
+So like this is bad content.
+
+604
+00:13:43,820 --> 00:13:44,539
+You make people mad.
+
+605
+00:13:44,600 --> 00:13:45,179
+Good content.
+
+606
+00:13:45,240 --> 00:13:45,940
+Tips and tricks.
+
+607
+00:13:46,000 --> 00:13:47,059
+Message from the founder.
+
+608
+00:13:47,120 --> 00:13:48,320
+Watch out for this in your
+
+609
+00:13:48,320 --> 00:13:49,039
+industry.
+
+610
+00:13:49,100 --> 00:13:50,320
+Watch out for fluoride in your
+
+611
+00:13:50,320 --> 00:13:50,779
+water.
+
+612
+00:13:50,799 --> 00:13:51,120
+I don't know.
+
+613
+00:13:51,179 --> 00:13:51,690
+Something like that.
+
+614
+00:13:51,759 --> 00:13:53,100
+Our favorite picks for this.
+
+615
+00:13:53,159 --> 00:13:55,470
+What does this – what does
+
+616
+00:13:55,570 --> 00:13:57,120
+creatine mean?
+
+617
+00:13:57,240 --> 00:13:58,580
+What is creatine?
+
+618
+00:13:58,639 --> 00:13:59,120
+Stuff like that.
+
+619
+00:13:59,179 --> 00:14:00,269
+Educational stuff that the
+
+620
+00:14:00,370 --> 00:14:01,669
+customer will actually enjoy.
+
+621
+00:14:01,740 --> 00:14:03,240
+So this is where we want to be.
+
+622
+00:14:03,299 --> 00:14:05,340
+Education plus positioning.
+
+623
+00:14:05,399 --> 00:14:06,840
+We want to educate the customer
+
+624
+00:14:06,840 --> 00:14:08,389
+and then position them on our –
+
+625
+00:14:08,389 --> 00:14:09,919
+position our product as like the
+
+626
+00:14:10,019 --> 00:14:10,720
+solution.
+
+627
+00:14:10,779 --> 00:14:12,080
+So the modern customer today, they
+
+628
+00:14:12,110 --> 00:14:13,389
+want to do their due diligence and
+
+629
+00:14:13,389 --> 00:14:14,490
+they want to understand what
+
+630
+00:14:14,490 --> 00:14:15,700
+product they're buying.
+
+631
+00:14:15,759 --> 00:14:17,269
+We're kind of in like – especially
+
+632
+00:14:17,269 --> 00:14:18,789
+if you're in the health industry,
+
+633
+00:14:18,840 --> 00:14:20,500
+people want to know these things.
+
+634
+00:14:20,700 --> 00:14:22,779
+We're in like a health awakening –
+
+635
+00:14:22,779 --> 00:14:25,210
+what's the – health enlightenment.
+
+636
+00:14:25,379 --> 00:14:25,919
+There we go.
+
+637
+00:14:25,980 --> 00:14:27,379
+History class.
+
+638
+00:14:27,440 --> 00:14:28,429
+So we want to remove as much
+
+639
+00:14:28,629 --> 00:14:30,070
+friction for them as possible in
+
+640
+00:14:30,070 --> 00:14:30,899
+that process.
+
+641
+00:14:30,960 --> 00:14:32,789
+We don't want to have them have to
+
+642
+00:14:32,789 --> 00:14:34,409
+go look at a ton of different
+
+643
+00:14:34,409 --> 00:14:36,460
+research studies and whatnot.
+
+644
+00:14:36,519 --> 00:14:37,509
+We want to give them everything
+
+645
+00:14:37,509 --> 00:14:38,179
+that they need.
+
+646
+00:14:38,240 --> 00:14:41,320
+So the content that wins in 2025
+
+647
+00:14:41,419 --> 00:14:43,899
+for getting sales, it's going to
+
+648
+00:14:43,899 --> 00:14:46,110
+A, educate the customer on a
+
+649
+00:14:46,110 --> 00:14:48,679
+problem, a process, or a solution.
+
+650
+00:14:48,740 --> 00:14:49,750
+It will educate them.
+
+651
+00:14:50,240 --> 00:14:52,129
+And then B, it will position your
+
+652
+00:14:52,129 --> 00:14:53,879
+product as the solution and as
+
+653
+00:14:53,879 --> 00:14:55,629
+like the thing that ties it all
+
+654
+00:14:55,629 --> 00:14:56,419
+together.
+
+655
+00:14:56,480 --> 00:14:57,730
+And if you can do both, you'll
+
+656
+00:14:57,730 --> 00:14:59,169
+guide the customer, hold their
+
+657
+00:14:59,169 --> 00:15:00,340
+hand into making the right
+
+658
+00:15:00,340 --> 00:15:01,879
+decision, which is going with you
+
+659
+00:15:01,879 --> 00:15:03,240
+if your product is good.
+
+660
+00:15:03,299 --> 00:15:04,580
+And also you're going to earn
+
+661
+00:15:04,580 --> 00:15:06,159
+trust points in the process which
+
+662
+00:15:06,159 --> 00:15:07,539
+are needed to make that buying
+
+663
+00:15:07,559 --> 00:15:08,279
+decision.
+
+664
+00:15:08,340 --> 00:15:09,629
+So with every piece of valuable
+
+665
+00:15:09,629 --> 00:15:11,210
+content you give the customer, you
+
+666
+00:15:11,210 --> 00:15:12,580
+earn trust points, and you can
+
+667
+00:15:12,580 --> 00:15:14,039
+cash in on those trust points when
+
+668
+00:15:14,039 --> 00:15:15,100
+you ask for sales.
+
+669
+00:15:16,080 --> 00:15:17,090
+You're going to be able to cash in
+
+670
+00:15:17,120 --> 00:15:17,899
+on that if they don't buy
+
+671
+00:15:17,899 --> 00:15:18,590
+automatically.
+
+672
+00:15:18,659 --> 00:15:20,970
+So product education, promotion,
+
+673
+00:15:21,080 --> 00:15:22,759
+we want the right balance,
+
+674
+00:15:22,759 --> 00:15:24,480
+everything like that.
+
+675
+00:15:24,539 --> 00:15:25,379
+And that's for every email
+
+676
+00:15:25,399 --> 00:15:25,879
+campaign.
+
+677
+00:15:25,940 --> 00:15:27,159
+We want to have that balance.
+
+678
+00:15:27,700 --> 00:15:29,539
+So how we do that is we're going
+
+679
+00:15:29,539 --> 00:15:31,059
+to use microtopics.
+
+680
+00:15:31,120 --> 00:15:32,720
+This is something that I made up
+
+681
+00:15:32,750 --> 00:15:34,350
+that I've seen work the best,
+
+682
+00:15:34,350 --> 00:15:35,889
+which again, we're going to
+
+683
+00:15:35,889 --> 00:15:37,379
+continue to talk about.
+
+684
+00:15:37,440 --> 00:15:38,940
+So microtopics are just little
+
+685
+00:15:38,940 --> 00:15:40,629
+subtopics of information on your
+
+686
+00:15:40,629 --> 00:15:42,490
+industry, your process, whatever
+
+687
+00:15:42,490 --> 00:15:44,159
+it may be, and your product.
+
+688
+00:15:44,220 --> 00:15:45,100
+Just little subtopics of
+
+689
+00:15:45,409 --> 00:15:45,759
+information.
+
+690
+00:15:45,820 --> 00:15:47,679
+So this allows the customer to
+
+691
+00:15:47,679 --> 00:15:49,679
+digest the information easier
+
+692
+00:15:49,679 --> 00:15:51,830
+because it's easier to just learn
+
+693
+00:15:51,830 --> 00:15:54,240
+one little microtopic, get taught
+
+694
+00:15:54,250 --> 00:15:56,049
+one little thing rather than
+
+695
+00:15:56,070 --> 00:15:58,379
+trying to learn like 10 points in
+
+696
+00:15:58,379 --> 00:15:59,950
+one email where we're overwhelming
+
+697
+00:15:59,950 --> 00:16:00,539
+the customer.
+
+698
+00:16:00,600 --> 00:16:01,320
+That just doesn't work.
+
+699
+00:16:01,720 --> 00:16:03,019
+So each email, like we have to
+
+700
+00:16:03,049 --> 00:16:04,750
+understand also the customer, each
+
+701
+00:16:04,789 --> 00:16:06,070
+email is getting viewed for a
+
+702
+00:16:06,070 --> 00:16:07,879
+maximum of three to five seconds.
+
+703
+00:16:07,940 --> 00:16:09,440
+Nobody's sitting down annotating
+
+704
+00:16:09,440 --> 00:16:11,019
+their emails being like, oh, it's
+
+705
+00:16:11,120 --> 00:16:12,279
+time to check my email.
+
+706
+00:16:12,340 --> 00:16:13,940
+And no, that's just not what's
+
+707
+00:16:13,970 --> 00:16:15,139
+happening today.
+
+708
+00:16:15,200 --> 00:16:16,190
+People are checking their email
+
+709
+00:16:16,389 --> 00:16:17,509
+while they're at a red light.
+
+710
+00:16:17,679 --> 00:16:18,669
+As bad as it is, people will check
+
+711
+00:16:18,870 --> 00:16:20,139
+their email while they're driving
+
+712
+00:16:20,139 --> 00:16:21,220
+like that and just quickly,
+
+713
+00:16:21,220 --> 00:16:22,330
+quickly skim something while
+
+714
+00:16:22,330 --> 00:16:23,860
+they're waiting for the bathroom.
+
+715
+00:16:23,919 --> 00:16:24,629
+They'll just quickly check their
+
+716
+00:16:24,629 --> 00:16:24,879
+email.
+
+717
+00:16:24,940 --> 00:16:26,230
+So we just want to focus on one
+
+718
+00:16:26,230 --> 00:16:27,820
+specific point in each email that
+
+719
+00:16:27,820 --> 00:16:29,350
+our customer, who's brain dead
+
+720
+00:16:29,350 --> 00:16:30,710
+right now in that – not that
+
+721
+00:16:30,710 --> 00:16:31,919
+they're brain dead.
+
+722
+00:16:31,980 --> 00:16:33,009
+I'm not – just in that when
+
+723
+00:16:33,190 --> 00:16:34,309
+they're scrolling their phone,
+
+724
+00:16:34,419 --> 00:16:35,360
+they're brain dead.
+
+725
+00:16:35,419 --> 00:16:37,200
+They're kind of on autopilot.
+
+726
+00:16:37,259 --> 00:16:38,460
+So we just want to make it super
+
+727
+00:16:38,460 --> 00:16:39,240
+easy for them.
+
+728
+00:16:39,299 --> 00:16:40,970
+If we try to give them too much,
+
+729
+00:16:40,970 --> 00:16:42,779
+they're not going to get any.
+
+730
+00:16:42,840 --> 00:16:43,799
+But if we try to give them one
+
+731
+00:16:43,830 --> 00:16:44,909
+thing, they'll take that one
+
+732
+00:16:44,909 --> 00:16:45,309
+thing.
+
+733
+00:16:45,980 --> 00:16:46,929
+So just ask yourself when you're
+
+734
+00:16:46,929 --> 00:16:47,980
+creating your email, what is the
+
+735
+00:16:47,980 --> 00:16:48,909
+one thing I want my customer to
+
+736
+00:16:48,909 --> 00:16:50,279
+know after looking at this email?
+
+737
+00:16:50,340 --> 00:16:51,940
+One email, one topic, one
+
+738
+00:16:51,940 --> 00:16:52,779
+takeaway.
+
+739
+00:16:52,840 --> 00:16:53,850
+That's it.
+
+740
+00:16:53,919 --> 00:16:54,840
+And that is the micro-topic
+
+741
+00:16:55,110 --> 00:16:56,049
+philosophy in the campaigns that
+
+742
+00:16:56,049 --> 00:16:56,820
+you're sending.
+
+743
+00:16:56,879 --> 00:16:58,220
+And again, we'll go over this.
+
+744
+00:16:58,279 --> 00:17:00,049
+So customers, like back in the
+
+745
+00:17:00,049 --> 00:17:02,019
+day, this is like an easy example
+
+746
+00:17:02,019 --> 00:17:03,200
+that I think of.
+
+747
+00:17:03,259 --> 00:17:04,348
+It's like, oh, yes, the morning
+
+748
+00:17:04,450 --> 00:17:04,859
+newspaper.
+
+749
+00:17:04,930 --> 00:17:06,240
+I can't wait to read all these
+
+750
+00:17:06,269 --> 00:17:07,180
+long articles.
+
+751
+00:17:07,240 --> 00:17:07,660
+Awesome.
+
+752
+00:17:07,920 --> 00:17:10,160
+But now, like, customer, thanks
+
+753
+00:17:10,160 --> 00:17:12,390
+to, like, all these social media
+
+754
+00:17:12,390 --> 00:17:14,690
+platforms, they'd rather do weird
+
+755
+00:17:14,710 --> 00:17:16,769
+things than actually read.
+
+756
+00:17:16,838 --> 00:17:18,500
+And, like, nobody reads like that
+
+757
+00:17:18,500 --> 00:17:20,039
+in terms of, like, the younger
+
+758
+00:17:20,039 --> 00:17:21,480
+audience and people who are on
+
+759
+00:17:21,480 --> 00:17:22,420
+their phone.
+
+760
+00:17:22,480 --> 00:17:23,380
+They're not doing that to read.
+
+761
+00:17:23,440 --> 00:17:24,880
+People like reading, but when they
+
+762
+00:17:24,880 --> 00:17:26,328
+set time aside to read, the people
+
+763
+00:17:26,328 --> 00:17:27,730
+aren't setting aside time to read
+
+764
+00:17:27,730 --> 00:17:28,440
+their email.
+
+765
+00:17:28,500 --> 00:17:29,940
+So that is kind of the campaign
+
+766
+00:17:29,940 --> 00:17:31,460
+strategy that we're doing.
+
+767
+00:17:31,519 --> 00:17:32,910
+We want to educate and position
+
+768
+00:17:32,910 --> 00:17:34,529
+ourselves by sending good content
+
+769
+00:17:34,529 --> 00:17:35,809
+and by sending educational
+
+770
+00:17:35,809 --> 00:17:36,480
+content.
+
+771
+00:17:36,539 --> 00:17:37,839
+And how we do that is by sending
+
+772
+00:17:37,869 --> 00:17:38,700
+micro-topics.
+
+773
+00:17:38,759 --> 00:17:40,160
+And we're sending those three to
+
+774
+00:17:40,160 --> 00:17:41,250
+four times per week.
+
+775
+00:17:41,319 --> 00:17:42,880
+So that is the campaign strategy
+
+776
+00:17:42,880 --> 00:17:44,160
+that we want to follow.

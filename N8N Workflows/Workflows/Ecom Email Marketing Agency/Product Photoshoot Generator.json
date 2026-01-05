@@ -1,0 +1,1153 @@
+{
+  "name": "Product Photoshoot Generator",
+  "nodes": [
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://queue.fal.run/fal-ai/nano-banana/edit",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n     \"prompt\": \"{{ $json.sceneType }} - {{ $json.prompt }}\",\n     \"image_urls\": [\n       \"{{ $('Upload Original Image to imgbb').first().json.data.url }}\"\n     ]\n   }",
+        "options": {}
+      },
+      "id": "bf6b5006-ec09-43c5-a60b-53dd5c20bdbc",
+      "name": "Create Image",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [
+        1424,
+        1648
+      ],
+      "typeVersion": 4.2,
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "XH16Y9OuSAjBYrOs",
+          "name": "FAL AI"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "c713d31f-9abd-496a-ac79-e8e2efe60aa0",
+              "name": "brandName",
+              "type": "string",
+              "value": "={{ $json['Brand Name'] }}"
+            },
+            {
+              "id": "bb157289-e9b4-437f-bb2f-9910bc27f2e5",
+              "name": "brandWebsite",
+              "value": "={{ $json['Brand Website'] }}",
+              "type": "string"
+            },
+            {
+              "id": "58fb5e76-6576-4d16-8b25-b931c7935c01",
+              "name": "brandNiche",
+              "type": "string",
+              "value": "={{ $json['Brand Niche'] }}"
+            },
+            {
+              "id": "434b7780-d365-45df-94f8-df0871458689",
+              "name": "existingClient",
+              "value": "",
+              "type": "string"
+            },
+            {
+              "id": "ddb38d4f-eb22-49cb-836d-621a6ef1ec0c",
+              "name": "photoshootGoals",
+              "value": "={{ $json['Photoshoot Goals'] }}",
+              "type": "string"
+            },
+            {
+              "id": "1b7f3735-201c-4151-afcf-85247db4ad2a",
+              "name": "context",
+              "value": "={{ $json['Additional Context'] }}",
+              "type": "string"
+            },
+            {
+              "id": "a1d1c2c0-02c9-4957-8b50-11d946be836a",
+              "name": "existingClient",
+              "value": "={{ $json['Existing Client?'] }}",
+              "type": "string"
+            },
+            {
+              "id": "7f9c2309-9857-46ae-998c-32f5d0dac87d",
+              "name": "productPhoto",
+              "value": "={{ $json['Product Photo (PNG Preferable)'][0] }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "c81fcec7-677a-42fb-9816-a72ca131aece",
+      "name": "Set data",
+      "type": "n8n-nodes-base.set",
+      "position": [
+        400,
+        1520
+      ],
+      "typeVersion": 3.4
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "version": 2,
+            "leftValue": "",
+            "caseSensitive": true,
+            "typeValidation": "strict"
+          },
+          "combinator": "and",
+          "conditions": [
+            {
+              "id": "383d112e-2cc6-4dd4-8985-f09ce0bd1781",
+              "operator": {
+                "name": "filter.operator.equals",
+                "type": "string",
+                "operation": "equals"
+              },
+              "leftValue": "={{ $json.status }}",
+              "rightValue": "COMPLETED"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "9753a7cf-0c06-4adf-9333-5c9261dac354",
+      "name": "Completed?",
+      "type": "n8n-nodes-base.if",
+      "position": [
+        2096,
+        1648
+      ],
+      "typeVersion": 2.2
+    },
+    {
+      "parameters": {
+        "amount": 60
+      },
+      "id": "b03a85ef-688f-4488-ae7a-03ee5386fb6f",
+      "name": "Wait 60 sec.",
+      "type": "n8n-nodes-base.wait",
+      "position": [
+        1648,
+        1648
+      ],
+      "webhookId": "351bd496-a9cc-445c-86f6-a56189df0028",
+      "typeVersion": 1.1
+    },
+    {
+      "parameters": {
+        "url": "=https://queue.fal.run/fal-ai/nano-banana/requests/{{ $('Create Image').item.json.request_id }}/status ",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "options": {}
+      },
+      "id": "289acd25-e2d3-4353-99ee-d1af638c797b",
+      "name": "Get status",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [
+        1872,
+        1520
+      ],
+      "typeVersion": 4.2,
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "XH16Y9OuSAjBYrOs",
+          "name": "FAL AI"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.response_url }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "options": {}
+      },
+      "id": "222688a0-d976-481f-924d-6ff740753fb3",
+      "name": "Get Url image",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [
+        2320,
+        1648
+      ],
+      "typeVersion": 4.2,
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "XH16Y9OuSAjBYrOs",
+          "name": "FAL AI"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.images[0].url }}",
+        "options": {}
+      },
+      "id": "2c884cb7-792f-4cd6-99ba-c9a041ef375b",
+      "name": "Get File image",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [
+        2544,
+        1760
+      ],
+      "typeVersion": 4.2
+    },
+    {
+      "parameters": {
+        "formTitle": "Product Photoshoot Generator",
+        "formDescription": "Upload a photo of your product to receive 5 professional product phooshoot scenes.",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Brand Name",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Brand Website",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Brand Niche",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Photoshoot Goals"
+            },
+            {
+              "fieldLabel": "Additional Context"
+            },
+            {
+              "fieldLabel": "Existing Client?",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Yes"
+                  },
+                  {
+                    "option": "No"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "Product Photo (PNG Preferable)",
+              "fieldType": "file"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.3,
+      "position": [
+        -48,
+        1696
+      ],
+      "id": "9f87e4b9-8f6e-44e2-bc5a-06f16af51847",
+      "name": "On form submission",
+      "webhookId": "72cfae0c-58d4-4c5b-908c-30368e0c1ad6"
+    },
+    {
+      "parameters": {
+        "resource": "image",
+        "operation": "analyze",
+        "modelId": {
+          "__rl": true,
+          "value": "chatgpt-4o-latest",
+          "mode": "list",
+          "cachedResultName": "CHATGPT-4O-LATEST"
+        },
+        "text": "Describe the product in this image. Go into detail.",
+        "imageUrls": "={{ $json.data.url }}",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        400,
+        1712
+      ],
+      "id": "df789ea9-3224-4e6f-b213-fc6ab1566b63",
+      "name": "Analyze image",
+      "credentials": {
+        "openAiApi": {
+          "id": "D6xep2vJGEruT1qk",
+          "name": "Client Ascension OpenAI Account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.7-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        640,
+        1920
+      ],
+      "id": "9a675e8e-93d1-4174-b5f6-683fdc2ba7bc",
+      "name": "OpenRouter Chat Model",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "sonar-pro",
+        "messages": {
+          "message": [
+            {
+              "content": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('message0_Text', ``, 'string') }}"
+            }
+          ]
+        },
+        "simplify": true,
+        "options": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-base.perplexityTool",
+      "typeVersion": 1,
+      "position": [
+        768,
+        1920
+      ],
+      "id": "738ce7e2-2d02-4860-923d-2779a5368e49",
+      "name": "Message a model in Perplexity",
+      "credentials": {
+        "perplexityApi": {
+          "id": "tDkFR32KWXKeIPzc",
+          "name": "Perplexity account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Conduct comprehensive brand research for {{ $json.brandName }} and generate 5 detailed Nano Banana prompts for visually distinct product photoshoot scenes that align with brand identity and drive visual engagement.\nBRAND TO RESEARCH: {{ $json.brandName }}\nWEBSITE: {{ $json.brandWebsite }}\nPRODUCT DESCRIPTION: {{ $('Analyze image').first().json.content}}\nPHOTOSHOOT GOALS: {{ $json.photoshootGoals }}\nADDITIONAL CONTEXT: {{ $json.context }}\n\n\nREQUIRED RESEARCH AREAS:\n\n1. VISUAL BRAND IDENTITY ANALYSIS\n   - Brand aesthetic, color palettes, and visual style guidelines\n   - Existing product photography style and presentation\n   - Visual storytelling themes and motifs\n   - Typography, textures, and design elements\n   - Mood and emotional tone in visual content\n\n2. PRODUCT PRESENTATION INTELLIGENCE\n   - How products are currently showcased (angles, lighting, staging)\n   - Hero product features to highlight visually\n   - Product usage contexts and lifestyle associations\n   - Packaging design and unboxing experiences\n   - Product scale, materials, and textural qualities\n\n3. TARGET AUDIENCE VISUAL PREFERENCES\n   - Lifestyle imagery that resonates with target demographic\n   - Visual content engagement patterns from social media\n   - Aesthetic preferences and style aspirations\n   - Environmental and contextual preferences\n   - Cultural and seasonal visual considerations\n\n4. COMPETITIVE VISUAL LANDSCAPE\n   - Competitor product photography styles and techniques\n   - Industry visual standards and expectations\n   - Innovative or unique visual approaches in the market\n   - Visual differentiation opportunities\n   - Trending photography styles in the category\n\n5. BRAND STORYTELLING ELEMENTS\n   - Brand narrative and visual metaphors\n   - Emotional triggers and aspirational imagery\n   - Brand values expressed through visuals\n   - Lifestyle and usage scenarios\n   - Brand personality traits to convey visually\n\nREQUIRED OUTPUT - 5 NANO BANANA PROMPTS:\n\nCreate 5 detailed, production-ready Nano Banana prompts, each representing a distinct photoshoot scene that:\n- Captures different aspects of the brand identity\n- Appeals to various customer segments or use cases\n- Varies in mood, setting, and visual style\n- Includes specific technical photography parameters\n\nEACH NANO BANANA PROMPT MUST INCLUDE:\n\n1. SCENE DESCRIPTION\n   - Detailed environment and setting\n   - Product placement and arrangement\n   - Props and styling elements\n   - Background and foreground details\n\n2. VISUAL STYLE PARAMETERS\n   - Photography style (e.g., minimalist, lifestyle, editorial)\n   - Lighting setup and mood\n   - Color grading and tone\n   - Camera angle and composition\n\n3. TECHNICAL SPECIFICATIONS\n   - Shot type (close-up, wide angle, macro, etc.)\n   - Depth of field specifications\n   - Aspect ratio and framing\n   - Post-processing style\n\n4. BRAND ALIGNMENT NOTES\n   - How this scene reflects brand values\n   - Target audience appeal\n   - Intended emotional response\n   - Usage context (social media, website, ads, etc.)\n\nPROMPT STRUCTURE EXAMPLE:\n\"[Product name] photographed in [setting/environment], [arrangement/positioning], surrounded by [props/elements], [lighting description], [color palette], shot with [camera angle/technique], [mood/atmosphere], [style reference], professional product photography, high resolution, [specific technical details]\"\n\nOUTPUT FORMAT:\n1. Brand Research Summary (brief overview of key findings)\n2. Five Distinct Nano Banana Prompts:\n   - PROMPT 1: [Hero Product Shot] - Complete prompt text\n   - PROMPT 2: [Lifestyle Context] - Complete prompt text\n   - PROMPT 3: [Detail/Texture Focus] - Complete prompt text\n   - PROMPT 4: [Aspirational Scene] - Complete prompt text\n   - PROMPT 5: [Creative/Artistic] - Complete prompt text\n3. Implementation Notes for each prompt\n4. Recommended variations and iterations",
+        "options": {
+          "systemMessage": "=You are an expert brand research analyst and AI prompt engineer specializing in creating Nano Banana prompts for product photography. Your role is to conduct comprehensive brand research and translate findings into 5 precisely crafted Nano Banana prompts that generate visually distinct, brand-aligned product photoshoot scenes.\n\nYou have access to the webSearch tool to gather real-time information about brands, visual trends, and competitive photography approaches.\n\nPRIMARY OBJECTIVE:\nGenerate 5 production-ready Nano Banana prompts that create visually distinct product photography scenes, each serving different marketing purposes while maintaining brand consistency.\n\nRESEARCH TO PROMPT TRANSLATION METHODOLOGY:\n\n1. BRAND VISUAL EXTRACTION\n   - Identify core visual elements to incorporate in prompts\n   - Extract specific color hex codes or color descriptions\n   - Document texture, material, and surface preferences\n   - Capture brand mood and atmospheric qualities\n   - Define visual style keywords for prompt inclusion\n\n2. PROMPT ENGINEERING REQUIREMENTS\n   - Use precise, descriptive language that Nano Banana interprets well\n   - Include specific photography terminology and techniques\n   - Balance creative direction with technical specifications\n   - Ensure each prompt is self-contained and complete\n   - Optimize for high-quality, professional output\n\n3. SCENE DIVERSIFICATION STRATEGY\n   Each of the 5 prompts must represent a different photographic approach:\n   \n   PROMPT 1 - HERO PRODUCT SHOT:\n   - Clean, professional, e-commerce ready\n   - Focus on product details and quality\n   - Minimal, distraction-free environment\n   - Technical precision and clarity\n   \n   PROMPT 2 - LIFESTYLE CONTEXT:\n   - Product in natural use environment\n   - Human elements or lifestyle cues\n   - Storytelling through scene composition\n   - Emotional connection and aspiration\n   \n   PROMPT 3 - DETAIL/MACRO FOCUS:\n   - Extreme close-up of textures/features\n   - Material quality and craftsmanship\n   - Artistic abstraction of product elements\n   - Technical innovation highlights\n   \n   PROMPT 4 - ASPIRATIONAL SCENE:\n   - Premium, luxury positioning\n   - Elevated styling and props\n   - High-end photography techniques\n   - Brand prestige and desire creation\n   \n   PROMPT 5 - CREATIVE/ARTISTIC:\n   - Unconventional angles or perspectives\n   - Artistic interpretation of brand values\n   - Social media thumb-stopping potential\n   - Brand personality expression\n\nNANO BANANA PROMPT OPTIMIZATION RULES:\n\n1. STRUCTURE: Follow this optimal format:\n   \"[Subject] + [Action/Position] + [Environment] + [Lighting] + [Style] + [Technical Specs] + [Quality Markers]\"\n\n2. ESSENTIAL ELEMENTS TO INCLUDE:\n   - Primary subject (product) description\n   - Spatial relationships and composition\n   - Lighting type and direction\n   - Color palette and grading\n   - Photography style references\n   - Technical camera settings\n   - Quality indicators (8K, professional, commercial)\n\n3. KEYWORDS THAT WORK WELL IN NANO BANANA:\n   - Lighting: \"soft box lighting\", \"golden hour\", \"rim lighting\", \"studio strobe\"\n   - Style: \"commercial photography\", \"editorial style\", \"minimalist aesthetic\"\n   - Technical: \"shallow depth of field\", \"tilt-shift\", \"macro lens\", \"85mm portrait lens\"\n   - Quality: \"award-winning\", \"professionally retouched\", \"magazine quality\"\n\n4. AVOID:\n   - Overly complex or contradictory instructions\n   - Abstract concepts without visual anchors\n   - Excessive prompt length (keep under 150 words)\n   - Conflicting style references\n\nPROMPT TESTING CRITERIA:\nEach prompt should be evaluated for:\n- Clarity and specificity of visual outcome\n- Brand alignment and consistency\n- Technical feasibility\n- Differentiation from other prompts\n- Marketing application value\n\nOUTPUT DELIVERABLES:\n\n1. BRAND INSIGHTS SUMMARY (200 words max)\n   - Key visual identity elements discovered\n   - Target audience visual preferences\n   - Competitive differentiation opportunities\n\n2. FIVE NANO BANANA PROMPTS\n   Format each as:\nPROMPT [NUMBER]: [SCENE TYPE]\nTarget Use: [Platform/Purpose]\n\"[Complete Nano Banana prompt text - 100-150 words]\"\nKey Elements:\n\n[Bullet list of critical components]\n[Brand alignment factors]\n[Technical specifications]\n\n3. IMPLEMENTATION GUIDE\n- Recommended order of prompt execution\n- Potential variations for A/B testing\n- Post-processing suggestions\n- Usage rights and applications\n\n4. OPTIMIZATION NOTES\n- Alternative keywords for different results\n- Seasonal or campaign-specific adaptations\n- Cross-platform modifications\n\nYour prompts should enable immediate production of high-quality, brand-aligned product photography through Nano Banana, eliminating the need for traditional photoshoot logistics while maintaining professional standards."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        624,
+        1696
+      ],
+      "id": "e9d50c75-1045-4a01-bcbd-f55c5a465c43",
+      "name": "Photoshoot Research Agent"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Get the input from the AI agent\nconst agentOutput = $input.first().json.output;\n\n// Define regex pattern to extract prompts\n// Looking for text between quotes after \"PROMPT [NUMBER]:\" sections\nconst promptPattern = /PROMPT \\d+:.*?\\n.*?\\n\\n\\\"([^\\\"]+)\\\"/g;\n\n// Extract all prompts\nconst prompts = [];\nlet match;\n\nwhile ((match = promptPattern.exec(agentOutput)) !== null) {\n  prompts.push(match[1]);\n}\n\n// If regex doesn't work, try alternative approach\nif (prompts.length === 0) {\n  // Split by PROMPT and extract content between quotes\n  const sections = agentOutput.split(/PROMPT \\d+:/);\n  \n  for (let i = 1; i < sections.length; i++) {\n    const quotedContent = sections[i].match(/\\\"([^\\\"]+)\\\"/);\n    if (quotedContent && quotedContent[1]) {\n      prompts.push(quotedContent[1]);\n    }\n  }\n}\n\n// Also extract the scene types for reference\nconst sceneTypes = [\n  \"Hero Product Shot\",\n  \"Lifestyle Context\", \n  \"Detail/Texture Focus\",\n  \"Aspirational Scene\",\n  \"Creative/Artistic\"\n];\n\n// Return each prompt as a separate item\nreturn prompts.map((prompt, index) => ({\n  json: {\n    promptNumber: index + 1,\n    sceneType: sceneTypes[index] || `Scene ${index + 1}`,\n    prompt: prompt,\n    // Also include some metadata that might be useful\n    targetUse: extractTargetUse(agentOutput, index + 1),\n    brandName: extractBrandName(prompt)\n  }\n}));\n\n// Helper function to extract target use\nfunction extractTargetUse(text, promptNumber) {\n  const pattern = new RegExp(`PROMPT ${promptNumber}:.*?\\\\nTarget Use: ([^\\\\n]+)`, 's');\n  const match = text.match(pattern);\n  return match ? match[1] : \"\";\n}\n\n// Helper function to extract brand/product name from prompt\nfunction extractBrandName(prompt) {\n  // Look for common brand patterns in the prompt\n  const brandMatch = prompt.match(/^([^,]+(?:bottle|product|perfume|Eau de Parfum))/i);\n  return brandMatch ? brandMatch[1].trim() : \"Product\";\n}"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        976,
+        1696
+      ],
+      "id": "cf315671-846e-4937-b0cf-a05463debff1",
+      "name": "Code"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        1200,
+        1696
+      ],
+      "id": "4974e329-1ae2-424d-8b65-d8b0eaf3b1a0",
+      "name": "Loop Over Items"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.imgbb.com/1/upload",
+        "sendBody": true,
+        "contentType": "multipart-form-data",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "parameterType": "formBinaryData",
+              "name": "image",
+              "inputDataFieldName": "Product_Photo__PNG_Preferable_"
+            },
+            {
+              "name": "key",
+              "value": "=e054dbd295e45cd7e27b4b74f298acbd"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "dedc3de5-3f43-4a5a-84e0-1d09d8f1e530",
+      "name": "Upload Original Image to imgbb",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [
+        176,
+        1712
+      ],
+      "retryOnFail": true,
+      "typeVersion": 4.2
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "returning-check",
+              "leftValue": "={{ $('On form submission').first().json['Existing Client?'] }}",
+              "rightValue": "Yes",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1872,
+        1232
+      ],
+      "id": "feba4cc0-b2e8-487d-a2bc-392f387ffedd",
+      "name": "Check If Returning Client"
+    },
+    {
+      "parameters": {
+        "resource": "fileFolder",
+        "queryString": "={{ $('Set Brand Details').first().json.brandName }}",
+        "filter": {
+          "folderId": {
+            "__rl": true,
+            "value": "1Sw0kTgXq8Nki7Woz-0Eso-xMSDksW3MD",
+            "mode": "list",
+            "cachedResultName": "Clients"
+          }
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        2096,
+        944
+      ],
+      "id": "e3988c94-6b31-4aff-a4e9-15d17dd636f5",
+      "name": "Search for Existing Folder",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "folder",
+        "name": "={{ $('Set data').first().json.brandName }}",
+        "driveId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "My Drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "value": "1Sw0kTgXq8Nki7Woz-0Eso-xMSDksW3MD",
+          "mode": "list",
+          "cachedResultName": "Clients"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        2096,
+        1328
+      ],
+      "id": "d4163111-887f-49c9-85fd-242623e18b5c",
+      "name": "Create New Client Folder",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "move",
+        "fileId": {
+          "__rl": true,
+          "value": "={{ $('Campaign Google Doc Creator').item.json.documentId }}",
+          "mode": "id"
+        },
+        "driveId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "My Drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "value": "={{ $json.id }}",
+          "mode": "id"
+        }
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        2768,
+        1088
+      ],
+      "id": "0d0e857d-d784-4f3c-90cc-fa67e6625f91",
+      "name": "Move to Existing Folder",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "move",
+        "fileId": {
+          "__rl": true,
+          "value": "={{ $('Code1').item.json.fileId }}",
+          "mode": "id"
+        },
+        "driveId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "My Drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "value": "={{ $('Create New Client Folder').item.json.id }}",
+          "mode": "id"
+        }
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        2768,
+        1472
+      ],
+      "id": "cad346cf-4a58-4319-8253-f802525039d5",
+      "name": "Move to New Folder",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "select": "user",
+        "user": {
+          "__rl": true,
+          "value": "U04GPFR7TN1",
+          "mode": "list",
+          "cachedResultName": "lucas035"
+        },
+        "text": "=*📸 Product Photoshoot Complete*\n\n*Client:* {{ $json.brandName }}\n*Status:* ✨ 5 New Product Images Ready\n*Location:* Google Drive\n\n━━━━━━━━━━━━━━━━━━━━━━━\n\n*🎨 Photoshoot Deliverables:*\n- Hero Product Shot (E-commerce Ready)\n- Lifestyle Context Scene\n- Detail/Texture Macro Shot\n- Aspirational Brand Scene\n- Creative/Artistic Composition\n\n*🎯 Visual Strategy:*\nBrand-aligned product photography optimized for multi-channel marketing\n\n*📊 Shot Highlights:*\n- Professional studio lighting & composition\n- Platform-specific optimizations\n- High-resolution, commercial quality\n- Ready for immediate deployment\n\n*📁 View Images:*\n<{{ $json.driveURL }}|Open in Google Drive>\n\n_Completed: {{ new Date().toLocaleString() }} | Ready for: E-commerce, Social, Marketing_",
+        "otherOptions": {}
+      },
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        2992,
+        1280
+      ],
+      "id": "08ce98d6-9650-44e9-9787-c361b5897d84",
+      "name": "Slack Notification",
+      "webhookId": "d62fe0f4-e807-4062-98d0-c54713249fb7",
+      "executeOnce": true,
+      "credentials": {
+        "slackOAuth2Api": {
+          "id": "nhkttwRMJO9stSq3",
+          "name": "Slack account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "name": "={{ $('On form submission').first().json['Brand Name'] }} - Brand Photo - {{ $now }}",
+        "driveId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "My Drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "root",
+          "cachedResultName": "/ (Root folder)"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        1424,
+        1232
+      ],
+      "id": "17086335-343b-4c84-9166-aa372dc8aadd",
+      "name": "Upload file",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "aggregate": "aggregateAllItemData",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        1648,
+        1232
+      ],
+      "id": "965c5967-4124-4477-8695-e45297ccc60f",
+      "name": "Aggregate"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Get the aggregated data from the Aggregate node\nconst aggregatedData = $('Aggregate').first().json.data;\n\n// Extract all file IDs from the aggregated data\nconst fileIds = aggregatedData.map(file => ({\n  json: {\n    fileId: file.id,\n    fileName: file.name,\n    // Include other metadata you might need\n    webViewLink: file.webViewLink,\n    webContentLink: file.webContentLink\n  }\n}));\n\nreturn fileIds;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2320,
+        1328
+      ],
+      "id": "25ebc06b-3725-4d43-9c29-5a5cc3f7aad1",
+      "name": "Code1"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        2544,
+        1328
+      ],
+      "id": "bda83281-5925-4845-b04a-4607ea929560",
+      "name": "Loop Over Items1"
+    },
+    {
+      "parameters": {
+        "fields": {
+          "values": [
+            {
+              "name": "brandName",
+              "stringValue": "={{ $('Set data').first().json.brandName }}"
+            },
+            {
+              "name": "driveURL",
+              "stringValue": "=https://drive.google.com/drive/folders/{{ $('Create New Client Folder').item.json.id }}"
+            }
+          ]
+        },
+        "include": "none",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3,
+      "position": [
+        2768,
+        1280
+      ],
+      "id": "c8fbd173-0c3e-4e91-8117-81c486682214",
+      "name": "Prepare Notification Data (New Client)",
+      "executeOnce": true
+    },
+    {
+      "parameters": {
+        "fields": {
+          "values": [
+            {
+              "name": "brandName",
+              "stringValue": "={{ $('Set data').first().json.brandName }}"
+            },
+            {
+              "name": "driveURL",
+              "stringValue": "=https://drive.google.com/drive/folders/{{ $('Move to New Folder').first().json.id }}"
+            }
+          ]
+        },
+        "include": "none",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3,
+      "position": [
+        2768,
+        896
+      ],
+      "id": "002deb20-ad34-40ee-9539-d5eb579369a1",
+      "name": "Prepare Notification Data (Existing Client)"
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "select": "user",
+        "user": {
+          "__rl": true,
+          "value": "U04GPFR7TN1",
+          "mode": "list",
+          "cachedResultName": "lucas035"
+        },
+        "text": "=*📸 Product Photoshoot Complete*\n\n*Client:* {{ $json.brandName }}\n*Status:* ✨ 5 New Product Images Ready\n*Location:* Google Drive\n\n━━━━━━━━━━━━━━━━━━━━━━━\n\n*🎨 Photoshoot Deliverables:*\n- Hero Product Shot (E-commerce Ready)\n- Lifestyle Context Scene\n- Detail/Texture Macro Shot\n- Aspirational Brand Scene\n- Creative/Artistic Composition\n\n*🎯 Visual Strategy:*\nBrand-aligned product photography optimized for multi-channel marketing\n\n*📊 Shot Highlights:*\n- Professional studio lighting & composition\n- Platform-specific optimizations\n- High-resolution, commercial quality\n- Ready for immediate deployment\n\n*📁 View Images:*\n<{{ $json.driveURL }}|Open in Google Drive>\n\n_Completed: {{ new Date().toLocaleString() }} | Ready for: E-commerce, Social, Marketing_",
+        "otherOptions": {}
+      },
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        2992,
+        896
+      ],
+      "id": "3b121181-b33a-4c39-a591-ff975b23ae10",
+      "name": "Slack Notification1",
+      "webhookId": "d62fe0f4-e807-4062-98d0-c54713249fb7",
+      "credentials": {
+        "slackOAuth2Api": {
+          "id": "nhkttwRMJO9stSq3",
+          "name": "Slack account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Get the aggregated data from the Aggregate node\nconst aggregatedData = $('Aggregate').first().json.data;\n\n// Extract all file IDs from the aggregated data\nconst fileIds = aggregatedData.map(file => ({\n  json: {\n    fileId: file.id,\n    fileName: file.name,\n    // Include other metadata you might need\n    webViewLink: file.webViewLink,\n    webContentLink: file.webContentLink\n  }\n}));\n\nreturn fileIds;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2320,
+        944
+      ],
+      "id": "125efc13-7889-4300-983f-d95fd8e522f1",
+      "name": "Code2"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        2544,
+        944
+      ],
+      "id": "9edd831e-fb7d-4807-96dc-18cedb01960e",
+      "name": "Loop Over Items2"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Create Image": {
+      "main": [
+        [
+          {
+            "node": "Wait 60 sec.",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set data": {
+      "main": [
+        [
+          {
+            "node": "Photoshoot Research Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Completed?": {
+      "main": [
+        [
+          {
+            "node": "Get Url image",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Wait 60 sec.",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait 60 sec.": {
+      "main": [
+        [
+          {
+            "node": "Get status",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get status": {
+      "main": [
+        [
+          {
+            "node": "Completed?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Url image": {
+      "main": [
+        [
+          {
+            "node": "Get File image",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get File image": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "On form submission": {
+      "main": [
+        [
+          {
+            "node": "Set data",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Upload Original Image to imgbb",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Analyze image": {
+      "main": [
+        [
+          {
+            "node": "Photoshoot Research Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Photoshoot Research Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Message a model in Perplexity": {
+      "ai_tool": [
+        [
+          {
+            "node": "Photoshoot Research Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Photoshoot Research Agent": {
+      "main": [
+        [
+          {
+            "node": "Code",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Loop Over Items": {
+      "main": [
+        [
+          {
+            "node": "Upload file",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Create Image",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Upload Original Image to imgbb": {
+      "main": [
+        [
+          {
+            "node": "Analyze image",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check If Returning Client": {
+      "main": [
+        [
+          {
+            "node": "Search for Existing Folder",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Create New Client Folder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Search for Existing Folder": {
+      "main": [
+        [
+          {
+            "node": "Code2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create New Client Folder": {
+      "main": [
+        [
+          {
+            "node": "Code1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Move to Existing Folder": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Move to New Folder": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Upload file": {
+      "main": [
+        [
+          {
+            "node": "Aggregate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate": {
+      "main": [
+        [
+          {
+            "node": "Check If Returning Client",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code1": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Loop Over Items1": {
+      "main": [
+        [
+          {
+            "node": "Prepare Notification Data (New Client)",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Move to New Folder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare Notification Data (New Client)": {
+      "main": [
+        [
+          {
+            "node": "Slack Notification",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare Notification Data (Existing Client)": {
+      "main": [
+        [
+          {
+            "node": "Slack Notification1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code2": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Loop Over Items2": {
+      "main": [
+        [
+          {
+            "node": "Prepare Notification Data (Existing Client)",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Move to Existing Folder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "3740bddd-9f32-4a86-9995-5a7d936d1f79",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "94aed49fc73372525d542e924a8b65d38c4cfc7be69ff82b11f83d6bf3d06ce7"
+  },
+  "id": "HI5JtKWHFH1rwRlV",
+  "tags": []
+}

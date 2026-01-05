@@ -1,0 +1,1207 @@
+1
+00:00:00,090 --> 00:00:03,060
+All right so in another video we
+
+2
+00:00:03,560 --> 00:00:06,259
+launched a cbo campaign which a
+
+3
+00:00:06,360 --> 00:00:09,140
+cbo is basically you telling meta
+
+4
+00:00:09,230 --> 00:00:11,039
+hey i want you to distribute my
+
+5
+00:00:11,039 --> 00:00:13,089
+budget that i set on the campaign
+
+6
+00:00:13,089 --> 00:00:15,050
+level between the ad sets that
+
+7
+00:00:15,189 --> 00:00:17,070
+essentially you deem is the best
+
+8
+00:00:17,070 --> 00:00:19,050
+combination right so if you want
+
+9
+00:00:19,050 --> 00:00:20,769
+to bias towards ad set one
+
+10
+00:00:20,910 --> 00:00:21,620
+and put all the spend there
+
+11
+00:00:21,699 --> 00:00:22,609
+because you think it's going to
+
+12
+00:00:22,629 --> 00:00:24,359
+get the best results awesome if
+
+13
+00:00:24,379 --> 00:00:24,699
+you want
+
+14
+00:00:24,789 --> 00:00:26,019
+to do a little bit more of an
+
+15
+00:00:26,019 --> 00:00:27,760
+equal distribution perfect if you
+
+16
+00:00:27,760 --> 00:00:29,339
+want to bias towards ad set two
+
+17
+00:00:29,429 --> 00:00:31,260
+because you deem it'll get the
+
+18
+00:00:31,260 --> 00:00:33,509
+best results awesome no problem at
+
+19
+00:00:33,520 --> 00:00:35,799
+all an abo is the opposite so an
+
+20
+00:00:35,799 --> 00:00:36,380
+abo is
+
+21
+00:00:36,469 --> 00:00:38,280
+where we place the budget on the
+
+22
+00:00:38,280 --> 00:00:40,399
+ad set level and we're essentially
+
+23
+00:00:40,399 --> 00:00:42,460
+saying hey meta i have these three
+
+24
+00:00:42,549 --> 00:00:45,200
+ad sets i'm going to put 50 a day
+
+25
+00:00:45,200 --> 00:00:47,539
+on each ad set i want all of them
+
+26
+00:00:47,560 --> 00:00:50,159
+to get 50 a day spent on them
+
+27
+00:00:50,250 --> 00:00:52,560
+in a cbo you would say hey meta i
+
+28
+00:00:52,560 --> 00:00:54,979
+have these three ad sets i have
+
+29
+00:00:54,979 --> 00:00:58,380
+that total of 150 per day to spend
+
+30
+00:00:58,679 --> 00:00:58,679
+on
+
+31
+00:00:58,770 --> 00:01:00,229
+ads on this campaign so i'm going
+
+32
+00:01:00,490 --> 00:01:02,270
+to put the budget on the campaign
+
+33
+00:01:02,270 --> 00:01:04,200
+level and if you want to spend 20
+
+34
+00:01:04,290 --> 00:01:06,890
+dollars on ad set one 30 on ad set
+
+35
+00:01:06,920 --> 00:01:09,180
+two and a hundred on ad set three
+
+36
+00:01:09,230 --> 00:01:11,790
+totally cool you know best you can
+
+37
+00:01:11,890 --> 00:01:13,689
+bias the spend you can pick which
+
+38
+00:01:13,689 --> 00:01:15,500
+ad sets get the most spend based
+
+39
+00:01:15,540 --> 00:01:17,400
+upon what you deem is going to be
+
+40
+00:01:18,049 --> 00:01:20,019
+the best for me to get results
+
+41
+00:01:20,189 --> 00:01:22,319
+basically so an abo in this video
+
+42
+00:01:22,319 --> 00:01:24,840
+is what we're going to build um so
+
+43
+00:01:24,930 --> 00:01:26,290
+again if you're trying to get
+
+44
+00:01:26,290 --> 00:01:27,969
+leads do leads if you're trying to
+
+45
+00:01:27,969 --> 00:01:29,319
+get sales do sales so if you're
+
+46
+00:01:29,409 --> 00:01:30,870
+doing like a challenge funnel or
+
+47
+00:01:31,129 --> 00:01:32,200
+something like that or a low
+
+48
+00:01:32,200 --> 00:01:33,719
+ticket funnel we do sales the
+
+49
+00:01:33,719 --> 00:01:34,200
+majority of the
+
+50
+00:01:34,290 --> 00:01:35,530
+time i don't really touch any of
+
+51
+00:01:35,530 --> 00:01:36,980
+these other ones unless it's some
+
+52
+00:01:36,980 --> 00:01:38,519
+sort of like content remarketing
+
+53
+00:01:38,609 --> 00:01:40,849
+sequence that we do but let's go
+
+54
+00:01:40,920 --> 00:01:44,680
+leads i do manual leads campaign
+
+55
+00:01:44,769 --> 00:01:47,310
+then from here if we're in an
+
+56
+00:01:47,390 --> 00:01:50,590
+account i'll usually do like smo
+
+57
+00:01:50,659 --> 00:01:52,760
+uh that's our agency sell more
+
+58
+00:01:52,760 --> 00:01:52,900
+online
+
+59
+00:01:53,170 --> 00:01:55,140
+just so i know like what campaigns
+
+60
+00:01:55,170 --> 00:01:57,079
+are running i'll do cbo and i'll
+
+61
+00:01:57,079 --> 00:01:58,989
+do the objective of the campaign
+
+62
+00:01:59,090 --> 00:02:00,280
+let's just say we're optimizing
+
+63
+00:02:00,280 --> 00:02:01,799
+around the schedule standard event
+
+64
+00:02:01,799 --> 00:02:04,670
+and then i'll do i don't know um
+
+65
+00:02:05,409 --> 00:02:06,870
+you know fund one right the offer
+
+66
+00:02:07,129 --> 00:02:08,560
+whatever it is so i'm inside of an
+
+67
+00:02:08,879 --> 00:02:09,479
+account right now
+
+68
+00:02:09,569 --> 00:02:11,069
+where these guys raise money for
+
+69
+00:02:11,289 --> 00:02:12,830
+their different funds so you know
+
+70
+00:02:12,840 --> 00:02:14,360
+i'm saying say hey we're raising
+
+71
+00:02:14,449 --> 00:02:16,810
+for fund one right now on the
+
+72
+00:02:17,030 --> 00:02:18,280
+campaign level
+
+73
+00:02:18,370 --> 00:02:23,520
+we are going to go here and what
+
+74
+00:02:23,520 --> 00:02:27,159
+you'll see sometimes is you'll see
+
+75
+00:02:27,159 --> 00:02:28,719
+advantage campaign budget
+
+76
+00:02:28,849 --> 00:02:30,080
+you can turn it on or off now
+
+77
+00:02:30,080 --> 00:02:31,699
+advantage campaign budget and it
+
+78
+00:02:31,729 --> 00:02:33,400
+might look different in some other
+
+79
+00:02:33,490 --> 00:02:34,659
+accounts like let me go into
+
+80
+00:02:34,659 --> 00:02:36,259
+another account real fast here and
+
+81
+00:02:36,259 --> 00:02:36,919
+show you guys
+
+82
+00:02:37,009 --> 00:02:39,409
+especially if you if you do the
+
+83
+00:02:39,599 --> 00:02:41,900
+sales objective it's going to look
+
+84
+00:02:41,949 --> 00:02:42,830
+a lot different
+
+85
+00:02:42,930 --> 00:02:49,020
+similar verbiage but we'll go here
+
+86
+00:02:49,020 --> 00:02:51,530
+into the one of our accounts that
+
+87
+00:02:51,539 --> 00:02:52,199
+is running
+
+88
+00:02:54,340 --> 00:02:55,319
+a sales objective
+
+89
+00:02:55,409 --> 00:03:00,009
+so if you choose for example
+
+90
+00:03:00,009 --> 00:03:04,789
+create campaign sales continue
+
+91
+00:03:05,169 --> 00:03:08,590
+you'll see on the campaign level
+
+92
+00:03:08,639 --> 00:03:12,280
+campaign budget and ad set budget
+
+93
+00:03:12,280 --> 00:03:13,960
+campaign budget is cbo ad set
+
+94
+00:03:14,050 --> 00:03:15,460
+budget is abo right so it's going
+
+95
+00:03:15,460 --> 00:03:17,020
+to look different honestly on some
+
+96
+00:03:17,520 --> 00:03:18,469
+different ad accounts it looks
+
+97
+00:03:18,610 --> 00:03:20,580
+totally different too uh just know
+
+98
+00:03:20,610 --> 00:03:23,030
+that campaign budget or this
+
+99
+00:03:23,069 --> 00:03:25,400
+advantage campaign budget thing is
+
+100
+00:03:25,490 --> 00:03:27,819
+a cbo if you turn this off or on
+
+101
+00:03:28,060 --> 00:03:30,000
+the flip side you select ad set
+
+102
+00:03:30,000 --> 00:03:31,960
+budget that's an abo right so
+
+103
+00:03:31,960 --> 00:03:32,120
+we're
+
+104
+00:03:32,210 --> 00:03:33,530
+going to leave this toggled off
+
+105
+00:03:33,530 --> 00:03:35,620
+here we're going to make sure our
+
+106
+00:03:35,680 --> 00:03:37,400
+objective again is leads we're
+
+107
+00:03:37,400 --> 00:03:37,719
+doing
+
+108
+00:03:37,810 --> 00:03:39,780
+buying type auction i don't touch
+
+109
+00:03:39,810 --> 00:03:41,810
+any of these unless of course
+
+110
+00:03:41,810 --> 00:03:44,120
+you're in a special ad category
+
+111
+00:03:44,210 --> 00:03:46,360
+which you'll know if you are and
+
+112
+00:03:46,360 --> 00:03:48,599
+you can also just read here about
+
+113
+00:03:48,599 --> 00:03:49,789
+special i categories and see if
+
+114
+00:03:49,900 --> 00:03:50,030
+any
+
+115
+00:03:50,129 --> 00:03:52,080
+of these are fit for you then here
+
+116
+00:03:52,080 --> 00:03:54,919
+we'll do the audience so if we're
+
+117
+00:03:54,919 --> 00:03:56,840
+going broad we'll just do broad
+
+118
+00:03:56,930 --> 00:04:01,629
+and if you're doing instant forms
+
+119
+00:04:01,629 --> 00:04:03,099
+you click there most of the time
+
+120
+00:04:03,199 --> 00:04:04,039
+we're doing this though
+
+121
+00:04:04,129 --> 00:04:05,599
+website which is basically going
+
+122
+00:04:05,840 --> 00:04:07,400
+to pull the conversions from your
+
+123
+00:04:07,599 --> 00:04:08,120
+landing page
+
+124
+00:04:08,210 --> 00:04:10,199
+maximum number of conversions we
+
+125
+00:04:10,349 --> 00:04:12,530
+typically always select that then
+
+126
+00:04:12,530 --> 00:04:14,199
+we're going to pick the actual
+
+127
+00:04:15,969 --> 00:04:18,129
+pixel the conversion event that we
+
+128
+00:04:18,170 --> 00:04:19,879
+placed on the landing page
+
+129
+00:04:19,970 --> 00:04:22,660
+then sometimes we'll turn on
+
+130
+00:04:23,439 --> 00:04:25,790
+dynamic creative other times we
+
+131
+00:04:25,790 --> 00:04:27,879
+won't in the last video i showed
+
+132
+00:04:27,970 --> 00:04:29,300
+you dynamic creative in this case
+
+133
+00:04:29,300 --> 00:04:30,540
+we're going to leave it off so i
+
+134
+00:04:30,600 --> 00:04:32,120
+can show you individual ads as
+
+135
+00:04:32,209 --> 00:04:33,480
+well and then like i said we're
+
+136
+00:04:33,480 --> 00:04:34,839
+doing an abo so this is where we
+
+137
+00:04:34,839 --> 00:04:36,629
+place the budget on the ad set so
+
+138
+00:04:36,769 --> 00:04:38,139
+if we put a hundred dollars here
+
+139
+00:04:38,139 --> 00:04:39,660
+this ad set this broad ad set will
+
+140
+00:04:39,680 --> 00:04:41,189
+get a hundred dollars in spend
+
+141
+00:04:43,089 --> 00:04:44,560
+then we could schedule it then of
+
+142
+00:04:44,800 --> 00:04:48,410
+course if you want to switch your
+
+143
+00:04:48,410 --> 00:04:50,360
+audiences and you want to start
+
+144
+00:04:50,449 --> 00:04:51,920
+doing intro stacks and stuff like
+
+145
+00:04:52,170 --> 00:04:53,290
+that or put exclusions in or
+
+146
+00:04:53,290 --> 00:04:54,870
+custom audience you click this
+
+147
+00:04:55,009 --> 00:04:57,329
+here switch to original audience
+
+148
+00:04:57,589 --> 00:05:00,060
+options if you're doing broad you
+
+149
+00:05:00,060 --> 00:05:03,139
+can fiddle with the age here or
+
+150
+00:05:03,329 --> 00:05:06,170
+exclude custom audiences or change
+
+151
+00:05:06,170 --> 00:05:08,699
+the locations and then i always
+
+152
+00:05:08,699 --> 00:05:11,319
+like to turn this off i do manual
+
+153
+00:05:11,410 --> 00:05:13,620
+placements and i uncheck audience
+
+154
+00:05:13,720 --> 00:05:15,720
+network a little tip for y'all
+
+155
+00:05:15,810 --> 00:05:19,199
+then here is where we'll label our
+
+156
+00:05:19,279 --> 00:05:22,579
+dynamic creative test if we're
+
+157
+00:05:22,579 --> 00:05:26,360
+doing a dct but in this case we're
+
+158
+00:05:26,449 --> 00:05:28,420
+doing actual individual ads so
+
+159
+00:05:28,420 --> 00:05:30,439
+what we're going to do is maybe
+
+160
+00:05:30,439 --> 00:05:32,269
+we'll do you know batch one
+
+161
+00:05:34,290 --> 00:05:36,949
+add you know we'll do like hook
+
+162
+00:05:36,949 --> 00:05:39,480
+one body one right whatever
+
+163
+00:05:39,480 --> 00:05:41,620
+whatever that ad is you know if
+
+164
+00:05:41,639 --> 00:05:42,110
+it's batch
+
+165
+00:05:42,209 --> 00:05:43,420
+one we're launching for this
+
+166
+00:05:43,420 --> 00:05:44,889
+client with hook one and body one
+
+167
+00:05:44,889 --> 00:05:46,600
+we'll label it like that just so i
+
+168
+00:05:46,600 --> 00:05:46,839
+know
+
+169
+00:05:46,930 --> 00:05:48,379
+exactly you know what we're
+
+170
+00:05:48,379 --> 00:05:50,259
+launching right inside of this ad
+
+171
+00:05:50,399 --> 00:05:51,949
+then from here manual upload
+
+172
+00:05:51,959 --> 00:05:53,720
+single image
+
+173
+00:05:53,810 --> 00:05:54,920
+unless you're doing a carousel or
+
+174
+00:05:54,920 --> 00:05:56,209
+something like that we'll put the
+
+175
+00:05:56,430 --> 00:05:58,120
+actual landing page here make sure
+
+176
+00:05:58,209 --> 00:05:59,699
+to turn these browser add-ons off
+
+177
+00:05:59,889 --> 00:06:01,879
+and now this whole thing where
+
+178
+00:06:01,889 --> 00:06:04,040
+they do the setup creative now
+
+179
+00:06:04,040 --> 00:06:05,800
+this might change it changes quite
+
+180
+00:06:05,800 --> 00:06:05,879
+a
+
+181
+00:06:05,970 --> 00:06:07,800
+bit but make sure you turn off
+
+182
+00:06:07,800 --> 00:06:08,939
+these site links
+
+183
+00:06:09,089 --> 00:06:12,060
+let's just go into here and pick
+
+184
+00:06:12,060 --> 00:06:13,649
+you know a random image say you're
+
+185
+00:06:13,649 --> 00:06:14,360
+running an image ad
+
+186
+00:06:17,139 --> 00:06:18,600
+i usually do original on these
+
+187
+00:06:18,600 --> 00:06:20,019
+because you know if you click
+
+188
+00:06:20,600 --> 00:06:21,870
+something like this 9 by 16
+
+189
+00:06:21,970 --> 00:06:25,879
+unless you upload a actual 9 by 16
+
+190
+00:06:25,879 --> 00:06:28,379
+image you know this is an image ad
+
+191
+00:06:28,379 --> 00:06:29,959
+we're we're placing in here if
+
+192
+00:06:30,050 --> 00:06:31,370
+you hit replace here you can put
+
+193
+00:06:31,370 --> 00:06:32,790
+in a 9 by 16 image for this
+
+194
+00:06:32,790 --> 00:06:34,470
+stories and reels placements here
+
+195
+00:06:34,610 --> 00:06:36,060
+if not i just leave it as original
+
+196
+00:06:36,329 --> 00:06:37,860
+and it'll add some like nice
+
+197
+00:06:38,079 --> 00:06:39,160
+buffer up here so it wasn't like
+
+198
+00:06:39,160 --> 00:06:39,480
+all cut
+
+199
+00:06:39,569 --> 00:06:42,649
+off and weird text we're gonna do
+
+200
+00:06:43,040 --> 00:06:48,120
+you know body copy headline body
+
+201
+00:06:48,120 --> 00:06:50,600
+copy or sorry headline knows put
+
+202
+00:06:50,689 --> 00:06:53,009
+some random stuff description
+
+203
+00:06:54,160 --> 00:06:58,189
+click usually do learn more next i
+
+204
+00:06:58,290 --> 00:07:01,240
+like to turn all this junk off
+
+205
+00:07:01,240 --> 00:07:02,120
+personally
+
+206
+00:07:02,209 --> 00:07:04,110
+so i will turn all of these
+
+207
+00:07:04,110 --> 00:07:06,839
+sometimes i will leave this one on
+
+208
+00:07:06,839 --> 00:07:09,240
+i'll leave add overlays on because
+
+209
+00:07:09,240 --> 00:07:09,399
+that's
+
+210
+00:07:09,490 --> 00:07:11,639
+actually looking relatively okay
+
+211
+00:07:11,689 --> 00:07:13,639
+usually i'll turn this off too
+
+212
+00:07:13,639 --> 00:07:16,439
+i'll keep enhanced cta on
+
+213
+00:07:16,529 --> 00:07:17,990
+too sometimes but i'll turn off
+
+214
+00:07:18,240 --> 00:07:19,720
+text improvements so usually like
+
+215
+00:07:20,000 --> 00:07:21,550
+these are the only two that i
+
+216
+00:07:21,649 --> 00:07:24,120
+typically will turn on um but most
+
+217
+00:07:24,269 --> 00:07:26,519
+of the time i'll even like turn
+
+218
+00:07:26,519 --> 00:07:28,199
+this one off but other than that
+
+219
+00:07:28,290 --> 00:07:30,259
+all the other stuff like the music
+
+220
+00:07:30,259 --> 00:07:32,009
+the visual touch-ups um 3d
+
+221
+00:07:32,009 --> 00:07:34,110
+animations sometimes i will keep
+
+222
+00:07:34,189 --> 00:07:34,199
+the
+
+223
+00:07:34,290 --> 00:07:36,189
+visual touch-ups on but honestly
+
+224
+00:07:36,189 --> 00:07:38,100
+like i'll see a lot of times these
+
+225
+00:07:38,100 --> 00:07:39,310
+things get cropped
+
+226
+00:07:39,410 --> 00:07:41,399
+out and it just looks super super
+
+227
+00:07:41,509 --> 00:07:43,600
+ugly um like half the image will
+
+228
+00:07:43,600 --> 00:07:45,399
+be showing on the whole page
+
+229
+00:07:45,490 --> 00:07:47,459
+it's just a mess so keep those on
+
+230
+00:07:47,459 --> 00:07:49,480
+if you want you turn them all on
+
+231
+00:07:49,480 --> 00:07:51,800
+or turn them all off if you'd like
+
+232
+00:07:51,889 --> 00:07:53,620
+again we still don't want to max
+
+233
+00:07:53,620 --> 00:07:55,370
+out all of these so we can put up
+
+234
+00:07:55,370 --> 00:07:57,800
+to five primary texts and five
+
+235
+00:07:57,889 --> 00:07:59,879
+headlines and five descriptions i
+
+236
+00:07:59,910 --> 00:08:01,709
+only will do about two to three
+
+237
+00:08:01,709 --> 00:08:04,040
+pieces of primary text two to
+
+238
+00:08:04,040 --> 00:08:04,199
+three
+
+239
+00:08:04,290 --> 00:08:06,230
+headlines one to two descriptions
+
+240
+00:08:06,230 --> 00:08:08,040
+max unless even if i'm at a lower
+
+241
+00:08:08,040 --> 00:08:09,639
+spend level i'll just do like
+
+242
+00:08:09,730 --> 00:08:11,629
+one to two body copies one to two
+
+243
+00:08:11,629 --> 00:08:13,629
+headlines one description and
+
+244
+00:08:13,629 --> 00:08:15,310
+that's it so tracking if you're
+
+245
+00:08:15,410 --> 00:08:16,870
+using hyros or something you'll
+
+246
+00:08:16,870 --> 00:08:18,379
+put your url parameters here and
+
+247
+00:08:18,379 --> 00:08:20,110
+then if you want to duplicate out
+
+248
+00:08:20,769 --> 00:08:23,100
+the ad inside of the same ad set
+
+249
+00:08:23,100 --> 00:08:25,629
+do click duplicate and then all
+
+250
+00:08:25,629 --> 00:08:27,480
+right maybe we'll put
+
+251
+00:08:27,569 --> 00:08:30,540
+hook two body one right we'll go
+
+252
+00:08:30,550 --> 00:08:33,029
+in and again see it always tries
+
+253
+00:08:33,029 --> 00:08:35,000
+to get you to turn these browser
+
+254
+00:08:35,090 --> 00:08:36,580
+add-ons on make sure you click no
+
+255
+00:08:36,809 --> 00:08:37,980
+make sure every time you do a
+
+256
+00:08:37,980 --> 00:08:39,720
+thing sometimes it'll also turn on
+
+257
+00:08:39,809 --> 00:08:41,548
+these stupid site links you want
+
+258
+00:08:41,548 --> 00:08:43,350
+to turn that off too so then we'll
+
+259
+00:08:43,350 --> 00:08:45,159
+go in here we'll do edit media
+
+260
+00:08:45,250 --> 00:08:47,399
+pick another one go through the
+
+261
+00:08:47,450 --> 00:08:48,840
+whole wizard again
+
+262
+00:08:48,929 --> 00:08:51,309
+right even sometimes it for this
+
+263
+00:08:52,340 --> 00:08:54,279
+particular image uh yeah sometimes
+
+264
+00:08:54,279 --> 00:08:55,639
+it'll like turn random stuff on
+
+265
+00:08:55,639 --> 00:08:55,799
+just
+
+266
+00:08:55,889 --> 00:08:57,240
+like be careful with all that
+
+267
+00:08:57,240 --> 00:08:58,740
+stuff you could also go here and
+
+268
+00:08:58,769 --> 00:09:01,799
+look at the um previews of these
+
+269
+00:09:01,889 --> 00:09:03,230
+enhancements and you could turn
+
+270
+00:09:03,230 --> 00:09:04,659
+them off you think they look like
+
+271
+00:09:04,659 --> 00:09:05,799
+garbage so it's up to you
+
+272
+00:09:07,889 --> 00:09:09,350
+sometimes different images will
+
+273
+00:09:09,610 --> 00:09:11,419
+look worse in the previews uh so i
+
+274
+00:09:11,419 --> 00:09:14,279
+keep that in mind but meta is
+
+275
+00:09:14,370 --> 00:09:15,840
+really trying to push all their
+
+276
+00:09:16,090 --> 00:09:17,830
+whole their whole ai optimization
+
+277
+00:09:17,840 --> 00:09:19,639
+stuff and all these weird things
+
+278
+00:09:19,730 --> 00:09:21,139
+right and it's just odd so like
+
+279
+00:09:21,139 --> 00:09:22,580
+even this one here has like the
+
+280
+00:09:22,610 --> 00:09:23,879
+click to learn more like
+
+281
+00:09:23,970 --> 00:09:26,120
+for some reason there i don't know
+
+282
+00:09:26,149 --> 00:09:28,179
+why but i would you know get rid
+
+283
+00:09:28,179 --> 00:09:29,480
+of that so
+
+284
+00:09:29,570 --> 00:09:31,779
+then you put your url parameters
+
+285
+00:09:31,879 --> 00:09:34,210
+there again if you're using hyros
+
+286
+00:09:34,210 --> 00:09:35,149
+or something
+
+287
+00:09:37,570 --> 00:09:39,889
+quick duplicate same thing right
+
+288
+00:09:40,190 --> 00:09:42,360
+hook three and then if you want to
+
+289
+00:09:42,450 --> 00:09:46,679
+run a new ad set we'll do quick
+
+290
+00:09:46,679 --> 00:09:48,519
+duplicate of the ad set
+
+291
+00:09:48,610 --> 00:09:50,779
+and let's say we're doing like an
+
+292
+00:09:50,809 --> 00:09:52,360
+interest stack right
+
+293
+00:09:52,450 --> 00:09:57,149
+or we label the ad set
+
+294
+00:09:57,250 --> 00:09:59,220
+if we're building an interest
+
+295
+00:09:59,220 --> 00:10:01,750
+stack we'll go here use original
+
+296
+00:10:01,750 --> 00:10:02,600
+audience
+
+297
+00:10:04,210 --> 00:10:06,169
+and then we'll just start layering
+
+298
+00:10:06,169 --> 00:10:09,840
+on a bunch of different bunch of
+
+299
+00:10:09,860 --> 00:10:10,759
+different interests right
+
+300
+00:10:10,850 --> 00:10:12,190
+make sure that this is nice and
+
+301
+00:10:12,190 --> 00:10:14,299
+broad over here and you're good to
+
+302
+00:10:14,320 --> 00:10:15,720
+go but that's an abo

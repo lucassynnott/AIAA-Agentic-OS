@@ -1,0 +1,639 @@
+1
+00:00:00,480 --> 00:00:01,620
+- What's up guys, Lucas here.
+
+2
+00:00:01,720 --> 00:00:03,129
+So in this video, I'm going over
+
+3
+00:00:03,439 --> 00:00:04,240
+the landing page
+
+4
+00:00:04,280 --> 00:00:06,200
+CRO analyzer workflow.
+
+5
+00:00:06,240 --> 00:00:07,519
+And what this does is allows you
+
+6
+00:00:07,519 --> 00:00:08,759
+to submit some details
+
+7
+00:00:08,800 --> 00:00:10,699
+about your client along with a
+
+8
+00:00:10,699 --> 00:00:11,800
+link to the landing page
+
+9
+00:00:11,839 --> 00:00:13,599
+that you want to analyze.
+
+10
+00:00:13,640 --> 00:00:16,039
+And then we actually download the
+
+11
+00:00:16,039 --> 00:00:16,679
+webpage,
+
+12
+00:00:16,719 --> 00:00:18,190
+send it to our AI agent and create
+
+13
+00:00:18,410 --> 00:00:19,800
+a full detailed document
+
+14
+00:00:19,839 --> 00:00:21,690
+with a full analysis, breakdown of
+
+15
+00:00:21,690 --> 00:00:22,359
+what to change
+
+16
+00:00:22,399 --> 00:00:24,760
+and what to test, suggestions for
+
+17
+00:00:24,760 --> 00:00:26,000
+what to improve upon,
+
+18
+00:00:26,039 --> 00:00:27,469
+and even some tracking details
+
+19
+00:00:27,719 --> 00:00:29,440
+for your Google analytics
+
+20
+00:00:29,510 --> 00:00:30,199
+dashboard.
+
+21
+00:00:30,239 --> 00:00:32,140
+Before finally moving that to as
+
+22
+00:00:32,140 --> 00:00:33,560
+usual, our client folder
+
+23
+00:00:33,600 --> 00:00:35,539
+and then notifying you in Slack.
+
+24
+00:00:35,579 --> 00:00:36,780
+So starting off with what you need
+
+25
+00:00:36,780 --> 00:00:37,560
+to have set up for this,
+
+26
+00:00:37,600 --> 00:00:39,750
+as usual, you need your Google
+
+27
+00:00:39,750 --> 00:00:41,439
+docs OAuth to set up
+
+28
+00:00:41,479 --> 00:00:43,399
+for the MD2 docs to convert the
+
+29
+00:00:43,399 --> 00:00:44,380
+markdown properly
+
+30
+00:00:44,420 --> 00:00:45,829
+to a Google doc format.
+
+31
+00:00:45,979 --> 00:00:48,539
+We will need a Google drive set up
+
+32
+00:00:48,539 --> 00:00:49,140
+up here
+
+33
+00:00:49,200 --> 00:00:51,899
+and we will need Slack set up as
+
+34
+00:00:51,899 --> 00:00:52,579
+always.
+
+35
+00:00:52,619 --> 00:00:54,500
+Aside from that, just open router,
+
+36
+00:00:54,539 --> 00:00:55,340
+which you should have set up
+
+37
+00:00:55,380 --> 00:00:56,710
+for all of your other AI agent
+
+38
+00:00:56,710 --> 00:00:57,039
+tools.
+
+39
+00:00:57,079 --> 00:00:58,770
+And if you want to use perplexity
+
+40
+00:00:58,859 --> 00:00:59,939
+model for research,
+
+41
+00:00:59,979 --> 00:01:01,530
+which I suggest you do, set up
+
+42
+00:01:01,759 --> 00:01:03,479
+your perplexity account.
+
+43
+00:01:03,520 --> 00:01:04,900
+So let's have a look at what this
+
+44
+00:01:04,900 --> 00:01:05,340
+does.
+
+45
+00:01:05,379 --> 00:01:07,349
+So the form we just have client
+
+46
+00:01:07,349 --> 00:01:08,859
+name, existing client,
+
+47
+00:01:08,900 --> 00:01:10,310
+landing page URL, funnel type,
+
+48
+00:01:10,620 --> 00:01:11,260
+industry niche,
+
+49
+00:01:11,299 --> 00:01:12,680
+and the current funnel metrics.
+
+50
+00:01:12,719 --> 00:01:13,750
+So if you're testing an existing
+
+51
+00:01:13,780 --> 00:01:14,060
+funnel,
+
+52
+00:01:14,099 --> 00:01:15,090
+you can just put it in the current
+
+53
+00:01:15,090 --> 00:01:15,840
+metrics that you know there.
+
+54
+00:01:15,879 --> 00:01:17,989
+If not, just type unknown or leave
+
+55
+00:01:17,989 --> 00:01:18,640
+a blank.
+
+56
+00:01:18,680 --> 00:01:19,769
+Obviously, put your landing page
+
+57
+00:01:19,769 --> 00:01:20,040
+URL.
+
+58
+00:01:20,079 --> 00:01:21,329
+The funnel type, it's a BSL
+
+59
+00:01:21,329 --> 00:01:21,909
+funnel.
+
+60
+00:01:21,959 --> 00:01:22,980
+Niche is online business.
+
+61
+00:01:23,019 --> 00:01:24,099
+And we're using alexromozzi and
+
+62
+00:01:24,099 --> 00:01:25,439
+acquisition.com as an example
+
+63
+00:01:25,439 --> 00:01:25,879
+here.
+
+64
+00:01:25,920 --> 00:01:27,239
+I'm sure that our funnel is top
+
+65
+00:01:27,239 --> 00:01:27,879
+tier already,
+
+66
+00:01:27,920 --> 00:01:29,329
+but you know, it's a good example.
+
+67
+00:01:29,459 --> 00:01:32,560
+So what this does is it actually
+
+68
+00:01:32,560 --> 00:01:34,819
+downloads the full webpage of the
+
+69
+00:01:34,819 --> 00:01:35,079
+URL.
+
+70
+00:01:35,120 --> 00:01:35,579
+You input.
+
+71
+00:01:35,620 --> 00:01:36,719
+So it downloads the full website
+
+72
+00:01:36,719 --> 00:01:37,769
+in HTML.
+
+73
+00:01:37,900 --> 00:01:39,959
+We convert the HTML to markdown to
+
+74
+00:01:39,959 --> 00:01:42,390
+get easier for our AI agent to
+
+75
+00:01:42,390 --> 00:01:42,859
+analyze.
+
+76
+00:01:42,900 --> 00:01:44,340
+And then the AI agent analyzes
+
+77
+00:01:44,599 --> 00:01:44,959
+this.
+
+78
+00:01:45,000 --> 00:01:46,280
+Now, it's a very detailed system
+
+79
+00:01:46,280 --> 00:01:47,150
+problem we have here.
+
+80
+00:01:47,219 --> 00:01:48,030
+First of all, up here, we've got
+
+81
+00:01:48,030 --> 00:01:49,480
+the client name, the sales funnel,
+
+82
+00:01:49,519 --> 00:01:50,609
+system type, industry niche, all
+
+83
+00:01:50,609 --> 00:01:51,950
+the information we just got from
+
+84
+00:01:51,950 --> 00:01:52,640
+our form.
+
+85
+00:01:52,680 --> 00:01:54,840
+They have an extremely detailed
+
+86
+00:01:54,930 --> 00:01:57,120
+system message here, as you can
+
+87
+00:01:57,120 --> 00:01:57,599
+see.
+
+88
+00:01:57,640 --> 00:01:59,650
+And as I mentioned, we do have
+
+89
+00:01:59,650 --> 00:02:01,439
+perplexity set up and we're
+
+90
+00:02:01,439 --> 00:02:02,540
+actually letting the model
+
+91
+00:02:02,579 --> 00:02:04,049
+itself to find the messages on the
+
+92
+00:02:04,299 --> 00:02:06,040
+output that we're using for this.
+
+93
+00:02:06,079 --> 00:02:07,629
+So to do that, you'll see a
+
+94
+00:02:07,780 --> 00:02:08,990
+little, this, this little icon
+
+95
+00:02:08,990 --> 00:02:10,038
+here is like three stars.
+
+96
+00:02:10,080 --> 00:02:10,939
+You'll see that over here.
+
+97
+00:02:10,979 --> 00:02:12,129
+That's what we click for that.
+
+98
+00:02:12,180 --> 00:02:13,729
+And so this is allows our agent to
+
+99
+00:02:13,900 --> 00:02:15,639
+actually set, come up with the
+
+100
+00:02:15,639 --> 00:02:16,599
+message that it sends to
+
+101
+00:02:16,599 --> 00:02:17,379
+perplexity.
+
+102
+00:02:17,419 --> 00:02:18,729
+Again, you want to connect your
+
+103
+00:02:18,729 --> 00:02:20,409
+perplexity account, just get your
+
+104
+00:02:20,409 --> 00:02:23,090
+API key and put that in there.
+
+105
+00:02:23,219 --> 00:02:25,520
+And then we're using sonar deep
+
+106
+00:02:25,520 --> 00:02:27,620
+research to do the research.
+
+107
+00:02:28,060 --> 00:02:30,099
+After that, we get our output and
+
+108
+00:02:30,099 --> 00:02:31,520
+we convert it to markdowns using a
+
+109
+00:02:31,520 --> 00:02:32,879
+basic markdown converter agent.
+
+110
+00:02:32,919 --> 00:02:34,889
+And then we send it to md2docs to
+
+111
+00:02:34,889 --> 00:02:37,020
+create our document before finally
+
+112
+00:02:37,020 --> 00:02:38,879
+checking is an existing client.
+
+113
+00:02:38,919 --> 00:02:40,180
+If they are, we'll move the
+
+114
+00:02:40,180 --> 00:02:41,719
+document to the existing client
+
+115
+00:02:41,719 --> 00:02:42,280
+folder.
+
+116
+00:02:42,319 --> 00:02:43,560
+And if they're not, we'll create a
+
+117
+00:02:43,560 --> 00:02:44,569
+new folder and move the doc in
+
+118
+00:02:44,569 --> 00:02:45,960
+there before notifying you in
+
+119
+00:02:45,960 --> 00:02:46,719
+Slack.
+
+120
+00:02:46,759 --> 00:02:48,189
+So if we take a look at what the
+
+121
+00:02:48,479 --> 00:02:50,180
+document actually looks like,
+
+122
+00:02:50,180 --> 00:02:51,520
+here's the full breakdown.
+
+123
+00:02:51,560 --> 00:02:52,520
+We get an executive summary,
+
+124
+00:02:52,520 --> 00:02:54,620
+critical insight, market context,
+
+125
+00:02:54,620 --> 00:02:55,949
+top five highest impact
+
+126
+00:02:55,949 --> 00:02:57,240
+improvements, rewrite the
+
+127
+00:02:57,759 --> 00:03:00,020
+headline, optimize the primary CTA
+
+128
+00:03:00,069 --> 00:03:00,439
+button,
+
+129
+00:03:00,560 --> 00:03:02,449
+inject scarcity timer and badge,
+
+130
+00:03:02,449 --> 00:03:03,919
+restructure social proof
+
+131
+00:03:03,919 --> 00:03:06,240
+placement, and consent and privacy
+
+132
+00:03:06,759 --> 00:03:07,620
+text in form.
+
+133
+00:03:07,659 --> 00:03:09,569
+Then implementation roadmap, the
+
+134
+00:03:09,569 --> 00:03:11,120
+risk factors we can see with this,
+
+135
+00:03:11,120 --> 00:03:12,849
+post implementation monitoring,
+
+136
+00:03:12,849 --> 00:03:14,439
+and the final notes to look out
+
+137
+00:03:14,599 --> 00:03:15,020
+for.
+
+138
+00:03:15,060 --> 00:03:16,759
+So that's essentially what we're
+
+139
+00:03:16,780 --> 00:03:17,819
+looking at this.
+
+140
+00:03:17,860 --> 00:03:19,580
+It's a very, very quick and easy
+
+141
+00:03:19,650 --> 00:03:20,960
+way for you to get some
+
+142
+00:03:20,960 --> 00:03:22,449
+suggestions on improving your
+
+143
+00:03:22,500 --> 00:03:23,460
+existing funnels you've already
+
+144
+00:03:23,460 --> 00:03:23,819
+created.
+
+145
+00:03:23,860 --> 00:03:25,900
+And as you can see, it's pretty
+
+146
+00:03:25,900 --> 00:03:26,789
+powerful.
+
+147
+00:03:26,860 --> 00:03:28,270
+It goes pretty in detail, provides
+
+148
+00:03:28,400 --> 00:03:29,860
+rewrites and copy suggestions and
+
+149
+00:03:29,860 --> 00:03:30,819
+things like that.
+
+150
+00:03:30,860 --> 00:03:32,289
+And overall is going to be super
+
+151
+00:03:32,580 --> 00:03:33,990
+useful for any of you guys that
+
+152
+00:03:34,000 --> 00:03:35,330
+are creating funnels regularly for
+
+153
+00:03:35,330 --> 00:03:35,819
+clients.
+
+154
+00:03:35,860 --> 00:03:36,939
+I want to test them and see any
+
+155
+00:03:36,939 --> 00:03:38,009
+suggestions or areas you can
+
+156
+00:03:38,110 --> 00:03:38,789
+improve upon.
+
+157
+00:03:38,860 --> 00:03:40,669
+So hope this one helps you and I
+
+158
+00:03:40,669 --> 00:03:42,620
+will see you in the next one.
+
+159
+00:03:42,620 --> 00:03:42,620
+Peace.
+
+160
+00:03:42,659 --> 00:03:42,960
+Peace.

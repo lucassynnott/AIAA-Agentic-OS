@@ -1,0 +1,475 @@
+1
+00:00:00,070 --> 00:00:02,990
+Email marketing optimization let
+
+2
+00:00:02,990 --> 00:00:04,940
+us get into it this is the intro
+
+3
+00:00:04,940 --> 00:00:06,320
+to this new module which will
+
+4
+00:00:06,379 --> 00:00:07,929
+be pretty quick but we're talking
+
+5
+00:00:07,929 --> 00:00:09,470
+about how to so we built the bases
+
+6
+00:00:09,470 --> 00:00:10,539
+we have like our base
+
+7
+00:00:10,650 --> 00:00:12,240
+understanding but now let's talk
+
+8
+00:00:12,240 --> 00:00:13,890
+about how to like take our results
+
+9
+00:00:13,929 --> 00:00:16,800
+really to the next level so i do
+
+10
+00:00:16,859 --> 00:00:18,429
+want to reiterate 90 of the
+
+11
+00:00:18,429 --> 00:00:20,129
+results are driven by the basics
+
+12
+00:00:20,129 --> 00:00:21,629
+what you already know that's
+
+13
+00:00:21,629 --> 00:00:22,239
+carrying
+
+14
+00:00:22,309 --> 00:00:24,489
+90 of the load like whoever it's
+
+15
+00:00:24,489 --> 00:00:26,429
+just trust me the basics having
+
+16
+00:00:26,429 --> 00:00:28,070
+the basics in place carry
+
+17
+00:00:28,170 --> 00:00:29,879
+everything and so if you're under
+
+18
+00:00:29,879 --> 00:00:31,739
+like some like really high revenue
+
+19
+00:00:31,859 --> 00:00:33,520
+numbers then really just focus
+
+20
+00:00:33,579 --> 00:00:35,049
+on that once you get to above like
+
+21
+00:00:35,049 --> 00:00:36,710
+a mil a month 500k a month or so
+
+22
+00:00:36,710 --> 00:00:38,479
+then it really makes sense to
+
+23
+00:00:38,549 --> 00:00:40,170
+double down and triple down on the
+
+24
+00:00:40,200 --> 00:00:41,259
+advanced stuff and the
+
+25
+00:00:41,340 --> 00:00:43,060
+optimizations and all that stuff
+
+26
+00:00:43,140 --> 00:00:44,079
+but kind
+
+27
+00:00:44,140 --> 00:00:45,490
+of under there really just focus
+
+28
+00:00:45,490 --> 00:00:46,969
+on the basics and testing the crap
+
+29
+00:00:46,969 --> 00:00:48,380
+out of them um not necessarily
+
+30
+00:00:48,469 --> 00:00:49,700
+testing the crap out of them but
+
+31
+00:00:49,780 --> 00:00:51,000
+how do we optimize it's like you
+
+32
+00:00:51,000 --> 00:00:52,560
+hear like all my optimizations do
+
+33
+00:00:52,619 --> 00:00:54,240
+this do that really it's just a b
+
+34
+00:00:54,240 --> 00:00:56,100
+tests no matter what you think the
+
+35
+00:00:56,100 --> 00:00:57,600
+numbers don't lie this is what
+
+36
+00:00:57,689 --> 00:00:59,130
+optimization is just testing
+
+37
+00:00:59,130 --> 00:01:00,840
+testing testing testing a b tests
+
+38
+00:01:00,840 --> 00:01:02,159
+it's all it is testing one
+
+39
+00:01:02,219 --> 00:01:03,460
+thing versus another thing and
+
+40
+00:01:03,539 --> 00:01:04,709
+then going with whatever wins
+
+41
+00:01:04,709 --> 00:01:06,000
+that's as much as possible and
+
+42
+00:01:06,060 --> 00:01:07,549
+then apply your learnings that is
+
+43
+00:01:07,549 --> 00:01:09,159
+the biggest thing testing doesn't
+
+44
+00:01:09,159 --> 00:01:10,560
+matter if you don't apply your
+
+45
+00:01:10,629 --> 00:01:12,379
+learnings i see that some people
+
+46
+00:01:12,379 --> 00:01:14,069
+doing the same subject line or
+
+47
+00:01:14,069 --> 00:01:16,859
+time zone a b test for campaigns
+
+48
+00:01:16,950 --> 00:01:18,939
+every single day for months pick
+
+49
+00:01:18,950 --> 00:01:20,939
+the winner and stick with it and
+
+50
+00:01:20,939 --> 00:01:22,879
+if there isn't any clear winner
+
+51
+00:01:22,879 --> 00:01:23,120
+then you
+
+52
+00:01:23,180 --> 00:01:24,400
+know that you can switch between
+
+53
+00:01:24,500 --> 00:01:25,530
+the two but that is what we're
+
+54
+00:01:25,530 --> 00:01:26,760
+going to be going over is the
+
+55
+00:01:26,900 --> 00:01:27,120
+highest
+
+56
+00:01:27,189 --> 00:01:29,030
+leverage a b tests how to set them
+
+57
+00:01:29,030 --> 00:01:30,769
+up and all that good stuff so let
+
+58
+00:01:30,900 --> 00:01:33,840
+us get into it email marketing
+
+59
+00:01:33,930 --> 00:01:35,590
+optimization let us get into it
+
+60
+00:01:35,590 --> 00:01:37,129
+this is the intro to this new
+
+61
+00:01:37,129 --> 00:01:39,120
+module which will be pretty quick
+
+62
+00:01:39,120 --> 00:01:39,359
+but
+
+63
+00:01:39,420 --> 00:01:40,769
+we're talking about how to so we
+
+64
+00:01:40,769 --> 00:01:42,140
+built the bases we have like our
+
+65
+00:01:42,219 --> 00:01:43,760
+base understanding but now let's
+
+66
+00:01:43,760 --> 00:01:43,939
+talk
+
+67
+00:01:44,069 --> 00:01:46,370
+about how to like take our results
+
+68
+00:01:46,370 --> 00:01:48,450
+really to the next level so i do
+
+69
+00:01:48,530 --> 00:01:50,480
+want to reiterate 90 of the
+
+70
+00:01:50,670 --> 00:01:51,120
+results
+
+71
+00:01:51,180 --> 00:01:52,670
+are driven by the basics what you
+
+72
+00:01:52,670 --> 00:01:54,540
+already know that's carrying 90 of
+
+73
+00:01:54,599 --> 00:01:56,879
+the load like whoever it's
+
+74
+00:01:56,939 --> 00:01:58,480
+just trust me the basics having
+
+75
+00:01:58,480 --> 00:01:59,769
+the basics in place carry
+
+76
+00:01:59,769 --> 00:02:01,599
+everything and so if you're under
+
+77
+00:02:01,599 --> 00:02:01,840
+like
+
+78
+00:02:01,900 --> 00:02:03,390
+some like really high revenue
+
+79
+00:02:03,390 --> 00:02:05,120
+numbers then really just focus on
+
+80
+00:02:05,120 --> 00:02:06,799
+that once you get to above like a
+
+81
+00:02:06,859 --> 00:02:08,699
+mil a month 500k a month or so
+
+82
+00:02:08,699 --> 00:02:10,219
+then it really makes sense to
+
+83
+00:02:10,280 --> 00:02:12,569
+double down and triple down on the
+
+84
+00:02:12,710 --> 00:02:13,530
+advanced stuff and the
+
+85
+00:02:13,530 --> 00:02:14,879
+optimizations and all that stuff
+
+86
+00:02:14,879 --> 00:02:16,800
+but kind of under there really
+
+87
+00:02:16,800 --> 00:02:17,360
+just focus on
+
+88
+00:02:17,419 --> 00:02:18,750
+the basics and testing the crap
+
+89
+00:02:18,750 --> 00:02:20,080
+out of them um not necessarily
+
+90
+00:02:20,080 --> 00:02:21,659
+testing the crap out of them but
+
+91
+00:02:21,740 --> 00:02:23,139
+how do we optimize it's like you
+
+92
+00:02:23,139 --> 00:02:24,710
+hear like all my optimizations do
+
+93
+00:02:24,719 --> 00:02:26,509
+this do that really it's just a b
+
+94
+00:02:26,620 --> 00:02:28,129
+tests no matter what you think the
+
+95
+00:02:28,129 --> 00:02:29,530
+numbers don't lie this is what
+
+96
+00:02:29,530 --> 00:02:30,969
+optimization is just testing
+
+97
+00:02:31,069 --> 00:02:31,360
+testing
+
+98
+00:02:31,430 --> 00:02:32,939
+testing testing a b tests it's all
+
+99
+00:02:32,939 --> 00:02:34,360
+it is testing one thing versus
+
+100
+00:02:34,360 --> 00:02:35,939
+another thing and then going with
+
+101
+00:02:36,069 --> 00:02:37,379
+whatever wins test as much as
+
+102
+00:02:37,379 --> 00:02:38,770
+possible and then apply your
+
+103
+00:02:38,770 --> 00:02:40,800
+learnings that is the biggest
+
+104
+00:02:40,800 --> 00:02:41,080
+thing
+
+105
+00:02:41,180 --> 00:02:42,129
+testing doesn't matter if you
+
+106
+00:02:42,150 --> 00:02:43,270
+don't apply your learnings i see
+
+107
+00:02:43,270 --> 00:02:44,960
+that some people doing the same
+
+108
+00:02:45,050 --> 00:02:47,509
+subject line or time zone a b test
+
+109
+00:02:47,509 --> 00:02:50,240
+for campaigns every single day for
+
+110
+00:02:50,300 --> 00:02:52,879
+months pick the winner and
+
+111
+00:02:52,939 --> 00:02:54,069
+stick with it and if there isn't
+
+112
+00:02:54,210 --> 00:02:55,219
+any clear winner then you know
+
+113
+00:02:55,219 --> 00:02:56,479
+that you can switch between the
+
+114
+00:02:56,479 --> 00:02:56,879
+two
+
+115
+00:02:56,939 --> 00:02:58,110
+but that is what we're going to be
+
+116
+00:02:58,259 --> 00:02:59,520
+going over is the highest leverage
+
+117
+00:02:59,520 --> 00:03:00,719
+a b tests how to set
+
+118
+00:03:00,780 --> 00:03:02,840
+them up and all that good stuff so
+
+119
+00:03:02,840 --> 00:03:04,000
+let us get into it

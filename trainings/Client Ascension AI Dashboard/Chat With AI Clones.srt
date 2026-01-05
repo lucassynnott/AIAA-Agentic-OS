@@ -1,0 +1,979 @@
+1
+00:00:00,120 --> 00:00:01,219
+What's up guys, Lucas here.
+
+2
+00:00:01,260 --> 00:00:02,229
+So the first thing I'm going to
+
+3
+00:00:02,319 --> 00:00:03,660
+show you in the AI dashboard is
+
+4
+00:00:03,660 --> 00:00:05,650
+going to be the AI clones
+
+5
+00:00:05,799 --> 00:00:07,320
+of Daniel Fazio and Andre Heichel
+
+6
+00:00:07,440 --> 00:00:07,599
+Jr.
+
+7
+00:00:08,019 --> 00:00:09,789
+Daniel is the go-to guy when it
+
+8
+00:00:09,789 --> 00:00:12,419
+comes to cold email, offers,
+
+9
+00:00:12,419 --> 00:00:14,080
+anything related to packaging
+
+10
+00:00:14,330 --> 00:00:15,390
+what you're selling.
+
+11
+00:00:15,779 --> 00:00:18,000
+Andre is the ops king.
+
+12
+00:00:18,109 --> 00:00:19,309
+Dude knows everything about
+
+13
+00:00:19,710 --> 00:00:21,059
+operations, fulfillment, team
+
+14
+00:00:21,059 --> 00:00:23,059
+management, everything like that.
+
+15
+00:00:23,100 --> 00:00:24,449
+So if you go to chat with Daniel,
+
+16
+00:00:24,519 --> 00:00:25,929
+we log in here, you're going to
+
+17
+00:00:25,929 --> 00:00:26,850
+see that it's going
+
+18
+00:00:26,899 --> 00:00:28,179
+to load a chat with Dan.
+
+19
+00:00:28,339 --> 00:00:29,399
+One thing you can actually do is
+
+20
+00:00:29,399 --> 00:00:30,379
+you can actually call Dan by
+
+21
+00:00:30,379 --> 00:00:31,579
+clicking the little call button
+
+22
+00:00:31,679 --> 00:00:32,890
+here and have a voice conversation
+
+23
+00:00:33,250 --> 00:00:33,590
+with him.
+
+24
+00:00:33,679 --> 00:00:34,869
+Even sounds just like him and you
+
+25
+00:00:34,880 --> 00:00:36,219
+can have a full conversation with
+
+26
+00:00:36,219 --> 00:00:36,619
+him.
+
+27
+00:00:36,659 --> 00:00:37,539
+But let's just start with like a
+
+28
+00:00:37,539 --> 00:00:38,340
+common sort of issue.
+
+29
+00:00:38,439 --> 00:00:41,420
+So I'm going to say like, hey Dan,
+
+30
+00:00:41,420 --> 00:00:44,090
+I'm running a lead generation
+
+31
+00:00:44,090 --> 00:00:46,899
+agency and I'm having trouble
+
+32
+00:00:47,280 --> 00:00:48,979
+signing clients.
+
+33
+00:00:49,359 --> 00:00:53,299
+What should I focus on?
+
+34
+00:00:53,340 --> 00:00:55,100
+We send this and we're going to
+
+35
+00:00:55,100 --> 00:00:56,630
+get a response from Dan.
+
+36
+00:00:57,060 --> 00:00:58,270
+These are trained actually on
+
+37
+00:00:58,469 --> 00:01:00,039
+everything Dan's ever said across
+
+38
+00:01:00,039 --> 00:01:01,939
+YouTube, across Slack, across
+
+39
+00:01:02,039 --> 00:01:03,759
+his Twitter, every source you
+
+40
+00:01:03,759 --> 00:01:05,709
+could possibly find for anything
+
+41
+00:01:05,719 --> 00:01:06,890
+Dan's ever said.
+
+42
+00:01:06,939 --> 00:01:08,219
+I believe it's over 2 million
+
+43
+00:01:08,590 --> 00:01:09,989
+words in total that it's actually
+
+44
+00:01:09,989 --> 00:01:10,680
+trained on.
+
+45
+00:01:10,879 --> 00:01:12,579
+But if you look here now, you can
+
+46
+00:01:12,579 --> 00:01:13,859
+see he says, all right, so you're
+
+47
+00:01:13,859 --> 00:01:14,319
+running a lead generation
+
+48
+00:01:14,420 --> 00:01:15,120
+agency and struggling to sign
+
+49
+00:01:15,159 --> 00:01:15,500
+clients.
+
+50
+00:01:15,540 --> 00:01:16,640
+You've got to focus on three core
+
+51
+00:01:16,640 --> 00:01:17,010
+things.
+
+52
+00:01:17,120 --> 00:01:18,209
+Your offer, your outreach, and
+
+53
+00:01:18,209 --> 00:01:18,780
+your volume.
+
+54
+00:01:18,819 --> 00:01:19,579
+Let's break it down.
+
+55
+00:01:19,640 --> 00:01:20,319
+Your offer needs to be
+
+56
+00:01:20,319 --> 00:01:20,909
+bulletproof.
+
+57
+00:01:20,980 --> 00:01:21,950
+Your outreach needs to be dialed
+
+58
+00:01:22,040 --> 00:01:22,250
+in.
+
+59
+00:01:22,359 --> 00:01:23,219
+Volume is the name of the game.
+
+60
+00:01:23,340 --> 00:01:24,170
+Define your sales process,
+
+61
+00:01:24,170 --> 00:01:25,040
+leverage case studies, and
+
+62
+00:01:25,040 --> 00:01:25,459
+results.
+
+63
+00:01:25,500 --> 00:01:26,450
+So it ends with what's your
+
+64
+00:01:26,450 --> 00:01:27,730
+current offer and outreach process
+
+65
+00:01:27,829 --> 00:01:28,459
+looking like?
+
+66
+00:01:28,500 --> 00:01:29,379
+Let's dig into that.
+
+67
+00:01:29,489 --> 00:01:33,099
+So say my current offer is sign 10
+
+68
+00:01:33,099 --> 00:01:36,939
+to 15 new clients in 30 days or
+
+69
+00:01:36,939 --> 00:01:38,659
+you don't pay.
+
+70
+00:01:39,629 --> 00:01:41,489
+And my outreach process is
+
+71
+00:01:41,489 --> 00:01:44,280
+primarily cold email, but I don't
+
+72
+00:01:44,390 --> 00:01:48,159
+have a particular niche or
+
+73
+00:01:48,159 --> 00:01:49,340
+industry
+
+74
+00:01:49,709 --> 00:01:50,680
+that I focus on.
+
+75
+00:01:55,420 --> 00:01:56,340
+All right, so your offer's solid
+
+76
+00:01:56,340 --> 00:01:56,689
+in theory.
+
+77
+00:01:56,819 --> 00:01:58,120
+It's bold and clear, and it's got
+
+78
+00:01:58,209 --> 00:01:59,260
+a reversal baked in.
+
+79
+00:01:59,299 --> 00:01:59,790
+But here's the issue.
+
+80
+00:01:59,840 --> 00:02:00,680
+That niche you're shooting in the
+
+81
+00:02:00,680 --> 00:02:00,939
+dark.
+
+82
+00:02:00,980 --> 00:02:01,709
+You're trying to be everything to
+
+83
+00:02:01,709 --> 00:02:02,079
+everyone.
+
+84
+00:02:02,120 --> 00:02:02,849
+It's a recipe for media of
+
+85
+00:02:02,849 --> 00:02:03,280
+results.
+
+86
+00:02:03,319 --> 00:02:03,980
+Let's fix that.
+
+87
+00:02:04,019 --> 00:02:05,290
+Niche down like yesterday.
+
+88
+00:02:05,359 --> 00:02:06,329
+You just pick a specific industry
+
+89
+00:02:06,420 --> 00:02:07,519
+or type of business to focus on.
+
+90
+00:02:07,560 --> 00:02:09,180
+So it gives you full solutions on
+
+91
+00:02:09,229 --> 00:02:10,659
+how you refine your cultural
+
+92
+00:02:10,659 --> 00:02:11,300
+process.
+
+93
+00:02:11,400 --> 00:02:12,750
+It even gives you kind of like
+
+94
+00:02:13,069 --> 00:02:15,090
+suggested personalization and kind
+
+95
+00:02:15,090 --> 00:02:16,439
+of like structure.
+
+96
+00:02:16,479 --> 00:02:17,750
+It talks about volume, case
+
+97
+00:02:17,800 --> 00:02:19,319
+studies, and social proof.
+
+98
+00:02:19,360 --> 00:02:20,479
+And then the answer is, here's
+
+99
+00:02:20,479 --> 00:02:21,159
+your game plan.
+
+100
+00:02:21,219 --> 00:02:22,060
+Pick a niche and territory or
+
+101
+00:02:22,060 --> 00:02:22,520
+offer to them.
+
+102
+00:02:22,810 --> 00:02:23,610
+Process your cold emails, scale
+
+103
+00:02:23,610 --> 00:02:24,539
+your outreach, build cases, back
+
+104
+00:02:24,620 --> 00:02:25,490
+up your claims, optimize
+
+105
+00:02:25,539 --> 00:02:26,370
+your online presence to build
+
+106
+00:02:26,370 --> 00:02:26,680
+trust.
+
+107
+00:02:26,719 --> 00:02:27,689
+What niche are you leading toward?
+
+108
+00:02:27,819 --> 00:02:29,180
+Let's figure that out and get you
+
+109
+00:02:29,490 --> 00:02:29,900
+moving.
+
+110
+00:02:29,939 --> 00:02:31,240
+So as you can see, this is like
+
+111
+00:02:31,610 --> 00:02:32,340
+very detailed.
+
+112
+00:02:32,379 --> 00:02:33,650
+You can talk to this all day and
+
+113
+00:02:33,689 --> 00:02:35,289
+get like a full AI consultant from
+
+114
+00:02:35,289 --> 00:02:37,080
+Dan right here, ready
+
+115
+00:02:37,120 --> 00:02:37,500
+to go.
+
+116
+00:02:37,539 --> 00:02:38,819
+But let's have a look at the Andre
+
+117
+00:02:38,909 --> 00:02:39,280
+one.
+
+118
+00:02:39,319 --> 00:02:40,080
+So same sort of deal.
+
+119
+00:02:40,120 --> 00:02:41,680
+We've got a chat with Andre,
+
+120
+00:02:41,789 --> 00:02:43,360
+trained also on all of Andre's
+
+121
+00:02:43,360 --> 00:02:44,000
+stuff.
+
+122
+00:02:44,270 --> 00:02:47,780
+So let's say, Andre, I'm having
+
+123
+00:02:47,889 --> 00:02:51,629
+trouble with motivating one of my
+
+124
+00:02:51,629 --> 00:02:53,639
+team members.
+
+125
+00:02:54,020 --> 00:02:56,969
+What can I do to get the best
+
+126
+00:02:57,099 --> 00:02:59,860
+results from them?
+
+127
+00:03:00,259 --> 00:03:06,439
+Andre Colon is going to think.
+
+128
+00:03:06,710 --> 00:03:07,710
+Happens to all of us.
+
+129
+00:03:07,759 --> 00:03:08,599
+Motivation use your breaks for one
+
+130
+00:03:08,599 --> 00:03:09,090
+of three reasons.
+
+131
+00:03:09,219 --> 00:03:10,150
+No clarity, no path, and no
+
+132
+00:03:10,150 --> 00:03:10,490
+stakes.
+
+133
+00:03:10,680 --> 00:03:11,780
+Here's the fast fix I use.
+
+134
+00:03:12,439 --> 00:03:13,409
+One, reset clarity.
+
+135
+00:03:13,479 --> 00:03:14,750
+Set every time this line on role,
+
+136
+00:03:14,750 --> 00:03:16,159
+top three responsibilities, and
+
+137
+00:03:16,159 --> 00:03:17,080
+two to three KPIs.
+
+138
+00:03:17,139 --> 00:03:18,370
+Find what great looks like weekly.
+
+139
+00:03:18,419 --> 00:03:19,490
+Ask directly, what are your career
+
+140
+00:03:19,490 --> 00:03:20,659
+goals for the next 12 months?
+
+141
+00:03:20,770 --> 00:03:21,930
+What do you want more of?
+
+142
+00:03:22,000 --> 00:03:22,930
+Money, responsibility, skills,
+
+143
+00:03:22,930 --> 00:03:23,800
+recognition, flexibility.
+
+144
+00:03:24,129 --> 00:03:25,210
+Build an essential plan.
+
+145
+00:03:25,729 --> 00:03:27,360
+Create near-term stakes.
+
+146
+00:03:27,469 --> 00:03:28,370
+Coach and hold the line.
+
+147
+00:03:28,740 --> 00:03:29,659
+Recognize wins publicly.
+
+148
+00:03:29,770 --> 00:03:31,370
+Tell me their role, current KPIs,
+
+149
+00:03:31,370 --> 00:03:32,919
+what's slipping, and what they
+
+150
+00:03:32,919 --> 00:03:34,240
+actually care about.
+
+151
+00:03:34,270 --> 00:03:35,349
+I'll draft the essential plan, the
+
+152
+00:03:35,349 --> 00:03:36,430
+scorecard language you use in your
+
+153
+00:03:36,430 --> 00:03:37,169
+next one-on-one.
+
+154
+00:03:37,580 --> 00:03:38,400
+So let's take a fake employee.
+
+155
+00:03:38,650 --> 00:03:41,389
+We're going to say they are an
+
+156
+00:03:41,389 --> 00:03:43,689
+email copywriter.
+
+157
+00:03:44,080 --> 00:03:48,129
+Currently, they have to write,
+
+158
+00:03:48,250 --> 00:03:53,009
+let's say, 10 scripts per week
+
+159
+00:03:53,060 --> 00:03:57,000
+that get a 3% reply rate.
+
+160
+00:03:58,370 --> 00:04:00,710
+But they're not finishing their
+
+161
+00:04:00,710 --> 00:04:02,319
+scripts on time.
+
+162
+00:04:03,330 --> 00:04:05,490
+And they have said that they care
+
+163
+00:04:05,490 --> 00:04:07,490
+about making more money.
+
+164
+00:04:08,000 --> 00:04:14,159
+Got it.
+
+165
+00:04:14,199 --> 00:04:14,639
+They don't have more money,
+
+166
+00:04:14,639 --> 00:04:15,169
+they're missing deadlines.
+
+167
+00:04:15,319 --> 00:04:16,410
+Type A to output timelines and
+
+168
+00:04:16,410 --> 00:04:16,920
+results.
+
+169
+00:04:16,990 --> 00:04:17,910
+These are structured used for an
+
+170
+00:04:17,910 --> 00:04:18,620
+email copywriter.
+
+171
+00:04:18,660 --> 00:04:19,149
+Com plan.
+
+172
+00:04:19,279 --> 00:04:20,079
+Base per script.
+
+173
+00:04:20,180 --> 00:04:21,089
+Paper deliverables on hours.
+
+174
+00:04:21,199 --> 00:04:21,959
+On-time bonus.
+
+175
+00:04:22,069 --> 00:04:22,639
+Late penalty.
+
+176
+00:04:23,019 --> 00:04:23,649
+Performance bonus.
+
+177
+00:04:23,930 --> 00:04:24,540
+Attention escalator examples.
+
+178
+00:04:24,579 --> 00:04:25,060
+You can paste.
+
+179
+00:04:25,360 --> 00:04:26,370
+10 scripts per week at X per
+
+180
+00:04:26,370 --> 00:04:26,879
+script.
+
+181
+00:04:27,170 --> 00:04:28,110
+First draft within five business
+
+182
+00:04:28,199 --> 00:04:28,610
+days of brief.
+
+183
+00:04:28,720 --> 00:04:29,319
+On-time bonus.
+
+184
+00:04:29,360 --> 00:04:30,439
+Plus $10 per script delivered on
+
+185
+00:04:30,439 --> 00:04:30,639
+time.
+
+186
+00:04:30,839 --> 00:04:31,439
+Late penalty.
+
+187
+00:04:31,480 --> 00:04:32,810
+Minus 50% of the script's pay per
+
+188
+00:04:33,079 --> 00:04:33,980
+late day down to zero.
+
+189
+00:04:34,050 --> 00:04:34,899
+Manage rhythm.
+
+190
+00:04:35,000 --> 00:04:35,910
+Weekly 15 minute 101.
+
+191
+00:04:35,990 --> 00:04:37,230
+One review scoreboard.
+
+192
+00:04:37,600 --> 00:04:38,160
+Remove blockers.
+
+193
+00:04:38,199 --> 00:04:38,959
+Confirm briefs are clear.
+
+194
+00:04:39,079 --> 00:04:39,680
+Public scoreboard.
+
+195
+00:04:39,720 --> 00:04:40,689
+Show scripts due to submit on time
+
+196
+00:04:40,730 --> 00:04:41,459
+after reply rate.
+
+197
+00:04:41,500 --> 00:04:41,990
+Two weeks reset.
+
+198
+00:04:42,060 --> 00:04:42,990
+The min's agreement is at a short
+
+199
+00:04:42,990 --> 00:04:43,860
+pit with daily check-ins.
+
+200
+00:04:44,149 --> 00:04:44,699
+Quick question.
+
+201
+00:04:44,779 --> 00:04:45,269
+So you can tell our numbers.
+
+202
+00:04:45,360 --> 00:04:46,189
+What's your current prescribed
+
+203
+00:04:46,189 --> 00:04:46,439
+rate?
+
+204
+00:04:46,509 --> 00:04:47,709
+Your SLI expectations in days.
+
+205
+00:04:47,759 --> 00:04:48,639
+And average will be volume per
+
+206
+00:04:48,639 --> 00:04:49,009
+client.
+
+207
+00:04:49,060 --> 00:04:50,410
+I'll plug exact figures that do a
+
+208
+00:04:50,689 --> 00:04:51,879
+clean one-pager to roll out.
+
+209
+00:04:51,920 --> 00:04:53,189
+So as you can see, any potential
+
+210
+00:04:53,230 --> 00:04:54,300
+issues you would have with your
+
+211
+00:04:54,300 --> 00:04:54,639
+business,
+
+212
+00:04:54,779 --> 00:04:55,990
+it can pretty much be answered by
+
+213
+00:04:56,000 --> 00:04:56,839
+Don or Andre here.
+
+214
+00:04:57,209 --> 00:04:59,529
+Super, super useful tool to have.
+
+215
+00:04:59,569 --> 00:05:00,329
+I guess, you know, these are
+
+216
+00:05:00,379 --> 00:05:01,139
+available 24-7.
+
+217
+00:05:01,180 --> 00:05:01,939
+If you're part of client
+
+218
+00:05:01,939 --> 00:05:02,410
+Ascension,
+
+219
+00:05:02,490 --> 00:05:03,579
+then obviously you can go to Don
+
+220
+00:05:03,579 --> 00:05:04,399
+and Andre's calls,
+
+221
+00:05:04,439 --> 00:05:05,740
+but they're only once per week for
+
+222
+00:05:05,819 --> 00:05:06,360
+an hour.
+
+223
+00:05:06,470 --> 00:05:08,199
+You can DM them as well, but, you
+
+224
+00:05:08,199 --> 00:05:08,879
+know, if they're human,
+
+225
+00:05:08,920 --> 00:05:09,730
+they need to sleep and they have
+
+226
+00:05:09,730 --> 00:05:10,620
+other responsibilities.
+
+227
+00:05:10,990 --> 00:05:12,019
+Whereas these are available on
+
+228
+00:05:12,329 --> 00:05:13,240
+demand 24-7.
+
+229
+00:05:13,279 --> 00:05:14,360
+You actually call them and chat to
+
+230
+00:05:14,360 --> 00:05:15,279
+them while you're out and about,
+
+231
+00:05:15,339 --> 00:05:16,310
+you know, on your AirPods, while
+
+232
+00:05:16,399 --> 00:05:17,060
+you're having a jog,
+
+233
+00:05:17,160 --> 00:05:17,589
+whatever you're doing.
+
+234
+00:05:17,709 --> 00:05:19,439
+So super useful tool.
+
+235
+00:05:19,480 --> 00:05:20,759
+And something that we spend a lot
+
+236
+00:05:20,860 --> 00:05:21,709
+of time building out
+
+237
+00:05:21,899 --> 00:05:23,110
+and developing to be as
+
+238
+00:05:23,110 --> 00:05:24,939
+comprehensive as possible.
+
+239
+00:05:24,980 --> 00:05:26,329
+So I think any of you that are
+
+240
+00:05:26,649 --> 00:05:27,680
+using the dashboard
+
+241
+00:05:27,990 --> 00:05:29,180
+should really rely on these two.
+
+242
+00:05:29,300 --> 00:05:30,269
+I think you get a lot of great
+
+243
+00:05:30,329 --> 00:05:31,500
+information out of them.
+
+244
+00:05:31,540 --> 00:05:32,680
+So see you in the next one.
+
+245
+00:05:33,019 --> 00:05:33,209
+Peace.

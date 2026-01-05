@@ -1,0 +1,1195 @@
+1
+00:00:00,160 --> 00:00:02,160
+So you can't send emails without
+
+2
+00:00:02,160 --> 00:00:03,950
+an ESP, which is an email service
+
+3
+00:00:03,950 --> 00:00:05,580
+provider, unless you just want
+
+4
+00:00:05,700 --> 00:00:07,080
+to send manually through your
+
+5
+00:00:07,080 --> 00:00:08,820
+Gmail to your list, but that's not
+
+6
+00:00:08,820 --> 00:00:10,660
+very efficient and that's just not
+
+7
+00:00:10,849 --> 00:00:13,210
+reasonable for any brand that's
+
+8
+00:00:13,210 --> 00:00:15,109
+over five customers.
+
+9
+00:00:15,109 --> 00:00:17,760
+So these ESP softwares allow you
+
+10
+00:00:17,760 --> 00:00:17,879
+to
+
+11
+00:00:18,089 --> 00:00:19,399
+design your emails, send out your
+
+12
+00:00:19,469 --> 00:00:21,170
+emails, and store your list data.
+
+13
+00:00:21,170 --> 00:00:22,500
+Do not overcomplicate this.
+
+14
+00:00:22,879 --> 00:00:23,460
+Use Klaviyo.
+
+15
+00:00:23,480 --> 00:00:24,690
+I've used all of them.
+
+16
+00:00:24,690 --> 00:00:26,350
+MailChimp, ActiveCampaign,
+
+17
+00:00:26,350 --> 00:00:28,480
+HubSpot, Omicent, Drip, all of
+
+18
+00:00:28,480 --> 00:00:28,699
+that.
+
+19
+00:00:29,120 --> 00:00:30,390
+Klaviyo is the only true option,
+
+20
+00:00:30,390 --> 00:00:31,480
+especially as you scale.
+
+21
+00:00:31,480 --> 00:00:32,240
+Just do it now.
+
+22
+00:00:32,240 --> 00:00:34,079
+Just be on Klaviyo.
+
+23
+00:00:34,100 --> 00:00:35,039
+If you're on another platform,
+
+24
+00:00:35,049 --> 00:00:36,009
+just switch to Klaviyo now so you
+
+25
+00:00:36,009 --> 00:00:36,979
+don't have to worry about it.
+
+26
+00:00:37,179 --> 00:00:39,380
+Klaviyo is the best and if you
+
+27
+00:00:39,380 --> 00:00:42,289
+want to save like $50 a month,
+
+28
+00:00:42,289 --> 00:00:44,119
+then I don't know.
+
+29
+00:00:44,119 --> 00:00:44,679
+Maybe you can do
+
+30
+00:00:44,890 --> 00:00:46,079
+that with other platforms, but
+
+31
+00:00:46,079 --> 00:00:47,359
+that's, you really just, it
+
+32
+00:00:47,359 --> 00:00:48,579
+doesn't really matter.
+
+33
+00:00:48,579 --> 00:00:50,060
+So Klaviyo integrates
+
+34
+00:00:50,259 --> 00:00:51,679
+with Shopify very, very smoothly.
+
+35
+00:00:51,679 --> 00:00:52,840
+All you have to do is create a
+
+36
+00:00:52,840 --> 00:00:53,700
+Klaviyo account.
+
+37
+00:00:53,700 --> 00:00:54,479
+So if you have a
+
+38
+00:00:54,689 --> 00:00:55,880
+store, just get set up just right
+
+39
+00:00:55,880 --> 00:00:56,219
+here.
+
+40
+00:00:56,229 --> 00:00:57,590
+Literally, this is all you fill
+
+41
+00:00:57,590 --> 00:00:58,200
+out and then
+
+42
+00:00:58,350 --> 00:00:59,679
+you'll, they'll walk you through
+
+43
+00:00:59,679 --> 00:01:01,000
+the whole entire process.
+
+44
+00:01:01,000 --> 00:01:02,740
+And you'll be able to follow
+
+45
+00:01:02,950 --> 00:01:04,409
+their easy to follow instructions,
+
+46
+00:01:04,480 --> 00:01:05,799
+integrate with Shopify or any
+
+47
+00:01:05,799 --> 00:01:06,810
+other e-com provider that
+
+48
+00:01:07,109 --> 00:01:08,760
+you are using with their platform.
+
+49
+00:01:08,760 --> 00:01:10,189
+They also have an excellent
+
+50
+00:01:10,189 --> 00:01:11,159
+support team and they'll
+
+51
+00:01:11,329 --> 00:01:12,620
+be able to help you with any
+
+52
+00:01:12,620 --> 00:01:14,569
+integration questions that you may
+
+53
+00:01:14,640 --> 00:01:15,079
+have.
+
+54
+00:01:15,079 --> 00:01:17,760
+So once you integrate,
+
+55
+00:01:17,780 --> 00:01:19,150
+so just follow their instructions.
+
+56
+00:01:19,150 --> 00:01:20,230
+Literally does not take long,
+
+57
+00:01:20,299 --> 00:01:21,379
+should not take you more than
+
+58
+00:01:21,400 --> 00:01:21,829
+a day.
+
+59
+00:01:21,959 --> 00:01:24,159
+You just kind of have to install
+
+60
+00:01:24,159 --> 00:01:25,920
+the embed on Klaviyo.
+
+61
+00:01:25,920 --> 00:01:27,579
+And so once you are inside
+
+62
+00:01:27,689 --> 00:01:28,920
+of Klaviyo, this is how your
+
+63
+00:01:28,920 --> 00:01:30,680
+integration pages should look.
+
+64
+00:01:30,680 --> 00:01:32,680
+So if you go here, this is inside
+
+65
+00:01:32,700 --> 00:01:33,129
+Klaviyo.
+
+66
+00:01:33,129 --> 00:01:34,560
+When you're inside your dashboard,
+
+67
+00:01:34,560 --> 00:01:35,750
+you will see this, but if you go
+
+68
+00:01:35,750 --> 00:01:36,620
+down to settings,
+
+69
+00:01:36,829 --> 00:01:38,140
+which is down here, and then go to
+
+70
+00:01:38,209 --> 00:01:39,519
+integrations, this is how it
+
+71
+00:01:39,579 --> 00:01:40,390
+should look.
+
+72
+00:01:40,400 --> 00:01:41,739
+You should see Shopify
+
+73
+00:01:41,950 --> 00:01:43,920
+here and you should see status is
+
+74
+00:01:43,920 --> 00:01:44,730
+enabled.
+
+75
+00:01:44,730 --> 00:01:47,180
+Um, that should be how it looks.
+
+76
+00:01:47,180 --> 00:01:49,519
+And then if you click
+
+77
+00:01:49,730 --> 00:01:51,569
+onto Shopify, if you click onto
+
+78
+00:01:51,659 --> 00:01:53,739
+Shopify, this is what you want to
+
+79
+00:01:53,829 --> 00:01:54,129
+see.
+
+80
+00:01:54,469 --> 00:01:55,739
+This is exactly how you want
+
+81
+00:01:55,870 --> 00:01:56,189
+to see.
+
+82
+00:01:56,319 --> 00:01:57,719
+You want to see that onsite
+
+83
+00:01:57,719 --> 00:01:59,310
+tracking is enabled here.
+
+84
+00:01:59,310 --> 00:02:01,280
+We want to check this box, add
+
+85
+00:02:01,280 --> 00:02:01,560
+viewed
+
+86
+00:02:01,769 --> 00:02:02,549
+product to my site.
+
+87
+00:02:02,579 --> 00:02:04,209
+This is going to be helpful later.
+
+88
+00:02:04,209 --> 00:02:05,469
+This is for helping us set up
+
+89
+00:02:05,469 --> 00:02:06,170
+flows and track
+
+90
+00:02:06,430 --> 00:02:06,890
+customer data.
+
+91
+00:02:06,939 --> 00:02:08,250
+Like if somebody views a product
+
+92
+00:02:08,250 --> 00:02:09,400
+and leave, somebody goes to
+
+93
+00:02:09,400 --> 00:02:10,520
+checkout and then leaves.
+
+94
+00:02:10,689 --> 00:02:11,969
+And then you're going to want to
+
+95
+00:02:11,969 --> 00:02:13,069
+sync your Shopify email
+
+96
+00:02:13,069 --> 00:02:14,439
+subscribers to Klaviyo.
+
+97
+00:02:14,439 --> 00:02:15,960
+Just put them on the
+
+98
+00:02:16,169 --> 00:02:17,860
+basic list newsletter.
+
+99
+00:02:17,860 --> 00:02:18,719
+And yeah.
+
+100
+00:02:18,719 --> 00:02:20,580
+So we will talk about this more
+
+101
+00:02:20,909 --> 00:02:21,710
+later on.
+
+102
+00:02:21,710 --> 00:02:23,740
+Um, and just a warning sign
+
+103
+00:02:23,949 --> 00:02:24,189
+here.
+
+104
+00:02:24,189 --> 00:02:26,030
+So again, this is more talking to
+
+105
+00:02:26,030 --> 00:02:26,819
+right here.
+
+106
+00:02:26,819 --> 00:02:28,530
+If you have this integration,
+
+107
+00:02:28,689 --> 00:02:29,500
+you're not done
+
+108
+00:02:29,710 --> 00:02:30,770
+because you need to have the full
+
+109
+00:02:30,770 --> 00:02:31,949
+integration to make sure that
+
+110
+00:02:31,949 --> 00:02:33,360
+you're tracking all the different
+
+111
+00:02:33,569 --> 00:02:34,030
+triggers.
+
+112
+00:02:34,080 --> 00:02:35,819
+And so make sure you have enabled
+
+113
+00:02:35,900 --> 00:02:37,599
+onsite tracking, which is this
+
+114
+00:02:37,669 --> 00:02:38,560
+button here.
+
+115
+00:02:38,560 --> 00:02:39,280
+The instructions
+
+116
+00:02:39,460 --> 00:02:40,270
+are right in here.
+
+117
+00:02:40,300 --> 00:02:41,909
+I've also attached them here.
+
+118
+00:02:41,919 --> 00:02:43,599
+Um, you want to be able to monitor
+
+119
+00:02:43,599 --> 00:02:44,560
+customers as they
+
+120
+00:02:44,759 --> 00:02:46,039
+view products, start, check out
+
+121
+00:02:46,039 --> 00:02:47,020
+all the stuff and create
+
+122
+00:02:47,099 --> 00:02:47,770
+automations.
+
+123
+00:02:47,780 --> 00:02:48,979
+Here's an article on how to
+
+124
+00:02:48,979 --> 00:02:49,340
+enable,
+
+125
+00:02:49,469 --> 00:02:50,750
+um, onsite tracking.
+
+126
+00:02:50,750 --> 00:02:52,090
+It's just right here.
+
+127
+00:02:52,090 --> 00:02:53,960
+Um, it walks you through the whole
+
+128
+00:02:54,289 --> 00:02:55,340
+entire process.
+
+129
+00:02:55,340 --> 00:02:56,560
+It's onsite
+
+130
+00:02:56,870 --> 00:02:58,430
+tracking is super easy.
+
+131
+00:02:58,430 --> 00:03:00,729
+You just check mark something in,
+
+132
+00:03:00,879 --> 00:03:01,879
+um, Klaviyo.
+
+133
+00:03:01,879 --> 00:03:03,430
+You just go, once
+
+134
+00:03:03,610 --> 00:03:04,939
+you're in Klaviyo, if you don't
+
+135
+00:03:04,939 --> 00:03:06,650
+have onsite tracking, it'll bring
+
+136
+00:03:06,650 --> 00:03:07,900
+you this link and you can
+
+137
+00:03:08,110 --> 00:03:08,960
+literally just click this link
+
+138
+00:03:08,960 --> 00:03:09,240
+here.
+
+139
+00:03:09,240 --> 00:03:10,370
+It's going to take you directly to
+
+140
+00:03:10,439 --> 00:03:12,129
+Shopify in the, in the Klaviyo
+
+141
+00:03:12,349 --> 00:03:12,930
+app embed.
+
+142
+00:03:12,930 --> 00:03:14,590
+All you have to do is switch a
+
+143
+00:03:14,590 --> 00:03:16,689
+toggle, save the theme, and then
+
+144
+00:03:16,689 --> 00:03:18,500
+it will be, it'll be
+
+145
+00:03:18,710 --> 00:03:20,259
+complete, super easy.
+
+146
+00:03:20,259 --> 00:03:22,500
+Um, and then also, so that's not
+
+147
+00:03:22,500 --> 00:03:23,120
+all of it.
+
+148
+00:03:23,449 --> 00:03:25,099
+So what this is going to give you
+
+149
+00:03:25,229 --> 00:03:27,030
+is viewed product, active onsite
+
+150
+00:03:27,030 --> 00:03:28,620
+and, uh, check out started
+
+151
+00:03:28,620 --> 00:03:29,340
+triggers.
+
+152
+00:03:29,409 --> 00:03:30,840
+But we also want to have an
+
+153
+00:03:31,050 --> 00:03:32,169
+added to cart trigger.
+
+154
+00:03:32,169 --> 00:03:33,740
+Added to cart is different than
+
+155
+00:03:33,800 --> 00:03:34,909
+check out started.
+
+156
+00:03:35,050 --> 00:03:36,400
+Um, and Shopify doesn't
+
+157
+00:03:36,610 --> 00:03:37,500
+automatically do that.
+
+158
+00:03:37,500 --> 00:03:38,860
+So you have to do that manually.
+
+159
+00:03:38,939 --> 00:03:39,979
+There's a little bit more
+
+160
+00:03:39,979 --> 00:03:41,020
+advanced, but
+
+161
+00:03:41,360 --> 00:03:42,930
+you, you need to have added cart
+
+162
+00:03:42,930 --> 00:03:44,780
+because if you're only tracking
+
+163
+00:03:44,780 --> 00:03:47,120
+check out started, you're missing
+
+164
+00:03:47,120 --> 00:03:47,319
+out
+
+165
+00:03:47,439 --> 00:03:48,979
+on anybody who just adds to their
+
+166
+00:03:49,060 --> 00:03:49,370
+cart.
+
+167
+00:03:49,460 --> 00:03:51,379
+So, um, these are different, have
+
+168
+00:03:51,629 --> 00:03:52,669
+different triggers.
+
+169
+00:03:52,669 --> 00:03:52,860
+Again,
+
+170
+00:03:53,069 --> 00:03:54,629
+abandoned checkout and abandoned
+
+171
+00:03:54,629 --> 00:03:55,050
+cart.
+
+172
+00:03:55,050 --> 00:03:56,319
+Follow this blog here.
+
+173
+00:03:56,319 --> 00:03:58,020
+I'll go over here just so you can
+
+174
+00:03:58,020 --> 00:03:58,280
+see how
+
+175
+00:03:58,300 --> 00:03:59,500
+it looks like, how to create an
+
+176
+00:03:59,500 --> 00:04:00,879
+added to cart event for Shopify.
+
+177
+00:04:00,879 --> 00:04:02,219
+You have to physically go into
+
+178
+00:04:02,430 --> 00:04:04,419
+your theme and add a snippet.
+
+179
+00:04:04,419 --> 00:04:06,830
+You add this snippet to your site.
+
+180
+00:04:07,129 --> 00:04:09,080
+Um, and in most cases, you're
+
+181
+00:04:09,080 --> 00:04:09,240
+going
+
+182
+00:04:09,389 --> 00:04:10,710
+to want to follow these
+
+183
+00:04:10,710 --> 00:04:11,879
+instructions.
+
+184
+00:04:11,879 --> 00:04:13,860
+If your store has custom liquid
+
+185
+00:04:14,189 --> 00:04:16,110
+blocks, if your store doesn't have
+
+186
+00:04:16,329 --> 00:04:17,500
+custom liquid blocks, you're going
+
+187
+00:04:17,500 --> 00:04:18,670
+to have to actually manually go
+
+188
+00:04:18,670 --> 00:04:19,290
+into the code.
+
+189
+00:04:19,290 --> 00:04:20,579
+This is super easy to do
+
+190
+00:04:20,689 --> 00:04:22,089
+if you have, um, custom liquid
+
+191
+00:04:22,089 --> 00:04:22,610
+blocks.
+
+192
+00:04:22,610 --> 00:04:24,069
+If not, you're going to have to
+
+193
+00:04:24,069 --> 00:04:25,680
+follow these instructions.
+
+194
+00:04:25,689 --> 00:04:26,379
+And in both
+
+195
+00:04:26,589 --> 00:04:28,009
+cases, you're going to have to
+
+196
+00:04:28,009 --> 00:04:29,629
+copy and paste this snippet and
+
+197
+00:04:29,660 --> 00:04:31,269
+then test it by using a UTM of
+
+198
+00:04:31,329 --> 00:04:31,699
+email
+
+199
+00:04:31,910 --> 00:04:32,149
+testing.
+
+200
+00:04:32,279 --> 00:04:33,660
+And then you'll be able to see if
+
+201
+00:04:33,660 --> 00:04:34,779
+your trigger fired.
+
+202
+00:04:34,779 --> 00:04:36,699
+Now we're not quite done with
+
+203
+00:04:36,910 --> 00:04:37,370
+getting set up.
+
+204
+00:04:37,420 --> 00:04:38,750
+We need to get the deliverability
+
+205
+00:04:38,839 --> 00:04:39,579
+technicalities.
+
+206
+00:04:39,589 --> 00:04:41,139
+There are new center requirements
+
+207
+00:04:41,329 --> 00:04:43,410
+for Google and Yahoo as of 2024.
+
+208
+00:04:43,410 --> 00:04:45,040
+And also there's just some best
+
+209
+00:04:45,040 --> 00:04:46,600
+practices that you need for
+
+210
+00:04:46,810 --> 00:04:47,660
+deliverability.
+
+211
+00:04:47,660 --> 00:04:49,019
+So first thing is you need a
+
+212
+00:04:49,019 --> 00:04:50,569
+dedicated sending domain.
+
+213
+00:04:50,569 --> 00:04:51,660
+And so if you follow
+
+214
+00:04:51,870 --> 00:04:53,139
+these exact steps here, go to this
+
+215
+00:04:53,139 --> 00:04:54,500
+article so you can see it, how to
+
+216
+00:04:54,500 --> 00:04:56,839
+set up branding, branded sending
+
+217
+00:04:57,050 --> 00:04:57,290
+domain.
+
+218
+00:04:57,290 --> 00:04:58,790
+So with email, you're sending from
+
+219
+00:04:58,790 --> 00:05:00,089
+a certain address and you don't
+
+220
+00:05:00,089 --> 00:05:00,819
+want to have the
+
+221
+00:05:01,199 --> 00:05:02,160
+clavio email.com.
+
+222
+00:05:02,199 --> 00:05:03,540
+This is actually a requirement
+
+223
+00:05:03,550 --> 00:05:04,620
+from Google and Yahoo.
+
+224
+00:05:04,629 --> 00:05:05,699
+So if you follow these
+
+225
+00:05:05,910 --> 00:05:07,220
+instructions, you're essentially
+
+226
+00:05:07,290 --> 00:05:09,069
+just like getting DNS records from
+
+227
+00:05:09,139 --> 00:05:10,449
+Klavio and adding that to your
+
+228
+00:05:10,730 --> 00:05:12,149
+domain and creating your sending
+
+229
+00:05:12,149 --> 00:05:12,660
+domain.
+
+230
+00:05:12,670 --> 00:05:14,199
+Um, this can be a little bit more
+
+231
+00:05:14,199 --> 00:05:15,019
+technical.
+
+232
+00:05:15,019 --> 00:05:16,019
+So you can shoot
+
+233
+00:05:16,040 --> 00:05:17,089
+me an email if you have any
+
+234
+00:05:17,089 --> 00:05:18,480
+questions, but it is a necessary
+
+235
+00:05:18,560 --> 00:05:20,019
+thing that you do need to have.
+
+236
+00:05:20,329 --> 00:05:22,089
+Um, and then you need to set up
+
+237
+00:05:22,089 --> 00:05:23,550
+DMARC on your domain.
+
+238
+00:05:23,620 --> 00:05:25,699
+Um, DMARC is essentially just
+
+239
+00:05:25,699 --> 00:05:25,959
+going to
+
+240
+00:05:26,120 --> 00:05:27,079
+help you with deliverability and
+
+241
+00:05:27,079 --> 00:05:28,009
+it is a requirement where else
+
+242
+00:05:28,100 --> 00:05:29,720
+you're pretty much just going to
+
+243
+00:05:29,720 --> 00:05:29,920
+be
+
+244
+00:05:30,129 --> 00:05:31,000
+guaranteed to go to spam.
+
+245
+00:05:31,000 --> 00:05:32,170
+So here's another article.
+
+246
+00:05:32,170 --> 00:05:33,290
+We're getting that set up,
+
+247
+00:05:33,360 --> 00:05:34,240
+understanding email
+
+248
+00:05:34,449 --> 00:05:35,029
+authentication.
+
+249
+00:05:35,029 --> 00:05:36,240
+And then if you go down to DMARC,
+
+250
+00:05:36,250 --> 00:05:37,319
+you can understand this.
+
+251
+00:05:37,319 --> 00:05:38,620
+And then it's also going to
+
+252
+00:05:38,910 --> 00:05:40,220
+tell you how to install it.
+
+253
+00:05:40,290 --> 00:05:42,000
+I've also put the instructions
+
+254
+00:05:42,000 --> 00:05:43,240
+here, set up DMARC.
+
+255
+00:05:43,240 --> 00:05:43,810
+Um, this is
+
+256
+00:05:44,009 --> 00:05:44,910
+all you need to do.
+
+257
+00:05:44,910 --> 00:05:46,389
+Log into your domains, DNS
+
+258
+00:05:46,399 --> 00:05:47,110
+settings.
+
+259
+00:05:47,110 --> 00:05:50,139
+Um, and once logged in, create a
+
+260
+00:05:50,139 --> 00:05:50,240
+new
+
+261
+00:05:50,470 --> 00:05:51,660
+record with this information.
+
+262
+00:05:51,660 --> 00:05:53,009
+This is literally all you need to
+
+263
+00:05:53,009 --> 00:05:53,250
+do.
+
+264
+00:05:53,259 --> 00:05:54,060
+It's super easy.
+
+265
+00:05:54,060 --> 00:05:54,600
+It seems all
+
+266
+00:05:54,810 --> 00:05:56,089
+technical and all this stuff, but
+
+267
+00:05:56,089 --> 00:05:57,329
+literally just go to your DNS
+
+268
+00:05:57,329 --> 00:05:59,209
+settings and create these, um,
+
+269
+00:05:59,430 --> 00:06:01,000
+create these, um, records.
+
+270
+00:06:01,000 --> 00:06:02,589
+And then that's all you need to
+
+271
+00:06:02,660 --> 00:06:02,959
+do.
+
+272
+00:06:02,970 --> 00:06:04,850
+Then you can just look up DMARC
+
+273
+00:06:05,069 --> 00:06:07,199
+authenticator on Google and then
+
+274
+00:06:07,199 --> 00:06:08,779
+plug in your domain.
+
+275
+00:06:08,779 --> 00:06:11,089
+And, um, that site will tell you
+
+276
+00:06:11,089 --> 00:06:11,500
+if you
+
+277
+00:06:11,709 --> 00:06:13,170
+have DMARC successfully installed.
+
+278
+00:06:13,240 --> 00:06:14,550
+And then, so those are the two
+
+279
+00:06:14,550 --> 00:06:15,129
+main ones.
+
+280
+00:06:15,129 --> 00:06:16,040
+And then you need to
+
+281
+00:06:16,250 --> 00:06:17,339
+ensure that your reply to
+
+282
+00:06:17,339 --> 00:06:19,029
+addresses on all your emails have
+
+283
+00:06:19,069 --> 00:06:20,279
+the same root domain.
+
+284
+00:06:20,350 --> 00:06:21,259
+So for example,
+
+285
+00:06:21,649 --> 00:06:23,120
+you can not have a sending domain
+
+286
+00:06:23,199 --> 00:06:24,519
+send@getnike.com.
+
+287
+00:06:24,519 --> 00:06:26,579
+And then your reply to address is
+
+288
+00:06:26,579 --> 00:06:28,180
+support@nike.com
+
+289
+00:06:28,389 --> 00:06:29,699
+because get Nike right here is
+
+290
+00:06:29,769 --> 00:06:31,399
+different from nike.com.
+
+291
+00:06:31,399 --> 00:06:33,129
+That's going to send you to spam
+
+292
+00:06:33,139 --> 00:06:33,779
+as well.
+
+293
+00:06:33,800 --> 00:06:34,750
+So you can just set that in
+
+294
+00:06:34,759 --> 00:06:36,170
+Klaviyo settings, just have your
+
+295
+00:06:36,170 --> 00:06:37,540
+automatic reply to be the same.
+
+296
+00:06:37,540 --> 00:06:38,339
+Um,
+
+297
+00:06:38,360 --> 00:06:40,509
+I know some brands have different
+
+298
+00:06:40,509 --> 00:06:42,750
+domains, but you have to make sure
+
+299
+00:06:42,750 --> 00:06:44,259
+that that is set up.

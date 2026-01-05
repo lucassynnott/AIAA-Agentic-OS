@@ -1,0 +1,1711 @@
+1
+00:00:00,540 --> 00:00:06,580
+All right guys so this is part two
+
+2
+00:00:06,629 --> 00:00:08,759
+i'm going to go into an actual
+
+3
+00:00:08,759 --> 00:00:10,699
+live client funnel right now and
+
+4
+00:00:10,740 --> 00:00:11,699
+we're just going to break down
+
+5
+00:00:11,699 --> 00:00:12,750
+everything from a to z i'm going
+
+6
+00:00:12,750 --> 00:00:13,980
+to click around show you guys all
+
+7
+00:00:14,019 --> 00:00:15,310
+these different buttons show you
+
+8
+00:00:15,310 --> 00:00:16,379
+guys hey if i had a blank page
+
+9
+00:00:16,379 --> 00:00:17,649
+this is exactly what i would do
+
+10
+00:00:17,699 --> 00:00:20,179
+to basically start developing from
+
+11
+00:00:20,179 --> 00:00:22,339
+top to bottom and also of course
+
+12
+00:00:22,339 --> 00:00:24,239
+make sure that it's mobile
+
+13
+00:00:24,820 --> 00:00:26,100
+responsive that's super key a lot
+
+14
+00:00:26,100 --> 00:00:27,780
+of people forget and just don't
+
+15
+00:00:27,780 --> 00:00:29,879
+simply do so let's dive
+
+16
+00:00:29,920 --> 00:00:31,920
+into it right now so we'll go to
+
+17
+00:00:31,920 --> 00:00:34,140
+funnels we're going to pick this
+
+18
+00:00:34,140 --> 00:00:35,479
+client right here
+
+19
+00:00:35,520 --> 00:00:38,179
+so i typically like to because
+
+20
+00:00:38,240 --> 00:00:40,750
+we're an agency keep there's
+
+21
+00:00:41,490 --> 00:00:43,799
+probably a better way to do it but
+
+22
+00:00:43,840 --> 00:00:45,280
+look i like to do it this way we
+
+23
+00:00:45,280 --> 00:00:47,149
+have 12 pages in this funnel now
+
+24
+00:00:47,179 --> 00:00:48,950
+we have multiple different funnel
+
+25
+00:00:49,000 --> 00:00:50,619
+types we're running for them we're
+
+26
+00:00:50,619 --> 00:00:52,119
+running a high velocity opt-in
+
+27
+00:00:52,270 --> 00:00:53,700
+funnel for them which is literally
+
+28
+00:00:53,740 --> 00:00:54,920
+just an opt-in we're also running
+
+29
+00:00:54,939 --> 00:00:56,140
+a free training funnel for them
+
+30
+00:00:56,140 --> 00:00:57,469
+which is basically a lead magnet
+
+31
+00:00:57,520 --> 00:00:59,570
+plus a call funnel so i keep
+
+32
+00:00:59,570 --> 00:01:02,060
+everything here inside of this
+
+33
+00:01:02,060 --> 00:01:04,760
+whole entire funnel that's just
+
+34
+00:01:05,239 --> 00:01:05,810
+personally how i like it like
+
+35
+00:01:05,870 --> 00:01:07,120
+right here is the free training
+
+36
+00:01:07,120 --> 00:01:08,510
+funnel here's the replay page for
+
+37
+00:01:08,530 --> 00:01:08,659
+it
+
+38
+00:01:08,700 --> 00:01:09,890
+here's the qualified and
+
+39
+00:01:09,900 --> 00:01:11,540
+unqualified confirmation page
+
+40
+00:01:11,540 --> 00:01:13,549
+after they actually booked through
+
+41
+00:01:13,640 --> 00:01:14,019
+that
+
+42
+00:01:14,560 --> 00:01:15,959
+respective funnel here's the high
+
+43
+00:01:15,959 --> 00:01:17,750
+velocity opt-in page here is the
+
+44
+00:01:17,769 --> 00:01:19,409
+beginning of the call funnel and
+
+45
+00:01:20,000 --> 00:01:21,750
+everything like that so i like to
+
+46
+00:01:21,760 --> 00:01:23,959
+keep it all just in one funnel
+
+47
+00:01:23,959 --> 00:01:26,430
+right this is what they call a
+
+48
+00:01:26,549 --> 00:01:26,840
+funnel
+
+49
+00:01:26,879 --> 00:01:28,799
+this right here all the pages
+
+50
+00:01:28,799 --> 00:01:30,829
+right and then you have funnel
+
+51
+00:01:30,829 --> 00:01:33,140
+steps that's what they refer to it
+
+52
+00:01:33,230 --> 00:01:33,299
+as
+
+53
+00:01:33,340 --> 00:01:34,879
+which funnel steps are essentially
+
+54
+00:01:34,879 --> 00:01:36,250
+just individual landing pages
+
+55
+00:01:36,250 --> 00:01:39,250
+within a full funnel okay so and i
+
+56
+00:01:39,310 --> 00:01:39,859
+just
+
+57
+00:01:39,900 --> 00:01:40,879
+want to let you guys know that
+
+58
+00:01:40,879 --> 00:01:41,989
+because like sometimes their
+
+59
+00:01:41,989 --> 00:01:43,310
+support will ask you these things
+
+60
+00:01:43,359 --> 00:01:44,790
+and you're like i don't i don't
+
+61
+00:01:44,790 --> 00:01:46,459
+know what the difference is like i
+
+62
+00:01:46,629 --> 00:01:47,799
+thought a landing page was
+
+63
+00:01:47,840 --> 00:01:49,400
+a funnel it's not but like the
+
+64
+00:01:49,400 --> 00:01:51,230
+funnel is the full thing landing
+
+65
+00:01:51,230 --> 00:01:52,840
+pages are here within it so
+
+66
+00:01:52,879 --> 00:01:55,519
+don't mind my coffee too we're
+
+67
+00:01:55,620 --> 00:01:59,099
+ripping y'all know it anyways so
+
+68
+00:01:59,099 --> 00:02:02,159
+uh basically just make sure that
+
+69
+00:02:02,159 --> 00:02:02,579
+you go to
+
+70
+00:02:02,719 --> 00:02:04,640
+the actual settings of the funnel
+
+71
+00:02:04,640 --> 00:02:06,430
+initially select your domain
+
+72
+00:02:06,450 --> 00:02:09,479
+change name now this one here just
+
+73
+00:02:09,479 --> 00:02:09,800
+note
+
+74
+00:02:09,840 --> 00:02:12,500
+this is your master url now the
+
+75
+00:02:12,550 --> 00:02:15,330
+master url is going to begin the
+
+76
+00:02:15,750 --> 00:02:16,919
+first step so when you look at
+
+77
+00:02:16,919 --> 00:02:17,469
+this funnel
+
+78
+00:02:18,020 --> 00:02:19,620
+technically it's like step one
+
+79
+00:02:19,620 --> 00:02:21,930
+step two step three step four step
+
+80
+00:02:21,930 --> 00:02:23,780
+five step six that's how they
+
+81
+00:02:23,800 --> 00:02:24,430
+really
+
+82
+00:02:24,479 --> 00:02:26,039
+like processed it and made it um
+
+83
+00:02:26,039 --> 00:02:27,759
+again we don't really follow that
+
+84
+00:02:27,819 --> 00:02:28,360
+logic but
+
+85
+00:02:29,759 --> 00:02:30,789
+basically like this all you need
+
+86
+00:02:30,789 --> 00:02:32,319
+to know is this is your master url
+
+87
+00:02:32,319 --> 00:02:33,750
+so if you're running some sort of
+
+88
+00:02:33,840 --> 00:02:36,020
+split test between these two pages
+
+89
+00:02:36,020 --> 00:02:38,020
+like we were here you would need
+
+90
+00:02:38,020 --> 00:02:39,879
+to use this url here because
+
+91
+00:02:39,919 --> 00:02:41,449
+it's going to go depending on what
+
+92
+00:02:41,449 --> 00:02:42,889
+you set this percentage to be on
+
+93
+00:02:42,909 --> 00:02:44,360
+the split test it's going to
+
+94
+00:02:44,400 --> 00:02:46,030
+divvy up the traffic between these
+
+95
+00:02:46,030 --> 00:02:47,439
+two pages right now it's set to
+
+96
+00:02:47,659 --> 00:02:49,400
+100 going to this page but if i
+
+97
+00:02:49,530 --> 00:02:49,560
+was
+
+98
+00:02:49,599 --> 00:02:50,750
+doing you know if i clicked on
+
+99
+00:02:50,750 --> 00:02:52,259
+this and dragged it to 50 50
+
+100
+00:02:52,259 --> 00:02:53,879
+essentially it would drive 50 of
+
+101
+00:02:53,939 --> 00:02:54,280
+the traffic
+
+102
+00:02:54,319 --> 00:02:55,650
+here 50 of the traffic here and
+
+103
+00:02:55,659 --> 00:02:56,569
+that's how i did a that's
+
+104
+00:02:56,590 --> 00:02:57,949
+basically how i do a split test
+
+105
+00:02:57,960 --> 00:02:59,080
+right and you
+
+106
+00:02:59,610 --> 00:03:00,469
+essentially would just click here
+
+107
+00:03:00,469 --> 00:03:02,319
+and this is your master url and it
+
+108
+00:03:02,389 --> 00:03:05,159
+would split the traffic between
+
+109
+00:03:05,199 --> 00:03:06,979
+these two so if you're going to
+
+110
+00:03:06,979 --> 00:03:08,860
+run ads use this url up here okay
+
+111
+00:03:08,860 --> 00:03:10,680
+if you're doing like some sort of
+
+112
+00:03:10,719 --> 00:03:12,280
+split test if for whatever reason
+
+113
+00:03:12,280 --> 00:03:13,710
+you just want to drive traffic
+
+114
+00:03:13,710 --> 00:03:15,400
+only to this page just click there
+
+115
+00:03:15,439 --> 00:03:17,009
+and you'll be able to copy that
+
+116
+00:03:17,009 --> 00:03:19,169
+individual landing pages url put
+
+117
+00:03:19,270 --> 00:03:21,800
+it into your ads manager and run
+
+118
+00:03:21,800 --> 00:03:22,280
+it so
+
+119
+00:03:23,680 --> 00:03:25,550
+other things too i always turn
+
+120
+00:03:25,550 --> 00:03:27,539
+this to uh to live once we launch
+
+121
+00:03:27,539 --> 00:03:29,719
+even if we're not doing payments
+
+122
+00:03:29,759 --> 00:03:32,300
+this is the overall funnel path
+
+123
+00:03:32,300 --> 00:03:34,610
+right so this one up here
+
+124
+00:03:34,719 --> 00:03:37,439
+make sure you hide this make sure
+
+125
+00:03:37,449 --> 00:03:40,039
+the head code is good if you do
+
+126
+00:03:40,039 --> 00:03:42,439
+want to select that style sheet
+
+127
+00:03:42,479 --> 00:03:43,400
+that's where you're going to
+
+128
+00:03:43,400 --> 00:03:44,479
+select it right here you can
+
+129
+00:03:44,479 --> 00:03:46,189
+override it on the actual landing
+
+130
+00:03:46,210 --> 00:03:47,379
+page level like
+
+131
+00:03:47,439 --> 00:03:48,449
+if you have the style sheet you
+
+132
+00:03:48,560 --> 00:03:49,909
+can change the font still but this
+
+133
+00:03:49,909 --> 00:03:51,400
+will just make sure everything is
+
+134
+00:03:51,439 --> 00:03:53,189
+just by default fitting that style
+
+135
+00:03:53,189 --> 00:03:54,719
+sheet which we went over in the
+
+136
+00:03:54,780 --> 00:03:56,199
+first video a little bit and i
+
+137
+00:03:56,240 --> 00:03:57,759
+showed you guys what it looks like
+
+138
+00:03:57,759 --> 00:03:59,189
+then if you want to tag it you can
+
+139
+00:03:59,199 --> 00:04:01,599
+tag it but there we go so
+
+140
+00:04:03,120 --> 00:04:05,069
+let's dive into the page itself
+
+141
+00:04:05,620 --> 00:04:15,150
+cool so a couple things to note
+
+142
+00:04:15,150 --> 00:04:18,259
+all right first off at the the top
+
+143
+00:04:18,259 --> 00:04:20,980
+here so what you're going to see
+
+144
+00:04:21,040 --> 00:04:22,370
+is over here so drag and drop or
+
+145
+00:04:22,370 --> 00:04:23,709
+sorry not drag and drop you can
+
+146
+00:04:23,759 --> 00:04:25,319
+move to different funnel steps if
+
+147
+00:04:25,379 --> 00:04:25,399
+you
+
+148
+00:04:25,439 --> 00:04:27,379
+want to over here or different
+
+149
+00:04:27,379 --> 00:04:29,399
+landing pages but essentially
+
+150
+00:04:29,550 --> 00:04:31,560
+let's go from left to right here
+
+151
+00:04:31,560 --> 00:04:31,879
+so this
+
+152
+00:04:31,920 --> 00:04:33,680
+is help if you need it this will
+
+153
+00:04:33,680 --> 00:04:35,649
+show you any errors and warnings
+
+154
+00:04:36,259 --> 00:04:40,529
+this is essentially just a
+
+155
+00:04:40,529 --> 00:04:42,939
+overview of all the different
+
+156
+00:04:42,939 --> 00:04:44,680
+sections rows columns because
+
+157
+00:04:44,680 --> 00:04:45,079
+sometimes
+
+158
+00:04:45,120 --> 00:04:46,620
+you might like have something
+
+159
+00:04:46,620 --> 00:04:48,360
+that's uh basically like you just
+
+160
+00:04:48,459 --> 00:04:49,959
+can't pull it up or you can't move
+
+161
+00:04:49,959 --> 00:04:50,439
+it
+
+162
+00:04:50,480 --> 00:04:52,009
+for whatever reason um you know
+
+163
+00:04:52,009 --> 00:04:53,699
+sometimes there's just glitches
+
+164
+00:04:53,750 --> 00:04:54,920
+within click funnels so if you
+
+165
+00:04:54,920 --> 00:04:55,160
+want to
+
+166
+00:04:55,199 --> 00:04:56,670
+like move a headline around or a
+
+167
+00:04:56,670 --> 00:04:58,339
+row or something you can basically
+
+168
+00:04:58,470 --> 00:05:00,439
+just drag that and move it uh this
+
+169
+00:05:00,439 --> 00:05:00,759
+way if
+
+170
+00:05:00,800 --> 00:05:03,399
+you uh if you care care to then
+
+171
+00:05:03,399 --> 00:05:06,160
+from there this is where you can
+
+172
+00:05:06,290 --> 00:05:08,839
+start to add sections so they have
+
+173
+00:05:08,839 --> 00:05:09,000
+a
+
+174
+00:05:09,040 --> 00:05:11,019
+ton of different you know
+
+175
+00:05:11,019 --> 00:05:13,240
+universal sections so ton of
+
+176
+00:05:13,240 --> 00:05:15,680
+different headers ton of different
+
+177
+00:05:15,709 --> 00:05:16,120
+you know
+
+178
+00:05:16,160 --> 00:05:17,769
+stacks and product stacks and all
+
+179
+00:05:17,769 --> 00:05:19,850
+that ton of different templates so
+
+180
+00:05:19,870 --> 00:05:21,639
+we have used like some of these as
+
+181
+00:05:22,180 --> 00:05:23,139
+inspiration but uh most of the
+
+182
+00:05:23,139 --> 00:05:24,819
+time we're still developing from
+
+183
+00:05:24,949 --> 00:05:26,279
+like scratch or using one of our
+
+184
+00:05:26,740 --> 00:05:27,699
+templates like i said we're going
+
+185
+00:05:27,699 --> 00:05:28,990
+to share with you guys but if you
+
+186
+00:05:29,060 --> 00:05:30,439
+do find something you're like okay
+
+187
+00:05:30,480 --> 00:05:31,629
+cool this product stack could be
+
+188
+00:05:31,629 --> 00:05:32,839
+pretty interesting let me go and
+
+189
+00:05:32,839 --> 00:05:35,240
+do that you can just grab this and
+
+190
+00:05:35,240 --> 00:05:35,389
+just
+
+191
+00:05:35,439 --> 00:05:37,360
+slap it into the uh slap it into
+
+192
+00:05:37,360 --> 00:05:41,399
+the funnel so other than that you
+
+193
+00:05:41,410 --> 00:05:45,110
+also have your saved sections
+
+194
+00:05:45,250 --> 00:05:45,560
+which
+
+195
+00:05:45,600 --> 00:05:47,230
+most of the time if we have some
+
+196
+00:05:47,230 --> 00:05:49,060
+sort of like value stack section
+
+197
+00:05:49,060 --> 00:05:50,920
+or features section that we like
+
+198
+00:05:50,920 --> 00:05:51,079
+to
+
+199
+00:05:51,120 --> 00:05:53,019
+do and transfer across clients
+
+200
+00:05:53,019 --> 00:05:54,790
+we'll just save it and you can
+
+201
+00:05:54,800 --> 00:05:57,480
+just go and basically you know pop
+
+202
+00:05:57,480 --> 00:05:57,709
+it here
+
+203
+00:05:57,759 --> 00:05:59,259
+if you want to save a section very
+
+204
+00:05:59,259 --> 00:06:00,689
+simple you just hover over the
+
+205
+00:06:00,730 --> 00:06:03,319
+section because essentially when
+
+206
+00:06:03,319 --> 00:06:03,399
+you
+
+207
+00:06:03,439 --> 00:06:05,629
+think about click funnels it's
+
+208
+00:06:05,629 --> 00:06:07,860
+built in sections then you go to
+
+209
+00:06:07,860 --> 00:06:10,759
+row right there and then you have
+
+210
+00:06:10,759 --> 00:06:11,350
+the element
+
+211
+00:06:11,439 --> 00:06:13,209
+within the row okay so you have to
+
+212
+00:06:13,209 --> 00:06:14,949
+make sure you hover and it's the
+
+213
+00:06:14,949 --> 00:06:17,560
+green section here hit save and
+
+214
+00:06:17,560 --> 00:06:17,689
+then
+
+215
+00:06:17,759 --> 00:06:19,050
+you can basically save it and if
+
+216
+00:06:19,050 --> 00:06:20,339
+you want to save it under like a
+
+217
+00:06:20,339 --> 00:06:21,879
+folder or something like you know
+
+218
+00:06:21,920 --> 00:06:23,100
+this would be like estimate
+
+219
+00:06:23,149 --> 00:06:25,759
+mastery all right our our client
+
+220
+00:06:25,759 --> 00:06:28,439
+there you can save that if you
+
+221
+00:06:28,439 --> 00:06:28,569
+want to
+
+222
+00:06:28,639 --> 00:06:30,480
+have like different sections and
+
+223
+00:06:30,480 --> 00:06:32,019
+rows and stuff like that and
+
+224
+00:06:32,019 --> 00:06:34,199
+elements saved to different uh
+
+225
+00:06:34,199 --> 00:06:34,430
+different
+
+226
+00:06:34,480 --> 00:06:36,040
+clients you can do that different
+
+227
+00:06:36,040 --> 00:06:37,370
+folders so you can save like i
+
+228
+00:06:37,389 --> 00:06:39,160
+said a headline here or an element
+
+229
+00:06:40,319 --> 00:06:41,990
+all right you can save a video
+
+230
+00:06:41,990 --> 00:06:43,839
+element you could save a row you
+
+231
+00:06:43,839 --> 00:06:45,560
+could save a section whatever you
+
+232
+00:06:45,600 --> 00:06:47,170
+want to do you just got to do that
+
+233
+00:06:47,170 --> 00:06:48,740
+and click save if you delete it
+
+234
+00:06:48,740 --> 00:06:50,509
+you can click delete there if you
+
+235
+00:06:50,560 --> 00:06:51,920
+want to use some custom code which
+
+236
+00:06:51,920 --> 00:06:53,220
+that's beyond the scope of what
+
+237
+00:06:53,300 --> 00:06:54,519
+we're going to go over here you
+
+238
+00:06:54,670 --> 00:06:54,920
+can
+
+239
+00:06:55,410 --> 00:06:57,670
+click there clone settings which
+
+240
+00:06:57,680 --> 00:07:00,329
+we'll get into in a sec that's all
+
+241
+00:07:00,399 --> 00:07:02,430
+the settings on that you know
+
+242
+00:07:02,980 --> 00:07:04,040
+respective section and if you want
+
+243
+00:07:04,040 --> 00:07:05,350
+to move it you can just grab it
+
+244
+00:07:05,350 --> 00:07:06,839
+and start moving it or of course
+
+245
+00:07:06,839 --> 00:07:08,519
+you can go
+
+246
+00:07:08,560 --> 00:07:09,740
+here and just move things around
+
+247
+00:07:09,870 --> 00:07:12,519
+so if you want to do a pop-up
+
+248
+00:07:12,670 --> 00:07:15,959
+hover here click show pop-up make
+
+249
+00:07:15,959 --> 00:07:16,120
+sure
+
+250
+00:07:16,160 --> 00:07:18,000
+when you when you actually go to
+
+251
+00:07:18,000 --> 00:07:19,850
+uh you know edit pop-ups that you
+
+252
+00:07:19,990 --> 00:07:21,800
+also edit on a mobile by the way
+
+253
+00:07:21,839 --> 00:07:23,660
+big mistake i've made before make
+
+254
+00:07:23,670 --> 00:07:25,790
+sure to do that then from there
+
+255
+00:07:25,949 --> 00:07:27,959
+you can do the edit the settings
+
+256
+00:07:27,959 --> 00:07:28,089
+of
+
+257
+00:07:28,160 --> 00:07:29,649
+the pop-up so which will get into
+
+258
+00:07:29,649 --> 00:07:31,110
+a bunch of the settings here but
+
+259
+00:07:31,120 --> 00:07:32,620
+this is where you can basically
+
+260
+00:07:32,680 --> 00:07:33,000
+toggle
+
+261
+00:07:33,040 --> 00:07:34,769
+with the margin at the top the
+
+262
+00:07:34,779 --> 00:07:36,709
+margin at the bottom you can you
+
+263
+00:07:36,709 --> 00:07:38,600
+know have it to where it triggers
+
+264
+00:07:38,600 --> 00:07:38,750
+on
+
+265
+00:07:38,800 --> 00:07:40,060
+exit or not you can have it to
+
+266
+00:07:40,060 --> 00:07:41,589
+where it triggers on page load or
+
+267
+00:07:41,589 --> 00:07:43,160
+not i hate i hate that i hate both
+
+268
+00:07:43,199 --> 00:07:44,790
+them honestly um you can have the
+
+269
+00:07:44,790 --> 00:07:46,550
+backdrop color you can change that
+
+270
+00:07:46,550 --> 00:07:48,439
+around which essentially is this
+
+271
+00:07:48,980 --> 00:07:50,449
+backdrop over here so you'll see
+
+272
+00:07:50,449 --> 00:07:52,600
+like it can make it darker lighter
+
+273
+00:07:52,600 --> 00:07:56,110
+all that fun stuff left and right
+
+274
+00:07:56,660 --> 00:07:58,540
+padding so you can make it smaller
+
+275
+00:07:58,540 --> 00:08:00,779
+and bigger you can make it wider
+
+276
+00:08:00,779 --> 00:08:03,879
+even more too you can add some
+
+277
+00:08:03,920 --> 00:08:05,100
+more padding so padding
+
+278
+00:08:05,199 --> 00:08:06,670
+essentially will add like
+
+279
+00:08:06,670 --> 00:08:08,379
+basically just that padding to
+
+280
+00:08:08,379 --> 00:08:09,959
+whatever you know
+
+281
+00:08:10,050 --> 00:08:11,560
+whatever element or row or section
+
+282
+00:08:11,560 --> 00:08:13,029
+you're essentially trying to uh
+
+283
+00:08:13,029 --> 00:08:14,759
+you're essentially toggling it on
+
+284
+00:08:14,759 --> 00:08:14,910
+so
+
+285
+00:08:14,959 --> 00:08:16,939
+by the way too whenever you see
+
+286
+00:08:16,939 --> 00:08:19,230
+this computer icon that means you
+
+287
+00:08:19,300 --> 00:08:21,550
+are editing that element in its
+
+288
+00:08:21,560 --> 00:08:22,589
+desktop
+
+289
+00:08:22,639 --> 00:08:24,180
+view in format if you want to
+
+290
+00:08:24,180 --> 00:08:25,899
+switch to mobile you can click
+
+291
+00:08:25,980 --> 00:08:27,639
+here or you can go into mobile
+
+292
+00:08:27,769 --> 00:08:28,120
+only view
+
+293
+00:08:28,160 --> 00:08:30,490
+and then click the element there
+
+294
+00:08:30,490 --> 00:08:32,580
+but go back here bottom we'll
+
+295
+00:08:32,580 --> 00:08:34,418
+change padding there padding there
+
+296
+00:08:34,509 --> 00:08:34,519
+left
+
+297
+00:08:34,559 --> 00:08:36,340
+and right we'll change padding
+
+298
+00:08:36,340 --> 00:08:38,129
+there then if you want to change
+
+299
+00:08:38,179 --> 00:08:39,918
+background for example on the
+
+300
+00:08:39,918 --> 00:08:40,440
+pop-up
+
+301
+00:08:40,480 --> 00:08:41,960
+you go here you can do an image
+
+302
+00:08:41,960 --> 00:08:44,048
+with your image library and you
+
+303
+00:08:44,100 --> 00:08:46,049
+just upload a new image there
+
+304
+00:08:47,679 --> 00:08:49,379
+you can do image style so we
+
+305
+00:08:49,379 --> 00:08:51,519
+usually do you know essentially
+
+306
+00:08:51,519 --> 00:08:52,990
+like full center we just kind of
+
+307
+00:08:53,000 --> 00:08:53,159
+like
+
+308
+00:08:53,690 --> 00:08:55,610
+toggle it till it looks good image
+
+309
+00:08:55,610 --> 00:08:57,659
+fit if you want it to be placed
+
+310
+00:08:57,720 --> 00:08:59,720
+this way that way this way that
+
+311
+00:08:59,720 --> 00:09:00,039
+way
+
+312
+00:09:00,080 --> 00:09:01,639
+we always do mainly center just
+
+313
+00:09:01,639 --> 00:09:03,049
+leave it blank don't really
+
+314
+00:09:03,049 --> 00:09:05,320
+overthink that part and then if
+
+315
+00:09:05,320 --> 00:09:05,440
+you want
+
+316
+00:09:05,519 --> 00:09:07,299
+to change the background you can
+
+317
+00:09:07,299 --> 00:09:08,980
+do that here you could also use
+
+318
+00:09:08,980 --> 00:09:10,879
+style guide which style guide by
+
+319
+00:09:10,960 --> 00:09:11,309
+the way
+
+320
+00:09:12,159 --> 00:09:13,870
+is from the style sheets so for
+
+321
+00:09:13,870 --> 00:09:15,620
+this client style sheet in the
+
+322
+00:09:15,620 --> 00:09:17,639
+settings from section one we set
+
+323
+00:09:17,639 --> 00:09:17,870
+up
+
+324
+00:09:17,919 --> 00:09:19,100
+all these different colors that
+
+325
+00:09:19,120 --> 00:09:20,370
+these are their brand colors so i
+
+326
+00:09:20,370 --> 00:09:22,600
+can just easily go here and say oh
+
+327
+00:09:22,600 --> 00:09:22,830
+i know
+
+328
+00:09:22,879 --> 00:09:24,850
+that this blue is their respective
+
+329
+00:09:24,850 --> 00:09:26,590
+blue for their their this client
+
+330
+00:09:26,710 --> 00:09:28,360
+right i can go there and make it
+
+331
+00:09:28,360 --> 00:09:28,669
+blue if
+
+332
+00:09:28,720 --> 00:09:32,289
+i want you know border this
+
+333
+00:09:32,289 --> 00:09:35,080
+essentially just the the border
+
+334
+00:09:35,080 --> 00:09:37,429
+here shadow if i want to add a
+
+335
+00:09:37,429 --> 00:09:38,600
+shadow it'll add
+
+336
+00:09:38,639 --> 00:09:40,710
+that there corner if i want to
+
+337
+00:09:40,710 --> 00:09:43,889
+basically add a corner it's right
+
+338
+00:09:43,889 --> 00:09:46,440
+there now again these are the
+
+339
+00:09:46,440 --> 00:09:47,080
+styles from
+
+340
+00:09:47,120 --> 00:09:49,070
+your style sheet okay so in the
+
+341
+00:09:49,080 --> 00:09:51,320
+style sheet in that main settings
+
+342
+00:09:51,320 --> 00:09:53,159
+we went and started to toggle
+
+343
+00:09:53,159 --> 00:09:53,379
+around
+
+344
+00:09:53,440 --> 00:09:54,789
+some things so if i have like
+
+345
+00:09:54,789 --> 00:09:56,570
+three types of corners basically i
+
+346
+00:09:56,570 --> 00:09:58,120
+can set them there if i want to
+
+347
+00:09:58,120 --> 00:09:58,509
+edit it
+
+348
+00:09:58,980 --> 00:10:00,269
+further i just click this button
+
+349
+00:10:00,269 --> 00:10:01,870
+here and it allows me to custom
+
+350
+00:10:01,899 --> 00:10:04,100
+override that style sheet that's
+
+351
+00:10:04,529 --> 00:10:04,679
+pretty
+
+352
+00:10:05,200 --> 00:10:06,230
+universal for any element in any
+
+353
+00:10:06,230 --> 00:10:08,950
+section if you go to advance um i
+
+354
+00:10:08,950 --> 00:10:11,960
+really never touch this stuff
+
+355
+00:10:12,000 --> 00:10:14,529
+not gonna lie like ever touch this
+
+356
+00:10:14,529 --> 00:10:17,070
+stuff so not even gonna go over it
+
+357
+00:10:17,129 --> 00:10:18,639
+and we built a lot of pages
+
+358
+00:10:18,720 --> 00:10:20,029
+uh let me just make sure i didn't
+
+359
+00:10:20,029 --> 00:10:23,320
+have some crazy stuff that i added
+
+360
+00:10:23,320 --> 00:10:28,360
+no cool so uh another
+
+361
+00:10:28,399 --> 00:10:30,139
+thing too with click funnels just
+
+362
+00:10:30,139 --> 00:10:31,879
+because it was on my mind make
+
+363
+00:10:31,879 --> 00:10:33,879
+sure you save your stuff
+
+364
+00:10:34,370 --> 00:10:34,759
+frequently
+
+365
+00:10:34,799 --> 00:10:36,309
+okay make sure you click this
+
+366
+00:10:36,309 --> 00:10:38,190
+little save button over here quite
+
+367
+00:10:38,190 --> 00:10:39,960
+frequently because it is a
+
+368
+00:10:40,769 --> 00:10:41,389
+nightmare
+
+369
+00:10:41,440 --> 00:10:42,740
+at times especially like if you
+
+370
+00:10:42,740 --> 00:10:44,159
+get a little blip in your internet
+
+371
+00:10:44,179 --> 00:10:46,509
+or whatever like i've edited page
+
+372
+00:10:46,559 --> 00:10:48,039
+while pages while i'm traveling
+
+373
+00:10:48,039 --> 00:10:49,389
+and you know on a plane and you
+
+374
+00:10:49,389 --> 00:10:50,759
+get like a little blip on the
+
+375
+00:10:50,759 --> 00:10:51,320
+internet
+
+376
+00:10:51,360 --> 00:10:53,490
+and it dies out and unfortunately
+
+377
+00:10:53,490 --> 00:10:55,600
+unlike some other page builders
+
+378
+00:10:55,600 --> 00:10:57,720
+click funnels does not save your
+
+379
+00:10:58,259 --> 00:10:59,700
+progress even if it's offline for
+
+380
+00:10:59,700 --> 00:11:00,960
+a little bit of time so
+
+381
+00:11:01,029 --> 00:11:02,929
+essentially it just wipes out all
+
+382
+00:11:02,929 --> 00:11:03,320
+of your
+
+383
+00:11:03,360 --> 00:11:05,269
+work so usually i will just make a
+
+384
+00:11:05,269 --> 00:11:07,590
+note to like every 15 minutes just
+
+385
+00:11:07,590 --> 00:11:09,480
+try to like hit save or if i just
+
+386
+00:11:09,519 --> 00:11:11,289
+edit a big section i'm going to
+
+387
+00:11:11,289 --> 00:11:13,090
+hit save and stuff like that so
+
+388
+00:11:13,149 --> 00:11:14,700
+yeah that's an overview of
+
+389
+00:11:15,490 --> 00:11:15,559
+everything
+
+390
+00:11:15,600 --> 00:11:17,230
+guys um right here now the next
+
+391
+00:11:17,230 --> 00:11:18,889
+video we're going to dive into
+
+392
+00:11:18,940 --> 00:11:20,919
+just each element each section and
+
+393
+00:11:20,919 --> 00:11:21,080
+all
+
+394
+00:11:21,120 --> 00:11:22,970
+that but um really from there very
+
+395
+00:11:22,970 --> 00:11:24,690
+simple stuff you can go here and
+
+396
+00:11:24,740 --> 00:11:26,909
+change like the typography of the
+
+397
+00:11:26,960 --> 00:11:28,830
+entire page same with the body
+
+398
+00:11:28,830 --> 00:11:30,669
+displays and stuff like that
+
+399
+00:11:30,789 --> 00:11:32,840
+honestly i never really check any
+
+400
+00:11:32,919 --> 00:11:33,080
+of this
+
+401
+00:11:33,120 --> 00:11:35,120
+stuff here's custom code sometimes
+
+402
+00:11:35,120 --> 00:11:36,830
+if we want to make like right here
+
+403
+00:11:36,950 --> 00:11:38,600
+a uh you know we want to highlight
+
+404
+00:11:39,139 --> 00:11:40,529
+something if we do a strikethrough
+
+405
+00:11:40,529 --> 00:11:42,179
+like we want to make this one to
+
+406
+00:11:42,210 --> 00:11:43,879
+do the strikethrough element
+
+407
+00:11:43,919 --> 00:11:45,840
+we'll uh we'll do that with custom
+
+408
+00:11:45,840 --> 00:11:47,649
+code so it's very easy with chat
+
+409
+00:11:47,730 --> 00:11:47,879
+gpt
+
+410
+00:11:48,460 --> 00:11:50,570
+right there basically just ask
+
+411
+00:11:50,570 --> 00:11:53,370
+chat gpt hey i'm making something
+
+412
+00:11:53,440 --> 00:11:55,799
+in click funnels 2.0
+
+413
+00:11:55,840 --> 00:11:57,629
+i want to make it to where it is
+
+414
+00:11:57,629 --> 00:11:59,799
+this color if i do a strikethrough
+
+415
+00:11:59,950 --> 00:12:02,279
+um how do i basically do that
+
+416
+00:12:02,320 --> 00:12:03,649
+and it will tell you exactly how
+
+417
+00:12:03,649 --> 00:12:05,169
+to do that and then by the way
+
+418
+00:12:05,169 --> 00:12:07,480
+again with the actual pixel or the
+
+419
+00:12:07,519 --> 00:12:09,250
+sorry the standard event code not
+
+420
+00:12:09,259 --> 00:12:10,769
+the pixel um for meta you will
+
+421
+00:12:10,860 --> 00:12:12,279
+have to place that in the footer
+
+422
+00:12:12,279 --> 00:12:12,429
+for
+
+423
+00:12:12,480 --> 00:12:14,330
+click funnels 2.0 not the header
+
+424
+00:12:14,330 --> 00:12:15,750
+like a lot of people tried to do
+
+425
+00:12:15,820 --> 00:12:17,320
+it does not work in the header
+
+426
+00:12:17,360 --> 00:12:19,139
+just the footer so i'll see you
+
+427
+00:12:19,139 --> 00:12:21,049
+guys on the next video and we'll
+
+428
+00:12:21,049 --> 00:12:22,039
+dive in deeper

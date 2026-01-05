@@ -1,0 +1,1035 @@
+1
+00:00:00,020 --> 00:00:00,710
+All right.
+
+2
+00:00:00,840 --> 00:00:01,990
+Section two.
+
+3
+00:00:02,000 --> 00:00:04,379
+So in this section, I'm going to
+
+4
+00:00:04,379 --> 00:00:05,830
+help you understand the logic
+
+5
+00:00:05,919 --> 00:00:07,710
+of an ROI calculator first with
+
+6
+00:00:07,710 --> 00:00:08,750
+Google Sheets.
+
+7
+00:00:08,750 --> 00:00:10,859
+You know, see, all calculators are
+
+8
+00:00:10,949 --> 00:00:11,720
+just numbers
+
+9
+00:00:11,740 --> 00:00:12,679
+plugged into a formula.
+
+10
+00:00:12,759 --> 00:00:13,949
+If you don't even understand the
+
+11
+00:00:13,949 --> 00:00:15,349
+math, then the tool is useless.
+
+12
+00:00:15,380 --> 00:00:17,039
+I'm not going to share my screen,
+
+13
+00:00:17,059 --> 00:00:18,929
+but that Google Sheet, so you can
+
+14
+00:00:18,929 --> 00:00:21,010
+clearly understand the math
+
+15
+00:00:21,539 --> 00:00:22,730
+behind this process.
+
+16
+00:00:22,730 --> 00:00:25,120
+Also, don't ask me to share editor
+
+17
+00:00:25,120 --> 00:00:26,449
+access with you.
+
+18
+00:00:26,449 --> 00:00:28,000
+Just make a copy of it
+
+19
+00:00:28,019 --> 00:00:29,050
+and see for yourself.
+
+20
+00:00:29,079 --> 00:00:30,460
+Do not ask me editor access.
+
+21
+00:00:30,660 --> 00:00:32,320
+All right.
+
+22
+00:00:32,320 --> 00:00:35,520
+Now that you can see my Google
+
+23
+00:00:35,520 --> 00:00:35,859
+Sheet,
+
+24
+00:00:35,899 --> 00:00:37,759
+the first thing that we're going
+
+25
+00:00:37,759 --> 00:00:39,500
+to look at is if you're running
+
+26
+00:00:39,500 --> 00:00:41,530
+paid ads as a service and
+
+27
+00:00:42,060 --> 00:00:43,570
+specifically the VSL, the book
+
+28
+00:00:43,719 --> 00:00:44,429
+call fund.
+
+29
+00:00:44,679 --> 00:00:46,789
+Let me explain all the inputs and
+
+30
+00:00:46,789 --> 00:00:48,280
+all the calculated
+
+31
+00:00:48,759 --> 00:00:50,270
+outputs that we are showing that
+
+32
+00:00:50,509 --> 00:00:52,270
+we are going to show on this ROI
+
+33
+00:00:52,270 --> 00:00:53,340
+calculator.
+
+34
+00:00:53,340 --> 00:00:54,299
+So the first one
+
+35
+00:00:54,539 --> 00:00:56,509
+is you've input the following.
+
+36
+00:00:56,670 --> 00:00:58,329
+You ask the user to input ad
+
+37
+00:00:58,329 --> 00:01:01,399
+spend, the CPM and the CTR.
+
+38
+00:01:01,399 --> 00:01:02,399
+Based off of
+
+39
+00:01:02,420 --> 00:01:03,740
+this, you're going to get the
+
+40
+00:01:03,869 --> 00:01:05,219
+total impressions, which is ad
+
+41
+00:01:05,219 --> 00:01:06,700
+spend by CPM times thousand.
+
+42
+00:01:06,700 --> 00:01:07,659
+You're going to
+
+43
+00:01:07,680 --> 00:01:09,579
+get the unique clicks, which is
+
+44
+00:01:09,579 --> 00:01:11,349
+CTR, this one times the total
+
+45
+00:01:11,349 --> 00:01:13,109
+impressions and the cost work
+
+46
+00:01:13,120 --> 00:01:14,340
+click, which is
+
+47
+00:01:14,359 --> 00:01:16,340
+ad spend by this value.
+
+48
+00:01:17,000 --> 00:01:19,790
+Once we get all that, we're going
+
+49
+00:01:19,790 --> 00:01:22,219
+to input as the user to input the
+
+50
+00:01:22,219 --> 00:01:22,219
+unique
+
+51
+00:01:22,260 --> 00:01:23,909
+page visits, the total
+
+52
+00:01:23,909 --> 00:01:26,450
+applications and the total cost.
+
+53
+00:01:26,450 --> 00:01:28,859
+Based off that, we can calculate
+
+54
+00:01:28,859 --> 00:01:30,069
+these four
+
+55
+00:01:30,700 --> 00:01:31,109
+variables.
+
+56
+00:01:31,250 --> 00:01:33,420
+The application rate, which is the
+
+57
+00:01:33,420 --> 00:01:35,180
+total number of applications
+
+58
+00:01:35,269 --> 00:01:37,219
+divided by the unique page
+
+59
+00:01:37,700 --> 00:01:37,930
+visits.
+
+60
+00:01:38,250 --> 00:01:41,829
+The cost per application, which is
+
+61
+00:01:41,909 --> 00:01:44,400
+the total ad spend, this one by
+
+62
+00:01:44,530 --> 00:01:47,099
+the total number of applications.
+
+63
+00:01:47,120 --> 00:01:49,090
+And the booked call rate is the
+
+64
+00:01:49,099 --> 00:01:51,340
+number of calls booked divided by
+
+65
+00:01:51,340 --> 00:01:53,700
+the unique page visits.
+
+66
+00:01:53,700 --> 00:01:54,700
+And then you get your
+
+67
+00:01:54,739 --> 00:01:57,159
+cost per booked call, which is the
+
+68
+00:01:57,370 --> 00:01:59,450
+total ad spend by the total calls
+
+69
+00:01:59,450 --> 00:02:00,090
+booked.
+
+70
+00:02:00,090 --> 00:02:03,579
+After that, you now get total live
+
+71
+00:02:03,579 --> 00:02:03,930
+calls.
+
+72
+00:02:04,040 --> 00:02:05,150
+How many people are actually
+
+73
+00:02:05,239 --> 00:02:06,219
+showing up?
+
+74
+00:02:06,219 --> 00:02:06,969
+How many
+
+75
+00:02:07,569 --> 00:02:08,550
+deals did you close?
+
+76
+00:02:08,689 --> 00:02:10,508
+What is the average sale price?
+
+77
+00:02:10,508 --> 00:02:13,780
+Based off this, we get show rate.
+
+78
+00:02:13,780 --> 00:02:17,099
+We get the cost per live call.
+
+79
+00:02:17,110 --> 00:02:20,340
+We get the close rate, the total
+
+80
+00:02:20,340 --> 00:02:21,699
+revenue and the ROAS.
+
+81
+00:02:21,699 --> 00:02:25,219
+The formula for all of them are
+
+82
+00:02:25,219 --> 00:02:26,800
+explicitly mentioned here.
+
+83
+00:02:26,870 --> 00:02:30,189
+So only once you do this for your
+
+84
+00:02:30,460 --> 00:02:32,189
+own business model, would you even
+
+85
+00:02:32,419 --> 00:02:34,860
+get an understanding as to what
+
+86
+00:02:34,900 --> 00:02:37,099
+prompt to even give Claude.
+
+87
+00:02:37,550 --> 00:02:41,139
+Now let's look at cold email lead
+
+88
+00:02:41,139 --> 00:02:42,930
+generation.
+
+89
+00:02:42,990 --> 00:02:44,960
+So for cold email lead generation,
+
+90
+00:02:45,139 --> 00:02:49,370
+let's say you are running a $500
+
+91
+00:02:49,500 --> 00:02:52,069
+per month tech fee plus $300,
+
+92
+00:02:52,159 --> 00:02:54,340
+which is the cost per call.
+
+93
+00:02:54,340 --> 00:02:57,479
+That is the $300 that you're
+
+94
+00:02:57,479 --> 00:02:59,000
+charging the client when the call
+
+95
+00:02:59,000 --> 00:02:59,860
+actually happens.
+
+96
+00:03:01,740 --> 00:03:03,710
+So to select the tech fee package,
+
+97
+00:03:03,719 --> 00:03:06,659
+let's say you have 50,000 emails
+
+98
+00:03:06,659 --> 00:03:09,099
+per month, which is at $500,000,
+
+99
+00:03:09,099 --> 00:03:11,389
+100,000 emails a month, which is
+
+100
+00:03:11,509 --> 00:03:14,080
+at $1,000, and 200,000 emails a
+
+101
+00:03:14,120 --> 00:03:15,219
+month, which is at $2,000.
+
+102
+00:03:15,520 --> 00:03:16,210
+So you have to have the cost per
+
+103
+00:03:16,340 --> 00:03:17,490
+month, which is at $500,000.
+
+104
+00:03:17,500 --> 00:03:17,500
+So you have to make that a drop
+
+105
+00:03:17,500 --> 00:03:17,539
+down.
+
+106
+00:03:17,750 --> 00:03:19,360
+You have to get the logic of this
+
+107
+00:03:19,379 --> 00:03:19,900
+right.
+
+108
+00:03:20,479 --> 00:03:23,289
+And input the number of emails
+
+109
+00:03:23,340 --> 00:03:25,449
+that you send per contact.
+
+110
+00:03:25,460 --> 00:03:27,120
+And then you're going to ask the
+
+111
+00:03:27,120 --> 00:03:29,000
+user to input the cost per call.
+
+112
+00:03:29,800 --> 00:03:31,379
+And then you would be inputting
+
+113
+00:03:31,379 --> 00:03:33,080
+this here because you set the cost
+
+114
+00:03:33,120 --> 00:03:34,889
+per call before half another sales
+
+115
+00:03:34,889 --> 00:03:35,409
+call.
+
+116
+00:03:37,210 --> 00:03:38,860
+Then we're creating reply rate
+
+117
+00:03:39,120 --> 00:03:41,229
+sliders and pasta reply rate
+
+118
+00:03:41,229 --> 00:03:42,180
+sliders.
+
+119
+00:03:42,199 --> 00:03:45,370
+For the sake of this example, I've
+
+120
+00:03:45,370 --> 00:03:47,060
+used these inputs.
+
+121
+00:03:47,539 --> 00:03:51,069
+Based off of this, the total
+
+122
+00:03:51,069 --> 00:03:53,129
+people contacted per month is
+
+123
+00:03:53,270 --> 00:03:54,909
+$25,000.
+
+124
+00:03:55,110 --> 00:03:56,199
+How do we come up with this?
+
+125
+00:03:56,500 --> 00:03:58,289
+This is equal to the total emails
+
+126
+00:03:58,300 --> 00:04:00,060
+per month divided by the emails
+
+127
+00:04:00,060 --> 00:04:01,340
+sent per contact.
+
+128
+00:04:01,340 --> 00:04:03,039
+So $50,000 divided by T, which is
+
+129
+00:04:03,039 --> 00:04:04,039
+$25,000.
+
+130
+00:04:04,060 --> 00:04:05,900
+The second thing is the total
+
+131
+00:04:05,900 --> 00:04:07,610
+number of people that have
+
+132
+00:04:07,610 --> 00:04:08,439
+replied.
+
+133
+00:04:08,870 --> 00:04:11,289
+This is 2% times this, which is
+
+134
+00:04:11,539 --> 00:04:12,819
+500.
+
+135
+00:04:14,120 --> 00:04:16,050
+And the total number of pasta
+
+136
+00:04:16,050 --> 00:04:18,319
+replies, you would actually get
+
+137
+00:04:18,319 --> 00:04:21,250
+this as 12.5% of 500, which is
+
+138
+00:04:21,250 --> 00:04:23,339
+$62.5, but you need to round it
+
+139
+00:04:23,439 --> 00:04:23,980
+down.
+
+140
+00:04:24,000 --> 00:04:25,660
+So you need to use the floor
+
+141
+00:04:25,660 --> 00:04:27,930
+function here on Google Sheets.
+
+142
+00:04:27,959 --> 00:04:29,930
+And then the next step is the
+
+143
+00:04:30,600 --> 00:04:32,220
+conversion part of it.
+
+144
+00:04:32,240 --> 00:04:35,069
+How many calls were booked from
+
+145
+00:04:35,319 --> 00:04:37,180
+the pasta replies?
+
+146
+00:04:39,060 --> 00:04:39,870
+25% of them.
+
+147
+00:04:39,899 --> 00:04:44,160
+So out of these 62 pasta replies,
+
+148
+00:04:44,160 --> 00:04:47,290
+you book a fourth of them.
+
+149
+00:04:47,319 --> 00:04:49,310
+So you end up getting 15 booked
+
+150
+00:04:49,970 --> 00:04:50,149
+calls.
+
+151
+00:04:50,420 --> 00:04:52,149
+This is the rounded down number of
+
+152
+00:04:52,149 --> 00:04:53,920
+the total pasta replies times the
+
+153
+00:04:53,930 --> 00:04:55,139
+call booking rate.
+
+154
+00:04:55,620 --> 00:04:59,019
+And then what is the close rate?
+
+155
+00:04:59,079 --> 00:05:00,579
+The close rate is 25%.
+
+156
+00:05:00,600 --> 00:05:02,569
+So this is the rounded down number
+
+157
+00:05:02,750 --> 00:05:04,459
+of the total calls booked times
+
+158
+00:05:04,529 --> 00:05:05,660
+the close rate.
+
+159
+00:05:08,600 --> 00:05:09,889
+And what is the average sale
+
+160
+00:05:10,040 --> 00:05:10,350
+price?
+
+161
+00:05:10,399 --> 00:05:12,000
+Based on the average sale price,
+
+162
+00:05:12,000 --> 00:05:14,089
+you can then generate net new
+
+163
+00:05:14,089 --> 00:05:16,699
+monthly revenue generated, which
+
+164
+00:05:16,699 --> 00:05:17,980
+is going to be $30,000,
+
+165
+00:05:18,000 --> 00:05:19,779
+which is equal to the total number
+
+166
+00:05:19,779 --> 00:05:21,259
+of clients closed times the
+
+167
+00:05:21,259 --> 00:05:22,579
+average sale price.
+
+168
+00:05:23,000 --> 00:05:25,430
+And based off of this, Zoom
+
+169
+00:05:25,680 --> 00:05:27,730
+calculate, what you pay the
+
+170
+00:05:27,730 --> 00:05:29,990
+agency, what they pay you with
+
+171
+00:05:30,089 --> 00:05:30,949
+that month,
+
+172
+00:05:31,160 --> 00:05:32,370
+which is equal to the tech fee
+
+173
+00:05:32,610 --> 00:05:33,990
+cost, plus the number of calls
+
+174
+00:05:34,240 --> 00:05:35,740
+booked times the cost per call.
+
+175
+00:05:36,180 --> 00:05:38,120
+So that is going to be $500,000
+
+176
+00:05:38,120 --> 00:05:40,449
+plus 15 times $300,000, which is
+
+177
+00:05:40,449 --> 00:05:41,540
+$4,500.
+
+178
+00:05:41,560 --> 00:05:44,300
+Add that $500,000, you get $5,000.
+
+179
+00:05:44,319 --> 00:05:46,290
+And then you're going to show them
+
+180
+00:05:46,439 --> 00:05:48,910
+the customer acquisition costs.
+
+181
+00:05:48,939 --> 00:05:50,240
+So they just paid you $5,000.
+
+182
+00:05:50,259 --> 00:05:52,579
+You got them three clients.
+
+183
+00:05:53,819 --> 00:05:56,209
+Their CAC, customer acquisition
+
+184
+00:05:56,439 --> 00:05:59,170
+cost is $1,667, US.
+
+185
+00:05:59,550 --> 00:06:02,560
+And the return on their investment
+
+186
+00:06:02,560 --> 00:06:06,220
+is they just put in $5,000 and
+
+187
+00:06:06,220 --> 00:06:08,250
+they're getting $30,000 out of it.
+
+188
+00:06:08,279 --> 00:06:10,160
+$6,000 right there.
+
+189
+00:06:10,589 --> 00:06:12,939
+That is how you explain the math
+
+190
+00:06:12,939 --> 00:06:13,939
+to them.
+
+191
+00:06:15,240 --> 00:06:16,959
+So let's go to the next one, which
+
+192
+00:06:16,959 --> 00:06:18,339
+is going to be the LinkedIn
+
+193
+00:06:18,339 --> 00:06:19,100
+outbound.
+
+194
+00:06:19,160 --> 00:06:21,060
+Let's say you're running lead gen,
+
+195
+00:06:21,060 --> 00:06:22,850
+but purely through LinkedIn.
+
+196
+00:06:22,899 --> 00:06:24,870
+So this is where you would talk
+
+197
+00:06:25,500 --> 00:06:27,069
+about how many market qualified
+
+198
+00:06:27,069 --> 00:06:28,529
+leads that are going to be
+
+199
+00:06:28,569 --> 00:06:29,480
+contacted.
+
+200
+00:06:29,959 --> 00:06:30,370
+800.
+
+201
+00:06:30,519 --> 00:06:32,480
+What is the connection acceptance
+
+202
+00:06:33,149 --> 00:06:33,600
+rate?
+
+203
+00:06:34,079 --> 00:06:34,310
+60%.
+
+204
+00:06:34,540 --> 00:06:36,730
+So based off this, you're going to
+
+205
+00:06:36,730 --> 00:06:39,100
+get total connections accepted.
+
+206
+00:06:39,470 --> 00:06:42,629
+And then what is the reply rate?
+
+207
+00:06:42,660 --> 00:06:44,149
+So once these people accept a
+
+208
+00:06:44,149 --> 00:06:46,170
+connection, automatically you send
+
+209
+00:06:46,170 --> 00:06:47,220
+them a message.
+
+210
+00:06:47,240 --> 00:06:49,540
+So 40% of those people reply to
+
+211
+00:06:49,779 --> 00:06:50,060
+you.
+
+212
+00:06:50,079 --> 00:06:53,589
+So you get 192 total replies.
+
+213
+00:06:53,620 --> 00:06:56,199
+F7 times C&I.
+
+214
+00:06:57,579 --> 00:06:59,550
+And the positive reply rate,
+
+215
+00:07:00,199 --> 00:07:02,170
+usually for LinkedIn campaigns, is
+
+216
+00:07:02,170 --> 00:07:04,040
+high because you are reaching out
+
+217
+00:07:04,100 --> 00:07:05,769
+to a personalized set of very few
+
+218
+00:07:05,769 --> 00:07:06,230
+people.
+
+219
+00:07:06,420 --> 00:07:07,449
+So I'd like cold email.
+
+220
+00:07:07,480 --> 00:07:10,310
+So your positive reply rate would
+
+221
+00:07:10,560 --> 00:07:12,420
+end up being 40%.
+
+222
+00:07:12,439 --> 00:07:14,410
+If it ends up being 40%, the
+
+223
+00:07:14,420 --> 00:07:16,550
+number of total positive replies
+
+224
+00:07:16,550 --> 00:07:18,709
+you get is 40% of this number,
+
+225
+00:07:18,740 --> 00:07:20,800
+which is 76 right there.
+
+226
+00:07:22,420 --> 00:07:24,720
+And out of these positive replies,
+
+227
+00:07:25,060 --> 00:07:27,009
+76 of them, you are now booking
+
+228
+00:07:27,110 --> 00:07:29,220
+40% of them on the calls.
+
+229
+00:07:29,240 --> 00:07:31,959
+So you've now successfully booked
+
+230
+00:07:31,959 --> 00:07:33,339
+30 calls.
+
+231
+00:07:33,360 --> 00:07:34,910
+This is total positive reply,
+
+232
+00:07:34,910 --> 00:07:36,189
+stats call booking rate.
+
+233
+00:07:36,379 --> 00:07:36,649
+Great.
+
+234
+00:07:36,680 --> 00:07:39,259
+And now based on the close rate,
+
+235
+00:07:39,329 --> 00:07:42,490
+20%, you've closed this person six
+
+236
+00:07:42,569 --> 00:07:43,699
+new deals.
+
+237
+00:07:44,769 --> 00:07:47,230
+And here you can now show this
+
+238
+00:07:47,230 --> 00:07:49,949
+person what is the customer
+
+239
+00:07:49,949 --> 00:07:52,199
+acquisition cost.
+
+240
+00:07:52,220 --> 00:07:53,629
+And here we're making an
+
+241
+00:07:53,670 --> 00:07:55,649
+assumption that you charge these
+
+242
+00:07:55,689 --> 00:07:58,269
+people a flat retainer of $2,500 a
+
+243
+00:07:58,509 --> 00:07:59,019
+month.
+
+244
+00:07:59,040 --> 00:08:01,009
+So if they pay you $2,500 a month
+
+245
+00:08:01,269 --> 00:08:03,069
+and you get them six clients, the
+
+246
+00:08:03,069 --> 00:08:04,670
+customer acquisition cost is
+
+247
+00:08:04,730 --> 00:08:06,339
+$2,500 by six.
+
+248
+00:08:06,360 --> 00:08:08,610
+The net no monthly revenue that's
+
+249
+00:08:09,000 --> 00:08:10,949
+added is $30,000.
+
+250
+00:08:10,980 --> 00:08:12,860
+And what is the ROI?
+
+251
+00:08:13,240 --> 00:08:14,819
+How would you calculate with the
+
+252
+00:08:14,819 --> 00:08:15,199
+ROI?
+
+253
+00:08:15,240 --> 00:08:18,500
+That is the $30,000 divided by the
+
+254
+00:08:18,540 --> 00:08:20,850
+money that they pay you, which is
+
+255
+00:08:20,860 --> 00:08:22,579
+12X right here.
+
+256
+00:08:22,600 --> 00:08:24,209
+So this is how you understand the
+
+257
+00:08:24,209 --> 00:08:26,009
+logic, understand the math behind
+
+258
+00:08:26,069 --> 00:08:26,980
+the whole thing.
+
+259
+00:08:27,079 --> 00:08:28,339
+I'll see you on the next one.

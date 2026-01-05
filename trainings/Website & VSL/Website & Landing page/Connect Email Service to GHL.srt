@@ -1,0 +1,403 @@
+1
+00:00:00,030 --> 00:00:01,540
+All right, guys, in this one,
+
+2
+00:00:01,540 --> 00:00:02,730
+we're going to go over how to set
+
+3
+00:00:02,730 --> 00:00:03,970
+up your email service within Go
+
+4
+00:00:04,049 --> 00:00:04,580
+High Level.
+
+5
+00:00:04,599 --> 00:00:06,259
+This will allow you to pretty much
+
+6
+00:00:06,259 --> 00:00:07,580
+send emails to your list,
+
+7
+00:00:07,580 --> 00:00:09,310
+prospects, clients, or anybody
+
+8
+00:00:09,320 --> 00:00:09,800
+else.
+
+9
+00:00:09,830 --> 00:00:11,230
+So you want to go to settings
+
+10
+00:00:11,230 --> 00:00:12,990
+first, then email services.
+
+11
+00:00:13,019 --> 00:00:15,240
+Once you do that, you're going to
+
+12
+00:00:15,240 --> 00:00:16,579
+have this pop up.
+
+13
+00:00:16,609 --> 00:00:18,710
+OK, so this pop up is for setting
+
+14
+00:00:18,789 --> 00:00:20,500
+up your email with the lead
+
+15
+00:00:20,500 --> 00:00:22,609
+connector system, which is just
+
+16
+00:00:22,649 --> 00:00:24,289
+essentially Go High Levels email
+
+17
+00:00:24,489 --> 00:00:25,120
+system.
+
+18
+00:00:25,149 --> 00:00:26,699
+If you want to do that, just click
+
+19
+00:00:26,699 --> 00:00:28,120
+create dedicated domain.
+
+20
+00:00:28,710 --> 00:00:30,079
+And here you're going to put your
+
+21
+00:00:30,100 --> 00:00:30,620
+domain.
+
+22
+00:00:30,640 --> 00:00:34,990
+So let's say lc.company.com or
+
+23
+00:00:35,000 --> 00:00:37,759
+whatever it may be.
+
+24
+00:00:37,780 --> 00:00:39,899
+You're going to click add and
+
+25
+00:00:39,990 --> 00:00:40,820
+verify.
+
+26
+00:00:40,850 --> 00:00:42,909
+It's going to give you a few DNS
+
+27
+00:00:42,909 --> 00:00:45,109
+records to add into your domain
+
+28
+00:00:45,109 --> 00:00:46,100
+register.
+
+29
+00:00:46,130 --> 00:00:48,450
+OK, so you could click continue,
+
+30
+00:00:48,450 --> 00:00:50,929
+but that's going to have it think.
+
+31
+00:00:50,990 --> 00:00:52,030
+And then most likely you're going
+
+32
+00:00:52,090 --> 00:00:53,340
+to have to do it manually anyways.
+
+33
+00:00:53,369 --> 00:00:55,450
+So I would just click add record
+
+34
+00:00:55,450 --> 00:00:56,399
+manually.
+
+35
+00:00:57,130 --> 00:00:58,880
+And then you're going to take all
+
+36
+00:00:58,880 --> 00:01:00,659
+of these DNS records and put them
+
+37
+00:01:00,659 --> 00:01:02,320
+inside your domain registrar.
+
+38
+00:01:02,350 --> 00:01:03,890
+OK, so obviously make sure you
+
+39
+00:01:03,890 --> 00:01:05,510
+have you're selecting the right
+
+40
+00:01:05,519 --> 00:01:06,140
+record.
+
+41
+00:01:06,750 --> 00:01:07,120
+Right.
+
+42
+00:01:07,150 --> 00:01:08,730
+And that everything is copied and
+
+43
+00:01:08,739 --> 00:01:09,840
+pasted correctly.
+
+44
+00:01:09,870 --> 00:01:10,810
+If not, it won't work.
+
+45
+00:01:10,840 --> 00:01:12,909
+Once you paste all of these in
+
+46
+00:01:12,909 --> 00:01:16,150
+your registrar, just click verify
+
+47
+00:01:16,209 --> 00:01:19,140
+records and let it think for a
+
+48
+00:01:19,170 --> 00:01:19,379
+bit.
+
+49
+00:01:19,609 --> 00:01:20,730
+OK, and it'll be good to go.
+
+50
+00:01:20,760 --> 00:01:22,430
+Now, if you want to connect a
+
+51
+00:01:22,430 --> 00:01:24,549
+different email service like Gmail
+
+52
+00:01:24,549 --> 00:01:26,760
+or Yahoo or, you know, SendGrid,
+
+53
+00:01:26,760 --> 00:01:28,480
+we go back here.
+
+54
+00:01:30,069 --> 00:01:31,510
+And in this page, you can click
+
+55
+00:01:31,510 --> 00:01:32,290
+add service.
+
+56
+00:01:32,329 --> 00:01:33,909
+So here you click add service and
+
+57
+00:01:33,920 --> 00:01:35,359
+you select the one you want to
+
+58
+00:01:35,359 --> 00:01:35,799
+use.
+
+59
+00:01:35,829 --> 00:01:37,799
+So let's say it's Gmail here.
+
+60
+00:01:37,829 --> 00:01:38,700
+You want to put your email.
+
+61
+00:01:43,730 --> 00:01:45,269
+And then here below that, you
+
+62
+00:01:45,269 --> 00:01:46,829
+don't want to put your email's
+
+63
+00:01:46,829 --> 00:01:47,640
+password.
+
+64
+00:01:47,670 --> 00:01:49,000
+You want to put it what's called
+
+65
+00:01:49,000 --> 00:01:49,930
+an app password.
+
+66
+00:01:49,969 --> 00:01:51,519
+And there's a guide right here
+
+67
+00:01:51,519 --> 00:01:53,109
+that shows you how to do it.
+
+68
+00:01:53,150 --> 00:01:54,500
+So it's super simple.
+
+69
+00:01:54,530 --> 00:01:55,500
+All you got to do is you got to go
+
+70
+00:01:55,500 --> 00:01:56,420
+to your Google account.
+
+71
+00:01:56,450 --> 00:01:57,489
+They might have a link here for
+
+72
+00:01:57,549 --> 00:01:58,560
+you to just click on it and log
+
+73
+00:01:58,650 --> 00:01:58,980
+in.
+
+74
+00:01:59,010 --> 00:02:00,049
+So it takes you right there.
+
+75
+00:02:01,290 --> 00:02:02,709
+Then inside security, you're going
+
+76
+00:02:02,709 --> 00:02:04,090
+to click two-step verification and
+
+77
+00:02:04,170 --> 00:02:05,439
+then you're going to scroll all
+
+78
+00:02:05,439 --> 00:02:06,090
+the way down.
+
+79
+00:02:06,129 --> 00:02:08,349
+OK, then you're going to see app
+
+80
+00:02:08,360 --> 00:02:09,419
+passwords.
+
+81
+00:02:09,449 --> 00:02:10,849
+You're going to click there and
+
+82
+00:02:10,849 --> 00:02:12,250
+then you're going to create a new
+
+83
+00:02:12,319 --> 00:02:12,759
+app.
+
+84
+00:02:12,789 --> 00:02:13,830
+You're going to name it high level
+
+85
+00:02:13,919 --> 00:02:15,139
+or whatever you want to call it.
+
+86
+00:02:15,169 --> 00:02:16,340
+And you're going to click create.
+
+87
+00:02:16,360 --> 00:02:18,229
+Once you click create a password,
+
+88
+00:02:18,229 --> 00:02:19,930
+an app password is going to show
+
+89
+00:02:19,930 --> 00:02:20,919
+on the screen.
+
+90
+00:02:20,939 --> 00:02:22,840
+You're going to copy that and
+
+91
+00:02:22,840 --> 00:02:25,319
+paste it right back in this field.
+
+92
+00:02:25,349 --> 00:02:27,460
+OK, once you do that, click save
+
+93
+00:02:27,460 --> 00:02:29,219
+and it'll be connected.
+
+94
+00:02:29,509 --> 00:02:30,400
+OK, it's that simple.
+
+95
+00:02:30,430 --> 00:02:32,789
+So that's pretty much how you set
+
+96
+00:02:32,789 --> 00:02:33,460
+it up.
+
+97
+00:02:33,479 --> 00:02:35,199
+Again, should not take you more
+
+98
+00:02:35,199 --> 00:02:36,680
+than five minutes tops.
+
+99
+00:02:36,699 --> 00:02:38,699
+And yeah, you'll be good to go.
+
+100
+00:02:38,729 --> 00:02:39,639
+If you got any questions about
+
+101
+00:02:39,639 --> 00:02:40,400
+this, let me know.

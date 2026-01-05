@@ -1,0 +1,1361 @@
+{
+  "name": "Email Deliverability & Reputation Manager",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "Email Deliverability Assessment",
+        "formDescription": "<h3>🔍 Comprehensive Email Reputation & Deliverability Analysis</h3>\n<p>Submit domains, IP addresses, or campaign details for immediate deliverability assessment and reputation monitoring.</p>",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Assessment Type",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Pre-Campaign Validation"
+                  },
+                  {
+                    "option": "Reputation Check"
+                  },
+                  {
+                    "option": "Blacklist Scan"
+                  },
+                  {
+                    "option": "Authentication Audit"
+                  },
+                  {
+                    "option": "Performance Analysis"
+                  },
+                  {
+                    "option": "Issue Investigation"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Domain Name",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "IP Address"
+            },
+            {
+              "fieldLabel": "Email Service Provider",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "SendGrid"
+                  },
+                  {
+                    "option": "Mailgun"
+                  },
+                  {
+                    "option": "Amazon SES"
+                  },
+                  {
+                    "option": "Mailchimp"
+                  },
+                  {
+                    "option": "Klaviyo"
+                  },
+                  {
+                    "option": "Google"
+                  },
+                  {
+                    "option": "Microsoft"
+                  },
+                  {
+                    "option": "Other"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Campaign Volume (per month)",
+              "fieldType": "number"
+            },
+            {
+              "fieldLabel": "Urgency Level",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Low - Routine Check"
+                  },
+                  {
+                    "option": "Medium - Performance Issue"
+                  },
+                  {
+                    "option": "High - Delivery Problems"
+                  },
+                  {
+                    "option": "Critical - Blacklisted"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Additional Notes",
+              "fieldType": "textarea"
+            }
+          ]
+        },
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.2,
+      "position": [
+        -2800,
+        -304
+      ],
+      "id": "3f7760e8-124a-4612-974a-d4f3df6b5ea0",
+      "name": "Form Trigger - Manual Assessment",
+      "webhookId": "9c4d1237-4402-4b0c-8802-17bf4cb71def",
+      "notes": "Primary trigger for manual deliverability assessments and issue investigations"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "*/15 * * * *"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -2800,
+        -112
+      ],
+      "id": "6b944b2b-750b-4a11-a59d-cadf735281f2",
+      "name": "Schedule Trigger - Continuous Monitoring",
+      "notes": "Triggers every 15 minutes for continuous reputation and blacklist monitoring"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 9 * * 1"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -2800,
+        80
+      ],
+      "id": "4e70d048-7585-40bb-a1ce-4f1f4306c392",
+      "name": "Schedule Trigger - Weekly Audit",
+      "notes": "Triggers weekly comprehensive reputation audits every Monday at 9 AM"
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "deliverability-webhook",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        -2800,
+        272
+      ],
+      "id": "e6eb0418-b893-46b3-8a97-b93bf36c0226",
+      "name": "Webhook - Email Provider Events",
+      "webhookId": "b5e70325-9e43-4b0a-ae3c-13132be09444",
+      "notes": "Receives real-time webhooks from email service providers for delivery events and reputation changes"
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "leftValue": "",
+                  "caseSensitive": true,
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.formMode || $json.triggerType || 'manual' }}",
+                    "rightValue": "manual",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ]
+              },
+              "renameOutput": true,
+              "outputKey": "manual_assessment"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "leftValue": "",
+                  "caseSensitive": true,
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.triggerType || 'continuous' }}",
+                    "rightValue": "continuous",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ]
+              },
+              "renameOutput": true,
+              "outputKey": "continuous_monitoring"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "leftValue": "",
+                  "caseSensitive": true,
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.triggerType || 'weekly' }}",
+                    "rightValue": "weekly",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ]
+              },
+              "renameOutput": true,
+              "outputKey": "weekly_audit"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "leftValue": "",
+                  "caseSensitive": true,
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.event_type || 'webhook' }}",
+                    "rightValue": "webhook",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ]
+              },
+              "renameOutput": true,
+              "outputKey": "provider_webhook"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.2,
+      "position": [
+        -2576,
+        -48
+      ],
+      "id": "242d820d-6f71-497e-a989-3c31a3224484",
+      "name": "Route by Trigger Type",
+      "notes": "Routes workflow execution to appropriate processing branch based on trigger source and assessment type"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "assignment_1",
+              "name": "triggerType",
+              "value": "manual",
+              "type": "string"
+            },
+            {
+              "id": "assignment_2",
+              "name": "assessmentType",
+              "value": "={{ $json.assessment_type }}",
+              "type": "string"
+            },
+            {
+              "id": "assignment_3",
+              "name": "domain",
+              "value": "={{ $json.domain_name }}",
+              "type": "string"
+            },
+            {
+              "id": "assignment_4",
+              "name": "ipAddress",
+              "value": "={{ $json.ip_address || '' }}",
+              "type": "string"
+            },
+            {
+              "id": "assignment_5",
+              "name": "emailProvider",
+              "value": "={{ $json.email_service_provider }}",
+              "type": "string"
+            },
+            {
+              "id": "assignment_6",
+              "name": "urgency",
+              "value": "={{ $json.urgency_level }}",
+              "type": "string"
+            },
+            {
+              "id": "assignment_7",
+              "name": "timestamp",
+              "value": "={{ $now }}",
+              "type": "string"
+            },
+            {
+              "id": "8af8d573-5aeb-4ace-82a0-1d26faf179c2",
+              "name": "mx_api",
+              "value": "365fd7a9-0cd0-45d7-84ea-96e88c54071b",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -2352,
+        -304
+      ],
+      "id": "96e7f294-80a3-450a-938b-e1c79e98ecd6",
+      "name": "Set Manual Assessment Data",
+      "notes": "Processes and standardizes data from manual form submissions for assessment workflow"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "assignment_1",
+              "name": "triggerType",
+              "value": "continuous",
+              "type": "string"
+            },
+            {
+              "id": "assignment_2",
+              "name": "monitoringDomains",
+              "value": "['clientascension.ai', 'tailoredseo.com', 'example.com']",
+              "type": "string"
+            },
+            {
+              "id": "assignment_3",
+              "name": "checkType",
+              "value": "reputation_blacklist",
+              "type": "string"
+            },
+            {
+              "id": "assignment_4",
+              "name": "timestamp",
+              "value": "={{ $now }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -2352,
+        -112
+      ],
+      "id": "ca2394e9-452a-4910-81da-bdb900d2e906",
+      "name": "Set Continuous Monitoring Data",
+      "notes": "Configures parameters for automated continuous monitoring of predefined domains and IP addresses"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "assignment_1",
+              "name": "triggerType",
+              "value": "weekly",
+              "type": "string"
+            },
+            {
+              "id": "assignment_2",
+              "name": "auditType",
+              "value": "comprehensive",
+              "type": "string"
+            },
+            {
+              "id": "assignment_3",
+              "name": "auditDomains",
+              "value": "['clientascension.ai', 'tailoredseo.com']",
+              "type": "string"
+            },
+            {
+              "id": "assignment_4",
+              "name": "reportRecipients",
+              "value": "['team@clientascension.ai']",
+              "type": "string"
+            },
+            {
+              "id": "assignment_5",
+              "name": "timestamp",
+              "value": "={{ $now }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -2352,
+        80
+      ],
+      "id": "7c067a3b-0d50-4bc5-9e41-8ca340a9cd41",
+      "name": "Set Weekly Audit Data",
+      "notes": "Prepares comprehensive weekly audit parameters including all monitored domains and reporting configuration"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "assignment_1",
+              "name": "triggerType",
+              "value": "webhook",
+              "type": "string"
+            },
+            {
+              "id": "assignment_2",
+              "name": "webhookProvider",
+              "value": "={{ $json.provider || 'unknown' }}",
+              "type": "string"
+            },
+            {
+              "id": "assignment_3",
+              "name": "eventType",
+              "value": "={{ $json.event_type || 'delivery_event' }}",
+              "type": "string"
+            },
+            {
+              "id": "assignment_4",
+              "name": "eventData",
+              "value": "={{ $json }}",
+              "type": "object"
+            },
+            {
+              "id": "assignment_5",
+              "name": "timestamp",
+              "value": "={{ $now }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -2352,
+        272
+      ],
+      "id": "bc7ffac0-b379-4d16-92c4-94e92a1a37fe",
+      "name": "Set Webhook Event Data",
+      "notes": "Processes real-time webhook events from email service providers for immediate reputation analysis"
+    },
+    {
+      "parameters": {
+        "url": "https://mxtoolbox.com/api/v1/lookup/blacklist/{{ $json.domain || $json.ipAddress }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "headerAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "=Bearer {{ $vars.mxtoolboxapi }}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "neverError": true
+            }
+          },
+          "timeout": 30000
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -2128,
+        -16
+      ],
+      "id": "eb420a32-fd22-4bf2-916d-b25e4049072f",
+      "name": "MXToolbox Blacklist Check",
+      "notes": "Performs comprehensive blacklist check across 100+ databases using MXToolbox API for reputation monitoring"
+    },
+    {
+      "parameters": {
+        "url": "https://mxtoolbox.com/api/v1/lookup/spf/{{ $json.domain }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "headerAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "=Bearer {{$vars.mxtoolboxapi}}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "neverError": true
+            }
+          },
+          "timeout": 30000
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1904,
+        -16
+      ],
+      "id": "99225898-9d80-45ec-bbfd-e2fb851529a0",
+      "name": "SPF Record Check",
+      "notes": "Validates SPF record configuration and DNS propagation for email authentication verification"
+    },
+    {
+      "parameters": {
+        "url": "https://mxtoolbox.com/api/v1/lookup/dkim/{{ $json.domain }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "headerAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "=Bearer {{$vars.mxtoolboxapi}}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "neverError": true
+            }
+          },
+          "timeout": 30000
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1680,
+        -16
+      ],
+      "id": "0a5f127f-6b0d-4fd5-82cc-93590d1420ff",
+      "name": "DKIM Record Check",
+      "notes": "Verifies DKIM signature configuration and key rotation status for email authentication compliance"
+    },
+    {
+      "parameters": {
+        "url": "https://mxtoolbox.com/api/v1/lookup/dmarc/{{ $json.domain }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "headerAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "=Bearer {{ $vars.mxtoolboxapi }}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "neverError": true
+            }
+          },
+          "timeout": 30000
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1456,
+        -16
+      ],
+      "id": "d0345fe7-532c-4ae3-a038-da8b4a5bd1a6",
+      "name": "DMARC Policy Check",
+      "notes": "Analyzes DMARC policy configuration and alignment settings for comprehensive email authentication audit"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Analyze the following email deliverability data and provide actionable recommendations:\n\nDomain: {{ $('Route by Trigger Type').item.json.domain }}\nBlacklist Status: {{ $('MXToolbox Blacklist Check').item.json.status }}\nSPF Status: {{ $('SPF Record Check').item.json.status }}\nDKIM Status: {{ $('DKIM Record Check').item.json.status }}\nDMARC Status: {{ $('DMARC Policy Check').item.json.status }}\n\nProvide:\n1. Overall deliverability score (1-100)\n2. Critical issues requiring immediate attention\n3. Specific remediation steps\n4. Performance optimization recommendations\n5. Risk assessment for email campaigns\n\nAlways output in this JSON format:\n[\n  {\n    \"score\": 0,\n    \"grade\": \"F\",\n    \"summary\": \"Placeholder summary — auto-filled based on results\",\n    \"issues\": [\n      \"List of detected problems (severity annotated)\"\n    ],\n    \"remediation\": [\n      \"Step-by-step remediation instructions\"\n    ],\n    \"optimizations\": [\n      \"Recommended deliverability/performance optimizations\"\n    ],\n    \"risk_assessment\": \"Risk assessment for campaigns\",\n    \"confidence\": \"High | Medium | Low\",\n    \"recommendations\": \"Overall expert recommendations\",\n    \"analysis_timestamp\": \"2025-08-16T12:00:00Z\"\n  }\n]",
+        "hasOutputParser": true,
+        "options": {
+          "systemMessage": "=You are an expert Email Deliverability Consultant with 15+ years of experience optimizing email reputation and inbox placement.\n\n**[ROLE]**\n- Email Deliverability & Reputation Specialist\n- Technical consultant for email authentication and infrastructure\n- Strategic advisor for campaign optimization and sender reputation management\n\n**[EXPERTISE]**\n- SPF, DKIM, DMARC authentication protocols\n- Blacklist monitoring and remediation\n- ISP relationships and deliverability best practices\n- Email marketing compliance and list hygiene\n- Reputation monitoring and performance optimization\n\n**[TASK]**\n- Analyze email deliverability data comprehensively\n- Identify critical issues and security vulnerabilities\n- Provide prioritized remediation roadmaps\n- Recommend performance optimization strategies\n- Assess campaign delivery risks and mitigation approaches\n\n**[OUTPUT FORMAT]**\n- Deliverability Score: [1-100] with explanation\n- Critical Issues: Numbered list with severity levels\n- Remediation Steps: Step-by-step technical instructions\n- Optimization Recommendations: Strategic improvements\n- Risk Assessment: Campaign-specific delivery predictions\n\n**[CONSTRAINTS]**\n- Focus on actionable, implementable solutions\n- Prioritize by business impact and technical complexity\n- Include specific timeframes for implementation\n- Reference industry standards and best practices\n- Maintain technical accuracy while ensuring accessibility"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.7,
+      "position": [
+        -1232,
+        -16
+      ],
+      "id": "40902b68-afa4-4682-a648-6f81edf0e5c4",
+      "name": "AI Deliverability Analyst",
+      "notes": "AI-powered analysis engine providing expert recommendations for deliverability optimization and issue resolution"
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "appc7N1bb533dXG5A",
+          "mode": "list",
+          "cachedResultName": "Domain Risk Manager",
+          "cachedResultUrl": "https://airtable.com/appc7N1bb533dXG5A"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbluvjf4D3gyLxGoa",
+          "mode": "list",
+          "cachedResultName": "Deliverability Assessments",
+          "cachedResultUrl": "https://airtable.com/appc7N1bb533dXG5A/tbluvjf4D3gyLxGoa"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Domain": "={{ $('MXToolbox Blacklist Check').first().json.details.domain }}",
+            "IP_Address": "={{ $('MXToolbox Blacklist Check').first().json.details.ip_address }}",
+            "Blacklist_Status": "={{ $('MXToolbox Blacklist Check').first().json.status }}",
+            "SPF_Status": "={{ $('SPF Record Check').first().json.status }}",
+            "DKIM_Status": "={{ $('DKIM Record Check').first().json.status }}",
+            "DMARC_Status": "={{ $('DMARC Policy Check').first().json.status }}",
+            "Deliverability_Score": "={{ $json.score }}",
+            "Assessment_Type": "={{ $('Form Trigger - Manual Assessment').first().json.assessment_type }}",
+            "Urgency_Level": "={{ $('Form Trigger - Manual Assessment').first().json.urgency_level }}",
+            "Timestamp": "={{ $json.analysis_timestamp }}",
+            "Recommendations": "={{ $json.recommendations }}",
+            "Status": "Analyzed"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "Domain",
+              "displayName": "Domain",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "IP_Address",
+              "displayName": "IP_Address",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "Blacklist_Status",
+              "displayName": "Blacklist_Status",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "options",
+              "options": [
+                {
+                  "name": "Clean",
+                  "value": "Clean"
+                },
+                {
+                  "name": "Blacklisted",
+                  "value": "Blacklisted"
+                },
+                {
+                  "name": "Suspected",
+                  "value": "Suspected"
+                }
+              ],
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "SPF_Status",
+              "displayName": "SPF_Status",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "options",
+              "options": [
+                {
+                  "name": "Pass",
+                  "value": "Pass"
+                },
+                {
+                  "name": "Fail",
+                  "value": "Fail"
+                },
+                {
+                  "name": "Warning",
+                  "value": "Warning"
+                }
+              ],
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "DKIM_Status",
+              "displayName": "DKIM_Status",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "options",
+              "options": [
+                {
+                  "name": "Pass",
+                  "value": "Pass"
+                },
+                {
+                  "name": "Fail",
+                  "value": "Fail"
+                },
+                {
+                  "name": "Warning",
+                  "value": "Warning"
+                }
+              ],
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "DMARC_Status",
+              "displayName": "DMARC_Status",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "options",
+              "options": [
+                {
+                  "name": "Pass",
+                  "value": "Pass"
+                },
+                {
+                  "name": "Fail",
+                  "value": "Fail"
+                },
+                {
+                  "name": "Warning",
+                  "value": "Warning"
+                }
+              ],
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "Deliverability_Score",
+              "displayName": "Deliverability_Score",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "number",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "Assessment_Type",
+              "displayName": "Assessment_Type",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "options",
+              "options": [
+                {
+                  "name": "Pre-Campaign Validation",
+                  "value": "Pre-Campaign Validation"
+                },
+                {
+                  "name": "Ongoing Monitoring",
+                  "value": "Ongoing Monitoring"
+                },
+                {
+                  "name": "Post-Campaign Review",
+                  "value": "Post-Campaign Review"
+                }
+              ],
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "Urgency_Level",
+              "displayName": "Urgency_Level",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "options",
+              "options": [
+                {
+                  "name": "Low - Informative",
+                  "value": "Low - Informative"
+                },
+                {
+                  "name": "Medium - Performance Issue",
+                  "value": "Medium - Performance Issue"
+                },
+                {
+                  "name": "High - Blocking Issue",
+                  "value": "High - Blocking Issue"
+                }
+              ],
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "Timestamp",
+              "displayName": "Timestamp",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "dateTime",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "Recommendations",
+              "displayName": "Recommendations",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "Status",
+              "displayName": "Status",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "options",
+              "options": [
+                {
+                  "name": "Pending",
+                  "value": "Pending"
+                },
+                {
+                  "name": "Analyzed",
+                  "value": "Analyzed"
+                },
+                {
+                  "name": "Actioned",
+                  "value": "Actioned"
+                }
+              ],
+              "readOnly": false,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        -880,
+        -16
+      ],
+      "id": "a5a95340-1bf4-4355-b2b2-ee9ea776212f",
+      "name": "Store Assessment Results",
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "Siv5wf99aE9yzSS3",
+          "name": "Airtable Personal Access Token account"
+        }
+      },
+      "notes": "Stores comprehensive assessment results in Airtable for historical tracking and trend analysis"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 1
+          },
+          "conditions": [
+            {
+              "leftValue": "={{ $('AI Deliverability Analyst').item.json.score }}",
+              "rightValue": 70,
+              "operator": {
+                "type": "number",
+                "operation": "lt"
+              },
+              "id": "6b8d025c-214f-4d86-81a5-ab1e113b489b"
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        -656,
+        -16
+      ],
+      "id": "0fdf6c61-581d-4112-bec6-d88abf094e23",
+      "name": "Check Alert Threshold",
+      "notes": "Determines if deliverability score requires immediate alerting based on configurable thresholds"
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "select": "user",
+        "user": {
+          "__rl": true,
+          "value": "U04GPFR7TN1",
+          "mode": "list",
+          "cachedResultName": "lucas035"
+        },
+        "text": "🚨 **CRITICAL DELIVERABILITY ALERT** 🚨\n\n**Domain:** {{ $('Route by Trigger Type').item.json.domain }}\n**Score:** {{ $('AI Deliverability Analyst').item.json.score }}/100\n**Urgency:** {{ $('Route by Trigger Type').item.json.urgency }}\n\n**Critical Issues:**\n{{ $('AI Deliverability Analyst').item.json.issues }}\n\n**Immediate Actions Required:**\n{{ $('AI Deliverability Analyst').item.json.remediation }}\n\n**Assessment Type:** {{ $('Route by Trigger Type').item.json.assessmentType }}\n**Timestamp:** {{ $('Route by Trigger Type').item.json.timestamp }}",
+        "otherOptions": {}
+      },
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.3,
+      "position": [
+        -432,
+        -112
+      ],
+      "id": "1f1a6415-5e57-4d99-bbff-767e32462268",
+      "name": "Send Critical Alert",
+      "webhookId": "06b1f7cd-d3a1-4fb2-91ca-6649f46b53f6",
+      "credentials": {
+        "slackOAuth2Api": {
+          "id": "nhkttwRMJO9stSq3",
+          "name": "Slack account"
+        }
+      },
+      "notes": "Sends immediate Slack alerts for critical deliverability issues requiring urgent attention"
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "select": "user",
+        "user": {
+          "__rl": true,
+          "mode": "list",
+          "value": ""
+        },
+        "text": "📊 **Email Deliverability Assessment Complete**\n\n**Domain:** {{ $('Route by Trigger Type').item.json.domain }}\n**Score:** {{ $('AI Deliverability Analyst').item.json.score }}/100 ✅\n**Status:** Good deliverability health\n\n**Summary:**\n{{ $('AI Deliverability Analyst').item.json.summary }}\n\n**Optimization Recommendations:**\n{{ $('AI Deliverability Analyst').item.json.optimizations }}\n\n**Assessment Type:** {{ $('Route by Trigger Type').item.json.assessmentType }}\n**Timestamp:** {{ $('Route by Trigger Type').item.json.timestamp }}",
+        "otherOptions": {}
+      },
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.3,
+      "position": [
+        -432,
+        80
+      ],
+      "id": "fa885642-e905-4880-9f8a-c7c2e12179f7",
+      "name": "Send Status Report",
+      "webhookId": "f22b58fd-c951-429f-a741-d53b98635016",
+      "credentials": {
+        "slackOAuth2Api": {
+          "id": "nhkttwRMJO9stSq3",
+          "name": "Slack account"
+        }
+      },
+      "notes": "Sends routine status reports for successful assessments and performance updates"
+    },
+    {
+      "parameters": {
+        "content": "# 📧 Email Deliverability & Reputation Manager\n\n**Comprehensive automation for email reputation monitoring, blacklist detection, authentication validation, and performance optimization.**\n\n## Trigger Conditions Covered:\n✅ Pre-campaign deliverability validation\n✅ Sender reputation score monitoring\n✅ Real-time blacklist detection\n✅ Email authentication failures\n✅ Performance threshold alerts\n✅ Scheduled reputation audits\n\n## Key Features:\n• Multi-trigger architecture (Form, Schedule, Webhook)\n• MXToolbox API integration for comprehensive checks\n• AI-powered analysis and recommendations\n• Real-time Slack alerting\n• Historical data storage in Airtable\n• Authentication protocol validation (SPF, DKIM, DMARC)",
+        "height": 544,
+        "width": 600,
+        "color": 2
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -3504,
+        -64
+      ],
+      "id": "64d3c438-da9d-4f83-8471-62c168be1f32",
+      "name": "Workflow Overview"
+    },
+    {
+      "parameters": {
+        "content": "# 🔗 Required Integrations & Schemas\n\n## MXToolbox API\n**Base URL:** https://mxtoolbox.com/api/v1/\n**Authentication:** Bearer Token\n**Endpoints:**\n- `/lookup/blacklist/{domain_or_ip}`\n- `/lookup/spf/{domain}`\n- `/lookup/dkim/{domain}`\n- `/lookup/dmarc/{domain}`\n\n## Airtable Schema - Reputation_Monitoring Table\n**Required Fields:**\n- Domain (Text)\n- IP_Address (Text)\n- Blacklist_Status (Single Select: Clean, Listed, Unknown)\n- SPF_Status (Single Select: Pass, Fail, None, Unknown)\n- DKIM_Status (Single Select: Pass, Fail, None, Unknown)\n- DMARC_Status (Single Select: Pass, Fail, None, Unknown)\n- Deliverability_Score (Number: 1-100)\n- Assessment_Type (Single Select: Manual, Continuous, Weekly, Webhook)\n- Urgency_Level (Single Select: Low, Medium, High, Critical)\n- Timestamp (Date/Time)\n- Recommendations (Long Text)\n- Status (Single Select: Pending, Analyzed, Resolved)\n\n## Slack Configuration\n**Channels Required:**\n- #deliverability-alerts (Critical issues)\n- #deliverability-reports (Routine reports)",
+        "height": 1304,
+        "width": 1924,
+        "color": 4
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -2160,
+        -832
+      ],
+      "id": "e203a98b-4381-413a-804f-cae1f67dd6e6",
+      "name": "Integration Schemas"
+    },
+    {
+      "parameters": {
+        "content": "# 🔄 Trigger Processing Flow\n\n## Manual Assessment (Form)\n• User submits domain/IP for analysis\n• Routes to comprehensive validation\n• Immediate results with recommendations\n\n## Continuous Monitoring (15min)\n• Automated checks on predefined domains\n• Reputation trend tracking\n• Proactive issue detection\n\n## Weekly Audits (Monday 9AM)\n• Comprehensive reputation analysis\n• Performance benchmarking\n• Executive reporting\n\n## Webhook Events (Real-time)\n• Provider delivery notifications\n• Reputation change alerts\n• Immediate response triggers\n\n## AI Analysis Engine\n• Correlates all validation results\n• Provides expert-level recommendations\n• Calculates deliverability scores\n• Prioritizes remediation actions",
+        "height": 1508,
+        "width": 722,
+        "color": 3
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -2896,
+        -1024
+      ],
+      "id": "bd0c4e68-ce36-49ac-a50c-5e80299bbfd4",
+      "name": "Processing Logic"
+    },
+    {
+      "parameters": {
+        "model": "openai/gpt-4.1-nano",
+        "options": {
+          "maxTokens": 2000,
+          "temperature": 0.3
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        -1232,
+        240
+      ],
+      "id": "f1cb1c90-fbc8-4608-82f6-9a12920b2271",
+      "name": "OpenRouter LLM",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      },
+      "notes": "Cost-effective OpenRouter language model providing AI-powered deliverability analysis and recommendations"
+    },
+    {
+      "parameters": {
+        "schemaType": "manual",
+        "inputSchema": "[\n  {\n    \"score\": 0,\n    \"grade\": \"F\",\n    \"summary\": \"Placeholder summary — auto-filled based on results\",\n    \"issues\": [\n      \"List of detected problems (severity annotated)\"\n    ],\n    \"remediation\": [\n      \"Step-by-step remediation instructions\"\n    ],\n    \"optimizations\": [\n      \"Recommended deliverability/performance optimizations\"\n    ],\n    \"risk_assessment\": \"Risk assessment for campaigns\",\n    \"confidence\": \"High | Medium | Low\",\n    \"recommendations\": \"Overall expert recommendations\",\n    \"analysis_timestamp\": \"2025-08-16T12:00:00Z\"\n  }\n]"
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.3,
+      "position": [
+        -1088,
+        240
+      ],
+      "id": "1c4a02fa-96e2-469b-9f2e-86e7ef9ecf28",
+      "name": "Structured Output Parser"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Form Trigger - Manual Assessment": {
+      "main": [
+        [
+          {
+            "node": "Route by Trigger Type",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger - Continuous Monitoring": {
+      "main": [
+        [
+          {
+            "node": "Route by Trigger Type",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger - Weekly Audit": {
+      "main": [
+        [
+          {
+            "node": "Route by Trigger Type",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Webhook - Email Provider Events": {
+      "main": [
+        [
+          {
+            "node": "Route by Trigger Type",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Route by Trigger Type": {
+      "main": [
+        [
+          {
+            "node": "Set Manual Assessment Data",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Set Continuous Monitoring Data",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Set Weekly Audit Data",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Set Webhook Event Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set Manual Assessment Data": {
+      "main": [
+        [
+          {
+            "node": "MXToolbox Blacklist Check",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set Continuous Monitoring Data": {
+      "main": [
+        [
+          {
+            "node": "MXToolbox Blacklist Check",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set Weekly Audit Data": {
+      "main": [
+        [
+          {
+            "node": "MXToolbox Blacklist Check",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set Webhook Event Data": {
+      "main": [
+        [
+          {
+            "node": "MXToolbox Blacklist Check",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "MXToolbox Blacklist Check": {
+      "main": [
+        [
+          {
+            "node": "SPF Record Check",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "SPF Record Check": {
+      "main": [
+        [
+          {
+            "node": "DKIM Record Check",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "DKIM Record Check": {
+      "main": [
+        [
+          {
+            "node": "DMARC Policy Check",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "DMARC Policy Check": {
+      "main": [
+        [
+          {
+            "node": "AI Deliverability Analyst",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Deliverability Analyst": {
+      "main": [
+        [
+          {
+            "node": "Store Assessment Results",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Store Assessment Results": {
+      "main": [
+        [
+          {
+            "node": "Check Alert Threshold",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check Alert Threshold": {
+      "main": [
+        [
+          {
+            "node": "Send Critical Alert",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Send Status Report",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter LLM": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Deliverability Analyst",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Structured Output Parser": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "AI Deliverability Analyst",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "c0743baa-207d-482b-95f0-e901249cb206",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "94aed49fc73372525d542e924a8b65d38c4cfc7be69ff82b11f83d6bf3d06ce7"
+  },
+  "id": "NdXwKPqNO29MmJQH",
+  "tags": []
+}

@@ -1,0 +1,1287 @@
+1
+00:00:00,000 --> 00:00:01,860
+So guys, Lucas here.
+
+2
+00:00:02,000 --> 00:00:03,850
+So today we'll be showing you how
+
+3
+00:00:04,200 --> 00:00:06,259
+to import N8M workflows into your
+
+4
+00:00:06,339 --> 00:00:08,019
+own N8M workspace.
+
+5
+00:00:08,019 --> 00:00:09,199
+This is very important for you
+
+6
+00:00:09,199 --> 00:00:10,320
+guys as part of this course,
+
+7
+00:00:10,320 --> 00:00:11,439
+because we've developed a
+
+8
+00:00:11,859 --> 00:00:12,980
+number of automations and
+
+9
+00:00:12,980 --> 00:00:14,730
+workflows to handle with your
+
+10
+00:00:14,730 --> 00:00:16,649
+operations and your fulfillment
+
+11
+00:00:16,769 --> 00:00:17,260
+for
+
+12
+00:00:17,260 --> 00:00:18,660
+your clients.
+
+13
+00:00:18,660 --> 00:00:19,719
+So this is going to be the key
+
+14
+00:00:19,760 --> 00:00:21,160
+thing you're going to be doing.
+
+15
+00:00:21,160 --> 00:00:22,179
+Now, there's a few ways to import
+
+16
+00:00:22,179 --> 00:00:23,210
+workflows, but I'm going to show
+
+17
+00:00:23,219 --> 00:00:23,960
+you just the easiest
+
+18
+00:00:24,460 --> 00:00:24,960
+one.
+
+19
+00:00:24,960 --> 00:00:25,879
+So this is one of the YouTube
+
+20
+00:00:25,960 --> 00:00:26,809
+creator workflows that we've
+
+21
+00:00:27,160 --> 00:00:27,320
+created.
+
+22
+00:00:27,320 --> 00:00:28,910
+This is a YouTube script writer
+
+23
+00:00:28,910 --> 00:00:30,500
+and first I'm going to download
+
+24
+00:00:30,500 --> 00:00:31,500
+this workflow.
+
+25
+00:00:31,500 --> 00:00:33,090
+To do that, I'm going to click
+
+26
+00:00:33,090 --> 00:00:34,759
+these three buttons up here and
+
+27
+00:00:34,759 --> 00:00:36,119
+just click download.
+
+28
+00:00:36,119 --> 00:00:37,969
+When I do that, you'll see here
+
+29
+00:00:38,119 --> 00:00:39,979
+I've downloaded a JSON file, a
+
+30
+00:00:40,030 --> 00:00:40,899
+JSON file.
+
+31
+00:00:40,899 --> 00:00:42,740
+Now when I want to import this
+
+32
+00:00:42,740 --> 00:00:44,670
+into a new N8M instance, I'll
+
+33
+00:00:44,810 --> 00:00:47,780
+click the plus button, workflow,
+
+34
+00:00:47,780 --> 00:00:49,210
+create in personal, or if I go
+
+35
+00:00:49,210 --> 00:00:50,700
+back to my personal one here and
+
+36
+00:00:50,770 --> 00:00:52,420
+click create workflow, it opens
+
+37
+00:00:52,500 --> 00:00:53,960
+a new workflow.
+
+38
+00:00:53,960 --> 00:00:56,329
+Now these ways to do it is just to
+
+39
+00:00:56,329 --> 00:00:58,140
+do import from file.
+
+40
+00:00:58,140 --> 00:00:59,950
+So we'll open the file selector,
+
+41
+00:00:59,950 --> 00:01:01,859
+double click your JSON file, and
+
+42
+00:01:01,859 --> 00:01:02,759
+there we go.
+
+43
+00:01:02,759 --> 00:01:03,759
+Now it's imported.
+
+44
+00:01:03,759 --> 00:01:06,560
+Now you will see a bunch of red
+
+45
+00:01:06,560 --> 00:01:07,540
+nodes.
+
+46
+00:01:08,079 --> 00:01:08,540
+nodes.
+
+47
+00:01:08,540 --> 00:01:09,719
+And the reason for that is that
+
+48
+00:01:09,719 --> 00:01:11,060
+you have not created the accounts
+
+49
+00:01:11,060 --> 00:01:11,719
+for these.
+
+50
+00:01:11,719 --> 00:01:13,319
+So you'll have to double click and
+
+51
+00:01:13,409 --> 00:01:15,079
+you have to modify it, you have to
+
+52
+00:01:15,079 --> 00:01:16,219
+add your account or
+
+53
+00:01:16,219 --> 00:01:17,989
+maybe whoever you send the message
+
+54
+00:01:17,989 --> 00:01:18,340
+to.
+
+55
+00:01:18,340 --> 00:01:20,930
+And you'll also probably see it on
+
+56
+00:01:21,090 --> 00:01:23,719
+your, the AI agent chat models.
+
+57
+00:01:23,719 --> 00:01:25,579
+You'll have to modify these with
+
+58
+00:01:26,019 --> 00:01:28,359
+your correct accounts, et cetera,
+
+59
+00:01:28,480 --> 00:01:29,900
+and get it all set up.
+
+60
+00:01:29,900 --> 00:01:31,200
+Now we walk through, I had to do
+
+61
+00:01:31,200 --> 00:01:32,400
+that a little bit in one of the
+
+62
+00:01:32,400 --> 00:01:33,680
+previous modules, but just
+
+63
+00:01:33,680 --> 00:01:34,969
+to go over it again, just like I
+
+64
+00:01:34,969 --> 00:01:35,519
+did there.
+
+65
+00:01:35,519 --> 00:01:37,379
+Say for instance, it is the slack
+
+66
+00:01:37,819 --> 00:01:40,159
+notification, you'll double click
+
+67
+00:01:40,280 --> 00:01:42,019
+the node and you probably
+
+68
+00:01:42,019 --> 00:01:43,739
+won't have a credential here.
+
+69
+00:01:43,739 --> 00:01:45,209
+And so you'll do create new
+
+70
+00:01:45,209 --> 00:01:46,159
+credential.
+
+71
+00:01:46,159 --> 00:01:46,879
+And then you'll connect with
+
+72
+00:01:46,879 --> 00:01:47,150
+slack.
+
+73
+00:01:47,159 --> 00:01:48,159
+You just use a lot.
+
+74
+00:01:48,159 --> 00:01:50,019
+So you connect my account and then
+
+75
+00:01:50,349 --> 00:01:52,170
+it will bring you to log into your
+
+76
+00:01:52,170 --> 00:01:53,519
+slack workspace.
+
+77
+00:01:53,519 --> 00:01:54,560
+You'll do that.
+
+78
+00:01:54,560 --> 00:01:55,870
+And then it will have your account
+
+79
+00:01:55,879 --> 00:01:56,340
+in here.
+
+80
+00:01:56,340 --> 00:01:58,189
+I already have my account here.
+
+81
+00:01:58,219 --> 00:01:59,260
+So I'm good.
+
+82
+00:01:59,260 --> 00:02:00,969
+She was that one there and you'll
+
+83
+00:02:00,969 --> 00:02:02,469
+have to select you to send the
+
+84
+00:02:02,469 --> 00:02:03,859
+message to see it select from
+
+85
+00:02:03,859 --> 00:02:04,859
+the list again.
+
+86
+00:02:04,859 --> 00:02:06,609
+I can select, say you want to have
+
+87
+00:02:06,609 --> 00:02:08,340
+it in a particular, there's just
+
+88
+00:02:08,340 --> 00:02:09,500
+for now as a user, but we can do
+
+89
+00:02:09,520 --> 00:02:10,689
+it from a channel where you can
+
+90
+00:02:10,689 --> 00:02:12,009
+have like all the YouTube scripts
+
+91
+00:02:12,009 --> 00:02:12,599
+approved.
+
+92
+00:02:12,599 --> 00:02:15,770
+And I type in my name here, give
+
+93
+00:02:15,770 --> 00:02:17,240
+it a moment.
+
+94
+00:02:17,319 --> 00:02:18,780
+We've got a lot of slack users.
+
+95
+00:02:18,780 --> 00:02:19,780
+There's Lucas.
+
+96
+00:02:19,780 --> 00:02:20,780
+I select that.
+
+97
+00:02:20,780 --> 00:02:22,629
+And then now that's all set up and
+
+98
+00:02:22,949 --> 00:02:23,370
+good to go.
+
+99
+00:02:23,479 --> 00:02:24,539
+And you do this for any of the
+
+100
+00:02:24,590 --> 00:02:25,719
+ones that are showing up as red
+
+101
+00:02:25,780 --> 00:02:26,819
+again, like I said, as well,
+
+102
+00:02:26,819 --> 00:02:28,669
+your, your open router nodes will
+
+103
+00:02:29,120 --> 00:02:30,590
+probably not be connected properly
+
+104
+00:02:30,729 --> 00:02:31,060
+too.
+
+105
+00:02:31,060 --> 00:02:32,560
+So you'll double click this.
+
+106
+00:02:32,560 --> 00:02:34,409
+You will add a new open writer
+
+107
+00:02:34,860 --> 00:02:35,150
+account.
+
+108
+00:02:35,280 --> 00:02:37,129
+And do that by getting your API
+
+109
+00:02:37,139 --> 00:02:39,460
+key from the open writer website.
+
+110
+00:02:39,460 --> 00:02:40,990
+to do that, you just go to open
+
+111
+00:02:41,000 --> 00:02:44,360
+router, I'm going to sign in.
+
+112
+00:02:44,900 --> 00:02:49,780
+And now when I go to, uh, keys up
+
+113
+00:02:49,780 --> 00:02:52,099
+here, there we go.
+
+114
+00:02:52,099 --> 00:02:53,889
+There's my editing key, but you
+
+115
+00:02:53,889 --> 00:02:55,810
+create API key, it'll give you the
+
+116
+00:02:55,810 --> 00:02:56,280
+API key.
+
+117
+00:02:56,280 --> 00:02:57,819
+And then you just paste it in
+
+118
+00:02:57,819 --> 00:02:59,300
+there and you are done.
+
+119
+00:02:59,979 --> 00:03:01,830
+So I can leave this as well and
+
+120
+00:03:02,180 --> 00:03:03,659
+that's all you got to do.
+
+121
+00:03:03,659 --> 00:03:04,479
+So you have to just connect up any
+
+122
+00:03:04,539 --> 00:03:05,180
+of the accounts that are not
+
+123
+00:03:05,180 --> 00:03:05,509
+connected.
+
+124
+00:03:05,659 --> 00:03:06,379
+You have to connect up.
+
+125
+00:03:06,780 --> 00:03:08,550
+And after that, you're ready to go
+
+126
+00:03:08,550 --> 00:03:10,360
+and your workflow will be live.
+
+127
+00:03:10,379 --> 00:03:11,719
+You just make sure you always
+
+128
+00:03:11,750 --> 00:03:12,460
+click save.
+
+129
+00:03:12,460 --> 00:03:14,289
+The NNN does not automatically
+
+130
+00:03:14,289 --> 00:03:16,460
+save these when you make changes.
+
+131
+00:03:16,460 --> 00:03:17,469
+So after you make the changes,
+
+132
+00:03:17,469 --> 00:03:17,979
+click save.
+
+133
+00:03:17,979 --> 00:03:18,939
+This is very important.
+
+134
+00:03:18,939 --> 00:03:20,780
+I've lost a few workflows because
+
+135
+00:03:20,780 --> 00:03:22,050
+I've built them out, forgotten to
+
+136
+00:03:22,050 --> 00:03:22,719
+click save and left.
+
+137
+00:03:22,780 --> 00:03:24,639
+So make sure you do that.
+
+138
+00:03:25,319 --> 00:03:27,819
+If it's a workflow that's going to
+
+139
+00:03:27,819 --> 00:03:28,949
+be getting information from
+
+140
+00:03:28,949 --> 00:03:29,979
+somewhere else, for instance,
+
+141
+00:03:29,979 --> 00:03:31,770
+from a webhook or from, you know,
+
+142
+00:03:31,770 --> 00:03:33,370
+uh, triggered on a schedule or
+
+143
+00:03:33,370 --> 00:03:34,780
+anything like that, make sure
+
+144
+00:03:34,780 --> 00:03:36,379
+you have set it to active as well.
+
+145
+00:03:36,379 --> 00:03:37,979
+Uh, that way, uh, I'd say for on
+
+146
+00:03:38,060 --> 00:03:39,419
+form submission, anytime, when
+
+147
+00:03:39,419 --> 00:03:40,300
+you're finished with it, set it to
+
+148
+00:03:40,300 --> 00:03:41,530
+active so that when you submit a
+
+149
+00:03:41,530 --> 00:03:42,819
+form or you get information from
+
+150
+00:03:42,819 --> 00:03:44,560
+wherever, uh, it all comes
+
+151
+00:03:44,620 --> 00:03:45,629
+through correctly and it
+
+152
+00:03:45,629 --> 00:03:47,099
+automatically flows and works.
+
+153
+00:03:47,099 --> 00:03:48,699
+Uh, we will be going over this
+
+154
+00:03:48,719 --> 00:03:50,539
+specific automation later on in
+
+155
+00:03:50,539 --> 00:03:51,020
+the course, right?
+
+156
+00:03:51,020 --> 00:03:52,139
+Break down exactly what it does
+
+157
+00:03:52,139 --> 00:03:53,419
+and how it works, but this is to
+
+158
+00:03:53,419 --> 00:03:54,620
+show you how to import workflows.
+
+159
+00:03:54,620 --> 00:03:56,479
+Uh, another method you can do just
+
+160
+00:03:56,919 --> 00:03:57,979
+delete this for now.
+
+161
+00:03:59,099 --> 00:04:00,710
+When you will often find any
+
+162
+00:04:00,710 --> 00:04:02,449
+templates online, you can import
+
+163
+00:04:02,449 --> 00:04:03,659
+them the exact same way,
+
+164
+00:04:03,659 --> 00:04:05,520
+but you can also just open this
+
+165
+00:04:05,960 --> 00:04:08,300
+with, uh, your text editor, open
+
+166
+00:04:08,419 --> 00:04:09,500
+the JSON file that you've
+
+167
+00:04:10,039 --> 00:04:11,360
+downloaded and you can copy the
+
+168
+00:04:11,800 --> 00:04:12,699
+whole thing.
+
+169
+00:04:12,699 --> 00:04:14,259
+Just control a or command a
+
+170
+00:04:14,259 --> 00:04:17,540
+command C and command V and paste
+
+171
+00:04:17,540 --> 00:04:17,740
+it in.
+
+172
+00:04:17,740 --> 00:04:18,939
+And you get the exact same thing.
+
+173
+00:04:18,939 --> 00:04:21,430
+Uh, if you are using, for
+
+174
+00:04:21,430 --> 00:04:22,519
+instance, a tool like Claude to
+
+175
+00:04:22,540 --> 00:04:23,579
+help you build your workflows,
+
+176
+00:04:23,579 --> 00:04:24,620
+which we'll talk about a bit, a
+
+177
+00:04:24,620 --> 00:04:26,589
+bit as well, uh, this will do the,
+
+178
+00:04:26,589 --> 00:04:28,139
+uh, you'll get them, uh,
+
+179
+00:04:28,139 --> 00:04:29,660
+output as text within Claude.
+
+180
+00:04:29,660 --> 00:04:30,980
+You can just copy it, paste it and
+
+181
+00:04:30,990 --> 00:04:32,220
+you're good to go.
+
+182
+00:04:32,220 --> 00:04:33,779
+Let's briefly look at what if we
+
+183
+00:04:33,779 --> 00:04:35,069
+want to modify this a bit more
+
+184
+00:04:35,069 --> 00:04:36,220
+than it currently is.
+
+185
+00:04:36,220 --> 00:04:38,079
+So we're only ones we should be
+
+186
+00:04:38,519 --> 00:04:40,139
+modifying are probably the script
+
+187
+00:04:40,139 --> 00:04:40,939
+writer agents,
+
+188
+00:04:41,410 --> 00:04:42,250
+depending on how you want your
+
+189
+00:04:42,310 --> 00:04:43,180
+scripts written.
+
+190
+00:04:43,180 --> 00:04:45,029
+You can see here how this is, uh,
+
+191
+00:04:45,439 --> 00:04:46,759
+this is set up that it says your
+
+192
+00:04:46,790 --> 00:04:47,540
+professional script writer
+
+193
+00:04:48,100 --> 00:04:50,060
+specializing in this category, uh,
+
+194
+00:04:50,060 --> 00:04:51,829
+the content strategy, the target
+
+195
+00:04:51,829 --> 00:04:52,459
+audience.
+
+196
+00:04:52,459 --> 00:04:53,470
+We give it all the information
+
+197
+00:04:53,470 --> 00:04:55,009
+from the other AI agents so that
+
+198
+00:04:55,009 --> 00:04:56,720
+it knows what to do.
+
+199
+00:04:56,779 --> 00:04:58,629
+But, uh, say we just want to
+
+200
+00:04:59,079 --> 00:05:00,220
+change a, you can obviously modify
+
+201
+00:05:00,220 --> 00:05:01,040
+all the system messages and
+
+202
+00:05:01,100 --> 00:05:01,980
+things in here.
+
+203
+00:05:01,980 --> 00:05:03,829
+Uh, this one tells it, you know,
+
+204
+00:05:04,060 --> 00:05:05,980
+how it, uh, acts as a YouTube
+
+205
+00:05:05,980 --> 00:05:06,939
+script writer,
+
+206
+00:05:06,939 --> 00:05:08,230
+but we can make these more
+
+207
+00:05:08,230 --> 00:05:10,139
+detailed depending on, uh, you
+
+208
+00:05:10,139 --> 00:05:10,860
+know, the particular
+
+209
+00:05:10,860 --> 00:05:12,060
+format you want your super script,
+
+210
+00:05:12,060 --> 00:05:13,100
+YouTube script to written in.
+
+211
+00:05:13,100 --> 00:05:14,399
+Well, let's say we want to send
+
+212
+00:05:14,399 --> 00:05:15,689
+this, uh, information somewhere
+
+213
+00:05:15,810 --> 00:05:16,050
+else.
+
+214
+00:05:16,060 --> 00:05:17,569
+So we don't want this for
+
+215
+00:05:17,569 --> 00:05:19,350
+instance, to say, be sent to
+
+216
+00:05:19,350 --> 00:05:20,420
+client in an email.
+
+217
+00:05:20,540 --> 00:05:23,100
+We can delete this directly, uh,
+
+218
+00:05:23,100 --> 00:05:24,310
+or we can choose a different email
+
+219
+00:05:24,449 --> 00:05:24,930
+service.
+
+220
+00:05:24,939 --> 00:05:26,470
+Let's say we want to use Gmail
+
+221
+00:05:26,470 --> 00:05:27,180
+instead.
+
+222
+00:05:27,180 --> 00:05:29,339
+We'll just go to Gmail.
+
+223
+00:05:29,339 --> 00:05:31,899
+Uh, we would do send a message.
+
+224
+00:05:31,899 --> 00:05:34,269
+And here you can then set up your
+
+225
+00:05:34,269 --> 00:05:35,339
+credentials.
+
+226
+00:05:35,339 --> 00:05:36,790
+As we talked about, you do create
+
+227
+00:05:36,790 --> 00:05:37,579
+new credential,
+
+228
+00:05:37,579 --> 00:05:38,879
+sign in with Google and connect up
+
+229
+00:05:38,879 --> 00:05:39,439
+your account.
+
+230
+00:05:39,579 --> 00:05:41,430
+Uh, we're not going to do that
+
+231
+00:05:41,860 --> 00:05:43,579
+right now, but, uh, you'll put
+
+232
+00:05:43,579 --> 00:05:45,100
+clients email in here.
+
+233
+00:05:45,579 --> 00:05:47,279
+And then you would, uh, set the
+
+234
+00:05:47,279 --> 00:05:48,379
+subjects, you know, new, you
+
+235
+00:05:48,379 --> 00:05:49,579
+described it delivered.
+
+236
+00:05:49,579 --> 00:05:51,310
+And from the message, we would
+
+237
+00:05:51,310 --> 00:05:54,220
+send exactly what we have in here.
+
+238
+00:05:54,300 --> 00:05:55,850
+It'd be the subjects would be
+
+239
+00:05:55,850 --> 00:05:56,889
+copied from here.
+
+240
+00:05:56,939 --> 00:05:58,500
+Email format will be taken from
+
+241
+00:05:58,500 --> 00:05:58,790
+here.
+
+242
+00:05:59,480 --> 00:06:01,529
+Uh, then you can delete this
+
+243
+00:06:01,670 --> 00:06:02,060
+again.
+
+244
+00:06:02,060 --> 00:06:03,920
+So that message is being sent via
+
+245
+00:06:04,350 --> 00:06:05,980
+Gmail, uh, to the client.
+
+246
+00:06:05,980 --> 00:06:08,319
+So now let's say that, uh, you're
+
+247
+00:06:08,319 --> 00:06:09,259
+not using Slack for your
+
+248
+00:06:09,259 --> 00:06:09,899
+organization.
+
+249
+00:06:09,899 --> 00:06:11,759
+You are using, uh, they're doing
+
+250
+00:06:12,199 --> 00:06:14,160
+everything via telegram, right?
+
+251
+00:06:14,699 --> 00:06:16,560
+So you could do telegram and then
+
+252
+00:06:17,000 --> 00:06:21,660
+you could do, uh, send a chat.
+
+253
+00:06:21,660 --> 00:06:22,300
+Let me go find it.
+
+254
+00:06:22,300 --> 00:06:22,939
+Just move my camera.
+
+255
+00:06:22,939 --> 00:06:26,459
+Uh, send a text message.
+
+256
+00:06:26,459 --> 00:06:28,699
+And here you set up your telegram
+
+257
+00:06:28,759 --> 00:06:29,259
+bot.
+
+258
+00:06:29,259 --> 00:06:30,139
+Like we showed in one of the
+
+259
+00:06:30,259 --> 00:06:32,060
+earlier, uh, uh, videos.
+
+260
+00:06:32,060 --> 00:06:33,930
+And the, the child ID would also
+
+261
+00:06:34,360 --> 00:06:36,860
+come from that bot chat and the
+
+262
+00:06:36,860 --> 00:06:37,180
+text.
+
+263
+00:06:37,180 --> 00:06:38,740
+Then you would just take what we
+
+264
+00:06:38,740 --> 00:06:39,660
+have in Slack.
+
+265
+00:06:39,660 --> 00:06:43,639
+So we take this and we go back to
+
+266
+00:06:43,639 --> 00:06:45,899
+send a text message.
+
+267
+00:06:45,899 --> 00:06:47,899
+It says expression.
+
+268
+00:06:47,899 --> 00:06:49,750
+And there we go.
+
+269
+00:06:49,819 --> 00:06:50,980
+So now we will have a message
+
+270
+00:06:50,980 --> 00:06:51,680
+saying, you know, script
+
+271
+00:06:52,110 --> 00:06:53,579
+delivered, uh, the client name,
+
+272
+00:06:53,579 --> 00:06:54,720
+the category, the email, the dry
+
+273
+00:06:54,720 --> 00:06:56,339
+folder, script doc, uh, the
+
+274
+00:06:56,350 --> 00:06:58,699
+follow-up scheduled and delivery
+
+275
+00:06:58,699 --> 00:06:59,100
+ID.
+
+276
+00:06:59,100 --> 00:07:01,509
+And then, uh, now when we can
+
+277
+00:07:01,509 --> 00:07:03,740
+delete the Slack, then when we're
+
+278
+00:07:03,860 --> 00:07:04,620
+done with that now,
+
+279
+00:07:05,100 --> 00:07:07,379
+the, uh, once the whole thing is
+
+280
+00:07:07,410 --> 00:07:08,779
+created, we will send the message
+
+281
+00:07:08,779 --> 00:07:09,660
+via Gmail to the client.
+
+282
+00:07:09,660 --> 00:07:10,709
+And then we'll send it to a
+
+283
+00:07:10,709 --> 00:07:12,779
+telegram message to ourselves to,
+
+284
+00:07:12,779 --> 00:07:13,420
+uh, say, you know,
+
+285
+00:07:13,420 --> 00:07:14,480
+that it's a, it's good to go and
+
+286
+00:07:14,529 --> 00:07:15,899
+that it's ready, ready and done.
+
+287
+00:07:16,300 --> 00:07:17,100
+So those are just a few ways to
+
+288
+00:07:17,300 --> 00:07:18,149
+modify some of the existing
+
+289
+00:07:18,600 --> 00:07:19,879
+workflows that we, that we have.
+
+290
+00:07:19,899 --> 00:07:20,680
+Uh, again, it's really about
+
+291
+00:07:20,899 --> 00:07:21,500
+importing the ones that we have.
+
+292
+00:07:21,579 --> 00:07:22,600
+You're gonna have to do some
+
+293
+00:07:22,600 --> 00:07:23,439
+modification around mainly
+
+294
+00:07:23,879 --> 00:07:24,170
+accounts.
+
+295
+00:07:24,220 --> 00:07:25,410
+Most of them should be pretty much
+
+296
+00:07:25,410 --> 00:07:26,459
+set up exact as they are.
+
+297
+00:07:26,459 --> 00:07:27,670
+You should generally follow the
+
+298
+00:07:27,670 --> 00:07:29,009
+structure that we suggest for the,
+
+299
+00:07:29,009 --> 00:07:29,980
+uh, business setup.
+
+300
+00:07:29,980 --> 00:07:29,980
+So like Slack for, uh, client
+
+301
+00:07:29,980 --> 00:07:29,980
+communication and management, um,
+
+302
+00:07:29,980 --> 00:07:35,560
+is a pretty key one.
+
+303
+00:07:35,579 --> 00:07:35,579
+So, uh, hopefully this was helpful
+
+304
+00:07:35,579 --> 00:07:35,579
+and, uh, we will be just going
+
+305
+00:07:35,579 --> 00:07:41,230
+through some places
+
+306
+00:07:41,259 --> 00:07:43,009
+to find some resources for
+
+307
+00:07:43,009 --> 00:07:45,040
+workflows in the next video.
+
+308
+00:07:45,100 --> 00:07:46,699
+And then you guys are going to
+
+309
+00:07:46,709 --> 00:07:48,379
+move on to learning a bit about
+
+310
+00:07:48,379 --> 00:07:50,750
+poppy AI and then choosing
+
+311
+00:07:50,779 --> 00:07:52,079
+your agency that you're going to
+
+312
+00:07:52,149 --> 00:07:52,860
+be creating.
+
+313
+00:07:52,860 --> 00:07:53,800
+And then we'll get into the
+
+314
+00:07:53,860 --> 00:07:54,939
+workflows for all of those.
+
+315
+00:07:54,939 --> 00:07:56,449
+So hopefully, uh, you guys are
+
+316
+00:07:56,449 --> 00:07:57,980
+getting through the course.
+
+317
+00:07:57,980 --> 00:07:58,220
+Okay.
+
+318
+00:07:58,220 --> 00:07:59,819
+So far, any problems as well, feel
+
+319
+00:07:59,899 --> 00:08:01,509
+free to message me or post in
+
+320
+00:08:01,509 --> 00:08:02,139
+Slack.
+
+321
+00:08:02,139 --> 00:08:03,259
+See you guys the next one.
+
+322
+00:08:03,800 --> 00:08:04,220
+Peace.

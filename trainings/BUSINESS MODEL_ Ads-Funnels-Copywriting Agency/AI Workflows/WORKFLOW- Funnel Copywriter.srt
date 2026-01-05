@@ -1,0 +1,883 @@
+1
+00:00:00,960 --> 00:00:02,040
+What's up guys, Lucas here.
+
+2
+00:00:02,080 --> 00:00:03,520
+So today I'm going to be walking
+
+3
+00:00:03,589 --> 00:00:05,879
+you through the funnel copywriter
+
+4
+00:00:05,879 --> 00:00:06,519
+automation.
+
+5
+00:00:06,559 --> 00:00:09,460
+What this does very simply is from
+
+6
+00:00:09,460 --> 00:00:11,640
+a form input, it processes the
+
+7
+00:00:11,640 --> 00:00:12,080
+data,
+
+8
+00:00:12,119 --> 00:00:14,070
+does some market research using
+
+9
+00:00:14,490 --> 00:00:17,000
+ChatGPT5, as well as the SERP API,
+
+10
+00:00:17,039 --> 00:00:18,670
+which allows for internet search.
+
+11
+00:00:18,719 --> 00:00:20,350
+The funnel strategist agent
+
+12
+00:00:20,359 --> 00:00:22,239
+creates a whole funnel strategy
+
+13
+00:00:22,239 --> 00:00:24,559
+around the market
+
+14
+00:00:24,640 --> 00:00:26,329
+research on the inputted user
+
+15
+00:00:26,420 --> 00:00:27,399
+information.
+
+16
+00:00:27,960 --> 00:00:29,649
+Then it writes a sales page and
+
+17
+00:00:29,739 --> 00:00:31,640
+writes all the email flows.
+
+18
+00:00:31,679 --> 00:00:33,000
+Then it creates a Google doc.
+
+19
+00:00:33,039 --> 00:00:34,880
+If they are an existing customer,
+
+20
+00:00:34,880 --> 00:00:36,560
+it puts the file in the correct
+
+21
+00:00:36,560 --> 00:00:37,479
+Google drive folder.
+
+22
+00:00:37,520 --> 00:00:40,710
+And if they are not, then it
+
+23
+00:00:40,710 --> 00:00:42,890
+creates the folder and moves the
+
+24
+00:00:42,890 --> 00:00:43,640
+file into it.
+
+25
+00:00:43,679 --> 00:00:45,000
+And then finally sends us a Slack
+
+26
+00:00:45,000 --> 00:00:45,560
+message.
+
+27
+00:00:45,600 --> 00:00:46,979
+So it's running through just very
+
+28
+00:00:46,979 --> 00:00:48,159
+quickly how this works.
+
+29
+00:00:48,200 --> 00:00:49,520
+If we look here, I've got some
+
+30
+00:00:49,520 --> 00:00:50,149
+data pinned.
+
+31
+00:00:50,320 --> 00:00:52,270
+So I made up a fake company, a
+
+32
+00:00:52,299 --> 00:00:54,320
+SaaS called Productivity Flow Pro.
+
+33
+00:00:54,359 --> 00:00:56,280
+It's for busy entrepreneurs while
+
+34
+00:00:56,280 --> 00:00:57,479
+business owners.
+
+35
+00:00:57,840 --> 00:00:58,829
+The primary full type is the
+
+36
+00:00:58,869 --> 00:01:00,079
+landing page to a free trial.
+
+37
+00:01:00,119 --> 00:01:02,070
+The goal is to increase signups.
+
+38
+00:01:02,159 --> 00:01:03,590
+Basically, we have all here the
+
+39
+00:01:03,670 --> 00:01:05,219
+top three product benefits, top
+
+40
+00:01:05,219 --> 00:01:06,140
+three pain points we saw,
+
+41
+00:01:06,180 --> 00:01:07,870
+unique value propositions, special
+
+42
+00:01:07,959 --> 00:01:09,519
+offers, existing copy sample,
+
+43
+00:01:09,519 --> 00:01:10,879
+success metrics to track,
+
+44
+00:01:10,920 --> 00:01:11,939
+and if they're a returning client.
+
+45
+00:01:11,980 --> 00:01:13,290
+So this is just the information
+
+46
+00:01:13,290 --> 00:01:14,519
+you need to give it in order to
+
+47
+00:01:14,519 --> 00:01:15,799
+write about your client.
+
+48
+00:01:15,840 --> 00:01:16,629
+So you will need to do a little
+
+49
+00:01:16,650 --> 00:01:17,640
+bit of information yourself.
+
+50
+00:01:17,680 --> 00:01:19,629
+So like look at the benefits of
+
+51
+00:01:19,629 --> 00:01:21,640
+the client's product or their
+
+52
+00:01:21,640 --> 00:01:23,719
+brand voice, things like that.
+
+53
+00:01:23,760 --> 00:01:25,090
+But you should know most of this
+
+54
+00:01:25,090 --> 00:01:26,500
+if you've already spoken to your
+
+55
+00:01:26,510 --> 00:01:28,049
+client and get that information
+
+56
+00:01:28,260 --> 00:01:28,719
+from them.
+
+57
+00:01:28,760 --> 00:01:31,319
+So then our market research agent,
+
+58
+00:01:31,319 --> 00:01:33,319
+I've got some very detailed
+
+59
+00:01:33,319 --> 00:01:35,879
+prompts here, but essentially it
+
+60
+00:01:35,879 --> 00:01:37,159
+creates an executive summary.
+
+61
+00:01:37,200 --> 00:01:37,989
+It is a snapshot.
+
+62
+00:01:38,040 --> 00:01:39,379
+It creates audience personas.
+
+63
+00:01:39,420 --> 00:01:40,519
+It does all these things.
+
+64
+00:01:40,560 --> 00:01:42,510
+Again, using ChatGPT 5 along with
+
+65
+00:01:42,920 --> 00:01:43,719
+the SERP API.
+
+66
+00:01:44,040 --> 00:01:45,189
+Now, you will have to set up your
+
+67
+00:01:45,269 --> 00:01:46,349
+open editor account, as we've
+
+68
+00:01:46,430 --> 00:01:47,739
+discussed in previous videos.
+
+69
+00:01:47,780 --> 00:01:48,549
+Open editor is the key
+
+70
+00:01:48,810 --> 00:01:49,730
+authentication that you'll need
+
+71
+00:01:49,870 --> 00:01:50,390
+for all AI.
+
+72
+00:01:50,439 --> 00:01:52,390
+SERP API is one you won't probably
+
+73
+00:01:52,799 --> 00:01:53,670
+want to set up.
+
+74
+00:01:53,719 --> 00:01:54,400
+It's very simple.
+
+75
+00:01:54,439 --> 00:01:56,640
+To set it up, you simply have to
+
+76
+00:01:56,799 --> 00:01:57,849
+get an API key.
+
+77
+00:01:57,959 --> 00:01:59,900
+To do that, you just go to
+
+78
+00:01:59,900 --> 00:02:03,060
+SERPAPI.com, sign in or register,
+
+79
+00:02:03,060 --> 00:02:04,400
+and it will give you an API key
+
+80
+00:02:04,870 --> 00:02:05,780
+immediately that you copy and
+
+81
+00:02:05,780 --> 00:02:06,189
+paste in.
+
+82
+00:02:06,340 --> 00:02:08,288
+And now your AI has internet
+
+83
+00:02:08,699 --> 00:02:09,280
+access.
+
+84
+00:02:09,319 --> 00:02:11,280
+So let's go back here.
+
+85
+00:02:12,520 --> 00:02:13,939
+The sales page agent, after the
+
+86
+00:02:13,939 --> 00:02:15,530
+funnel strategy agent, creates a
+
+87
+00:02:15,530 --> 00:02:17,180
+full detailed funnel strategy,
+
+88
+00:02:17,180 --> 00:02:18,750
+including the foundation, the
+
+89
+00:02:18,750 --> 00:02:19,990
+architecture, the confirmation
+
+90
+00:02:20,050 --> 00:02:21,090
+page strategy, email sequence
+
+91
+00:02:21,090 --> 00:02:21,939
+architecture, all this
+
+92
+00:02:21,939 --> 00:02:22,560
+information.
+
+93
+00:02:22,599 --> 00:02:24,460
+Once that's all created, it sends
+
+94
+00:02:24,460 --> 00:02:26,159
+that here along with the market
+
+95
+00:02:26,159 --> 00:02:28,159
+research to the sales page agent,
+
+96
+00:02:28,159 --> 00:02:30,210
+which then writes a fully detailed
+
+97
+00:02:30,210 --> 00:02:32,250
+sales page based on best practices
+
+98
+00:02:32,250 --> 00:02:34,159
+from a number of experts on sales
+
+99
+00:02:34,159 --> 00:02:35,360
+page creation.
+
+100
+00:02:36,039 --> 00:02:37,729
+Then the email flow agent creates
+
+101
+00:02:37,819 --> 00:02:39,750
+detailed email flows again, taking
+
+102
+00:02:39,810 --> 00:02:41,330
+all the information from the
+
+103
+00:02:41,330 --> 00:02:43,139
+previous agents and outlines the
+
+104
+00:02:43,139 --> 00:02:44,750
+whole email strategy as well as
+
+105
+00:02:44,879 --> 00:02:46,419
+actually writes the emails you
+
+106
+00:02:46,580 --> 00:02:47,500
+need to write.
+
+107
+00:02:48,439 --> 00:02:49,819
+Then it compiles all this into a
+
+108
+00:02:49,819 --> 00:02:51,349
+success package very simply just
+
+109
+00:02:51,349 --> 00:02:52,719
+puts it all together here.
+
+110
+00:02:52,759 --> 00:02:54,389
+And then we create a Google doc
+
+111
+00:02:54,400 --> 00:02:56,280
+here from the markdown to create a
+
+112
+00:02:56,280 --> 00:02:58,229
+nicely formatted Google doc.
+
+113
+00:02:58,719 --> 00:03:00,159
+When that's done, then it will
+
+114
+00:03:00,229 --> 00:03:01,800
+check if it's a returning client
+
+115
+00:03:01,800 --> 00:03:03,509
+or not, which you will have marked
+
+116
+00:03:03,509 --> 00:03:04,740
+in the initial form.
+
+117
+00:03:04,780 --> 00:03:06,090
+If it is, it will search for that
+
+118
+00:03:06,090 --> 00:03:07,389
+client's name in your client's
+
+119
+00:03:07,439 --> 00:03:08,780
+folder in Google Drive, which as
+
+120
+00:03:08,819 --> 00:03:10,300
+mentioned before, you need to have
+
+121
+00:03:10,300 --> 00:03:11,599
+a client's folder set up.
+
+122
+00:03:12,139 --> 00:03:13,229
+And then it will move the file
+
+123
+00:03:13,250 --> 00:03:14,419
+into the correct folder.
+
+124
+00:03:14,479 --> 00:03:15,629
+If you don't have a folder for
+
+125
+00:03:15,710 --> 00:03:16,889
+that client, if they're not a
+
+126
+00:03:16,909 --> 00:03:18,449
+returning client, it will create a
+
+127
+00:03:18,449 --> 00:03:19,879
+folder with the client's name
+
+128
+00:03:19,960 --> 00:03:21,370
+based on what you put in the form
+
+129
+00:03:21,400 --> 00:03:22,800
+and then move the completed Google
+
+130
+00:03:22,840 --> 00:03:24,860
+doc into the folder for finally
+
+131
+00:03:25,020 --> 00:03:27,060
+sending you a message in Slack.
+
+132
+00:03:27,099 --> 00:03:28,530
+And your output will look
+
+133
+00:03:28,539 --> 00:03:30,439
+something like this, where you
+
+134
+00:03:30,439 --> 00:03:32,490
+will have the full funnel strategy
+
+135
+00:03:32,580 --> 00:03:33,180
+up top.
+
+136
+00:03:33,259 --> 00:03:34,030
+As you can see, this is super
+
+137
+00:03:34,280 --> 00:03:34,419
+detailed.
+
+138
+00:03:34,520 --> 00:03:36,310
+This is nearly 20,000 words in
+
+139
+00:03:36,310 --> 00:03:37,800
+total for this whole document.
+
+140
+00:03:37,840 --> 00:03:40,250
+It'll go over all the information
+
+141
+00:03:40,270 --> 00:03:40,939
+here.
+
+142
+00:03:40,979 --> 00:03:42,400
+I've actually scrolled in here.
+
+143
+00:03:42,439 --> 00:03:44,129
+We'll get to the sales page copy
+
+144
+00:03:44,219 --> 00:03:45,969
+where you'll see here is a full
+
+145
+00:03:45,969 --> 00:03:47,740
+sales page written for you.
+
+146
+00:03:47,780 --> 00:03:51,050
+Again, based on the best practices
+
+147
+00:03:51,050 --> 00:03:54,199
+from existing funnel experts.
+
+148
+00:03:54,259 --> 00:03:55,699
+What Holly's just giving as much
+
+149
+00:03:55,770 --> 00:03:57,349
+information as possible about the
+
+150
+00:03:57,349 --> 00:03:58,870
+product or the client in order to
+
+151
+00:03:58,870 --> 00:04:00,099
+get the most accurate text
+
+152
+00:04:00,099 --> 00:04:00,699
+possible.
+
+153
+00:04:01,080 --> 00:04:02,240
+You will still obviously have to
+
+154
+00:04:02,310 --> 00:04:03,620
+edit things slightly depending on
+
+155
+00:04:03,620 --> 00:04:04,800
+what your client's doing.
+
+156
+00:04:04,860 --> 00:04:07,409
+But this is a really, really good
+
+157
+00:04:07,409 --> 00:04:09,150
+base to start from.
+
+158
+00:04:09,199 --> 00:04:11,150
+And then finally, it will create
+
+159
+00:04:11,180 --> 00:04:13,199
+our email flows where it goes over
+
+160
+00:04:13,240 --> 00:04:15,039
+the details of the strategy,
+
+161
+00:04:15,129 --> 00:04:16,579
+themes, et cetera.
+
+162
+00:04:16,620 --> 00:04:18,569
+And then the actual emails are
+
+163
+00:04:18,980 --> 00:04:19,740
+here below.
+
+164
+00:04:19,779 --> 00:04:20,839
+You have to do a bit of formatting
+
+165
+00:04:20,839 --> 00:04:22,050
+or just, you know, line breaks and
+
+166
+00:04:22,160 --> 00:04:23,139
+stuff, but everything there is
+
+167
+00:04:23,180 --> 00:04:24,069
+pretty much ready to go.
+
+168
+00:04:24,279 --> 00:04:26,110
+And then finally, as I said, you
+
+169
+00:04:26,110 --> 00:04:27,639
+will get the message of Slack
+
+170
+00:04:27,730 --> 00:04:29,680
+telling you that it is done, ready
+
+171
+00:04:29,759 --> 00:04:30,980
+to go, ready for you to build it.
+
+172
+00:04:31,079 --> 00:04:32,720
+So this turns, you know, what
+
+173
+00:04:32,730 --> 00:04:34,439
+would be hours maybe of research
+
+174
+00:04:34,519 --> 00:04:36,189
+and learning how to write sales
+
+175
+00:04:36,189 --> 00:04:37,879
+pages and stuff into probably a
+
+176
+00:04:38,000 --> 00:04:39,709
+total five-minute process maybe
+
+177
+00:04:39,709 --> 00:04:41,079
+for this flow to run.
+
+178
+00:04:41,120 --> 00:04:43,060
+You simply just input the details
+
+179
+00:04:43,060 --> 00:04:44,829
+into the form, and then you are
+
+180
+00:04:44,889 --> 00:04:45,759
+good to go.
+
+181
+00:04:45,800 --> 00:04:47,110
+You will get a Slack message with
+
+182
+00:04:47,110 --> 00:04:48,610
+the Google Drive link saying, here
+
+183
+00:04:48,610 --> 00:04:49,079
+you go.
+
+184
+00:04:49,120 --> 00:04:50,290
+Here's all the information on this
+
+185
+00:04:50,350 --> 00:04:51,069
+client ready to go.
+
+186
+00:04:51,680 --> 00:04:52,759
+So, yeah, this will save you
+
+187
+00:04:52,790 --> 00:04:53,959
+having to hire a copywriter.
+
+188
+00:04:54,000 --> 00:04:54,870
+It will save you having to learn
+
+189
+00:04:54,970 --> 00:04:55,819
+how to write copy yourself.
+
+190
+00:04:55,860 --> 00:04:57,810
+It will save you the majority of
+
+191
+00:04:57,810 --> 00:04:59,860
+what's involved in the research
+
+192
+00:04:59,899 --> 00:05:01,899
+and copywriting part of funnel
+
+193
+00:05:01,899 --> 00:05:03,060
+development.
+
+194
+00:05:03,100 --> 00:05:04,509
+Any problems with this, feel free
+
+195
+00:05:04,509 --> 00:05:05,050
+to hit me up.
+
+196
+00:05:05,180 --> 00:05:06,139
+Again, the only things you need to
+
+197
+00:05:06,199 --> 00:05:07,000
+set up, you will need to set up
+
+198
+00:05:07,000 --> 00:05:08,160
+your Google Drive authentication.
+
+199
+00:05:08,639 --> 00:05:10,170
+Again, to do that, you'll just add
+
+200
+00:05:10,170 --> 00:05:11,439
+a Google Drive account.
+
+201
+00:05:11,480 --> 00:05:12,360
+It's just log in with Google.
+
+202
+00:05:12,420 --> 00:05:14,379
+Same for Slack.
+
+203
+00:05:14,699 --> 00:05:15,360
+You'll have to set up your Slack
+
+204
+00:05:15,720 --> 00:05:15,939
+authentication.
+
+205
+00:05:15,980 --> 00:05:16,959
+It's just log in with Slack.
+
+206
+00:05:17,000 --> 00:05:18,819
+And you will have to set up your
+
+207
+00:05:18,819 --> 00:05:20,290
+OpenWriter and SERP API
+
+208
+00:05:20,290 --> 00:05:21,699
+authentication.
+
+209
+00:05:21,740 --> 00:05:23,540
+All done very easily.
+
+210
+00:05:23,579 --> 00:05:25,439
+Again, credential to connect with.
+
+211
+00:05:25,480 --> 00:05:26,839
+You'll just search for SERP and
+
+212
+00:05:26,839 --> 00:05:28,189
+then, or SERP will already be
+
+213
+00:05:28,199 --> 00:05:28,660
+here.
+
+214
+00:05:28,699 --> 00:05:30,019
+Just create a new credential and
+
+215
+00:05:30,019 --> 00:05:31,310
+put in your API key, and you're
+
+216
+00:05:31,360 --> 00:05:31,959
+good to go.
+
+217
+00:05:32,000 --> 00:05:33,800
+So, any issues, feel free to hit
+
+218
+00:05:33,800 --> 00:05:34,319
+me up.
+
+219
+00:05:35,000 --> 00:05:36,339
+And let me know how it goes.
+
+220
+00:05:36,379 --> 00:05:37,170
+See you in the next one.
+
+221
+00:05:37,220 --> 00:05:37,759
+Peace.

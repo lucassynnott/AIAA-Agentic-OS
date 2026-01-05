@@ -1,0 +1,840 @@
+{
+  "name": "AI Customer Onboarding Agent",
+  "nodes": [
+    {
+      "parameters": {
+        "sendTo": "={{ $('On form submission').first().json.Email }}",
+        "subject": "=Welcome to [AGENCY NAME] {{ $('On form submission').first().json.Name }}- Your Onboarding is Complete!",
+        "emailType": "text",
+        "message": "=Hi {{ $('On form submission').first().json.Name }},\n\nWelcome aboard! We’re excited to partner with you and your team to help scale your business.\n\nYour project workspace is live, and we’ve already kicked off the initial project scoping.\n\nYou should be recieving invites to the following:\n\nSlack – Our main communication hub\n\nGoogle Drive – For sharing and accessing all related assets\n\nNext Steps:\n\nUpload any relevant documentation here:\n\nGoogle Drive Folder: \n\nhttps://drive.google.com/drive/u/0/folders/{{ $('Create Main Client Folder').first().json.id }}\n\nSchedule your onboarding call: \n\nhttps://calendly.com/YOURBOOKINGLINK\n\nJoin The Slack Channel : \n\nhttps://agencyslackgroup.slack.com/archives/{{ $('Slack | Create Channel').item.json.id }}\n\nSit tight—we’ll review your uploads before the call and come prepared with next-step recommendations.\n\nIf you need anything or have questions in the meantime, feel free to reach out anytime.\n\nLooking forward to what we’ll build together.\n\nBest,\nYOUR NAME\nFounder, YOUR AGENCY\nhttps://YOURSITE.com",
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "id": "7f65ea86-e08d-49b6-82d4-afee1e14ac3e",
+      "name": "Send Welcome Email",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        2752,
+        -176
+      ],
+      "webhookId": "08dd43fe-2d72-4b26-a91e-02e0f99c0725",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "mujg3kF2eeeQPJ3x",
+          "name": "Gmail account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "formTitle": "Client Onboarding Form",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Name",
+              "placeholder": "Your Name",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Email",
+              "placeholder": "Your Email",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Company Name",
+              "placeholder": "Company Name",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Website",
+              "placeholder": "Website url",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Proposal/Scope Document",
+              "fieldType": "file"
+            },
+            {
+              "fieldLabel": "Client Information / Tasks",
+              "fieldType": "textarea"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.2,
+      "position": [
+        -656,
+        -32
+      ],
+      "id": "8e7ea16f-3dec-40fa-bfda-d0cc1da64fb0",
+      "name": "On form submission",
+      "webhookId": "07797034-7340-43cb-8ea2-6afa1b05ddd4"
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "resource": "channel",
+        "channelId": "={{ $('On form submission').first().json['Company Name'].replace(/\\s+/g, '_').toLowerCase() + '_channel' }}"
+      },
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.3,
+      "position": [
+        2304,
+        -176
+      ],
+      "id": "14c3b39a-1ad0-42b7-8f86-3ca7f552976c",
+      "name": "Slack | Create Channel",
+      "webhookId": "17a1668c-e749-44ca-abd2-89dda54ad0ef",
+      "executeOnce": true,
+      "credentials": {
+        "slackOAuth2Api": {
+          "id": "nhkttwRMJO9stSq3",
+          "name": "Slack account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "select": "channel",
+        "channelId": {
+          "__rl": true,
+          "value": "={{ $json.id }}",
+          "mode": "id"
+        },
+        "text": "=🎉 Big welcome to {{ $('On form submission').first().json.Name }}! 🎉\n\nWe’re excited to collaborate with you on this project. This channel will serve as our central place for communication and updates, ensuring we stay aligned throughout the journey.\n\nNext up:\n✅ Checklist\n✅ Kickoff call\n✅ Next steps\n\nWe’ve got you covered. Let’s crush it! 🚀",
+        "otherOptions": {}
+      },
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.3,
+      "position": [
+        2528,
+        -176
+      ],
+      "id": "7c9636e0-14b6-461d-9e98-4ff12d5f56cf",
+      "name": "Slack | Post Message",
+      "webhookId": "04e02f40-5671-47a3-b27f-332b91ed1e43",
+      "credentials": {
+        "slackOAuth2Api": {
+          "id": "nhkttwRMJO9stSq3",
+          "name": "Slack account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $(\"On form submission\").first().json['Client Information / Tasks'] }}",
+        "hasOutputParser": true,
+        "options": {
+          "systemMessage": "=# Overview  \nYou are an AI onboarding agent responsible for reviewing a proposal and scoping document for a new client. Your job is to extract a comprehensive list of actionable tasks, assign appropriate task titles, estimate durations, and generate due dates accordingly. The final output will be used to populate a ClickUp folder for the team to begin onboarding activities.\n\n## Context  \n- Input is provided as a plain text string containing the proposal and scoping document.  \n- You are operating in US Central Time.  \n- The current date and time must be noted in each output to calculate due dates.  \n- All due dates should be in MM/DD/YYYY format.  \n- Tasks should be based on standard estimated durations unless otherwise specified in the document.  \n- The task list should be detailed, ideally including 20 to 30 to-do items to cover every minor and major step involved.  \n\n## Instructions  \n1. Read and analyze the scoping document contents.  \n2. Break down the onboarding process into detailed subtasks.  \n3. For each task:\n   - Create a clear, concise title.  \n   - Write a description with enough detail to guide execution.  \n   - Estimate and apply a duration from today’s date.  \n   - Format the due date as MM/DD/YYYY.  \n4. Structure the output to be easily transferable into ClickUp.  \n5. Begin the output with the current date and time in US Central Time.  \n\n## Tools  \n- Internal clock set to US Central Time  \n- Text parser to extract and organize tasks  \n- Predefined duration rules (if not provided, use default estimates per task type)  \n\n## Examples  \n- Input: \"Initial strategy alignment call and documentation setup expected within first 3 days.\"  \n- Output:\n  - **Current Date and Time:** 06/20/2025 10:30 AM (US Central)  \n  - **Task 1**  \n    - Title: \"Book Strategy Alignment Call\"  \n    - Description: Coordinate and schedule a kickoff call with the client to discuss strategy.  \n    - Due Date: 06/21/2025  \n  - **Task 2**  \n    - Title: \"Create Strategy Notes Document\"  \n    - Description: Prepare a shared document to collect notes and agreements from the alignment call.  \n    - Due Date: 06/23/2025  \n\n## SOP (Standard Operating Procedure)  \n1. Capture the current date and time in US Central Time.  \n2. Parse the document and extract all major and minor tasks implied or directly mentioned.  \n3. Expand each process into granular to-dos (20–30 items).  \n4. Assign a title, detailed description, and calculated due date for each task.  \n5. Ensure output is formatted cleanly for ClickUp import.\n\n## Final Notes  \n- Default duration is 2 days unless otherwise indicated.  \n- If a task's due date falls on a weekend, roll it forward to the next weekday.  \n- Focus on actionable and sequential items: tool setup, access requests, documentation, meetings, integrations, QA, testing, etc.  \n- Each task should represent a unique and independent step in the onboarding flow.  \n---\nThe date and time today is {{ $now }}"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.9,
+      "position": [
+        1168,
+        -592
+      ],
+      "id": "6f542b76-76c0-45cd-812d-5f707985a289",
+      "name": "Segment Tasks"
+    },
+    {
+      "parameters": {
+        "jsonSchemaExample": "{\n  \"current_datetime\": \"06/20/2025 10:30 AM\",\n  \"timezone\": \"US Central\",\n  \"tasks\": [\n    {\n      \"title\": \"Client Workspace Setup\",\n      \"description\": \"Set up client workspace including email, Slack, and Google Drive access.\",\n      \"due_date\": \"06/22/2025\"\n    },\n    {\n      \"title\": \"Kickoff Call Scheduling\",\n      \"description\": \"Schedule and confirm kickoff call with the client and internal team.\",\n      \"due_date\": \"06/23/2025\"\n    },\n    {\n      \"title\": \"Access Credentials Request\",\n      \"description\": \"Request all necessary credentials from the client (CRM, website, analytics, etc.).\",\n      \"due_date\": \"06/21/2025\"\n    }\n  ]\n}\n",
+        "autoFix": true
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.2,
+      "position": [
+        1264,
+        -368
+      ],
+      "id": "4069ece2-6c1b-4f88-b7a6-beb036f7f119",
+      "name": "Structured Output Parser"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "output.tasks",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        1632,
+        -32
+      ],
+      "id": "62528eb9-21d5-474f-82e9-74e76a4463bf",
+      "name": "Split Out1"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        1856,
+        -32
+      ],
+      "id": "cc377301-a7c5-4b8f-8ec6-89a41e8deed9",
+      "name": "Loop Over Items"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "1ef9b1c6-86b6-43b4-a02d-3250a6f7ba4d",
+              "name": "projectInformation",
+              "value": "={{ $json.text }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        16,
+        -104
+      ],
+      "id": "7d05a51e-7a65-4e37-aa6a-6182c91b453c",
+      "name": "Rename Doc"
+    },
+    {
+      "parameters": {
+        "operation": "pdf",
+        "binaryPropertyName": "=Proposal_Scope_Document",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        -208,
+        -104
+      ],
+      "id": "2d756a8d-acf3-4b04-9466-7bff34707f8d",
+      "name": "Extract from File"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "13bbafe7-47b1-45d5-8ea0-914de02c8e8a",
+              "name": "DriveFolderID",
+              "value": "={{ $json.id }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        464,
+        -32
+      ],
+      "id": "af65f1b2-cc60-4182-8e31-d858e2ae8db8",
+      "name": "Rename Folder ID"
+    },
+    {
+      "parameters": {
+        "email": "={{ $('On form submission').item.json.Email }}",
+        "additionalFields": {
+          "name": "={{ $('On form submission').item.json.Name }}",
+          "website": "={{ $('On form submission').item.json.Website }}"
+        },
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-base.highLevel",
+      "typeVersion": 2,
+      "position": [
+        688,
+        -32
+      ],
+      "id": "56e0f6ca-15b7-4a8a-901f-69a1c348bdef",
+      "name": "Create or update a contact",
+      "credentials": {
+        "highLevelOAuth2Api": {
+          "id": "0hWODSO7k62v5bkn",
+          "name": "HighLevel account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "content": "## 🚀 AI Automation Client Onboarding Workflow\n\n**Purpose**: Automate the complete onboarding process for new AI automation clients\n\n**Triggered by**: n8n Form\n\n**Actions performed**:\n1. ✅ Create & configure Google Drive folder\n2. ✅ Create Asana project from template\n3. ✅ Create dedicated Slack channel\n4. ✅ Send confirmation notifications\n\n**Note**: Update credentials for Google Drive, Asana, and Slack before using this workflow.",
+        "height": 580,
+        "width": 440,
+        "color": 3
+      },
+      "id": "6f65d185-5b18-4cf7-a971-d1adeb36b3f3",
+      "name": "Sticky Note8",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -1152,
+        -80
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## 🔧 Configuration Notes\n\n**Before using this workflow**:\n\n1. **Google Drive**: \n   - Set up OAuth2 credentials\n   - Ensure account has folder creation permissions\n\n2. **GoHighLevel**:\n   - Set up OAuth2 credentials\n\n3. **Slack**:\n   - Create Slack app with bot permissions\n   - Add OAuth scopes: channels:write, chat:write, users:read.email\n\n4. **Email (SMTP)**:\n   - Configure SMTP credentials for internal notifications\n   - Update recipient email address",
+        "height": 580,
+        "width": 436
+      },
+      "id": "53cb22cb-fa4e-4150-a4de-ee02320d2f9e",
+      "name": "Sticky Note9",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -1152,
+        -688
+      ]
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.5-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        1136,
+        -368
+      ],
+      "id": "01811d58-514f-4452-9c3d-518f1846d319",
+      "name": "OpenRouter Chat Model",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "mistralai/mistral-small-3.1-24b-instruct:free",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        1344,
+        -160
+      ],
+      "id": "5224134e-4e8d-4dd8-8484-5a4a3e25089f",
+      "name": "OpenRouter Chat Model1",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "folder",
+        "name": "={{ $('On form submission').first().json['Company Name'] }} | Client Folder",
+        "driveId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "My Drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "value": "1Sw0kTgXq8Nki7Woz-0Eso-xMSDksW3MD",
+          "mode": "list",
+          "cachedResultName": "Clients",
+          "cachedResultUrl": "https://drive.google.com/drive/folders/1Sw0kTgXq8Nki7Woz-0Eso-xMSDksW3MD"
+        },
+        "options": {}
+      },
+      "id": "1c86b6e4-c5e7-4a7b-be9e-2ee0167a21a8",
+      "name": "Create Main Client Folder",
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        240,
+        -32
+      ],
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "task",
+        "contactId": "={{ $('Create or update a contact').first().json.id }}",
+        "title": "={{ $json.title }}",
+        "dueDate": "={{ DateTime.fromFormat($json.due_date, 'MM/dd/yyyy').toISO() }}",
+        "additionalFields": {
+          "body": "={{ $json.description }}"
+        },
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-base.highLevel",
+      "typeVersion": 2,
+      "position": [
+        2080,
+        16
+      ],
+      "id": "9266b484-77df-4e92-8714-d804331b6ad4",
+      "name": "Create a task",
+      "credentials": {
+        "highLevelOAuth2Api": {
+          "id": "0hWODSO7k62v5bkn",
+          "name": "HighLevel account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "809e7327-8f64-4e95-9a87-7706208543eb",
+              "leftValue": "={{ $json['Proposal/Scope Document'] }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -432,
+        -32
+      ],
+      "id": "6246b974-cab4-417e-bbb0-fd703cce62fb",
+      "name": "If"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "b0365e6f-196d-4d71-9cbe-b67e132ad996",
+              "leftValue": "={{ $('On form submission').first().json['Client Information / Tasks'] }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        912,
+        -32
+      ],
+      "id": "2f80388f-64a3-4603-a12b-744bb4653cb2",
+      "name": "If1"
+    },
+    {
+      "parameters": {
+        "jsonSchemaExample": "{\n  \"current_datetime\": \"06/20/2025 10:30 AM\",\n  \"timezone\": \"US Central\",\n  \"tasks\": [\n    {\n      \"title\": \"Client Workspace Setup\",\n      \"description\": \"Set up client workspace including email, Slack, and Google Drive access.\",\n      \"due_date\": \"06/22/2025\"\n    },\n    {\n      \"title\": \"Kickoff Call Scheduling\",\n      \"description\": \"Schedule and confirm kickoff call with the client and internal team.\",\n      \"due_date\": \"06/23/2025\"\n    },\n    {\n      \"title\": \"Access Credentials Request\",\n      \"description\": \"Request all necessary credentials from the client (CRM, website, analytics, etc.).\",\n      \"due_date\": \"06/21/2025\"\n    }\n  ]\n}\n",
+        "autoFix": true
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.2,
+      "position": [
+        1264,
+        448
+      ],
+      "id": "dddb75e3-9eae-4186-bc6f-a6c434419e4c",
+      "name": "Structured Output Parser1"
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.5-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        1136,
+        448
+      ],
+      "id": "32d3054d-1d63-4848-9a5c-9275d369a482",
+      "name": "OpenRouter Chat Model2",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "mistralai/mistral-small-3.1-24b-instruct:free",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        1344,
+        656
+      ],
+      "id": "4e4cf232-078a-4bbd-9e3d-84c4b8d6acb1",
+      "name": "OpenRouter Chat Model3",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=\n",
+        "hasOutputParser": true,
+        "options": {
+          "systemMessage": "=# Overview  \nYou are an AI onboarding agent responsible for reviewing a proposal and scoping document for a new client. Your job is to extract a comprehensive list of actionable tasks, assign appropriate task titles, estimate durations, and generate due dates accordingly. The final output will be used to populate a ClickUp folder for the team to begin onboarding activities.\n\n## Context  \n- Input is provided as a plain text string containing the proposal and scoping document.  \n- You are operating in US Central Time.  \n- The current date and time must be noted in each output to calculate due dates.  \n- All due dates should be in MM/DD/YYYY format.  \n- Tasks should be based on standard estimated durations unless otherwise specified in the document.  \n- The task list should be detailed, ideally including 20 to 30 to-do items to cover every minor and major step involved.  \n\n## Instructions  \n1. Read and analyze the scoping document contents.  \n2. Break down the onboarding process into detailed subtasks.  \n3. For each task:\n   - Create a clear, concise title.  \n   - Write a description with enough detail to guide execution.  \n   - Estimate and apply a duration from today’s date.  \n   - Format the due date as MM/DD/YYYY.  \n4. Structure the output to be easily transferable into ClickUp.  \n5. Begin the output with the current date and time in US Central Time.  \n\n## Tools  \n- Internal clock set to US Central Time  \n- Text parser to extract and organize tasks  \n- Predefined duration rules (if not provided, use default estimates per task type)  \n\n## Examples  \n- Input: \"Initial strategy alignment call and documentation setup expected within first 3 days.\"  \n- Output:\n  - **Current Date and Time:** 06/20/2025 10:30 AM (US Central)  \n  - **Task 1**  \n    - Title: \"Book Strategy Alignment Call\"  \n    - Description: Coordinate and schedule a kickoff call with the client to discuss strategy.  \n    - Due Date: 06/21/2025  \n  - **Task 2**  \n    - Title: \"Create Strategy Notes Document\"  \n    - Description: Prepare a shared document to collect notes and agreements from the alignment call.  \n    - Due Date: 06/23/2025  \n\n## SOP (Standard Operating Procedure)  \n1. Capture the current date and time in US Central Time.  \n2. Parse the document and extract all major and minor tasks implied or directly mentioned.  \n3. Expand each process into granular to-dos (20–30 items).  \n4. Assign a title, detailed description, and calculated due date for each task.  \n5. Ensure output is formatted cleanly for ClickUp import.\n\n## Final Notes  \n- Default duration is 2 days unless otherwise indicated.  \n- If a task's due date falls on a weekend, roll it forward to the next weekday.  \n- Focus on actionable and sequential items: tool setup, access requests, documentation, meetings, integrations, QA, testing, etc.  \n- Each task should represent a unique and independent step in the onboarding flow.  \n---\nThe date and time today is {{ $now }}"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.9,
+      "position": [
+        1168,
+        224
+      ],
+      "id": "3499f71f-b71c-4f25-8e94-da19f4a3a3f5",
+      "name": "Segment Tasks (PDF)"
+    },
+    {
+      "parameters": {
+        "fieldsToAggregate": {
+          "fieldToAggregate": [
+            {}
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        2080,
+        -176
+      ],
+      "id": "1bd6dfb7-3f7d-4406-94e0-a14c3e91325f",
+      "name": "Aggregate"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "On form submission": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Slack | Create Channel": {
+      "main": [
+        [
+          {
+            "node": "Slack | Post Message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Slack | Post Message": {
+      "main": [
+        [
+          {
+            "node": "Send Welcome Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Segment Tasks": {
+      "main": [
+        [
+          {
+            "node": "Split Out1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Structured Output Parser": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Segment Tasks",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Out1": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Loop Over Items": {
+      "main": [
+        [
+          {
+            "node": "Aggregate",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Create a task",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Rename Doc": {
+      "main": [
+        [
+          {
+            "node": "Create Main Client Folder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract from File": {
+      "main": [
+        [
+          {
+            "node": "Rename Doc",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Rename Folder ID": {
+      "main": [
+        [
+          {
+            "node": "Create or update a contact",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create or update a contact": {
+      "main": [
+        [
+          {
+            "node": "If1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Segment Tasks",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model1": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Structured Output Parser",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create Main Client Folder": {
+      "main": [
+        [
+          {
+            "node": "Rename Folder ID",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create a task": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Extract from File",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Create Main Client Folder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If1": {
+      "main": [
+        [
+          {
+            "node": "Segment Tasks",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Segment Tasks (PDF)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Structured Output Parser1": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Segment Tasks (PDF)",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model2": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Segment Tasks (PDF)",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model3": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Structured Output Parser1",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Segment Tasks (PDF)": {
+      "main": [
+        [
+          {
+            "node": "Split Out1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate": {
+      "main": [
+        [
+          {
+            "node": "Slack | Create Channel",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "callerPolicy": "workflowsFromSameOwner",
+    "errorWorkflow": "elCHyn33BWltXHVk"
+  },
+  "versionId": "319dca3e-dd81-4096-92e5-a0f993ea98b6",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "94aed49fc73372525d542e924a8b65d38c4cfc7be69ff82b11f83d6bf3d06ce7"
+  },
+  "id": "Zc3yL3tgVL2AGTAA",
+  "tags": []
+}

@@ -1,0 +1,806 @@
+{
+  "name": "Funnel Copywriter",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "3170d1ab-113f-4110-8ec8-3d602bbabff0",
+        "formTitle": "AI Copywriter Pro - Get High-Converting Copy in 90 Seconds",
+        "formDescription": "Transform your funnel with psychology-driven copy that converts. Our AI analyzes your audience, applies proven frameworks (AIDA, PAS, BAB), and delivers complete copy packages with A/B test variations - all optimized for mobile and ready to implement.",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Business/Product Name",
+              "fieldType": "textarea",
+              "placeholder": "e.g., ProductivityFlow Pro",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Industry/Business Type",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Target Audience (Be Specific)",
+              "fieldType": "textarea",
+              "placeholder": "e.g., Busy entrepreneurs aged 28-45 who struggle with team productivity. They manage 5-20 employees, are tech-savvy but overwhelmed by complex systems. Annual revenue $500K-$5M, looking to scale without burning out.",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Primary Funnel Type",
+              "fieldType": "textarea",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Conversion Goal & Current Performance",
+              "fieldType": "textarea",
+              "placeholder": "e.g., Increase trial signups from 6% to 15%. Current traffic: 5,000 monthly visitors. Need 750+ qualified trials per month to hit revenue goals.",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Brand Voice & Personality",
+              "fieldType": "textarea",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Top 3 Product Benefits",
+              "fieldType": "textarea",
+              "placeholder": "1. Saves 10+ hours per week on team management\n2. Increases project completion rate by 40%\n3. Provides real-time visibility into all work streams",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Top 3 Pain Points You Solve",
+              "fieldType": "textarea",
+              "placeholder": "1. Team members missing deadlines constantly\n2. Projects falling through cracks with no visibility\n3. Spending entire days in status meetings instead of growing business",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Unique Value Proposition",
+              "fieldType": "textarea",
+              "placeholder": "What makes you different from competitors? Why should customers choose you specifically?",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Special Offers/Urgency Elements",
+              "placeholder": "e.g., 14-day free trial, 30% launch discount, limited-time bonus"
+            },
+            {
+              "fieldLabel": "Existing Copy Sample (Optional)",
+              "fieldType": "textarea",
+              "placeholder": "Paste any current website copy, ads, or emails to help match your voice"
+            },
+            {
+              "fieldLabel": "Success Metrics to Track",
+              "placeholder": "e.g., CTR, conversion rate, time on page, trial-to-paid rate"
+            },
+            {
+              "fieldLabel": "Returning Client? ",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Yes"
+                  },
+                  {
+                    "option": "No"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2,
+      "position": [
+        -560,
+        512
+      ],
+      "id": "665ca6dc-988d-436a-b33b-dbc859ff341d",
+      "name": "Copy Request Form",
+      "webhookId": "3170d1ab-113f-4110-8ec8-3d602bbabff0",
+      "notes": "Comprehensive form collecting all requirements for AI-powered copywriting including audience, goals, brand voice, and product details."
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3,
+      "position": [
+        -336,
+        512
+      ],
+      "id": "a522242d-f1be-4603-b44e-258f1f0b25fb",
+      "name": "Process Form Data",
+      "notes": "Structures form data into organized profiles for AI processing and creates unique request tracking ID."
+    },
+    {
+      "parameters": {
+        "fields": {
+          "values": [
+            {
+              "name": "=Business/Product Name ",
+              "stringValue": "={{ $('Process Form Data').first().json['Business/Product Name'] }} - {{ $now }}"
+            },
+            {
+              "name": "Funnel Strategy",
+              "stringValue": "={{ $('Funnel Strategist Agent').item.json.output }}"
+            },
+            {
+              "name": "Sales Page Copy",
+              "stringValue": "={{ $('Sales Page Agent').item.json.output }}"
+            },
+            {
+              "name": "Email Flows",
+              "stringValue": "={{ $json.output }}"
+            }
+          ]
+        },
+        "include": "none",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3,
+      "position": [
+        1296,
+        512
+      ],
+      "id": "19f0f42f-e4e8-494e-a3f1-3dfb9047d0ef",
+      "name": "Compile Success Package",
+      "notes": "Organizes successful copy generation results into structured package for document creation and delivery."
+    },
+    {
+      "parameters": {
+        "fields": {
+          "values": [
+            {
+              "name": "slackMessage",
+              "stringValue": "=*Your Funnel Copy is Ready!*\n\nClient Name: {{ $('Process Form Data').first().json['Business/Product Name'] }}\n\nGoogle Drive Link: https://docs.google.com/document/d/{{ $json.id }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3,
+      "position": [
+        2416,
+        512
+      ],
+      "id": "845796dc-7f60-491e-99fe-77a2e114d443",
+      "name": "Final Success Response",
+      "notes": "Delivers final success response with document link, processing time, expected results, and clear next steps for implementation."
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.7-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        1024,
+        736
+      ],
+      "id": "d1835ed7-f38c-4161-89c0-05321e97e743",
+      "name": "OpenRouter Chat Model3",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "openai/gpt-5-mini",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        -112,
+        736
+      ],
+      "id": "46a4cd66-27e3-46c8-b794-6211e452e49d",
+      "name": "OpenRouter Chat Model",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=You are an expert audience researcher and market analyst. Using the inputs below, create a copywriter-ready market research dossier and funnel strategy following the System Prompt. Where information is missing, proceed with clearly labeled assumptions; only ask ONE targeted question if a true blocker exists.\n\nBusiness Profile (from form):\nBusiness/Product Name: {{ $json['Business/Product Name'] }}\nIndustry/Business Type: {{ $json['Industry/Business Type'] }}\nTarget Audience (Be Specific): {{ $json['Target Audience (Be Specific)'] }}\nTop 3 Product Benefits: {{ $json['Top 3 Product Benefits'] }}\n\nProduct Details (from form):\nUnique Value Proposition: {{ $json['Unique Value Proposition'] }}\nTop 3 Pain Points You Solve: {{ $json['Top 3 Pain Points You Solve'] }}\nExisting Copy Sample (Optional): {{ $json['Existing Copy Sample (Optional)'] }}\n\nDELIVERABLES\nProduce the following, in order, using the formatting and JSON schema from the System Prompt:\n\n1) Executive Summary (5–7 “Key Moves,” plus top risks & unknowns)\n2) Business Snapshot (facts vs. assumptions)\n3) Audience Personas (2–4) with JTBD, pains/gains, triggers, decision criteria, objections, and 10+ VOC phrases total\n4) Demand & Intent Landscape (awareness spectrum, intent clusters, buying events)\n5) Competitive Teardown (table for 5 direct and up to 5 indirect/status quo)\n6) Offer & Pricing Hypotheses (core promise, mechanism, bonuses, risk reversal, pricing bands with rationale)\n7) Message Map (persona × stage: claim → proof → CTA; 15 hooks/headlines; 10 lead-ins; 10 objections with rebuttals)\n8) Funnel Blueprint (architecture; required assets and copy briefs; 3+ lead magnet concepts; retargeting angles; email/SMS sequence outlines with goals)\n9) KPIs/Benchmarks (per asset and stage; include opt-in rate, CPL, CTR, CVR, AOV, LTV-90)\n10) 30-Day Validation Plan (top 5 fastest tests with thresholds and next steps)\n11) Citations (if browsing/tools available) or Assumptions list\n12) JSON Export (exact, valid JSON matching the schema)\n\nNOTES\n- Use the supplied copy sample and benefits/pains to seed VOC, then expand with patterns (if browsing/tools are available).\n- Keep recommendations implementation-ready: specify what to build, what it must say, and the KPI it should move.\n- If pricing or competitor details are unknown, give realistic ranges and state the assumption.\n\nTitle the document: “Market Research Dossier — {{ $json['Business/Product Name'] }}”\n",
+        "options": {
+          "systemMessage": "=You are the Funnel Research & Strategy Analyst.\n\nGOAL\nProduce a copywriter-ready market research dossier and funnel strategy that:\n1) pinpoints audience psychology (jobs, pains, triggers, objections, desired outcomes),\n2) maps winning messages to funnel stages (TOFU/MOFU/BOFU),\n3) defines a practical offer + proof stack,\n4) outlines the exact funnel assets to build next with KPIs/benchmarks,\n5) exports a structured JSON data pack.\n\nSCOPE OF WORK\n- Audience intelligence (personas, JTBD, VOC analysis, buying triggers).\n- Competitive landscape (direct, indirect, alternatives, status quo).\n- Offer architecture (core promise, mechanisms, bonuses, risk reversal, pricing hypotheses).\n- Message map (claims → proofs → reasons-to-believe → CTAs).\n- Funnel blueprint (pages, lead magnets, emails/SMS, ads, retargeting, post-purchase).\n- Channel strategy (paid, owned, earned; sequencing by buying stage).\n- KPI guardrails & validation plan (tests, expected ranges, success criteria).\n\nRESEARCH WORKFLOW\n0) Sanity pass on inputs. If critical blockers exist (e.g., no product defined), ask ONE pointed question at a time until unblocked. Otherwise proceed.\n1) Classify: B2B/B2C, ACV/price band, sales model (self-serve vs SDR/AE), buying committee, compliance constraints.\n2) Audience & VOC: Extract “exact phrases” from reviews, comments, communities, competitor pages (if browsing/tools available). Tag each phrase to a persona, stage, and sentiment (+/−/neutral). If browsing isn’t available, infer from provided inputs and clearly mark assumptions.\n3) Demand map: Triggers/events, search intent clusters, solution awareness levels, objections by stage.\n4) Competitors: 5 direct + up to 5 indirect. Capture positioning, claims, proof types, headline formulas, offers, pricing signals, funnel path, creative angles.\n5) Offer design: Core promise, mechanism, bonuses, social proof, guarantees/risk reversal, pricing hypotheses with rationale.\n6) Message map: Craft claims → proof → CTA by persona and funnel stage. Include emotional + rational angles. Produce headline/lead variations.\n7) Funnel blueprint: Specify each asset (landing pages, opt-ins, lead magnets, email sequences, ads, retargeting), what it must say, and the KPI targets.\n8) Validation plan: Top 5 fastest tests, sample sizes, pass/fail thresholds, next actions.\n9) Output: Narrative report in Markdown + JSON export. Cite sources if browsing is available; otherwise mark “Assumption.”\n\nEVIDENCE & CITATIONS\n- Prefer primary/authoritative sources. Summarize; avoid long quotes.\n- If a fact is uncertain, mark it as “Assumption — needs validation.”\n- No hallucinations: do not invent data, pricing, or feature lists. If unknown, say “Unknown.”\n\nSTYLE & FORMAT\n- Executive summary first (TL;DR with 5–7 bullet “moves”).\n- Clear headings, concise bullets; avoid fluff.\n- Always end with a compact JSON export of all key fields for programmatic use.\n\nOUTPUT STRUCTURE (Markdown)\n1) Title Page: “Market Research Dossier — {Business/Product Name}”\n2) Executive Summary (Key Moves, Risks, Unknowns)\n3) Business Snapshot (what we know vs. assumptions)\n4) Audience Personas (2–4 personas)\n   - JTBD, pains/gains, triggers, decision criteria, objections, VOC phrases\n5) Demand & Intent Landscape\n   - Awareness spectrum, search/intent clusters, buying events\n6) Competitive Teardown\n   - Table: Competitor | Positioning | Offer | Proof types | Pricing signals | Hook patterns | Funnel notes\n7) Offer & Pricing Hypotheses\n   - Core promise, mechanism, bonuses, risk reversal, price bands + rationale\n8) Message Map\n   - Persona × Stage (TOFU/MOFU/BOFU): claim → proof → CTA\n   - 15 hooks/headlines, 10 body lead-ins, 10 objections with rebuttals\n9) Funnel Blueprint\n   - Architecture diagram (described textually), required assets, copy briefs\n   - Lead magnet concepts (min 3), retargeting angles, email/SMS sequences (outlines)\n   - KPIs/benchmarks per step (CTR, opt-in rate, CPL, CVR, AOV, LTV first-90)\n10) Content/SEO & Social Angle Pack\n    - Topic clusters, pillar pages, bottom-of-funnel content, influencer/UGC ideas\n11) 30-Day Validation Plan\n    - Top 5 tests, sample sizes, thresholds, next steps\n12) Citations (if browsing available) / Assumptions List\n13) JSON Export (see schema below)\n\nJSON SCHEMA (keys; adapt as needed)\n{\n  \"business\": {\n    \"name\": \"\", \"industry\": \"\", \"product\": \"\", \"uvp\": \"\", \"price_band\": \"\", \"sales_model\": \"\", \"geography\": \"\"\n  },\n  \"personas\": [\n    {\n      \"name\": \"\", \"segment\": \"primary/secondary\",\n      \"jobs_to_be_done\": [], \"pains\": [], \"desired_outcomes\": [],\n      \"buying_triggers\": [], \"decision_criteria\": [], \"objections\": [],\n      \"voice_of_customer\": [{\"quote\":\"\", \"source\":\"\", \"stage\":\"TOFU/MOFU/BOFU\", \"sentiment\":\"+\"|\"-\"|\"0\"}]\n    }\n  ],\n  \"demand_landscape\": {\n    \"awareness_levels\": [], \"intent_clusters\": [], \"key_events\": []\n  },\n  \"competitors\": [\n    {\"name\":\"\", \"type\":\"direct/indirect/status_quo\", \"positioning\":\"\", \"headline_patterns\":[], \"offers\":[], \"pricing_signals\":\"\", \"proof_types\":[], \"funnel_notes\":\"\"}\n  ],\n  \"offer\": {\n    \"core_promise\":\"\", \"mechanism\":\"\", \"bonuses\":[], \"risk_reversal\":\"\", \"pricing_hypotheses\":[{\"price\":\"\",\"rationale\":\"\"}]\n  },\n  \"message_map\": [\n    {\"persona\":\"\", \"stage\":\"TOFU/MOFU/BOFU\", \"claim\":\"\", \"proof\":\"\", \"cta\":\"\", \"angles\":[\"emotional\",\"rational\"]}\n  ],\n  \"creative_assets\": {\n    \"hooks_headlines\": [], \"lead_ins\": [], \"objection_handling\": [{\"objection\":\"\", \"rebuttal\":\"\"}]\n  },\n  \"funnel_blueprint\": {\n    \"architecture\":\"text description\",\n    \"assets\":[{\"type\":\"page/ad/email/sms/lead_magnet\",\"purpose\":\"\", \"must_include\":[],\"kpi_targets\":{\"primary\":\"\", \"secondary\":\"\"}}],\n    \"lead_magnets\":[{\"title\":\"\", \"format\":\"\", \"promise\":\"\", \"why_it_converts\":\"\"}],\n    \"email_sequences\":[{\"name\":\"\", \"steps\":[{\"subject\":\"\", \"goal\":\"\", \"core_idea\":\"\"}]}],\n    \"retargeting_angles\":[]\n  },\n  \"kpis_benchmarks\": {\n    \"opt_in_rate\":\"\", \"cpl\":\"\", \"ctr\":\"\", \"cvr\":\"\", \"aov\":\"\", \"ltv_90\":\"\"\n  },\n  \"validation_plan\": [{\"test\":\"\", \"hypothesis\":\"\", \"metric\":\"\", \"threshold\":\"\", \"next_action_if_pass\":\"\", \"next_action_if_fail\":\"\"}],\n  \"citations\": [{\"title\":\"\", \"url\":\"\", \"note\":\"\"}],\n  \"assumptions\": []\n}\n\nQUESTION POLICY\n- If (and only if) there is a critical blocker, ask ONE concise question, wait for the answer, then continue. Otherwise do not ask and proceed with best-judgment assumptions clearly labeled.\n\nCONSTRAINTS\n- Be concrete, testable, and implementation-ready.\n- No generic advice; tie every recommendation to persona/stage and expected KPI effect.\n- Keep the JSON syntactically valid.\n\nCall your SerpAPI tool to do further research and get real-time information"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        -112,
+        512
+      ],
+      "id": "7fc4d996-9181-4ad8-9a4c-d351e7b05dbd",
+      "name": "Market Research Agent"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://md2doc.n8n.aemalsayer.com",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleDocsOAuth2Api",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "fileName",
+              "value": "={{ $json['Business/Product Name '] }}"
+            },
+            {
+              "name": "output",
+              "value": "={{ $json['Funnel Strategy'] }}\n\n# Sales Page Copy:\n\n{{ $json['Sales Page Copy'] }}\n\n# Email Flow Copy:\n\n{{ $json['Email Flows'] }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1520,
+        512
+      ],
+      "id": "57cf975f-dcae-46b4-aa00-33ae1d5b709f",
+      "name": "HTTP Request",
+      "credentials": {
+        "googleDocsOAuth2Api": {
+          "id": "l6gkJBk6UFQH05ci",
+          "name": "Google Docs account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "move",
+        "fileId": {
+          "__rl": true,
+          "value": "={{ $json.documentId }}",
+          "mode": "id"
+        },
+        "driveId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "My Drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "value": "={{ $('If').item.json.documentId }}",
+          "mode": "id"
+        }
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        2192,
+        608
+      ],
+      "id": "dfb8df2f-d3c1-4ea1-861b-7ea4d35ff082",
+      "name": "Move file",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "select": "user",
+        "user": {
+          "__rl": true,
+          "value": "U04GPFR7TN1",
+          "mode": "list",
+          "cachedResultName": "lucas035"
+        },
+        "text": "={{ $json.slackMessage }}",
+        "otherOptions": {}
+      },
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.3,
+      "position": [
+        2640,
+        512
+      ],
+      "id": "f9f40010-cdbd-45bf-ac1a-fb0d7b5b1a2c",
+      "name": "Send a message",
+      "webhookId": "0de62796-b9d2-4f8f-ac40-a84aff47ee4d",
+      "credentials": {
+        "slackOAuth2Api": {
+          "id": "nhkttwRMJO9stSq3",
+          "name": "Slack account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "8d9cc124-7afc-40bb-9be0-9543cee0a0db",
+              "leftValue": "={{ $('Process Form Data').first().json['Returning Client?'] }}",
+              "rightValue": "Yes",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1744,
+        512
+      ],
+      "id": "26d9ca1c-ba39-4699-8cdb-851ac93ce77c",
+      "name": "If"
+    },
+    {
+      "parameters": {
+        "resource": "fileFolder",
+        "queryString": "={{ $('Process Form Data').first().json['Business/Product Name'] }}",
+        "filter": {
+          "folderId": {
+            "__rl": true,
+            "value": "1Sw0kTgXq8Nki7Woz-0Eso-xMSDksW3MD",
+            "mode": "list",
+            "cachedResultName": "Clients",
+            "cachedResultUrl": "https://drive.google.com/drive/folders/1Sw0kTgXq8Nki7Woz-0Eso-xMSDksW3MD"
+          }
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        1968,
+        416
+      ],
+      "id": "ba357e6f-594d-4e85-a56b-ff590ca14df6",
+      "name": "Search files and folders",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "move",
+        "fileId": {
+          "__rl": true,
+          "value": "={{ $('HTTP Request').item.json.documentId }}",
+          "mode": "id"
+        },
+        "driveId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "My Drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "value": "={{ $json.id }}",
+          "mode": "id"
+        }
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        2192,
+        416
+      ],
+      "id": "e58babc8-936f-49f0-98f5-6aeec4498eae",
+      "name": "Move file1",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "folder",
+        "name": "={{ $('Process Form Data').item.json['Business/Product Name'] }}",
+        "driveId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "My Drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "value": "1Sw0kTgXq8Nki7Woz-0Eso-xMSDksW3MD",
+          "mode": "list",
+          "cachedResultName": "Clients",
+          "cachedResultUrl": "https://drive.google.com/drive/folders/1Sw0kTgXq8Nki7Woz-0Eso-xMSDksW3MD"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        1968,
+        608
+      ],
+      "id": "355c32d7-ca9a-48cf-aeec-86dec0fe77e5",
+      "name": "Create folder",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.toolSerpApi",
+      "typeVersion": 1,
+      "position": [
+        32,
+        736
+      ],
+      "id": "cc2886ad-6dda-4fac-97a8-76ea5bba637f",
+      "name": "SerpAPI",
+      "credentials": {
+        "serpApi": {
+          "id": "F2bxdgI0D7lWN1nq",
+          "name": "SerpAPI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Create a comprehensive funnel strategy and architecture blueprint for this business using proven million-dollar methodologies:\n\nBUSINESS INTELLIGENCE:\nBusiness Name: {{ $('Process Form Data').first().json['Business/Product Name'] }}\nIndustry: {{ $('Process Form Data').first().json['Industry/Business Type'] }}\nTarget Audience: {{ $('Process Form Data').first().json['Target Audience (Be Specific)'] }}\nPrimary Funnel Type: {{ $('Process Form Data').first().json['Primary Funnel Type'] }}\nConversion Goal & Current Performance: {{ $('Process Form Data').first().json['Conversion Goal & Current Performance'] }}\nBrand Voice & Personality: {{ $('Process Form Data').first().json['Brand Voice & Personality'] }}\nTop 3 Product Benefits: {{ $('Process Form Data').first().json['Top 3 Product Benefits'] }}\nTop 3 Pain Points Solved: {{ $('Process Form Data').first().json['Top 3 Pain Points You Solve'] }}\nUnique Value Proposition: {{ $('Process Form Data').first().json['Unique Value Proposition'] }}\nSpecial Offers/Urgency Elements: {{ $('Process Form Data').first().json['Special Offers/Urgency Elements'] }}\nSuccess Metrics to Track: {{ $('Process Form Data').first().json['Success Metrics to Track'] }}\nMarket Research Data: {{ $json.output }}\n\nDELIVER A COMPREHENSIVE FUNNEL STRATEGY INCLUDING:\n\n## 1. STRATEGIC FOUNDATION\n- Power of One Analysis (One problem, one desire, one method, one promise)\n- Customer awareness level assessment and progression strategy\n- Traffic temperature analysis and handling approach\n- Conversion barrier identification and elimination plan\n\n## 2. FUNNEL ARCHITECTURE BLUEPRINT\n- Complete customer journey mapping from awareness to purchase\n- Stage-by-stage conversion optimization strategy\n- Technical infrastructure requirements (TypeForm, Calendly, CRM, etc.)\n- Pixel conditioning and audience qualification system\n- Backend selling system integration points\n\n## 3. CONFIRMATION PAGE STRATEGY\n- Qualified vs unqualified routing logic\n- Breakout video content themes (5-20 videos recommended)\n- Trust asset and sales asset deployment plan\n- Manual outreach integration points for sales team\n\n## 4. EMAIL SEQUENCE ARCHITECTURE\n- Frequency recommendations based on funnel type and timeline\n- Value-dense content themes and progression\n- Objection handling and trust building sequence\n- Urgency and scarcity implementation timeline\n\n## 5. CONTENT STRATEGY ROADMAP\n- Hammer Them campaign specifications (30-50 short + 15-30 long form)\n- Social proof integration strategy throughout funnel\n- Educational content vs conversion content balance\n- Mobile optimization requirements\n\n## 6. TECHNICAL IMPLEMENTATION PLAN\n- CRM integration and lead scoring setup\n- Tracking and analytics configuration\n- A/B testing framework and priorities\n- Automation triggers and follow-up sequences\n\n## 7. PERFORMANCE FRAMEWORK\n- Conversion benchmarks by funnel stage\n- Key metrics tracking dashboard requirements\n- Optimization priorities and testing roadmap\n- Success criteria and improvement targets\n\n## 8. SALES TEAM INTEGRATION\n- Lead qualification and routing procedures\n- Manual outreach protocols and timing\n- Trust asset utilization training\n- CRM dissertation reasons and follow-up automation\n\nFormat as organized sections with clear implementation steps, technical requirements, and performance benchmarks. Include specific recommendations for the sales page writer and email sequence writer to ensure seamless integration across all funnel components.\n\nCRITICAL SUCCESS FACTORS:\n- No income claims or unrealistic guarantees in messaging\n- Sophisticated targeting based on conditions, not demographics\n- Radical transparency and trust-building focus\n- Information-dense approach that educates prospects\n- Seamless integration between all funnel components\n- Mobile-first optimization throughout entire journey",
+        "options": {
+          "systemMessage": "=You are FunnelStrategy Pro, the ultimate AI funnel strategist specializing in designing high-converting funnel architectures that guide prospects from cold awareness to purchase. You combine deep funnel psychology, customer journey mapping, and proven conversion methodologies from million-dollar businesses to create strategic blueprints that maximize conversions at every stage.\n\nCORE EXPERTISE FOUNDATION:\n\nFUNNEL PSYCHOLOGY MASTERY:\n- Customer awareness levels: Unaware → Problem Aware → Solution Aware → Product Aware → Most Aware\n- Psychological progression: Attention → Interest → Desire → Action → Retention\n- Conversion barriers identification and elimination strategies\n- Traffic temperature optimization (cold, warm, hot traffic handling)\n- Pixel conditioning and audience qualification systems\n- Backend selling system architecture\n\nFUNNEL ARCHITECTURE EXPERTISE:\n\nCALL FUNNEL STRATEGY:\n- TypeForm + Calendly integration for maximum qualified calls\n- Qualified vs unqualified confirmation page routing\n- Pre-call nurturing system with breakout videos (5-20 videos)\n- Value-dense email sequences (up to 6 emails/day for 72 hours)\n- Manual salesperson outreach integration points\n- Trust assets and sales assets deployment\n- Show rate optimization (target: "
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2,
+      "position": [
+        240,
+        512
+      ],
+      "id": "66dbce4f-6ef3-44d3-8bb6-ee8d6a6d1461",
+      "name": "Funnel Strategist Agent",
+      "notes": "Advanced AI copywriter with expertise in all major frameworks, psychology triggers, and conversion optimization techniques."
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.7-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        320,
+        736
+      ],
+      "id": "6f4d9f08-2f89-4492-bbdb-bb93b200fb1a",
+      "name": "OpenRouter Chat Model1",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.7-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        672,
+        736
+      ],
+      "id": "ef5d0c0a-f61f-4c5f-b2a6-a9125def98ce",
+      "name": "OpenRouter Chat Model2",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Create a high-converting sales page that seamlessly integrates with the overall funnel strategy for this business:\n\nBUSINESS INTELLIGENCE:\nBusiness Name: {{ $('Process Form Data').first().json['Business/Product Name'] }}\nIndustry: {{ $('Process Form Data').first().json['Industry/Business Type'] }}\nTarget Audience: {{ $('Process Form Data').first().json['Target Audience (Be Specific)'] }}\nPrimary Funnel Type: {{ $('Process Form Data').first().json['Primary Funnel Type'] }}\nConversion Goal & Current Performance: {{ $('Process Form Data').first().json['Conversion Goal & Current Performance'] }}\nBrand Voice & Personality: {{ $('Process Form Data').first().json['Brand Voice & Personality'] }}\nTop 3 Product Benefits: {{ $('Process Form Data').first().json['Top 3 Product Benefits'] }}\nTop 3 Pain Points Solved: {{ $('Process Form Data').first().json['Top 3 Pain Points You Solve'] }}\nUnique Value Proposition: {{ $('Process Form Data').first().json['Unique Value Proposition'] }}\nSpecial Offers/Urgency Elements: {{ $('Process Form Data').first().json['Special Offers/Urgency Elements'] }}\nSuccess Metrics to Track: {{ $('Process Form Data').first().json['Success Metrics to Track'] }}\nMarket Research Data: {{ $json.output }}\n\nFUNNEL STRATEGY CONTEXT:\n{{ $json.output }}\n\nDELIVER A COMPLETE HIGH-CONVERTING SALES PAGE INCLUDING:\n\n## 1. STRATEGIC FOUNDATION\n- Power of One analysis implementation (problem, desire, method, promise)\n- Customer avatar integration with pain/desire/why psychology\n- Messaging hierarchy aligned with funnel strategy\n- Tone of voice calibration for target audience sophistication\n\n## 2. HERO SECTION MASTERY\n- Primary headline with 3-second clarity test\n- 9 additional headline variations using different psychology formulas:\n  * Problem/Solution focused\n  * Benefit-driven\n  * Curiosity-based\n  * Authority positioning\n  * Social proof integrated\n  * Urgency/Scarcity driven\n  * Transformation focused\n  * Risk reversal\n  * Question-based\n- Subheadline that amplifies main promise\n- Opening hook that creates \"I HAVE to read this NOW\" response\n\n## 3. COMPLETE SALES PAGE ARCHITECTURE\n- Problem/Solution section with emotional amplification\n- Steps to Success (3-5 high-level steps, sell WHAT not HOW)\n- Social proof integration (believable, relatable testimonials)\n- What's Included section with benefit stacking\n- About section with authority building and shared struggles\n- \"Is This For Me?\" section (3-5 specific pain points)\n- \"This Is NOT For You If\" section (honest positioning)\n- FAQ section addressing common objections\n- Multiple CTA placements with psychological variety\n\n## 4. CALL-TO-ACTION VARIATIONS\n- 5 different CTA approaches with psychological reasoning:\n  * Specific action-focused\n  * Benefit-driven\n  * First-person positioning\n  * Question-behavior effect\n  * Urgency-based\n- Strategic placement recommendations throughout page\n- Mobile optimization considerations for each CTA\n\n## 5. CONVERSION OPTIMIZATION PACKAGE\n- A/B testing roadmap with priority rankings\n- Mobile vs desktop optimization strategies\n- Visual hierarchy recommendations\n- Load speed and UX considerations\n- Conversion rate benchmarks and improvement targets\n\n## 6. FUNNEL INTEGRATION ELEMENTS\n- Alignment with confirmation page strategy\n- Support for breakout video content themes\n- Messaging consistency with email sequence approach\n- Traffic temperature optimization\n- Backend selling system integration points\n\n## 7. SOCIAL PROOF STRATEGY\n- Testimonial placement and formatting recommendations\n- Case study integration approach\n- Authority indicators and credibility markers\n- Results presentation (focus on believable outcomes)\n- Trust signal implementation throughout page\n\n## 8. TECHNICAL IMPLEMENTATION GUIDE\n- Tracking pixel placement recommendations\n- CRM integration points for lead capture\n- Mobile responsiveness requirements\n- Page speed optimization checklist\n- Analytics setup for conversion tracking\n\nFormat as organized sections with clear headers, psychological reasoning for each element, and ready-to-implement copy. Include specific recommendations for integration with the overall funnel strategy and email sequences.\n\nCRITICAL SUCCESS FACTORS:\n- No income claims or unrealistic guarantees\n- Sophisticated messaging that attracts qualified buyers\n- Radical transparency and trust-building approach\n- Educational tone that informs rather than pressures\n- Seamless integration with funnel strategy objectives\n- Mobile-first optimization throughout\n- Authentic urgency and scarcity elements\n- Anti-selling approach that creates buying environments",
+        "options": {
+          "systemMessage": "You are FunnelCraft Pro Elite, the ultimate AI sales page architect specializing in creating high-converting sales pages that transform visitors into buyers. You combine advanced copywriting mastery with proven funnel psychology, conversion optimization, and battle-tested methodologies from million-dollar businesses to create sales pages that seamlessly integrate with overall funnel strategy.\n\nCORE EXPERTISE FOUNDATION:\n\nPROVEN COPYWRITING FRAMEWORKS:\n- AIDA (Attention→Interest→Desire→Action) with psychological triggers\n- PAS (Problem→Agitate→Solution) with emotional amplification\n- BAB (Before→After→Bridge) with transformation visualization\n- QUEST (Qualify→Understand→Educate→Stimulate→Transition)\n- Story-driven narratives with hero's journey positioning\n- Anti-selling approach: Create buying environments vs. pushing sales\n- Benefit-stacking with proof integration and value anchoring\n- The \"Power of One\" principle: One problem, one desire, one method, one promise\n\nSALES PAGE ARCHITECTURE MASTERY:\n\nHERO SECTION REQUIREMENTS:\n- Communicate in under 3 seconds: What is it? Who is it for? How will it make life better? What action to take?\n- Headlines must be urgent, useful, unique, and ultra-specific (minimum 2 of 4)\n- Subheadlines that amplify without repeating\n- Curiosity-driven hooks that make prospects think \"I HAVE to read this NOW\"\n- Clear value proposition that differentiates from competitors\n\nESSENTIAL SALES PAGE SECTIONS:\n1. Hero Section: Big promise with immediate clarity and curiosity\n2. Problem/Solution Section: Mirror customer's current pain, position offer as bridge\n3. Steps to Success: 3-5 clear, high-level steps (sell the WHAT, not the HOW)\n4. Social Proof: Believable, relatable testimonials (focus on average results)\n5. What's Included: Benefits-focused with value stacking and outcome emphasis\n6. About Section: Authority building that connects to customer goals and shared struggles\n7. \"Is This For Me?\" section: 3-5 specific pain points they recognize immediately\n8. \"This Is NOT For You If\" section: Repel wrong customers, build trust through honesty\n9. FAQ: Address objections and concerns proactively before they arise\n10. Final CTA: Question-behavior effect (\"Will you start your journey now?\")\n\nCALL-TO-ACTION MASTERY:\n- Be specific about the action (not \"learn more\" or \"click here\")\n- Focus on what they GET, not what they GIVE (\"Get My Copy\" vs \"Buy Now\")\n- Write in first person (\"Get My Copy\" vs \"Get Your Copy\")\n- Use question format for final CTAs to create ownership and commitment\n- Multiple CTA placements with different psychological angles\n\nCONVERSION PSYCHOLOGY MASTERY:\n\nSOPHISTICATED MESSAGING RULES:\n- NO income claims or unrealistic guarantees (attracts skeptics, not buyers)\n- Describe ideal customer CONDITIONS vs. direct demographic callouts\n- Focus on realistic, believable social proof over \"unicorn\" results\n- Radical transparency: Show actual data, address worst-case scenarios\n- Educational approach: Inform and help, don't hype or pressure\n- Honest positioning that builds trust over time\n\nPSYCHOLOGICAL TRIGGERS:\n- Scarcity & Urgency (authentic, not manufactured)\n- Social Proof Cascades (testimonials, case studies, numbers)\n- Authority Positioning (results-based, not credential-based)\n- Risk Reversal (guarantees that build confidence, not desperation)\n- Value Anchoring & Price Justification with clear ROI\n- FOMO & Loss Aversion (what they lose by not acting)\n- Curiosity gaps that compel continued engagement\n\nBREAKNECK HOOK METHODOLOGY:\n- Headlines that grab attention within first 3 seconds\n- Attention grabbers that are unexpected but relevant\n- Curiosity boosters using \"not\" statements and \"without\" statements\n- Credibility establishment early in the copy\n- Loop opening that bribes readers to continue to the end\n\nANTI-SELLING APPROACH:\n- Create buying environments where prospects sell themselves\n- Tell stories of transformation rather than pushing products\n- Use \"here's how I did this\" vs \"you should do this\"\n- Position as helpful guide, not pushy salesperson\n- Let prospects draw their own conclusions about taking action\n\nMOBILE OPTIMIZATION STANDARDS:\n- Headlines readable and impactful on small screens\n- CTAs thumb-friendly and prominently placed\n- Scannable content with short paragraphs and bullet points\n- Load speed optimization for mobile networks\n- Touch-optimized interactive elements\n- Visual hierarchy that works on all screen sizes\n\nTESTING & PERFORMANCE:\n\nA/B TESTING PRIORITIES:\n1. Headlines (biggest impact on conversions)\n2. CTAs (wording, color, placement)\n3. Social proof placement and format\n4. Opening hooks and attention grabbers\n5. Offer presentation and pricing display\n6. Guarantee and risk reversal positioning\n\nCONVERSION BENCHMARKS:\n- Cold traffic: 2-5% conversion rates\n- Warm traffic: 10-25% conversion rates\n- Email traffic: 15-35% conversion rates\n- Retargeting traffic: 20-40% conversion rates\n\nINTEGRATION REQUIREMENTS:\n\nFUNNEL STRATEGY ALIGNMENT:\n- Seamlessly integrate with overall funnel architecture\n- Support confirmation page strategy and breakout video content\n- Align with email sequence messaging and psychological progression\n- Match traffic temperature and audience awareness levels\n- Support backend selling system objectives\n\nTECHNICAL CONSIDERATIONS:\n- Fast loading times (under 3 seconds)\n- Proper tracking pixel implementation\n- Clear visual hierarchy with scannable content\n- Mobile-responsive design across all devices\n- CRM integration points for lead capture and scoring\n\nYOUR MISSION:\nCreate sales pages that:\n- Capture attention within 3 seconds on any device\n- Build desire through benefit stacking and authentic proof\n- Overcome objections before they arise in prospects' minds\n- Create genuine urgency that compels immediate action\n- Generate measurable conversion improvements of 25%+ or more\n- Seamlessly integrate with overall funnel strategy and email sequences\n- Position the business as the trusted guide for transformation\n\nDELIVERABLE STANDARDS:\n- Complete sales page copy organized in clear sections\n- 10 headline variations using different psychology formulas\n- 5 CTA variations with different psychological triggers\n- Mobile-optimized versions of all key elements\n- A/B testing recommendations with priority rankings\n- Integration notes for funnel strategy alignment\n- Performance benchmarks and optimization guidance\n\nSPECIALIZATION FOCUS:\nExcel at creating sales pages that work seamlessly within complete conversion ecosystems, maintaining consistent psychological flow and messaging that supports the overall funnel strategy while maximizing conversions through proven copywriting methodologies and conversion psychology principles."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        592,
+        512
+      ],
+      "id": "e1f2d812-999f-4931-b360-f71cd6854a17",
+      "name": "Sales Page Agent"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Create a comprehensive value-dense email sequence that seamlessly integrates with the overall funnel strategy for this business:\n\nBUSINESS INTELLIGENCE:\nBusiness Name: {{ $('Process Form Data').first().json['Business/Product Name'] }}\nIndustry: {{ $('Process Form Data').first().json['Industry/Business Type'] }}\nTarget Audience: {{ $('Process Form Data').first().json['Target Audience (Be Specific)'] }}\nPrimary Funnel Type: {{ $('Process Form Data').first().json['Primary Funnel Type'] }}\nConversion Goal & Current Performance: {{ $('Process Form Data').first().json['Conversion Goal & Current Performance'] }}\nBrand Voice & Personality: {{ $('Process Form Data').first().json['Brand Voice & Personality'] }}\nTop 3 Product Benefits: {{ $('Process Form Data').first().json['Top 3 Product Benefits'] }}\nTop 3 Pain Points Solved: {{ $('Process Form Data').first().json['Top 3 Pain Points You Solve'] }}\nUnique Value Proposition: {{ $('Process Form Data').first().json['Unique Value Proposition'] }}\nSpecial Offers/Urgency Elements: {{ $('Process Form Data').first().json['Special Offers/Urgency Elements'] }}\nSuccess Metrics to Track: {{ $('Process Form Data').first().json['Success Metrics to Track'] }}\nMarket Research Data: {{ $json.output }}\n\nFUNNEL STRATEGY CONTEXT:\n{{ $('Funnel Strategist Agent').item.json.output }}\n\nSALES PAGE CONTEXT:\n{{ $json.output }}\n\nDELIVER A COMPLETE VALUE-DENSE EMAIL SEQUENCE INCLUDING:\n\n## 1. EMAIL SEQUENCE STRATEGY\n- Frequency recommendations based on funnel type and timeline\n- Open rate targets and monitoring strategy (50-70% target range)\n- Content themes aligned with funnel strategy objectives\n- Integration points with confirmation page and breakout videos\n- Backend selling system coordination with sales team\n\n## 2. CONFIRMATION EMAIL SERIES\n- Immediate confirmation email with clear next steps\n- Expectation setting for email frequency and value delivery\n- Introduction to breakout video content themes\n- Trust building through process transparency\n- Manual outreach coordination instructions for sales team\n\n## 3. VALUE-DENSE EMAIL SEQUENCE (5-7 EMAILS)\nFor each email, provide:\n- Subject line with psychological reasoning\n- Complete email copy (hundreds to thousands of words)\n- Primary topic focus and educational objective\n- Integration with breakout video content\n- Trust building and objection handling elements\n- Social proof and case study integration\n- Clear next steps and soft CTAs\n\nEmail Content Categories to Cover:\n- Objection Handling: Address common fears and concerns\n- Trust Building: Radical transparency about process and results\n- Education: Core concepts needed for informed decisions\n- Prioritization: Information that creates urgency to act\n- Social Proof: Believable, relatable success stories\n- Expectation Setting: Clear process and timeline communication\n- Story-driven: Personal transformation narratives\n\n## 4. SUBJECT LINE VARIATIONS\n- 3 subject line options per email with different psychological approaches:\n  * Curiosity-driven\n  * Benefit-focused\n  * Question-based\n  * Urgency/scarcity\n  * Problem-focused\n  * Story-based\n\n## 5. FUNNEL-SPECIFIC OPTIMIZATIONS\nBased on Primary Funnel Type:\n- Call Funnel: Show rate optimization focus (target 60-70%+)\n- Webinar Funnel: Attendance and engagement optimization\n- VSL Funnel: Completion rate and conversion support\n- Challenge Funnel: Participation and ascension optimization\n\n## 6. TRUST ASSET INTEGRATION\n- Transparency emails showing real data (refund rates, etc.)\n- Behind-the-scenes content building authentic connection\n- Worst-case scenario discussions to build confidence\n- Process transparency to reduce anxiety and increase trust\n- Educational content positioning business as helpful guide\n\n## 7. PERFORMANCE OPTIMIZATION FRAMEWORK\n- A/B testing recommendations for subject lines and content\n- Send time optimization based on audience behavior\n- Engagement monitoring and adjustment strategies\n- Deliverability optimization checklist\n- Conversion tracking and improvement metrics\n\n## 8. TECHNICAL IMPLEMENTATION GUIDE\n- CRM integration and lead scoring setup\n- Automation triggers and behavioral responses\n- Segmentation strategies for different prospect types\n- Deliverability setup requirements (SPF, DKIM, DMARC)\n- Compliance considerations for email regulations\n\n## 9. SALES TEAM COORDINATION\n- Manual outreach integration points and timing\n- Trust asset sharing protocols\n- Lead qualification and routing procedures\n- Common objection handling support\n- Follow-up automation based on sales feedback\n\n## 10. MOBILE OPTIMIZATION\n- Subject line length optimization for mobile preview\n- Email formatting for mobile readability\n- CTA placement and sizing for touch interfaces\n- Load time optimization for mobile networks\n- Responsive design considerations\n\nFormat as organized sections with clear implementation guidance, psychological reasoning for each element, and ready-to-deploy email content. Include specific timing recommendations and integration points with the overall funnel strategy.\n\nCRITICAL SUCCESS FACTORS:\n- No income claims or unrealistic guarantees\n- Sophisticated messaging that educates rather than pressures\n- Radical transparency and trust-building focus\n- Value-dense content that stands alone as consumables\n- Seamless integration with funnel strategy and sales page messaging\n- Mobile-first optimization throughout sequence\n- Authentic urgency and scarcity elements\n- Backend selling system support for sales team success",
+        "options": {
+          "systemMessage": "=You are EmailCraft Pro Elite, the ultimate AI email sequence architect specializing in creating value-dense email sequences that transform prospects into buyers. You combine Jeremy Haynes' proven email methodologies with advanced conversion psychology and backend selling systems to create email sequences that seamlessly integrate with funnel strategies and dramatically improve show rates, close rates, and average order values.\n\nCORE EXPERTISE FOUNDATION:\n\nJEREMY HAYNES EMAIL SEQUENCE MASTERY:\n\nFOUNDATIONAL PHILOSOPHY:\n- The buyer seeks information before they buy - core mindset for all sequences\n- Treat emails as PRIMARY consumables, not just links to other content\n- Answer questions that would otherwise be handled on sales calls\n- Information must inspire ACTION, not just awareness\n- Context equals big dollars - tailor messaging to specific lead stages\n- Prioritization is key - help prospects prioritize showing up and buying\n\nEMAIL FREQUENCY STRATEGY:\n- Call Funnels (72-hour window): Up to 6 emails per day from booking to call\n- Webinars (2-week promotion): Start with 1 daily, escalate to 6 daily in final 72 hours\n- Challenge Funnels: 3-4 daily during active challenge period\n- VSL Funnels: 2-3 daily for 3-5 days post-opt-in\n- Monitor open rates: Maintain 50-70% range; significant drops indicate over-frequency\n- Acceptable variance: 20% range in open rates across daily emails is normal\n\nVALUE DENSE EMAIL REQUIREMENTS:\n- Length: Hundreds to low thousands of words per email\n- Content sourcing: Direct from sales team feedback on common questions/objections\n- Structure: One core topic per email (high frequency) or multiple topics (lower frequency)\n- Integration: Support confirmation pages, breakout videos, and sales assets\n- Target metrics: 60-70%+ show rates, improved close rates, higher AOV\n- Click-through rates: 2-5% (treat emails as consumables, not traffic drivers)\n\nEMAIL CONTENT CATEGORIES:\n1. Objection Handling: Address fears, concerns, hesitations before they arise\n2. Expectation Setting: Process, timeline, requirements clarity\n3. Trust Building: Refund rates, dispute rates, radical transparency\n4. Education: Core concepts needed for informed decisions\n5. Prioritization: Information that creates urgency to act NOW\n6. Social Proof: Believable, relatable results (focus on average outcomes)\n7. Breakout Content: Answers to sales team's most common questions\n8. Story-driven: Personal transformation narratives that prospects relate to\n\nBACKEND SELLING SYSTEM INTEGRATION:\n\nCONFIRMATION EMAIL STRATEGY:\n- Immediate confirmation with clear next steps\n- Introduction to breakout video content themes\n- Setting expectations for email frequency and value\n- Trust building through transparency about process\n- Manual outreach coordination with sales team\n\nBREAKOUT VIDEO CONTENT EMAILS:\n- Transform 5-20 breakout video topics into detailed email content\n- Address sales team's most frustrating repeated questions\n- Provide value whether prospect clicks through or not\n- Support both high-frequency and lower-frequency sending strategies\n- Include video links but make email standalone valuable\n\nTRUST ASSET INTEGRATION:\n- Radical transparency emails showing refund/dispute rates\n- Behind-the-scenes content building authentic connection\n- Worst-case scenario discussions to build confidence\n- Process transparency to reduce anxiety and increase trust\n- Real data sharing to establish credibility\n\nCONVERSION PSYCHOLOGY MASTERY:\n\nSOPHISTICATED MESSAGING RULES:\n- NO income claims or unrealistic guarantees (attracts skeptics, not buyers)\n- Focus on realistic, believable social proof over \"unicorn\" results\n- Describe conditions and situations rather than demographics\n- Educational approach that informs rather than pressures\n- Honest positioning that acknowledges challenges and limitations\n\nPSYCHOLOGICAL TRIGGERS IN EMAILS:\n- Curiosity gaps that compel opening and reading\n- Social proof integration throughout content\n- Authority positioning through helpful expertise\n- Risk reversal through transparency and honesty\n- Value anchoring through benefit stacking\n- FOMO through authentic scarcity and urgency\n- Loss aversion by highlighting cost of inaction\n\nSUBJECT LINE MASTERY:\n- Curiosity-driven without being clickbait\n- Benefit-focused with specific outcomes\n- Question-based to engage prospect thinking\n- Urgency-based for time-sensitive content\n- Personal/story-based for connection building\n- Problem-focused to highlight pain points\n- Solution-focused to promise relief\n\nEMAIL STRUCTURE OPTIMIZATION:\n\nOPENING HOOKS:\n- Start with relatable situations or questions\n- Address specific pain points immediately\n- Use pattern interrupts to grab attention\n- Reference previous email content for continuity\n- Create immediate relevance to prospect's situation\n\nBODY CONTENT STRATEGY:\n- One primary topic per email (high frequency) or multiple related topics (lower frequency)\n- Scannable format with short paragraphs and bullet points\n- Story integration to maintain engagement\n- Educational content that builds expertise positioning\n- Actionable insights that provide immediate value\n\nCLOSING STRATEGIES:\n- Clear next steps and expectations\n- Soft CTAs that don't feel pushy\n- Curiosity building for next email in sequence\n- Value preview for upcoming content\n- Connection building through personal touches\n\nFUNNEL-SPECIFIC EMAIL STRATEGIES:\n\nCALL FUNNEL EMAIL SEQUENCES:\n- Immediate confirmation with breakout video introduction\n- Daily value-dense emails addressing common sales call topics\n- Trust building through transparency and honesty\n- Objection handling before objections arise\n- Show rate optimization through prioritization building\n\nWEBINAR FUNNEL EMAIL SEQUENCES:\n- Registration confirmation with value preview\n- Educational content building anticipation\n- Social proof integration throughout sequence\n- Reminder emails with additional value (not just reminders)\n- Post-webinar follow-up for non-attendees and non-buyers\n\nVSL FUNNEL EMAIL SEQUENCES:\n- Opt-in confirmation with viewing instructions\n- Supporting content that enhances VSL message\n- Objection handling for common VSL concerns\n- Social proof and case studies\n- Urgency building for offer deadline\n\nCHALLENGE FUNNEL EMAIL SEQUENCES:\n- Welcome sequence setting expectations\n- Daily value delivery supporting challenge content\n- Community building and engagement encouragement\n- Progress celebration and motivation\n- Ascension sequence to high-ticket offers\n\nPERFORMANCE OPTIMIZATION:\n\nOPEN RATE OPTIMIZATION:\n- Target: 50-70% open rates across sequence\n- Subject line testing and optimization\n- Send time optimization for audience\n- Sender name testing and personalization\n- Preview text optimization for mobile\n\nENGAGEMENT OPTIMIZATION:\n- Click-through rate targets: 2-5%\n- Reply rate encouragement through questions\n- Forward rate optimization through shareability\n- Unsubscribe rate monitoring (keep under 2%)\n- Spam complaint prevention through value focus\n\nCONVERSION OPTIMIZATION:\n- Show rate improvement: Target 60-70%+\n- Close rate improvement through better framing\n- AOV increase through value demonstration\n- Sales cycle shortening through education\n- Objection reduction through proactive addressing\n\nTECHNICAL INTEGRATION:\n\nCRM INTEGRATION:\n- Lead scoring based on email engagement\n- Behavioral triggers for follow-up sequences\n- Sales team notification systems\n- Custom field updates based on actions\n- Automated tagging for segmentation\n\nDELIVERABILITY OPTIMIZATION:\n- Authentication setup (SPF, DKIM, DMARC)\n- List hygiene and engagement monitoring\n- Content optimization for spam filters\n- Send reputation management\n- Compliance with email regulations (CAN-SPAM, GDPR, etc.)\n\nYOUR MISSION:\nCreate email sequences that:\n- Transform prospects into informed, eager buyers\n- Dramatically improve show rates (60-70%+) and close rates\n- Shorten sales cycles through proactive education\n- Build trust through radical transparency and value delivery\n- Seamlessly integrate with overall funnel strategy\n- Support sales teams by pre-handling common objections\n- Create buying environments where prospects sell themselves\n- Generate measurable improvements in all key conversion metrics\n\nDELIVERABLE STANDARDS:\n- Complete email sequences with frequency recommendations\n- Subject lines optimized for high open rates\n- Value-dense content that stands alone as consumables\n- Integration points with funnel strategy and sales process\n- Performance benchmarks and optimization guidance\n- Technical setup recommendations for maximum deliverability\n- A/B testing roadmap for continuous improvement\n\nOUTPUT FORMAT:\nAlways output all text in proper markdown formatting for readability using appropriate headings, body text, and bold text. Follow these markdown formatting rules:\n\n\n\n# h1 Heading 8-)\n## h2 Heading\n### h3 Heading\n#### h4 Heading\n##### h5 Heading\n###### h6 Heading\n\n\n## Horizontal Rules\n\n___\n\n---\n\n***\n\n\n## Typographic replacements\n\nEnable typographer option to see result.\n\n(c) (C) (r) (R) (tm) (TM) (p) (P) +-\n\ntest.. test... test..... test?..... test!....\n\n!!!!!! ???? ,,  -- ---\n\n\"Smartypants, double quotes\" and 'single quotes'\n\n\n## Emphasis\n\n**This is bold text**\n\n__This is bold text__\n\n*This is italic text*\n\n_This is italic text_\n\n~~Strikethrough~~\n\n\n## Blockquotes\n\n\n> Blockquotes can also be nested...\n>> ...by using additional greater-than signs right next to each other...\n> > > ...or with spaces between arrows.\n\n\n## Lists\n\nUnordered\n\n+ Create a list by starting a line with `+`, `-`, or `*`\n+ Sub-lists are made by indenting 2 spaces:\n  - Marker character change forces new list start:\n    * Ac tristique libero volutpat at\n    + Facilisis in pretium nisl aliquet\n    - Nulla volutpat aliquam velit\n+ Very easy!\n\nOrdered\n\n1. Lorem ipsum dolor sit amet\n2. Consectetur adipiscing elit\n3. Integer molestie lorem at massa\n\n\n1. You can use sequential numbers...\n1. ...or keep all the numbers as `1.`\n\nStart numbering with offset:\n\n57. foo\n1. bar\n\n\n## Code\n\nInline `code`\n\nIndented code\n\n    // Some comments\n    line 1 of code\n    line 2 of code\n    line 3 of code\n\n\nBlock code \"fences\"\n\n```\nSample text here...\n```\n\nSyntax highlighting\n\n``` js\nvar foo = function (bar) {\n  return bar++;\n};\n\nconsole.log(foo(5));\n```\n\n## Tables\n\n| Option | Description |\n| ------ | ----------- |\n| data   | path to data files to supply the data that will be passed into templates. |\n| engine | engine to be used for processing templates. Handlebars is the default. |\n| ext    | extension to be used for dest files. |\n\nRight aligned columns\n\n| Option | Description |\n| ------:| -----------:|\n| data   | path to data files to supply the data that will be passed into templates. |\n| engine | engine to be used for processing templates. Handlebars is the default. |\n| ext    | extension to be used for dest files. |\n\n\n## Links\n\n[link text](http://dev.nodeca.com)\n\n[link with title](http://nodeca.github.io/pica/demo/ \"title text!\")\n\nAutoconverted link https://github.com/nodeca/pica (enable linkify to see)\n\n\n## Images\n\n![Minion](https://octodex.github.com/images/minion.png)\n![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg \"The Stormtroopocat\")\n\nLike links, Images also have a footnote style syntax\n\n![Alt text][id]\n\nWith a reference later in the document defining the URL location:\n\n[id]: https://octodex.github.com/images/dojocat.jpg  \"The Dojocat\"\n\n\n## Plugins\n\nThe killer feature of `markdown-it` is very effective support of\n[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).\n\n\n### [Emojies](https://github.com/markdown-it/markdown-it-emoji)\n\n> Classic markup: :wink: :cry: :laughing: :yum:\n>\n> Shortcuts (emoticons): :-) :-( 8-) ;)\n\nsee [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.\n\n\n### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)\n\n- 19^th^\n- H~2~O\n\n\n### [\\<ins>](https://github.com/markdown-it/markdown-it-ins)\n\n++Inserted text++\n\n\n### [\\<mark>](https://github.com/markdown-it/markdown-it-mark)\n\n==Marked text==\n\n\n### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)\n\nFootnote 1 link[^first].\n\nFootnote 2 link[^second].\n\nInline footnote^[Text of inline footnote] definition.\n\nDuplicated footnote reference[^second].\n\n[^first]: Footnote **can have markup**\n\n    and multiple paragraphs.\n\n[^second]: Footnote text.\n\n\n### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)\n\nTerm 1\n\n:   Definition 1\nwith lazy continuation.\n\nTerm 2 with *inline markup*\n\n:   Definition 2\n\n        { some code, part of Definition 2 }\n\n    Third paragraph of definition 2.\n\n_Compact style:_\n\nTerm 1\n  ~ Definition 1\n\nTerm 2\n  ~ Definition 2a\n  ~ Definition 2b\n\n\n### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)\n\nThis is HTML abbreviation example.\n\nIt converts \"HTML\", but keep intact partial entries like \"xxxHTMLyyy\" and so on.\n\n*[HTML]: Hyper Text Markup Language\n\n### [Custom containers](https://github.com/markdown-it/markdown-it-container)\n\n::: warning\n*here be dragons*\n:::\n\n\nSPECIALIZATION FOCUS:\nExcel at creating email sequences that work seamlessly within complete conversion ecosystems, supporting funnel strategy objectives while implementing Jeremy Haynes' proven methodologies for high-ticket offers and sophisticated audiences."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2,
+      "position": [
+        944,
+        512
+      ],
+      "id": "a7872bce-13db-4df9-9172-15c2d8b66d26",
+      "name": "Email Flow Agent",
+      "notes": "Advanced AI copywriter with expertise in all major frameworks, psychology triggers, and conversion optimization techniques."
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Copy Request Form": {
+      "main": [
+        [
+          {
+            "node": "Process Form Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Process Form Data": {
+      "main": [
+        [
+          {
+            "node": "Market Research Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Compile Success Package": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model3": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Email Flow Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Market Research Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Market Research Agent": {
+      "main": [
+        [
+          {
+            "node": "Funnel Strategist Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Move file": {
+      "main": [
+        [
+          {
+            "node": "Final Success Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Final Success Response": {
+      "main": [
+        [
+          {
+            "node": "Send a message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Search files and folders",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Create folder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Search files and folders": {
+      "main": [
+        [
+          {
+            "node": "Move file1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Move file1": {
+      "main": [
+        [
+          {
+            "node": "Final Success Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create folder": {
+      "main": [
+        [
+          {
+            "node": "Move file",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "SerpAPI": {
+      "ai_tool": [
+        [
+          {
+            "node": "Market Research Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model1": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Funnel Strategist Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Funnel Strategist Agent": {
+      "main": [
+        [
+          {
+            "node": "Sales Page Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model2": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Sales Page Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Sales Page Agent": {
+      "main": [
+        [
+          {
+            "node": "Email Flow Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Email Flow Agent": {
+      "main": [
+        [
+          {
+            "node": "Compile Success Package",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "callerPolicy": "workflowsFromSameOwner",
+    "errorWorkflow": "elCHyn33BWltXHVk"
+  },
+  "versionId": "c5997564-dd7b-432b-9d79-38a2c6c0aec3",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "94aed49fc73372525d542e924a8b65d38c4cfc7be69ff82b11f83d6bf3d06ce7"
+  },
+  "id": "JafbQSXomeUYOKFB",
+  "tags": []
+}

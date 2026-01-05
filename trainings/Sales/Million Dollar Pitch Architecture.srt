@@ -1,0 +1,5375 @@
+1
+00:00:00,280 --> 00:00:01,659
+Yo, what's going on guys?
+
+2
+00:00:01,659 --> 00:00:02,890
+Super excited for this one because
+
+3
+00:00:02,899 --> 00:00:04,099
+we're going to be getting into the
+
+4
+00:00:04,110 --> 00:00:05,540
+million dollar pitch architecture.
+
+5
+00:00:05,549 --> 00:00:06,620
+And the reason why I call it that
+
+6
+00:00:06,679 --> 00:00:08,000
+is because I've used the same
+
+7
+00:00:08,009 --> 00:00:09,519
+pitch architecture to scale three
+
+8
+00:00:09,519 --> 00:00:10,890
+separate companies to over six
+
+9
+00:00:10,890 --> 00:00:11,800
+figures a month.
+
+10
+00:00:11,800 --> 00:00:12,560
+And
+
+11
+00:00:12,570 --> 00:00:14,080
+a pitch is something you're going
+
+12
+00:00:14,080 --> 00:00:15,669
+to work on continuously and change
+
+13
+00:00:15,669 --> 00:00:16,609
+unless you have the
+
+14
+00:00:16,629 --> 00:00:17,649
+perfect pitch and a super high
+
+15
+00:00:17,649 --> 00:00:18,829
+close rate, but you're going to be
+
+16
+00:00:18,829 --> 00:00:20,000
+changing it over and over again
+
+17
+00:00:20,010 --> 00:00:21,920
+based on customer feedback and how
+
+18
+00:00:21,920 --> 00:00:23,640
+these calls are going and where
+
+19
+00:00:23,640 --> 00:00:24,960
+your close rates at.
+
+20
+00:00:24,960 --> 00:00:25,399
+But
+
+21
+00:00:25,410 --> 00:00:26,820
+when you have a structure like
+
+22
+00:00:26,820 --> 00:00:28,289
+this, that iteration process
+
+23
+00:00:28,289 --> 00:00:29,699
+becomes so much easier because
+
+24
+00:00:29,699 --> 00:00:29,859
+you're
+
+25
+00:00:29,870 --> 00:00:31,109
+not just ripping it up from the
+
+26
+00:00:31,109 --> 00:00:32,380
+roots every single time you're
+
+27
+00:00:32,420 --> 00:00:33,659
+making a change, you're
+
+28
+00:00:33,810 --> 00:00:35,060
+building onto a process.
+
+29
+00:00:35,060 --> 00:00:36,420
+So when you have this pitch
+
+30
+00:00:36,420 --> 00:00:38,350
+architecture, not only is it
+
+31
+00:00:38,399 --> 00:00:38,859
+easier to
+
+32
+00:00:38,869 --> 00:00:40,359
+make improvements, but it's much
+
+33
+00:00:40,359 --> 00:00:41,380
+easier to reach a level of
+
+34
+00:00:41,439 --> 00:00:42,770
+consistency where it's like
+
+35
+00:00:42,810 --> 00:00:44,990
+most of these pitches are going
+
+36
+00:00:44,990 --> 00:00:47,439
+generally well, as opposed to one
+
+37
+00:00:47,439 --> 00:00:49,100
+pitch being a one out of 10,
+
+38
+00:00:49,109 --> 00:00:50,170
+then another pitch being a 10 out
+
+39
+00:00:50,170 --> 00:00:51,439
+of 10, then a seven out of 10.
+
+40
+00:00:51,439 --> 00:00:53,119
+Like if we can get this right,
+
+41
+00:00:53,130 --> 00:00:54,259
+most of these pitches should be
+
+42
+00:00:54,289 --> 00:00:55,880
+between an eight and 10 out of 10,
+
+43
+00:00:55,929 --> 00:00:56,340
+right?
+
+44
+00:00:56,340 --> 00:00:58,149
+So now with the million
+
+45
+00:00:58,189 --> 00:00:59,520
+dollar pitch architecture, I just
+
+46
+00:00:59,520 --> 00:01:00,520
+want to start this off with a
+
+47
+00:01:00,530 --> 00:01:01,119
+quick note.
+
+48
+00:01:01,119 --> 00:01:01,859
+And before I get into the
+
+49
+00:01:01,869 --> 00:01:03,219
+quick note, actually, let's just
+
+50
+00:01:03,219 --> 00:01:04,349
+go up to here to just start with
+
+51
+00:01:04,349 --> 00:01:05,340
+like the bare basics.
+
+52
+00:01:05,340 --> 00:01:06,060
+The goal of
+
+53
+00:01:06,069 --> 00:01:07,459
+the pitch is to sell this prospect
+
+54
+00:01:07,459 --> 00:01:08,170
+on what you do.
+
+55
+00:01:08,230 --> 00:01:10,150
+So of course, we're going to be
+
+56
+00:01:10,150 --> 00:01:11,459
+selling them on our
+
+57
+00:01:11,469 --> 00:01:13,180
+offer, our specific service, but
+
+58
+00:01:13,180 --> 00:01:14,780
+it's also important that they're
+
+59
+00:01:14,780 --> 00:01:16,620
+sold on the mechanism that you
+
+60
+00:01:16,620 --> 00:01:17,140
+use,
+
+61
+00:01:17,150 --> 00:01:17,519
+right?
+
+62
+00:01:17,609 --> 00:01:18,689
+If you're selling a cold email
+
+63
+00:01:18,689 --> 00:01:20,140
+offer, it's important that they're
+
+64
+00:01:20,170 --> 00:01:20,939
+sold on cold email
+
+65
+00:01:20,950 --> 00:01:22,680
+as a lead generation strategy.
+
+66
+00:01:22,680 --> 00:01:24,209
+If you're selling them on paid
+
+67
+00:01:24,209 --> 00:01:27,620
+ads, it's obviously important that
+
+68
+00:01:27,620 --> 00:01:27,730
+if
+
+69
+00:01:27,810 --> 00:01:28,890
+they want to work with a paid ads
+
+70
+00:01:28,900 --> 00:01:30,129
+agency, they're actually sold on
+
+71
+00:01:30,129 --> 00:01:31,040
+advertising on meta,
+
+72
+00:01:31,049 --> 00:01:31,840
+for example.
+
+73
+00:01:31,989 --> 00:01:33,549
+Then we want to tell them exactly
+
+74
+00:01:33,620 --> 00:01:35,349
+how we deliver our service to get
+
+75
+00:01:35,349 --> 00:01:36,379
+them to their goals,
+
+76
+00:01:36,430 --> 00:01:36,870
+right?
+
+77
+00:01:36,959 --> 00:01:38,290
+Talking about this in the last
+
+78
+00:01:38,290 --> 00:01:38,939
+video a lot.
+
+79
+00:01:39,000 --> 00:01:40,370
+We want to pitch our service as
+
+80
+00:01:40,370 --> 00:01:40,900
+the straightest
+
+81
+00:01:40,909 --> 00:01:42,489
+line from point A to point B, make
+
+82
+00:01:42,489 --> 00:01:43,670
+sure there's clarity and
+
+83
+00:01:43,709 --> 00:01:45,359
+excitement about the process,
+
+84
+00:01:45,370 --> 00:01:47,129
+about the next steps, help them
+
+85
+00:01:47,129 --> 00:01:48,989
+visualize ROI and build momentum
+
+86
+00:01:48,989 --> 00:01:50,700
+up until we ask for the sale.
+
+87
+00:01:50,709 --> 00:01:53,459
+And I'll just add another note.
+
+88
+00:01:53,510 --> 00:01:58,819
+When you pitch, really pitch.
+
+89
+00:01:58,819 --> 00:02:03,159
+Now, the reason why I'm saying
+
+90
+00:02:03,159 --> 00:02:03,299
+this
+
+91
+00:02:03,430 --> 00:02:04,629
+is because a lot of people will
+
+92
+00:02:04,629 --> 00:02:06,010
+just almost sleepwalk through the
+
+93
+00:02:06,019 --> 00:02:06,400
+pitch.
+
+94
+00:02:06,400 --> 00:02:07,659
+And I've talked about this in
+
+95
+00:02:07,670 --> 00:02:08,800
+previous videos before, like we're
+
+96
+00:02:08,830 --> 00:02:09,849
+leading these guys, whether we
+
+97
+00:02:09,849 --> 00:02:10,909
+like them or not, if we're not
+
+98
+00:02:10,919 --> 00:02:12,419
+excited about what we're selling,
+
+99
+00:02:12,419 --> 00:02:13,870
+how are they going to be excited?
+
+100
+00:02:13,870 --> 00:02:15,159
+If we don't have conviction,
+
+101
+00:02:15,169 --> 00:02:16,849
+if we're not just very like
+
+102
+00:02:16,849 --> 00:02:19,159
+clearly believing in what we sell,
+
+103
+00:02:19,159 --> 00:02:21,280
+how are we supposed to transfer
+
+104
+00:02:21,289 --> 00:02:21,930
+that belief?
+
+105
+00:02:21,930 --> 00:02:23,210
+And once again, I've probably
+
+106
+00:02:23,229 --> 00:02:24,580
+brought up this Ramozi video in a
+
+107
+00:02:24,580 --> 00:02:25,500
+previous story, but he
+
+108
+00:02:25,509 --> 00:02:26,740
+talks about how his worst pitch
+
+109
+00:02:26,740 --> 00:02:27,969
+was the one where he just really
+
+110
+00:02:27,969 --> 00:02:28,860
+didn't pitch at all.
+
+111
+00:02:28,860 --> 00:02:29,550
+He just tried
+
+112
+00:02:29,569 --> 00:02:31,080
+to casually walk through it, hope
+
+113
+00:02:31,080 --> 00:02:32,620
+people signed up and nobody did.
+
+114
+00:02:32,620 --> 00:02:34,219
+And if we do everything right in
+
+115
+00:02:34,229 --> 00:02:35,419
+the discovery and in this first
+
+116
+00:02:35,419 --> 00:02:36,590
+part here that I'm going to talk
+
+117
+00:02:36,590 --> 00:02:37,939
+about the expert perspective,
+
+118
+00:02:37,949 --> 00:02:39,830
+these guys are going to be wanting
+
+119
+00:02:39,830 --> 00:02:40,939
+to hear the pitch.
+
+120
+00:02:40,969 --> 00:02:42,310
+The only time you kind of
+
+121
+00:02:42,310 --> 00:02:43,460
+sleepwalk and like
+
+122
+00:02:43,610 --> 00:02:45,060
+pitches in one ear and out the
+
+123
+00:02:45,060 --> 00:02:46,870
+other is where you're not really
+
+124
+00:02:46,870 --> 00:02:48,280
+sure you need this and you're
+
+125
+00:02:48,289 --> 00:02:49,710
+not really sure that you want
+
+126
+00:02:49,719 --> 00:02:50,139
+this.
+
+127
+00:02:50,139 --> 00:02:51,810
+But if we build momentum properly
+
+128
+00:02:51,819 --> 00:02:53,310
+and follow this structure,
+
+129
+00:02:53,330 --> 00:02:54,849
+by the time we get into pitching,
+
+130
+00:02:54,849 --> 00:02:56,430
+they're already going to have some
+
+131
+00:02:56,430 --> 00:02:56,969
+urgency.
+
+132
+00:02:56,969 --> 00:02:58,009
+They're already going
+
+133
+00:02:58,050 --> 00:02:59,610
+to be sold on, you know, the
+
+134
+00:02:59,610 --> 00:03:01,590
+service, the concept of what we're
+
+135
+00:03:01,599 --> 00:03:02,270
+selling.
+
+136
+00:03:02,270 --> 00:03:03,639
+So when we're pitching
+
+137
+00:03:03,650 --> 00:03:04,639
+them that like, yeah, they're
+
+138
+00:03:04,639 --> 00:03:05,699
+going to want to be pitched.
+
+139
+00:03:05,699 --> 00:03:07,400
+Now with the million dollar pitch
+
+140
+00:03:07,550 --> 00:03:08,770
+architecture, uh, also just one
+
+141
+00:03:08,770 --> 00:03:10,050
+more quick note before I get into
+
+142
+00:03:10,050 --> 00:03:12,740
+it, studies suggest that 65%
+
+143
+00:03:12,770 --> 00:03:14,379
+of people are visual learners.
+
+144
+00:03:14,379 --> 00:03:16,210
+And I'd suggest that 99.9% of
+
+145
+00:03:16,210 --> 00:03:18,819
+people retain information better
+
+146
+00:03:18,819 --> 00:03:19,099
+when they
+
+147
+00:03:19,110 --> 00:03:20,050
+have a visual to support what
+
+148
+00:03:20,060 --> 00:03:20,740
+they're hearing.
+
+149
+00:03:20,740 --> 00:03:21,979
+The point one, I don't know, it's,
+
+150
+00:03:21,979 --> 00:03:22,629
+it's Helen Keller.
+
+151
+00:03:22,650 --> 00:03:23,990
+It's, it's blind people.
+
+152
+00:03:23,990 --> 00:03:24,719
+I don't know.
+
+153
+00:03:24,719 --> 00:03:26,360
+It's, it's everybody, right?
+
+154
+00:03:26,360 --> 00:03:27,919
+So you'll want to use visuals.
+
+155
+00:03:27,930 --> 00:03:29,610
+Easy ones for all of you to use.
+
+156
+00:03:29,610 --> 00:03:31,539
+If you're like, well, what visuals
+
+157
+00:03:31,539 --> 00:03:32,879
+am I going to need, Dan?
+
+158
+00:03:32,879 --> 00:03:33,080
+Like,
+
+159
+00:03:33,090 --> 00:03:34,219
+am I going to have to create like
+
+160
+00:03:34,250 --> 00:03:35,349
+these, this, this whole big
+
+161
+00:03:35,349 --> 00:03:36,469
+project is another thing.
+
+162
+00:03:36,479 --> 00:03:36,990
+No,
+
+163
+00:03:37,009 --> 00:03:38,300
+a lot of you guys can use parts of
+
+164
+00:03:38,300 --> 00:03:38,780
+your VSL.
+
+165
+00:03:38,780 --> 00:03:39,770
+I do that with a lot of our
+
+166
+00:03:39,810 --> 00:03:40,659
+pitches, actually
+
+167
+00:03:40,669 --> 00:03:42,610
+an ROI calculator and examples of
+
+168
+00:03:42,620 --> 00:03:43,389
+your work.
+
+169
+00:03:43,389 --> 00:03:44,860
+Super simple, right?
+
+170
+00:03:44,860 --> 00:03:46,500
+Even if you were to just start
+
+171
+00:03:46,509 --> 00:03:47,710
+with parts of your VSL screen
+
+172
+00:03:47,710 --> 00:03:49,129
+sharing it, when you're talking
+
+173
+00:03:49,129 --> 00:03:50,460
+about specific parts, and I'll
+
+174
+00:03:50,460 --> 00:03:50,639
+point
+
+175
+00:03:50,650 --> 00:03:52,560
+out where in an ROI calculator,
+
+176
+00:03:52,560 --> 00:03:54,900
+you're already, you know, 90% of
+
+177
+00:03:54,900 --> 00:03:57,340
+the way there, that extra 10% is
+
+178
+00:03:57,490 --> 00:03:58,849
+obviously where a lot of the gains
+
+179
+00:03:58,849 --> 00:04:00,319
+happen, but it's not too hard to
+
+180
+00:04:00,319 --> 00:04:01,560
+create those extra visuals,
+
+181
+00:04:01,830 --> 00:04:03,030
+especially if you have VSL, the
+
+182
+00:04:03,030 --> 00:04:04,180
+way that Daniel teaches.
+
+183
+00:04:04,180 --> 00:04:05,879
+And I also have the VSL doc up
+
+184
+00:04:05,879 --> 00:04:06,060
+here.
+
+185
+00:04:06,069 --> 00:04:07,289
+So I'm going to be able to show
+
+186
+00:04:07,289 --> 00:04:08,740
+you where this stuff actually has
+
+187
+00:04:08,740 --> 00:04:09,680
+some parallels.
+
+188
+00:04:09,680 --> 00:04:10,719
+You can also
+
+189
+00:04:10,729 --> 00:04:11,490
+make a slide deck.
+
+190
+00:04:11,680 --> 00:04:13,120
+Obviously people, people use pitch
+
+191
+00:04:13,120 --> 00:04:13,490
+decks.
+
+192
+00:04:13,530 --> 00:04:14,669
+I'm not married to one of the
+
+193
+00:04:14,669 --> 00:04:15,240
+other way,
+
+194
+00:04:15,250 --> 00:04:16,870
+but if you are having a slide
+
+195
+00:04:16,870 --> 00:04:18,920
+deck, use it in the same structure
+
+196
+00:04:18,920 --> 00:04:20,819
+that you're going to see below.
+
+197
+00:04:20,970 --> 00:04:22,759
+Anything can work so long as it is
+
+198
+00:04:22,769 --> 00:04:23,639
+evidence.
+
+199
+00:04:23,639 --> 00:04:26,170
+It's proof that your sales
+
+200
+00:04:26,209 --> 00:04:28,500
+argument is going to work for
+
+201
+00:04:28,509 --> 00:04:29,639
+them, that it's going to be the
+
+202
+00:04:29,670 --> 00:04:30,860
+straightest line from point A to
+
+203
+00:04:30,860 --> 00:04:31,829
+point B to get them to their
+
+204
+00:04:31,829 --> 00:04:32,220
+goals,
+
+205
+00:04:32,370 --> 00:04:32,959
+right?
+
+206
+00:04:32,959 --> 00:04:34,649
+Now, this first part usually
+
+207
+00:04:34,649 --> 00:04:36,329
+actually doesn't use a visual
+
+208
+00:04:36,339 --> 00:04:38,220
+because it's not really a pitch.
+
+209
+00:04:38,220 --> 00:04:38,439
+It's
+
+210
+00:04:38,449 --> 00:04:40,279
+much more of a pre-pitch, right?
+
+211
+00:04:40,279 --> 00:04:41,810
+And the goal here is to get them
+
+212
+00:04:41,810 --> 00:04:43,420
+to sold on the concept of your
+
+213
+00:04:43,420 --> 00:04:43,740
+service,
+
+214
+00:04:43,750 --> 00:04:45,589
+not necessarily your offer yet,
+
+215
+00:04:45,589 --> 00:04:46,120
+right?
+
+216
+00:04:46,120 --> 00:04:47,889
+So a lot of times when we're doing
+
+217
+00:04:47,889 --> 00:04:49,060
+this part, we're talking
+
+218
+00:04:49,069 --> 00:04:49,680
+about them.
+
+219
+00:04:49,680 --> 00:04:50,839
+It's, it's, we're almost
+
+220
+00:04:50,839 --> 00:04:51,930
+displacing them from the
+
+221
+00:04:51,930 --> 00:04:52,819
+conversation.
+
+222
+00:04:52,819 --> 00:04:55,100
+Um, when I said them,
+
+223
+00:04:55,110 --> 00:04:56,350
+I mean like a third party who's
+
+224
+00:04:56,350 --> 00:04:57,689
+not involved, not the prospect
+
+225
+00:04:57,699 --> 00:04:58,639
+that we're speaking to
+
+226
+00:04:58,639 --> 00:04:59,439
+specifically,
+
+227
+00:04:59,449 --> 00:05:01,149
+if you do this wrong, uh, it kind
+
+228
+00:05:01,149 --> 00:05:02,680
+of sounds a little preachy.
+
+229
+00:05:02,680 --> 00:05:04,040
+I guess like the closest
+
+230
+00:05:04,189 --> 00:05:06,329
+parallel in the VSL, once again, I
+
+231
+00:05:06,329 --> 00:05:08,399
+wouldn't use this scripted part
+
+232
+00:05:08,399 --> 00:05:10,759
+is, you know, this right here.
+
+233
+00:05:10,769 --> 00:05:11,870
+It's kind of like the intro to
+
+234
+00:05:11,870 --> 00:05:12,810
+your sales argument.
+
+235
+00:05:12,810 --> 00:05:14,250
+You see how we're selling cold
+
+236
+00:05:14,250 --> 00:05:15,740
+email as a service
+
+237
+00:05:15,750 --> 00:05:17,329
+and we're selling or cold email as
+
+238
+00:05:17,329 --> 00:05:17,949
+a concept.
+
+239
+00:05:17,949 --> 00:05:19,360
+And we're selling paid ads as a
+
+240
+00:05:19,360 --> 00:05:20,519
+concept before selling
+
+241
+00:05:20,550 --> 00:05:21,839
+our offer specifically.
+
+242
+00:05:21,839 --> 00:05:23,500
+That's because once again, we want
+
+243
+00:05:23,500 --> 00:05:24,920
+them to be sold on paid ads.
+
+244
+00:05:24,930 --> 00:05:25,959
+If they're looking at this, we
+
+245
+00:05:25,959 --> 00:05:27,029
+want them to be sold on cold email
+
+246
+00:05:27,100 --> 00:05:28,040
+if they're looking at this,
+
+247
+00:05:28,050 --> 00:05:29,500
+but the differences between the
+
+248
+00:05:29,500 --> 00:05:30,889
+marketing and the sales is once
+
+249
+00:05:30,889 --> 00:05:32,420
+again, the sales side of things,
+
+250
+00:05:32,430 --> 00:05:33,660
+we want this just to be like an
+
+251
+00:05:33,660 --> 00:05:35,170
+expert sharing their perspective
+
+252
+00:05:35,189 --> 00:05:36,759
+where the marketing, because it
+
+253
+00:05:36,759 --> 00:05:36,980
+can be
+
+254
+00:05:36,990 --> 00:05:38,209
+so direct, because there's no
+
+255
+00:05:38,209 --> 00:05:39,259
+two-way conversation.
+
+256
+00:05:39,259 --> 00:05:40,370
+If you were to just read off of
+
+257
+00:05:40,379 --> 00:05:41,300
+this, it'd feel a
+
+258
+00:05:41,310 --> 00:05:42,069
+little preachy.
+
+259
+00:05:42,250 --> 00:05:43,399
+So I'd recommend not having a
+
+260
+00:05:43,410 --> 00:05:45,089
+visual to support this part, but
+
+261
+00:05:45,089 --> 00:05:46,329
+here's the structure.
+
+262
+00:05:46,829 --> 00:05:48,220
+If you're selling organic content,
+
+263
+00:05:48,220 --> 00:05:49,160
+they need to be sold in the
+
+264
+00:05:49,160 --> 00:05:50,459
+concept of organic content for
+
+265
+00:05:50,459 --> 00:05:50,819
+their business.
+
+266
+00:05:50,829 --> 00:05:52,100
+If you're selling cold email, they
+
+267
+00:05:52,100 --> 00:05:53,300
+need to be sold on cold emails,
+
+268
+00:05:53,300 --> 00:05:54,180
+legion strategy for their
+
+269
+00:05:54,180 --> 00:05:54,660
+business.
+
+270
+00:05:54,670 --> 00:05:56,160
+We start off by asking, do you
+
+271
+00:05:56,160 --> 00:05:57,800
+mind if I share some thoughts?
+
+272
+00:05:57,800 --> 00:05:59,879
+So that literal talk track after
+
+273
+00:05:59,879 --> 00:06:00,699
+we summarize,
+
+274
+00:06:00,699 --> 00:06:02,870
+then this is very much like the
+
+275
+00:06:02,870 --> 00:06:05,240
+last question of discovery.
+
+276
+00:06:05,240 --> 00:06:06,819
+We summarize what we're hearing in
+
+277
+00:06:06,819 --> 00:06:07,189
+discovery,
+
+278
+00:06:07,209 --> 00:06:08,769
+doing a quick recap, making sure
+
+279
+00:06:08,769 --> 00:06:10,259
+that we're on the same page.
+
+280
+00:06:10,259 --> 00:06:11,050
+I think that's fair.
+
+281
+00:06:11,089 --> 00:06:12,220
+Asking them if there's anything
+
+282
+00:06:12,250 --> 00:06:13,329
+that we didn't ask about that we
+
+283
+00:06:13,329 --> 00:06:14,470
+should have asked about.
+
+284
+00:06:14,480 --> 00:06:14,930
+Cool.
+
+285
+00:06:15,410 --> 00:06:16,069
+Discovery is over.
+
+286
+00:06:16,209 --> 00:06:17,709
+My usual next question is, okay,
+
+287
+00:06:17,709 --> 00:06:18,600
+awesome, man.
+
+288
+00:06:18,600 --> 00:06:19,620
+And do you mind if I share some
+
+289
+00:06:19,620 --> 00:06:19,899
+thoughts?
+
+290
+00:06:20,050 --> 00:06:22,410
+Nobody's ever said no.
+
+291
+00:06:22,480 --> 00:06:24,240
+If you guys get somebody to say no
+
+292
+00:06:24,240 --> 00:06:25,839
+to that, like, no, I don't want to
+
+293
+00:06:25,839 --> 00:06:26,389
+hear your thoughts.
+
+294
+00:06:26,470 --> 00:06:26,829
+Let me know.
+
+295
+00:06:27,000 --> 00:06:27,750
+That'd be kind of funny just
+
+296
+00:06:27,750 --> 00:06:28,889
+because it's never happened across
+
+297
+00:06:28,889 --> 00:06:29,730
+thousands of calls.
+
+298
+00:06:29,750 --> 00:06:31,509
+So right after that, then we
+
+299
+00:06:31,509 --> 00:06:32,949
+proceed to tell them where these
+
+300
+00:06:32,949 --> 00:06:34,399
+thoughts are coming from while
+
+301
+00:06:34,399 --> 00:06:35,800
+status signaling, right?
+
+302
+00:06:35,810 --> 00:06:37,129
+And this only gets stronger, the
+
+303
+00:06:37,129 --> 00:06:38,529
+more credibility and case studies
+
+304
+00:06:38,529 --> 00:06:39,759
+and experience you have.
+
+305
+00:06:39,870 --> 00:06:40,899
+So for us, we're able to say,
+
+306
+00:06:40,899 --> 00:06:42,060
+yeah, and just to explain where
+
+307
+00:06:42,060 --> 00:06:43,410
+these thoughts are coming from,
+
+308
+00:06:43,430 --> 00:06:45,019
+we've scaled up our own cold email
+
+309
+00:06:45,019 --> 00:06:46,620
+agency to six figures a month and
+
+310
+00:06:46,620 --> 00:06:47,680
+helped over a thousand businesses
+
+311
+00:06:47,689 --> 00:06:49,139
+to date with their lead generation
+
+312
+00:06:49,139 --> 00:06:49,740
+strategy.
+
+313
+00:06:49,740 --> 00:06:50,910
+And then we'll get into what we
+
+314
+00:06:50,910 --> 00:06:51,899
+say next, right?
+
+315
+00:06:51,910 --> 00:06:52,709
+So they're like, okay, cool.
+
+316
+00:06:52,850 --> 00:06:54,180
+I mean, this person clearly knows
+
+317
+00:06:54,209 --> 00:06:55,379
+what he's talking about.
+
+318
+00:06:55,389 --> 00:06:56,180
+Let me listen.
+
+319
+00:06:56,329 --> 00:06:59,110
+Now, if you have some version of
+
+320
+00:06:59,110 --> 00:07:00,680
+that, great.
+
+321
+00:07:00,689 --> 00:07:01,680
+Once again, it's one of those
+
+322
+00:07:01,680 --> 00:07:02,720
+things that's only going to get
+
+323
+00:07:02,720 --> 00:07:03,949
+stronger the more you keep going.
+
+324
+00:07:03,970 --> 00:07:05,819
+Why this is a great opportunity or
+
+325
+00:07:05,819 --> 00:07:08,540
+we break down common limiting
+
+326
+00:07:08,540 --> 00:07:10,730
+beliefs or help them understand
+
+327
+00:07:10,810 --> 00:07:12,290
+why most people struggle to
+
+328
+00:07:12,290 --> 00:07:14,160
+achieve what you're saying you can
+
+329
+00:07:14,160 --> 00:07:15,579
+do or what you can help them
+
+330
+00:07:15,579 --> 00:07:16,329
+achieve.
+
+331
+00:07:16,370 --> 00:07:17,629
+Now, I know that sounds a little
+
+332
+00:07:17,629 --> 00:07:18,750
+convoluted and the way that I
+
+333
+00:07:18,750 --> 00:07:19,860
+wrote it out kind of is,
+
+334
+00:07:20,509 --> 00:07:22,930
+but basically what's the number
+
+335
+00:07:22,930 --> 00:07:25,379
+one limiting belief or what's the
+
+336
+00:07:25,379 --> 00:07:27,410
+number one thing your prospects
+
+337
+00:07:27,449 --> 00:07:27,850
+need
+
+338
+00:07:27,870 --> 00:07:30,850
+to believe in order for your pitch
+
+339
+00:07:30,850 --> 00:07:33,180
+to make sense, right?
+
+340
+00:07:33,180 --> 00:07:34,089
+If we can get them on the same
+
+341
+00:07:34,149 --> 00:07:34,480
+page,
+
+342
+00:07:34,490 --> 00:07:36,879
+if we can get them thinking the
+
+343
+00:07:36,879 --> 00:07:39,670
+same way about our service, about
+
+344
+00:07:39,670 --> 00:07:41,579
+our approach as we do,
+
+345
+00:07:41,589 --> 00:07:42,790
+then obviously our pitch is going
+
+346
+00:07:42,790 --> 00:07:43,620
+to make more sense.
+
+347
+00:07:43,620 --> 00:07:45,699
+So to give you a couple examples,
+
+348
+00:07:45,709 --> 00:07:47,050
+and I actually wrote out an
+
+349
+00:07:47,050 --> 00:07:49,350
+example below, but one that we've
+
+350
+00:07:49,350 --> 00:07:52,199
+used time and time again for our
+
+351
+00:07:52,259 --> 00:07:52,459
+cold
+
+352
+00:07:52,470 --> 00:07:53,740
+email setup offer is, Hey, do you
+
+353
+00:07:53,740 --> 00:07:54,939
+mind if I share some thoughts?
+
+354
+00:07:54,939 --> 00:07:55,230
+Yeah.
+
+355
+00:07:55,269 --> 00:07:56,370
+And just explain where these
+
+356
+00:07:56,410 --> 00:07:57,709
+thoughts are coming from.
+
+357
+00:07:57,709 --> 00:07:59,230
+We've scaled up our own cold email
+
+358
+00:07:59,230 --> 00:08:00,819
+agency to six figures a month.
+
+359
+00:08:00,819 --> 00:08:01,019
+We've
+
+360
+00:08:01,029 --> 00:08:02,089
+helped over a thousand B2B
+
+361
+00:08:02,089 --> 00:08:03,360
+businesses with their cold email
+
+362
+00:08:03,360 --> 00:08:04,720
+strategy, and we get five to 10
+
+363
+00:08:04,720 --> 00:08:05,339
+calls booked
+
+364
+00:08:05,350 --> 00:08:07,009
+per day with our own cold email
+
+365
+00:08:07,009 --> 00:08:07,810
+currently.
+
+366
+00:08:07,810 --> 00:08:09,680
+And what we've seen after working
+
+367
+00:08:09,680 --> 00:08:10,779
+with all these different
+
+368
+00:08:10,930 --> 00:08:12,730
+companies is this is the main
+
+369
+00:08:12,740 --> 00:08:15,089
+three reasons why people don't see
+
+370
+00:08:15,089 --> 00:08:17,069
+results with cold email.
+
+371
+00:08:17,089 --> 00:08:18,870
+And the reason why we attack that
+
+372
+00:08:18,870 --> 00:08:20,720
+is because there's so many people
+
+373
+00:08:20,720 --> 00:08:22,240
+that are jaded by cold email,
+
+374
+00:08:22,250 --> 00:08:23,430
+cold email doesn't work.
+
+375
+00:08:23,430 --> 00:08:24,759
+I never opened up cold emails.
+
+376
+00:08:24,819 --> 00:08:26,149
+I worked with an agency and I got
+
+377
+00:08:26,149 --> 00:08:26,759
+burned.
+
+378
+00:08:26,769 --> 00:08:28,040
+So like for that specific offer,
+
+379
+00:08:28,040 --> 00:08:29,269
+it makes sense to attack that.
+
+380
+00:08:29,279 --> 00:08:30,519
+And then we would go on to say,
+
+381
+00:08:30,519 --> 00:08:32,158
+number one, they're not doing
+
+382
+00:08:32,158 --> 00:08:33,110
+enough volume.
+
+383
+00:08:33,110 --> 00:08:34,840
+A lot of people come to the calls
+
+384
+00:08:34,840 --> 00:08:36,519
+telling us they reach
+
+385
+00:08:36,529 --> 00:08:37,559
+out to a thousand people a month
+
+386
+00:08:37,559 --> 00:08:38,158
+for six months.
+
+387
+00:08:38,158 --> 00:08:39,240
+And they're surprised that they
+
+388
+00:08:39,240 --> 00:08:40,418
+only got one or two calls.
+
+389
+00:08:40,788 --> 00:08:42,429
+For us, we work with a minimum of
+
+390
+00:08:42,429 --> 00:08:44,080
+where we reach out to a minimum of
+
+391
+00:08:44,080 --> 00:08:46,299
+5,000 prospects per month.
+
+392
+00:08:46,309 --> 00:08:47,370
+And even then that's the bare
+
+393
+00:08:47,370 --> 00:08:48,389
+minimum that you'd want.
+
+394
+00:08:48,389 --> 00:08:49,639
+If you want to see meaningful lead
+
+395
+00:08:49,639 --> 00:08:50,019
+flow.
+
+396
+00:08:50,029 --> 00:08:51,549
+Now, the second reason it doesn't
+
+397
+00:08:51,549 --> 00:08:52,779
+take a genius to tell you that
+
+398
+00:08:52,830 --> 00:08:54,000
+sales and numbers, again,
+
+399
+00:08:54,009 --> 00:08:55,350
+we need to be reaching out to more
+
+400
+00:08:55,350 --> 00:08:56,590
+people that people want to see
+
+401
+00:08:56,590 --> 00:08:57,960
+results is it, is it takes a
+
+402
+00:08:57,970 --> 00:08:59,090
+lot of technical expertise to
+
+403
+00:08:59,090 --> 00:09:00,389
+build the right infrastructure to
+
+404
+00:09:00,389 --> 00:09:02,139
+reach out to 5,000 plus people a
+
+405
+00:09:02,139 --> 00:09:04,090
+month and not burn your domains,
+
+406
+00:09:04,100 --> 00:09:05,919
+end up in spam and have the whole
+
+407
+00:09:05,919 --> 00:09:07,460
+system crash and burn.
+
+408
+00:09:07,789 --> 00:09:08,169
+Right?
+
+409
+00:09:08,289 --> 00:09:09,529
+So now, even if you are doing
+
+410
+00:09:09,539 --> 00:09:11,070
+enough volume and you do have the
+
+411
+00:09:11,070 --> 00:09:11,779
+right infrastructure,
+
+412
+00:09:11,789 --> 00:09:13,190
+the reason why most companies
+
+413
+00:09:13,190 --> 00:09:14,539
+still fail with cold email is a
+
+414
+00:09:14,590 --> 00:09:15,259
+strategy.
+
+415
+00:09:15,259 --> 00:09:16,100
+They're trying to write long
+
+416
+00:09:16,110 --> 00:09:16,870
+form copy.
+
+417
+00:09:16,899 --> 00:09:18,600
+They're putting in links and
+
+418
+00:09:18,600 --> 00:09:20,610
+attachments into their email and
+
+419
+00:09:20,610 --> 00:09:22,519
+they're wondering why it's not
+
+420
+00:09:22,529 --> 00:09:23,200
+going through.
+
+421
+00:09:23,200 --> 00:09:24,460
+When with cold email, you have to
+
+422
+00:09:24,470 --> 00:09:25,700
+realize that these people don't
+
+423
+00:09:25,710 --> 00:09:26,480
+know who you are.
+
+424
+00:09:26,490 --> 00:09:27,850
+And even though we may get 50 to
+
+425
+00:09:27,850 --> 00:09:29,110
+70% of the list to open up the
+
+426
+00:09:29,110 --> 00:09:30,570
+email, we're probably going to get
+
+427
+00:09:30,590 --> 00:09:31,580
+them to read that for three to
+
+428
+00:09:31,580 --> 00:09:32,220
+five seconds.
+
+429
+00:09:32,220 --> 00:09:33,779
+So we need to be short to the
+
+430
+00:09:33,779 --> 00:09:35,200
+point conversational.
+
+431
+00:09:35,210 --> 00:09:35,690
+Cool.
+
+432
+00:09:35,740 --> 00:09:37,710
+I guess I'm curious, what are your
+
+433
+00:09:37,710 --> 00:09:39,179
+thoughts on all that?
+
+434
+00:09:39,179 --> 00:09:40,980
+And usually there's just some like
+
+435
+00:09:40,990 --> 00:09:42,639
+weak because we've, we've
+
+436
+00:09:42,639 --> 00:09:44,980
+established ourselves as experts.
+
+437
+00:09:44,980 --> 00:09:47,580
+There's some like weak, you know,
+
+438
+00:09:47,590 --> 00:09:48,720
+Hey, I'll defer to you because
+
+439
+00:09:48,750 --> 00:09:49,519
+you're the expert.
+
+440
+00:09:49,519 --> 00:09:50,169
+Yeah, I agree.
+
+441
+00:09:50,179 --> 00:09:51,059
+That makes sense.
+
+442
+00:09:51,059 --> 00:09:51,820
+That sounds right.
+
+443
+00:09:51,830 --> 00:09:53,419
+Like, yeah, I can resonate with
+
+444
+00:09:53,419 --> 00:09:53,809
+that.
+
+445
+00:09:53,820 --> 00:09:55,639
+You know, previously we just, you
+
+446
+00:09:55,639 --> 00:09:56,419
+know, didn't do enough
+
+447
+00:09:56,429 --> 00:09:57,080
+following him.
+
+448
+00:09:57,080 --> 00:09:58,210
+And once again, that was super
+
+449
+00:09:58,250 --> 00:09:58,529
+messy.
+
+450
+00:09:58,590 --> 00:09:59,730
+I'm just pulling off an example
+
+451
+00:09:59,730 --> 00:10:00,269
+for you guys,
+
+452
+00:10:00,309 --> 00:10:02,350
+but going back to where I was at,
+
+453
+00:10:02,350 --> 00:10:04,409
+the important thing is that they
+
+454
+00:10:04,419 --> 00:10:06,159
+come out of this on the same
+
+455
+00:10:06,169 --> 00:10:06,769
+page as you.
+
+456
+00:10:06,769 --> 00:10:08,149
+Now, remember, we're not even
+
+457
+00:10:08,149 --> 00:10:09,769
+talking about them specifically.
+
+458
+00:10:09,769 --> 00:10:11,000
+We're just sharing how we
+
+459
+00:10:11,009 --> 00:10:12,480
+see things as an expert and seeing
+
+460
+00:10:12,480 --> 00:10:13,220
+if they agree.
+
+461
+00:10:13,220 --> 00:10:14,590
+And most of the time when people
+
+462
+00:10:14,590 --> 00:10:15,539
+aren't 100%
+
+463
+00:10:15,690 --> 00:10:16,899
+committed to think one way or the
+
+464
+00:10:16,899 --> 00:10:18,200
+other, they'll agree with the
+
+465
+00:10:18,200 --> 00:10:18,700
+experts.
+
+466
+00:10:18,710 --> 00:10:19,980
+And usually they will agree
+
+467
+00:10:19,990 --> 00:10:21,389
+just because if they were so jaded
+
+468
+00:10:21,389 --> 00:10:22,610
+about your service that they
+
+469
+00:10:22,610 --> 00:10:24,029
+really truly believed in their
+
+470
+00:10:24,039 --> 00:10:24,580
+bones that it
+
+471
+00:10:24,590 --> 00:10:25,669
+couldn't work, even if they do
+
+472
+00:10:25,679 --> 00:10:26,840
+have a high level of skepticism,
+
+473
+00:10:26,840 --> 00:10:27,899
+they wouldn't have booked in a
+
+474
+00:10:27,899 --> 00:10:28,340
+call.
+
+475
+00:10:28,350 --> 00:10:28,799
+Right.
+
+476
+00:10:28,879 --> 00:10:29,940
+So here's an example.
+
+477
+00:10:29,940 --> 00:10:31,240
+That's going to be a lot more
+
+478
+00:10:31,240 --> 00:10:32,600
+clean for you guys.
+
+479
+00:10:32,600 --> 00:10:33,500
+I wrote it out.
+
+480
+00:10:33,509 --> 00:10:34,639
+Do you mind if I share some
+
+481
+00:10:34,669 --> 00:10:35,250
+thoughts?
+
+482
+00:10:35,259 --> 00:10:35,840
+Yeah, cool.
+
+483
+00:10:35,840 --> 00:10:36,990
+And just to explain where these
+
+484
+00:10:36,990 --> 00:10:37,659
+thoughts are coming
+
+485
+00:10:37,669 --> 00:10:39,039
+from, I've helped over 30 local
+
+486
+00:10:39,039 --> 00:10:40,389
+businesses increase their revenue
+
+487
+00:10:40,389 --> 00:10:41,700
+from restaurants to roofers.
+
+488
+00:10:41,700 --> 00:10:42,240
+And the
+
+489
+00:10:42,250 --> 00:10:43,830
+reason most local business owners
+
+490
+00:10:43,830 --> 00:10:45,230
+never see success with organic
+
+491
+00:10:45,230 --> 00:10:46,460
+content is because of the
+
+492
+00:10:46,460 --> 00:10:47,100
+perceived time
+
+493
+00:10:47,250 --> 00:10:48,110
+investment, right?
+
+494
+00:10:48,110 --> 00:10:49,529
+They're running real businesses
+
+495
+00:10:49,529 --> 00:10:50,820
+and don't have time to become
+
+496
+00:10:50,820 --> 00:10:52,129
+influencers, but they don't
+
+497
+00:10:52,289 --> 00:10:53,879
+realize they don't need to be.
+
+498
+00:10:53,889 --> 00:10:55,649
+So they do nothing at all, which
+
+499
+00:10:55,649 --> 00:10:58,279
+typically doesn't do much, or they
+
+500
+00:10:58,279 --> 00:10:58,370
+go
+
+501
+00:10:58,409 --> 00:10:59,610
+for quicker marketing strategies
+
+502
+00:10:59,610 --> 00:11:00,740
+and they wonder why they can never
+
+503
+00:11:00,740 --> 00:11:01,580
+find consistency.
+
+504
+00:11:01,580 --> 00:11:02,580
+They're constantly
+
+505
+00:11:02,590 --> 00:11:04,309
+looking for a strategy to get them
+
+506
+00:11:04,309 --> 00:11:05,870
+consistent traffic that they
+
+507
+00:11:05,870 --> 00:11:07,639
+actually keep long-term without
+
+508
+00:11:07,710 --> 00:11:08,179
+needing to
+
+509
+00:11:08,179 --> 00:11:09,889
+invest all their time, without
+
+510
+00:11:09,889 --> 00:11:11,750
+realizing that organic content is
+
+511
+00:11:11,750 --> 00:11:12,779
+that strategy.
+
+512
+00:11:12,779 --> 00:11:14,080
+If it's done right.
+
+513
+00:11:14,090 --> 00:11:15,440
+Curious to hear your thoughts on
+
+514
+00:11:15,440 --> 00:11:15,860
+that.
+
+515
+00:11:19,009 --> 00:11:19,330
+Cool.
+
+516
+00:11:19,539 --> 00:11:20,919
+Like once again, if I'm selling
+
+517
+00:11:20,919 --> 00:11:22,409
+organic content and I'm dealing
+
+518
+00:11:22,409 --> 00:11:23,299
+with a lot of skeptical
+
+519
+00:11:23,450 --> 00:11:24,840
+prospects, I would start off by
+
+520
+00:11:24,840 --> 00:11:26,519
+saying something like this before
+
+521
+00:11:26,519 --> 00:11:27,970
+getting into the real pitch,
+
+522
+00:11:28,049 --> 00:11:29,470
+just because if I break down that
+
+523
+00:11:29,470 --> 00:11:30,909
+limiting belief, that organic
+
+524
+00:11:30,909 --> 00:11:33,659
+content can't work for local
+
+525
+00:11:33,659 --> 00:11:33,980
+business
+
+526
+00:11:33,980 --> 00:11:34,529
+owners.
+
+527
+00:11:34,529 --> 00:11:35,889
+That's very important.
+
+528
+00:11:35,889 --> 00:11:37,340
+If I don't do that, a lot of my
+
+529
+00:11:37,340 --> 00:11:38,860
+pitch is going to be in one ear
+
+530
+00:11:38,860 --> 00:11:39,039
+and out
+
+531
+00:11:39,070 --> 00:11:39,610
+the other.
+
+532
+00:11:39,610 --> 00:11:41,049
+To give you guys another example,
+
+533
+00:11:41,059 --> 00:11:42,309
+I was talking to a client quite
+
+534
+00:11:42,309 --> 00:11:43,700
+literally earlier today
+
+535
+00:11:43,700 --> 00:11:45,909
+that was, or that is selling
+
+536
+00:11:45,909 --> 00:11:47,840
+static ad creatives.
+
+537
+00:11:47,840 --> 00:11:49,279
+And a lot of the people will go
+
+538
+00:11:49,279 --> 00:11:49,759
+through the pitch.
+
+539
+00:11:49,769 --> 00:11:50,500
+They like what he says.
+
+540
+00:11:50,500 --> 00:11:51,279
+And they give him like some
+
+541
+00:11:51,279 --> 00:11:52,529
+veiled, yeah, I'll think about it.
+
+542
+00:11:52,570 --> 00:11:52,740
+Or,
+
+543
+00:11:52,750 --> 00:11:53,480
+you know, thanks.
+
+544
+00:11:53,480 --> 00:11:54,799
+Send over some more information.
+
+545
+00:11:54,799 --> 00:11:56,269
+And the key issue is a lot of
+
+546
+00:11:56,279 --> 00:11:57,259
+people just don't
+
+547
+00:11:57,259 --> 00:11:58,509
+believe static ad creatives
+
+548
+00:11:58,509 --> 00:11:59,759
+convert as well as video.
+
+549
+00:11:59,759 --> 00:12:01,419
+Right?
+
+550
+00:12:01,419 --> 00:12:03,139
+So I told him about this concept
+
+551
+00:12:03,139 --> 00:12:03,320
+of
+
+552
+00:12:03,330 --> 00:12:04,529
+having just a quick expert
+
+553
+00:12:04,529 --> 00:12:05,980
+perspective to, as opposed to
+
+554
+00:12:05,980 --> 00:12:07,409
+hoping that we can solve that at
+
+555
+00:12:07,409 --> 00:12:08,009
+the end of the
+
+556
+00:12:08,029 --> 00:12:09,320
+call or hoping that we could solve
+
+557
+00:12:09,320 --> 00:12:10,539
+that over email and follow-up,
+
+558
+00:12:10,600 --> 00:12:11,799
+since that's where a lot of these
+
+559
+00:12:11,809 --> 00:12:12,940
+calls are going, let's just solve
+
+560
+00:12:12,970 --> 00:12:14,139
+it right at the top of the pitch.
+
+561
+00:12:14,149 --> 00:12:14,960
+Hey man, cool.
+
+562
+00:12:14,960 --> 00:12:15,649
+Do you mind if I
+
+563
+00:12:15,690 --> 00:12:16,450
+share some thoughts?
+
+564
+00:12:16,480 --> 00:12:17,570
+Yeah, man, just explain where
+
+565
+00:12:17,570 --> 00:12:18,740
+these thoughts are coming from.
+
+566
+00:12:18,740 --> 00:12:19,399
+I've helped over
+
+567
+00:12:19,549 --> 00:12:22,480
+50 e-com brands scale with static
+
+568
+00:12:22,480 --> 00:12:23,059
+ads.
+
+569
+00:12:23,059 --> 00:12:25,370
+And the reason why most e-com
+
+570
+00:12:25,370 --> 00:12:27,120
+brand owners aren't
+
+571
+00:12:27,269 --> 00:12:29,610
+super excited or super sure that
+
+572
+00:12:29,610 --> 00:12:31,879
+static ads is going to work for
+
+573
+00:12:31,879 --> 00:12:34,389
+them is because they're trying to
+
+574
+00:12:34,549 --> 00:12:36,509
+compare static ads to video ads on
+
+575
+00:12:36,580 --> 00:12:37,970
+a one-to-one basis.
+
+576
+00:12:37,970 --> 00:12:39,750
+And if you film a static ad and
+
+577
+00:12:39,789 --> 00:12:40,440
+you film
+
+578
+00:12:40,450 --> 00:12:42,950
+one video ad, odds are that video
+
+579
+00:12:43,000 --> 00:12:45,639
+ad is going to perform better, but
+
+580
+00:12:45,639 --> 00:12:47,659
+that's not the use case for
+
+581
+00:12:47,809 --> 00:12:48,620
+static ads.
+
+582
+00:12:48,629 --> 00:12:50,720
+The use case for static ads is to
+
+583
+00:12:50,720 --> 00:12:52,970
+test with way more volume than you
+
+584
+00:12:52,970 --> 00:12:54,379
+ever could with video
+
+585
+00:12:54,389 --> 00:12:54,860
+ads.
+
+586
+00:12:54,919 --> 00:12:56,860
+So take you, for example, if
+
+587
+00:12:56,860 --> 00:12:59,409
+you're a e-com brand owner with 15
+
+588
+00:12:59,440 --> 00:13:01,019
+different products,
+
+589
+00:13:01,029 --> 00:13:03,529
+if you have the wherewithal and
+
+590
+00:13:03,539 --> 00:13:06,049
+the manpower and the marketing
+
+591
+00:13:06,080 --> 00:13:08,580
+team to be able to do a ton of
+
+592
+00:13:08,580 --> 00:13:08,820
+video
+
+593
+00:13:08,820 --> 00:13:10,299
+creative for all 15, by all means
+
+594
+00:13:10,299 --> 00:13:10,610
+do it.
+
+595
+00:13:10,649 --> 00:13:11,720
+Most people don't have those
+
+596
+00:13:11,720 --> 00:13:12,279
+resources.
+
+597
+00:13:12,279 --> 00:13:13,299
+What static ads is going
+
+598
+00:13:13,309 --> 00:13:15,230
+to allow you to do is test at such
+
+599
+00:13:15,250 --> 00:13:15,990
+a volume.
+
+600
+00:13:15,990 --> 00:13:18,830
+So you can test 10, 15, 20 plus
+
+601
+00:13:18,830 --> 00:13:20,399
+static ad creatives for
+
+602
+00:13:20,409 --> 00:13:22,190
+each one of your products, test
+
+603
+00:13:22,230 --> 00:13:24,360
+quicker, get market feedback, find
+
+604
+00:13:24,360 --> 00:13:26,279
+the winners, and then be able to
+
+605
+00:13:26,279 --> 00:13:26,559
+use
+
+606
+00:13:26,570 --> 00:13:28,240
+that winning message for each of
+
+607
+00:13:28,240 --> 00:13:29,899
+those products and double down
+
+608
+00:13:29,899 --> 00:13:31,620
+your resources on video ads for
+
+609
+00:13:31,690 --> 00:13:31,960
+those
+
+610
+00:13:32,110 --> 00:13:33,639
+products specifically with the
+
+611
+00:13:33,639 --> 00:13:35,610
+messaging already being, you know,
+
+612
+00:13:35,610 --> 00:13:37,360
+already knowing that it works and
+
+613
+00:13:37,529 --> 00:13:38,529
+delivered to you on a silver
+
+614
+00:13:38,549 --> 00:13:40,019
+platter because of the experience
+
+615
+00:13:40,019 --> 00:13:40,919
+with the static ad.
+
+616
+00:13:40,929 --> 00:13:41,840
+So it's really much
+
+617
+00:13:41,850 --> 00:13:43,129
+more of a testing mechanism than
+
+618
+00:13:43,129 --> 00:13:43,850
+anything else.
+
+619
+00:13:43,850 --> 00:13:45,179
+I'm curious to hear your thoughts
+
+620
+00:13:45,179 --> 00:13:46,740
+on that, right?
+
+621
+00:13:46,769 --> 00:13:48,120
+Once again, I'm kind of just
+
+622
+00:13:48,120 --> 00:13:49,759
+pulling this out left and right.
+
+623
+00:13:49,789 --> 00:13:51,120
+But once again, it's one of those
+
+624
+00:13:51,120 --> 00:13:51,279
+things
+
+625
+00:13:51,289 --> 00:13:52,809
+where we just need to attack that
+
+626
+00:13:52,809 --> 00:13:54,409
+main limiting belief or help them
+
+627
+00:13:54,409 --> 00:13:56,240
+understand if they're super
+
+628
+00:13:56,250 --> 00:13:57,639
+jaded, why most people are in the
+
+629
+00:13:57,639 --> 00:13:59,009
+same boat as them and haven't been
+
+630
+00:13:59,049 --> 00:14:00,000
+able to see results.
+
+631
+00:14:00,000 --> 00:14:00,350
+So they don't
+
+632
+00:14:00,370 --> 00:14:00,909
+feel alone.
+
+633
+00:14:00,909 --> 00:14:02,149
+And then just curious to hear your
+
+634
+00:14:02,190 --> 00:14:03,269
+thoughts on that, right?
+
+635
+00:14:03,279 --> 00:14:06,299
+Like we're not yet selling, but if
+
+636
+00:14:06,309 --> 00:14:07,740
+we've done this correctly,
+
+637
+00:14:07,750 --> 00:14:09,450
+everything else is so much easier
+
+638
+00:14:09,450 --> 00:14:11,320
+because then we can establish that
+
+639
+00:14:11,320 --> 00:14:11,759
+you solve
+
+640
+00:14:11,769 --> 00:14:13,019
+this need in the market and who
+
+641
+00:14:13,019 --> 00:14:14,279
+you specifically help best.
+
+642
+00:14:14,340 --> 00:14:15,879
+So going back to this example that
+
+643
+00:14:15,889 --> 00:14:16,120
+I wrote
+
+644
+00:14:16,129 --> 00:14:17,649
+out about local content.
+
+645
+00:14:17,649 --> 00:14:18,320
+Awesome.
+
+646
+00:14:18,320 --> 00:14:19,769
+And it goes out saying that
+
+647
+00:14:19,769 --> 00:14:21,740
+content like anything else takes a
+
+648
+00:14:21,750 --> 00:14:23,159
+proven strategy, volume and
+
+649
+00:14:23,159 --> 00:14:23,960
+consistency.
+
+650
+00:14:23,960 --> 00:14:25,559
+So the way we solve local business
+
+651
+00:14:25,559 --> 00:14:27,080
+owners content problems is by
+
+652
+00:14:27,120 --> 00:14:28,690
+coming up with a distribution
+
+653
+00:14:28,690 --> 00:14:30,570
+strategy that guarantees they post
+
+654
+00:14:30,570 --> 00:14:32,360
+twice a day on different platforms
+
+655
+00:14:32,360 --> 00:14:32,580
+with
+
+656
+00:14:32,590 --> 00:14:34,330
+a proven strategy without spending
+
+657
+00:14:34,340 --> 00:14:35,659
+more than one hour per month
+
+658
+00:14:35,659 --> 00:14:36,879
+recording content.
+
+659
+00:14:36,879 --> 00:14:38,580
+And typically we work
+
+660
+00:14:38,590 --> 00:14:39,759
+with busy entrepreneurs like
+
+661
+00:14:39,759 --> 00:14:40,940
+yourself who know they can use
+
+662
+00:14:40,940 --> 00:14:42,299
+content to grow their business,
+
+663
+00:14:42,299 --> 00:14:42,799
+have
+
+664
+00:14:42,809 --> 00:14:44,019
+expertise they want to share.
+
+665
+00:14:44,019 --> 00:14:45,320
+I mean, they're, they're tired of
+
+666
+00:14:45,360 --> 00:14:46,649
+seeing these unqualified gurus
+
+667
+00:14:46,830 --> 00:14:48,470
+getting all the views, but they
+
+668
+00:14:48,509 --> 00:14:49,809
+need to do it in a way that
+
+669
+00:14:49,809 --> 00:14:51,500
+doesn't take away from their day
+
+670
+00:14:51,500 --> 00:14:51,710
+to day
+
+671
+00:14:51,870 --> 00:14:52,379
+responsibilities.
+
+672
+00:14:52,379 --> 00:14:53,990
+It's like, cool.
+
+673
+00:14:53,990 --> 00:14:56,159
+Like this guy's going to be a
+
+674
+00:14:56,159 --> 00:14:58,399
+hundred percent on the same page
+
+675
+00:14:58,409 --> 00:14:59,490
+as me when I go into what the
+
+676
+00:14:59,509 --> 00:15:00,990
+actual service looks like, which
+
+677
+00:15:00,990 --> 00:15:02,120
+is what happens next.
+
+678
+00:15:02,120 --> 00:15:02,720
+And this is where
+
+679
+00:15:02,730 --> 00:15:04,190
+you're going to want to support it
+
+680
+00:15:04,190 --> 00:15:05,600
+with a diagram, with a visual,
+
+681
+00:15:05,600 --> 00:15:06,899
+with some sort of slide.
+
+682
+00:15:06,899 --> 00:15:07,750
+So once
+
+683
+00:15:07,769 --> 00:15:09,419
+again, I could give you guys a
+
+684
+00:15:09,419 --> 00:15:11,509
+number of different examples here,
+
+685
+00:15:11,509 --> 00:15:14,059
+but like even scrolling down
+
+686
+00:15:14,080 --> 00:15:16,100
+yeah, right here, like a
+
+687
+00:15:16,100 --> 00:15:17,929
+depiction, graphical
+
+688
+00:15:17,960 --> 00:15:20,570
+representation of what this looks
+
+689
+00:15:20,639 --> 00:15:21,519
+like, how this
+
+690
+00:15:21,529 --> 00:15:22,029
+works.
+
+691
+00:15:22,059 --> 00:15:23,799
+Daniel probably gives you a ton of
+
+692
+00:15:23,830 --> 00:15:25,309
+examples in a VSL of how this
+
+693
+00:15:25,309 --> 00:15:26,179
+looks here.
+
+694
+00:15:26,179 --> 00:15:26,759
+Let me see.
+
+695
+00:15:29,889 --> 00:15:31,230
+So this is the same diagram in our
+
+696
+00:15:31,230 --> 00:15:32,399
+VSL, but once again, if I'm
+
+697
+00:15:32,440 --> 00:15:33,600
+talking about the process
+
+698
+00:15:33,610 --> 00:15:35,309
+of somebody needing a cold email
+
+699
+00:15:35,309 --> 00:15:37,639
+system that can reach out to 5,000
+
+700
+00:15:37,639 --> 00:15:39,519
+plus people and explaining the
+
+701
+00:15:39,519 --> 00:15:40,769
+process that we go through of
+
+702
+00:15:40,769 --> 00:15:42,220
+setting up 15 domains and two
+
+703
+00:15:42,220 --> 00:15:43,600
+email accounts per domain and
+
+704
+00:15:43,600 --> 00:15:43,860
+doing the
+
+705
+00:15:43,870 --> 00:15:45,240
+DMARC, the DKIM, the SPF records,
+
+706
+00:15:45,240 --> 00:15:46,370
+it can all get pretty technical
+
+707
+00:15:46,440 --> 00:15:47,200
+pretty quickly.
+
+708
+00:15:47,200 --> 00:15:48,220
+But if they have
+
+709
+00:15:48,230 --> 00:15:49,549
+this visual to support, they're
+
+710
+00:15:49,549 --> 00:15:50,889
+going to retain that information
+
+711
+00:15:50,889 --> 00:15:52,309
+and understand it a lot better.
+
+712
+00:15:52,809 --> 00:15:54,590
+So going back into this, yeah, a
+
+713
+00:15:54,629 --> 00:15:56,580
+pretty clear and obvious point as
+
+714
+00:15:56,580 --> 00:15:58,330
+to where you're going to want them
+
+715
+00:15:58,370 --> 00:15:59,620
+to be able to see some sort of
+
+716
+00:15:59,620 --> 00:16:00,639
+visual to back it up.
+
+717
+00:16:00,659 --> 00:16:02,059
+And you're also going to want to
+
+718
+00:16:02,059 --> 00:16:02,759
+break it down
+
+719
+00:16:02,769 --> 00:16:05,350
+into a three or four point pitch
+
+720
+00:16:05,360 --> 00:16:07,960
+that talks about how we deliver
+
+721
+00:16:07,960 --> 00:16:09,669
+results, right?
+
+722
+00:16:09,679 --> 00:16:10,259
+And the reason why you
+
+723
+00:16:10,269 --> 00:16:11,779
+want to have a clear three or four
+
+724
+00:16:11,779 --> 00:16:13,190
+point pitch is because that's
+
+725
+00:16:13,190 --> 00:16:14,639
+going to naturally help them
+
+726
+00:16:14,639 --> 00:16:14,940
+retain
+
+727
+00:16:14,950 --> 00:16:16,659
+that information a lot better too.
+
+728
+00:16:16,659 --> 00:16:18,980
+So if you've ever pitched somebody
+
+729
+00:16:18,990 --> 00:16:20,259
+and you feel like they're
+
+730
+00:16:20,269 --> 00:16:21,700
+just not understanding, they're
+
+731
+00:16:21,710 --> 00:16:23,110
+not grasping it, they're kind of
+
+732
+00:16:23,110 --> 00:16:24,539
+like, yeah, this makes sense,
+
+733
+00:16:24,549 --> 00:16:25,350
+but can you send it over?
+
+734
+00:16:25,490 --> 00:16:26,429
+Like I didn't really get it.
+
+735
+00:16:26,429 --> 00:16:27,809
+And they seem genuinely confused.
+
+736
+00:16:27,830 --> 00:16:30,049
+Try it again with having a clear
+
+737
+00:16:30,049 --> 00:16:32,190
+three to four point pitch and a
+
+738
+00:16:32,190 --> 00:16:34,519
+diagram and some sort of visual
+
+739
+00:16:34,529 --> 00:16:35,769
+to back it up and support it.
+
+740
+00:16:35,769 --> 00:16:37,110
+I guarantee you, these guys are
+
+741
+00:16:37,120 --> 00:16:38,559
+actually going to understand your
+
+742
+00:16:38,559 --> 00:16:39,970
+service a lot better, which is
+
+743
+00:16:39,970 --> 00:16:41,600
+going to drastically increase your
+
+744
+00:16:41,610 --> 00:16:43,019
+chances of getting them to close
+
+745
+00:16:43,029 --> 00:16:44,590
+on the call because confused
+
+746
+00:16:44,590 --> 00:16:45,929
+prospects do not buy.
+
+747
+00:16:45,929 --> 00:16:46,799
+Right?
+
+748
+00:16:46,799 --> 00:16:49,220
+So now another thing, we're also
+
+749
+00:16:49,220 --> 00:16:49,399
+going to
+
+750
+00:16:49,409 --> 00:16:50,649
+want a visual to support this
+
+751
+00:16:50,649 --> 00:16:52,139
+part, sell the next step, not the
+
+752
+00:16:52,139 --> 00:16:52,970
+entire journey.
+
+753
+00:16:52,970 --> 00:16:54,059
+People don't buy big
+
+754
+00:16:54,210 --> 00:16:55,200
+transformations.
+
+755
+00:16:55,230 --> 00:16:57,179
+This, this can work in marketing.
+
+756
+00:16:57,179 --> 00:16:58,750
+They buy clear pass forward,
+
+757
+00:16:58,759 --> 00:16:59,269
+right?
+
+758
+00:16:59,269 --> 00:17:00,159
+Now I'm not saying
+
+759
+00:17:00,169 --> 00:17:01,570
+that we can't sell them on a big
+
+760
+00:17:01,570 --> 00:17:02,570
+transformation.
+
+761
+00:17:02,570 --> 00:17:04,140
+I'm saying that if we don't, if we
+
+762
+00:17:04,140 --> 00:17:05,220
+don't sell them on
+
+763
+00:17:05,289 --> 00:17:06,318
+the next steps that lead to that
+
+764
+00:17:06,318 --> 00:17:07,539
+big transformation, they're just
+
+765
+00:17:07,539 --> 00:17:08,519
+not going to believe it.
+
+766
+00:17:08,519 --> 00:17:09,259
+For instance,
+
+767
+00:17:09,269 --> 00:17:10,838
+if I was a weight loss coach and
+
+768
+00:17:10,838 --> 00:17:12,549
+I'm selling somebody on a weight
+
+769
+00:17:12,549 --> 00:17:13,940
+loss program that can get
+
+770
+00:17:13,950 --> 00:17:16,190
+them from 300 pounds to 200
+
+771
+00:17:16,190 --> 00:17:18,078
+pounds, that's a massive jump.
+
+772
+00:17:18,078 --> 00:17:19,880
+If I don't explain exactly what
+
+773
+00:17:19,880 --> 00:17:20,380
+the steps are
+
+774
+00:17:20,390 --> 00:17:21,519
+going to look like to get them the
+
+775
+00:17:21,549 --> 00:17:22,710
+first few wins, they're just not
+
+776
+00:17:22,710 --> 00:17:23,619
+going to believe it.
+
+777
+00:17:23,619 --> 00:17:24,019
+Right?
+
+778
+00:17:24,019 --> 00:17:24,230
+Once
+
+779
+00:17:24,269 --> 00:17:25,789
+again, that, that stuff can more
+
+780
+00:17:25,789 --> 00:17:27,250
+so work in marketing as opposed to
+
+781
+00:17:27,289 --> 00:17:27,789
+in sales.
+
+782
+00:17:27,799 --> 00:17:29,140
+When the next step is small
+
+783
+00:17:29,150 --> 00:17:31,359
+and logical, not a giant leap of
+
+784
+00:17:31,359 --> 00:17:33,650
+faith, it's a lot easier for them
+
+785
+00:17:33,650 --> 00:17:34,640
+to say yes.
+
+786
+00:17:34,640 --> 00:17:35,880
+So you want to lay out
+
+787
+00:17:35,890 --> 00:17:37,369
+the quick wins, which reduces
+
+788
+00:17:37,369 --> 00:17:39,029
+friction and basically check in to
+
+789
+00:17:39,029 --> 00:17:41,289
+make sure the next nine, 30 to 90
+
+790
+00:17:41,299 --> 00:17:41,559
+days,
+
+791
+00:17:41,710 --> 00:17:42,960
+whatever roadmap you have for
+
+792
+00:17:42,960 --> 00:17:44,460
+delivery seems like the logical
+
+793
+00:17:44,460 --> 00:17:45,930
+next step for their business,
+
+794
+00:17:45,930 --> 00:17:46,250
+where they'll
+
+795
+00:17:46,269 --> 00:17:47,000
+see value.
+
+796
+00:17:47,000 --> 00:17:48,539
+So super important that you
+
+797
+00:17:48,539 --> 00:17:50,160
+understand and can, and can
+
+798
+00:17:50,160 --> 00:17:52,019
+cleanly lay out what those next
+
+799
+00:17:52,029 --> 00:17:53,809
+steps, what those first 30 to 60
+
+800
+00:17:53,849 --> 00:17:54,869
+days would look like.
+
+801
+00:17:54,869 --> 00:17:56,450
+So, Hey, you know, first couple of
+
+802
+00:17:56,450 --> 00:17:56,950
+weeks are
+
+803
+00:17:56,970 --> 00:17:57,519
+onboarding.
+
+804
+00:17:57,519 --> 00:17:58,670
+We're gonna get the whole system
+
+805
+00:17:58,670 --> 00:17:59,720
+set up two weeks from now.
+
+806
+00:17:59,720 --> 00:18:00,400
+You're going to have a cold
+
+807
+00:18:00,410 --> 00:18:01,730
+email system that can reach out to
+
+808
+00:18:01,730 --> 00:18:03,400
+5,000 plus people per month.
+
+809
+00:18:03,400 --> 00:18:04,680
+The next month is going to be
+
+810
+00:18:04,690 --> 00:18:05,630
+a lot of testing.
+
+811
+00:18:05,640 --> 00:18:07,329
+So we set you up with professional
+
+812
+00:18:07,329 --> 00:18:08,920
+copy that's written by our own
+
+813
+00:18:08,920 --> 00:18:10,180
+in-house copywriters
+
+814
+00:18:10,190 --> 00:18:11,480
+with an A, B, C, and D test.
+
+815
+00:18:11,480 --> 00:18:12,910
+In that first month, we're going
+
+816
+00:18:12,910 --> 00:18:14,130
+to be able to gather a bunch of
+
+817
+00:18:14,130 --> 00:18:14,480
+data.
+
+818
+00:18:14,490 --> 00:18:16,170
+And then going into the second
+
+819
+00:18:16,170 --> 00:18:18,029
+half of month two, we're going to
+
+820
+00:18:18,039 --> 00:18:19,779
+be able to see which clear winners
+
+821
+00:18:19,789 --> 00:18:21,660
+we have so we can double down and
+
+822
+00:18:21,660 --> 00:18:23,759
+then start to dedicate more volume
+
+823
+00:18:23,759 --> 00:18:25,309
+to the winning angle that we have
+
+824
+00:18:25,339 --> 00:18:25,619
+at that
+
+825
+00:18:25,630 --> 00:18:26,000
+point.
+
+826
+00:18:26,160 --> 00:18:27,359
+Once again, just kind of coming up
+
+827
+00:18:27,369 --> 00:18:28,529
+with these on the fly, but you
+
+828
+00:18:28,539 --> 00:18:29,339
+guys get the point.
+
+829
+00:18:29,349 --> 00:18:30,640
+It needs to seem like a logical
+
+830
+00:18:30,640 --> 00:18:32,049
+next step for their business.
+
+831
+00:18:32,049 --> 00:18:34,029
+And you can even ask them if you
+
+832
+00:18:34,079 --> 00:18:34,200
+want
+
+833
+00:18:34,210 --> 00:18:35,809
+to check in, like, Hey, you know,
+
+834
+00:18:35,809 --> 00:18:37,869
+curious, man, does that 30, 60 day
+
+835
+00:18:37,869 --> 00:18:39,400
+roadmap make sense to you guys?
+
+836
+00:18:39,410 --> 00:18:40,630
+That seemed like a logical next
+
+837
+00:18:40,630 --> 00:18:41,849
+step based on where you guys are
+
+838
+00:18:41,849 --> 00:18:42,160
+at.
+
+839
+00:18:42,160 --> 00:18:43,380
+Cool.
+
+840
+00:18:43,380 --> 00:18:45,099
+Once, once again,
+
+841
+00:18:45,109 --> 00:18:46,680
+this is very important when you're
+
+842
+00:18:46,680 --> 00:18:48,079
+selling to a prospect that has a
+
+843
+00:18:48,079 --> 00:18:49,500
+number of different problems
+
+844
+00:18:49,509 --> 00:18:50,589
+because all the problems aren't
+
+845
+00:18:50,599 --> 00:18:51,579
+going to be solved at once.
+
+846
+00:18:51,579 --> 00:18:52,720
+And if you tell them they are,
+
+847
+00:18:52,789 --> 00:18:53,549
+they're just going to be like,
+
+848
+00:18:53,549 --> 00:18:54,369
+okay, this guy's selling snake
+
+849
+00:18:54,369 --> 00:18:54,569
+oil.
+
+850
+00:18:54,589 --> 00:18:55,640
+I just don't believe
+
+851
+00:18:55,650 --> 00:18:55,920
+it.
+
+852
+00:18:56,160 --> 00:18:57,380
+Where if we can sell them on that
+
+853
+00:18:57,390 --> 00:18:58,859
+first next step, if we can show
+
+854
+00:18:58,859 --> 00:19:00,329
+them those first quick wins,
+
+855
+00:19:00,390 --> 00:19:01,450
+that's when we can get them to
+
+856
+00:19:01,450 --> 00:19:02,650
+actually start thinking about
+
+857
+00:19:02,650 --> 00:19:03,539
+buying on the call.
+
+858
+00:19:03,549 --> 00:19:05,119
+Now, next, we're going to want to
+
+859
+00:19:05,119 --> 00:19:06,430
+make sure that they are clear
+
+860
+00:19:06,430 --> 00:19:07,500
+about the process.
+
+861
+00:19:07,509 --> 00:19:09,490
+Confused prospects don't buy.
+
+862
+00:19:09,500 --> 00:19:10,579
+I mentioned that earlier, right?
+
+863
+00:19:10,579 --> 00:19:11,349
+I tell my sales guys this
+
+864
+00:19:11,390 --> 00:19:12,180
+all the time.
+
+865
+00:19:12,329 --> 00:19:13,849
+So after pitching and before
+
+866
+00:19:13,849 --> 00:19:15,549
+closing, ask them if they have any
+
+867
+00:19:15,549 --> 00:19:16,400
+questions about the
+
+868
+00:19:16,410 --> 00:19:17,460
+process specifically.
+
+869
+00:19:17,460 --> 00:19:18,849
+And how they feel about the
+
+870
+00:19:18,849 --> 00:19:20,250
+process specifically.
+
+871
+00:19:20,279 --> 00:19:22,400
+Because they could believe that it
+
+872
+00:19:22,410 --> 00:19:22,880
+would work.
+
+873
+00:19:22,940 --> 00:19:23,960
+But if they don't believe that it
+
+874
+00:19:23,960 --> 00:19:25,130
+would work for them, it literally
+
+875
+00:19:25,130 --> 00:19:25,880
+doesn't matter.
+
+876
+00:19:25,890 --> 00:19:27,430
+And it's also important to allow
+
+877
+00:19:27,430 --> 00:19:28,819
+space for dumb questions.
+
+878
+00:19:28,819 --> 00:19:30,569
+Because once again, they're trying
+
+879
+00:19:30,589 --> 00:19:31,880
+to think of how it would work for
+
+880
+00:19:31,880 --> 00:19:32,230
+them.
+
+881
+00:19:32,230 --> 00:19:33,539
+They may have a dumb question or
+
+882
+00:19:33,539 --> 00:19:33,829
+two.
+
+883
+00:19:33,829 --> 00:19:34,819
+And I'm only calling
+
+884
+00:19:34,829 --> 00:19:35,849
+them dumb questions because
+
+885
+00:19:35,849 --> 00:19:36,930
+they're going to seem dumb to the
+
+886
+00:19:36,990 --> 00:19:38,140
+person that runs the offer.
+
+887
+00:19:38,140 --> 00:19:38,890
+That is a
+
+888
+00:19:38,910 --> 00:19:39,890
+cold email expert.
+
+889
+00:19:39,890 --> 00:19:41,410
+That is a Facebook ads expert.
+
+890
+00:19:41,420 --> 00:19:44,390
+But a lot of times it's just stuff
+
+891
+00:19:44,390 --> 00:19:45,099
+like,
+
+892
+00:19:45,109 --> 00:19:46,299
+hey, you know, why do we need to
+
+893
+00:19:46,299 --> 00:19:47,430
+set up extra domains again?
+
+894
+00:19:47,430 --> 00:19:48,740
+What are the domain names going to
+
+895
+00:19:48,740 --> 00:19:48,920
+look
+
+896
+00:19:48,920 --> 00:19:50,710
+like or for paid ads?
+
+897
+00:19:50,710 --> 00:19:53,240
+Like, okay, so wait, how do we
+
+898
+00:19:53,240 --> 00:19:55,420
+actually film the videos?
+
+899
+00:19:55,480 --> 00:19:56,779
+Do I need like a setup?
+
+900
+00:19:56,789 --> 00:19:58,079
+Do I need certain software?
+
+901
+00:19:58,079 --> 00:19:58,490
+Right?
+
+902
+00:19:58,490 --> 00:19:59,849
+It could seem insignificant or
+
+903
+00:19:59,849 --> 00:20:01,200
+like low stakes question.
+
+904
+00:20:01,200 --> 00:20:01,690
+But if
+
+905
+00:20:01,710 --> 00:20:02,920
+they can't get that out of the
+
+906
+00:20:02,920 --> 00:20:04,299
+back of their head, they're not
+
+907
+00:20:04,309 --> 00:20:06,059
+going to be able to visualize how
+
+908
+00:20:06,059 --> 00:20:06,279
+this
+
+909
+00:20:06,289 --> 00:20:07,369
+is actually going to work for
+
+910
+00:20:07,380 --> 00:20:07,700
+them.
+
+911
+00:20:07,700 --> 00:20:08,789
+And it's also just going to be
+
+912
+00:20:08,789 --> 00:20:10,000
+gnawing at them in the back of
+
+913
+00:20:10,000 --> 00:20:10,079
+their
+
+914
+00:20:10,089 --> 00:20:11,440
+head to the point where it will
+
+915
+00:20:11,440 --> 00:20:13,069
+actually prevent them from closing
+
+916
+00:20:13,069 --> 00:20:14,480
+if they don't get all of those
+
+917
+00:20:14,630 --> 00:20:15,279
+questions out.
+
+918
+00:20:15,440 --> 00:20:15,940
+Right?
+
+919
+00:20:15,940 --> 00:20:17,180
+So we check in on that.
+
+920
+00:20:17,180 --> 00:20:17,619
+Cool.
+
+921
+00:20:17,619 --> 00:20:19,170
+The next thing we want to do,
+
+922
+00:20:19,230 --> 00:20:20,200
+because at this point
+
+923
+00:20:20,210 --> 00:20:22,480
+they are sold on the concept, you
+
+924
+00:20:22,480 --> 00:20:24,359
+know, we kind of introduce
+
+925
+00:20:24,359 --> 00:20:26,329
+ourselves as a solution that
+
+926
+00:20:26,329 --> 00:20:26,990
+solves the
+
+927
+00:20:27,059 --> 00:20:28,559
+problem that we tell them exactly
+
+928
+00:20:28,559 --> 00:20:30,049
+how we actually solve the problem
+
+929
+00:20:30,089 --> 00:20:31,700
+with the three or four point pitch
+
+930
+00:20:31,710 --> 00:20:33,000
+that talks about how we deliver
+
+931
+00:20:33,000 --> 00:20:34,400
+these results, showing them the
+
+932
+00:20:34,400 --> 00:20:35,740
+diagram, kind of showing them
+
+933
+00:20:35,750 --> 00:20:37,319
+what the next steps look like and,
+
+934
+00:20:37,319 --> 00:20:38,890
+you know, lay out those quick wins
+
+935
+00:20:38,890 --> 00:20:40,380
+and reduce friction for the next
+
+936
+00:20:40,390 --> 00:20:41,809
+30 to 90 days, making sure that it
+
+937
+00:20:41,829 --> 00:20:42,900
+seems like a logical next step for
+
+938
+00:20:42,940 --> 00:20:43,630
+their business.
+
+939
+00:20:43,650 --> 00:20:44,950
+Then we make sure they're clear on
+
+940
+00:20:44,950 --> 00:20:45,589
+the process.
+
+941
+00:20:45,589 --> 00:20:48,990
+So they should be, let's say 80%
+
+942
+00:20:49,029 --> 00:20:50,319
+away there at this
+
+943
+00:20:50,329 --> 00:20:50,829
+point.
+
+944
+00:20:50,859 --> 00:20:52,599
+Now it's important because we've
+
+945
+00:20:52,630 --> 00:20:55,009
+been talking for 20, 25 minutes at
+
+946
+00:20:55,029 --> 00:20:56,549
+this point in the sales call
+
+947
+00:20:56,569 --> 00:20:58,779
+to make sure that they don't lose
+
+948
+00:20:58,779 --> 00:21:00,750
+sight of the fact that this is
+
+949
+00:21:00,750 --> 00:21:03,000
+going to get them to their goals.
+
+950
+00:21:03,000 --> 00:21:04,349
+Because a lot of information has
+
+951
+00:21:04,349 --> 00:21:04,990
+been shared.
+
+952
+00:21:05,000 --> 00:21:06,349
+You're probably talking a lot at
+
+953
+00:21:06,349 --> 00:21:07,000
+this point.
+
+954
+00:21:07,269 --> 00:21:08,609
+They're probably a little tired at
+
+955
+00:21:08,609 --> 00:21:09,170
+this point.
+
+956
+00:21:09,170 --> 00:21:10,329
+It's important that we kind of
+
+957
+00:21:10,329 --> 00:21:11,079
+zoom out a little
+
+958
+00:21:11,089 --> 00:21:13,019
+bit and go back to relating this
+
+959
+00:21:13,019 --> 00:21:15,589
+from, Hey, this is all to get you
+
+960
+00:21:15,589 --> 00:21:17,819
+from point A to point B.
+
+961
+00:21:17,829 --> 00:21:19,019
+And you guys need to have
+
+962
+00:21:19,019 --> 00:21:20,900
+something that can show them this,
+
+963
+00:21:20,900 --> 00:21:21,480
+right?
+
+964
+00:21:21,480 --> 00:21:24,000
+So common examples of just like
+
+965
+00:21:24,009 --> 00:21:25,559
+summarizing and value stacking, as
+
+966
+00:21:25,559 --> 00:21:26,900
+I call it, you guys can use an ROI
+
+967
+00:21:26,900 --> 00:21:27,660
+calculator.
+
+968
+00:21:27,660 --> 00:21:29,059
+So these things are
+
+969
+00:21:29,130 --> 00:21:30,640
+so stupid, easy to make now for
+
+970
+00:21:30,640 --> 00:21:30,910
+AI.
+
+971
+00:21:30,930 --> 00:21:32,390
+I was just messing around with
+
+972
+00:21:32,390 --> 00:21:34,619
+this a little bit ago, but this
+
+973
+00:21:34,619 --> 00:21:35,220
+was the
+
+974
+00:21:35,230 --> 00:21:35,990
+prompt that I gave it.
+
+975
+00:21:36,019 --> 00:21:37,210
+And this isn't a special prompt.
+
+976
+00:21:37,210 --> 00:21:38,490
+Once again, I just kind of drew
+
+977
+00:21:38,490 --> 00:21:38,980
+this up
+
+978
+00:21:38,990 --> 00:21:40,109
+before we started this video.
+
+979
+00:21:40,109 --> 00:21:41,059
+My offer is called email.
+
+980
+00:21:41,059 --> 00:21:42,140
+My packages allow customers to
+
+981
+00:21:42,150 --> 00:21:43,019
+send out 20,000
+
+982
+00:21:43,029 --> 00:21:44,710
+emails a month, 40,000 emails a
+
+983
+00:21:44,710 --> 00:21:46,529
+month, or 60,000 emails a month.
+
+984
+00:21:46,529 --> 00:21:47,920
+The cost is this for this, this
+
+985
+00:21:47,920 --> 00:21:48,049
+for
+
+986
+00:21:48,069 --> 00:21:49,150
+that, this for that.
+
+987
+00:21:49,160 --> 00:21:51,119
+Let's make the 20,000 emails a
+
+988
+00:21:51,119 --> 00:21:52,890
+month package called starter 40 K
+
+989
+00:21:52,890 --> 00:21:53,539
+email a month
+
+990
+00:21:53,539 --> 00:21:55,039
+package called pro in the 60 K
+
+991
+00:21:55,039 --> 00:21:56,430
+emails a month called expert in
+
+992
+00:21:56,430 --> 00:21:57,819
+terms of average results.
+
+993
+00:21:57,819 --> 00:21:58,440
+I kind of laid out
+
+994
+00:21:58,450 --> 00:21:59,910
+what the average client would see.
+
+995
+00:21:59,910 --> 00:22:01,130
+And once again, like plug in,
+
+996
+00:22:01,130 --> 00:22:02,349
+whatever your numbers are,
+
+997
+00:22:02,369 --> 00:22:04,529
+those are the leads, uh, those 20
+
+998
+00:22:04,529 --> 00:22:06,400
+positive replies, uh, of those
+
+999
+00:22:06,400 --> 00:22:07,680
+leads, the clients typically
+
+1000
+00:22:07,680 --> 00:22:08,019
+convert
+
+1001
+00:22:08,029 --> 00:22:09,410
+40% of them in the book calls.
+
+1002
+00:22:09,410 --> 00:22:10,779
+So the client that gets 20 leads
+
+1003
+00:22:10,829 --> 00:22:12,319
+usually gets eight book calls from
+
+1004
+00:22:12,329 --> 00:22:13,279
+the eight calls booked.
+
+1005
+00:22:13,289 --> 00:22:14,450
+I want the prospect, the person
+
+1006
+00:22:14,490 --> 00:22:15,759
+using the calculator to enter in
+
+1007
+00:22:15,759 --> 00:22:16,099
+the close
+
+1008
+00:22:16,109 --> 00:22:16,779
+rate and LTV.
+
+1009
+00:22:16,779 --> 00:22:18,269
+If the close rate is 25%, for
+
+1010
+00:22:18,279 --> 00:22:19,829
+example, the client would get two
+
+1011
+00:22:19,829 --> 00:22:20,660
+new clients.
+
+1012
+00:22:20,660 --> 00:22:21,440
+If their LTV
+
+1013
+00:22:21,450 --> 00:22:23,089
+is 10,000, then return, uh, on
+
+1014
+00:22:23,089 --> 00:22:24,869
+that investment would be 20,000.
+
+1015
+00:22:24,869 --> 00:22:25,920
+We need a calculator.
+
+1016
+00:22:25,920 --> 00:22:27,220
+Uh, you know,
+
+1017
+00:22:27,230 --> 00:22:28,220
+we need to calculate the ROI from
+
+1018
+00:22:28,220 --> 00:22:28,480
+here.
+
+1019
+00:22:28,480 --> 00:22:29,670
+Could you create this calculator?
+
+1020
+00:22:29,670 --> 00:22:30,960
+Literally took me five
+
+1021
+00:22:30,970 --> 00:22:31,369
+seconds.
+
+1022
+00:22:31,490 --> 00:22:32,490
+Asked, you know, is that good to
+
+1023
+00:22:32,490 --> 00:22:32,690
+go?
+
+1024
+00:22:32,690 --> 00:22:33,619
+I said, yeah, perfect.
+
+1025
+00:22:33,619 --> 00:22:34,380
+Let's build it.
+
+1026
+00:22:34,380 --> 00:22:34,859
+And you can
+
+1027
+00:22:34,859 --> 00:22:36,240
+already see this thing is built
+
+1028
+00:22:36,240 --> 00:22:36,880
+right here.
+
+1029
+00:22:36,880 --> 00:22:38,359
+So I click the starter package.
+
+1030
+00:22:38,359 --> 00:22:39,769
+Let's say I have a 25%
+
+1031
+00:22:39,930 --> 00:22:44,130
+close rate and a, you know, four
+
+1032
+00:22:44,130 --> 00:22:47,500
+or five Oh LTV right away.
+
+1033
+00:22:47,500 --> 00:22:50,859
+I'm going to be able to see, okay,
+
+1034
+00:22:50,869 --> 00:22:52,960
+there's a 3.5 X on my investment.
+
+1035
+00:22:52,960 --> 00:22:54,460
+Let's see if I could do this.
+
+1036
+00:22:54,460 --> 00:22:55,920
+I go to the bigger package.
+
+1037
+00:22:55,990 --> 00:22:56,339
+Guess
+
+1038
+00:22:56,349 --> 00:22:56,650
+what?
+
+1039
+00:22:56,650 --> 00:22:57,670
+I'm going to see a bigger one
+
+1040
+00:22:57,670 --> 00:22:58,849
+because the pricing sales with
+
+1041
+00:22:58,849 --> 00:22:59,569
+volume, right?
+
+1042
+00:22:59,569 --> 00:23:00,359
+And you can ask
+
+1043
+00:23:00,369 --> 00:23:01,650
+it and have it make quick
+
+1044
+00:23:01,650 --> 00:23:02,549
+adjustments.
+
+1045
+00:23:02,549 --> 00:23:04,269
+So like just real quick, um, it
+
+1046
+00:23:04,289 --> 00:23:05,599
+kind of shows the breakdown
+
+1047
+00:23:05,599 --> 00:23:08,309
+here, the conversion, the funnel
+
+1048
+00:23:08,309 --> 00:23:09,930
+to net new clients.
+
+1049
+00:23:09,930 --> 00:23:12,380
+Um, let's just say, can we also
+
+1050
+00:23:12,460 --> 00:23:15,779
+show the
+
+1051
+00:23:15,970 --> 00:23:21,559
+returns they would see in cash
+
+1052
+00:23:21,559 --> 00:23:27,309
+value month over month for six
+
+1053
+00:23:27,309 --> 00:23:29,400
+months.
+
+1054
+00:23:30,369 --> 00:23:32,710
+And you can see, this is already
+
+1055
+00:23:32,710 --> 00:23:33,319
+done.
+
+1056
+00:23:33,319 --> 00:23:35,710
+I just re-entered the numbers.
+
+1057
+00:23:35,750 --> 00:23:36,960
+25% close rate,
+
+1058
+00:23:36,970 --> 00:23:39,299
+$4,500 lifetime value here.
+
+1059
+00:23:39,299 --> 00:23:41,119
+Uh, they can see this look month
+
+1060
+00:23:41,119 --> 00:23:43,019
+one, month two, month three,
+
+1061
+00:23:43,029 --> 00:23:44,809
+month four, month five, month six.
+
+1062
+00:23:44,849 --> 00:23:45,220
+Cool.
+
+1063
+00:23:45,220 --> 00:23:47,319
+12,000 invested in the first six
+
+1064
+00:23:47,319 --> 00:23:49,019
+months, 42,000 collected,
+
+1065
+00:23:49,029 --> 00:23:49,670
+right?
+
+1066
+00:23:49,670 --> 00:23:51,210
+Super, super easy.
+
+1067
+00:23:51,210 --> 00:23:52,980
+It's, uh, it's crazy.
+
+1068
+00:23:52,980 --> 00:23:55,500
+Anyways, um, going back to this,
+
+1069
+00:23:55,509 --> 00:23:57,490
+once we do that, once we can paint
+
+1070
+00:23:57,500 --> 00:23:59,549
+the ROI, obviously we're going to
+
+1071
+00:23:59,559 --> 00:24:00,190
+have some
+
+1072
+00:24:00,250 --> 00:24:01,009
+sort of interaction.
+
+1073
+00:24:01,039 --> 00:24:01,730
+Hey, cool, man.
+
+1074
+00:24:01,730 --> 00:24:02,829
+All this make it sense to you.
+
+1075
+00:24:02,829 --> 00:24:04,089
+Yep.
+
+1076
+00:24:04,119 --> 00:24:05,279
+Any questions on this,
+
+1077
+00:24:05,289 --> 00:24:06,480
+on the calculator, on this?
+
+1078
+00:24:06,480 --> 00:24:07,769
+And let's talk about other things
+
+1079
+00:24:07,769 --> 00:24:09,019
+outside of the calculator.
+
+1080
+00:24:09,029 --> 00:24:10,269
+You can just, at this point,
+
+1081
+00:24:10,269 --> 00:24:11,519
+remind them of results-based
+
+1082
+00:24:11,519 --> 00:24:13,950
+guarantee, a risk reversal price
+
+1083
+00:24:13,960 --> 00:24:15,009
+anchoring.
+
+1084
+00:24:15,009 --> 00:24:17,430
+A good example of this is like, if
+
+1085
+00:24:17,430 --> 00:24:19,960
+you have a super deliverable heavy
+
+1086
+00:24:19,960 --> 00:24:20,680
+offer,
+
+1087
+00:24:20,690 --> 00:24:21,910
+let's say you're doing like video
+
+1088
+00:24:21,910 --> 00:24:22,470
+production.
+
+1089
+00:24:22,509 --> 00:24:23,579
+And with all the stuff that you
+
+1090
+00:24:23,589 --> 00:24:24,299
+do, if they want to
+
+1091
+00:24:24,309 --> 00:24:26,329
+hire in-house people for that, we
+
+1092
+00:24:26,329 --> 00:24:28,349
+can essentially use a price anchor
+
+1093
+00:24:28,359 --> 00:24:29,460
+of like, Hey, this would
+
+1094
+00:24:29,460 --> 00:24:29,880
+typically,
+
+1095
+00:24:30,130 --> 00:24:31,109
+if you wanted to have a
+
+1096
+00:24:31,109 --> 00:24:32,630
+videographer or somebody to come
+
+1097
+00:24:32,700 --> 00:24:34,099
+out and do this and that it would
+
+1098
+00:24:34,099 --> 00:24:34,380
+cost you
+
+1099
+00:24:34,529 --> 00:24:36,410
+usually anywhere from eight to 10
+
+1100
+00:24:36,410 --> 00:24:37,480
+K a month, right?
+
+1101
+00:24:37,480 --> 00:24:39,240
+We only charge three K a month,
+
+1102
+00:24:39,240 --> 00:24:40,099
+right?
+
+1103
+00:24:40,109 --> 00:24:41,690
+And here's what our clients see on
+
+1104
+00:24:41,690 --> 00:24:43,039
+average in terms of views.
+
+1105
+00:24:43,039 --> 00:24:44,640
+Here's what it translates into
+
+1106
+00:24:44,640 --> 00:24:44,960
+dollars
+
+1107
+00:24:44,970 --> 00:24:46,369
+and cents, blah, blah, blah, blah,
+
+1108
+00:24:46,369 --> 00:24:46,950
+blah, right?
+
+1109
+00:24:46,950 --> 00:24:48,059
+ROI calculator is going to be the
+
+1110
+00:24:48,059 --> 00:24:49,200
+most obvious way
+
+1111
+00:24:49,210 --> 00:24:49,660
+to use it.
+
+1112
+00:24:49,740 --> 00:24:50,900
+But once again, you can use it in
+
+1113
+00:24:50,900 --> 00:24:52,049
+a number of different ways.
+
+1114
+00:24:52,049 --> 00:24:53,220
+After that, after we show
+
+1115
+00:24:53,230 --> 00:24:55,130
+them the ROI, it's going to be
+
+1116
+00:24:55,130 --> 00:24:57,369
+pretty clear that, you know, the
+
+1117
+00:24:57,369 --> 00:24:59,619
+numbers point to them doing it,
+
+1118
+00:24:59,619 --> 00:25:00,009
+but we
+
+1119
+00:25:00,069 --> 00:25:01,710
+still don't know if they actually
+
+1120
+00:25:01,710 --> 00:25:03,190
+believe that it would play out
+
+1121
+00:25:03,190 --> 00:25:03,839
+that way.
+
+1122
+00:25:03,839 --> 00:25:06,039
+So the next question is
+
+1123
+00:25:06,190 --> 00:25:07,539
+typically just a no good reason
+
+1124
+00:25:07,539 --> 00:25:09,029
+tie down as I call it, which is,
+
+1125
+00:25:09,069 --> 00:25:10,680
+Hey, do you see any reason this
+
+1126
+00:25:10,680 --> 00:25:10,920
+wouldn't
+
+1127
+00:25:10,930 --> 00:25:12,029
+work out for you?
+
+1128
+00:25:12,029 --> 00:25:12,579
+Right?
+
+1129
+00:25:12,579 --> 00:25:14,529
+So if I'm showing this calculator
+
+1130
+00:25:14,529 --> 00:25:16,450
+or this calculator right here,
+
+1131
+00:25:16,500 --> 00:25:17,710
+Hey, do you
+
+1132
+00:25:17,769 --> 00:25:19,769
+see any reason you want to be able
+
+1133
+00:25:19,769 --> 00:25:21,829
+to see that 3.5 X that we're
+
+1134
+00:25:21,839 --> 00:25:22,789
+projecting?
+
+1135
+00:25:22,819 --> 00:25:23,680
+Do you see any reason
+
+1136
+00:25:23,690 --> 00:25:25,589
+you want to be able to get those
+
+1137
+00:25:25,589 --> 00:25:28,049
+10 new calls that you were looking
+
+1138
+00:25:28,049 --> 00:25:29,700
+for each month, right?
+
+1139
+00:25:29,700 --> 00:25:30,039
+Whatever
+
+1140
+00:25:30,049 --> 00:25:31,240
+that goal is, do you see any
+
+1141
+00:25:31,240 --> 00:25:32,440
+reason you want to be able to
+
+1142
+00:25:32,440 --> 00:25:33,539
+achieve X, Y, Z goal?
+
+1143
+00:25:33,539 --> 00:25:34,500
+If they can't think
+
+1144
+00:25:34,509 --> 00:25:37,099
+of one, they're mentally going to
+
+1145
+00:25:37,109 --> 00:25:39,450
+default to no, which is a yes,
+
+1146
+00:25:39,450 --> 00:25:40,170
+right?
+
+1147
+00:25:40,170 --> 00:25:41,819
+So let me change that real
+
+1148
+00:25:41,970 --> 00:25:43,180
+quick.
+
+1149
+00:25:43,180 --> 00:25:48,589
+No, which is a yes for us, right?
+
+1150
+00:25:48,599 --> 00:25:53,160
+This is a powerful way to close
+
+1151
+00:25:53,160 --> 00:25:56,579
+without pressure.
+
+1152
+00:25:56,579 --> 00:25:57,170
+Obviously
+
+1153
+00:25:57,190 --> 00:25:58,650
+the deal is not closed yet, but at
+
+1154
+00:25:58,650 --> 00:26:00,029
+this point it makes sense to get
+
+1155
+00:26:00,029 --> 00:26:01,700
+into the investment next steps and
+
+1156
+00:26:01,710 --> 00:26:03,079
+then obviously make that first ask
+
+1157
+00:26:03,079 --> 00:26:03,690
+for the sale.
+
+1158
+00:26:03,690 --> 00:26:05,049
+So then once again, we're going to
+
+1159
+00:26:05,049 --> 00:26:05,700
+want to relate
+
+1160
+00:26:05,710 --> 00:26:07,579
+the investment, not the price back
+
+1161
+00:26:07,579 --> 00:26:09,029
+to the end result and say the
+
+1162
+00:26:09,029 --> 00:26:10,390
+number and then pause.
+
+1163
+00:26:10,410 --> 00:26:11,720
+I'm not
+
+1164
+00:26:11,730 --> 00:26:12,859
+a big proponent of pausing and
+
+1165
+00:26:12,890 --> 00:26:14,130
+having a ton of awkward silence
+
+1166
+00:26:14,130 --> 00:26:15,420
+that just builds up and make it
+
+1167
+00:26:15,420 --> 00:26:15,630
+makes
+
+1168
+00:26:15,670 --> 00:26:16,329
+it awkward.
+
+1169
+00:26:16,329 --> 00:26:17,650
+So if there's a bit of awkward
+
+1170
+00:26:17,660 --> 00:26:19,380
+silence, I just ask them, Hey, you
+
+1171
+00:26:19,380 --> 00:26:20,440
+know, all right.
+
+1172
+00:26:20,450 --> 00:26:20,720
+So let's
+
+1173
+00:26:20,769 --> 00:26:21,900
+just go through this.
+
+1174
+00:26:21,930 --> 00:26:22,859
+Um, okay, cool.
+
+1175
+00:26:22,859 --> 00:26:24,569
+And for all that investments, just
+
+1176
+00:26:24,569 --> 00:26:28,109
+$10,000 guys say sound.
+
+1177
+00:26:28,119 --> 00:26:28,720
+Okay,
+
+1178
+00:26:28,730 --> 00:26:29,470
+cool, man.
+
+1179
+00:26:29,470 --> 00:26:29,910
+Yeah.
+
+1180
+00:26:29,910 --> 00:26:31,650
+I'm curious to hear if this aligns
+
+1181
+00:26:31,650 --> 00:26:34,319
+with what you're able to invest to
+
+1182
+00:26:34,319 --> 00:26:35,380
+get to 20 calls
+
+1183
+00:26:35,380 --> 00:26:35,680
+a month.
+
+1184
+00:26:35,920 --> 00:26:36,779
+All right.
+
+1185
+00:26:36,779 --> 00:26:39,279
+The reason why I like that, as
+
+1186
+00:26:39,279 --> 00:26:41,680
+opposed to how are we feeling
+
+1187
+00:26:41,680 --> 00:26:43,519
+about the investment?
+
+1188
+00:26:43,529 --> 00:26:44,599
+Cause people could feel a number
+
+1189
+00:26:44,599 --> 00:26:45,309
+of different ways.
+
+1190
+00:26:45,349 --> 00:26:47,220
+Really what matters is, Hey, does
+
+1191
+00:26:47,230 --> 00:26:48,519
+this align with
+
+1192
+00:26:48,529 --> 00:26:49,950
+what they're able to invest to get
+
+1193
+00:26:49,970 --> 00:26:50,769
+to X, Y, Z goal?
+
+1194
+00:26:50,769 --> 00:26:52,369
+So once again, we're, we're, we're
+
+1195
+00:26:52,400 --> 00:26:53,210
+using that term
+
+1196
+00:26:53,369 --> 00:26:55,559
+investment as opposed to pay or
+
+1197
+00:26:55,559 --> 00:26:57,730
+swing to get to their goal.
+
+1198
+00:26:57,730 --> 00:26:59,880
+We want to constantly remind them
+
+1199
+00:26:59,880 --> 00:27:00,009
+that
+
+1200
+00:27:00,089 --> 00:27:01,970
+the goal of this investment is to
+
+1201
+00:27:01,970 --> 00:27:03,990
+get them to their goal, because if
+
+1202
+00:27:04,019 --> 00:27:05,420
+they're looking at it through
+
+1203
+00:27:05,470 --> 00:27:05,609
+their
+
+1204
+00:27:05,630 --> 00:27:07,630
+lens, obviously it's going to be a
+
+1205
+00:27:07,630 --> 00:27:08,869
+lot more valuable.
+
+1206
+00:27:08,869 --> 00:27:10,759
+And it's very important that you
+
+1207
+00:27:10,759 --> 00:27:11,779
+are cool, calm, and
+
+1208
+00:27:11,930 --> 00:27:13,089
+confident at this point.
+
+1209
+00:27:13,089 --> 00:27:14,380
+Cause we just asked them for
+
+1210
+00:27:14,390 --> 00:27:15,230
+money, right?
+
+1211
+00:27:15,230 --> 00:27:16,980
+So they're naturally going to be a
+
+1212
+00:27:16,980 --> 00:27:17,079
+little
+
+1213
+00:27:17,079 --> 00:27:19,109
+weird and finicky and just like,
+
+1214
+00:27:19,109 --> 00:27:20,900
+we want to be just like, we've
+
+1215
+00:27:20,900 --> 00:27:22,920
+been there a hundred times before.
+
+1216
+00:27:23,069 --> 00:27:24,099
+Right.
+
+1217
+00:27:24,099 --> 00:27:25,519
+So when I go through this in
+
+1218
+00:27:25,529 --> 00:27:27,289
+reality, it's yeah, it's just
+
+1219
+00:27:27,289 --> 00:27:28,740
+$10,000.
+
+1220
+00:27:28,890 --> 00:27:33,220
+Cool, man.
+
+1221
+00:27:33,220 --> 00:27:34,319
+Yeah.
+
+1222
+00:27:34,319 --> 00:27:35,329
+Curious to hear if this aligns
+
+1223
+00:27:35,329 --> 00:27:36,420
+with what we're able to invest to
+
+1224
+00:27:36,420 --> 00:27:36,740
+get to
+
+1225
+00:27:36,750 --> 00:27:38,759
+50,000 followers on Instagram.
+
+1226
+00:27:38,759 --> 00:27:43,420
+Once again, I'm not freaking out.
+
+1227
+00:27:43,420 --> 00:27:44,750
+I'm not seeming needy because
+
+1228
+00:27:44,809 --> 00:27:45,490
+then they're going to smell
+
+1229
+00:27:45,490 --> 00:27:46,509
+commission, commission breath, and
+
+1230
+00:27:46,509 --> 00:27:47,480
+nobody likes to smell commission
+
+1231
+00:27:47,490 --> 00:27:47,990
+breath.
+
+1232
+00:27:48,019 --> 00:27:49,349
+I'm just acting very calm and
+
+1233
+00:27:49,349 --> 00:27:50,480
+casual at this point.
+
+1234
+00:27:50,480 --> 00:27:51,869
+I'm not acting, even if it is a
+
+1235
+00:27:51,869 --> 00:27:52,170
+big
+
+1236
+00:27:52,190 --> 00:27:53,640
+number, I'm not acting like it is
+
+1237
+00:27:53,640 --> 00:27:54,380
+a huge number.
+
+1238
+00:27:54,380 --> 00:27:55,809
+Now, obviously if they also act
+
+1239
+00:27:55,809 --> 00:27:56,819
+like it's a giant,
+
+1240
+00:27:56,829 --> 00:27:58,049
+giant number, want to call that
+
+1241
+00:27:58,049 --> 00:27:59,099
+out and be able to start that
+
+1242
+00:27:59,099 --> 00:28:00,519
+conversation, that dialogue about
+
+1243
+00:28:00,519 --> 00:28:00,930
+that.
+
+1244
+00:28:00,950 --> 00:28:02,549
+But if they're all good, if it, if
+
+1245
+00:28:02,549 --> 00:28:04,000
+it seems like it's making sense
+
+1246
+00:28:04,000 --> 00:28:04,599
+for them,
+
+1247
+00:28:04,690 --> 00:28:05,490
+I'm going to lay out the next
+
+1248
+00:28:05,630 --> 00:28:06,630
+steps and then I'm going to make
+
+1249
+00:28:06,640 --> 00:28:07,670
+my first S, right?
+
+1250
+00:28:07,670 --> 00:28:08,460
+So cool,
+
+1251
+00:28:08,470 --> 00:28:08,660
+man.
+
+1252
+00:28:08,970 --> 00:28:09,549
+Typically what happens at this
+
+1253
+00:28:09,559 --> 00:28:10,339
+point, you'll process the
+
+1254
+00:28:10,339 --> 00:28:11,069
+investment with me.
+
+1255
+00:28:11,079 --> 00:28:11,880
+I'll get you over
+
+1256
+00:28:11,890 --> 00:28:12,619
+an onboarding form and a
+
+1257
+00:28:12,619 --> 00:28:13,740
+scheduling link, and we'll be able
+
+1258
+00:28:13,740 --> 00:28:14,920
+to get started in the process.
+
+1259
+00:28:14,920 --> 00:28:15,259
+So we should
+
+1260
+00:28:15,269 --> 00:28:16,759
+be able to have that system built
+
+1261
+00:28:16,759 --> 00:28:18,259
+up for you in a couple of weeks.
+
+1262
+00:28:18,289 --> 00:28:19,480
+Ready to get started.
+
+1263
+00:28:19,480 --> 00:28:20,609
+And it's
+
+1264
+00:28:20,630 --> 00:28:21,430
+just that easy, right?
+
+1265
+00:28:21,569 --> 00:28:22,700
+A lot of people ask like, what's
+
+1266
+00:28:22,700 --> 00:28:23,480
+your closing line?
+
+1267
+00:28:23,480 --> 00:28:24,259
+What do you say?
+
+1268
+00:28:24,259 --> 00:28:24,480
+Like,
+
+1269
+00:28:24,490 --> 00:28:25,619
+don't overthink it.
+
+1270
+00:28:25,650 --> 00:28:27,210
+Like if we've built up the pitch
+
+1271
+00:28:27,210 --> 00:28:28,960
+up to this point, using the same
+
+1272
+00:28:28,960 --> 00:28:29,460
+architecture,
+
+1273
+00:28:29,470 --> 00:28:30,930
+all you need is ready to get
+
+1274
+00:28:30,930 --> 00:28:31,569
+started.
+
+1275
+00:28:31,640 --> 00:28:33,549
+And once again, tonality is super
+
+1276
+00:28:33,559 --> 00:28:34,490
+important.
+
+1277
+00:28:34,630 --> 00:28:35,579
+right here.
+
+1278
+00:28:35,589 --> 00:28:37,140
+Like your tone should be
+
+1279
+00:28:37,200 --> 00:28:39,549
+reflecting that you expect them to
+
+1280
+00:28:39,549 --> 00:28:40,380
+say yes.
+
+1281
+00:28:40,529 --> 00:28:42,599
+Right?
+
+1282
+00:28:42,599 --> 00:28:45,329
+Like your tone should be like,
+
+1283
+00:28:45,329 --> 00:28:47,829
+Hey, I'm so cool and calm.
+
+1284
+00:28:47,829 --> 00:28:50,500
+And I'm just asking it in such a
+
+1285
+00:28:50,529 --> 00:28:52,710
+casual matter of fact way, because
+
+1286
+00:28:52,710 --> 00:28:54,660
+my service is so good that this is
+
+1287
+00:28:54,660 --> 00:28:56,619
+just natural that people do at
+
+1288
+00:28:56,630 --> 00:28:57,240
+this point.
+
+1289
+00:28:57,240 --> 00:28:58,559
+I'm not being like, what do you
+
+1290
+00:28:58,569 --> 00:28:58,980
+think?
+
+1291
+00:28:58,980 --> 00:29:00,470
+You're ready to take a chance.
+
+1292
+00:29:00,500 --> 00:29:01,079
+You're ready to go.
+
+1293
+00:29:01,089 --> 00:29:02,869
+It's just like, ready to get
+
+1294
+00:29:02,910 --> 00:29:03,599
+started.
+
+1295
+00:29:03,660 --> 00:29:04,180
+Cool.
+
+1296
+00:29:04,180 --> 00:29:06,230
+And then literally take payment
+
+1297
+00:29:06,230 --> 00:29:07,569
+and go from there.
+
+1298
+00:29:07,630 --> 00:29:08,299
+Right?
+
+1299
+00:29:08,299 --> 00:29:10,930
+But, but, but between us, between
+
+1300
+00:29:10,930 --> 00:29:12,950
+you and me, you should not be
+
+1301
+00:29:12,950 --> 00:29:14,299
+surprised at all.
+
+1302
+00:29:14,299 --> 00:29:15,019
+If they don't
+
+1303
+00:29:15,029 --> 00:29:15,589
+say yes.
+
+1304
+00:29:15,589 --> 00:29:16,099
+Right?
+
+1305
+00:29:16,099 --> 00:29:17,539
+If every single person was a
+
+1306
+00:29:17,549 --> 00:29:19,359
+frictionless, yes, we wouldn't
+
+1307
+00:29:19,359 --> 00:29:20,549
+have sales calls.
+
+1308
+00:29:20,849 --> 00:29:21,869
+We would just have a checkout
+
+1309
+00:29:21,869 --> 00:29:22,220
+page.
+
+1310
+00:29:22,220 --> 00:29:23,180
+Right?
+
+1311
+00:29:23,180 --> 00:29:25,339
+So when they say no, we also don't
+
+1312
+00:29:25,339 --> 00:29:25,869
+want to be rattled.
+
+1313
+00:29:25,910 --> 00:29:26,960
+We want to still have that calm,
+
+1314
+00:29:26,960 --> 00:29:27,849
+cool, collected tone.
+
+1315
+00:29:27,859 --> 00:29:28,720
+We don't want to freak out.
+
+1316
+00:29:28,730 --> 00:29:30,319
+We want to obviously dive into the
+
+1317
+00:29:30,319 --> 00:29:31,950
+next steps, which is objection
+
+1318
+00:29:31,950 --> 00:29:32,630
+handling.
+
+1319
+00:29:32,660 --> 00:29:33,960
+And we go from there.
+
+1320
+00:29:33,970 --> 00:29:35,609
+So hopefully this is value guys.
+
+1321
+00:29:35,609 --> 00:29:37,119
+Uh, like I said, this is really
+
+1322
+00:29:37,130 --> 00:29:39,019
+everything up until the first ask.
+
+1323
+00:29:39,069 --> 00:29:40,150
+And then we're going to go to what
+
+1324
+00:29:40,170 --> 00:29:41,299
+happens after that, right?
+
+1325
+00:29:41,299 --> 00:29:42,660
+The, the objection handling,
+
+1326
+00:29:42,670 --> 00:29:44,579
+how to continue to get back in the
+
+1327
+00:29:44,579 --> 00:29:46,569
+sales conversation so we can make
+
+1328
+00:29:46,589 --> 00:29:47,720
+more asks because
+
+1329
+00:29:47,789 --> 00:29:49,420
+more asks equals more sales.
+
+1330
+00:29:49,420 --> 00:29:50,369
+Pretty simple.
+
+1331
+00:29:50,369 --> 00:29:52,009
+The best sales guys are the ones
+
+1332
+00:29:52,009 --> 00:29:52,980
+who make the most
+
+1333
+00:29:52,990 --> 00:29:53,309
+asks.
+
+1334
+00:29:53,519 --> 00:29:55,039
+So if somebody doesn't go on the
+
+1335
+00:29:55,039 --> 00:29:56,829
+first ask, let's figure out how to
+
+1336
+00:29:56,859 --> 00:29:58,380
+get back to a point where
+
+1337
+00:29:58,390 --> 00:29:59,380
+yeah, it feels natural to
+
+1338
+00:29:59,380 --> 00:30:00,490
+obviously ask them for the sale
+
+1339
+00:30:00,549 --> 00:30:01,980
+again, which is obviously going to
+
+1340
+00:30:01,980 --> 00:30:02,180
+come
+
+1341
+00:30:02,190 --> 00:30:03,779
+after some objection handling.
+
+1342
+00:30:03,779 --> 00:30:05,150
+So hopefully you guys got some
+
+1343
+00:30:05,150 --> 00:30:06,160
+value out of this.
+
+1344
+00:30:06,160 --> 00:30:06,890
+Going to wrap it up here.

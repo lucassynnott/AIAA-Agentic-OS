@@ -1,0 +1,2327 @@
+1
+00:00:00,020 --> 00:00:00,740
+All right.
+
+2
+00:00:00,890 --> 00:00:02,580
+So in this video, we're going to
+
+3
+00:00:02,580 --> 00:00:04,269
+go over how to customize the
+
+4
+00:00:04,469 --> 00:00:07,099
+workflows for your
+
+5
+00:00:07,490 --> 00:00:07,629
+snapshot.
+
+6
+00:00:07,629 --> 00:00:07,839
+Okay.
+
+7
+00:00:07,980 --> 00:00:09,230
+So I wanted to keep this as simple
+
+8
+00:00:09,230 --> 00:00:10,419
+as possible and not overwhelm you
+
+9
+00:00:10,570 --> 00:00:10,919
+guys
+
+10
+00:00:10,939 --> 00:00:12,179
+with a lot of different workflows
+
+11
+00:00:12,380 --> 00:00:13,160
+and automations.
+
+12
+00:00:13,259 --> 00:00:14,589
+So these two are really the ones
+
+13
+00:00:14,589 --> 00:00:16,359
+you need when it
+
+14
+00:00:16,699 --> 00:00:18,190
+comes to starting up your agency
+
+15
+00:00:18,190 --> 00:00:20,079
+and starting to book some calls,
+
+16
+00:00:20,079 --> 00:00:20,980
+some demos.
+
+17
+00:00:20,980 --> 00:00:22,780
+So the first one is
+
+18
+00:00:22,800 --> 00:00:23,809
+going to be whenever a new lead
+
+19
+00:00:23,829 --> 00:00:24,679
+comes into the business.
+
+20
+00:00:24,789 --> 00:00:25,019
+Okay.
+
+21
+00:00:25,120 --> 00:00:26,260
+Whenever they fill out a survey
+
+22
+00:00:26,280 --> 00:00:28,079
+or a form or something like that.
+
+23
+00:00:28,079 --> 00:00:28,500
+Okay.
+
+24
+00:00:28,600 --> 00:00:30,219
+So pretty much first thing I want
+
+25
+00:00:30,219 --> 00:00:31,960
+to do is filter out the
+
+26
+00:00:32,548 --> 00:00:32,880
+triggers.
+
+27
+00:00:33,039 --> 00:00:33,380
+Okay.
+
+28
+00:00:33,429 --> 00:00:35,329
+So let me first explain how an
+
+29
+00:00:35,329 --> 00:00:37,439
+automation or a workflow is going
+
+30
+00:00:37,549 --> 00:00:38,079
+to set up,
+
+31
+00:00:38,100 --> 00:00:39,320
+and then we'll go into how to edit
+
+32
+00:00:39,729 --> 00:00:39,979
+everything.
+
+33
+00:00:40,090 --> 00:00:41,380
+So obviously there needs to be a
+
+34
+00:00:41,380 --> 00:00:43,030
+trigger to start off
+
+35
+00:00:43,119 --> 00:00:44,219
+the workflow.
+
+36
+00:00:44,219 --> 00:00:44,780
+Okay.
+
+37
+00:00:44,780 --> 00:00:47,020
+And once a trigger is triggered,
+
+38
+00:00:47,020 --> 00:00:48,799
+then everything will go into
+
+39
+00:00:49,229 --> 00:00:49,630
+place.
+
+40
+00:00:49,630 --> 00:00:51,219
+So first thing
+
+41
+00:00:51,240 --> 00:00:52,479
+you got to look at is the trigger
+
+42
+00:00:52,530 --> 00:00:53,250
+you're using.
+
+43
+00:00:53,250 --> 00:00:54,740
+So I added two, the form submitted
+
+44
+00:00:54,740 --> 00:00:55,490
+and the survey
+
+45
+00:00:55,829 --> 00:00:56,759
+submit it because there'll be
+
+46
+00:00:57,149 --> 00:00:58,109
+different ways you guys are
+
+47
+00:00:58,109 --> 00:00:59,159
+bringing in leads.
+
+48
+00:00:59,159 --> 00:00:59,770
+Okay.
+
+49
+00:00:59,950 --> 00:01:01,200
+But this may need
+
+50
+00:01:01,299 --> 00:01:02,539
+to be duplicated or changed
+
+51
+00:01:02,939 --> 00:01:04,519
+depending on what type of assets
+
+52
+00:01:04,519 --> 00:01:06,000
+you guys are giving out.
+
+53
+00:01:06,000 --> 00:01:07,780
+So here,
+
+54
+00:01:07,799 --> 00:01:09,010
+survey submitted, you want to make
+
+55
+00:01:09,090 --> 00:01:10,480
+sure you select the right survey.
+
+56
+00:01:10,480 --> 00:01:11,099
+Okay.
+
+57
+00:01:11,239 --> 00:01:13,260
+Or if you know for a fact,
+
+58
+00:01:13,280 --> 00:01:15,049
+you don't need to filter it, you
+
+59
+00:01:15,049 --> 00:01:16,579
+could remove this filter.
+
+60
+00:01:16,719 --> 00:01:18,209
+And every single time someone
+
+61
+00:01:18,379 --> 00:01:19,239
+submits a survey,
+
+62
+00:01:19,370 --> 00:01:20,659
+they'll get added into this
+
+63
+00:01:21,000 --> 00:01:21,579
+workflow.
+
+64
+00:01:21,680 --> 00:01:22,090
+Okay.
+
+65
+00:01:22,099 --> 00:01:24,540
+Same thing with forms, right?
+
+66
+00:01:24,540 --> 00:01:25,930
+Let's make sure you choose
+
+67
+00:01:26,040 --> 00:01:27,909
+the right form and, and you make
+
+68
+00:01:27,909 --> 00:01:29,659
+sure you get the right leads in
+
+69
+00:01:29,680 --> 00:01:30,150
+here.
+
+70
+00:01:30,150 --> 00:01:31,659
+If you want to add any new
+
+71
+00:01:32,069 --> 00:01:33,680
+triggers, there's like, honestly,
+
+72
+00:01:33,680 --> 00:01:35,379
+a lot of triggers, adding a tag,
+
+73
+00:01:35,379 --> 00:01:36,939
+note added, you know, it's a
+
+74
+00:01:36,939 --> 00:01:37,359
+birthday
+
+75
+00:01:37,670 --> 00:01:38,620
+coming up, call status, depending
+
+76
+00:01:39,019 --> 00:01:39,849
+on the call status.
+
+77
+00:01:39,849 --> 00:01:40,959
+There's so many things.
+
+78
+00:01:40,959 --> 00:01:42,219
+So I highly recommend you guys
+
+79
+00:01:42,239 --> 00:01:43,489
+look at this, but don't get
+
+80
+00:01:43,879 --> 00:01:45,349
+overwhelmed with all the things
+
+81
+00:01:45,349 --> 00:01:46,180
+you could do.
+
+82
+00:01:46,180 --> 00:01:46,719
+Okay.
+
+83
+00:01:46,719 --> 00:01:47,510
+Just keep it as simple
+
+84
+00:01:47,560 --> 00:01:49,250
+as possible, at least for now.
+
+85
+00:01:49,250 --> 00:01:50,849
+Now, once someone submits the
+
+86
+00:01:50,849 --> 00:01:52,430
+form, we get an opportunity.
+
+87
+00:01:52,680 --> 00:01:53,239
+If you
+
+88
+00:01:53,640 --> 00:01:55,709
+edit the pipeline or if you edited
+
+89
+00:01:55,709 --> 00:01:58,189
+the pipeline, make sure to update
+
+90
+00:01:58,420 --> 00:02:00,599
+this as needed, because this,
+
+91
+00:02:00,620 --> 00:02:01,760
+for example, if you change this,
+
+92
+00:02:01,760 --> 00:02:02,840
+it'll most likely be removed.
+
+93
+00:02:02,840 --> 00:02:03,719
+So you need to fill this out
+
+94
+00:02:03,719 --> 00:02:03,920
+again.
+
+95
+00:02:04,519 --> 00:02:04,750
+Okay.
+
+96
+00:02:04,750 --> 00:02:06,459
+You can also here select the
+
+97
+00:02:06,560 --> 00:02:08,710
+status, the value of opportunity
+
+98
+00:02:08,710 --> 00:02:09,780
+immediately.
+
+99
+00:02:09,780 --> 00:02:10,960
+So if I put 4,500,
+
+100
+00:02:11,259 --> 00:02:12,650
+every new opportunity that comes
+
+101
+00:02:12,650 --> 00:02:14,210
+in and every new lead that comes
+
+102
+00:02:14,210 --> 00:02:15,909
+in, their opportunity will have
+
+103
+00:02:16,039 --> 00:02:16,680
+the value.
+
+104
+00:02:16,680 --> 00:02:17,099
+Okay.
+
+105
+00:02:17,099 --> 00:02:18,120
+That I put in here.
+
+106
+00:02:18,120 --> 00:02:19,770
+Another thing you could do, how I
+
+107
+00:02:19,810 --> 00:02:21,240
+showed you with custom values
+
+108
+00:02:21,550 --> 00:02:22,479
+before is you can create a custom
+
+109
+00:02:22,849 --> 00:02:24,159
+value for the opportunity value.
+
+110
+00:02:24,159 --> 00:02:25,639
+So in case it's always changing,
+
+111
+00:02:26,039 --> 00:02:27,000
+instead of having to come in here
+
+112
+00:02:27,289 --> 00:02:28,759
+and change the workflow itself,
+
+113
+00:02:28,759 --> 00:02:31,340
+you could select a custom value
+
+114
+00:02:31,650 --> 00:02:33,210
+that you've created before.
+
+115
+00:02:33,210 --> 00:02:35,280
+Now this point, it'll be empty,
+
+116
+00:02:35,280 --> 00:02:37,580
+but pretty much you could select
+
+117
+00:02:37,580 --> 00:02:37,909
+any custom
+
+118
+00:02:38,310 --> 00:02:39,280
+values you have, or depending on
+
+119
+00:02:39,349 --> 00:02:40,490
+the content, you could fill
+
+120
+00:02:40,490 --> 00:02:42,039
+content specific custom fields.
+
+121
+00:02:42,039 --> 00:02:43,159
+Okay.
+
+122
+00:02:43,180 --> 00:02:45,060
+Now, once they opt in, you're
+
+123
+00:02:45,169 --> 00:02:47,110
+going to get the training access
+
+124
+00:02:47,110 --> 00:02:50,259
+email or, you know, whatever the
+
+125
+00:02:50,580 --> 00:02:51,840
+thing you're going to provide a
+
+126
+00:02:51,939 --> 00:02:53,599
+PDF access, you know, whatever it
+
+127
+00:02:53,750 --> 00:02:53,939
+is.
+
+128
+00:02:53,939 --> 00:02:55,229
+Location name is pretty much
+
+129
+00:02:55,340 --> 00:02:56,930
+your agency name is with the name
+
+130
+00:02:56,979 --> 00:02:58,360
+of the sub account itself.
+
+131
+00:02:58,379 --> 00:03:00,039
+Location email is going to be the
+
+132
+00:03:00,039 --> 00:03:00,210
+email
+
+133
+00:03:00,259 --> 00:03:02,409
+you use to create the sub account
+
+134
+00:03:02,409 --> 00:03:04,080
+and the subject line.
+
+135
+00:03:04,080 --> 00:03:05,780
+Self-explanatory is the subject
+
+136
+00:03:05,780 --> 00:03:06,069
+line of the
+
+137
+00:03:06,509 --> 00:03:06,729
+email.
+
+138
+00:03:06,729 --> 00:03:08,669
+Now here it says, hi, contact
+
+139
+00:03:08,669 --> 00:03:09,169
+name.
+
+140
+00:03:09,180 --> 00:03:10,909
+This is user first name with
+
+141
+00:03:10,909 --> 00:03:11,840
+location name.
+
+142
+00:03:12,270 --> 00:03:12,699
+So this will
+
+143
+00:03:13,210 --> 00:03:14,639
+translate to, let's say the lead
+
+144
+00:03:14,639 --> 00:03:16,120
+that comes in is named John.
+
+145
+00:03:16,259 --> 00:03:18,090
+Hey, John, this is, my name is
+
+146
+00:03:18,210 --> 00:03:18,500
+Penry
+
+147
+00:03:18,599 --> 00:03:20,409
+with, you know, client ascension,
+
+148
+00:03:20,409 --> 00:03:21,900
+for example, or go high level,
+
+149
+00:03:22,050 --> 00:03:23,780
+whatever the name of the business
+
+150
+00:03:23,780 --> 00:03:24,080
+is.
+
+151
+00:03:25,099 --> 00:03:27,439
+So the, the copy here, the email
+
+152
+00:03:27,439 --> 00:03:29,560
+here says good call on getting
+
+153
+00:03:29,560 --> 00:03:30,780
+access to our topic
+
+154
+00:03:31,379 --> 00:03:32,099
+training or topic PDF.
+
+155
+00:03:32,099 --> 00:03:33,560
+So you want to, you want to change
+
+156
+00:03:33,560 --> 00:03:35,180
+this out in case you didn't watch
+
+157
+00:03:35,180 --> 00:03:35,870
+it or you
+
+158
+00:03:36,289 --> 00:03:39,710
+going to receive it or, you know,
+
+159
+00:03:39,710 --> 00:03:41,580
+whatever it is.
+
+160
+00:03:41,680 --> 00:03:43,729
+Um, so actually let me, looks like
+
+161
+00:03:43,780 --> 00:03:44,780
+this is
+
+162
+00:03:44,800 --> 00:03:45,520
+duplicated.
+
+163
+00:03:45,669 --> 00:03:46,009
+My bad.
+
+164
+00:03:46,039 --> 00:03:47,479
+In case you didn't watch it,
+
+165
+00:03:47,479 --> 00:03:48,860
+here's the link, right?
+
+166
+00:03:48,860 --> 00:03:50,069
+So you provide the link.
+
+167
+00:03:50,099 --> 00:03:52,229
+If you have any questions about
+
+168
+00:03:52,229 --> 00:03:54,699
+how to, you know, get more quality
+
+169
+00:03:54,699 --> 00:03:57,039
+leads, book more calls, get more
+
+170
+00:03:57,060 --> 00:03:58,169
+sales, improve your closure, you
+
+171
+00:03:58,169 --> 00:03:58,939
+know, whatever it is.
+
+172
+00:03:59,020 --> 00:04:00,020
+If you respond to this email, I'll
+
+173
+00:04:00,020 --> 00:04:00,620
+get back to
+
+174
+00:04:00,639 --> 00:04:01,520
+you all the best username.
+
+175
+00:04:01,520 --> 00:04:02,460
+So this will be your name.
+
+176
+00:04:02,460 --> 00:04:03,780
+All right.
+
+177
+00:04:03,780 --> 00:04:06,319
+Now training access SMS, same,
+
+178
+00:04:06,750 --> 00:04:06,780
+same
+
+179
+00:04:07,189 --> 00:04:07,520
+idea.
+
+180
+00:04:07,680 --> 00:04:10,669
+Um, pretty much say, Hey, John,
+
+181
+00:04:10,669 --> 00:04:13,819
+this is Henry with business name.
+
+182
+00:04:13,819 --> 00:04:14,960
+Just, just saw you got access
+
+183
+00:04:14,979 --> 00:04:16,189
+to our topic training.
+
+184
+00:04:16,279 --> 00:04:17,529
+Let me know if there's any
+
+185
+00:04:17,529 --> 00:04:19,120
+questions I can answer on how to
+
+186
+00:04:19,120 --> 00:04:20,139
+achieve outcomes,
+
+187
+00:04:20,160 --> 00:04:21,509
+same ideas above on how to get
+
+188
+00:04:21,800 --> 00:04:23,160
+more leads on how to increase
+
+189
+00:04:23,160 --> 00:04:25,430
+your, your close rate on how to do
+
+190
+00:04:25,949 --> 00:04:27,060
+whatever you provide.
+
+191
+00:04:27,199 --> 00:04:27,649
+Okay.
+
+192
+00:04:27,649 --> 00:04:29,439
+Then here we're waiting for a
+
+193
+00:04:29,439 --> 00:04:30,050
+reply.
+
+194
+00:04:30,120 --> 00:04:30,490
+Okay.
+
+195
+00:04:30,660 --> 00:04:31,819
+What this means is
+
+196
+00:04:31,839 --> 00:04:33,079
+that the system is going to wait
+
+197
+00:04:33,339 --> 00:04:34,730
+one hour, see if they respond to
+
+198
+00:04:34,730 --> 00:04:35,139
+your SMS.
+
+199
+00:04:35,279 --> 00:04:36,519
+If they don't respond to
+
+200
+00:04:36,819 --> 00:04:38,689
+your SMS, they're going to follow
+
+201
+00:04:38,689 --> 00:04:40,800
+up, um, a day later, or sorry, an
+
+202
+00:04:40,970 --> 00:04:41,810
+hour later.
+
+203
+00:04:41,930 --> 00:04:42,939
+It's going to say,
+
+204
+00:04:42,959 --> 00:04:44,620
+what do you think of the training?
+
+205
+00:04:44,620 --> 00:04:46,120
+Think it's worth a quick convo or
+
+206
+00:04:46,120 --> 00:04:47,459
+is outcome not really a priority
+
+207
+00:04:47,790 --> 00:04:48,170
+right now?
+
+208
+00:04:48,170 --> 00:04:48,620
+Okay.
+
+209
+00:04:48,620 --> 00:04:50,370
+So here, let's say you offering
+
+210
+00:04:50,370 --> 00:04:52,170
+more leads and let's say the, the
+
+211
+00:04:52,170 --> 00:04:53,160
+outcome they want
+
+212
+00:04:53,709 --> 00:04:54,860
+release to grow their business or
+
+213
+00:04:54,980 --> 00:04:56,069
+scaling their business.
+
+214
+00:04:56,120 --> 00:04:57,839
+So think it's worth a quick convo
+
+215
+00:04:57,899 --> 00:04:58,120
+or
+
+216
+00:04:58,139 --> 00:04:59,350
+is growing the business, not
+
+217
+00:04:59,370 --> 00:05:00,689
+really a priority right now.
+
+218
+00:05:00,689 --> 00:05:01,100
+Okay.
+
+219
+00:05:01,100 --> 00:05:03,779
+Then same thing, wait two days.
+
+220
+00:05:03,800 --> 00:05:05,680
+We see if they responded to the
+
+221
+00:05:05,790 --> 00:05:06,269
+SMS.
+
+222
+00:05:06,269 --> 00:05:06,810
+Okay.
+
+223
+00:05:06,819 --> 00:05:08,529
+And second follow-up.
+
+224
+00:05:08,529 --> 00:05:10,279
+I don't know, just to check in
+
+225
+00:05:10,279 --> 00:05:10,459
+here,
+
+226
+00:05:10,480 --> 00:05:12,189
+are you still looking to get more
+
+227
+00:05:12,189 --> 00:05:13,730
+leads or better leads for the
+
+228
+00:05:13,730 --> 00:05:15,410
+business, which has helped a
+
+229
+00:05:15,579 --> 00:05:16,839
+client,
+
+230
+00:05:16,860 --> 00:05:18,600
+a client in, you know, location
+
+231
+00:05:18,600 --> 00:05:20,050
+could be Miami, you know,
+
+232
+00:05:20,050 --> 00:05:21,790
+California, whatever it is,
+
+233
+00:05:21,860 --> 00:05:23,069
+get result in timeframe with
+
+234
+00:05:23,490 --> 00:05:24,569
+something like that'd be a worth a
+
+235
+00:05:24,569 --> 00:05:25,160
+quick chat.
+
+236
+00:05:25,300 --> 00:05:25,500
+Okay.
+
+237
+00:05:25,500 --> 00:05:25,980
+So you're just trying
+
+238
+00:05:26,000 --> 00:05:27,879
+to get them back into, you know,
+
+239
+00:05:27,990 --> 00:05:29,480
+your loop to talk to you and
+
+240
+00:05:29,480 --> 00:05:31,519
+ideally book them in for a demo.
+
+241
+00:05:31,810 --> 00:05:33,759
+Now you could edit any part of
+
+242
+00:05:33,860 --> 00:05:35,269
+this workflow.
+
+243
+00:05:35,310 --> 00:05:35,980
+Okay.
+
+244
+00:05:35,980 --> 00:05:38,490
+So if you want to change the wait
+
+245
+00:05:38,490 --> 00:05:39,149
+time,
+
+246
+00:05:39,180 --> 00:05:40,339
+you can just change here to two
+
+247
+00:05:40,339 --> 00:05:41,709
+hours or three hours or five days,
+
+248
+00:05:41,709 --> 00:05:42,660
+whatever you want.
+
+249
+00:05:43,199 --> 00:05:44,790
+And this thing right here is
+
+250
+00:05:44,839 --> 00:05:46,259
+called an if else step.
+
+251
+00:05:46,259 --> 00:05:46,759
+Okay.
+
+252
+00:05:46,759 --> 00:05:47,819
+Or condition step.
+
+253
+00:05:47,819 --> 00:05:49,970
+So pretty much you want to ask
+
+254
+00:05:50,000 --> 00:05:51,670
+if something happened.
+
+255
+00:05:51,670 --> 00:05:53,579
+So here we do contact reply.
+
+256
+00:05:53,579 --> 00:05:55,649
+That's the action we're looking
+
+257
+00:05:55,649 --> 00:05:56,120
+to.
+
+258
+00:05:56,120 --> 00:05:56,569
+And it's either
+
+259
+00:05:56,680 --> 00:05:57,399
+true or false.
+
+260
+00:05:57,399 --> 00:05:57,769
+Okay.
+
+261
+00:05:57,769 --> 00:05:58,899
+If it's true, it means they
+
+262
+00:05:59,000 --> 00:05:59,980
+responded to the text.
+
+263
+00:06:00,120 --> 00:06:01,379
+If it's false or, you know,
+
+264
+00:06:01,779 --> 00:06:02,990
+nothing happened, it means it
+
+265
+00:06:03,040 --> 00:06:03,980
+didn't respond.
+
+266
+00:06:03,980 --> 00:06:05,649
+So if it's true, nothing's going
+
+267
+00:06:05,819 --> 00:06:06,269
+to happen.
+
+268
+00:06:06,509 --> 00:06:07,079
+You could add more
+
+269
+00:06:07,660 --> 00:06:09,160
+steps in here if you want.
+
+270
+00:06:09,269 --> 00:06:09,860
+Okay.
+
+271
+00:06:09,860 --> 00:06:12,209
+So you could automatically say,
+
+272
+00:06:12,389 --> 00:06:13,920
+cool, here's my booking link.
+
+273
+00:06:13,939 --> 00:06:14,540
+Talk about it.
+
+274
+00:06:14,540 --> 00:06:15,600
+I don't recommend you do that
+
+275
+00:06:15,600 --> 00:06:16,889
+because it's going to be different
+
+276
+00:06:16,889 --> 00:06:17,620
+responses with
+
+277
+00:06:18,029 --> 00:06:19,399
+different contexts to each one.
+
+278
+00:06:19,399 --> 00:06:20,800
+So you can maybe leverage AI
+
+279
+00:06:20,800 --> 00:06:23,100
+because here we have AI booking
+
+280
+00:06:23,100 --> 00:06:23,319
+bot
+
+281
+00:06:23,579 --> 00:06:24,209
+or chat GPT.
+
+282
+00:06:24,209 --> 00:06:25,459
+You could connect it in here,
+
+283
+00:06:25,569 --> 00:06:27,829
+which is pretty cool, but I want
+
+284
+00:06:28,009 --> 00:06:30,660
+to keep it simple for now.
+
+285
+00:06:30,699 --> 00:06:31,600
+Same thing here.
+
+286
+00:06:31,600 --> 00:06:32,810
+You could change this.
+
+287
+00:06:32,810 --> 00:06:34,300
+And this is pretty much the same
+
+288
+00:06:34,300 --> 00:06:35,180
+step as above.
+
+289
+00:06:35,259 --> 00:06:36,199
+All right.
+
+290
+00:06:36,600 --> 00:06:42,579
+So let's go back to the workflows.
+
+291
+00:06:42,579 --> 00:06:45,250
+And then we have the demo booked
+
+292
+00:06:45,250 --> 00:06:46,959
+or sales call booked workflow.
+
+293
+00:06:47,319 --> 00:06:49,060
+So here we have, I have two
+
+294
+00:06:49,060 --> 00:06:49,949
+triggers.
+
+295
+00:06:49,949 --> 00:06:52,250
+One, one at the lead themselves,
+
+296
+00:06:52,420 --> 00:06:53,079
+book a demo.
+
+297
+00:06:53,490 --> 00:06:58,779
+And whenever you or someone in
+
+298
+00:06:58,779 --> 00:07:01,259
+your team books a demo manually.
+
+299
+00:07:01,259 --> 00:07:02,199
+Okay.
+
+300
+00:07:02,199 --> 00:07:05,069
+So the way this works
+
+301
+00:07:05,100 --> 00:07:07,829
+is, let me just check something
+
+302
+00:07:07,850 --> 00:07:08,620
+here.
+
+303
+00:07:08,639 --> 00:07:11,939
+We'll just make sure we have the
+
+304
+00:07:12,089 --> 00:07:13,430
+right one.
+
+305
+00:07:13,430 --> 00:07:14,319
+Yeah.
+
+306
+00:07:14,750 --> 00:07:15,410
+Perfect.
+
+307
+00:07:15,410 --> 00:07:16,250
+So
+
+308
+00:07:16,439 --> 00:07:18,180
+as soon as someone books a demo is
+
+309
+00:07:18,180 --> 00:07:19,740
+going to be assigned to, to you
+
+310
+00:07:19,889 --> 00:07:20,620
+ideally.
+
+311
+00:07:20,620 --> 00:07:21,639
+So here is you're
+
+312
+00:07:22,040 --> 00:07:23,879
+going to have a random number or
+
+313
+00:07:23,980 --> 00:07:26,589
+code just to make up for my, uh,
+
+314
+00:07:26,779 --> 00:07:27,250
+contacts.
+
+315
+00:07:27,250 --> 00:07:28,139
+I'm not going to be in
+
+316
+00:07:28,160 --> 00:07:28,879
+your account.
+
+317
+00:07:29,009 --> 00:07:30,490
+So it's going to remove that, just
+
+318
+00:07:30,490 --> 00:07:32,000
+X out and select your own name.
+
+319
+00:07:32,019 --> 00:07:34,079
+And here we're going to add a tag
+
+320
+00:07:34,079 --> 00:07:36,160
+called demo call that we can tag
+
+321
+00:07:36,160 --> 00:07:38,180
+people whenever they book,
+
+322
+00:07:38,199 --> 00:07:40,009
+we can separate them or segment
+
+323
+00:07:40,009 --> 00:07:41,759
+them for emails and stuff like
+
+324
+00:07:41,759 --> 00:07:42,319
+that.
+
+325
+00:07:42,319 --> 00:07:44,180
+The opportunity is going to be
+
+326
+00:07:44,589 --> 00:07:44,750
+updated.
+
+327
+00:07:44,750 --> 00:07:46,279
+As you can see, it's going to move
+
+328
+00:07:46,279 --> 00:07:47,519
+to the demo booked stage.
+
+329
+00:07:48,029 --> 00:07:51,209
+And then here, I like to filter
+
+330
+00:07:51,209 --> 00:07:53,319
+out by booking method in case in
+
+331
+00:07:53,439 --> 00:07:54,720
+the future, we need to do
+
+332
+00:07:54,870 --> 00:07:55,199
+different
+
+333
+00:07:55,230 --> 00:07:56,319
+things, depending on how the
+
+334
+00:07:56,319 --> 00:07:57,579
+prospect came in, in case we send
+
+335
+00:07:57,579 --> 00:08:00,019
+different things, uh, depending on
+
+336
+00:08:00,019 --> 00:08:00,089
+the
+
+337
+00:08:00,120 --> 00:08:00,420
+source.
+
+338
+00:08:00,509 --> 00:08:00,839
+Right.
+
+339
+00:08:01,439 --> 00:08:03,160
+But here we wait one minute and
+
+340
+00:08:03,160 --> 00:08:05,689
+here we send the confirmation
+
+341
+00:08:05,870 --> 00:08:06,639
+text.
+
+342
+00:08:06,639 --> 00:08:07,680
+Hey, I have you booked for this
+
+343
+00:08:07,699 --> 00:08:08,100
+date of time.
+
+344
+00:08:08,100 --> 00:08:10,370
+Reply yes to confirm confirmation
+
+345
+00:08:10,370 --> 00:08:11,259
+email.
+
+346
+00:08:11,259 --> 00:08:12,300
+Okay.
+
+347
+00:08:12,300 --> 00:08:13,939
+And then we'll wait for business
+
+348
+00:08:13,939 --> 00:08:14,269
+hours.
+
+349
+00:08:14,779 --> 00:08:15,100
+Okay.
+
+350
+00:08:15,100 --> 00:08:16,620
+We want to make sure we continue
+
+351
+00:08:16,720 --> 00:08:18,040
+to send them texts or emails
+
+352
+00:08:18,040 --> 00:08:19,329
+during business hours.
+
+353
+00:08:19,660 --> 00:08:21,769
+So the way to do that is we pretty
+
+354
+00:08:21,769 --> 00:08:23,839
+much put a time delay advanced
+
+355
+00:08:23,839 --> 00:08:24,589
+window.
+
+356
+00:08:24,759 --> 00:08:25,879
+We select the business
+
+357
+00:08:25,899 --> 00:08:27,560
+hour days, 8 AM to 8 PM.
+
+358
+00:08:27,560 --> 00:08:28,389
+And that's it.
+
+359
+00:08:28,399 --> 00:08:30,079
+You don't have to, you can remove
+
+360
+00:08:30,079 --> 00:08:31,060
+this if you want.
+
+361
+00:08:31,060 --> 00:08:31,579
+I prefer
+
+362
+00:08:31,660 --> 00:08:32,879
+to keep it at business hours.
+
+363
+00:08:33,288 --> 00:08:33,740
+Okay.
+
+364
+00:08:33,740 --> 00:08:34,769
+Then you want to wait four hours
+
+365
+00:08:34,769 --> 00:08:35,918
+and we ask, did they confirm the
+
+366
+00:08:36,470 --> 00:08:37,230
+appointment or no?
+
+367
+00:08:37,230 --> 00:08:37,668
+Okay.
+
+368
+00:08:37,720 --> 00:08:39,298
+If there was no response to our
+
+369
+00:08:39,298 --> 00:08:40,570
+confirmation text.
+
+370
+00:08:40,639 --> 00:08:41,220
+Okay.
+
+371
+00:08:41,220 --> 00:08:42,360
+So as you can see,
+
+372
+00:08:42,379 --> 00:08:44,529
+the wait is for a contact reply.
+
+373
+00:08:44,529 --> 00:08:45,070
+Okay.
+
+374
+00:08:45,070 --> 00:08:47,009
+There's many things you could
+
+375
+00:08:47,009 --> 00:08:47,649
+choose.
+
+376
+00:08:47,769 --> 00:08:49,379
+I choose, I chose contact
+
+377
+00:08:49,779 --> 00:08:50,029
+reply.
+
+378
+00:08:50,029 --> 00:08:52,259
+And then we have SMS appointment
+
+379
+00:08:52,259 --> 00:08:54,559
+reserve, which is the, the text
+
+380
+00:08:54,559 --> 00:08:55,080
+name.
+
+381
+00:08:55,350 --> 00:08:56,500
+And we wait four hours.
+
+382
+00:08:56,639 --> 00:08:57,080
+Okay.
+
+383
+00:08:57,080 --> 00:08:58,789
+You could keep it at one or two up
+
+384
+00:08:58,789 --> 00:08:59,370
+to you.
+
+385
+00:08:59,379 --> 00:09:02,799
+And here we're going to ask, did
+
+386
+00:09:02,799 --> 00:09:04,799
+they reply true or false?
+
+387
+00:09:05,539 --> 00:09:05,919
+Okay.
+
+388
+00:09:05,929 --> 00:09:08,820
+If they replied, then awesome.
+
+389
+00:09:08,990 --> 00:09:11,220
+The appointment is confirmed and
+
+390
+00:09:11,220 --> 00:09:13,100
+we'll go into the,
+
+391
+00:09:13,120 --> 00:09:14,860
+you know, the fault, the
+
+392
+00:09:14,860 --> 00:09:15,830
+reminders.
+
+393
+00:09:15,830 --> 00:09:16,389
+Okay.
+
+394
+00:09:16,389 --> 00:09:18,330
+If they don't confirm, we're going
+
+395
+00:09:18,330 --> 00:09:19,100
+to send another text.
+
+396
+00:09:19,139 --> 00:09:20,299
+Just let them know, Hey, need to
+
+397
+00:09:20,299 --> 00:09:21,330
+confirm that you can make our
+
+398
+00:09:21,330 --> 00:09:23,000
+appointment on date and time.
+
+399
+00:09:23,330 --> 00:09:24,269
+Please reply yes to confirm.
+
+400
+00:09:24,610 --> 00:09:24,799
+Okay.
+
+401
+00:09:24,799 --> 00:09:26,220
+And then once we do that, we're
+
+402
+00:09:26,220 --> 00:09:28,440
+going to wait again and add them
+
+403
+00:09:28,440 --> 00:09:28,700
+to
+
+404
+00:09:29,009 --> 00:09:29,960
+the next step.
+
+405
+00:09:30,330 --> 00:09:32,429
+Now, what I like to do here is I
+
+406
+00:09:32,429 --> 00:09:34,419
+always like to ask on the
+
+407
+00:09:35,360 --> 00:09:36,500
+booking calendar if they're able
+
+408
+00:09:36,620 --> 00:09:37,639
+or willing to invest.
+
+409
+00:09:37,639 --> 00:09:38,779
+Okay.
+
+410
+00:09:38,779 --> 00:09:41,529
+If they say no, then I don't want
+
+411
+00:09:41,580 --> 00:09:42,279
+to waste my time with them on a
+
+412
+00:09:42,279 --> 00:09:42,559
+call.
+
+413
+00:09:42,559 --> 00:09:44,580
+So this step automatically filters
+
+414
+00:09:44,580 --> 00:09:45,799
+those people out and just
+
+415
+00:09:46,100 --> 00:09:47,169
+sends them this text thing.
+
+416
+00:09:47,450 --> 00:09:49,100
+Hey, notice, uh, just notice you
+
+417
+00:09:49,100 --> 00:09:50,750
+put down on with unwilling to
+
+418
+00:09:50,929 --> 00:09:51,320
+invest or
+
+419
+00:09:51,730 --> 00:09:53,070
+unable to invest on your
+
+420
+00:09:53,070 --> 00:09:54,250
+application.
+
+421
+00:09:54,250 --> 00:09:56,610
+If that's the case, I'll go ahead
+
+422
+00:09:56,730 --> 00:09:57,879
+and cancel the call.
+
+423
+00:09:58,580 --> 00:10:00,340
+Let me know if it was an accident.
+
+424
+00:10:00,340 --> 00:10:00,740
+Okay.
+
+425
+00:10:00,740 --> 00:10:02,309
+That way you don't waste time with
+
+426
+00:10:02,350 --> 00:10:03,360
+people that are not willing
+
+427
+00:10:03,379 --> 00:10:05,039
+to pay you money for your work.
+
+428
+00:10:05,039 --> 00:10:06,679
+And, and honestly, they don't
+
+429
+00:10:06,830 --> 00:10:08,590
+waste time, uh, any of their, of
+
+430
+00:10:08,590 --> 00:10:08,840
+their
+
+431
+00:10:08,860 --> 00:10:09,799
+time because they're not going to
+
+432
+00:10:09,799 --> 00:10:10,730
+get anything out of the call with
+
+433
+00:10:10,730 --> 00:10:11,000
+you.
+
+434
+00:10:11,000 --> 00:10:11,580
+Right.
+
+435
+00:10:11,580 --> 00:10:13,120
+And then wait one day
+
+436
+00:10:13,279 --> 00:10:14,870
+if they respond and maybe, so if
+
+437
+00:10:14,919 --> 00:10:16,440
+the response is just going to be
+
+438
+00:10:16,440 --> 00:10:17,940
+like, Hey, yeah, it was an
+
+439
+00:10:17,940 --> 00:10:18,210
+accident
+
+440
+00:10:18,259 --> 00:10:19,470
+or they may respond.
+
+441
+00:10:19,570 --> 00:10:20,340
+Um, okay.
+
+442
+00:10:20,340 --> 00:10:20,899
+Right.
+
+443
+00:10:20,899 --> 00:10:22,860
+Whatever it is at that point, you
+
+444
+00:10:22,860 --> 00:10:24,419
+can just go ahead and cancel
+
+445
+00:10:24,440 --> 00:10:25,649
+the call yourself.
+
+446
+00:10:25,750 --> 00:10:27,710
+But if they don't respond after
+
+447
+00:10:27,710 --> 00:10:29,720
+one day, it'll be automatically
+
+448
+00:10:29,830 --> 00:10:30,740
+canceled.
+
+449
+00:10:30,740 --> 00:10:31,539
+Okay.
+
+450
+00:10:31,679 --> 00:10:31,879
+For
+
+451
+00:10:31,899 --> 00:10:33,100
+you from here.
+
+452
+00:10:33,100 --> 00:10:33,710
+Okay.
+
+453
+00:10:33,710 --> 00:10:35,700
+We're going to wait two days
+
+454
+00:10:35,700 --> 00:10:37,580
+before the appointment.
+
+455
+00:10:38,009 --> 00:10:38,720
+And then we're going to
+
+456
+00:10:38,740 --> 00:10:39,899
+send them a reminder.
+
+457
+00:10:39,899 --> 00:10:41,559
+Hey, just a good reminder for the
+
+458
+00:10:41,559 --> 00:10:42,379
+appointment.
+
+459
+00:10:42,379 --> 00:10:43,879
+Then we're going to wait until
+
+460
+00:10:43,899 --> 00:10:45,490
+the day of the appointment.
+
+461
+00:10:45,539 --> 00:10:46,960
+Then remove the tag for demo
+
+462
+00:10:46,960 --> 00:10:47,679
+upcoming.
+
+463
+00:10:47,679 --> 00:10:49,399
+So I like to use these tags to
+
+464
+00:10:49,399 --> 00:10:49,580
+kind
+
+465
+00:10:49,659 --> 00:10:50,750
+of filter the contact list.
+
+466
+00:10:50,750 --> 00:10:51,879
+I'll show you how to create this
+
+467
+00:10:51,980 --> 00:10:54,919
+in a minute, but that way we can
+
+468
+00:10:55,049 --> 00:10:55,320
+keep
+
+469
+00:10:55,720 --> 00:10:57,519
+track of where each lead is at and
+
+470
+00:10:57,519 --> 00:10:59,590
+when you have like appointments
+
+471
+00:10:59,769 --> 00:11:01,480
+today or upcoming demos, stuff
+
+472
+00:11:01,480 --> 00:11:01,639
+like
+
+473
+00:11:01,659 --> 00:11:02,070
+that.
+
+474
+00:11:02,070 --> 00:11:03,539
+And we add the demo today tag.
+
+475
+00:11:03,649 --> 00:11:04,320
+All right.
+
+476
+00:11:04,320 --> 00:11:05,909
+Then we're going to wait three
+
+477
+00:11:06,090 --> 00:11:06,590
+hours before the
+
+478
+00:11:07,009 --> 00:11:07,750
+appointment.
+
+479
+00:11:07,750 --> 00:11:08,320
+Okay.
+
+480
+00:11:08,320 --> 00:11:10,750
+Just remember for a call today.
+
+481
+00:11:10,750 --> 00:11:13,710
+And then five minutes before we're
+
+482
+00:11:13,850 --> 00:11:14,059
+going to send
+
+483
+00:11:14,139 --> 00:11:14,779
+them the link.
+
+484
+00:11:14,779 --> 00:11:15,110
+Okay.
+
+485
+00:11:15,110 --> 00:11:16,179
+Actually it says I see you in
+
+486
+00:11:16,179 --> 00:11:16,600
+five.
+
+487
+00:11:16,600 --> 00:11:17,850
+Okay.
+
+488
+00:11:17,850 --> 00:11:21,399
+And after one hour, we'll remove
+
+489
+00:11:21,399 --> 00:11:21,710
+the tag
+
+490
+00:11:21,750 --> 00:11:22,960
+that says demo today.
+
+491
+00:11:23,049 --> 00:11:24,740
+And that's pretty much how the
+
+492
+00:11:24,740 --> 00:11:25,830
+workflow works.
+
+493
+00:11:25,830 --> 00:11:27,419
+And it looks complicated.
+
+494
+00:11:27,659 --> 00:11:28,379
+It really isn't.
+
+495
+00:11:28,529 --> 00:11:29,990
+It's just a bit overwhelming to
+
+496
+00:11:29,990 --> 00:11:31,909
+see all these, you know, things
+
+497
+00:11:32,090 --> 00:11:33,159
+and connections
+
+498
+00:11:33,179 --> 00:11:34,389
+or whatever, but it's very simple.
+
+499
+00:11:34,480 --> 00:11:35,059
+Nothing crazy.
+
+500
+00:11:35,169 --> 00:11:36,139
+Again, you guys had questions
+
+501
+00:11:36,139 --> 00:11:37,080
+about how to make some
+
+502
+00:11:37,440 --> 00:11:37,820
+changes to this.
+
+503
+00:11:37,960 --> 00:11:39,139
+Ask me, I'm more than happy to
+
+504
+00:11:39,139 --> 00:11:40,759
+help you guys out with this stuff.
+
+505
+00:11:40,759 --> 00:11:42,779
+Okay.
+
+506
+00:11:43,210 --> 00:11:43,399
+And yeah,
+
+507
+00:11:43,740 --> 00:11:45,169
+that's it for this one.
+
+508
+00:11:45,169 --> 00:11:47,460
+But before we leave, let me just
+
+509
+00:11:47,460 --> 00:11:49,639
+show you how to use those, you
+
+510
+00:11:49,639 --> 00:11:49,950
+know,
+
+511
+00:11:49,980 --> 00:11:51,470
+tags to filter out the leads in
+
+512
+00:11:51,610 --> 00:11:53,250
+the contact section, since I just
+
+513
+00:11:53,250 --> 00:11:54,200
+mentioned it.
+
+514
+00:11:54,200 --> 00:11:56,279
+So if you go out here to
+
+515
+00:11:56,690 --> 00:11:58,669
+contacts, you could create what's
+
+516
+00:11:58,669 --> 00:12:00,340
+called smart lists.
+
+517
+00:12:00,340 --> 00:12:03,580
+So here, more filters, you search
+
+518
+00:12:03,580 --> 00:12:04,120
+up tag.
+
+519
+00:12:04,120 --> 00:12:05,460
+So tag
+
+520
+00:12:07,169 --> 00:12:11,029
+is demo booked.
+
+521
+00:12:11,220 --> 00:12:14,279
+Should be sorry, demo today.
+
+522
+00:12:14,690 --> 00:12:18,549
+And it looks like it's not really
+
+523
+00:12:18,740 --> 00:12:23,559
+added into this, this account.
+
+524
+00:12:23,559 --> 00:12:25,080
+So let me just add it for you guys
+
+525
+00:12:25,490 --> 00:12:27,320
+right here.
+
+526
+00:12:27,409 --> 00:12:27,720
+I don't know why it didn't get
+
+527
+00:12:27,720 --> 00:12:27,830
+added.
+
+528
+00:12:27,879 --> 00:12:32,120
+So new tags in a V demo
+
+529
+00:12:32,529 --> 00:12:41,399
+coming and demo today.
+
+530
+00:12:47,980 --> 00:12:49,279
+By the way, you could also just
+
+531
+00:12:49,610 --> 00:12:51,080
+create the tags directly in the
+
+532
+00:12:51,080 --> 00:12:51,559
+workflows.
+
+533
+00:12:51,559 --> 00:12:52,120
+You don't need to come
+
+534
+00:12:52,149 --> 00:12:53,460
+into this page to do that.
+
+535
+00:12:53,779 --> 00:12:57,659
+I just found it to be easier.
+
+536
+00:12:57,659 --> 00:13:00,360
+But if you go to contacts, okay,
+
+537
+00:13:00,360 --> 00:13:00,600
+now we
+
+538
+00:13:00,620 --> 00:13:02,399
+have those tags created, you go to
+
+539
+00:13:02,399 --> 00:13:04,210
+more filters, you click on tag.
+
+540
+00:13:04,210 --> 00:13:06,840
+Here, you search is demo upcoming,
+
+541
+00:13:06,860 --> 00:13:08,110
+for example, or demo today.
+
+542
+00:13:08,490 --> 00:13:10,799
+You click apply, you can save as a
+
+543
+00:13:10,799 --> 00:13:11,730
+smart list.
+
+544
+00:13:11,960 --> 00:13:14,120
+So you could just name it upcoming
+
+545
+00:13:16,629 --> 00:13:16,840
+demos.
+
+546
+00:13:16,840 --> 00:13:19,289
+And whenever you go here and click
+
+547
+00:13:19,289 --> 00:13:21,750
+here, you'll see any lead that has
+
+548
+00:13:21,750 --> 00:13:22,830
+an upcoming demo with
+
+549
+00:13:22,860 --> 00:13:23,299
+you.
+
+550
+00:13:23,299 --> 00:13:25,389
+And same thing for demo today.
+
+551
+00:13:25,389 --> 00:13:27,080
+So if we change this to demo
+
+552
+00:13:27,080 --> 00:13:27,559
+today.
+
+553
+00:13:27,970 --> 00:13:31,830
+Remove this.
+
+554
+00:13:32,019 --> 00:13:33,879
+Save as new.
+
+555
+00:13:34,289 --> 00:13:38,039
+Today's demos.
+
+556
+00:13:38,440 --> 00:13:42,039
+You could have it right here.
+
+557
+00:13:42,039 --> 00:13:43,480
+So you just quickly see, okay,
+
+558
+00:13:43,480 --> 00:13:44,590
+what am I talking to
+
+559
+00:13:44,950 --> 00:13:45,159
+today?
+
+560
+00:13:45,159 --> 00:13:46,840
+You got a list who's coming up?
+
+561
+00:13:46,940 --> 00:13:47,879
+You got a list right here.
+
+562
+00:13:47,879 --> 00:13:49,080
+And again, you can make it even
+
+563
+00:13:49,100 --> 00:13:49,399
+better.
+
+564
+00:13:49,480 --> 00:13:50,840
+You know, appointment date is
+
+565
+00:13:50,840 --> 00:13:51,789
+right.
+
+566
+00:13:51,789 --> 00:13:53,350
+So demo upcoming and appointment
+
+567
+00:13:53,529 --> 00:13:54,679
+date is within three days,
+
+568
+00:13:54,700 --> 00:13:55,909
+like stuff like that.
+
+569
+00:13:55,909 --> 00:13:57,330
+There's a lot of options for
+
+570
+00:13:57,330 --> 00:13:58,429
+filtering the leads.
+
+571
+00:13:58,470 --> 00:14:00,840
+I won't go into all of that
+
+572
+00:14:00,860 --> 00:14:02,379
+here because it's just a lot of
+
+573
+00:14:02,490 --> 00:14:02,889
+stuff.
+
+574
+00:14:02,889 --> 00:14:04,509
+But yeah, this is definitely a
+
+575
+00:14:04,509 --> 00:14:05,480
+possibility.
+
+576
+00:14:05,480 --> 00:14:05,960
+So that's it for
+
+577
+00:14:05,980 --> 00:14:06,320
+this.
+
+578
+00:14:06,370 --> 00:14:07,230
+If you guys need help with
+
+579
+00:14:07,610 --> 00:14:08,909
+workflows or anything like that,
+
+580
+00:14:08,909 --> 00:14:10,230
+reach out to me and I'll help.
+
+581
+00:14:10,429 --> 00:14:11,480
+Bye.
+
+582
+00:14:11,889 --> 00:14:41,460
+Thank you.

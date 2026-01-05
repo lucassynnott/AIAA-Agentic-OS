@@ -1,0 +1,991 @@
+1
+00:00:00,000 --> 00:00:01,960
+So guys, Lucas here.
+
+2
+00:00:01,960 --> 00:00:03,560
+So in the last module, we went
+
+3
+00:00:03,560 --> 00:00:05,519
+over a little bit about triggers,
+
+4
+00:00:05,519 --> 00:00:06,219
+AI agents,
+
+5
+00:00:06,280 --> 00:00:08,660
+HTTP request nodes, and, you know,
+
+6
+00:00:08,660 --> 00:00:10,599
+sending files to platforms and
+
+7
+00:00:10,599 --> 00:00:11,960
+things like that.
+
+8
+00:00:11,960 --> 00:00:13,599
+So now we're going to go over
+
+9
+00:00:13,599 --> 00:00:15,330
+briefly, how do we deal with
+
+10
+00:00:15,330 --> 00:00:17,019
+errors in our workflow?
+
+11
+00:00:17,019 --> 00:00:17,800
+Because no
+
+12
+00:00:17,800 --> 00:00:19,250
+matter how good you make it, there
+
+13
+00:00:19,250 --> 00:00:20,649
+often will be times you still will
+
+14
+00:00:20,649 --> 00:00:21,839
+get the odd error here or
+
+15
+00:00:21,839 --> 00:00:22,350
+there.
+
+16
+00:00:22,350 --> 00:00:23,829
+So I'm going to show you how we
+
+17
+00:00:24,079 --> 00:00:24,660
+set this up.
+
+18
+00:00:24,660 --> 00:00:26,460
+First of all, we're going to look
+
+19
+00:00:26,460 --> 00:00:27,079
+at one of the
+
+20
+00:00:27,079 --> 00:00:28,489
+most likely nodes to error.
+
+21
+00:00:28,489 --> 00:00:30,019
+For instance, it's relatively
+
+22
+00:00:30,019 --> 00:00:31,550
+unlikely that a set node you've
+
+23
+00:00:31,640 --> 00:00:31,839
+tested
+
+24
+00:00:32,750 --> 00:00:34,640
+repeatedly is going to error out.
+
+25
+00:00:34,640 --> 00:00:37,340
+But it is definitely possible that
+
+26
+00:00:37,340 --> 00:00:39,159
+a AI agent might have an
+
+27
+00:00:39,159 --> 00:00:40,079
+error, right?
+
+28
+00:00:40,079 --> 00:00:41,549
+So how do we deal with that?
+
+29
+00:00:41,549 --> 00:00:43,320
+For instance, an example of why an
+
+30
+00:00:43,329 --> 00:00:44,320
+AI agent may have
+
+31
+00:00:44,320 --> 00:00:46,259
+an error, say you're using Claude
+
+32
+00:00:46,259 --> 00:00:47,750
+to generate your script or
+
+33
+00:00:47,750 --> 00:00:49,920
+something, and Claude's down, you
+
+34
+00:00:49,920 --> 00:00:50,229
+know,
+
+35
+00:00:50,240 --> 00:00:51,310
+the API is not available, then
+
+36
+00:00:51,479 --> 00:00:52,500
+also we're going to get an error.
+
+37
+00:00:52,560 --> 00:00:53,780
+So we're going to have to simulate
+
+38
+00:00:53,780 --> 00:00:53,960
+an
+
+39
+00:00:53,960 --> 00:00:54,960
+error here because everything's
+
+40
+00:00:55,210 --> 00:00:55,630
+currently working.
+
+41
+00:00:55,630 --> 00:00:56,320
+But I'm going to show you
+
+42
+00:00:56,329 --> 00:00:56,960
+basically how this
+
+43
+00:00:56,979 --> 00:00:57,310
+works.
+
+44
+00:00:57,310 --> 00:00:58,369
+So first of all, we're going to
+
+45
+00:00:58,369 --> 00:00:59,539
+double click on our AI agent here,
+
+46
+00:00:59,570 --> 00:01:00,520
+and then we're going to go to
+
+47
+00:01:00,520 --> 00:01:01,159
+settings.
+
+48
+00:01:01,329 --> 00:01:02,509
+And you'll see on error currently
+
+49
+00:01:02,840 --> 00:01:04,090
+set to stop the workflow.
+
+50
+00:01:04,090 --> 00:01:05,370
+So if there's an error, the
+
+51
+00:01:05,480 --> 00:01:06,799
+workflow just won't run.
+
+52
+00:01:06,799 --> 00:01:08,040
+Now, this is not ideal.
+
+53
+00:01:08,069 --> 00:01:10,239
+If you know, you are have a a
+
+54
+00:01:10,239 --> 00:01:11,750
+workflow like this, where
+
+55
+00:01:11,760 --> 00:01:12,980
+you know, we want to send messages
+
+56
+00:01:13,010 --> 00:01:13,980
+to a telegram in order to get a
+
+57
+00:01:14,079 --> 00:01:15,700
+response out, use me sending
+
+58
+00:01:15,700 --> 00:01:17,689
+messages and getting no response.
+
+59
+00:01:17,870 --> 00:01:19,239
+So what we do is we set this to
+
+60
+00:01:19,239 --> 00:01:21,040
+continue using error output.
+
+61
+00:01:21,099 --> 00:01:23,060
+So this
+
+62
+00:01:23,060 --> 00:01:24,469
+means that we will get a separate
+
+63
+00:01:24,469 --> 00:01:25,780
+error output that we can route
+
+64
+00:01:25,780 --> 00:01:26,730
+information to.
+
+65
+00:01:26,760 --> 00:01:28,900
+So now we've got a
+
+66
+00:01:28,900 --> 00:01:30,069
+success branch and an error
+
+67
+00:01:30,150 --> 00:01:30,560
+branch.
+
+68
+00:01:30,560 --> 00:01:32,310
+And we go down here, I'm going to
+
+69
+00:01:32,310 --> 00:01:33,500
+recreate an error.
+
+70
+00:01:33,500 --> 00:01:34,180
+You can see
+
+71
+00:01:34,180 --> 00:01:36,170
+just here, if we zoom in, we now
+
+72
+00:01:36,500 --> 00:01:38,489
+have success and error, right?
+
+73
+00:01:38,489 --> 00:01:40,680
+So let's disconnect this chat
+
+74
+00:01:40,680 --> 00:01:41,780
+model,
+
+75
+00:01:41,780 --> 00:01:43,319
+because that way, when we run this
+
+76
+00:01:43,359 --> 00:01:44,930
+again, we're going to get an error
+
+77
+00:01:44,930 --> 00:01:46,219
+no matter what, right?
+
+78
+00:01:46,219 --> 00:01:47,780
+So if I just
+
+79
+00:01:47,780 --> 00:01:49,650
+click run, you'll see, yep, we got
+
+80
+00:01:49,650 --> 00:01:51,030
+now here, this is green.
+
+81
+00:01:51,069 --> 00:01:52,819
+So the success one is green error
+
+82
+00:01:52,819 --> 00:01:53,060
+out.
+
+83
+00:01:53,060 --> 00:01:53,780
+So
+
+84
+00:01:53,780 --> 00:01:54,659
+what do we do next?
+
+85
+00:01:54,700 --> 00:01:56,099
+Next, we're going to want to
+
+86
+00:01:56,150 --> 00:01:57,540
+format our error message.
+
+87
+00:01:57,540 --> 00:01:58,629
+So to do that, we're just
+
+88
+00:01:58,659 --> 00:02:00,650
+going to choose a set node.
+
+89
+00:02:00,930 --> 00:02:02,159
+And we're just going to add a
+
+90
+00:02:02,159 --> 00:02:03,879
+name, or we're just going to call
+
+91
+00:02:03,879 --> 00:02:05,299
+it error.
+
+92
+00:02:05,299 --> 00:02:07,290
+Now we are, as you can see, this
+
+93
+00:02:07,510 --> 00:02:09,620
+is connected to the success one,
+
+94
+00:02:09,620 --> 00:02:10,419
+we don't want that connected
+
+95
+00:02:10,419 --> 00:02:10,659
+there,
+
+96
+00:02:10,659 --> 00:02:11,699
+we're going to connect it to the
+
+97
+00:02:11,900 --> 00:02:12,180
+error node.
+
+98
+00:02:12,180 --> 00:02:13,219
+So we connect error there.
+
+99
+00:02:13,259 --> 00:02:15,509
+We've named it error,
+
+100
+00:02:15,620 --> 00:02:17,099
+and we can see the error message
+
+101
+00:02:17,099 --> 00:02:18,620
+here, a chat model sub node must
+
+102
+00:02:18,639 --> 00:02:20,020
+be connected and enabled.
+
+103
+00:02:20,020 --> 00:02:22,009
+So let's add that as the value
+
+104
+00:02:22,340 --> 00:02:22,900
+here.
+
+105
+00:02:22,900 --> 00:02:26,389
+Now, we want to send this
+
+106
+00:02:26,509 --> 00:02:28,330
+somewhere, we want to get alerted
+
+107
+00:02:28,340 --> 00:02:29,000
+about this.
+
+108
+00:02:29,000 --> 00:02:30,330
+So let's just assume that we want
+
+109
+00:02:30,610 --> 00:02:32,000
+to get this alert in Slack, we
+
+110
+00:02:32,000 --> 00:02:33,189
+want a Slack message to
+
+111
+00:02:33,219 --> 00:02:35,590
+DM us and say, Hey, you know, this
+
+112
+00:02:35,590 --> 00:02:36,849
+is self working.
+
+113
+00:02:36,849 --> 00:02:38,810
+So we choose Slack, and we're
+
+114
+00:02:38,810 --> 00:02:40,419
+going to click send a
+
+115
+00:02:40,419 --> 00:02:41,090
+message.
+
+116
+00:02:41,289 --> 00:02:43,090
+Now, just for the purpose of this,
+
+117
+00:02:43,090 --> 00:02:45,000
+we're going to send a message to a
+
+118
+00:02:45,000 --> 00:02:45,939
+user, and we're just
+
+119
+00:02:45,939 --> 00:02:47,009
+going to pick me.
+
+120
+00:02:47,139 --> 00:02:49,509
+So we're going to type in Lucas,
+
+121
+00:02:49,509 --> 00:02:54,219
+and get a job.
+
+122
+00:02:54,219 --> 00:02:58,500
+There you go, there's me, Lucas,
+
+123
+00:02:58,500 --> 00:02:58,819
+right?
+
+124
+00:02:58,819 --> 00:03:02,460
+So we are going to run this to get
+
+125
+00:03:02,460 --> 00:03:06,330
+the error again.
+
+126
+00:03:06,419 --> 00:03:10,340
+Error branch there.
+
+127
+00:03:10,340 --> 00:03:12,979
+Going to here to set the field.
+
+128
+00:03:12,979 --> 00:03:14,719
+There is our output at chat model
+
+129
+00:03:14,800 --> 00:03:16,479
+sub node must be connected and
+
+130
+00:03:16,479 --> 00:03:17,219
+enabled.
+
+131
+00:03:17,219 --> 00:03:19,199
+Now over here, we're going
+
+132
+00:03:19,219 --> 00:03:20,840
+to write our message as an
+
+133
+00:03:20,840 --> 00:03:21,849
+expression.
+
+134
+00:03:21,849 --> 00:03:23,539
+So we're going to say error
+
+135
+00:03:23,539 --> 00:03:24,500
+detected.
+
+136
+00:03:24,500 --> 00:03:26,080
+And we need to know what
+
+137
+00:03:26,099 --> 00:03:27,310
+workflow this is in because this
+
+138
+00:03:27,349 --> 00:03:28,330
+could be in any workflow.
+
+139
+00:03:28,409 --> 00:03:29,300
+So we name it workflow.
+
+140
+00:03:29,300 --> 00:03:30,659
+And we're going
+
+141
+00:03:30,659 --> 00:03:32,280
+to do two curly brackets.
+
+142
+00:03:32,280 --> 00:03:34,110
+And if you actually scroll down
+
+143
+00:03:34,110 --> 00:03:36,099
+through here, you can see some of
+
+144
+00:03:36,110 --> 00:03:36,340
+the things
+
+145
+00:03:36,340 --> 00:03:37,599
+you can input in here.
+
+146
+00:03:37,599 --> 00:03:39,229
+So we're looking at metadata,
+
+147
+00:03:39,229 --> 00:03:39,740
+right?
+
+148
+00:03:39,740 --> 00:03:41,460
+And if we go down to workflow,
+
+149
+00:03:41,460 --> 00:03:41,620
+it's
+
+150
+00:03:42,530 --> 00:03:44,219
+information about the workflow.
+
+151
+00:03:44,219 --> 00:03:46,669
+And if we just put dot name, I've
+
+152
+00:03:46,669 --> 00:03:49,349
+named the workflow example.
+
+153
+00:03:49,490 --> 00:03:49,699
+So it's
+
+154
+00:03:49,699 --> 00:03:50,620
+going to name the workflow
+
+155
+00:03:50,909 --> 00:03:51,030
+example.
+
+156
+00:03:51,030 --> 00:03:52,090
+So all we did there again, I'll
+
+157
+00:03:52,090 --> 00:03:52,900
+just redo that again.
+
+158
+00:03:54,900 --> 00:03:56,889
+Curly brackets, two of them.
+
+159
+00:03:57,219 --> 00:03:58,750
+Scroll down until you get to
+
+160
+00:03:58,750 --> 00:04:02,009
+metadata, you'll find workflow.
+
+161
+00:04:02,080 --> 00:04:02,650
+Then we're
+
+162
+00:04:02,659 --> 00:04:04,400
+going to press a full stop and
+
+163
+00:04:04,400 --> 00:04:04,919
+name.
+
+164
+00:04:04,979 --> 00:04:06,800
+And that's how we get the name of
+
+165
+00:04:06,800 --> 00:04:07,939
+the workflow.
+
+166
+00:04:07,939 --> 00:04:08,500
+So now when we get
+
+167
+00:04:08,500 --> 00:04:09,960
+this error message, we'll know
+
+168
+00:04:09,960 --> 00:04:11,650
+it's in this particular workflow.
+
+169
+00:04:11,650 --> 00:04:12,969
+And then we'll just say error.
+
+170
+00:04:13,060 --> 00:04:14,020
+And we're
+
+171
+00:04:14,020 --> 00:04:15,759
+just going to drag from our edit
+
+172
+00:04:15,830 --> 00:04:17,730
+fields one over here, error.
+
+173
+00:04:17,730 --> 00:04:19,129
+And so now if we open this
+
+174
+00:04:19,129 --> 00:04:20,100
+expression,
+
+175
+00:04:20,100 --> 00:04:21,470
+you'll see what it looks like
+
+176
+00:04:21,470 --> 00:04:23,079
+error detected workflow example
+
+177
+00:04:23,079 --> 00:04:24,899
+error, a chart model sub node must
+
+178
+00:04:24,899 --> 00:04:24,949
+be
+
+179
+00:04:25,060 --> 00:04:26,319
+connected and enabled.
+
+180
+00:04:26,319 --> 00:04:27,910
+So now we know what the error is.
+
+181
+00:04:27,910 --> 00:04:29,410
+Now with the other ones, you do
+
+182
+00:04:29,410 --> 00:04:29,860
+the same thing,
+
+183
+00:04:29,860 --> 00:04:31,600
+you can essentially go in here.
+
+184
+00:04:31,610 --> 00:04:34,029
+And you can do on error continue
+
+185
+00:04:34,069 --> 00:04:36,230
+using error output.
+
+186
+00:04:36,350 --> 00:04:36,720
+And then you can
+
+187
+00:04:37,569 --> 00:04:39,949
+connect the error output to a set
+
+188
+00:04:39,949 --> 00:04:40,800
+node.
+
+189
+00:04:40,839 --> 00:04:44,120
+And we can do the same thing
+
+190
+00:04:44,120 --> 00:04:45,319
+again.
+
+191
+00:04:45,319 --> 00:04:48,019
+So we'll get wherever the error
+
+192
+00:04:48,019 --> 00:04:49,310
+comes from, we'll get it in here,
+
+193
+00:04:49,310 --> 00:04:49,689
+right?
+
+194
+00:04:49,689 --> 00:04:52,379
+So long.
+
+195
+00:04:52,379 --> 00:04:54,879
+And we'll get sent a message.
+
+196
+00:04:54,889 --> 00:04:55,769
+Now this is vital,
+
+197
+00:04:55,779 --> 00:04:56,920
+because you will be dealing with a
+
+198
+00:04:57,029 --> 00:04:58,160
+lot of complicated workflows we've
+
+199
+00:04:58,160 --> 00:04:58,660
+set up for you,
+
+200
+00:04:58,660 --> 00:05:00,160
+and we'll have the error nodes
+
+201
+00:05:00,160 --> 00:05:00,649
+built in.
+
+202
+00:05:00,939 --> 00:05:02,319
+But this is just an idea of how if
+
+203
+00:05:02,319 --> 00:05:03,129
+you're making your own
+
+204
+00:05:03,220 --> 00:05:04,629
+workflow, how you would set this
+
+205
+00:05:04,629 --> 00:05:05,980
+up to ensure that you are getting
+
+206
+00:05:05,980 --> 00:05:08,500
+alerted properly of any potential
+
+207
+00:05:08,500 --> 00:05:10,129
+issues with the workflow.
+
+208
+00:05:10,129 --> 00:05:12,029
+Do you should always run multiple
+
+209
+00:05:12,029 --> 00:05:13,839
+tests of every single workflow
+
+210
+00:05:13,949 --> 00:05:14,410
+that you
+
+211
+00:05:14,420 --> 00:05:15,759
+create or that you use, even the
+
+212
+00:05:15,790 --> 00:05:17,120
+ones that we give you, I want you
+
+213
+00:05:17,120 --> 00:05:19,220
+to make sure that you know you
+
+214
+00:05:19,220 --> 00:05:20,480
+modify them appropriately, and
+
+215
+00:05:20,480 --> 00:05:21,680
+then you test the hell out of them
+
+216
+00:05:21,680 --> 00:05:23,060
+to make sure that this working the
+
+217
+00:05:23,060 --> 00:05:23,129
+way
+
+218
+00:05:23,139 --> 00:05:24,790
+that works for your particular
+
+219
+00:05:24,790 --> 00:05:26,129
+operations and setup.
+
+220
+00:05:26,129 --> 00:05:27,889
+For instance, some of you may not
+
+221
+00:05:27,889 --> 00:05:28,819
+be using Slack,
+
+222
+00:05:28,819 --> 00:05:30,230
+you may be using, I don't know,
+
+223
+00:05:30,230 --> 00:05:31,519
+maybe you run everything off
+
+224
+00:05:31,519 --> 00:05:33,290
+Telegram or WhatsApp or something,
+
+225
+00:05:33,300 --> 00:05:35,290
+maybe use ClickUp, something like
+
+226
+00:05:35,620 --> 00:05:36,019
+that.
+
+227
+00:05:36,019 --> 00:05:37,699
+So there will be some mild
+
+228
+00:05:37,699 --> 00:05:39,139
+modification of the workflows
+
+229
+00:05:39,139 --> 00:05:41,060
+I'll be showing you guys later on
+
+230
+00:05:41,060 --> 00:05:43,050
+in the workflow setup modules.
+
+231
+00:05:43,050 --> 00:05:44,480
+And for that, I just want to make
+
+232
+00:05:44,500 --> 00:05:45,470
+sure that you know how to set up
+
+233
+00:05:45,470 --> 00:05:46,490
+any errors that may turn up if you
+
+234
+00:05:46,670 --> 00:05:47,500
+know you're using a separate
+
+235
+00:05:47,540 --> 00:05:49,470
+sort of setup that we make for you
+
+236
+00:05:49,470 --> 00:05:50,019
+guys.
+
+237
+00:05:50,019 --> 00:05:51,120
+But again, these will all be set
+
+238
+00:05:51,120 --> 00:05:52,009
+up already inside the
+
+239
+00:05:52,100 --> 00:05:53,720
+workflows we give you, there will
+
+240
+00:05:53,720 --> 00:05:55,459
+be error notifications created.
+
+241
+00:05:55,459 --> 00:05:57,379
+So you shouldn't have
+
+242
+00:05:57,379 --> 00:05:58,980
+to worry too much.
+
+243
+00:05:58,980 --> 00:06:01,339
+But yeah, hopefully that was
+
+244
+00:06:01,339 --> 00:06:02,230
+helpful.
+
+245
+00:06:02,350 --> 00:06:04,240
+And let's move on to the next
+
+246
+00:06:04,250 --> 00:06:04,660
+module.
+
+247
+00:06:04,660 --> 00:06:05,699
+See you guys the next one.
+
+248
+00:06:05,910 --> 00:06:07,220
+Peace.

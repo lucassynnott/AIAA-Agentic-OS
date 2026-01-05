@@ -1,0 +1,3755 @@
+1
+00:00:00,170 --> 00:00:01,120
+What's up guys, Lucas here.
+
+2
+00:00:01,120 --> 00:00:02,799
+So in this video, I'm going to be
+
+3
+00:00:02,799 --> 00:00:03,759
+showing you how to use Poppy
+
+4
+00:00:03,940 --> 00:00:05,980
+to script a YouTube video.
+
+5
+00:00:06,070 --> 00:00:07,299
+Now for this, we're going to be
+
+6
+00:00:07,299 --> 00:00:08,480
+using a template you'll find in
+
+7
+00:00:08,480 --> 00:00:08,630
+the
+
+8
+00:00:08,900 --> 00:00:10,130
+template section called Brian ng
+
+9
+00:00:10,269 --> 00:00:11,839
+YouTube script writing template.
+
+10
+00:00:11,839 --> 00:00:13,679
+This is by far the best one
+
+11
+00:00:13,679 --> 00:00:14,730
+I've found here so far.
+
+12
+00:00:14,730 --> 00:00:15,830
+So as you can see, this is a
+
+13
+00:00:15,830 --> 00:00:17,039
+template board view only.
+
+14
+00:00:17,039 --> 00:00:17,440
+So what I'm going
+
+15
+00:00:17,480 --> 00:00:18,910
+to do is going to click use
+
+16
+00:00:19,070 --> 00:00:20,870
+template, and we'll create a copy
+
+17
+00:00:21,030 --> 00:00:23,039
+of this in my own Poppy account.
+
+18
+00:00:25,839 --> 00:00:26,989
+So now we're in here.
+
+19
+00:00:26,989 --> 00:00:28,640
+First thing I'm going to do is I'm
+
+20
+00:00:28,640 --> 00:00:31,519
+going to read instructions for
+
+21
+00:00:31,519 --> 00:00:32,479
+users.
+
+22
+00:00:32,479 --> 00:00:32,710
+So
+
+23
+00:00:32,979 --> 00:00:34,619
+before you begin, have your final
+
+24
+00:00:34,729 --> 00:00:36,530
+video concept and title ready.
+
+25
+00:00:36,590 --> 00:00:38,149
+Gather these resources to provide
+
+26
+00:00:38,420 --> 00:00:39,320
+context to AI, your target video
+
+27
+00:00:39,320 --> 00:00:40,380
+length, transcripts of two to
+
+28
+00:00:40,469 --> 00:00:41,570
+three high performing videos in
+
+29
+00:00:41,570 --> 00:00:41,590
+your
+
+30
+00:00:41,869 --> 00:00:42,539
+niche with similar content
+
+31
+00:00:42,539 --> 00:00:43,399
+structure, key points you
+
+32
+00:00:43,399 --> 00:00:44,479
+absolutely must include in your
+
+33
+00:00:44,479 --> 00:00:45,350
+video, and your
+
+34
+00:00:45,619 --> 00:00:46,460
+research data or sources you plan
+
+35
+00:00:46,460 --> 00:00:47,560
+to reference your hook ideas have
+
+36
+00:00:47,560 --> 00:00:48,560
+already developed as specific
+
+37
+00:00:48,820 --> 00:00:49,750
+retention tags that have worked
+
+38
+00:00:50,060 --> 00:00:51,259
+for your channel before it's for
+
+39
+00:00:51,259 --> 00:00:52,630
+best results crucial almost to add
+
+40
+00:00:52,820 --> 00:00:53,829
+your own PDFs, YouTube videos,
+
+41
+00:00:54,250 --> 00:00:55,520
+webinars, website, creative brief.
+
+42
+00:00:55,520 --> 00:00:56,399
+I think it's a document for
+
+43
+00:00:56,659 --> 00:00:57,520
+creating a creative brief.
+
+44
+00:00:57,520 --> 00:00:59,619
+You also find a tutorial on
+
+45
+00:00:59,619 --> 00:01:01,590
+creating your creative brief in
+
+46
+00:01:01,649 --> 00:01:01,920
+the client
+
+47
+00:01:01,920 --> 00:01:03,109
+ascension course from Nick Verge.
+
+48
+00:01:03,420 --> 00:01:04,750
+The golden rule of script
+
+49
+00:01:04,750 --> 00:01:05,650
+development.
+
+50
+00:01:05,650 --> 00:01:06,879
+Every 30 seconds ask yourself,
+
+51
+00:01:07,090 --> 00:01:08,060
+would I keep watching this and why
+
+52
+00:01:08,060 --> 00:01:08,769
+were the viewer?
+
+53
+00:01:08,890 --> 00:01:09,969
+The answer is an immediate yes,
+
+54
+00:01:09,969 --> 00:01:10,549
+stress in that section
+
+55
+00:01:10,560 --> 00:01:11,480
+by adding a surprise fact,
+
+56
+00:01:11,560 --> 00:01:12,780
+inserting a mini story, including
+
+57
+00:01:12,870 --> 00:01:14,230
+compelling example, creating a
+
+58
+00:01:14,239 --> 00:01:15,040
+curiosity gap,
+
+59
+00:01:15,040 --> 00:01:16,230
+or using a pattern interruption
+
+60
+00:01:16,670 --> 00:01:16,939
+technique.
+
+61
+00:01:17,049 --> 00:01:19,340
+So let's start with getting our
+
+62
+00:01:19,549 --> 00:01:20,319
+information in here.
+
+63
+00:01:20,519 --> 00:01:21,510
+This is group one who I am now.
+
+64
+00:01:21,870 --> 00:01:22,920
+Brian's got his information in
+
+65
+00:01:22,930 --> 00:01:23,359
+here.
+
+66
+00:01:23,359 --> 00:01:24,620
+So we're just going to remove
+
+67
+00:01:24,829 --> 00:01:24,959
+this.
+
+68
+00:01:25,219 --> 00:01:32,400
+Boom, all gone.
+
+69
+00:01:32,400 --> 00:01:34,010
+And I'm going to grab some of my
+
+70
+00:01:34,010 --> 00:01:35,750
+own YouTube videos.
+
+71
+00:01:35,750 --> 00:01:36,319
+So we're going to go to
+
+72
+00:01:36,319 --> 00:01:37,120
+youtube.com.
+
+73
+00:01:37,120 --> 00:01:40,719
+I'm going to go view your channel.
+
+74
+00:01:43,930 --> 00:01:45,849
+We're going to copy all these
+
+75
+00:01:45,849 --> 00:01:46,640
+over.
+
+76
+00:01:46,670 --> 00:01:50,629
+Let's go back to poppy, paste.
+
+77
+00:01:50,909 --> 00:01:58,319
+Copy, paste.
+
+78
+00:01:58,579 --> 00:02:03,180
+So we're going to copy a few more
+
+79
+00:02:03,180 --> 00:02:05,060
+of these in.
+
+80
+00:02:05,060 --> 00:02:07,280
+We want as many as we can.
+
+81
+00:02:08,580 --> 00:02:10,879
+Copy, paste.
+
+82
+00:02:10,879 --> 00:02:17,729
+That should be one or two more of
+
+83
+00:02:17,729 --> 00:02:18,879
+these.
+
+84
+00:02:19,139 --> 00:02:22,310
+And then we're going to do is
+
+85
+00:02:22,469 --> 00:02:26,550
+we're going to put my website.
+
+86
+00:02:26,550 --> 00:02:28,000
+We're going to hit W for website.
+
+87
+00:02:28,240 --> 00:02:31,280
+We're going to type in my website
+
+88
+00:02:31,280 --> 00:02:32,639
+name.
+
+89
+00:02:32,639 --> 00:02:34,800
+Put that in there.
+
+90
+00:02:34,800 --> 00:02:35,849
+I'm going to get my creative
+
+91
+00:02:35,849 --> 00:02:36,219
+brief.
+
+92
+00:02:36,219 --> 00:02:37,389
+I'm just going to find this on my
+
+93
+00:02:37,389 --> 00:02:38,000
+computer.
+
+94
+00:02:38,259 --> 00:02:41,169
+Okay, so I'm uploading my creative
+
+95
+00:02:41,169 --> 00:02:42,069
+brief.
+
+96
+00:02:42,120 --> 00:02:44,960
+We're going to put that in there.
+
+97
+00:02:47,240 --> 00:02:48,400
+And that should be pretty much all
+
+98
+00:02:48,620 --> 00:02:49,699
+we're going to need is wait for
+
+99
+00:02:49,699 --> 00:02:50,870
+that to extract the text.
+
+100
+00:02:51,099 --> 00:02:53,759
+So let's see what else Brian had.
+
+101
+00:02:54,020 --> 00:02:56,680
+Our target video length,
+
+102
+00:02:56,680 --> 00:02:58,060
+transcripts.
+
+103
+00:02:58,250 --> 00:03:01,280
+I'm also going to go and grab from
+
+104
+00:03:01,280 --> 00:03:04,400
+one of my previous boards,
+
+105
+00:03:04,400 --> 00:03:06,930
+if I can find it, my tone of voice
+
+106
+00:03:06,930 --> 00:03:09,919
+clone that we did before.
+
+107
+00:03:10,879 --> 00:03:11,759
+So you remember in a previous
+
+108
+00:03:11,759 --> 00:03:12,770
+video, we created this.
+
+109
+00:03:12,889 --> 00:03:14,689
+This was our brand voice and
+
+110
+00:03:14,750 --> 00:03:15,280
+speaking style.
+
+111
+00:03:15,280 --> 00:03:16,469
+We can copy this whole group and
+
+112
+00:03:16,909 --> 00:03:20,319
+we can go back here and we can
+
+113
+00:03:20,319 --> 00:03:21,759
+paste this in.
+
+114
+00:03:21,919 --> 00:03:23,509
+We can add this actually as
+
+115
+00:03:23,509 --> 00:03:26,879
+another whole group to connect.
+
+116
+00:03:32,180 --> 00:03:35,120
+And yeah, we should be good to go.
+
+117
+00:03:35,120 --> 00:03:37,840
+So let's see what else.
+
+118
+00:03:38,030 --> 00:03:39,680
+Now we're going to go down here.
+
+119
+00:03:39,680 --> 00:03:42,699
+So Brian has a prompt written for
+
+120
+00:03:42,830 --> 00:03:43,680
+us already.
+
+121
+00:03:43,879 --> 00:03:44,759
+There's someone's going to link
+
+122
+00:03:44,759 --> 00:03:46,099
+this because we don't need that
+
+123
+00:03:46,099 --> 00:03:46,719
+right now.
+
+124
+00:03:46,719 --> 00:03:47,759
+This is a flow chart.
+
+125
+00:03:48,020 --> 00:03:49,919
+Let's go down here.
+
+126
+00:03:49,919 --> 00:03:51,599
+I think this is a bigger, right?
+
+127
+00:03:54,639 --> 00:03:55,280
+Oh, copy.
+
+128
+00:03:55,280 --> 00:03:56,960
+Group one is who I am, my content,
+
+129
+00:03:56,960 --> 00:03:57,789
+analyze the content, give me a
+
+130
+00:03:57,789 --> 00:03:58,159
+summary of my
+
+131
+00:03:58,370 --> 00:03:59,349
+brown voice, signals to the tone,
+
+132
+00:03:59,610 --> 00:04:00,469
+speak words I use, group two's
+
+133
+00:04:00,469 --> 00:04:02,000
+guides, how to write viral videos.
+
+134
+00:04:02,259 --> 00:04:03,680
+Group three is a prompt chain for
+
+135
+00:04:03,689 --> 00:04:05,199
+writing the outline and we're
+
+136
+00:04:05,199 --> 00:04:05,919
+going to actually modify
+
+137
+00:04:06,180 --> 00:04:08,280
+this a little bit because we now
+
+138
+00:04:08,280 --> 00:04:09,599
+have a group four.
+
+139
+00:04:09,860 --> 00:04:16,639
+Voice, profile, tone and style.
+
+140
+00:04:22,240 --> 00:04:25,350
+I'm going to say group four is my
+
+141
+00:04:25,350 --> 00:04:30,720
+voice, tone and style prompt.
+
+142
+00:04:30,720 --> 00:04:34,050
+Follow this to write like
+
+143
+00:04:34,660 --> 00:04:40,120
+to write scripts in my voice and
+
+144
+00:04:40,540 --> 00:04:43,439
+speaking style.
+
+145
+00:04:43,699 --> 00:04:46,540
+Now we're going to say, I want to
+
+146
+00:04:46,540 --> 00:04:49,829
+write a YouTube video about, let's
+
+147
+00:04:49,980 --> 00:04:50,160
+say,
+
+148
+00:04:51,839 --> 00:04:55,490
+AI automations that you need to
+
+149
+00:04:55,509 --> 00:04:59,269
+have in 2025.
+
+150
+00:04:59,279 --> 00:05:01,129
+Now, one of the things you can do
+
+151
+00:05:01,290 --> 00:05:02,000
+as part of this
+
+152
+00:05:02,000 --> 00:05:03,180
+is we can take existing videos
+
+153
+00:05:03,180 --> 00:05:04,560
+that we know are high performing
+
+154
+00:05:04,560 --> 00:05:10,079
+and we can include those as
+
+155
+00:05:10,079 --> 00:05:11,360
+examples.
+
+156
+00:05:11,600 --> 00:05:14,790
+So let's see, what's one of the,
+
+157
+00:05:14,800 --> 00:05:18,319
+what's a good automations.
+
+158
+00:05:19,279 --> 00:05:19,920
+So this is a good one.
+
+159
+00:05:19,920 --> 00:05:21,329
+This is eight sales automations,
+
+160
+00:05:21,329 --> 00:05:23,040
+fairly cheating from Liam oddly.
+
+161
+00:05:23,079 --> 00:05:24,060
+Now we can actually get the
+
+162
+00:05:24,060 --> 00:05:25,360
+information from this by copying
+
+163
+00:05:25,360 --> 00:05:25,600
+this.
+
+164
+00:05:25,860 --> 00:05:27,759
+And let's make a new group and
+
+165
+00:05:27,759 --> 00:05:29,410
+call it group five.
+
+166
+00:05:29,459 --> 00:05:31,339
+We're going to name it
+
+167
+00:05:36,579 --> 00:05:41,600
+topic information and education.
+
+168
+00:05:41,860 --> 00:05:45,550
+So then we place that video in
+
+169
+00:05:45,550 --> 00:05:48,149
+there and we're going to describe
+
+170
+00:05:48,149 --> 00:05:50,879
+this as well to our, in our
+
+171
+00:05:50,910 --> 00:05:51,360
+prompt.
+
+172
+00:05:51,560 --> 00:05:53,680
+So let's grab this right.
+
+173
+00:05:53,680 --> 00:05:56,220
+Let's up here and connect it if we
+
+174
+00:05:56,350 --> 00:05:56,560
+can.
+
+175
+00:05:58,879 --> 00:05:59,759
+And then we're going to add to
+
+176
+00:05:59,759 --> 00:06:00,319
+this prompt.
+
+177
+00:06:00,399 --> 00:06:01,040
+We're going to say.
+
+178
+00:06:01,300 --> 00:06:06,149
+Group five contains information
+
+179
+00:06:06,149 --> 00:06:09,839
+about the topic I am speaking
+
+180
+00:06:09,839 --> 00:06:10,399
+about.
+
+181
+00:06:10,660 --> 00:06:16,120
+Use this group for research on the
+
+182
+00:06:16,529 --> 00:06:18,319
+topic of the video.
+
+183
+00:06:20,040 --> 00:06:21,189
+Now we're going to copy this and
+
+184
+00:06:21,629 --> 00:06:25,189
+we are going to paste it into our
+
+185
+00:06:25,220 --> 00:06:25,759
+chat.
+
+186
+00:06:25,930 --> 00:06:27,980
+So let's zoom in a little bit.
+
+187
+00:06:28,170 --> 00:06:30,220
+So I want you to script a YouTube
+
+188
+00:06:30,310 --> 00:06:31,620
+video about AI automations you
+
+189
+00:06:31,620 --> 00:06:32,720
+need to have in 2025.
+
+190
+00:06:32,949 --> 00:06:33,600
+Group one is who I am.
+
+191
+00:06:33,600 --> 00:06:35,040
+My content is the content can be
+
+192
+00:06:35,040 --> 00:06:35,839
+sorry, our voice.
+
+193
+00:06:36,089 --> 00:06:37,040
+Take note of the tone of the
+
+194
+00:06:37,470 --> 00:06:38,240
+speakers I use.
+
+195
+00:06:38,500 --> 00:06:40,040
+Group two is guys that headwrite
+
+196
+00:06:40,040 --> 00:06:41,379
+viral videos refer to the
+
+197
+00:06:41,379 --> 00:06:42,000
+documents that understand
+
+198
+00:06:42,000 --> 00:06:42,639
+headwrite hooks,
+
+199
+00:06:42,899 --> 00:06:43,970
+bodies, open lips, ETAs, et
+
+200
+00:06:44,259 --> 00:06:44,480
+cetera.
+
+201
+00:06:44,480 --> 00:06:45,759
+Group three is a prompt chain for
+
+202
+00:06:45,759 --> 00:06:46,240
+the outline.
+
+203
+00:06:46,240 --> 00:06:46,910
+If I should get the script.
+
+204
+00:06:46,990 --> 00:06:47,769
+When I tell you to call these
+
+205
+00:06:47,870 --> 00:06:48,720
+prompt chains, call them.
+
+206
+00:06:48,949 --> 00:06:49,860
+Group four is my voice tone and
+
+207
+00:06:49,860 --> 00:06:51,040
+saw prompt for the story scripts
+
+208
+00:06:51,040 --> 00:06:52,079
+in my voice and speaking style.
+
+209
+00:06:52,259 --> 00:06:53,100
+Group five contains information
+
+210
+00:06:53,100 --> 00:06:53,959
+about the topic I'm speaking
+
+211
+00:06:53,959 --> 00:06:54,300
+about.
+
+212
+00:06:54,500 --> 00:06:56,959
+So we might actually need to say,
+
+213
+00:06:56,959 --> 00:06:57,680
+analyze the content.
+
+214
+00:06:57,680 --> 00:06:58,240
+We can just say.
+
+215
+00:06:58,500 --> 00:07:04,720
+Use this to tailor the scripts.
+
+216
+00:07:04,980 --> 00:07:09,439
+To me specifically.
+
+217
+00:07:09,699 --> 00:07:11,439
+To me.
+
+218
+00:07:14,500 --> 00:07:16,800
+Lucas Senate specifically.
+
+219
+00:07:17,069 --> 00:07:24,000
+And pulling information.
+
+220
+00:07:24,269 --> 00:07:27,040
+Or stories.
+
+221
+00:07:27,300 --> 00:07:28,319
+Pulling information.
+
+222
+00:07:28,579 --> 00:07:32,079
+From my personal stories.
+
+223
+00:07:32,339 --> 00:07:34,399
+And experience to.
+
+224
+00:07:34,660 --> 00:07:38,639
+Include if necessary.
+
+225
+00:07:38,899 --> 00:07:42,000
+I can't spell.
+
+226
+00:07:42,180 --> 00:07:43,120
+Necessary.
+
+227
+00:07:43,379 --> 00:07:44,240
+There we go.
+
+228
+00:07:44,480 --> 00:07:45,120
+All right.
+
+229
+00:07:45,120 --> 00:07:46,720
+I'm going to hit enter.
+
+230
+00:07:46,720 --> 00:07:47,360
+Let's see what we get.
+
+231
+00:07:47,620 --> 00:07:50,399
+Let's make this a bit bigger.
+
+232
+00:07:50,670 --> 00:08:04,480
+Okay.
+
+233
+00:08:04,740 --> 00:08:08,449
+It's running through our prompt
+
+234
+00:08:08,449 --> 00:08:09,670
+chain.
+
+235
+00:08:12,259 --> 00:08:14,319
+So.
+
+236
+00:08:14,360 --> 00:08:15,040
+You can see it says.
+
+237
+00:08:15,040 --> 00:08:15,990
+I'll be creating YouTube script.
+
+238
+00:08:16,000 --> 00:08:16,639
+By automation.
+
+239
+00:08:16,839 --> 00:08:17,829
+With your knowledge base.
+
+240
+00:08:17,839 --> 00:08:18,639
+You can see who you are.
+
+241
+00:08:18,839 --> 00:08:19,839
+Let me start using our prompt
+
+242
+00:08:20,269 --> 00:08:20,290
+chain.
+
+243
+00:08:20,319 --> 00:08:21,269
+I'll choose your outline for this
+
+244
+00:08:21,319 --> 00:08:21,509
+video.
+
+245
+00:08:21,600 --> 00:08:22,480
+I'll call the first prompt to use
+
+246
+00:08:22,480 --> 00:08:23,490
+your outline development chain.
+
+247
+00:08:23,779 --> 00:08:25,360
+Great.
+
+248
+00:08:25,360 --> 00:08:25,600
+So.
+
+249
+00:08:25,759 --> 00:08:27,439
+We're getting this here.
+
+250
+00:08:27,439 --> 00:08:28,000
+Blah, blah, blah.
+
+251
+00:08:29,689 --> 00:08:31,660
+And this is writing to these over
+
+252
+00:08:31,750 --> 00:08:32,320
+here.
+
+253
+00:08:32,580 --> 00:08:34,000
+These ones here.
+
+254
+00:08:34,000 --> 00:08:34,798
+The prompt chain here.
+
+255
+00:08:34,798 --> 00:08:35,360
+So that's the.
+
+256
+00:08:35,620 --> 00:08:37,759
+Crafts TGQ script outlines.
+
+257
+00:08:38,019 --> 00:08:38,950
+And then.
+
+258
+00:08:39,120 --> 00:08:39,440
+Uh.
+
+259
+00:08:39,658 --> 00:08:41,120
+We're going to.
+
+260
+00:08:41,379 --> 00:08:44,000
+Say that's all good.
+
+261
+00:08:44,000 --> 00:08:46,320
+I'm just going to say continue.
+
+262
+00:08:53,360 --> 00:08:54,269
+So it's going to outline the
+
+263
+00:08:54,279 --> 00:08:54,799
+script now.
+
+264
+00:08:55,059 --> 00:09:04,159
+So we're getting the outline.
+
+265
+00:09:04,159 --> 00:09:04,639
+So we're going to say.
+
+266
+00:09:04,639 --> 00:09:05,039
+You know.
+
+267
+00:09:05,210 --> 00:09:05,919
+Main section structure.
+
+268
+00:09:05,919 --> 00:09:06,870
+The hook and authority building.
+
+269
+00:09:06,919 --> 00:09:07,919
+Open with contrasting reality.
+
+270
+00:09:07,919 --> 00:09:08,529
+When most people are still
+
+271
+00:09:08,529 --> 00:09:08,879
+figuring out.
+
+272
+00:09:09,139 --> 00:09:09,759
+ChatTBT.
+
+273
+00:09:09,759 --> 00:09:10,639
+It's average credibility.
+
+274
+00:09:10,840 --> 00:09:11,309
+Through client extension.
+
+275
+00:09:11,559 --> 00:09:12,309
+Innovative experience.
+
+276
+00:09:12,580 --> 00:09:13,120
+Uh.
+
+277
+00:09:13,379 --> 00:09:14,080
+Promise specific automation.
+
+278
+00:09:14,080 --> 00:09:15,000
+It's every winner's release in
+
+279
+00:09:15,029 --> 00:09:15,679
+2025.
+
+280
+00:09:15,940 --> 00:09:16,360
+Uh.
+
+281
+00:09:16,570 --> 00:09:18,240
+Why most AI implementations fail.
+
+282
+00:09:18,240 --> 00:09:19,419
+The difference between AI toys.
+
+283
+00:09:19,610 --> 00:09:20,559
+Versus AI tools make money.
+
+284
+00:09:20,559 --> 00:09:21,679
+So the automation hierarchy
+
+285
+00:09:21,679 --> 00:09:22,159
+concept.
+
+286
+00:09:22,419 --> 00:09:23,340
+Uh.
+
+287
+00:09:23,509 --> 00:09:24,309
+Lead response automation.
+
+288
+00:09:24,320 --> 00:09:24,960
+Proposal generation.
+
+289
+00:09:24,960 --> 00:09:25,600
+Client boarding sequence.
+
+290
+00:09:25,600 --> 00:09:26,000
+So Chris.
+
+291
+00:09:26,000 --> 00:09:27,039
+We've got some of the actual.
+
+292
+00:09:27,200 --> 00:09:27,440
+Uh.
+
+293
+00:09:27,610 --> 00:09:28,330
+Automations we're going to talk
+
+294
+00:09:28,330 --> 00:09:28,629
+about.
+
+295
+00:09:28,809 --> 00:09:30,480
+Involvation reality.
+
+296
+00:09:30,679 --> 00:09:31,360
+Here's the thing.
+
+297
+00:09:31,509 --> 00:09:32,549
+Why most people will do this.
+
+298
+00:09:32,720 --> 00:09:33,039
+Uh.
+
+299
+00:09:33,299 --> 00:09:34,230
+Direct CTA to work with you.
+
+300
+00:09:34,399 --> 00:09:35,190
+Key dependencies.
+
+301
+00:09:35,200 --> 00:09:36,320
+We'll establish AI credibility.
+
+302
+00:09:36,580 --> 00:09:38,399
+Lead response will come first.
+
+303
+00:09:38,399 --> 00:09:39,070
+Revenue fact.
+
+304
+00:09:39,379 --> 00:09:40,000
+Recovery last.
+
+305
+00:09:40,000 --> 00:09:40,639
+Nested loops.
+
+306
+00:09:40,639 --> 00:09:41,279
+We'll own automation.
+
+307
+00:09:41,460 --> 00:09:42,559
+That's already 295 weeks.
+
+308
+00:09:42,559 --> 00:09:43,440
+We'll be at the seven minute mark.
+
+309
+00:09:43,690 --> 00:09:44,080
+Uh.
+
+310
+00:09:44,080 --> 00:09:44,879
+The mistake that kills everything.
+
+311
+00:09:44,879 --> 00:09:46,399
+Involvation scope is section two.
+
+312
+00:09:46,659 --> 00:09:47,580
+Uh.
+
+313
+00:09:47,860 --> 00:09:48,789
+Right.
+
+314
+00:09:50,820 --> 00:09:51,679
+Okay.
+
+315
+00:09:51,940 --> 00:09:53,580
+Range movement is detailed section
+
+316
+00:09:53,690 --> 00:09:55,039
+by section blueprint.
+
+317
+00:09:55,299 --> 00:09:56,720
+Yes.
+
+318
+00:09:56,980 --> 00:09:57,399
+Continue.
+
+319
+00:09:57,610 --> 00:09:59,789
+So we're going to make the section
+
+320
+00:09:59,789 --> 00:10:01,570
+by section blueprint.
+
+321
+00:10:01,860 --> 00:10:11,759
+So this is all giving the AI.
+
+322
+00:10:11,759 --> 00:10:12,870
+And this is from Brian's prompt
+
+323
+00:10:12,870 --> 00:10:13,279
+chain.
+
+324
+00:10:13,539 --> 00:10:13,919
+Giving the AI.
+
+325
+00:10:14,139 --> 00:10:14,480
+Uh.
+
+326
+00:10:14,659 --> 00:10:16,100
+You know specific structures to
+
+327
+00:10:16,110 --> 00:10:16,480
+follow.
+
+328
+00:10:16,480 --> 00:10:17,669
+And instructions on how it's going
+
+329
+00:10:17,870 --> 00:10:18,320
+to do this.
+
+330
+00:10:18,360 --> 00:10:21,279
+I'm just going to tell.
+
+331
+00:10:21,539 --> 00:10:22,080
+Continue again.
+
+332
+00:10:22,340 --> 00:10:32,480
+So here we go.
+
+333
+00:10:32,740 --> 00:10:32,799
+So.
+
+334
+00:10:33,059 --> 00:10:35,220
+Detail section by section
+
+335
+00:10:35,220 --> 00:10:36,559
+blueprint.
+
+336
+00:10:36,559 --> 00:10:37,679
+We've got hook approach one.
+
+337
+00:10:37,679 --> 00:10:38,320
+And hook approach two.
+
+338
+00:10:38,320 --> 00:10:39,509
+We've got two to go from.
+
+339
+00:10:39,519 --> 00:10:40,190
+And three actually.
+
+340
+00:10:40,500 --> 00:10:43,600
+So let's see.
+
+341
+00:10:43,600 --> 00:10:44,480
+Let's start off with this.
+
+342
+00:10:44,480 --> 00:10:45,279
+So one of them is.
+
+343
+00:10:45,279 --> 00:10:47,120
+I recently surveyed over 100,000
+
+344
+00:10:47,120 --> 00:10:48,000
+AI agency owners.
+
+345
+00:10:48,000 --> 00:10:48,919
+To find out what's actually
+
+346
+00:10:48,960 --> 00:10:49,889
+working in 2025.
+
+347
+00:10:50,190 --> 00:10:51,179
+Most people are still playing
+
+348
+00:10:51,179 --> 00:10:52,159
+around with chat GPT.
+
+349
+00:10:52,159 --> 00:10:52,960
+Asking to write emails.
+
+350
+00:10:53,120 --> 00:10:54,159
+The smart money is already living
+
+351
+00:10:54,559 --> 00:10:56,320
+in a completely different reality.
+
+352
+00:10:56,320 --> 00:10:57,509
+We found a property developer
+
+353
+00:10:57,870 --> 00:10:58,000
+using AI.
+
+354
+00:10:58,000 --> 00:10:59,620
+To turn missed Sunday calls into
+
+355
+00:10:59,629 --> 00:11:00,799
+$2 million deals.
+
+356
+00:11:00,840 --> 00:11:01,990
+And an agency helping cosmetic
+
+357
+00:11:02,399 --> 00:11:03,279
+clinics started $100,000.
+
+358
+00:11:03,279 --> 00:11:04,470
+In just three days.
+
+359
+00:11:04,480 --> 00:11:05,120
+In this video.
+
+360
+00:11:05,120 --> 00:11:06,220
+I'm going to show you the exact
+
+361
+00:11:06,220 --> 00:11:07,279
+eight AI automations.
+
+362
+00:11:07,279 --> 00:11:08,639
+You need to have in 2025.
+
+363
+00:11:08,639 --> 00:11:09,830
+If you want to stay competitive.
+
+364
+00:11:10,139 --> 00:11:10,870
+First, let me show you why most
+
+365
+00:11:10,919 --> 00:11:12,000
+people are doing AI completely
+
+366
+00:11:12,000 --> 00:11:12,399
+wrong.
+
+367
+00:11:12,659 --> 00:11:14,159
+Second one is.
+
+368
+00:11:14,159 --> 00:11:14,720
+Here's the thing.
+
+369
+00:11:14,879 --> 00:11:15,629
+While you're manually responding
+
+370
+00:11:15,639 --> 00:11:16,559
+to leads at 2:00 a.m.
+
+371
+00:11:16,559 --> 00:11:17,240
+And spending hours writing
+
+372
+00:11:17,309 --> 00:11:17,679
+proposals.
+
+373
+00:11:17,919 --> 00:11:19,179
+Your competitors are using AI
+
+374
+00:11:19,309 --> 00:11:20,639
+systems that never sleep.
+
+375
+00:11:20,860 --> 00:11:21,590
+Never miss a follow up.
+
+376
+00:11:21,750 --> 00:11:22,799
+And are generating hundreds of
+
+377
+00:11:23,230 --> 00:11:24,559
+thousands in additional revenue.
+
+378
+00:11:24,559 --> 00:11:25,039
+I know this.
+
+379
+00:11:25,250 --> 00:11:25,919
+Because I just finished surveying
+
+380
+00:11:25,919 --> 00:11:27,519
+100,000 plus agency owners.
+
+381
+00:11:27,669 --> 00:11:28,679
+And that's what I found will
+
+382
+00:11:28,679 --> 00:11:30,000
+either motivate you or terrify
+
+383
+00:11:30,000 --> 00:11:30,399
+you.
+
+384
+00:11:30,549 --> 00:11:30,639
+Sorry.
+
+385
+00:11:30,639 --> 00:11:31,399
+And what I found will either
+
+386
+00:11:31,399 --> 00:11:32,240
+motivate or terrify you.
+
+387
+00:11:32,240 --> 00:11:33,440
+I'm Lucas Sinnott.
+
+388
+00:11:33,850 --> 00:11:34,480
+Head expert coach.
+
+389
+00:11:34,480 --> 00:11:35,120
+Client Ascension.
+
+390
+00:11:35,120 --> 00:11:36,000
+And why I help people scale the
+
+391
+00:11:36,000 --> 00:11:36,399
+agencies.
+
+392
+00:11:36,399 --> 00:11:37,590
+And co-founder of Innovative.
+
+393
+00:11:37,600 --> 00:11:38,480
+I've seen what works and what
+
+394
+00:11:38,480 --> 00:11:38,789
+doesn't.
+
+395
+00:11:39,080 --> 00:11:40,080
+This eight automations aren't
+
+396
+00:11:40,480 --> 00:11:40,639
+theory.
+
+397
+00:11:40,799 --> 00:11:41,659
+They're bottle tested systems
+
+398
+00:11:41,659 --> 00:11:42,860
+generating real money right now.
+
+399
+00:11:43,139 --> 00:11:44,639
+Third one.
+
+400
+00:11:44,639 --> 00:11:45,830
+An AI system just booked 200 sales
+
+401
+00:11:46,269 --> 00:11:46,480
+appointments.
+
+402
+00:11:46,649 --> 00:11:48,490
+And generated $220,000 in
+
+403
+00:11:48,490 --> 00:11:49,440
+additional revenue.
+
+404
+00:11:49,440 --> 00:11:51,039
+In five weeks with zero human
+
+405
+00:11:51,080 --> 00:11:52,080
+intervention.
+
+406
+00:11:52,340 --> 00:11:53,110
+Another one helped the cosmetic
+
+407
+00:11:53,110 --> 00:11:54,750
+clinic make $100,000 in three
+
+408
+00:11:54,750 --> 00:11:55,200
+days.
+
+409
+00:11:55,360 --> 00:11:56,240
+These aren't future predictions.
+
+410
+00:11:56,429 --> 00:11:57,429
+This is happening right now.
+
+411
+00:11:57,769 --> 00:11:58,669
+While most people are still
+
+412
+00:11:58,669 --> 00:12:00,879
+figuring out basic .gbt prompts.
+
+413
+00:12:00,879 --> 00:12:02,070
+I'm going to break down the exact
+
+414
+00:12:02,480 --> 00:12:03,360
+eight AI automations.
+
+415
+00:12:03,620 --> 00:12:04,549
+Behind results like these.
+
+416
+00:12:04,679 --> 00:12:05,830
+But there's one mistake that kills
+
+417
+00:12:06,269 --> 00:12:06,960
+90% of implementations.
+
+418
+00:12:06,960 --> 00:12:07,629
+For the even start.
+
+419
+00:12:07,940 --> 00:12:08,870
+Great.
+
+420
+00:12:09,399 --> 00:12:11,100
+So then keeps going.
+
+421
+00:12:11,309 --> 00:12:13,679
+It gives us our full outline.
+
+422
+00:12:13,940 --> 00:12:15,840
+Great.
+
+423
+00:12:15,840 --> 00:12:17,029
+So ready to do the retention
+
+424
+00:12:17,279 --> 00:12:18,480
+engine and strategic optimization.
+
+425
+00:12:18,720 --> 00:12:18,960
+Yes.
+
+426
+00:12:19,220 --> 00:12:19,519
+Continue.
+
+427
+00:12:19,679 --> 00:12:21,639
+As you can see this goes through a
+
+428
+00:12:21,639 --> 00:12:22,559
+multi-step process.
+
+429
+00:12:22,559 --> 00:12:23,570
+I'm just going to output a full
+
+430
+00:12:23,570 --> 00:12:24,240
+script for you.
+
+431
+00:12:24,240 --> 00:12:25,759
+It breaks it down step by step.
+
+432
+00:12:25,759 --> 00:12:26,559
+To get you to get it.
+
+433
+00:12:26,750 --> 00:12:28,320
+So AI understands what it should
+
+434
+00:12:28,320 --> 00:12:28,639
+be doing.
+
+435
+00:12:28,789 --> 00:12:29,830
+And how to break the best script
+
+436
+00:12:30,259 --> 00:12:30,320
+possible.
+
+437
+00:12:30,509 --> 00:12:31,360
+Based on Brian's frameworks.
+
+438
+00:12:33,679 --> 00:12:34,860
+So we've got retention wave
+
+439
+00:12:34,860 --> 00:12:35,440
+mapping.
+
+440
+00:12:35,700 --> 00:12:37,600
+Audience retention checkpoints.
+
+441
+00:12:37,860 --> 00:12:38,879
+Strategic content reveal pasting.
+
+442
+00:12:39,090 --> 00:12:40,070
+Psychological mental builders.
+
+443
+00:12:40,419 --> 00:12:42,320
+Keep going.
+
+444
+00:12:42,580 --> 00:12:43,500
+Continue.
+
+445
+00:12:43,759 --> 00:12:45,279
+Most of this is typing continue.
+
+446
+00:12:45,440 --> 00:12:46,230
+After you do the initial prompt.
+
+447
+00:12:46,240 --> 00:12:46,909
+And you get everything set up.
+
+448
+00:12:46,960 --> 00:12:48,149
+You got your information in there.
+
+449
+00:12:48,240 --> 00:12:49,279
+It's really solid.
+
+450
+00:12:49,279 --> 00:12:49,899
+So now it's actually going to give
+
+451
+00:12:49,899 --> 00:12:50,480
+us the high points.
+
+452
+00:12:50,639 --> 00:12:51,149
+Where we're going to do these
+
+453
+00:12:51,230 --> 00:12:52,000
+retention wave mapping.
+
+454
+00:12:52,000 --> 00:12:53,759
+It's just going to tell us where
+
+455
+00:12:53,759 --> 00:12:55,679
+to say these things in the script.
+
+456
+00:12:55,720 --> 00:12:57,909
+In order to, you know, increase
+
+457
+00:12:57,990 --> 00:12:59,279
+retention.
+
+458
+00:12:59,470 --> 00:13:01,039
+And to bring people back to maybe
+
+459
+00:13:01,039 --> 00:13:02,240
+not paying attention anymore.
+
+460
+00:13:02,240 --> 00:13:02,909
+Or losing interest.
+
+461
+00:13:03,220 --> 00:13:04,950
+So yeah.
+
+462
+00:13:04,960 --> 00:13:06,149
+We've got pattern interrupt.
+
+463
+00:13:06,500 --> 00:13:07,360
+Insert mini cliffhanger.
+
+464
+00:13:07,360 --> 00:13:08,480
+Add explanation subversion.
+
+465
+00:13:08,740 --> 00:13:11,759
+Strategic content reveal pasting.
+
+466
+00:13:11,759 --> 00:13:12,440
+The review of the survey
+
+467
+00:13:12,509 --> 00:13:12,950
+credibility.
+
+468
+00:13:12,960 --> 00:13:13,600
+The mindset shift.
+
+469
+00:13:13,759 --> 00:13:14,639
+But AI versus tools.
+
+470
+00:13:14,799 --> 00:13:15,759
+The conversion stat.
+
+471
+00:13:16,019 --> 00:13:17,600
+Personal adaptability story.
+
+472
+00:13:17,860 --> 00:13:20,000
+Psychological mental builders.
+
+473
+00:13:20,000 --> 00:13:20,320
+This is great.
+
+474
+00:13:20,320 --> 00:13:21,429
+So this is like all, you know,
+
+475
+00:13:21,429 --> 00:13:22,539
+super, super psychologically
+
+476
+00:13:22,629 --> 00:13:22,879
+focused.
+
+477
+00:13:22,879 --> 00:13:23,899
+And kind of detailed based on
+
+478
+00:13:23,899 --> 00:13:24,240
+YouTube.
+
+479
+00:13:24,500 --> 00:13:26,080
+Because Brian's study of YouTube.
+
+480
+00:13:26,120 --> 00:13:27,269
+The different kind of retention
+
+481
+00:13:27,700 --> 00:13:27,759
+tactics.
+
+482
+00:13:27,759 --> 00:13:28,429
+And things that work to keep
+
+483
+00:13:28,509 --> 00:13:28,950
+people watching.
+
+484
+00:13:29,539 --> 00:13:37,200
+Yes, continuous.
+
+485
+00:13:37,200 --> 00:13:37,870
+Now we're going to do the full
+
+486
+00:13:37,950 --> 00:13:38,639
+script development.
+
+487
+00:13:38,870 --> 00:13:39,830
+Using these retention optimized
+
+488
+00:13:40,259 --> 00:13:40,480
+elements.
+
+489
+00:13:40,740 --> 00:13:47,230
+So now it's developing a powerful
+
+490
+00:13:47,230 --> 00:13:48,960
+hook.
+
+491
+00:13:49,220 --> 00:13:56,960
+An intro.
+
+492
+00:13:59,539 --> 00:14:09,649
+And we're going to say continue
+
+493
+00:14:09,649 --> 00:14:12,850
+again.
+
+494
+00:14:12,879 --> 00:14:13,789
+So now it has the outline on the
+
+495
+00:14:13,879 --> 00:14:14,960
+instructions for what it should
+
+496
+00:14:14,960 --> 00:14:15,200
+do.
+
+497
+00:14:15,460 --> 00:14:20,909
+So now we've got our hooks.
+
+498
+00:14:21,379 --> 00:14:25,120
+And we've got delivery guidance.
+
+499
+00:14:25,379 --> 00:14:34,850
+So now we're in the value prop
+
+500
+00:14:34,850 --> 00:14:38,929
+section.
+
+501
+00:14:39,159 --> 00:14:40,720
+The engagement foundation.
+
+502
+00:14:40,980 --> 00:14:45,019
+Introduction overview.
+
+503
+00:14:45,309 --> 00:14:52,960
+Strategic open loops embedded.
+
+504
+00:14:53,169 --> 00:14:54,080
+Plugin drops built in.
+
+505
+00:14:54,340 --> 00:14:56,639
+There we go.
+
+506
+00:14:56,679 --> 00:14:58,320
+So that's our hook section on
+
+507
+00:14:58,330 --> 00:14:59,200
+intro done.
+
+508
+00:14:59,919 --> 00:15:01,440
+So let's see what this looks like.
+
+509
+00:15:01,700 --> 00:15:03,659
+So after we, I read the hooks
+
+510
+00:15:03,750 --> 00:15:04,669
+already, but let's go into the
+
+511
+00:15:04,669 --> 00:15:05,570
+next section of the value prop.
+
+512
+00:15:05,600 --> 00:15:06,789
+My name is Lucas Sinnott.
+
+513
+00:15:06,960 --> 00:15:07,879
+I'm the head expert coach at
+
+514
+00:15:07,960 --> 00:15:08,720
+client Ascension.
+
+515
+00:15:08,720 --> 00:15:09,639
+One of the leading programs that
+
+516
+00:15:09,720 --> 00:15:10,940
+teaches people how to launch and
+
+517
+00:15:11,029 --> 00:15:11,840
+scale agencies.
+
+518
+00:15:11,840 --> 00:15:12,759
+And I'm also co-founder of
+
+519
+00:15:12,789 --> 00:15:13,440
+innovative.
+
+520
+00:15:13,440 --> 00:15:14,629
+A full service e-commerce
+
+521
+00:15:15,070 --> 00:15:15,919
+optimization agency.
+
+522
+00:15:15,919 --> 00:15:16,870
+I've helped hundreds of agency
+
+523
+00:15:16,870 --> 00:15:18,000
+owners scale their businesses.
+
+524
+00:15:18,159 --> 00:15:19,429
+And I've seen what separates the
+
+525
+00:15:19,629 --> 00:15:20,720
+winners from the losers.
+
+526
+00:15:20,720 --> 00:15:21,759
+The winners aren't smarter.
+
+527
+00:15:21,759 --> 00:15:22,710
+They don't have bigger budgets.
+
+528
+00:15:22,870 --> 00:15:23,909
+They definitely don't work harder.
+
+529
+00:15:24,139 --> 00:15:25,440
+They just understand one thing.
+
+530
+00:15:25,639 --> 00:15:26,389
+While everyone else is doing
+
+531
+00:15:26,389 --> 00:15:26,960
+things manually.
+
+532
+00:15:27,169 --> 00:15:28,159
+They're using AI to create unfair
+
+533
+00:15:28,590 --> 00:15:29,179
+advantages.
+
+534
+00:15:29,200 --> 00:15:30,049
+In this video, I'm going to show
+
+535
+00:15:30,049 --> 00:15:31,120
+you the exact eight, uh,
+
+536
+00:15:31,120 --> 00:15:32,250
+AI automations that are generating
+
+537
+00:15:32,250 --> 00:15:33,009
+these kinds of results.
+
+538
+00:15:33,159 --> 00:15:34,159
+Not theory, not fluff.
+
+539
+00:15:34,159 --> 00:15:35,220
+The actual systems are the tech
+
+540
+00:15:35,220 --> 00:15:36,350
+stocks, the pricing, and the real
+
+541
+00:15:36,350 --> 00:15:36,960
+numbers behind them.
+
+542
+00:15:37,220 --> 00:15:38,529
+Here's what I found out for
+
+543
+00:15:38,590 --> 00:15:40,240
+talking to all these agency
+
+544
+00:15:40,240 --> 00:15:40,480
+owners.
+
+545
+00:15:40,649 --> 00:15:41,399
+There are two types of businesses
+
+546
+00:15:41,480 --> 00:15:41,840
+right now.
+
+547
+00:15:42,100 --> 00:15:45,759
+Yeah, perfect.
+
+548
+00:15:48,000 --> 00:15:49,480
+So he actually mentions one of my
+
+549
+00:15:49,629 --> 00:15:50,799
+personal stories there.
+
+550
+00:15:50,799 --> 00:15:51,360
+Here's the thing.
+
+551
+00:15:51,360 --> 00:15:52,200
+And this connects to everything I
+
+552
+00:15:52,200 --> 00:15:53,250
+learned going from screening and
+
+553
+00:15:53,370 --> 00:15:54,960
+metal buyers to scaling agencies.
+
+554
+00:15:55,220 --> 00:15:56,149
+Success isn't about having perfect
+
+555
+00:15:56,580 --> 00:15:56,799
+conditions.
+
+556
+00:15:56,799 --> 00:15:57,990
+It's about adapting faster than
+
+557
+00:15:58,429 --> 00:15:58,960
+everyone else.
+
+558
+00:15:59,110 --> 00:16:00,549
+The same adaptability, the same
+
+559
+00:16:00,590 --> 00:16:01,919
+adaptability that took me from
+
+560
+00:16:01,919 --> 00:16:03,029
+death metal to tech journalism
+
+561
+00:16:03,039 --> 00:16:03,940
+to running agencies is what's
+
+562
+00:16:03,940 --> 00:16:04,929
+going to separate the winners from
+
+563
+00:16:04,929 --> 00:16:06,080
+the losers in the AI revolution.
+
+564
+00:16:06,279 --> 00:16:07,600
+Here's what we're going to cover.
+
+565
+00:16:07,600 --> 00:16:08,509
+I'm going to break down the eight
+
+566
+00:16:08,509 --> 00:16:09,649
+specific AI automations in order
+
+567
+00:16:09,649 --> 00:16:10,480
+of importance.
+
+568
+00:16:10,480 --> 00:16:11,509
+We'll start with the foundation,
+
+569
+00:16:11,509 --> 00:16:12,379
+the systems that every business
+
+570
+00:16:12,490 --> 00:16:13,840
+needs to have in place first.
+
+571
+00:16:13,990 --> 00:16:14,730
+Then we'll move to the growth
+
+572
+00:16:14,730 --> 00:16:15,679
+layer, the automations that
+
+573
+00:16:15,679 --> 00:16:16,000
+separate
+
+574
+00:16:16,190 --> 00:16:17,200
+good agencies from great ones.
+
+575
+00:16:17,539 --> 00:16:18,879
+And finally, the revenue layer,
+
+576
+00:16:18,990 --> 00:16:20,789
+including the $220,000 system I
+
+577
+00:16:20,799 --> 00:16:21,600
+mentioned.
+
+578
+00:16:21,600 --> 00:16:22,799
+For each automation, I'll show you
+
+579
+00:16:23,220 --> 00:16:24,399
+exactly how it works, what tools
+
+580
+00:16:24,399 --> 00:16:24,960
+are using,
+
+581
+00:16:25,149 --> 00:16:26,149
+what it costs to implement, and
+
+582
+00:16:26,379 --> 00:16:27,840
+the real results it's generating.
+
+583
+00:16:27,840 --> 00:16:29,210
+No theory, no maybes, just the
+
+584
+00:16:29,470 --> 00:16:30,549
+systems that are working right
+
+585
+00:16:30,549 --> 00:16:30,960
+now.
+
+586
+00:16:30,960 --> 00:16:31,840
+But I'm also going to tell you
+
+587
+00:16:31,840 --> 00:16:32,850
+something at the end that most
+
+588
+00:16:32,970 --> 00:16:34,399
+people don't want to hear.
+
+589
+00:16:34,659 --> 00:16:35,309
+Because knowing about these
+
+590
+00:16:35,320 --> 00:16:36,480
+systems and actually implementing
+
+591
+00:16:36,480 --> 00:16:37,669
+them are two completely different
+
+592
+00:16:37,940 --> 00:16:38,240
+things.
+
+593
+00:16:38,279 --> 00:16:39,669
+And there's one reason why 90% of
+
+594
+00:16:39,870 --> 00:16:41,039
+people who watch this video won't
+
+595
+00:16:41,039 --> 00:16:42,370
+do anything with this information.
+
+596
+00:16:42,399 --> 00:16:43,070
+Let's check it out.
+
+597
+00:16:43,379 --> 00:16:44,039
+Great.
+
+598
+00:16:44,080 --> 00:16:45,129
+So we're going to do the core
+
+599
+00:16:45,129 --> 00:16:45,980
+content sections.
+
+600
+00:16:46,000 --> 00:16:46,879
+We're going to say continue.
+
+601
+00:16:47,059 --> 00:16:48,549
+And again, we're talking about a
+
+602
+00:16:48,570 --> 00:16:50,309
+complicated topic here as well.
+
+603
+00:16:50,399 --> 00:16:51,250
+I could have done this on, you
+
+604
+00:16:51,250 --> 00:16:52,289
+know, general, anything kind of
+
+605
+00:16:52,580 --> 00:16:54,210
+overall, but agency development or
+
+606
+00:16:54,210 --> 00:16:55,440
+growth or whatever.
+
+607
+00:16:55,440 --> 00:16:56,629
+But like, this is a very specific
+
+608
+00:16:57,059 --> 00:16:58,480
+topic of these specific AI
+
+609
+00:16:58,480 --> 00:16:59,570
+automations, you know?
+
+610
+00:16:59,600 --> 00:17:01,220
+So we're giving it kind of the,
+
+611
+00:17:01,240 --> 00:17:02,639
+uh, a pretty big task here.
+
+612
+00:17:02,639 --> 00:17:03,830
+And if we can pull this off pretty
+
+613
+00:17:03,919 --> 00:17:04,720
+well, using the information from
+
+614
+00:17:04,720 --> 00:17:05,119
+the video
+
+615
+00:17:05,119 --> 00:17:06,220
+we provided that contains that
+
+616
+00:17:06,220 --> 00:17:06,720
+information.
+
+617
+00:17:06,720 --> 00:17:07,779
+Uh, and you can add multiple
+
+618
+00:17:07,779 --> 00:17:08,240
+videos.
+
+619
+00:17:08,240 --> 00:17:09,109
+It doesn't have to be one that
+
+620
+00:17:09,109 --> 00:17:10,140
+you're kind of, you know, copying
+
+621
+00:17:10,250 --> 00:17:11,039
+from being put a bunch
+
+622
+00:17:11,039 --> 00:17:11,809
+in there that are similar to what
+
+623
+00:17:11,809 --> 00:17:12,640
+the topic you want to talk about.
+
+624
+00:17:12,640 --> 00:17:13,470
+It'll kind of take from all of
+
+625
+00:17:13,470 --> 00:17:13,759
+them.
+
+626
+00:17:13,950 --> 00:17:15,568
+But, uh, let's keep telling this
+
+627
+00:17:15,568 --> 00:17:16,480
+to continue.
+
+628
+00:17:16,740 --> 00:17:22,000
+These are good.
+
+629
+00:17:22,000 --> 00:17:23,430
+So we have our main points set up.
+
+630
+00:17:23,440 --> 00:17:24,640
+Uh, we have our, sorry, smooth
+
+631
+00:17:25,068 --> 00:17:25,328
+transition.
+
+632
+00:17:25,359 --> 00:17:27,259
+We have our main points set up and
+
+633
+00:17:27,369 --> 00:17:28,559
+then we have why this matters.
+
+634
+00:17:28,599 --> 00:17:29,470
+Look, if you're still manually
+
+635
+00:17:29,470 --> 00:17:30,460
+responding to every lead, writing
+
+636
+00:17:30,569 --> 00:17:31,759
+every proposal from scratch
+
+637
+00:17:31,759 --> 00:17:32,680
+and handling client onboarding
+
+638
+00:17:32,680 --> 00:17:33,599
+spreadsheets, you're not just
+
+639
+00:17:33,599 --> 00:17:34,240
+inefficient.
+
+640
+00:17:34,279 --> 00:17:35,430
+You're about to get destroyed by
+
+641
+00:17:35,680 --> 00:17:36,720
+your competition because while
+
+642
+00:17:36,720 --> 00:17:37,910
+you're burning out doing a $10
+
+643
+00:17:37,920 --> 00:17:39,099
+an hour task, they're using AI to
+
+644
+00:17:39,099 --> 00:17:40,140
+handle the heavy lifting and
+
+645
+00:17:40,230 --> 00:17:41,349
+focusing on closing deals.
+
+646
+00:17:41,680 --> 00:17:42,349
+Getting this wrong means you'll
+
+647
+00:17:42,349 --> 00:17:43,599
+spend the next year working harder
+
+648
+00:17:43,599 --> 00:17:44,799
+while making less money.
+
+649
+00:17:44,980 --> 00:17:46,410
+But nailed this mindset shift and
+
+650
+00:17:46,430 --> 00:17:47,190
+suddenly you're operating in a
+
+651
+00:17:47,190 --> 00:17:48,079
+completely different league.
+
+652
+00:17:48,079 --> 00:17:49,619
+It all comes down to what I call
+
+653
+00:17:49,710 --> 00:17:51,039
+the automation hierarchy.
+
+654
+00:17:51,299 --> 00:17:52,230
+Foundation first, complexity
+
+655
+00:17:52,640 --> 00:17:52,799
+later.
+
+656
+00:17:52,799 --> 00:17:53,730
+You don't start with the fancy
+
+657
+00:17:53,750 --> 00:17:53,990
+stuff.
+
+658
+00:17:54,079 --> 00:17:54,859
+You start with the systems that
+
+659
+00:17:54,859 --> 00:17:56,140
+handle your biggest time dreads
+
+660
+00:17:56,140 --> 00:17:57,200
+and revenue leaks.
+
+661
+00:17:57,369 --> 00:17:58,000
+Think about it like this.
+
+662
+00:17:58,160 --> 00:17:59,019
+When I was scaling my agency to
+
+663
+00:17:59,019 --> 00:18:00,059
+20K a month, I didn't try to
+
+664
+00:18:00,059 --> 00:18:00,880
+automate everything at once.
+
+665
+00:18:00,880 --> 00:18:01,980
+I started with lead response, then
+
+666
+00:18:01,980 --> 00:18:03,039
+moves to proposals, then client
+
+667
+00:18:03,039 --> 00:18:03,440
+management.
+
+668
+00:18:03,660 --> 00:18:04,640
+Each layer built to the previous
+
+669
+00:18:05,059 --> 00:18:05,279
+one.
+
+670
+00:18:05,279 --> 00:18:06,400
+The agencies in my survey that are
+
+671
+00:18:06,400 --> 00:18:07,440
+crushing it all follow the same
+
+672
+00:18:07,440 --> 00:18:07,920
+pattern.
+
+673
+00:18:08,099 --> 00:18:09,099
+They don't just jump straight to
+
+674
+00:18:09,099 --> 00:18:10,079
+complex AI workflows.
+
+675
+00:18:10,119 --> 00:18:10,950
+They started with automation
+
+676
+00:18:10,950 --> 00:18:11,970
+number one, mastered it, then
+
+677
+00:18:12,089 --> 00:18:13,039
+moved to number two.
+
+678
+00:18:13,039 --> 00:18:13,839
+For example, the property
+
+679
+00:18:13,839 --> 00:18:15,079
+developer making $2 million from
+
+680
+00:18:15,079 --> 00:18:15,759
+Sunday calls.
+
+681
+00:18:15,759 --> 00:18:16,710
+He didn't start there.
+
+682
+00:18:16,720 --> 00:18:17,670
+He started with basic lead
+
+683
+00:18:17,720 --> 00:18:19,119
+response automation, then added
+
+684
+00:18:19,119 --> 00:18:20,480
+qualification, then booking.
+
+685
+00:18:20,740 --> 00:18:22,180
+Each step made the next one more
+
+686
+00:18:22,180 --> 00:18:22,960
+powerful.
+
+687
+00:18:22,960 --> 00:18:23,630
+Here's the thing though.
+
+688
+00:18:23,940 --> 00:18:24,599
+Following this hierarchy and
+
+689
+00:18:24,680 --> 00:18:26,160
+actually following it, or knowing
+
+690
+00:18:26,160 --> 00:18:26,950
+this hierarchy and actually
+
+691
+00:18:26,950 --> 00:18:27,279
+following
+
+692
+00:18:27,279 --> 00:18:28,470
+it are two different things.
+
+693
+00:18:28,670 --> 00:18:29,670
+Most people want to skip the sexy
+
+694
+00:18:29,980 --> 00:18:30,160
+stuff.
+
+695
+00:18:30,339 --> 00:18:31,349
+Don't be most people.
+
+696
+00:18:31,359 --> 00:18:32,480
+Let's start with the foundation.
+
+697
+00:18:32,690 --> 00:18:33,670
+Automation number one is something
+
+698
+00:18:33,910 --> 00:18:34,799
+that every single successful
+
+699
+00:18:34,799 --> 00:18:35,359
+agency has.
+
+700
+00:18:35,359 --> 00:18:36,150
+If you don't have this, something
+
+701
+00:18:36,150 --> 00:18:36,549
+else matters.
+
+702
+00:18:36,900 --> 00:18:39,079
+These first three automations
+
+703
+00:18:39,079 --> 00:18:41,319
+aren't the most exciting, but
+
+704
+00:18:41,319 --> 00:18:42,240
+they're the most important.
+
+705
+00:18:42,390 --> 00:18:43,089
+Think of them as the foundation of
+
+706
+00:18:43,089 --> 00:18:43,430
+your house.
+
+707
+00:18:43,519 --> 00:18:44,450
+It's boring, but everything else
+
+708
+00:18:44,460 --> 00:18:45,279
+collapses without them.
+
+709
+00:18:45,539 --> 00:18:46,970
+Automation number one, lead
+
+710
+00:18:46,970 --> 00:18:48,160
+response system.
+
+711
+00:18:48,339 --> 00:18:49,349
+Here's a stat that will blow your
+
+712
+00:18:49,549 --> 00:18:49,759
+mind.
+
+713
+00:18:50,009 --> 00:18:50,950
+These contactives in the first
+
+714
+00:18:51,359 --> 00:18:53,519
+minute of inquiry have a 391%
+
+715
+00:18:53,519 --> 00:18:54,630
+higher conversion rate compared to
+
+716
+00:18:54,750 --> 00:18:56,000
+slower responses.
+
+717
+00:18:56,259 --> 00:18:58,609
+391%, and get this 78% of buyers
+
+718
+00:18:58,619 --> 00:19:00,000
+choose the first company that
+
+719
+00:19:00,000 --> 00:19:01,119
+responds regardless of price.
+
+720
+00:19:01,289 --> 00:19:02,309
+But here's the kicker.
+
+721
+00:19:02,480 --> 00:19:03,759
+The average lead response time
+
+722
+00:19:03,950 --> 00:19:05,750
+across all industries is 42 hours.
+
+723
+00:19:05,759 --> 00:19:06,940
+By the time most people respond,
+
+724
+00:19:06,940 --> 00:19:08,170
+their lead is already bought from
+
+725
+00:19:08,170 --> 00:19:09,430
+someone else, forgotten they were
+
+726
+00:19:09,700 --> 00:19:10,640
+interested or moved on with their
+
+727
+00:19:11,059 --> 00:19:11,279
+life.
+
+728
+00:19:11,490 --> 00:19:12,480
+This is where the AI lead response
+
+729
+00:19:12,910 --> 00:19:13,359
+comes in.
+
+730
+00:19:13,359 --> 00:19:14,549
+We're talking about a system that
+
+731
+00:19:14,990 --> 00:19:16,970
+responds within 60 seconds, 24/7,
+
+732
+00:19:16,970 --> 00:19:18,230
+365 days a year.
+
+733
+00:19:18,319 --> 00:19:19,509
+No sick days, no vacation.
+
+734
+00:19:19,599 --> 00:19:21,279
+No, I'll get to it tomorrow.
+
+735
+00:19:21,430 --> 00:19:22,480
+The system I'm talking about uses
+
+736
+00:19:22,900 --> 00:19:23,839
+tools like Vapi for voice,
+
+737
+00:19:23,839 --> 00:19:25,200
+make.com for workflow automation,
+
+738
+00:19:25,240 --> 00:19:26,390
+and voice flow over conversation
+
+739
+00:19:26,779 --> 00:19:26,960
+logic.
+
+740
+00:19:26,960 --> 00:19:28,380
+It picks up the phone, has a real
+
+741
+00:19:28,589 --> 00:19:30,079
+conversation, qualifies lead, and
+
+742
+00:19:30,079 --> 00:19:31,099
+books meetings for your sales
+
+743
+00:19:31,119 --> 00:19:31,680
+team.
+
+744
+00:19:31,680 --> 00:19:32,799
+So yeah, this is great.
+
+745
+00:19:32,799 --> 00:19:33,829
+So we're going through all the
+
+746
+00:19:33,829 --> 00:19:34,480
+automations.
+
+747
+00:19:34,480 --> 00:19:36,019
+Uh, now we're on to four to six
+
+748
+00:19:36,109 --> 00:19:39,250
+growth layer, and then we should
+
+749
+00:19:39,250 --> 00:19:42,799
+have, uh, four to six.
+
+750
+00:19:43,039 --> 00:19:46,059
+So we've covered the foundation
+
+751
+00:19:46,059 --> 00:19:47,920
+growth layers.
+
+752
+00:19:47,920 --> 00:19:48,720
+We even though these six
+
+753
+00:19:48,720 --> 00:19:49,819
+automations are operating levels
+
+754
+00:19:49,930 --> 00:19:50,720
+agency will never reach.
+
+755
+00:19:50,759 --> 00:19:51,500
+These are where things get really
+
+756
+00:19:51,500 --> 00:19:51,900
+interesting.
+
+757
+00:19:52,099 --> 00:19:52,849
+These next two automations are
+
+758
+00:19:52,869 --> 00:19:53,839
+where I've seen the biggest ROI.
+
+759
+00:19:53,839 --> 00:19:54,680
+We're talking about systems that
+
+760
+00:19:54,680 --> 00:19:55,339
+will save time, improve
+
+761
+00:19:55,470 --> 00:19:56,319
+efficiency, blah, blah, blah.
+
+762
+00:19:56,519 --> 00:19:56,640
+Great.
+
+763
+00:19:56,900 --> 00:19:59,599
+And then let's do continue.
+
+764
+00:19:59,859 --> 00:20:02,940
+We're going to do, uh, section
+
+765
+00:20:02,940 --> 00:20:03,900
+seven to eight under the
+
+766
+00:20:04,109 --> 00:20:05,279
+implementation reality section.
+
+767
+00:20:05,539 --> 00:20:15,119
+Forms reporting and then.
+
+768
+00:20:20,920 --> 00:20:23,500
+Revenue recovery system is a big
+
+769
+00:20:23,500 --> 00:20:24,480
+reveal.
+
+770
+00:20:24,740 --> 00:20:25,660
+All right.
+
+771
+00:20:25,680 --> 00:20:26,500
+Here's what we've been waiting
+
+772
+00:20:26,500 --> 00:20:26,720
+for.
+
+773
+00:20:26,869 --> 00:20:27,910
+The automation that generated
+
+774
+00:20:28,099 --> 00:20:30,150
+$220,000 in five weeks with zero
+
+775
+00:20:30,150 --> 00:20:31,279
+human intervention.
+
+776
+00:20:31,539 --> 00:20:32,470
+Before I reveal it, let me ask you
+
+777
+00:20:32,900 --> 00:20:33,039
+something.
+
+778
+00:20:33,190 --> 00:20:34,089
+What's the biggest waste of money
+
+779
+00:20:34,089 --> 00:20:34,799
+in your business?
+
+780
+00:20:34,799 --> 00:20:35,599
+It's not your tools.
+
+781
+00:20:35,599 --> 00:20:36,269
+It's not your team.
+
+782
+00:20:36,319 --> 00:20:37,150
+It's not even your failed
+
+783
+00:20:37,150 --> 00:20:38,000
+marketing campaigns.
+
+784
+00:20:38,150 --> 00:20:39,519
+It's your dead leads.
+
+785
+00:20:39,519 --> 00:20:40,549
+All those people who showed
+
+786
+00:20:40,549 --> 00:20:41,740
+interest, maybe even gotten a call
+
+787
+00:20:41,829 --> 00:20:42,950
+with you, but never bought.
+
+788
+00:20:43,160 --> 00:20:44,150
+They're sitting in your CRM like
+
+789
+00:20:44,579 --> 00:20:45,180
+buried treasure.
+
+790
+00:20:45,400 --> 00:20:46,390
+This is where the revenue recovery
+
+791
+00:20:46,829 --> 00:20:47,599
+becomes pure gold.
+
+792
+00:20:47,599 --> 00:20:48,519
+I'm talking about AI systems that
+
+793
+00:20:48,599 --> 00:20:49,680
+automatically segment your old
+
+794
+00:20:49,680 --> 00:20:50,720
+leads, craft personalized
+
+795
+00:20:50,960 --> 00:20:51,910
+reactivation campaigns and turn
+
+796
+00:20:52,250 --> 00:20:53,170
+cold prospects into paying
+
+797
+00:20:53,170 --> 00:20:53,839
+customers.
+
+798
+00:20:54,099 --> 00:20:56,279
+So yeah, this is pretty much
+
+799
+00:20:56,279 --> 00:20:57,200
+perfect.
+
+800
+00:20:57,380 --> 00:20:59,269
+So then we got the impatient
+
+801
+00:20:59,269 --> 00:21:00,480
+reality and CTA.
+
+802
+00:21:00,740 --> 00:21:02,680
+This takes back to everything I
+
+803
+00:21:02,680 --> 00:21:03,750
+learned going from screaming about
+
+804
+00:21:03,750 --> 00:21:04,880
+scaling agencies.
+
+805
+00:21:05,140 --> 00:21:06,069
+Knowledge action is worthless.
+
+806
+00:21:06,339 --> 00:21:07,259
+Success doesn't care how you feel
+
+807
+00:21:07,259 --> 00:21:08,160
+about these systems.
+
+808
+00:21:08,160 --> 00:21:08,980
+I'm going to tell you something
+
+809
+00:21:08,980 --> 00:21:10,049
+that might make you uncomfortable.
+
+810
+00:21:10,329 --> 00:21:11,269
+90% of people who watch this video
+
+811
+00:21:11,460 --> 00:21:12,400
+will do absolutely nothing with
+
+812
+00:21:12,400 --> 00:21:13,200
+this information.
+
+813
+00:21:13,380 --> 00:21:14,289
+They'll get excited, maybe
+
+814
+00:21:14,289 --> 00:21:15,519
+bookmark it, tell themselves to
+
+815
+00:21:15,519 --> 00:21:16,630
+implement it when they have
+
+816
+00:21:16,839 --> 00:21:17,829
+time, and then go back to doing
+
+817
+00:21:18,269 --> 00:21:19,039
+everything manually.
+
+818
+00:21:19,039 --> 00:21:19,599
+You know why?
+
+819
+00:21:19,829 --> 00:21:20,509
+Because implementing AI systems
+
+820
+00:21:20,509 --> 00:21:21,200
+requires the same thing.
+
+821
+00:21:21,380 --> 00:21:23,420
+So it repeats some things a bit
+
+822
+00:21:23,509 --> 00:21:24,480
+too much.
+
+823
+00:21:24,480 --> 00:21:25,410
+So you can always obviously edit
+
+824
+00:21:25,480 --> 00:21:26,079
+this as it goes on.
+
+825
+00:21:26,339 --> 00:21:28,960
+Let's see.
+
+826
+00:21:29,140 --> 00:21:30,079
+Here's what I've learned code
+
+827
+00:21:30,079 --> 00:21:30,799
+coders of HCRs.
+
+828
+00:21:30,799 --> 00:21:31,470
+It's not by the technology.
+
+829
+00:21:31,519 --> 00:21:32,000
+The tools are there.
+
+830
+00:21:32,000 --> 00:21:32,640
+The systems work.
+
+831
+00:21:32,640 --> 00:21:33,279
+The results are proven.
+
+832
+00:21:33,279 --> 00:21:34,470
+The problem is psychological.
+
+833
+00:21:34,559 --> 00:21:35,470
+If you want the results, that's
+
+834
+00:21:35,559 --> 00:21:36,160
+learning curve.
+
+835
+00:21:36,309 --> 00:21:37,359
+They want the $220,000 automation
+
+836
+00:21:37,799 --> 00:21:38,559
+without understanding lead
+
+837
+00:21:38,559 --> 00:21:39,279
+qualification.
+
+838
+00:21:39,279 --> 00:21:40,470
+They want the $100,000 revenue
+
+839
+00:21:40,900 --> 00:21:41,599
+recovery without setting up proper
+
+840
+00:21:41,599 --> 00:21:42,240
+data tracking
+
+841
+00:21:42,500 --> 00:21:42,880
+first.
+
+842
+00:21:42,880 --> 00:21:44,069
+But success doesn't work that way.
+
+843
+00:21:44,160 --> 00:21:45,069
+You can't skip to foundation and
+
+844
+00:21:45,160 --> 00:21:46,049
+jump to the advanced stuff.
+
+845
+00:21:46,420 --> 00:21:47,200
+Remember the automation hierarchy
+
+846
+00:21:47,200 --> 00:21:47,680
+I mentioned?
+
+847
+00:21:47,940 --> 00:21:48,869
+Foundation first, complexity
+
+848
+00:21:49,109 --> 00:21:49,279
+later.
+
+849
+00:21:49,279 --> 00:21:50,079
+So here's your choice.
+
+850
+00:21:50,079 --> 00:21:51,269
+You can be like 90% who watch
+
+851
+00:21:51,269 --> 00:21:52,400
+this, get inspired for five
+
+852
+00:21:52,400 --> 00:21:52,720
+minutes,
+
+853
+00:21:52,720 --> 00:21:53,349
+and go back to minding and
+
+854
+00:21:53,349 --> 00:21:54,200
+handling every lead and want to
+
+855
+00:21:54,319 --> 00:21:54,319
+worry
+
+856
+00:21:54,480 --> 00:21:55,269
+your competitors are scaling
+
+857
+00:21:55,319 --> 00:21:55,680
+faster.
+
+858
+00:21:55,680 --> 00:21:56,859
+Or you can be like the 10% who
+
+859
+00:21:56,859 --> 00:21:58,400
+understand the adaptability.
+
+860
+00:21:58,440 --> 00:21:59,450
+That adaptability is the ultimate
+
+861
+00:21:59,450 --> 00:22:00,079
+business skill.
+
+862
+00:22:04,339 --> 00:22:05,980
+direct CTA final challenge.
+
+863
+00:22:06,240 --> 00:22:07,890
+So if you want to help embedding
+
+864
+00:22:08,009 --> 00:22:08,799
+these systems, I've got a few
+
+865
+00:22:08,799 --> 00:22:09,279
+options for you.
+
+866
+00:22:09,279 --> 00:22:09,950
+First, if you're serious about
+
+867
+00:22:10,029 --> 00:22:10,799
+scaling an agency, check out
+
+868
+00:22:10,910 --> 00:22:11,359
+client extension.
+
+869
+00:22:11,539 --> 00:22:12,240
+Links in the description.
+
+870
+00:22:12,240 --> 00:22:12,900
+That's where I learned the
+
+871
+00:22:12,900 --> 00:22:13,279
+fundamentals.
+
+872
+00:22:13,279 --> 00:22:13,779
+It's allowed me to build
+
+873
+00:22:13,779 --> 00:22:14,230
+everything else.
+
+874
+00:22:14,400 --> 00:22:15,420
+And of course, this will be
+
+875
+00:22:15,420 --> 00:22:16,950
+optimized for whatever your offer
+
+876
+00:22:16,950 --> 00:22:17,279
+is.
+
+877
+00:22:17,509 --> 00:22:19,119
+That's the final element of there.
+
+878
+00:22:19,119 --> 00:22:20,190
+So now we've got everything
+
+879
+00:22:20,190 --> 00:22:20,720
+included.
+
+880
+00:22:20,720 --> 00:22:21,670
+We've got a full script.
+
+881
+00:22:21,680 --> 00:22:23,339
+We can make any refinements or
+
+882
+00:22:23,369 --> 00:22:24,319
+adjustments.
+
+883
+00:22:24,319 --> 00:22:25,269
+So I can say to her, for instance,
+
+884
+00:22:25,319 --> 00:22:26,220
+like I want to remove the
+
+885
+00:22:26,329 --> 00:22:27,119
+mentioning,
+
+886
+00:22:27,119 --> 00:22:28,720
+you know, from one of my videos.
+
+887
+00:22:28,980 --> 00:22:29,619
+Something like going from being a
+
+888
+00:22:29,619 --> 00:22:31,039
+death metal vocalist to running
+
+889
+00:22:31,039 --> 00:22:31,519
+agencies.
+
+890
+00:22:31,690 --> 00:22:32,710
+And you can kind of change
+
+891
+00:22:33,150 --> 00:22:33,839
+wherever you want.
+
+892
+00:22:33,839 --> 00:22:34,920
+But overall, we can get all this
+
+893
+00:22:34,920 --> 00:22:36,160
+copy now into a Google Doc.
+
+894
+00:22:36,329 --> 00:22:37,349
+And you've got a full script
+
+895
+00:22:37,779 --> 00:22:38,799
+pretty much ready to go.
+
+896
+00:22:39,059 --> 00:22:40,599
+This is optimized based on
+
+897
+00:22:40,599 --> 00:22:43,039
+Brian's, you know, his templates
+
+898
+00:22:43,039 --> 00:22:44,400
+and his formatting.
+
+899
+00:22:44,579 --> 00:22:46,160
+And he's got incredible results,
+
+900
+00:22:46,160 --> 00:22:47,440
+you know, running a YouTube
+
+901
+00:22:47,440 --> 00:22:47,839
+agency.
+
+902
+00:22:47,839 --> 00:22:49,029
+So he knows what he's talking
+
+903
+00:22:49,329 --> 00:22:49,519
+about.
+
+904
+00:22:49,559 --> 00:22:51,359
+So this is the easiest way to,
+
+905
+00:22:51,359 --> 00:22:52,640
+without any previous experience,
+
+906
+00:22:52,900 --> 00:22:53,829
+write YouTube scripts that are
+
+907
+00:22:54,230 --> 00:22:55,039
+going to get results.
+
+908
+00:22:55,039 --> 00:22:56,220
+If you do this for, you know, the
+
+909
+00:22:56,400 --> 00:22:57,920
+next, you know, 10 videos,
+
+910
+00:22:57,920 --> 00:22:59,000
+I guarantee you're going to book
+
+911
+00:22:59,000 --> 00:22:59,680
+leads off these.
+
+912
+00:22:59,839 --> 00:23:01,839
+So hopefully this is helpful.
+
+913
+00:23:02,039 --> 00:23:03,029
+This is kind of a long video.
+
+914
+00:23:03,119 --> 00:23:03,799
+I'm going to cut it down a little
+
+915
+00:23:03,869 --> 00:23:04,160
+bit, maybe.
+
+916
+00:23:04,420 --> 00:23:07,119
+But it gives the idea of how you
+
+917
+00:23:07,119 --> 00:23:08,460
+can use Poppy to create content on
+
+918
+00:23:08,670 --> 00:23:09,680
+autopilot.
+
+919
+00:23:09,859 --> 00:23:10,859
+This is really, as you saw, most
+
+920
+00:23:10,960 --> 00:23:11,900
+of what I did here was just typing
+
+921
+00:23:11,990 --> 00:23:12,000
+in
+
+922
+00:23:12,259 --> 00:23:13,099
+continue after giving up my
+
+923
+00:23:13,099 --> 00:23:13,680
+information.
+
+924
+00:23:13,680 --> 00:23:14,559
+And then I'll do some quick
+
+925
+00:23:14,559 --> 00:23:15,680
+editing afterwards to kind of, you
+
+926
+00:23:15,690 --> 00:23:15,839
+know,
+
+927
+00:23:16,019 --> 00:23:17,029
+make it exactly how I want it to
+
+928
+00:23:17,470 --> 00:23:18,960
+sound a bit more like me.
+
+929
+00:23:18,960 --> 00:23:19,630
+And we're good to go.
+
+930
+00:23:19,839 --> 00:23:21,900
+So highly suggest using Poppy for
+
+931
+00:23:21,990 --> 00:23:22,559
+this.
+
+932
+00:23:22,710 --> 00:23:23,480
+Highly suggest using Brian's
+
+933
+00:23:23,500 --> 00:23:23,839
+template,
+
+934
+00:23:24,089 --> 00:23:25,029
+which you can find the template
+
+935
+00:23:25,460 --> 00:23:27,119
+section on Poppy and let
+
+936
+00:23:27,119 --> 00:23:27,759
+Let me know how it goes for you
+
+937
+00:23:27,759 --> 00:23:28,279
+guys, right?
+
+938
+00:23:28,279 --> 00:23:29,480
+So see you in the next one.
+
+939
+00:23:29,940 --> 00:23:30,319
+Peace.

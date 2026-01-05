@@ -1,0 +1,8283 @@
+1
+00:00:00,410 --> 00:00:02,080
+Welcome back to another video.
+
+2
+00:00:02,080 --> 00:00:05,480
+It's Andre here and in this video,
+
+3
+00:00:05,480 --> 00:00:07,559
+basically where we're at currently
+
+4
+00:00:07,610 --> 00:00:09,460
+in the onboarding process is we
+
+5
+00:00:09,460 --> 00:00:11,009
+talked about the service
+
+6
+00:00:11,009 --> 00:00:11,960
+agreement.
+
+7
+00:00:11,960 --> 00:00:14,240
+So when you have a client ready
+
+8
+00:00:14,279 --> 00:00:16,100
+to sign up, you want to basically,
+
+9
+00:00:16,100 --> 00:00:17,660
+the first thing you want to get
+
+10
+00:00:17,660 --> 00:00:19,120
+them to do or the first thing you
+
+11
+00:00:19,339 --> 00:00:21,370
+have to get them to do is review
+
+12
+00:00:21,370 --> 00:00:23,980
+and sign the service agreement and
+
+13
+00:00:23,980 --> 00:00:25,839
+you can use a tool called
+
+14
+00:00:26,059 --> 00:00:26,649
+HelloSign.
+
+15
+00:00:26,719 --> 00:00:28,160
+There's also DocuSign.
+
+16
+00:00:28,350 --> 00:00:30,030
+There's also like PandaDoc.
+
+17
+00:00:30,039 --> 00:00:31,829
+There's a bunch of tools out there
+
+18
+00:00:32,250 --> 00:00:34,240
+where you can send PDF contracts
+
+19
+00:00:34,429 --> 00:00:37,210
+like the service agreements, like
+
+20
+00:00:37,210 --> 00:00:40,079
+the one we are creating and
+
+21
+00:00:40,409 --> 00:00:41,939
+editing in Canva and send it to
+
+22
+00:00:41,939 --> 00:00:43,780
+someone's email and get them to
+
+23
+00:00:43,859 --> 00:00:46,240
+sign it electronically, which is
+
+24
+00:00:46,560 --> 00:00:47,969
+still valid legally.
+
+25
+00:00:47,969 --> 00:00:49,929
+So look into those tools.
+
+26
+00:00:49,950 --> 00:00:52,380
+But basically by this point, you
+
+27
+00:00:52,380 --> 00:00:53,619
+already came up
+
+28
+00:00:53,710 --> 00:00:54,939
+with a service agreement and
+
+29
+00:00:54,939 --> 00:00:56,420
+contract, got it signed by your
+
+30
+00:00:56,420 --> 00:00:56,979
+client.
+
+31
+00:00:56,979 --> 00:00:59,619
+You also decided on how
+
+32
+00:00:59,710 --> 00:01:01,039
+you're going to set or how much
+
+33
+00:01:01,039 --> 00:01:02,640
+you're going to charge for a setup
+
+34
+00:01:02,640 --> 00:01:04,180
+fee or your onboarding fees
+
+35
+00:01:04,219 --> 00:01:05,099
+so that you can invoice your
+
+36
+00:01:05,099 --> 00:01:05,540
+clients.
+
+37
+00:01:05,540 --> 00:01:07,219
+So basically right now, all that
+
+38
+00:01:07,219 --> 00:01:09,540
+you've done is you got that
+
+39
+00:01:09,859 --> 00:01:11,519
+signed service agreement from the
+
+40
+00:01:11,519 --> 00:01:12,129
+client.
+
+41
+00:01:12,129 --> 00:01:13,269
+And then now you have to
+
+42
+00:01:13,719 --> 00:01:14,980
+understand what are the next
+
+43
+00:01:14,980 --> 00:01:15,129
+steps.
+
+44
+00:01:15,269 --> 00:01:17,150
+So you had the sales call, they
+
+45
+00:01:17,150 --> 00:01:19,230
+signed the service agreement.
+
+46
+00:01:19,400 --> 00:01:21,219
+What are the next steps?
+
+47
+00:01:21,489 --> 00:01:23,579
+And what you're looking at here is
+
+48
+00:01:23,579 --> 00:01:25,370
+a tool called Trello.
+
+49
+00:01:25,579 --> 00:01:26,680
+This is what we use for our
+
+50
+00:01:26,680 --> 00:01:27,159
+agency.
+
+51
+00:01:27,180 --> 00:01:27,390
+It's
+
+52
+00:01:27,750 --> 00:01:29,719
+basically like another tool or
+
+53
+00:01:29,909 --> 00:01:31,200
+version of Notion.
+
+54
+00:01:31,540 --> 00:01:33,400
+It's just we prefer to use Trello
+
+55
+00:01:33,420 --> 00:01:34,280
+because we've used
+
+56
+00:01:34,370 --> 00:01:36,450
+it forever and it works for us.
+
+57
+00:01:36,450 --> 00:01:38,409
+So we actually don't use Notion at
+
+58
+00:01:38,459 --> 00:01:39,640
+all at our agency.
+
+59
+00:01:39,640 --> 00:01:40,599
+We just use Trello.
+
+60
+00:01:40,920 --> 00:01:42,810
+And again, you could also use
+
+61
+00:01:42,810 --> 00:01:43,400
+ClickUp.
+
+62
+00:01:43,400 --> 00:01:44,840
+There's so many tools out there
+
+63
+00:01:44,840 --> 00:01:46,629
+for basically it's just project
+
+64
+00:01:47,049 --> 00:01:49,129
+management or task management or
+
+65
+00:01:49,189 --> 00:01:50,140
+task management, however you want
+
+66
+00:01:50,140 --> 00:01:50,840
+to call it.
+
+67
+00:01:50,859 --> 00:01:54,840
+So we have a very set and standard
+
+68
+00:01:55,060 --> 00:01:57,620
+set of procedures in place for
+
+69
+00:01:57,620 --> 00:01:59,799
+what happens once we get a signed
+
+70
+00:01:59,920 --> 00:02:00,760
+contract.
+
+71
+00:02:00,760 --> 00:02:02,120
+So as soon as we get a signed
+
+72
+00:02:02,120 --> 00:02:02,840
+contract,
+
+73
+00:02:02,930 --> 00:02:05,170
+we go to this board here, which is
+
+74
+00:02:05,290 --> 00:02:06,540
+a template board.
+
+75
+00:02:06,540 --> 00:02:08,979
+So in Trello, it's really just a
+
+76
+00:02:08,979 --> 00:02:09,479
+template.
+
+77
+00:02:09,569 --> 00:02:11,360
+And it's really nice because we
+
+78
+00:02:11,360 --> 00:02:13,210
+don't have to change anything to
+
+79
+00:02:13,310 --> 00:02:14,840
+this specific template.
+
+80
+00:02:14,889 --> 00:02:16,889
+We can create a board that looks
+
+81
+00:02:16,889 --> 00:02:18,569
+just like this from the actual
+
+82
+00:02:19,020 --> 00:02:19,800
+template.
+
+83
+00:02:19,800 --> 00:02:21,400
+So this is part of being
+
+84
+00:02:21,610 --> 00:02:23,080
+like a Trello pro member or
+
+85
+00:02:23,080 --> 00:02:24,919
+whatever, which we are.
+
+86
+00:02:24,919 --> 00:02:27,879
+And all I'll do in the top is hit
+
+87
+00:02:27,879 --> 00:02:28,840
+create board from
+
+88
+00:02:29,169 --> 00:02:29,479
+template.
+
+89
+00:02:29,479 --> 00:02:31,159
+And then usually the way I name
+
+90
+00:02:31,349 --> 00:02:33,169
+the board is I'll put the client's
+
+91
+00:02:33,169 --> 00:02:35,400
+name and then X our business.
+
+92
+00:02:35,449 --> 00:02:37,000
+So like X knowledge X and I'll
+
+93
+00:02:37,000 --> 00:02:38,400
+create the board.
+
+94
+00:02:38,400 --> 00:02:40,979
+And now I just created like a
+
+95
+00:02:41,180 --> 00:02:42,360
+workspace for our
+
+96
+00:02:42,689 --> 00:02:44,360
+client and I'll walk you through
+
+97
+00:02:44,360 --> 00:02:45,550
+the entire workspace.
+
+98
+00:02:45,550 --> 00:02:47,090
+So you understand what each card
+
+99
+00:02:47,090 --> 00:02:47,960
+is there for.
+
+100
+00:02:48,050 --> 00:02:49,860
+And obviously this is tailored
+
+101
+00:02:49,860 --> 00:02:51,759
+specifically to knowledge X, my
+
+102
+00:02:52,139 --> 00:02:53,939
+lead generation agency and the
+
+103
+00:02:54,389 --> 00:02:56,349
+services that we provide.
+
+104
+00:02:56,349 --> 00:02:58,580
+So it won't look the same exact
+
+105
+00:02:58,580 --> 00:03:00,840
+for you because your business is
+
+106
+00:03:00,840 --> 00:03:01,639
+unique in
+
+107
+00:03:01,689 --> 00:03:03,400
+in various ways, obviously.
+
+108
+00:03:03,400 --> 00:03:05,000
+But I'll walk you through
+
+109
+00:03:05,000 --> 00:03:06,599
+basically how to leverage a tool
+
+110
+00:03:06,599 --> 00:03:07,479
+like Trello or
+
+111
+00:03:07,689 --> 00:03:10,330
+any other project management tool
+
+112
+00:03:10,330 --> 00:03:12,449
+to have a very rigid and set
+
+113
+00:03:12,569 --> 00:03:15,800
+process in place to go through
+
+114
+00:03:15,800 --> 00:03:16,280
+next steps.
+
+115
+00:03:16,599 --> 00:03:17,669
+Because once someone signs a
+
+116
+00:03:17,669 --> 00:03:19,979
+contract, you have a very short
+
+117
+00:03:20,460 --> 00:03:23,159
+window of time to make a really
+
+118
+00:03:23,159 --> 00:03:23,479
+good
+
+119
+00:03:23,569 --> 00:03:24,289
+first impression.
+
+120
+00:03:24,360 --> 00:03:25,680
+That's like one of the most
+
+121
+00:03:25,680 --> 00:03:27,180
+important things in the agency
+
+122
+00:03:27,629 --> 00:03:27,629
+base
+
+123
+00:03:28,650 --> 00:03:30,879
+or agency business, excuse me, is
+
+124
+00:03:30,879 --> 00:03:33,159
+to make a good first impression.
+
+125
+00:03:33,159 --> 00:03:35,560
+It's so, so important in client
+
+126
+00:03:35,889 --> 00:03:36,199
+services.
+
+127
+00:03:36,199 --> 00:03:37,759
+You want to impress your clients
+
+128
+00:03:37,759 --> 00:03:39,259
+right out of the bat, because what
+
+129
+00:03:39,259 --> 00:03:41,000
+that does is it gives it
+
+130
+00:03:41,090 --> 00:03:42,569
+gives them comfort in the decision
+
+131
+00:03:42,569 --> 00:03:43,639
+that they just made.
+
+132
+00:03:43,639 --> 00:03:44,800
+Because when you make a big
+
+133
+00:03:45,180 --> 00:03:45,400
+decision,
+
+134
+00:03:45,490 --> 00:03:46,949
+like signing on with an agency,
+
+135
+00:03:46,949 --> 00:03:48,520
+which is probably going to cost
+
+136
+00:03:48,520 --> 00:03:49,960
+you a couple thousand of dollars,
+
+137
+00:03:50,009 --> 00:03:51,449
+at least without any like
+
+138
+00:03:51,449 --> 00:03:53,650
+guarantee of results or any like
+
+139
+00:03:53,669 --> 00:03:55,400
+way to predict what's actually
+
+140
+00:03:55,400 --> 00:03:55,960
+going to happen
+
+141
+00:03:56,009 --> 00:03:57,960
+or unfold with full certainty,
+
+142
+00:03:57,960 --> 00:04:00,919
+giving them comfort and
+
+143
+00:04:01,069 --> 00:04:03,770
+reassurance and more reasons to
+
+144
+00:04:04,099 --> 00:04:05,080
+trust you is
+
+145
+00:04:05,169 --> 00:04:06,689
+the best thing you can do.
+
+146
+00:04:06,689 --> 00:04:08,449
+And you can do it very simply by
+
+147
+00:04:08,449 --> 00:04:11,240
+having a rigid set of processes in
+
+148
+00:04:11,240 --> 00:04:11,879
+place,
+
+149
+00:04:12,199 --> 00:04:13,930
+ready to basically fire off as
+
+150
+00:04:13,930 --> 00:04:16,069
+soon as that signed contract or
+
+151
+00:04:16,069 --> 00:04:18,040
+the service agreement is signed.
+
+152
+00:04:18,129 --> 00:04:19,720
+So for us, as soon as the signed
+
+153
+00:04:19,720 --> 00:04:21,290
+service agreement or the service
+
+154
+00:04:21,290 --> 00:04:22,279
+agreement is signed, I keep
+
+155
+00:04:22,279 --> 00:04:22,839
+messing that
+
+156
+00:04:22,879 --> 00:04:23,129
+up.
+
+157
+00:04:23,170 --> 00:04:24,589
+As soon as we get that service
+
+158
+00:04:24,589 --> 00:04:26,339
+agreement signed, we go into this
+
+159
+00:04:26,339 --> 00:04:28,120
+Trello board and we create a
+
+160
+00:04:28,170 --> 00:04:29,670
+we create a board from the
+
+161
+00:04:29,670 --> 00:04:30,449
+template.
+
+162
+00:04:30,629 --> 00:04:32,089
+And then all we have here is
+
+163
+00:04:32,300 --> 00:04:33,639
+resources.
+
+164
+00:04:33,639 --> 00:04:35,120
+So we have general resources,
+
+165
+00:04:35,490 --> 00:04:36,910
+campaign resources, educational
+
+166
+00:04:36,920 --> 00:04:38,759
+resources, which I'll explain, and
+
+167
+00:04:38,759 --> 00:04:39,790
+then a to do list.
+
+168
+00:04:39,800 --> 00:04:40,730
+So you'll see,
+
+169
+00:04:40,810 --> 00:04:41,889
+and then obviously completed
+
+170
+00:04:41,889 --> 00:04:43,089
+tasks, because we'll move things
+
+171
+00:04:43,269 --> 00:04:43,959
+over in Trello.
+
+172
+00:04:43,959 --> 00:04:45,000
+You just simply move
+
+173
+00:04:45,220 --> 00:04:46,819
+cards over from the to do list to
+
+174
+00:04:46,819 --> 00:04:48,160
+the completed task.
+
+175
+00:04:48,160 --> 00:04:49,910
+And that'll help us know where
+
+176
+00:04:49,910 --> 00:04:50,990
+we're at with this
+
+177
+00:04:51,329 --> 00:04:52,709
+specific project and with this
+
+178
+00:04:52,709 --> 00:04:53,819
+specific client.
+
+179
+00:04:53,839 --> 00:04:55,339
+So like, I'll just walk you
+
+180
+00:04:55,339 --> 00:04:56,519
+through everything on this
+
+181
+00:04:56,569 --> 00:04:57,180
+Trello board.
+
+182
+00:04:57,180 --> 00:04:58,459
+So the first thing you'll notice
+
+183
+00:04:58,459 --> 00:05:00,220
+is that there's some cards are
+
+184
+00:05:00,699 --> 00:05:02,040
+labeled in green,
+
+185
+00:05:02,129 --> 00:05:03,569
+which is actually what the client
+
+186
+00:05:03,569 --> 00:05:04,370
+is supposed to do.
+
+187
+00:05:04,550 --> 00:05:07,240
+And then other ones are labeled in
+
+188
+00:05:07,240 --> 00:05:07,620
+blue,
+
+189
+00:05:07,810 --> 00:05:08,870
+which is called knowledge X,
+
+190
+00:05:09,009 --> 00:05:10,199
+because that's what our agency is
+
+191
+00:05:10,230 --> 00:05:10,970
+supposed to do.
+
+192
+00:05:11,040 --> 00:05:13,290
+So as soon as we get a
+
+193
+00:05:13,649 --> 00:05:15,870
+signed service agreement from the
+
+194
+00:05:15,870 --> 00:05:18,290
+client, the first thing we have to
+
+195
+00:05:18,420 --> 00:05:20,319
+do is if we open this card,
+
+196
+00:05:20,660 --> 00:05:22,290
+there is a checklist of two action
+
+197
+00:05:22,290 --> 00:05:22,769
+items.
+
+198
+00:05:22,949 --> 00:05:24,589
+The first is to add a signed date
+
+199
+00:05:24,620 --> 00:05:25,560
+to the signed service
+
+200
+00:05:25,910 --> 00:05:26,540
+agreement card.
+
+201
+00:05:26,579 --> 00:05:28,139
+And the second is to attach the
+
+202
+00:05:28,139 --> 00:05:29,850
+signed PDF to the signed service
+
+203
+00:05:29,850 --> 00:05:30,759
+agreement card.
+
+204
+00:05:30,800 --> 00:05:32,079
+So that's a card here under
+
+205
+00:05:32,079 --> 00:05:34,009
+general resources, where if you
+
+206
+00:05:34,079 --> 00:05:36,439
+open it, it says when the contract
+
+207
+00:05:36,529 --> 00:05:37,250
+was signed.
+
+208
+00:05:37,319 --> 00:05:39,019
+And it also says when the first
+
+209
+00:05:39,019 --> 00:05:40,480
+campaign was started.
+
+210
+00:05:40,620 --> 00:05:42,839
+So that's helpful information
+
+211
+00:05:42,889 --> 00:05:43,470
+to have.
+
+212
+00:05:43,470 --> 00:05:45,079
+So you can get an idea for how
+
+213
+00:05:45,079 --> 00:05:47,050
+long does it usually take to start
+
+214
+00:05:47,050 --> 00:05:49,639
+campaigns after a contract's
+
+215
+00:05:49,689 --> 00:05:50,129
+been signed?
+
+216
+00:05:50,129 --> 00:05:51,170
+Because that's a common question
+
+217
+00:05:51,170 --> 00:05:51,970
+you'll probably get on sales
+
+218
+00:05:52,149 --> 00:05:52,360
+calls.
+
+219
+00:05:52,360 --> 00:05:53,160
+It's like, okay,
+
+220
+00:05:53,250 --> 00:05:53,970
+great, let's do it.
+
+221
+00:05:54,040 --> 00:05:55,220
+How long do you think until the
+
+222
+00:05:55,220 --> 00:05:56,399
+first campaign is going to get
+
+223
+00:05:56,399 --> 00:05:56,860
+started?
+
+224
+00:05:57,089 --> 00:05:58,810
+And you can give them an accurate
+
+225
+00:05:58,810 --> 00:06:00,699
+answer by just recording those two
+
+226
+00:06:00,699 --> 00:06:01,970
+very important dates.
+
+227
+00:06:02,129 --> 00:06:03,639
+And you'll want to add an
+
+228
+00:06:03,639 --> 00:06:05,740
+attachment of the signed service
+
+229
+00:06:06,220 --> 00:06:07,560
+agreement to this card,
+
+230
+00:06:07,889 --> 00:06:09,300
+because what you're going to do,
+
+231
+00:06:09,300 --> 00:06:11,060
+you're going to invite the client
+
+232
+00:06:11,060 --> 00:06:11,290
+by email
+
+233
+00:06:11,649 --> 00:06:13,720
+to this Trello board.
+
+234
+00:06:13,720 --> 00:06:14,920
+So they have access to it.
+
+235
+00:06:14,920 --> 00:06:16,480
+So it's super nice for them
+
+236
+00:06:16,480 --> 00:06:17,790
+because they come on here
+
+237
+00:06:17,850 --> 00:06:18,889
+and they could see when they
+
+238
+00:06:18,889 --> 00:06:20,129
+signed, they could see when the
+
+239
+00:06:20,310 --> 00:06:21,240
+first campaign started,
+
+240
+00:06:21,329 --> 00:06:22,680
+and they could see when their
+
+241
+00:06:22,680 --> 00:06:24,000
+invoices do each month.
+
+242
+00:06:24,000 --> 00:06:25,800
+And they could also see a PDF
+
+243
+00:06:25,800 --> 00:06:26,199
+version of
+
+244
+00:06:26,290 --> 00:06:27,740
+the signed service agreement in
+
+245
+00:06:27,740 --> 00:06:29,319
+case they have any questions or
+
+246
+00:06:29,319 --> 00:06:30,920
+whatever it might be.
+
+247
+00:06:30,920 --> 00:06:31,639
+They might
+
+248
+00:06:31,730 --> 00:06:34,339
+be wondering, oh, what happens in
+
+249
+00:06:34,339 --> 00:06:35,649
+this scenario?
+
+250
+00:06:35,819 --> 00:06:36,839
+And then they could go back or you
+
+251
+00:06:36,839 --> 00:06:37,399
+could do the same
+
+252
+00:06:37,490 --> 00:06:38,899
+thing and say, hey, you know, you
+
+253
+00:06:38,899 --> 00:06:40,300
+didn't pay the invoice on time.
+
+254
+00:06:40,300 --> 00:06:41,550
+So based on the signed service
+
+255
+00:06:41,879 --> 00:06:42,939
+agreement, which you could refer
+
+256
+00:06:42,939 --> 00:06:43,889
+back to in this card here on
+
+257
+00:06:44,069 --> 00:06:46,439
+Trello, we're going to charge you
+
+258
+00:06:46,439 --> 00:06:47,079
+a 3%
+
+259
+00:06:47,170 --> 00:06:48,639
+late fee, you know, something like
+
+260
+00:06:48,639 --> 00:06:48,990
+that.
+
+261
+00:06:48,990 --> 00:06:50,329
+But anyway, so that's the first
+
+262
+00:06:50,329 --> 00:06:51,050
+action item.
+
+263
+00:06:51,069 --> 00:06:51,709
+So you want to add
+
+264
+00:06:51,769 --> 00:06:53,060
+the signed service agreement and
+
+265
+00:06:53,060 --> 00:06:54,329
+the date it was signed, and then
+
+266
+00:06:54,329 --> 00:06:55,639
+you just simply move it over to
+
+267
+00:06:55,689 --> 00:06:56,589
+the completed task.
+
+268
+00:06:56,589 --> 00:06:57,879
+And that's all we're doing.
+
+269
+00:06:57,879 --> 00:07:00,600
+So this is almost like an SOP for
+
+270
+00:07:00,750 --> 00:07:01,209
+us.
+
+271
+00:07:01,339 --> 00:07:01,870
+It actually is
+
+272
+00:07:01,970 --> 00:07:03,529
+like our SOP for the most part.
+
+273
+00:07:03,529 --> 00:07:05,399
+What do we do when a client signs?
+
+274
+00:07:05,399 --> 00:07:08,279
+First thing we do is we download
+
+275
+00:07:08,279 --> 00:07:08,439
+the
+
+276
+00:07:08,529 --> 00:07:10,550
+PDF version of the signed contract
+
+277
+00:07:10,550 --> 00:07:12,259
+and we upload it to this card in
+
+278
+00:07:12,410 --> 00:07:13,069
+Trello.
+
+279
+00:07:13,079 --> 00:07:15,240
+And we also put the date
+
+280
+00:07:15,279 --> 00:07:16,550
+of when it was signed in Trello.
+
+281
+00:07:16,550 --> 00:07:17,879
+And before that, we actually had
+
+282
+00:07:17,879 --> 00:07:19,240
+to create a board in Trello for
+
+283
+00:07:19,240 --> 00:07:19,300
+the
+
+284
+00:07:19,410 --> 00:07:20,120
+new client.
+
+285
+00:07:20,120 --> 00:07:22,100
+So that's really the second step.
+
+286
+00:07:22,100 --> 00:07:23,810
+The third step now for us to do is
+
+287
+00:07:23,810 --> 00:07:24,889
+to send an invoice
+
+288
+00:07:24,970 --> 00:07:26,980
+in Stripe for the setup fee or for
+
+289
+00:07:26,980 --> 00:07:28,439
+the onboarding fee.
+
+290
+00:07:28,439 --> 00:07:30,350
+And part of doing that is to set
+
+291
+00:07:30,350 --> 00:07:31,079
+up the client
+
+292
+00:07:31,120 --> 00:07:32,550
+as a new customer in Stripe or
+
+293
+00:07:32,550 --> 00:07:34,209
+whatever billing system you're
+
+294
+00:07:34,209 --> 00:07:35,959
+going to use to collect payments
+
+295
+00:07:35,959 --> 00:07:36,050
+from
+
+296
+00:07:36,209 --> 00:07:37,019
+your customer.
+
+297
+00:07:37,019 --> 00:07:38,449
+So that's the second thing.
+
+298
+00:07:38,629 --> 00:07:40,180
+The next thing is actually for the
+
+299
+00:07:40,300 --> 00:07:40,920
+client to do,
+
+300
+00:07:41,009 --> 00:07:42,449
+and that's for them to review and
+
+301
+00:07:42,449 --> 00:07:43,250
+pay the invoice.
+
+302
+00:07:43,430 --> 00:07:44,720
+So the reason I have this as a
+
+303
+00:07:45,100 --> 00:07:45,160
+card
+
+304
+00:07:45,199 --> 00:07:46,579
+is so I can keep it here at the
+
+305
+00:07:46,579 --> 00:07:48,250
+top of the to-do list card until I
+
+306
+00:07:48,250 --> 00:07:50,040
+get confirmation that they paid.
+
+307
+00:07:50,129 --> 00:07:51,379
+Because if I don't have this here
+
+308
+00:07:51,379 --> 00:07:53,019
+and I just send the invoice, I
+
+309
+00:07:53,019 --> 00:07:54,360
+might forget and I might,
+
+310
+00:07:54,399 --> 00:07:55,699
+it might be a week or two after it
+
+311
+00:07:55,699 --> 00:07:56,910
+was actually due and I might
+
+312
+00:07:56,910 --> 00:07:57,720
+realize, oh,
+
+313
+00:07:57,810 --> 00:07:59,209
+shit, this client still hasn't
+
+314
+00:07:59,209 --> 00:08:00,050
+paid the invoice.
+
+315
+00:08:00,230 --> 00:08:01,439
+I should reach out to him about
+
+316
+00:08:01,439 --> 00:08:01,879
+it.
+
+317
+00:08:01,899 --> 00:08:02,600
+But if we keep it
+
+318
+00:08:02,639 --> 00:08:04,110
+at the top of the to-do list, the
+
+319
+00:08:04,110 --> 00:08:05,639
+client will see that and I'll see
+
+320
+00:08:05,639 --> 00:08:07,319
+it so that if I continue to see
+
+321
+00:08:07,360 --> 00:08:08,879
+it and it stays there, I can reach
+
+322
+00:08:08,879 --> 00:08:10,279
+out and say, hey, this still
+
+323
+00:08:10,279 --> 00:08:11,240
+hasn't gotten paid,
+
+324
+00:08:11,329 --> 00:08:12,680
+you know, pay it.
+
+325
+00:08:12,680 --> 00:08:13,920
+But let's just say the client paid
+
+326
+00:08:13,920 --> 00:08:15,240
+the invoice, we can move it over
+
+327
+00:08:15,240 --> 00:08:15,800
+to completed
+
+328
+00:08:15,889 --> 00:08:16,180
+task.
+
+329
+00:08:16,180 --> 00:08:17,660
+And this is all that's happening
+
+330
+00:08:17,660 --> 00:08:19,019
+is we're moving our to-do list
+
+331
+00:08:19,019 --> 00:08:21,000
+items to completed task items.
+
+332
+00:08:21,089 --> 00:08:22,959
+And we're having a very specific
+
+333
+00:08:22,959 --> 00:08:24,800
+set of processes to follow as soon
+
+334
+00:08:25,129 --> 00:08:26,680
+as the client is onboarded.
+
+335
+00:08:26,769 --> 00:08:28,759
+And the next one is just to set up
+
+336
+00:08:28,759 --> 00:08:30,199
+the Trello board.
+
+337
+00:08:30,199 --> 00:08:31,560
+And all we have to do to set up
+
+338
+00:08:31,560 --> 00:08:32,038
+the Trello
+
+339
+00:08:32,129 --> 00:08:33,190
+board is what we did in the very
+
+340
+00:08:33,330 --> 00:08:34,679
+beginning of this video, which is
+
+341
+00:08:34,679 --> 00:08:35,740
+to create a board from the
+
+342
+00:08:36,220 --> 00:08:36,600
+template
+
+343
+00:08:36,690 --> 00:08:38,360
+and then invite anyone you need to
+
+344
+00:08:38,360 --> 00:08:39,960
+invite to the Trello board.
+
+345
+00:08:39,960 --> 00:08:42,529
+So I'd invite like my partner,
+
+346
+00:08:42,529 --> 00:08:42,918
+Dan,
+
+347
+00:08:42,960 --> 00:08:45,169
+I'd invite my partner, Christian.
+
+348
+00:08:45,169 --> 00:08:46,610
+And then what I do is I just
+
+349
+00:08:46,629 --> 00:08:48,759
+create a link and I include that
+
+350
+00:08:48,759 --> 00:08:49,080
+in an
+
+351
+00:08:49,299 --> 00:08:50,519
+onboarding email, which we'll get
+
+352
+00:08:50,519 --> 00:08:51,409
+to in a second here.
+
+353
+00:08:51,590 --> 00:08:53,090
+So just we'll come back to the
+
+354
+00:08:53,259 --> 00:08:53,960
+actual link
+
+355
+00:08:54,000 --> 00:08:54,870
+and I'll show you where that's
+
+356
+00:08:54,870 --> 00:08:55,320
+relevant.
+
+357
+00:08:55,320 --> 00:08:56,279
+I'm not actually going to invite
+
+358
+00:08:56,289 --> 00:08:56,919
+Dan and Christian,
+
+359
+00:08:57,240 --> 00:08:58,440
+because this is just an example
+
+360
+00:08:58,440 --> 00:09:00,399
+board that I'm going to delete
+
+361
+00:09:00,399 --> 00:09:01,720
+right after this video,
+
+362
+00:09:02,039 --> 00:09:03,220
+because it's just for example
+
+363
+00:09:03,220 --> 00:09:04,759
+purposes for this program.
+
+364
+00:09:04,759 --> 00:09:07,080
+So what is involved with setting
+
+365
+00:09:07,080 --> 00:09:07,240
+up the
+
+366
+00:09:07,330 --> 00:09:08,970
+Trello board is just inviting
+
+367
+00:09:08,970 --> 00:09:10,909
+everyone that needs to be invited
+
+368
+00:09:10,909 --> 00:09:13,000
+and obviously actually setting it
+
+369
+00:09:13,019 --> 00:09:13,230
+up.
+
+370
+00:09:13,289 --> 00:09:14,919
+So I'll move that one over.
+
+371
+00:09:14,919 --> 00:09:16,200
+The next thing I want to do is set
+
+372
+00:09:16,200 --> 00:09:17,960
+up a shared Dropbox folder for the
+
+373
+00:09:18,289 --> 00:09:18,700
+clients.
+
+374
+00:09:18,700 --> 00:09:20,559
+So for us, we get on Zoom calls
+
+375
+00:09:20,559 --> 00:09:21,690
+with our clients.
+
+376
+00:09:21,909 --> 00:09:23,950
+We get on an onboarding call
+
+377
+00:09:24,049 --> 00:09:24,960
+initially,
+
+378
+00:09:25,090 --> 00:09:26,090
+which is part of this process
+
+379
+00:09:26,090 --> 00:09:26,919
+we'll talk about.
+
+380
+00:09:26,919 --> 00:09:28,720
+And there's going to be a video on
+
+381
+00:09:28,720 --> 00:09:29,399
+how to prepare
+
+382
+00:09:29,450 --> 00:09:30,549
+for the onboarding call and what
+
+383
+00:09:30,690 --> 00:09:32,450
+you should actually discuss on
+
+384
+00:09:32,450 --> 00:09:33,100
+that call.
+
+385
+00:09:33,580 --> 00:09:35,799
+But we get on an onboarding
+
+386
+00:09:35,889 --> 00:09:36,899
+call and then we also get on
+
+387
+00:09:36,899 --> 00:09:38,379
+check-in calls, which we'll talk
+
+388
+00:09:38,379 --> 00:09:39,600
+again about, I think in the next
+
+389
+00:09:39,980 --> 00:09:40,200
+module,
+
+390
+00:09:40,409 --> 00:09:41,769
+which is how to like retain and
+
+391
+00:09:41,769 --> 00:09:44,600
+just, yeah, just retain clients
+
+392
+00:09:44,600 --> 00:09:46,120
+and what you should be doing once
+
+393
+00:09:46,169 --> 00:09:47,269
+you're actually working with
+
+394
+00:09:47,409 --> 00:09:48,450
+clients for a long time.
+
+395
+00:09:48,629 --> 00:09:51,039
+So we record all of those Zoom
+
+396
+00:09:51,039 --> 00:09:51,690
+calls.
+
+397
+00:09:51,899 --> 00:09:52,519
+And since
+
+398
+00:09:52,840 --> 00:09:55,639
+Zoom calls are pretty large files,
+
+399
+00:09:55,639 --> 00:09:57,220
+we just create a Dropbox folder
+
+400
+00:09:57,220 --> 00:09:59,000
+because we have a Dropbox account
+
+401
+00:09:59,090 --> 00:10:01,620
+for our company or for our agency.
+
+402
+00:10:01,620 --> 00:10:03,629
+And we just have a folder for
+
+403
+00:10:03,629 --> 00:10:05,000
+every client.
+
+404
+00:10:05,090 --> 00:10:06,000
+And anytime we get on a
+
+405
+00:10:06,250 --> 00:10:08,070
+Zoom call, we just save the drop,
+
+406
+00:10:08,070 --> 00:10:10,100
+the Zoom recording to the client's
+
+407
+00:10:10,220 --> 00:10:11,320
+Dropbox folder.
+
+408
+00:10:11,320 --> 00:10:12,029
+So it's just nice
+
+409
+00:10:12,159 --> 00:10:13,590
+to have because obviously on the
+
+410
+00:10:13,590 --> 00:10:15,210
+onboarding call, we'll talk about
+
+411
+00:10:15,210 --> 00:10:16,360
+a lot of important stuff.
+
+412
+00:10:16,450 --> 00:10:17,799
+And then also on the check-in
+
+413
+00:10:17,799 --> 00:10:19,419
+calls, we'll talk about a lot of
+
+414
+00:10:19,419 --> 00:10:20,360
+important stuff.
+
+415
+00:10:20,679 --> 00:10:23,240
+And that will be added.
+
+416
+00:10:23,240 --> 00:10:25,509
+Once we set that up, part of that
+
+417
+00:10:25,509 --> 00:10:27,720
+setup process is linking it,
+
+418
+00:10:28,070 --> 00:10:29,690
+including a link in this card here
+
+419
+00:10:29,690 --> 00:10:30,519
+on Trello.
+
+420
+00:10:30,519 --> 00:10:31,960
+And that's important because
+
+421
+00:10:31,960 --> 00:10:34,600
+everyone from my team and
+
+422
+00:10:34,690 --> 00:10:36,220
+from the client's team is on this
+
+423
+00:10:36,220 --> 00:10:36,929
+Trello board.
+
+424
+00:10:37,110 --> 00:10:38,620
+So they could see and access all
+
+425
+00:10:38,779 --> 00:10:39,480
+the information
+
+426
+00:10:39,700 --> 00:10:40,110
+here.
+
+427
+00:10:40,110 --> 00:10:42,539
+So if I have a Dropbox folder that
+
+428
+00:10:42,539 --> 00:10:44,970
+has all the recordings, then my
+
+429
+00:10:44,970 --> 00:10:46,759
+team can access those too,
+
+430
+00:10:47,080 --> 00:10:48,129
+because I also want my team to
+
+431
+00:10:48,129 --> 00:10:49,559
+know what's going on with this
+
+432
+00:10:49,559 --> 00:10:50,480
+specific client.
+
+433
+00:10:50,679 --> 00:10:51,720
+And if we need to refer
+
+434
+00:10:51,889 --> 00:10:53,500
+back to a call where we discuss a
+
+435
+00:10:53,500 --> 00:10:55,289
+lot of important things, we can
+
+436
+00:10:55,289 --> 00:10:57,720
+easily access that Dropbox folder
+
+437
+00:10:57,809 --> 00:10:59,220
+right there in Trello at any time.
+
+438
+00:10:59,220 --> 00:11:00,570
+So that's the first, that's the
+
+439
+00:11:00,570 --> 00:11:01,240
+next thing.
+
+440
+00:11:01,240 --> 00:11:02,279
+The next thing is
+
+441
+00:11:02,610 --> 00:11:04,350
+talking about setting up Slack.
+
+442
+00:11:04,350 --> 00:11:06,009
+So the next thing we'll do is set
+
+443
+00:11:06,009 --> 00:11:07,639
+up Slack, which is where we
+
+444
+00:11:07,639 --> 00:11:08,200
+communicate
+
+445
+00:11:08,289 --> 00:11:08,909
+with the client.
+
+446
+00:11:08,909 --> 00:11:10,029
+I'm not going to open this card
+
+447
+00:11:10,029 --> 00:11:11,259
+because there's some sensitive
+
+448
+00:11:11,259 --> 00:11:12,679
+information in there.
+
+449
+00:11:12,889 --> 00:11:15,009
+And I'll also do another video on
+
+450
+00:11:15,190 --> 00:11:17,470
+how to use Slack for your agency
+
+451
+00:11:17,470 --> 00:11:18,710
+because Slack, and we're already
+
+452
+00:11:18,769 --> 00:11:19,159
+using
+
+453
+00:11:19,480 --> 00:11:21,490
+Slack right now for our program.
+
+454
+00:11:21,669 --> 00:11:23,909
+And part of the reason we're using
+
+455
+00:11:23,909 --> 00:11:26,600
+Slack is because not everyone is
+
+456
+00:11:26,929 --> 00:11:28,149
+familiar with Slack and I want to
+
+457
+00:11:28,149 --> 00:11:29,580
+just train you guys and get you
+
+458
+00:11:29,580 --> 00:11:31,480
+comfortable with using Slack
+
+459
+00:11:31,809 --> 00:11:33,200
+because it's just another one of
+
+460
+00:11:33,200 --> 00:11:34,909
+those things that's an absolute
+
+461
+00:11:34,909 --> 00:11:37,049
+must for running an agency
+
+462
+00:11:37,240 --> 00:11:37,480
+business.
+
+463
+00:11:37,700 --> 00:11:40,240
+But basically what we do, and
+
+464
+00:11:40,240 --> 00:11:42,190
+again, I'll have a more expansive
+
+465
+00:11:42,190 --> 00:11:43,470
+video explaining some of this
+
+466
+00:11:43,490 --> 00:11:43,720
+stuff,
+
+467
+00:11:43,809 --> 00:11:45,889
+but we just set up channels for
+
+468
+00:11:45,889 --> 00:11:48,230
+the client and then we'll invite
+
+469
+00:11:48,230 --> 00:11:50,360
+the client to Slack and we'll
+
+470
+00:11:50,360 --> 00:11:50,679
+include
+
+471
+00:11:50,720 --> 00:11:51,960
+a link in the onboarding form or
+
+472
+00:11:51,970 --> 00:11:53,399
+the onboarding email, which we'll
+
+473
+00:11:53,399 --> 00:11:53,879
+get to.
+
+474
+00:11:53,879 --> 00:11:55,559
+So I'm going to move this
+
+475
+00:11:55,649 --> 00:11:56,850
+over just to pretend like it's
+
+476
+00:11:56,850 --> 00:11:57,240
+done.
+
+477
+00:11:57,240 --> 00:12:00,139
+And there's multiple tasks there
+
+478
+00:12:00,139 --> 00:12:01,399
+that I have to check off
+
+479
+00:12:01,620 --> 00:12:03,070
+because there's multiple channels.
+
+480
+00:12:03,070 --> 00:12:04,379
+And then I have to basically do a
+
+481
+00:12:04,379 --> 00:12:05,559
+few other things, which again,
+
+482
+00:12:05,649 --> 00:12:07,879
+will be talked about in one of the
+
+483
+00:12:08,070 --> 00:12:10,279
+later videos.
+
+484
+00:12:10,279 --> 00:12:11,440
+But so far, let's just look at
+
+485
+00:12:11,440 --> 00:12:12,120
+what we've done.
+
+486
+00:12:12,210 --> 00:12:14,440
+So as soon as we get confirmation
+
+487
+00:12:14,440 --> 00:12:15,919
+from HelloSign or whatever signing
+
+488
+00:12:16,299 --> 00:12:18,519
+tool or e-signature tool we're
+
+489
+00:12:18,740 --> 00:12:20,490
+using that the client has signed
+
+490
+00:12:20,490 --> 00:12:22,580
+our service agreement, we went to
+
+491
+00:12:22,700 --> 00:12:24,039
+the Trello board or to the
+
+492
+00:12:24,129 --> 00:12:25,990
+Notion board or however, wherever
+
+493
+00:12:25,990 --> 00:12:27,730
+you have this set up, we created
+
+494
+00:12:27,730 --> 00:12:29,559
+something from the template and
+
+495
+00:12:29,559 --> 00:12:29,720
+we,
+
+496
+00:12:29,759 --> 00:12:31,210
+or we just created a board.
+
+497
+00:12:31,210 --> 00:12:32,899
+And basically the board tells us
+
+498
+00:12:32,899 --> 00:12:36,279
+that we, what we need to do.
+
+499
+00:12:36,279 --> 00:12:36,600
+The first
+
+500
+00:12:36,809 --> 00:12:38,029
+thing we needed to do was attach
+
+501
+00:12:38,029 --> 00:12:39,519
+the signed service agreement to
+
+502
+00:12:39,519 --> 00:12:41,230
+this card, add the contract signed
+
+503
+00:12:41,330 --> 00:12:41,620
+date.
+
+504
+00:12:41,620 --> 00:12:43,029
+The second thing we needed to do
+
+505
+00:12:43,039 --> 00:12:44,490
+was send an invoice to the client
+
+506
+00:12:44,559 --> 00:12:45,480
+through Stripe.
+
+507
+00:12:45,480 --> 00:12:46,039
+Part of that
+
+508
+00:12:46,360 --> 00:12:47,820
+process was adding them or setting
+
+509
+00:12:47,820 --> 00:12:49,169
+them up as a new customer in
+
+510
+00:12:49,169 --> 00:12:49,730
+Stripe.
+
+511
+00:12:50,220 --> 00:12:52,519
+Then we see here that the
+
+512
+00:12:52,730 --> 00:12:53,669
+client has to pay the invoice
+
+513
+00:12:53,809 --> 00:12:55,320
+before the next step can happen.
+
+514
+00:12:55,320 --> 00:12:57,799
+After that, we have a few more
+
+515
+00:12:57,799 --> 00:12:58,080
+steps
+
+516
+00:12:58,210 --> 00:12:59,610
+that we completed, which consisted
+
+517
+00:12:59,610 --> 00:13:00,919
+of setting up the Trello board.
+
+518
+00:13:00,929 --> 00:13:03,080
+Again, it's a project management
+
+519
+00:13:03,220 --> 00:13:03,399
+tool
+
+520
+00:13:03,490 --> 00:13:03,960
+that we use.
+
+521
+00:13:03,960 --> 00:13:05,580
+I think it'd be great for you to
+
+522
+00:13:05,580 --> 00:13:07,100
+use Trello because then I could
+
+523
+00:13:07,580 --> 00:13:09,080
+really, really help you.
+
+524
+00:13:09,129 --> 00:13:10,659
+And because I have experience with
+
+525
+00:13:10,659 --> 00:13:12,240
+it, hands-on experience, but if
+
+526
+00:13:12,240 --> 00:13:14,200
+it's Notion or something else,
+
+527
+00:13:14,240 --> 00:13:15,590
+it's the same framework and
+
+528
+00:13:15,590 --> 00:13:16,279
+concepts.
+
+529
+00:13:16,279 --> 00:13:17,639
+So as long as you're comfortable
+
+530
+00:13:17,639 --> 00:13:18,679
+with the tool, that's really
+
+531
+00:13:18,769 --> 00:13:19,830
+all that matters.
+
+532
+00:13:19,970 --> 00:13:21,879
+So we set up the Trello board and
+
+533
+00:13:21,879 --> 00:13:23,309
+really all that was, was creating
+
+534
+00:13:23,320 --> 00:13:23,879
+a
+
+535
+00:13:23,919 --> 00:13:25,909
+a board from the template and then
+
+536
+00:13:25,909 --> 00:13:27,679
+also inviting everyone that needs
+
+537
+00:13:28,059 --> 00:13:30,360
+to be on the board to be on
+
+538
+00:13:30,450 --> 00:13:30,779
+here.
+
+539
+00:13:30,779 --> 00:13:32,580
+So they all have access, including
+
+540
+00:13:32,580 --> 00:13:34,049
+the client, obviously.
+
+541
+00:13:34,070 --> 00:13:36,389
+We set up a shared Dropbox folder
+
+542
+00:13:36,450 --> 00:13:37,080
+so that
+
+543
+00:13:37,129 --> 00:13:38,539
+we can have a place to store
+
+544
+00:13:38,549 --> 00:13:40,600
+specific files that we're going to
+
+545
+00:13:40,600 --> 00:13:42,840
+want everyone involved in the
+
+546
+00:13:42,860 --> 00:13:43,240
+project
+
+547
+00:13:43,279 --> 00:13:44,629
+to have access to at any time
+
+548
+00:13:44,629 --> 00:13:46,000
+throughout the working
+
+549
+00:13:46,000 --> 00:13:46,940
+relationship.
+
+550
+00:13:46,940 --> 00:13:48,679
+And also added that to the card
+
+551
+00:13:48,679 --> 00:13:48,809
+here
+
+552
+00:13:48,929 --> 00:13:49,649
+here on Trello.
+
+553
+00:13:49,720 --> 00:13:50,909
+And then we set up the Slack
+
+554
+00:13:50,909 --> 00:13:52,529
+channels and invited the client to
+
+555
+00:13:52,529 --> 00:13:53,320
+Slack so that
+
+556
+00:13:53,409 --> 00:13:54,289
+there's a workspace to
+
+557
+00:13:54,289 --> 00:13:55,080
+communicate.
+
+558
+00:13:55,080 --> 00:13:57,039
+So the two most important tools
+
+559
+00:13:57,500 --> 00:14:00,519
+for our agency, at least with
+
+560
+00:14:00,850 --> 00:14:02,679
+onboarding clients and managing
+
+561
+00:14:02,679 --> 00:14:04,830
+clients is Trello because Trello
+
+562
+00:14:04,830 --> 00:14:06,679
+is basically like our project
+
+563
+00:14:07,049 --> 00:14:07,769
+management dot.
+
+564
+00:14:07,769 --> 00:14:08,909
+It's a dashboard.
+
+565
+00:14:08,909 --> 00:14:10,730
+It has all the information we'll
+
+566
+00:14:10,860 --> 00:14:14,120
+ever need to have to answer all
+
+567
+00:14:14,169 --> 00:14:15,490
+the questions that will come up
+
+568
+00:14:15,490 --> 00:14:17,080
+about how our campaign is going.
+
+569
+00:14:17,080 --> 00:14:18,039
+Where can I find this?
+
+570
+00:14:18,279 --> 00:14:18,519
+Where can I
+
+571
+00:14:18,730 --> 00:14:19,330
+find that?
+
+572
+00:14:19,399 --> 00:14:21,129
+It's like a storage unit.
+
+573
+00:14:21,129 --> 00:14:23,340
+Um, but also like, uh, it covers
+
+574
+00:14:23,340 --> 00:14:24,200
+everything because there's
+
+575
+00:14:24,289 --> 00:14:25,570
+also a to-do list to see like the
+
+576
+00:14:25,570 --> 00:14:27,129
+progress and what we're currently
+
+577
+00:14:27,129 --> 00:14:27,879
+working on.
+
+578
+00:14:27,879 --> 00:14:29,080
+So it, oh my God,
+
+579
+00:14:29,169 --> 00:14:30,779
+you'll be, if you've set up
+
+580
+00:14:30,779 --> 00:14:32,509
+something like this or even
+
+581
+00:14:32,509 --> 00:14:34,519
+remotely close to it, especially
+
+582
+00:14:34,519 --> 00:14:35,000
+in the early
+
+583
+00:14:35,220 --> 00:14:37,330
+days, it'll pay off immensely
+
+584
+00:14:37,509 --> 00:14:39,529
+because people are so, so
+
+585
+00:14:39,529 --> 00:14:41,509
+impressed about our onboarding
+
+586
+00:14:41,509 --> 00:14:42,000
+process.
+
+587
+00:14:42,330 --> 00:14:43,779
+Again, it's like something we get
+
+588
+00:14:43,779 --> 00:14:45,559
+complimented about all the time.
+
+589
+00:14:45,559 --> 00:14:46,840
+And the onboarding process is
+
+590
+00:14:47,190 --> 00:14:48,830
+everything from having a very
+
+591
+00:14:48,830 --> 00:14:50,539
+professional and attractive
+
+592
+00:14:51,019 --> 00:14:52,919
+looking signed service agreement.
+
+593
+00:14:53,139 --> 00:14:55,250
+And it's also all the way to
+
+594
+00:14:55,429 --> 00:14:58,480
+having, uh, an professional
+
+595
+00:14:58,480 --> 00:15:01,000
+onboarding email being quick to
+
+596
+00:15:01,320 --> 00:15:02,149
+actually onboard them.
+
+597
+00:15:02,289 --> 00:15:03,710
+Once you get confirmation that the
+
+598
+00:15:03,710 --> 00:15:05,679
+client signed, there's so much
+
+599
+00:15:05,679 --> 00:15:06,440
+involved
+
+600
+00:15:06,480 --> 00:15:07,779
+in making a first impression in
+
+601
+00:15:07,779 --> 00:15:08,950
+the onboarding process.
+
+602
+00:15:08,950 --> 00:15:10,139
+And it's everything that we're
+
+603
+00:15:10,620 --> 00:15:10,759
+discussing
+
+604
+00:15:10,980 --> 00:15:12,330
+here in this module.
+
+605
+00:15:12,330 --> 00:15:14,019
+So every piece is part of a
+
+606
+00:15:14,080 --> 00:15:16,330
+greater puzzle that we have to put
+
+607
+00:15:16,539 --> 00:15:17,159
+together fully
+
+608
+00:15:17,200 --> 00:15:18,539
+to, to really experience the true
+
+609
+00:15:18,539 --> 00:15:19,240
+benefits of.
+
+610
+00:15:19,240 --> 00:15:22,480
+So anyways, that's where we're
+
+611
+00:15:22,480 --> 00:15:23,139
+currently at.
+
+612
+00:15:23,250 --> 00:15:24,039
+Um,
+
+613
+00:15:24,259 --> 00:15:25,820
+these next two items for us are
+
+614
+00:15:25,820 --> 00:15:27,620
+getting very specific to some
+
+615
+00:15:27,620 --> 00:15:29,559
+internal processes that we have
+
+616
+00:15:29,600 --> 00:15:30,360
+at our agency.
+
+617
+00:15:30,360 --> 00:15:32,820
+So to be honest, like it won't
+
+618
+00:15:32,879 --> 00:15:34,820
+really make much sense to you, but
+
+619
+00:15:34,820 --> 00:15:35,720
+basically we have a
+
+620
+00:15:35,809 --> 00:15:36,389
+scoreboard.
+
+621
+00:15:36,389 --> 00:15:37,779
+Uh, so we could keep track of all
+
+622
+00:15:37,779 --> 00:15:39,299
+the results we're getting for each
+
+623
+00:15:39,299 --> 00:15:39,870
+client.
+
+624
+00:15:39,899 --> 00:15:40,519
+And we also
+
+625
+00:15:40,610 --> 00:15:42,490
+have like an invoice tracker sheet
+
+626
+00:15:42,490 --> 00:15:44,159
+so we can keep track of how much
+
+627
+00:15:44,159 --> 00:15:45,799
+to invoice the clients.
+
+628
+00:15:45,889 --> 00:15:48,330
+Um, so we want to add a new row
+
+629
+00:15:48,330 --> 00:15:50,970
+and a new tab to both of those,
+
+630
+00:15:50,970 --> 00:15:52,049
+uh, documents.
+
+631
+00:15:52,179 --> 00:15:53,080
+Once we sign a new
+
+632
+00:15:53,429 --> 00:15:55,639
+client, um, we also have inbox
+
+633
+00:15:55,639 --> 00:15:58,269
+managers that we hire, uh, and
+
+634
+00:15:58,269 --> 00:16:00,919
+inbox managers are also using,
+
+635
+00:16:01,009 --> 00:16:02,850
+like we have a KPI sheet for them.
+
+636
+00:16:02,850 --> 00:16:04,169
+And we also have a Trello
+
+637
+00:16:04,169 --> 00:16:05,879
+dashboard specifically for our
+
+638
+00:16:06,029 --> 00:16:06,360
+inbox
+
+639
+00:16:06,690 --> 00:16:07,320
+manager team.
+
+640
+00:16:07,320 --> 00:16:09,259
+Um, so basically when we get a new
+
+641
+00:16:09,259 --> 00:16:11,029
+client, that new client has to
+
+642
+00:16:11,039 --> 00:16:12,350
+have an inbox manager
+
+643
+00:16:12,730 --> 00:16:14,500
+dedicated to their campaigns.
+
+644
+00:16:14,500 --> 00:16:16,730
+And that step basically reminds us
+
+645
+00:16:16,730 --> 00:16:18,360
+to assign an inbox manager
+
+646
+00:16:18,399 --> 00:16:19,990
+to this new client and then also
+
+647
+00:16:19,990 --> 00:16:21,740
+follow through with what needs to
+
+648
+00:16:21,740 --> 00:16:22,679
+be done there.
+
+649
+00:16:22,679 --> 00:16:24,350
+Um, and then the,
+
+650
+00:16:24,450 --> 00:16:25,899
+the next step is to send the
+
+651
+00:16:25,899 --> 00:16:27,159
+onboarding email.
+
+652
+00:16:27,159 --> 00:16:28,700
+So the onboarding email is
+
+653
+00:16:28,700 --> 00:16:31,559
+basically it's recapping
+
+654
+00:16:31,929 --> 00:16:33,159
+everything you just did and
+
+655
+00:16:33,159 --> 00:16:35,169
+outlining what you need the client
+
+656
+00:16:35,169 --> 00:16:37,720
+to do now that all this stuff that
+
+657
+00:16:37,720 --> 00:16:37,809
+you
+
+658
+00:16:37,970 --> 00:16:38,960
+did is done.
+
+659
+00:16:38,960 --> 00:16:41,389
+So one thing I'll grab real quick
+
+660
+00:16:41,389 --> 00:16:43,450
+is just, uh, I'll create the link
+
+661
+00:16:43,580 --> 00:16:44,759
+so that I can invite
+
+662
+00:16:44,809 --> 00:16:45,909
+the client here and I'm going to
+
+663
+00:16:46,049 --> 00:16:47,090
+open the onboarding email.
+
+664
+00:16:47,259 --> 00:16:48,460
+So before I open and show you our
+
+665
+00:16:48,529 --> 00:16:49,000
+onboarding
+
+666
+00:16:49,320 --> 00:16:51,259
+email, what I would say is just to
+
+667
+00:16:51,259 --> 00:16:53,509
+not, please don't copy this word
+
+668
+00:16:53,509 --> 00:16:54,440
+for word.
+
+669
+00:16:54,440 --> 00:16:56,519
+Um, like with anything
+
+670
+00:16:56,730 --> 00:16:58,590
+here, like there's no value or use
+
+671
+00:16:58,590 --> 00:17:00,490
+to copy things exactly how they're
+
+672
+00:17:00,700 --> 00:17:02,360
+laid out for our agency because
+
+673
+00:17:02,580 --> 00:17:04,390
+every agency and every business is
+
+674
+00:17:04,390 --> 00:17:05,220
+different.
+
+675
+00:17:05,230 --> 00:17:07,160
+And if you start to copy things,
+
+676
+00:17:07,160 --> 00:17:07,940
+your business is not
+
+677
+00:17:08,130 --> 00:17:09,019
+going to be unique and it's not
+
+678
+00:17:09,059 --> 00:17:10,009
+going to be sustainable.
+
+679
+00:17:10,009 --> 00:17:11,240
+That's the most important thing
+
+680
+00:17:11,289 --> 00:17:13,279
+is to have a sustainable business
+
+681
+00:17:13,279 --> 00:17:15,250
+or have a sustainable agency.
+
+682
+00:17:15,420 --> 00:17:17,230
+You have to understand the
+
+683
+00:17:17,670 --> 00:17:18,970
+frameworks and the reasonings
+
+684
+00:17:18,970 --> 00:17:20,680
+behind why we're actually doing
+
+685
+00:17:20,680 --> 00:17:21,720
+all this stuff.
+
+686
+00:17:21,720 --> 00:17:22,279
+So if you're just
+
+687
+00:17:22,680 --> 00:17:24,009
+copying everything mindlessly,
+
+688
+00:17:24,009 --> 00:17:25,380
+you're not actually going to
+
+689
+00:17:25,380 --> 00:17:26,759
+understand things and they're
+
+690
+00:17:26,759 --> 00:17:27,318
+going to break
+
+691
+00:17:27,450 --> 00:17:29,359
+or they're going to crumble with
+
+692
+00:17:29,359 --> 00:17:31,200
+your business as time goes on.
+
+693
+00:17:31,569 --> 00:17:32,970
+So we want you to have a
+
+694
+00:17:33,180 --> 00:17:33,880
+sustainable
+
+695
+00:17:34,250 --> 00:17:35,940
+business and skill sets and a
+
+696
+00:17:35,940 --> 00:17:38,359
+foundation that you can build off
+
+697
+00:17:38,359 --> 00:17:40,599
+of for the rest of your life.
+
+698
+00:17:40,599 --> 00:17:41,079
+Like
+
+699
+00:17:41,170 --> 00:17:42,170
+past just this agency.
+
+700
+00:17:42,170 --> 00:17:42,529
+Sure.
+
+701
+00:17:42,529 --> 00:17:43,930
+Like you have a goal to scale your
+
+702
+00:17:43,940 --> 00:17:45,230
+agency in the short term.
+
+703
+00:17:45,259 --> 00:17:46,039
+That's awesome.
+
+704
+00:17:46,130 --> 00:17:47,359
+But these skills and these
+
+705
+00:17:47,359 --> 00:17:49,160
+practices that we're teaching you
+
+706
+00:17:49,160 --> 00:17:50,759
+are going to be the foundation to
+
+707
+00:17:50,759 --> 00:17:51,400
+so much more
+
+708
+00:17:51,730 --> 00:17:53,039
+success as life goes on.
+
+709
+00:17:53,039 --> 00:17:55,049
+And that only happens if you go in
+
+710
+00:17:55,049 --> 00:17:56,759
+with the mindset that I just
+
+711
+00:17:56,759 --> 00:17:57,650
+explained.
+
+712
+00:17:57,759 --> 00:17:58,869
+So anyways, in this card in
+
+713
+00:17:59,009 --> 00:18:01,049
+Trello, another reason why Trello
+
+714
+00:18:01,059 --> 00:18:02,380
+is so great is because we could
+
+715
+00:18:02,380 --> 00:18:02,599
+have
+
+716
+00:18:02,950 --> 00:18:04,839
+information like this stored.
+
+717
+00:18:04,839 --> 00:18:06,400
+So here in the description of this
+
+718
+00:18:06,779 --> 00:18:08,170
+card is our onboarding email.
+
+719
+00:18:08,289 --> 00:18:10,240
+So the first thing I do is that
+
+720
+00:18:10,240 --> 00:18:11,400
+Trello card.
+
+721
+00:18:11,400 --> 00:18:13,089
+I'm just going to add it here.
+
+722
+00:18:13,089 --> 00:18:13,779
+So we have it and then
+
+723
+00:18:13,920 --> 00:18:15,170
+I'll explain basically what you're
+
+724
+00:18:15,170 --> 00:18:15,720
+looking at.
+
+725
+00:18:15,720 --> 00:18:17,569
+So this first line here is our
+
+726
+00:18:18,059 --> 00:18:18,759
+subject line.
+
+727
+00:18:18,759 --> 00:18:19,079
+So I'll
+
+728
+00:18:19,170 --> 00:18:20,509
+say client company name x
+
+729
+00:18:20,509 --> 00:18:22,329
+knowledge x basically the same
+
+730
+00:18:22,400 --> 00:18:23,819
+naming convention we use for the
+
+731
+00:18:23,819 --> 00:18:24,650
+Trello board
+
+732
+00:18:24,849 --> 00:18:26,440
+and then with a dash that says
+
+733
+00:18:26,440 --> 00:18:27,289
+next steps.
+
+734
+00:18:27,289 --> 00:18:29,509
+And then here's the actual body of
+
+735
+00:18:29,509 --> 00:18:30,990
+the email says hey
+
+736
+00:18:31,049 --> 00:18:32,359
+and then their client name.
+
+737
+00:18:32,359 --> 00:18:33,109
+My name is Andre.
+
+738
+00:18:33,109 --> 00:18:34,400
+I'm one of the co-founders here at
+
+739
+00:18:34,400 --> 00:18:35,319
+knowledge x because
+
+740
+00:18:35,410 --> 00:18:37,130
+they haven't talked to me yet.
+
+741
+00:18:37,130 --> 00:18:39,000
+At least for my agents, the way my
+
+742
+00:18:39,000 --> 00:18:40,599
+agency works, I have not
+
+743
+00:18:40,599 --> 00:18:40,890
+interacted
+
+744
+00:18:41,170 --> 00:18:42,839
+with this person at all because
+
+745
+00:18:42,839 --> 00:18:44,730
+Dan is actually in charge of sales
+
+746
+00:18:44,730 --> 00:18:46,279
+and he's the one getting on sales
+
+747
+00:18:46,279 --> 00:18:46,519
+calls
+
+748
+00:18:46,609 --> 00:18:48,089
+and having those conversations
+
+749
+00:18:48,089 --> 00:18:49,480
+with prospects, right?
+
+750
+00:18:49,480 --> 00:18:51,799
+So I'm introducing myself because
+
+751
+00:18:51,799 --> 00:18:51,880
+they
+
+752
+00:18:51,930 --> 00:18:53,240
+don't even know who I am yet.
+
+753
+00:18:53,240 --> 00:18:54,869
+And then basically, I just premise
+
+754
+00:18:54,869 --> 00:18:56,119
+it with hey, I just wanted to
+
+755
+00:18:56,119 --> 00:18:56,359
+share
+
+756
+00:18:56,569 --> 00:18:58,230
+some tasks for you to work on as
+
+757
+00:18:58,230 --> 00:19:00,049
+we were as we get you fully as we
+
+758
+00:19:00,099 --> 00:19:03,000
+get you fully onboarded, right?
+
+759
+00:19:03,039 --> 00:19:04,529
+So the whole premise of this email
+
+760
+00:19:04,529 --> 00:19:06,059
+is what are the next steps because
+
+761
+00:19:06,059 --> 00:19:07,720
+once they sign a contract,
+
+762
+00:19:07,759 --> 00:19:09,410
+it's they're probably going to be
+
+763
+00:19:09,410 --> 00:19:10,920
+like, all right, what's next?
+
+764
+00:19:10,920 --> 00:19:12,680
+Do I just wait to hear from them?
+
+765
+00:19:12,900 --> 00:19:14,200
+When do campaign?
+
+766
+00:19:14,200 --> 00:19:15,890
+There's all these questions that
+
+767
+00:19:15,890 --> 00:19:17,490
+are going to come up and at the
+
+768
+00:19:17,490 --> 00:19:18,039
+same time,
+
+769
+00:19:18,250 --> 00:19:18,839
+doubts, right?
+
+770
+00:19:18,839 --> 00:19:19,880
+They're going to doubt like was
+
+771
+00:19:19,880 --> 00:19:21,079
+that actually a good decision?
+
+772
+00:19:21,079 --> 00:19:21,769
+Should I have signed that
+
+773
+00:19:22,289 --> 00:19:22,690
+contract?
+
+774
+00:19:22,690 --> 00:19:24,140
+Is this going to pay off?
+
+775
+00:19:24,140 --> 00:19:24,670
+Right?
+
+776
+00:19:24,670 --> 00:19:26,309
+So that's why this onboarding
+
+777
+00:19:26,309 --> 00:19:27,880
+process is so important to keep
+
+778
+00:19:27,920 --> 00:19:29,420
+it rigid and professional and
+
+779
+00:19:29,420 --> 00:19:32,049
+systemized because you're going to
+
+780
+00:19:32,059 --> 00:19:33,799
+get rid of that doubt and you're
+
+781
+00:19:34,009 --> 00:19:35,240
+going to build trust and it's
+
+782
+00:19:35,240 --> 00:19:36,500
+going to result in client
+
+783
+00:19:36,500 --> 00:19:38,359
+relationships that last a lifetime
+
+784
+00:19:39,079 --> 00:19:39,799
+if you do this correctly.
+
+785
+00:19:39,799 --> 00:19:41,410
+So anyways, the premise of this
+
+786
+00:19:41,589 --> 00:19:42,809
+email again is to outline next
+
+787
+00:19:43,259 --> 00:19:43,640
+steps for
+
+788
+00:19:43,849 --> 00:19:44,789
+them to work on.
+
+789
+00:19:44,789 --> 00:19:46,329
+And then I added this.
+
+790
+00:19:46,329 --> 00:19:48,569
+This was like a modification since
+
+791
+00:19:48,569 --> 00:19:50,119
+we started collecting
+
+792
+00:19:50,450 --> 00:19:52,069
+onboarding fees and setup fees.
+
+793
+00:19:52,069 --> 00:19:53,799
+So just to kind of expand on what
+
+794
+00:19:53,799 --> 00:19:55,690
+we discussed in the last video,
+
+795
+00:19:55,759 --> 00:19:57,180
+I add this note in our email
+
+796
+00:19:57,180 --> 00:19:58,910
+before going into what needs to
+
+797
+00:19:58,910 --> 00:19:59,779
+happen next.
+
+798
+00:19:59,839 --> 00:20:01,160
+I say important note,
+
+799
+00:20:01,160 --> 00:20:01,160
+we're not able to begin working on
+
+800
+00:20:01,160 --> 00:20:01,160
+this project until you receive
+
+801
+00:20:01,160 --> 00:20:01,160
+payment for the onboarding
+
+802
+00:20:01,160 --> 00:20:05,789
+invoice.
+
+803
+00:20:06,650 --> 00:20:07,950
+The invoice was sent to you via
+
+804
+00:20:07,950 --> 00:20:09,480
+Stripe to your email address.
+
+805
+00:20:09,480 --> 00:20:10,920
+If you're experiencing issues when
+
+806
+00:20:11,130 --> 00:20:12,329
+trying to pay the invoice, please
+
+807
+00:20:12,329 --> 00:20:13,720
+don't hesitate to contact us.
+
+808
+00:20:13,720 --> 00:20:14,839
+So it's basically saying, Hey,
+
+809
+00:20:14,890 --> 00:20:17,140
+we signed on, we did all this work
+
+810
+00:20:17,140 --> 00:20:19,029
+up to this point, but we can't do
+
+811
+00:20:19,039 --> 00:20:20,410
+anything else until that gets
+
+812
+00:20:20,619 --> 00:20:21,240
+paid.
+
+813
+00:20:21,329 --> 00:20:23,000
+And it was already sent to you.
+
+814
+00:20:23,000 --> 00:20:24,470
+If you have any issues trying to
+
+815
+00:20:24,470 --> 00:20:25,400
+find it or pay for it,
+
+816
+00:20:25,490 --> 00:20:27,140
+let us know we're here to help.
+
+817
+00:20:27,140 --> 00:20:28,519
+And that's really it.
+
+818
+00:20:28,519 --> 00:20:29,319
+So we're setting that,
+
+819
+00:20:29,529 --> 00:20:31,400
+uh, we're setting that expectation
+
+820
+00:20:31,400 --> 00:20:33,000
+that nothing's going to move
+
+821
+00:20:33,000 --> 00:20:34,680
+forward until the invoice is paid,
+
+822
+00:20:34,769 --> 00:20:35,829
+which is super important because
+
+823
+00:20:35,970 --> 00:20:37,670
+even when we're, so the reason we
+
+824
+00:20:37,670 --> 00:20:39,319
+added this modification
+
+825
+00:20:39,359 --> 00:20:40,880
+is because even when we started
+
+826
+00:20:40,880 --> 00:20:42,660
+charging setup fees, they wouldn't
+
+827
+00:20:42,660 --> 00:20:43,000
+be paid
+
+828
+00:20:43,089 --> 00:20:45,319
+as quickly as we would have liked
+
+829
+00:20:45,509 --> 00:20:46,359
+them to.
+
+830
+00:20:46,359 --> 00:20:47,789
+And we even ran into a scenario
+
+831
+00:20:47,789 --> 00:20:49,039
+where we signed a client
+
+832
+00:20:49,170 --> 00:20:50,769
+and we started doing all the work
+
+833
+00:20:50,769 --> 00:20:52,200
+because we're excited.
+
+834
+00:20:52,200 --> 00:20:53,380
+Anytime we sign a client, we're
+
+835
+00:20:53,380 --> 00:20:53,720
+excited.
+
+836
+00:20:53,809 --> 00:20:55,109
+Like we want to be on top of
+
+837
+00:20:55,109 --> 00:20:57,079
+things and we want to impress them
+
+838
+00:20:57,079 --> 00:20:58,039
+and build trust by
+
+839
+00:20:59,009 --> 00:21:00,500
+getting all this stuff done for
+
+840
+00:21:00,500 --> 00:21:02,119
+them as soon as possible.
+
+841
+00:21:02,119 --> 00:21:03,400
+Like a lot of agencies,
+
+842
+00:21:03,619 --> 00:21:05,720
+this is actually important to
+
+843
+00:21:05,730 --> 00:21:07,549
+mention our agency.
+
+844
+00:21:07,579 --> 00:21:10,680
+Um, we onboard, like as soon as a
+
+845
+00:21:10,680 --> 00:21:11,319
+client signs,
+
+846
+00:21:11,359 --> 00:21:12,460
+we could get their campaigns
+
+847
+00:21:12,460 --> 00:21:13,650
+launched within seven days.
+
+848
+00:21:13,829 --> 00:21:15,640
+And a lot of our competitors take
+
+849
+00:21:15,640 --> 00:21:17,309
+14 to 30 days
+
+850
+00:21:17,359 --> 00:21:18,470
+to launch campaigns.
+
+851
+00:21:18,609 --> 00:21:20,420
+So like right there, that's an
+
+852
+00:21:20,420 --> 00:21:23,480
+instant, um, selling point for us
+
+853
+00:21:23,480 --> 00:21:23,640
+is,
+
+854
+00:21:23,680 --> 00:21:24,789
+hey, like we're going to be really
+
+855
+00:21:24,930 --> 00:21:25,480
+quick to launch.
+
+856
+00:21:25,480 --> 00:21:26,490
+We're going to, as soon as you
+
+857
+00:21:26,490 --> 00:21:26,839
+sign,
+
+858
+00:21:26,880 --> 00:21:27,809
+we're going to hit the ground
+
+859
+00:21:27,809 --> 00:21:28,279
+running.
+
+860
+00:21:28,279 --> 00:21:29,950
+We have a very rigid process and
+
+861
+00:21:29,950 --> 00:21:30,900
+place to follow.
+
+862
+00:21:31,009 --> 00:21:32,509
+And we're going to get campaigns
+
+863
+00:21:32,509 --> 00:21:34,180
+launched within a week, which is
+
+864
+00:21:34,240 --> 00:21:36,490
+way quicker and sooner than any
+
+865
+00:21:36,690 --> 00:21:37,900
+other agency would be able to do
+
+866
+00:21:37,900 --> 00:21:39,099
+that, uh, that you might be
+
+867
+00:21:39,109 --> 00:21:40,299
+considering working with.
+
+868
+00:21:40,299 --> 00:21:41,319
+And it's true.
+
+869
+00:21:41,369 --> 00:21:42,910
+And again, it's one of the biggest
+
+870
+00:21:42,910 --> 00:21:44,289
+reasons why we have such great
+
+871
+00:21:44,289 --> 00:21:45,799
+success retaining clients and
+
+872
+00:21:46,130 --> 00:21:47,269
+building trust with clients and
+
+873
+00:21:47,269 --> 00:21:48,809
+having great relationships with
+
+874
+00:21:48,809 --> 00:21:49,960
+clients right off the bat.
+
+875
+00:21:50,000 --> 00:21:51,640
+It's because we're, we're doing
+
+876
+00:21:51,640 --> 00:21:52,920
+our work very quickly.
+
+877
+00:21:52,920 --> 00:21:54,119
+And it's because we have these
+
+878
+00:21:54,140 --> 00:21:54,759
+processes
+
+879
+00:21:54,809 --> 00:21:55,730
+set up in order for that to
+
+880
+00:21:55,730 --> 00:21:56,160
+happen.
+
+881
+00:21:56,160 --> 00:21:57,720
+But anyways, back to the, to the
+
+882
+00:21:57,720 --> 00:21:58,359
+email.
+
+883
+00:21:58,359 --> 00:21:59,960
+Um, yeah, we, oh,
+
+884
+00:22:00,009 --> 00:22:00,200
+okay.
+
+885
+00:22:00,279 --> 00:22:01,789
+We had a client that signed and we
+
+886
+00:22:01,789 --> 00:22:03,559
+did all the work super quick up
+
+887
+00:22:03,559 --> 00:22:04,359
+front because we were
+
+888
+00:22:04,690 --> 00:22:05,940
+excited and they ended up not
+
+889
+00:22:05,940 --> 00:22:08,019
+paying the invoice and like a week
+
+890
+00:22:08,019 --> 00:22:09,640
+or two went on and we just didn't
+
+891
+00:22:09,730 --> 00:22:10,349
+hear from them.
+
+892
+00:22:10,349 --> 00:22:11,579
+They didn't pay the invoice and
+
+893
+00:22:11,579 --> 00:22:12,890
+that we literally just never heard
+
+894
+00:22:12,960 --> 00:22:13,609
+back from this
+
+895
+00:22:13,859 --> 00:22:14,180
+person.
+
+896
+00:22:14,180 --> 00:22:15,799
+So they literally entered into a
+
+897
+00:22:15,799 --> 00:22:16,819
+legal agreement.
+
+898
+00:22:16,819 --> 00:22:19,000
+They signed the service agreement,
+
+899
+00:22:19,210 --> 00:22:21,640
+but just after that ghosted us.
+
+900
+00:22:21,640 --> 00:22:24,380
+So that's why it's important to
+
+901
+00:22:24,380 --> 00:22:26,000
+say like you're charging an
+
+902
+00:22:26,259 --> 00:22:27,460
+onboarding fee and a setup fee to
+
+903
+00:22:27,460 --> 00:22:28,890
+get compensated for all the work
+
+904
+00:22:28,890 --> 00:22:30,440
+that you're going to be doing
+
+905
+00:22:30,650 --> 00:22:32,119
+before campaigns are even started.
+
+906
+00:22:32,119 --> 00:22:33,690
+And in, you know, the 90 days that
+
+907
+00:22:33,759 --> 00:22:34,759
+you're going to be working
+
+908
+00:22:34,809 --> 00:22:37,009
+on this relationship or 30 days or
+
+909
+00:22:37,009 --> 00:22:38,779
+whatever you decided on in the
+
+910
+00:22:38,940 --> 00:22:39,480
+last video,
+
+911
+00:22:40,200 --> 00:22:41,640
+so just make sure you collect that
+
+912
+00:22:41,650 --> 00:22:42,430
+payment.
+
+913
+00:22:42,430 --> 00:22:44,579
+Um, and it's a very fair standard
+
+914
+00:22:44,579 --> 00:22:45,170
+to set.
+
+915
+00:22:45,299 --> 00:22:45,640
+Like
+
+916
+00:22:45,680 --> 00:22:47,039
+we've never had anyone say, oh, we
+
+917
+00:22:47,039 --> 00:22:47,650
+work on this.
+
+918
+00:22:47,650 --> 00:22:48,430
+I'll pay it later.
+
+919
+00:22:48,440 --> 00:22:49,960
+Like no one would ever say that.
+
+920
+00:22:50,049 --> 00:22:51,630
+Like it's a very fair standard to
+
+921
+00:22:51,630 --> 00:22:52,009
+set.
+
+922
+00:22:52,009 --> 00:22:53,650
+Uh, just be sure to be clear about
+
+923
+00:22:53,720 --> 00:22:55,319
+it and set that standard.
+
+924
+00:22:55,369 --> 00:22:57,210
+So that's the important note.
+
+925
+00:22:57,210 --> 00:22:59,019
+Um, and then we go right into the
+
+926
+00:22:59,019 --> 00:23:00,890
+task for them to get started.
+
+927
+00:23:01,019 --> 00:23:01,549
+So this is
+
+928
+00:23:01,769 --> 00:23:03,029
+also super important.
+
+929
+00:23:03,029 --> 00:23:04,230
+Like psychology.
+
+930
+00:23:04,230 --> 00:23:06,039
+If you keep your client busy,
+
+931
+00:23:06,039 --> 00:23:07,269
+you're setting a great.
+
+932
+00:23:07,339 --> 00:23:07,549
+So
+
+933
+00:23:07,650 --> 00:23:09,500
+you want to engage the client.
+
+934
+00:23:09,500 --> 00:23:11,359
+You want to involve the client as
+
+935
+00:23:11,720 --> 00:23:13,119
+much as possible in the working
+
+936
+00:23:13,509 --> 00:23:14,119
+relationship.
+
+937
+00:23:14,119 --> 00:23:15,400
+Obviously they hired you to save
+
+938
+00:23:15,400 --> 00:23:15,950
+them time.
+
+939
+00:23:15,960 --> 00:23:17,480
+And so that a lot of this can be
+
+940
+00:23:17,480 --> 00:23:17,720
+done
+
+941
+00:23:18,049 --> 00:23:19,200
+without their input.
+
+942
+00:23:19,200 --> 00:23:21,279
+But at the same time, in order for
+
+943
+00:23:21,279 --> 00:23:22,839
+you to have a successful
+
+944
+00:23:22,839 --> 00:23:23,289
+relationship
+
+945
+00:23:23,490 --> 00:23:24,900
+with the client, they have to feel
+
+946
+00:23:24,900 --> 00:23:26,039
+like they're involved.
+
+947
+00:23:26,039 --> 00:23:27,319
+They have to feel like they're
+
+948
+00:23:27,579 --> 00:23:27,960
+playing a
+
+949
+00:23:28,170 --> 00:23:29,480
+role in the process.
+
+950
+00:23:29,480 --> 00:23:31,559
+And the way we can do that is just
+
+951
+00:23:31,559 --> 00:23:33,529
+by giving them actual work to do
+
+952
+00:23:33,660 --> 00:23:33,990
+and actual
+
+953
+00:23:34,130 --> 00:23:35,599
+work that we can use and benefit
+
+954
+00:23:35,599 --> 00:23:36,019
+from.
+
+955
+00:23:36,019 --> 00:23:37,289
+So we could get them better
+
+956
+00:23:37,359 --> 00:23:40,289
+results and just make everything
+
+957
+00:23:40,690 --> 00:23:42,339
+better is, is really the way to
+
+958
+00:23:42,339 --> 00:23:42,950
+say it.
+
+959
+00:23:42,950 --> 00:23:45,079
+So we want to involve the clients
+
+960
+00:23:45,079 --> 00:23:47,640
+day one of the working
+
+961
+00:23:47,990 --> 00:23:48,339
+relationship.
+
+962
+00:23:48,339 --> 00:23:49,509
+As soon as they sign, we want to
+
+963
+00:23:49,509 --> 00:23:50,890
+start giving them homework, just
+
+964
+00:23:50,890 --> 00:23:51,359
+like we're doing
+
+965
+00:23:51,650 --> 00:23:52,710
+with you here in this program.
+
+966
+00:23:52,849 --> 00:23:54,039
+Like as soon as you signed on,
+
+967
+00:23:54,069 --> 00:23:55,240
+we're giving you homework.
+
+968
+00:23:55,279 --> 00:23:56,180
+You got to get on these calls.
+
+969
+00:23:56,180 --> 00:23:57,240
+You got to watch these videos.
+
+970
+00:23:57,240 --> 00:23:58,759
+Like we're giving you tasks
+
+971
+00:23:58,849 --> 00:24:00,440
+that we need you to accomplish.
+
+972
+00:24:00,440 --> 00:24:01,880
+And that's what you want to do
+
+973
+00:24:01,880 --> 00:24:02,910
+with your clients.
+
+974
+00:24:02,940 --> 00:24:03,559
+Now that they signed
+
+975
+00:24:03,609 --> 00:24:05,240
+on and agreed to work with you,
+
+976
+00:24:05,240 --> 00:24:06,799
+here's what they need to do to
+
+977
+00:24:06,799 --> 00:24:08,680
+make this a smashing success.
+
+978
+00:24:08,680 --> 00:24:08,839
+And
+
+979
+00:24:09,170 --> 00:24:10,470
+obviously it has to be reasonable.
+
+980
+00:24:10,470 --> 00:24:11,769
+And we'll explain why each of
+
+981
+00:24:11,769 --> 00:24:13,079
+these is reasonable and why you
+
+982
+00:24:13,079 --> 00:24:13,319
+should
+
+983
+00:24:13,410 --> 00:24:14,869
+have something similar with your
+
+984
+00:24:14,869 --> 00:24:15,359
+agency.
+
+985
+00:24:15,359 --> 00:24:17,019
+So the four tasks we give them.
+
+986
+00:24:17,500 --> 00:24:20,039
+The first is to fill out our
+
+987
+00:24:20,259 --> 00:24:20,970
+onboarding form.
+
+988
+00:24:20,970 --> 00:24:22,369
+So we just call it like something
+
+989
+00:24:22,549 --> 00:24:24,279
+fancy, new client onboarding form
+
+990
+00:24:24,279 --> 00:24:25,009
+by clicking here.
+
+991
+00:24:25,329 --> 00:24:27,069
+And then the email will include a
+
+992
+00:24:27,069 --> 00:24:28,849
+link to our onboarding form, which
+
+993
+00:24:28,849 --> 00:24:29,960
+is just a simple Google
+
+994
+00:24:30,049 --> 00:24:30,309
+form.
+
+995
+00:24:30,309 --> 00:24:31,509
+So you could use type form.
+
+996
+00:24:31,509 --> 00:24:32,609
+You could use a form on your
+
+997
+00:24:32,609 --> 00:24:34,019
+website, or you could just use
+
+998
+00:24:34,140 --> 00:24:34,359
+Google
+
+999
+00:24:34,579 --> 00:24:35,509
+forms like we do.
+
+1000
+00:24:35,650 --> 00:24:36,940
+It's really simple.
+
+1001
+00:24:36,940 --> 00:24:38,089
+And I have a whole video
+
+1002
+00:24:38,539 --> 00:24:41,079
+explaining our onboarding form and
+
+1003
+00:24:41,079 --> 00:24:41,319
+how
+
+1004
+00:24:41,359 --> 00:24:42,920
+to come up with an onboarding form
+
+1005
+00:24:42,920 --> 00:24:43,599
+of your own.
+
+1006
+00:24:43,599 --> 00:24:45,119
+It's just what questions or what
+
+1007
+00:24:45,500 --> 00:24:46,200
+answers do you need
+
+1008
+00:24:47,210 --> 00:24:48,890
+to know or to have so that you can
+
+1009
+00:24:48,890 --> 00:24:50,849
+go about doing everything else you
+
+1010
+00:24:50,849 --> 00:24:52,039
+have to do
+
+1011
+00:24:52,089 --> 00:24:53,940
+to work on their campaigns or
+
+1012
+00:24:53,940 --> 00:24:55,160
+their project.
+
+1013
+00:24:55,160 --> 00:24:56,839
+So that's the first thing.
+
+1014
+00:24:56,839 --> 00:24:57,960
+So an onboarding form is
+
+1015
+00:24:58,049 --> 00:24:58,700
+super important.
+
+1016
+00:24:58,700 --> 00:24:59,869
+You got to collect an onboarding
+
+1017
+00:24:59,869 --> 00:25:00,900
+form because there's lots of
+
+1018
+00:25:00,900 --> 00:25:01,690
+information that you
+
+1019
+00:25:01,849 --> 00:25:03,210
+and your team are going to need to
+
+1020
+00:25:03,210 --> 00:25:04,690
+operate off of that obviously you
+
+1021
+00:25:04,690 --> 00:25:06,599
+don't have access to yet just from
+
+1022
+00:25:06,690 --> 00:25:08,250
+the sales call in the contract
+
+1023
+00:25:08,250 --> 00:25:09,400
+that they signed.
+
+1024
+00:25:09,400 --> 00:25:10,299
+So that's the first step.
+
+1025
+00:25:10,779 --> 00:25:12,170
+The second step is you
+
+1026
+00:25:12,289 --> 00:25:13,910
+want to get on an onboarding call.
+
+1027
+00:25:13,910 --> 00:25:15,339
+So we call this the onboarding
+
+1028
+00:25:15,339 --> 00:25:15,920
+zoom call.
+
+1029
+00:25:16,349 --> 00:25:18,680
+So you want them to schedule
+
+1030
+00:25:18,730 --> 00:25:19,829
+an onboarding call.
+
+1031
+00:25:19,970 --> 00:25:21,690
+And we could use Calendly, which
+
+1032
+00:25:21,690 --> 00:25:23,329
+we use for our sales process to
+
+1033
+00:25:23,329 --> 00:25:24,200
+actually coordinate
+
+1034
+00:25:24,289 --> 00:25:26,130
+the scheduling of those onboarding
+
+1035
+00:25:26,130 --> 00:25:27,880
+calls to make things really easy
+
+1036
+00:25:27,880 --> 00:25:29,559
+for both you and for the client.
+
+1037
+00:25:29,769 --> 00:25:30,880
+Again, another way to look
+
+1038
+00:25:30,880 --> 00:25:31,759
+professional.
+
+1039
+00:25:31,759 --> 00:25:33,799
+So we send this link in our email
+
+1040
+00:25:33,799 --> 00:25:35,130
+and it just says KnowledgeX
+
+1041
+00:25:35,250 --> 00:25:36,740
+new client onboarding call.
+
+1042
+00:25:36,740 --> 00:25:38,619
+And basically they could see when
+
+1043
+00:25:38,619 --> 00:25:41,000
+I'm available and when the entire
+
+1044
+00:25:41,000 --> 00:25:41,400
+team is
+
+1045
+00:25:41,730 --> 00:25:42,839
+available to get on an onboarding
+
+1046
+00:25:42,839 --> 00:25:43,190
+call.
+
+1047
+00:25:43,200 --> 00:25:44,470
+And all we ask is for their name
+
+1048
+00:25:44,470 --> 00:25:45,089
+and email.
+
+1049
+00:25:45,160 --> 00:25:45,880
+And then we also
+
+1050
+00:25:45,970 --> 00:25:47,369
+ask if they completed the
+
+1051
+00:25:47,369 --> 00:25:49,279
+onboarding form, because what
+
+1052
+00:25:49,279 --> 00:25:51,240
+started to happen sometimes is
+
+1053
+00:25:51,240 --> 00:25:52,039
+they would book an
+
+1054
+00:25:52,259 --> 00:25:52,990
+onboarding call.
+
+1055
+00:25:52,990 --> 00:25:54,359
+But by the time the onboarding
+
+1056
+00:25:54,549 --> 00:25:55,769
+call happened, they didn't yet
+
+1057
+00:25:55,769 --> 00:25:57,720
+fill out the onboarding form,
+
+1058
+00:25:57,809 --> 00:25:58,869
+which makes the onboarding call
+
+1059
+00:25:59,009 --> 00:25:59,640
+pointless.
+
+1060
+00:25:59,640 --> 00:26:01,400
+So again, we'll have videos
+
+1061
+00:26:01,400 --> 00:26:02,599
+specifically talking about
+
+1062
+00:26:02,690 --> 00:26:04,079
+the onboarding form in the
+
+1063
+00:26:04,079 --> 00:26:05,690
+onboarding call and why it's
+
+1064
+00:26:05,690 --> 00:26:07,480
+important to have the onboarding
+
+1065
+00:26:07,480 --> 00:26:08,170
+form responses
+
+1066
+00:26:08,680 --> 00:26:10,319
+before getting on the onboarding
+
+1067
+00:26:10,319 --> 00:26:10,690
+call.
+
+1068
+00:26:10,869 --> 00:26:12,549
+But that's like the process we
+
+1069
+00:26:12,559 --> 00:26:12,990
+use.
+
+1070
+00:26:13,000 --> 00:26:13,880
+So that's the second thing
+
+1071
+00:26:13,920 --> 00:26:14,470
+we ask for.
+
+1072
+00:26:14,470 --> 00:26:15,890
+So they filled out a form, they
+
+1073
+00:26:15,890 --> 00:26:17,130
+booked the call with us.
+
+1074
+00:26:17,200 --> 00:26:19,000
+And the onboarding call is great
+
+1075
+00:26:19,319 --> 00:26:20,440
+because it's basically them
+
+1076
+00:26:20,450 --> 00:26:21,819
+getting a chance to meet the
+
+1077
+00:26:21,819 --> 00:26:23,660
+entire team behind the project.
+
+1078
+00:26:23,670 --> 00:26:24,569
+And those calls
+
+1079
+00:26:24,769 --> 00:26:26,819
+are usually like the easiest way
+
+1080
+00:26:26,819 --> 00:26:28,869
+to build trust because you have
+
+1081
+00:26:28,869 --> 00:26:30,440
+some face to face time on a
+
+1082
+00:26:30,529 --> 00:26:31,150
+zoom call.
+
+1083
+00:26:31,150 --> 00:26:33,079
+You can answer all their questions
+
+1084
+00:26:33,079 --> 00:26:34,619
+and you're just spending time with
+
+1085
+00:26:34,619 --> 00:26:35,319
+the client.
+
+1086
+00:26:35,369 --> 00:26:36,650
+And that's why going back to the
+
+1087
+00:26:36,650 --> 00:26:38,410
+last video, it's important to
+
+1088
+00:26:38,410 --> 00:26:40,200
+charge a setup fee because there's
+
+1089
+00:26:40,289 --> 00:26:41,950
+real time that you're committing
+
+1090
+00:26:41,960 --> 00:26:43,450
+early on to this relationship
+
+1091
+00:26:43,519 --> 00:26:45,160
+before the campaigns are even
+
+1092
+00:26:45,309 --> 00:26:45,559
+launched.
+
+1093
+00:26:45,650 --> 00:26:47,250
+And you want to be compensated for
+
+1094
+00:26:47,250 --> 00:26:48,759
+that time investment, right?
+
+1095
+00:26:48,759 --> 00:26:49,279
+You want to protect
+
+1096
+00:26:49,730 --> 00:26:51,000
+your time as a business owner.
+
+1097
+00:26:51,000 --> 00:26:52,259
+It's one of the most important
+
+1098
+00:26:52,259 --> 00:26:53,640
+things to train yourself to do.
+
+1099
+00:26:53,970 --> 00:26:56,890
+And then the last two tasks for
+
+1100
+00:26:56,890 --> 00:26:59,549
+them involve, again, Slack and
+
+1101
+00:26:59,549 --> 00:27:01,319
+Trello, like the two most
+
+1102
+00:27:01,670 --> 00:27:03,109
+important tools for us to manage
+
+1103
+00:27:03,109 --> 00:27:04,839
+our work and relationship.
+
+1104
+00:27:04,839 --> 00:27:06,200
+So the first one is Slack.
+
+1105
+00:27:06,200 --> 00:27:06,519
+So we
+
+1106
+00:27:06,609 --> 00:27:08,140
+give them a link to join our Slack
+
+1107
+00:27:08,140 --> 00:27:08,839
+workspace.
+
+1108
+00:27:08,980 --> 00:27:10,400
+So when you set up a workspace in
+
+1109
+00:27:10,700 --> 00:27:11,799
+Slack, you'll have
+
+1110
+00:27:11,890 --> 00:27:13,410
+like a unique link that you can
+
+1111
+00:27:13,410 --> 00:27:14,970
+send to invite people to your
+
+1112
+00:27:14,970 --> 00:27:15,769
+workspace.
+
+1113
+00:27:15,970 --> 00:27:16,920
+And then once they're in your
+
+1114
+00:27:17,240 --> 00:27:18,220
+workspace, you could add them to
+
+1115
+00:27:18,220 --> 00:27:19,589
+the specific channels that you set
+
+1116
+00:27:19,589 --> 00:27:19,880
+up.
+
+1117
+00:27:19,880 --> 00:27:21,240
+We use Slack for
+
+1118
+00:27:21,569 --> 00:27:21,829
+everything.
+
+1119
+00:27:21,829 --> 00:27:22,970
+We even have an announcements
+
+1120
+00:27:22,970 --> 00:27:24,240
+channel in our Slack, similar to
+
+1121
+00:27:24,240 --> 00:27:26,200
+like we have in our Slack
+
+1122
+00:27:26,549 --> 00:27:28,019
+workspace for the program where
+
+1123
+00:27:28,019 --> 00:27:29,750
+all the clients are in that, in
+
+1124
+00:27:29,750 --> 00:27:31,640
+that announcements channel.
+
+1125
+00:27:31,640 --> 00:27:31,960
+Also,
+
+1126
+00:27:32,049 --> 00:27:33,519
+just to take a step back, I know
+
+1127
+00:27:33,519 --> 00:27:35,200
+there's going to be another video
+
+1128
+00:27:35,200 --> 00:27:36,839
+on, on how to use Slack for your
+
+1129
+00:27:37,170 --> 00:27:39,150
+agency, but just pay attention to
+
+1130
+00:27:39,150 --> 00:27:40,809
+how Slack is set up for this
+
+1131
+00:27:41,019 --> 00:27:42,759
+program specifically.
+
+1132
+00:27:42,759 --> 00:27:43,720
+We have an announcements
+
+1133
+00:27:44,049 --> 00:27:45,529
+channel, which is basically like
+
+1134
+00:27:45,529 --> 00:27:47,220
+company-wide announcements or
+
+1135
+00:27:47,220 --> 00:27:48,680
+program-wide announcements in
+
+1136
+00:27:48,769 --> 00:27:49,640
+our scenario.
+
+1137
+00:27:49,640 --> 00:27:51,009
+So have something like that.
+
+1138
+00:27:51,180 --> 00:27:52,480
+We have a general chat channel,
+
+1139
+00:27:52,650 --> 00:27:53,799
+which actually isn't really
+
+1140
+00:27:54,150 --> 00:27:55,289
+applicable to this because you
+
+1141
+00:27:55,289 --> 00:27:56,890
+don't want your clients chatting
+
+1142
+00:27:56,890 --> 00:27:58,279
+amongst themselves in most
+
+1143
+00:27:58,279 --> 00:27:59,160
+scenarios.
+
+1144
+00:27:59,200 --> 00:28:00,720
+So that you could probably do away
+
+1145
+00:28:00,720 --> 00:28:01,160
+with.
+
+1146
+00:28:01,160 --> 00:28:03,349
+But just really pay attention to
+
+1147
+00:28:03,359 --> 00:28:04,039
+the two things,
+
+1148
+00:28:04,130 --> 00:28:05,759
+the announcements channel, which
+
+1149
+00:28:05,759 --> 00:28:06,779
+is like company-wide
+
+1150
+00:28:06,779 --> 00:28:08,359
+announcements, and then also
+
+1151
+00:28:08,450 --> 00:28:10,079
+each of us having our own private
+
+1152
+00:28:10,079 --> 00:28:10,690
+channel.
+
+1153
+00:28:10,869 --> 00:28:12,519
+That's basically how you set up a
+
+1154
+00:28:12,539 --> 00:28:14,349
+channel or a workspace for
+
+1155
+00:28:14,450 --> 00:28:16,029
+your agency and for your clients
+
+1156
+00:28:16,029 --> 00:28:17,960
+is you'll have announcements which
+
+1157
+00:28:17,960 --> 00:28:19,480
+everyone has access to.
+
+1158
+00:28:19,519 --> 00:28:20,980
+So you could send any relevant
+
+1159
+00:28:20,980 --> 00:28:22,720
+updates for your company that'll
+
+1160
+00:28:22,720 --> 00:28:24,279
+be sent to all people involved
+
+1161
+00:28:24,880 --> 00:28:26,420
+or all the clients involved in or
+
+1162
+00:28:26,420 --> 00:28:28,359
+working with your company.
+
+1163
+00:28:28,359 --> 00:28:29,640
+And then you could also on a
+
+1164
+00:28:29,640 --> 00:28:29,960
+lower,
+
+1165
+00:28:30,049 --> 00:28:32,990
+on a more specific level, have a
+
+1166
+00:28:32,990 --> 00:28:35,519
+channel that's private and only
+
+1167
+00:28:35,740 --> 00:28:37,240
+includes the client and anyone
+
+1168
+00:28:37,329 --> 00:28:38,039
+from their team.
+
+1169
+00:28:38,039 --> 00:28:39,390
+And then everyone from your team
+
+1170
+00:28:39,390 --> 00:28:40,740
+that's working on that client's
+
+1171
+00:28:40,740 --> 00:28:41,160
+project.
+
+1172
+00:28:41,200 --> 00:28:42,799
+So pay attention to the way we set
+
+1173
+00:28:42,799 --> 00:28:44,599
+these things up because there's
+
+1174
+00:28:44,599 --> 00:28:47,000
+intention behind it to start to
+
+1175
+00:28:47,220 --> 00:28:48,920
+train you guys to think in this
+
+1176
+00:28:48,920 --> 00:28:50,359
+way and then in this framework.
+
+1177
+00:28:50,410 --> 00:28:52,200
+So that's the third thing.
+
+1178
+00:28:52,200 --> 00:28:53,579
+We send them the link so they
+
+1179
+00:28:53,579 --> 00:28:55,160
+could join the Slack workspace.
+
+1180
+00:28:55,210 --> 00:28:56,220
+And Slack is where they could
+
+1181
+00:28:56,220 --> 00:28:57,470
+start communicating with us.
+
+1182
+00:28:57,470 --> 00:28:58,880
+So once they join there, we'll
+
+1183
+00:28:58,880 --> 00:28:59,400
+send like
+
+1184
+00:28:59,440 --> 00:29:00,910
+a message saying, "Hey, welcome.
+
+1185
+00:29:00,910 --> 00:29:02,470
+Thanks for being here." And we'll
+
+1186
+00:29:02,470 --> 00:29:03,559
+just kind of kick off the
+
+1187
+00:29:03,579 --> 00:29:04,279
+conversation
+
+1188
+00:29:04,369 --> 00:29:05,599
+and give them a warm welcome
+
+1189
+00:29:05,599 --> 00:29:06,119
+there.
+
+1190
+00:29:06,119 --> 00:29:07,890
+And then the Trello project
+
+1191
+00:29:07,890 --> 00:29:09,640
+management board, which you're
+
+1192
+00:29:09,640 --> 00:29:09,849
+seeing
+
+1193
+00:29:10,049 --> 00:29:10,410
+here.
+
+1194
+00:29:10,410 --> 00:29:12,140
+So basically that's why I copied
+
+1195
+00:29:12,140 --> 00:29:13,930
+the link because every board has a
+
+1196
+00:29:14,140 --> 00:29:14,839
+unique link.
+
+1197
+00:29:14,839 --> 00:29:15,720
+And so I just
+
+1198
+00:29:16,069 --> 00:29:17,670
+basically copied it into the email
+
+1199
+00:29:17,670 --> 00:29:19,329
+and had that as a fourth step,
+
+1200
+00:29:19,329 --> 00:29:20,690
+which is to join the project
+
+1201
+00:29:21,109 --> 00:29:22,230
+management board on Trello.
+
+1202
+00:29:22,230 --> 00:29:23,579
+So the client will join it and
+
+1203
+00:29:23,599 --> 00:29:25,019
+they'll just see exactly what
+
+1204
+00:29:25,019 --> 00:29:25,720
+we're seeing
+
+1205
+00:29:25,809 --> 00:29:26,140
+here.
+
+1206
+00:29:26,140 --> 00:29:27,819
+And for the most part, they'll be
+
+1207
+00:29:27,819 --> 00:29:28,970
+super overwhelmed.
+
+1208
+00:29:29,039 --> 00:29:32,599
+But what I say, I give them some
+
+1209
+00:29:32,930 --> 00:29:34,269
+guidance here in the email, which
+
+1210
+00:29:34,269 --> 00:29:35,160
+kind of helps.
+
+1211
+00:29:35,160 --> 00:29:37,569
+So first, after I go through all
+
+1212
+00:29:37,700 --> 00:29:38,579
+the steps that they
+
+1213
+00:29:38,769 --> 00:29:40,039
+need to do to get properly
+
+1214
+00:29:40,039 --> 00:29:41,839
+onboarded or fully onboarded, I
+
+1215
+00:29:41,839 --> 00:29:43,309
+say, "That's all for now.
+
+1216
+00:29:43,319 --> 00:29:44,519
+I'm excited to formally
+
+1217
+00:29:44,740 --> 00:29:45,559
+welcome you as a client.
+
+1218
+00:29:45,559 --> 00:29:46,690
+I speak on behalf of my entire
+
+1219
+00:29:46,690 --> 00:29:48,200
+team when I say we're grateful for
+
+1220
+00:29:48,200 --> 00:29:48,250
+the
+
+1221
+00:29:48,710 --> 00:29:49,980
+opportunity to work with you."
+
+1222
+00:29:49,980 --> 00:29:51,559
+Enthusiastically, Andre.
+
+1223
+00:29:51,559 --> 00:29:52,990
+So that's the onboarding email.
+
+1224
+00:29:53,000 --> 00:29:53,880
+Again,
+
+1225
+00:29:54,089 --> 00:29:56,200
+this has worked extremely well.
+
+1226
+00:29:56,390 --> 00:29:58,069
+And we try to send this to our
+
+1227
+00:29:58,069 --> 00:30:00,109
+clients that sign.
+
+1228
+00:30:00,259 --> 00:30:01,619
+The timeline for this
+
+1229
+00:30:01,809 --> 00:30:04,039
+is, excuse me, we try to send this
+
+1230
+00:30:04,230 --> 00:30:06,480
+out to clients the same day that
+
+1231
+00:30:06,480 --> 00:30:08,680
+they signed the contract.
+
+1232
+00:30:08,680 --> 00:30:09,400
+So we want
+
+1233
+00:30:09,450 --> 00:30:11,329
+to have a really quick turnaround
+
+1234
+00:30:11,329 --> 00:30:11,730
+time.
+
+1235
+00:30:11,910 --> 00:30:13,670
+We almost want them to think it's
+
+1236
+00:30:13,670 --> 00:30:15,390
+an automated email for how
+
+1237
+00:30:15,490 --> 00:30:16,869
+fast it's sent since when they've
+
+1238
+00:30:16,869 --> 00:30:17,940
+signed the contract.
+
+1239
+00:30:17,940 --> 00:30:19,319
+But then they go in the email and
+
+1240
+00:30:19,319 --> 00:30:19,460
+they're
+
+1241
+00:30:19,569 --> 00:30:20,509
+like, "Oh, no way.
+
+1242
+00:30:20,509 --> 00:30:22,220
+This can't be automated." Because
+
+1243
+00:30:22,220 --> 00:30:23,819
+there's so many custom things that
+
+1244
+00:30:23,819 --> 00:30:24,759
+are set up here,
+
+1245
+00:30:24,970 --> 00:30:26,650
+like the Slack workspace and the
+
+1246
+00:30:26,650 --> 00:30:28,450
+Trello board being specifically
+
+1247
+00:30:28,940 --> 00:30:31,160
+customized to their company.
+
+1248
+00:30:31,160 --> 00:30:32,039
+So anyways,
+
+1249
+00:30:32,079 --> 00:30:33,190
+it's not an automated email.
+
+1250
+00:30:33,329 --> 00:30:34,690
+There's probably ways to automate
+
+1251
+00:30:34,690 --> 00:30:36,099
+this, but I manually send this
+
+1252
+00:30:36,220 --> 00:30:36,680
+because
+
+1253
+00:30:36,720 --> 00:30:38,839
+I enjoy the onboarding process and
+
+1254
+00:30:38,839 --> 00:30:41,650
+the clients also really value it.
+
+1255
+00:30:41,759 --> 00:30:43,240
+So our onboarding process,
+
+1256
+00:30:43,460 --> 00:30:45,200
+again, out of all the things we do
+
+1257
+00:30:45,200 --> 00:30:46,970
+at our agency gets complimented
+
+1258
+00:30:47,119 --> 00:30:48,759
+more than anything else.
+
+1259
+00:30:49,849 --> 00:30:51,650
+So that's the whole email.
+
+1260
+00:30:51,650 --> 00:30:53,690
+So I include a PS because there's
+
+1261
+00:30:53,690 --> 00:30:56,069
+a lot of information here and
+
+1262
+00:30:56,160 --> 00:30:57,269
+a lot of our clients aren't
+
+1263
+00:30:57,410 --> 00:30:59,009
+familiar with Slack or they're not
+
+1264
+00:30:59,009 --> 00:31:00,359
+familiar with Trello or they're
+
+1265
+00:31:00,359 --> 00:31:00,599
+not
+
+1266
+00:31:00,930 --> 00:31:02,220
+familiar with Google Forms or
+
+1267
+00:31:02,220 --> 00:31:02,910
+Calendly.
+
+1268
+00:31:02,910 --> 00:31:04,289
+So we want to give them some
+
+1269
+00:31:04,779 --> 00:31:05,160
+guidance.
+
+1270
+00:31:05,160 --> 00:31:05,559
+Obviously,
+
+1271
+00:31:05,650 --> 00:31:06,710
+they could respond to this email
+
+1272
+00:31:06,849 --> 00:31:07,640
+with questions.
+
+1273
+00:31:07,640 --> 00:31:10,009
+But in a PS, I just kind of give
+
+1274
+00:31:10,009 --> 00:31:11,130
+them like a starting
+
+1275
+00:31:11,329 --> 00:31:11,640
+point.
+
+1276
+00:31:11,640 --> 00:31:13,029
+So I say, "When you join the Slack
+
+1277
+00:31:13,039 --> 00:31:14,599
+workspace, please read the pinned
+
+1278
+00:31:14,599 --> 00:31:15,799
+messages in the announcements
+
+1279
+00:31:15,890 --> 00:31:16,779
+channel." So that's the first
+
+1280
+00:31:16,819 --> 00:31:17,160
+thing.
+
+1281
+00:31:17,160 --> 00:31:18,359
+When they join Slack, I'm like,
+
+1282
+00:31:18,450 --> 00:31:20,130
+just basically catch up to all the
+
+1283
+00:31:20,130 --> 00:31:22,059
+recent announcements we've put out
+
+1284
+00:31:22,059 --> 00:31:22,990
+to our client
+
+1285
+00:31:23,089 --> 00:31:23,450
+base.
+
+1286
+00:31:23,450 --> 00:31:24,789
+So you can see where we're
+
+1287
+00:31:24,789 --> 00:31:26,450
+currently at as a company and if
+
+1288
+00:31:26,450 --> 00:31:28,200
+there are any important updates
+
+1289
+00:31:28,289 --> 00:31:29,789
+that we've shared recently that
+
+1290
+00:31:29,789 --> 00:31:31,180
+might be applicable to your
+
+1291
+00:31:31,180 --> 00:31:32,759
+working relationship with us and
+
+1292
+00:31:32,759 --> 00:31:33,000
+you might
+
+1293
+00:31:33,089 --> 00:31:34,359
+even have questions on.
+
+1294
+00:31:34,359 --> 00:31:36,079
+And then I also say, "When you
+
+1295
+00:31:36,079 --> 00:31:38,569
+join the Trello board, please
+
+1296
+00:31:38,779 --> 00:31:39,240
+review
+
+1297
+00:31:39,329 --> 00:31:40,579
+the first few videos in the
+
+1298
+00:31:40,579 --> 00:31:42,650
+educational resources column." So
+
+1299
+00:31:42,650 --> 00:31:44,759
+I have this column here in Trello
+
+1300
+00:31:44,759 --> 00:31:45,079
+called
+
+1301
+00:31:45,299 --> 00:31:47,190
+Educational Resources and
+
+1302
+00:31:47,190 --> 00:31:49,799
+basically I just recorded videos
+
+1303
+00:31:49,799 --> 00:31:52,599
+to help the client onboard
+
+1304
+00:31:52,599 --> 00:31:53,640
+themselves.
+
+1305
+00:31:53,690 --> 00:31:55,230
+So I have a video on how to use
+
+1306
+00:31:55,230 --> 00:31:57,089
+the Trello board and I literally
+
+1307
+00:31:57,089 --> 00:31:58,599
+just recorded a Loom video
+
+1308
+00:31:58,769 --> 00:31:59,829
+saying, "Hey, thanks so much for
+
+1309
+00:31:59,970 --> 00:32:00,519
+being here.
+
+1310
+00:32:00,519 --> 00:32:01,640
+This is our Trello board.
+
+1311
+00:32:01,640 --> 00:32:02,680
+This is what it's used for.
+
+1312
+00:32:02,900 --> 00:32:05,319
+Here's what every single card is
+
+1313
+00:32:05,319 --> 00:32:07,009
+meeting and what you might want to
+
+1314
+00:32:07,009 --> 00:32:08,930
+use them for." So I have a video
+
+1315
+00:32:09,349 --> 00:32:10,690
+explaining Trello and then I have
+
+1316
+00:32:10,690 --> 00:32:12,200
+a video explaining Slack.
+
+1317
+00:32:12,200 --> 00:32:14,579
+That way they know exactly how to
+
+1318
+00:32:14,700 --> 00:32:15,400
+use Trello and
+
+1319
+00:32:15,609 --> 00:32:17,369
+they know exactly how to use Slack
+
+1320
+00:32:17,369 --> 00:32:19,000
+because of the videos that I
+
+1321
+00:32:19,000 --> 00:32:20,359
+recorded for them.
+
+1322
+00:32:20,359 --> 00:32:21,960
+So what I would
+
+1323
+00:32:22,309 --> 00:32:24,099
+recommend is, yeah, you need SOPs
+
+1324
+00:32:24,099 --> 00:32:26,190
+internally so your team knows what
+
+1325
+00:32:26,190 --> 00:32:29,559
+to do, but also consider SOPs for
+
+1326
+00:32:29,769 --> 00:32:31,369
+your clients so that they know
+
+1327
+00:32:31,369 --> 00:32:33,259
+what to do and they get the proper
+
+1328
+00:32:33,740 --> 00:32:35,400
+guidance because that's always
+
+1329
+00:32:35,400 --> 00:32:35,809
+forgotten
+
+1330
+00:32:35,970 --> 00:32:37,019
+about from my experience.
+
+1331
+00:32:37,019 --> 00:32:38,200
+People forget about the clients
+
+1332
+00:32:38,390 --> 00:32:39,450
+and they just assume that the
+
+1333
+00:32:39,450 --> 00:32:40,119
+client knows
+
+1334
+00:32:40,329 --> 00:32:40,519
+everything.
+
+1335
+00:32:40,519 --> 00:32:44,049
+But if the client's confused, it's
+
+1336
+00:32:44,299 --> 00:32:45,250
+going to lead to doubt.
+
+1337
+00:32:45,250 --> 00:32:46,599
+It's going to lead to more
+
+1338
+00:32:46,599 --> 00:32:47,119
+uncertainty.
+
+1339
+00:32:47,279 --> 00:32:48,579
+It's going to lead to more doubt
+
+1340
+00:32:48,579 --> 00:32:49,569
+and it's going to spoil the
+
+1341
+00:32:49,750 --> 00:32:51,880
+relationship from the very
+
+1342
+00:32:51,880 --> 00:32:52,359
+beginning,
+
+1343
+00:32:52,450 --> 00:32:53,509
+which is you never want to do
+
+1344
+00:32:53,509 --> 00:32:53,880
+that.
+
+1345
+00:32:53,880 --> 00:32:56,049
+So how do you flip the script
+
+1346
+00:32:56,539 --> 00:32:58,119
+there and ensure that the
+
+1347
+00:32:58,470 --> 00:32:59,839
+relationship goes well and ensure
+
+1348
+00:32:59,839 --> 00:33:01,609
+that there's confidence instilled
+
+1349
+00:33:01,609 --> 00:33:02,920
+is by setting up a process
+
+1350
+00:33:03,009 --> 00:33:03,579
+like this.
+
+1351
+00:33:03,579 --> 00:33:05,019
+So that's the next step in the
+
+1352
+00:33:05,019 --> 00:33:05,730
+to-do list.
+
+1353
+00:33:05,740 --> 00:33:07,420
+So I drag that over here.
+
+1354
+00:33:07,420 --> 00:33:08,759
+And now those are
+
+1355
+00:33:08,849 --> 00:33:10,059
+the completed tasks.
+
+1356
+00:33:10,059 --> 00:33:11,730
+And then in the to-do list, the
+
+1357
+00:33:11,730 --> 00:33:13,140
+next few things are for the
+
+1358
+00:33:13,140 --> 00:33:13,880
+client.
+
+1359
+00:33:13,880 --> 00:33:14,279
+So they have
+
+1360
+00:33:14,319 --> 00:33:15,819
+to fill out the onboarding form.
+
+1361
+00:33:15,819 --> 00:33:17,170
+So we'd move that over once they
+
+1362
+00:33:17,170 --> 00:33:19,000
+fill out the onboarding form.
+
+1363
+00:33:19,089 --> 00:33:20,420
+They have to book an onboarding
+
+1364
+00:33:20,420 --> 00:33:20,789
+call.
+
+1365
+00:33:20,799 --> 00:33:22,250
+So we'll move that over once they
+
+1366
+00:33:22,319 --> 00:33:23,400
+book an onboarding call.
+
+1367
+00:33:23,490 --> 00:33:25,710
+And then, yeah, everything else is
+
+1368
+00:33:25,710 --> 00:33:27,460
+basically what we would work on at
+
+1369
+00:33:27,579 --> 00:33:29,160
+our agency to get them onboarded.
+
+1370
+00:33:29,200 --> 00:33:30,759
+So since we're a lead gen agency,
+
+1371
+00:33:30,759 --> 00:33:32,410
+I'll just quickly run through some
+
+1372
+00:33:32,480 --> 00:33:33,400
+of this stuff.
+
+1373
+00:33:33,440 --> 00:33:35,000
+We'll set up a Google workspace
+
+1374
+00:33:35,000 --> 00:33:36,119
+account for them.
+
+1375
+00:33:36,119 --> 00:33:37,880
+We'll set up a Google Chrome user
+
+1376
+00:33:37,880 --> 00:33:38,839
+for them.
+
+1377
+00:33:38,890 --> 00:33:40,809
+We'll begin the email warmup
+
+1378
+00:33:40,809 --> 00:33:42,279
+process for them.
+
+1379
+00:33:42,279 --> 00:33:43,730
+We'll create a leads list for
+
+1380
+00:33:43,730 --> 00:33:44,200
+them.
+
+1381
+00:33:44,200 --> 00:33:45,400
+The client
+
+1382
+00:33:45,490 --> 00:33:46,819
+has a task here real quick.
+
+1383
+00:33:46,819 --> 00:33:48,309
+They only have a few more tasks
+
+1384
+00:33:48,309 --> 00:33:49,799
+after the initial onboarding
+
+1385
+00:33:49,799 --> 00:33:50,200
+process,
+
+1386
+00:33:50,410 --> 00:33:51,740
+which is to approve the leads
+
+1387
+00:33:51,740 --> 00:33:52,190
+list.
+
+1388
+00:33:52,190 --> 00:33:53,869
+That's all discussed on the
+
+1389
+00:33:53,869 --> 00:33:55,559
+onboarding call itself,
+
+1390
+00:33:55,650 --> 00:33:56,880
+which again, there's going to be a
+
+1391
+00:33:56,880 --> 00:33:57,720
+separate video on.
+
+1392
+00:33:57,720 --> 00:34:00,359
+So they'd approve the leads list.
+
+1393
+00:34:00,400 --> 00:34:01,920
+We'd also craft the scripts for
+
+1394
+00:34:01,920 --> 00:34:03,609
+the campaigns and they'd approve
+
+1395
+00:34:03,609 --> 00:34:04,839
+the scripts as well.
+
+1396
+00:34:04,839 --> 00:34:05,160
+Again,
+
+1397
+00:34:05,250 --> 00:34:06,569
+this is all discussed on the
+
+1398
+00:34:06,569 --> 00:34:07,690
+onboarding call.
+
+1399
+00:34:07,690 --> 00:34:09,610
+We'll configure their Calendly
+
+1400
+00:34:09,610 --> 00:34:10,519
+event because that's
+
+1401
+00:34:10,739 --> 00:34:12,760
+what we use to schedule calls for
+
+1402
+00:34:12,760 --> 00:34:14,219
+our clients and to track
+
+1403
+00:34:14,699 --> 00:34:16,920
+everything in an automated way.
+
+1404
+00:34:16,960 --> 00:34:18,510
+We'll set up Zapier workflows for
+
+1405
+00:34:18,510 --> 00:34:19,230
+the client.
+
+1406
+00:34:19,230 --> 00:34:21,400
+We'll set up their sky lead
+
+1407
+00:34:21,400 --> 00:34:21,719
+account.
+
+1408
+00:34:21,809 --> 00:34:23,050
+That's what we're currently using
+
+1409
+00:34:23,050 --> 00:34:24,030
+to do our outreach.
+
+1410
+00:34:24,030 --> 00:34:26,440
+And then we'll start the sky lead
+
+1411
+00:34:26,440 --> 00:34:27,079
+sequences.
+
+1412
+00:34:27,170 --> 00:34:28,900
+And then basically that's like the
+
+1413
+00:34:28,900 --> 00:34:29,639
+last step.
+
+1414
+00:34:29,639 --> 00:34:30,880
+And then the two last steps are
+
+1415
+00:34:30,880 --> 00:34:31,960
+for the client,
+
+1416
+00:34:32,050 --> 00:34:33,630
+just as a constant reminder to
+
+1417
+00:34:33,630 --> 00:34:35,659
+review the educational resources,
+
+1418
+00:34:36,139 --> 00:34:36,920
+because there's also
+
+1419
+00:34:37,090 --> 00:34:38,559
+some good resources here on how to
+
+1420
+00:34:38,559 --> 00:34:40,360
+optimize their LinkedIn profile.
+
+1421
+00:34:40,360 --> 00:34:42,920
+Since we're doing lead generation,
+
+1422
+00:34:43,010 --> 00:34:44,409
+that's what our agency does.
+
+1423
+00:34:44,409 --> 00:34:45,719
+We want them to have the most
+
+1424
+00:34:45,719 --> 00:34:47,320
+optimized website and LinkedIn
+
+1425
+00:34:47,320 --> 00:34:47,880
+profile
+
+1426
+00:34:48,309 --> 00:34:50,250
+possible because that helps us get
+
+1427
+00:34:50,250 --> 00:34:51,590
+the best results.
+
+1428
+00:34:51,590 --> 00:34:53,349
+And then we also have like a
+
+1429
+00:34:53,349 --> 00:34:54,920
+project timeline here,
+
+1430
+00:34:55,250 --> 00:34:57,650
+which just talks about what they
+
+1431
+00:34:57,650 --> 00:34:59,280
+can expect now that they're an
+
+1432
+00:34:59,280 --> 00:35:00,119
+onboarded client.
+
+1433
+00:35:00,119 --> 00:35:00,489
+So again,
+
+1434
+00:35:00,559 --> 00:35:02,000
+we want to like give them as much
+
+1435
+00:35:02,000 --> 00:35:03,510
+guidance as possible.
+
+1436
+00:35:03,510 --> 00:35:06,090
+So they know exactly what's the
+
+1437
+00:35:06,300 --> 00:35:06,679
+deal.
+
+1438
+00:35:06,900 --> 00:35:09,000
+Like, what can they expect?
+
+1439
+00:35:09,190 --> 00:35:10,920
+What do they need to be doing?
+
+1440
+00:35:10,920 --> 00:35:12,760
+What are we supposed to be doing?
+
+1441
+00:35:12,809 --> 00:35:13,909
+And they could see all of that
+
+1442
+00:35:14,050 --> 00:35:15,090
+here on the Trello board.
+
+1443
+00:35:15,269 --> 00:35:16,710
+That's why Trello is so great,
+
+1444
+00:35:16,710 --> 00:35:17,320
+because they have,
+
+1445
+00:35:17,409 --> 00:35:18,469
+again, they have access to this
+
+1446
+00:35:18,610 --> 00:35:19,650
+board so they could see, okay,
+
+1447
+00:35:19,829 --> 00:35:21,719
+KnowledgeX still has all this
+
+1448
+00:35:21,719 --> 00:35:22,289
+stuff to do.
+
+1449
+00:35:22,449 --> 00:35:23,920
+And then they could come tomorrow
+
+1450
+00:35:23,920 --> 00:35:25,369
+and say, oh, KnowledgeX just
+
+1451
+00:35:25,369 --> 00:35:27,320
+completed a bunch of tasks, right?
+
+1452
+00:35:27,369 --> 00:35:28,469
+And now it looks like we're
+
+1453
+00:35:28,610 --> 00:35:29,920
+actually pretty close to having
+
+1454
+00:35:29,920 --> 00:35:30,840
+campaigns started.
+
+1455
+00:35:31,050 --> 00:35:33,800
+And all this will be discussed.
+
+1456
+00:35:33,800 --> 00:35:35,239
+So like on the onboarding call,
+
+1457
+00:35:35,329 --> 00:35:36,929
+the onboarding call is really
+
+1458
+00:35:36,929 --> 00:35:38,840
+simple because all I do is I share
+
+1459
+00:35:38,840 --> 00:35:40,809
+my screen and I just share what
+
+1460
+00:35:40,920 --> 00:35:41,000
+you're
+
+1461
+00:35:41,210 --> 00:35:42,039
+seeing here, the screen I'm
+
+1462
+00:35:42,039 --> 00:35:43,179
+currently sharing, which is the
+
+1463
+00:35:43,179 --> 00:35:43,789
+Trello board.
+
+1464
+00:35:43,889 --> 00:35:45,840
+And it's just a logical way to
+
+1465
+00:35:45,840 --> 00:35:47,349
+walk through exactly what they
+
+1466
+00:35:47,349 --> 00:35:49,239
+need to do and what to expect.
+
+1467
+00:35:49,289 --> 00:35:51,469
+So just to kind of backtrack, I'll
+
+1468
+00:35:51,469 --> 00:35:53,480
+explain some of this stuff here.
+
+1469
+00:35:53,480 --> 00:35:54,820
+So general resources,
+
+1470
+00:35:54,969 --> 00:35:56,019
+you have a signed service
+
+1471
+00:35:56,019 --> 00:35:56,679
+agreement.
+
+1472
+00:35:56,679 --> 00:35:57,980
+And what you'll do is you'll
+
+1473
+00:35:57,980 --> 00:35:59,480
+upload the actual PDF there.
+
+1474
+00:35:59,530 --> 00:36:01,400
+So everyone has access to it.
+
+1475
+00:36:01,400 --> 00:36:03,199
+And you'll also keep track of when
+
+1476
+00:36:03,639 --> 00:36:05,000
+that contract was signed and when
+
+1477
+00:36:05,000 --> 00:36:05,059
+the
+
+1478
+00:36:05,369 --> 00:36:06,550
+first campaign was signed or
+
+1479
+00:36:06,550 --> 00:36:07,159
+started.
+
+1480
+00:36:07,159 --> 00:36:09,400
+So you know when to invoice them,
+
+1481
+00:36:09,400 --> 00:36:10,360
+like what day of the month
+
+1482
+00:36:10,409 --> 00:36:12,280
+to invoice them each month.
+
+1483
+00:36:12,280 --> 00:36:13,949
+We have a link to the Slack
+
+1484
+00:36:13,949 --> 00:36:14,920
+workspace.
+
+1485
+00:36:14,920 --> 00:36:17,360
+So this sometimes happens when
+
+1486
+00:36:17,449 --> 00:36:19,219
+we'll invite, obviously in the
+
+1487
+00:36:19,219 --> 00:36:22,070
+onboarding email we send, there's
+
+1488
+00:36:22,079 --> 00:36:23,280
+a link to join Slack, but
+
+1489
+00:36:23,280 --> 00:36:23,880
+sometimes
+
+1490
+00:36:24,530 --> 00:36:26,280
+the client will say, Hey, you
+
+1491
+00:36:26,280 --> 00:36:28,130
+know, we just hired this other
+
+1492
+00:36:28,150 --> 00:36:29,960
+person or my partner after seeing
+
+1493
+00:36:29,960 --> 00:36:30,019
+how
+
+1494
+00:36:30,210 --> 00:36:31,530
+this relationship has been going
+
+1495
+00:36:31,530 --> 00:36:32,679
+wants to join the Slack.
+
+1496
+00:36:32,679 --> 00:36:34,920
+So they always have a link to join
+
+1497
+00:36:34,920 --> 00:36:35,320
+the Slack
+
+1498
+00:36:35,670 --> 00:36:36,920
+workspace right on the Trello
+
+1499
+00:36:36,920 --> 00:36:38,530
+board anytime they need to add
+
+1500
+00:36:38,530 --> 00:36:39,050
+someone.
+
+1501
+00:36:39,289 --> 00:36:41,239
+So that's, you know, convenient.
+
+1502
+00:36:41,460 --> 00:36:43,340
+There's a Dropbox folder, which we
+
+1503
+00:36:43,340 --> 00:36:44,469
+talked about.
+
+1504
+00:36:44,469 --> 00:36:47,639
+And then we have credentials.
+
+1505
+00:36:47,639 --> 00:36:48,840
+So basically we set
+
+1506
+00:36:48,880 --> 00:36:49,989
+up a cold email account.
+
+1507
+00:36:50,130 --> 00:36:51,539
+We ask for the LinkedIn account
+
+1508
+00:36:51,539 --> 00:36:52,639
+credentials through their
+
+1509
+00:36:53,019 --> 00:36:53,800
+onboarding form.
+
+1510
+00:36:53,849 --> 00:36:55,550
+We set up a Skylite account and
+
+1511
+00:36:55,550 --> 00:36:57,300
+then we ask for their Calendly
+
+1512
+00:36:57,300 --> 00:36:58,920
+credentials through the onboarding
+
+1513
+00:36:59,010 --> 00:36:59,219
+form.
+
+1514
+00:36:59,250 --> 00:37:00,409
+And then if they don't have it,
+
+1515
+00:37:00,409 --> 00:37:01,159
+we'll set it up.
+
+1516
+00:37:01,159 --> 00:37:02,599
+But basically the credentials are
+
+1517
+00:37:02,599 --> 00:37:03,320
+all there.
+
+1518
+00:37:03,409 --> 00:37:05,489
+And the clients especially love
+
+1519
+00:37:05,489 --> 00:37:07,949
+this because it's transparency.
+
+1520
+00:37:07,960 --> 00:37:09,239
+We're giving them credentials
+
+1521
+00:37:09,280 --> 00:37:10,889
+to all the different tools we're
+
+1522
+00:37:10,889 --> 00:37:12,679
+using to perform our services.
+
+1523
+00:37:12,679 --> 00:37:14,519
+So even though the client will
+
+1524
+00:37:14,849 --> 00:37:16,300
+probably never log into the cold
+
+1525
+00:37:16,320 --> 00:37:18,010
+email account or never log into
+
+1526
+00:37:18,010 --> 00:37:20,090
+Skylite, they at least have access
+
+1527
+00:37:20,210 --> 00:37:21,750
+and they know they have access,
+
+1528
+00:37:21,750 --> 00:37:23,380
+which gives them peace of mind to
+
+1529
+00:37:23,440 --> 00:37:24,920
+say, Hey, we're not doing anything
+
+1530
+00:37:25,139 --> 00:37:25,480
+fishy.
+
+1531
+00:37:25,480 --> 00:37:27,250
+Like everything we're doing is
+
+1532
+00:37:27,429 --> 00:37:29,110
+transparent and right there in
+
+1533
+00:37:29,119 --> 00:37:30,900
+front of you to review, ask
+
+1534
+00:37:31,010 --> 00:37:31,400
+questions
+
+1535
+00:37:31,619 --> 00:37:33,320
+about, give feedback on, and
+
+1536
+00:37:33,320 --> 00:37:35,460
+clients really love that about our
+
+1537
+00:37:35,579 --> 00:37:36,280
+process.
+
+1538
+00:37:36,280 --> 00:37:37,719
+So I'd recommend, you know,
+
+1539
+00:37:38,070 --> 00:37:39,889
+implementing something similar if
+
+1540
+00:37:39,889 --> 00:37:42,039
+that's something you want to do.
+
+1541
+00:37:42,039 --> 00:37:44,679
+And then, so we already talked
+
+1542
+00:37:44,889 --> 00:37:46,269
+about educational resources
+
+1543
+00:37:46,269 --> 00:37:48,030
+basically being just SOPs for the
+
+1544
+00:37:48,030 --> 00:37:49,639
+actual client on what to do now
+
+1545
+00:37:49,760 --> 00:37:49,800
+that
+
+1546
+00:37:49,889 --> 00:37:51,179
+they're our client and then the
+
+1547
+00:37:51,179 --> 00:37:52,760
+to-do list and completed tasks.
+
+1548
+00:37:52,760 --> 00:37:53,590
+So the last thing is campaign
+
+1549
+00:37:54,309 --> 00:37:55,000
+resources.
+
+1550
+00:37:55,000 --> 00:37:57,440
+This again is super specific to
+
+1551
+00:37:57,440 --> 00:37:58,590
+our agency.
+
+1552
+00:37:58,599 --> 00:38:01,650
+Our agency is a lead generation
+
+1553
+00:38:01,710 --> 00:38:02,280
+agency where
+
+1554
+00:38:02,320 --> 00:38:03,780
+we're scheduling calls for our
+
+1555
+00:38:03,780 --> 00:38:04,360
+client.
+
+1556
+00:38:04,360 --> 00:38:06,849
+So campaign resources could be
+
+1557
+00:38:06,849 --> 00:38:09,239
+whatever makes sense for you
+
+1558
+00:38:09,570 --> 00:38:10,860
+depending on the services you're
+
+1559
+00:38:10,860 --> 00:38:11,500
+offering.
+
+1560
+00:38:11,500 --> 00:38:12,940
+But that first card and another
+
+1561
+00:38:12,989 --> 00:38:14,039
+card down here could
+
+1562
+00:38:14,079 --> 00:38:14,940
+be the same for you.
+
+1563
+00:38:14,940 --> 00:38:15,989
+So the first one is client
+
+1564
+00:38:15,989 --> 00:38:17,289
+onboarding form responses.
+
+1565
+00:38:17,360 --> 00:38:18,760
+So as soon as you get
+
+1566
+00:38:18,849 --> 00:38:20,340
+that onboarding form filled out by
+
+1567
+00:38:20,340 --> 00:38:21,920
+the client, whether it be through
+
+1568
+00:38:21,920 --> 00:38:23,480
+Google forms or type form or
+
+1569
+00:38:23,480 --> 00:38:23,730
+something
+
+1570
+00:38:23,889 --> 00:38:25,460
+you have on your website, you want
+
+1571
+00:38:25,460 --> 00:38:26,780
+to have the onboarding form
+
+1572
+00:38:26,780 --> 00:38:28,119
+responses available here.
+
+1573
+00:38:28,119 --> 00:38:28,280
+The
+
+1574
+00:38:28,610 --> 00:38:30,599
+reason I like using Google forms
+
+1575
+00:38:30,849 --> 00:38:32,760
+is because I could download it as
+
+1576
+00:38:32,760 --> 00:38:34,909
+a PDF and just upload it here to
+
+1577
+00:38:34,940 --> 00:38:36,320
+this card, which makes it really
+
+1578
+00:38:36,579 --> 00:38:38,630
+easy for everyone to refer back to
+
+1579
+00:38:38,630 --> 00:38:40,659
+the questions and answers that the
+
+1580
+00:38:40,659 --> 00:38:41,719
+client filled out.
+
+1581
+00:38:41,769 --> 00:38:43,289
+And our onboarding form responses,
+
+1582
+00:38:43,289 --> 00:38:44,829
+again, there's going to be another
+
+1583
+00:38:44,829 --> 00:38:46,119
+video on this, explaining it
+
+1584
+00:38:46,210 --> 00:38:46,420
+further.
+
+1585
+00:38:46,489 --> 00:38:49,349
+But our onboarding form responses,
+
+1586
+00:38:49,349 --> 00:38:51,639
+we always refer back to those
+
+1587
+00:38:51,639 --> 00:38:53,000
+because there's
+
+1588
+00:38:53,090 --> 00:38:54,670
+all the information we'll ever
+
+1589
+00:38:54,670 --> 00:38:56,090
+need to know to perform our
+
+1590
+00:38:56,090 --> 00:38:56,699
+services.
+
+1591
+00:38:56,699 --> 00:38:58,570
+So that's why it's like at the
+
+1592
+00:38:58,699 --> 00:38:58,920
+very
+
+1593
+00:38:59,010 --> 00:38:59,320
+top.
+
+1594
+00:38:59,320 --> 00:39:01,250
+And then there's another card down
+
+1595
+00:39:01,429 --> 00:39:02,619
+here called any additional
+
+1596
+00:39:03,099 --> 00:39:03,800
+resources.
+
+1597
+00:39:03,800 --> 00:39:05,159
+So we use this card like
+
+1598
+00:39:05,369 --> 00:39:06,820
+this is for the client.
+
+1599
+00:39:06,820 --> 00:39:10,130
+Anytime they have, uh, like case
+
+1600
+00:39:10,260 --> 00:39:11,880
+studies or new information that
+
+1601
+00:39:11,880 --> 00:39:12,440
+they want us
+
+1602
+00:39:12,530 --> 00:39:15,690
+to include, um, in, in like their
+
+1603
+00:39:15,760 --> 00:39:18,599
+campaigns or use to perform our
+
+1604
+00:39:18,599 --> 00:39:19,880
+services.
+
+1605
+00:39:19,880 --> 00:39:20,840
+Cause obviously when they
+
+1606
+00:39:20,929 --> 00:39:21,989
+fill up that onboarding form,
+
+1607
+00:39:22,130 --> 00:39:23,099
+they're still writing their
+
+1608
+00:39:23,099 --> 00:39:23,590
+business.
+
+1609
+00:39:23,590 --> 00:39:24,900
+So they might create a new case
+
+1610
+00:39:25,019 --> 00:39:25,239
+study
+
+1611
+00:39:25,289 --> 00:39:26,909
+or get a new video testimonial
+
+1612
+00:39:26,909 --> 00:39:28,659
+from a client, something that
+
+1613
+00:39:28,659 --> 00:39:30,119
+might help us to get better
+
+1614
+00:39:30,119 --> 00:39:30,519
+results
+
+1615
+00:39:30,610 --> 00:39:31,610
+with our services.
+
+1616
+00:39:31,610 --> 00:39:33,239
+That's what this card is for.
+
+1617
+00:39:33,239 --> 00:39:34,679
+If they have like a customer list,
+
+1618
+00:39:34,769 --> 00:39:36,190
+they want to exclude whatever it
+
+1619
+00:39:36,190 --> 00:39:37,429
+might be, any additional
+
+1620
+00:39:37,429 --> 00:39:38,369
+resources, really
+
+1621
+00:39:38,429 --> 00:39:39,719
+self-explainable.
+
+1622
+00:39:39,809 --> 00:39:42,050
+It's helpful to have both these,
+
+1623
+00:39:42,230 --> 00:39:44,349
+uh, like cards or places to have
+
+1624
+00:39:44,349 --> 00:39:45,000
+both of these,
+
+1625
+00:39:45,090 --> 00:39:46,820
+the onboarding form responses, and
+
+1626
+00:39:46,820 --> 00:39:48,239
+then a card for the client to
+
+1627
+00:39:48,239 --> 00:39:49,800
+continue to provide you with any
+
+1628
+00:39:50,150 --> 00:39:51,260
+additional resources.
+
+1629
+00:39:51,260 --> 00:39:52,840
+And again, this card you'll
+
+1630
+00:39:52,840 --> 00:39:54,360
+explain to the client on the
+
+1631
+00:39:54,360 --> 00:39:55,639
+onboarding call
+
+1632
+00:39:55,730 --> 00:39:56,789
+what it's used for.
+
+1633
+00:39:56,929 --> 00:39:58,440
+So they know like, Oh, I have
+
+1634
+00:39:58,440 --> 00:40:00,199
+this, this testimonial.
+
+1635
+00:40:00,199 --> 00:40:01,159
+Should I email it to
+
+1636
+00:40:01,250 --> 00:40:01,489
+them?
+
+1637
+00:40:01,530 --> 00:40:02,599
+Should I send it to Slack?
+
+1638
+00:40:02,599 --> 00:40:04,530
+No, you should upload it to this
+
+1639
+00:40:04,530 --> 00:40:05,789
+card here in Trello.
+
+1640
+00:40:06,550 --> 00:40:07,239
+Okay.
+
+1641
+00:40:07,239 --> 00:40:10,409
+Um, so it's just training the
+
+1642
+00:40:10,409 --> 00:40:11,760
+client on how to be an active
+
+1643
+00:40:11,760 --> 00:40:12,679
+participant in the working
+
+1644
+00:40:13,010 --> 00:40:13,239
+relationship.
+
+1645
+00:40:13,239 --> 00:40:15,539
+Other than that, we have a leads
+
+1646
+00:40:15,539 --> 00:40:17,239
+list tracker spreadsheet.
+
+1647
+00:40:17,239 --> 00:40:18,269
+So that's like, again,
+
+1648
+00:40:18,710 --> 00:40:20,150
+specific to our services.
+
+1649
+00:40:20,150 --> 00:40:22,050
+And then we have our scripts for
+
+1650
+00:40:22,070 --> 00:40:23,239
+our campaigns.
+
+1651
+00:40:23,239 --> 00:40:24,519
+So the client at any
+
+1652
+00:40:24,610 --> 00:40:26,179
+time can access the leads list and
+
+1653
+00:40:26,179 --> 00:40:27,719
+they could see what the scripts
+
+1654
+00:40:27,719 --> 00:40:29,079
+are that we're sending.
+
+1655
+00:40:29,079 --> 00:40:29,489
+And again,
+
+1656
+00:40:29,650 --> 00:40:31,480
+for transparency purposes, they
+
+1657
+00:40:31,480 --> 00:40:32,199
+love this.
+
+1658
+00:40:32,199 --> 00:40:34,199
+Like they get to see everything
+
+1659
+00:40:34,199 --> 00:40:35,400
+that we're using and
+
+1660
+00:40:35,730 --> 00:40:36,789
+everything that we're doing.
+
+1661
+00:40:36,789 --> 00:40:38,199
+Like there's nothing happening
+
+1662
+00:40:38,199 --> 00:40:39,409
+behind the scenes that that
+
+1663
+00:40:39,579 --> 00:40:40,030
+they're not
+
+1664
+00:40:40,250 --> 00:40:41,789
+aware of and that they didn't sign
+
+1665
+00:40:41,789 --> 00:40:43,730
+off on, or they're not okay with.
+
+1666
+00:40:43,800 --> 00:40:45,159
+Um, other than that,
+
+1667
+00:40:45,199 --> 00:40:46,309
+we have a sales appointment
+
+1668
+00:40:46,449 --> 00:40:47,239
+feedback form.
+
+1669
+00:40:47,239 --> 00:40:49,110
+So basically again, our service is
+
+1670
+00:40:49,340 --> 00:40:50,039
+lead generation
+
+1671
+00:40:50,690 --> 00:40:52,679
+and we're getting clients on
+
+1672
+00:40:52,679 --> 00:40:55,159
+calls, uh, or on sales calls.
+
+1673
+00:40:55,159 --> 00:40:58,340
+So we collect feedback after every
+
+1674
+00:40:58,650 --> 00:40:59,099
+sales call.
+
+1675
+00:40:59,099 --> 00:41:00,519
+And we just have that, uh, as a
+
+1676
+00:41:00,519 --> 00:41:01,639
+card here in Trello.
+
+1677
+00:41:01,639 --> 00:41:03,400
+And again, with like a lot of the
+
+1678
+00:41:03,719 --> 00:41:05,039
+things we do, we have the form
+
+1679
+00:41:05,039 --> 00:41:07,190
+here in Google, and I'll just open
+
+1680
+00:41:07,579 --> 00:41:09,880
+this in case you're interested in
+
+1681
+00:41:10,099 --> 00:41:11,440
+seeing, because I think having a
+
+1682
+00:41:11,440 --> 00:41:13,059
+feedback loop, regardless of the
+
+1683
+00:41:13,059 --> 00:41:14,360
+agency you're running is
+
+1684
+00:41:14,360 --> 00:41:14,760
+important.
+
+1685
+00:41:14,809 --> 00:41:16,380
+So we have a feedback loop with
+
+1686
+00:41:16,380 --> 00:41:17,090
+our clients.
+
+1687
+00:41:17,269 --> 00:41:18,440
+Every time they get on a sales
+
+1688
+00:41:18,440 --> 00:41:18,920
+appointment,
+
+1689
+00:41:19,010 --> 00:41:20,019
+they fill out this form.
+
+1690
+00:41:20,019 --> 00:41:21,250
+They tell us their email, they
+
+1691
+00:41:21,429 --> 00:41:22,599
+tell us the name of the prospect
+
+1692
+00:41:22,599 --> 00:41:22,840
+they're
+
+1693
+00:41:23,190 --> 00:41:24,300
+providing feedback on.
+
+1694
+00:41:24,300 --> 00:41:25,690
+We ask if the client or the
+
+1695
+00:41:25,690 --> 00:41:27,500
+prospect showed up, we ask them to
+
+1696
+00:41:27,500 --> 00:41:27,960
+score the
+
+1697
+00:41:28,179 --> 00:41:29,329
+quality of the appointment with
+
+1698
+00:41:29,329 --> 00:41:30,780
+the prospect, and then tell us the
+
+1699
+00:41:30,780 --> 00:41:32,360
+detailed reasoning for the score
+
+1700
+00:41:32,449 --> 00:41:34,039
+and anything else we might need to
+
+1701
+00:41:34,039 --> 00:41:35,559
+know to make improvements.
+
+1702
+00:41:35,559 --> 00:41:37,719
+So even though you don't run,
+
+1703
+00:41:37,769 --> 00:41:39,239
+or you might not run elite
+
+1704
+00:41:39,239 --> 00:41:40,619
+generation agency or a
+
+1705
+00:41:40,619 --> 00:41:42,519
+pay-per-call agency like I do,
+
+1706
+00:41:43,650 --> 00:41:45,500
+use something similar where you
+
+1707
+00:41:45,500 --> 00:41:47,230
+could create a feedback loop
+
+1708
+00:41:47,230 --> 00:41:49,719
+behind, uh, a feedback loop
+
+1709
+00:41:49,719 --> 00:41:50,039
+between
+
+1710
+00:41:50,130 --> 00:41:51,750
+you and your client so that they
+
+1711
+00:41:51,750 --> 00:41:53,579
+can be an active participant in
+
+1712
+00:41:53,579 --> 00:41:55,239
+the relationship.
+
+1713
+00:41:55,239 --> 00:41:56,280
+Otherwise,
+
+1714
+00:41:56,369 --> 00:41:57,429
+they're going to feel left out.
+
+1715
+00:41:57,570 --> 00:41:59,079
+This has been one of the best
+
+1716
+00:41:59,079 --> 00:42:00,679
+things we ever implemented
+
+1717
+00:42:01,010 --> 00:42:02,489
+because we're not just so that
+
+1718
+00:42:02,489 --> 00:42:04,190
+they could feel involved, but
+
+1719
+00:42:04,190 --> 00:42:05,559
+because we actually value our
+
+1720
+00:42:05,559 --> 00:42:05,880
+client's
+
+1721
+00:42:06,199 --> 00:42:06,449
+feedback.
+
+1722
+00:42:06,449 --> 00:42:07,849
+They could tell us whether or not
+
+1723
+00:42:07,849 --> 00:42:09,320
+a sales appointment is valuable
+
+1724
+00:42:09,320 --> 00:42:10,440
+and we can learn from
+
+1725
+00:42:10,650 --> 00:42:12,460
+that and adjust our targeting or
+
+1726
+00:42:12,460 --> 00:42:14,570
+just our scripting or whatever, or
+
+1727
+00:42:14,619 --> 00:42:16,150
+our qualification process like
+
+1728
+00:42:16,219 --> 00:42:16,429
+this
+
+1729
+00:42:16,769 --> 00:42:18,269
+is valuable feedback.
+
+1730
+00:42:18,269 --> 00:42:20,760
+So again, a reoccurring theme here
+
+1731
+00:42:20,760 --> 00:42:24,679
+is that the clients, if you can
+
+1732
+00:42:24,679 --> 00:42:25,400
+get them to be
+
+1733
+00:42:25,449 --> 00:42:27,239
+an active participant in the
+
+1734
+00:42:27,239 --> 00:42:29,860
+working relationship, the chances
+
+1735
+00:42:29,860 --> 00:42:31,820
+that you have success with that
+
+1736
+00:42:31,820 --> 00:42:32,199
+client
+
+1737
+00:42:32,289 --> 00:42:34,199
+skyrockets, I promise you.
+
+1738
+00:42:34,199 --> 00:42:36,920
+I've seen it happen time and time
+
+1739
+00:42:36,920 --> 00:42:37,480
+again.
+
+1740
+00:42:37,480 --> 00:42:38,679
+We've had clients that have
+
+1741
+00:42:38,730 --> 00:42:40,289
+so much potential and we, we
+
+1742
+00:42:40,289 --> 00:42:42,059
+showcase that potential and we
+
+1743
+00:42:42,059 --> 00:42:43,639
+show it to the client and they're
+
+1744
+00:42:43,639 --> 00:42:44,199
+just not
+
+1745
+00:42:44,519 --> 00:42:44,760
+engaging.
+
+1746
+00:42:44,760 --> 00:42:45,820
+They're not involved.
+
+1747
+00:42:45,820 --> 00:42:46,929
+They're not available for
+
+1748
+00:42:46,929 --> 00:42:47,530
+questions.
+
+1749
+00:42:47,539 --> 00:42:49,079
+They're not available to get on a
+
+1750
+00:42:49,079 --> 00:42:49,320
+quick
+
+1751
+00:42:49,409 --> 00:42:49,610
+call.
+
+1752
+00:42:49,650 --> 00:42:50,619
+They're not filling out the
+
+1753
+00:42:50,619 --> 00:42:51,320
+feedback form.
+
+1754
+00:42:51,320 --> 00:42:53,880
+Those relationships don't last.
+
+1755
+00:42:53,880 --> 00:42:55,000
+They just don't
+
+1756
+00:42:55,090 --> 00:42:55,300
+last.
+
+1757
+00:42:55,380 --> 00:42:57,159
+That's the reality of it.
+
+1758
+00:42:57,159 --> 00:42:59,159
+So by putting these systems in
+
+1759
+00:42:59,179 --> 00:43:01,250
+place day one, right after someone
+
+1760
+00:43:01,380 --> 00:43:01,639
+signs
+
+1761
+00:43:01,849 --> 00:43:03,719
+your service agreement, you're
+
+1762
+00:43:03,719 --> 00:43:06,889
+putting good standards in place
+
+1763
+00:43:06,889 --> 00:43:08,599
+and expectations in place that
+
+1764
+00:43:08,599 --> 00:43:09,320
+will carry
+
+1765
+00:43:09,650 --> 00:43:10,829
+throughout the relationship.
+
+1766
+00:43:10,829 --> 00:43:12,360
+And I already admitted, we've had
+
+1767
+00:43:12,360 --> 00:43:14,280
+clients that just aren't active.
+
+1768
+00:43:14,429 --> 00:43:15,239
+And we do all
+
+1769
+00:43:15,460 --> 00:43:17,469
+this stuff the same way we do with
+
+1770
+00:43:17,469 --> 00:43:19,719
+any other client that we sign on
+
+1771
+00:43:19,719 --> 00:43:21,000
+and they're still not active for
+
+1772
+00:43:21,320 --> 00:43:21,809
+whatever reason.
+
+1773
+00:43:21,880 --> 00:43:23,119
+So it's not a hundred percent
+
+1774
+00:43:23,119 --> 00:43:23,849
+success rate.
+
+1775
+00:43:23,849 --> 00:43:24,969
+We can't always control other
+
+1776
+00:43:25,179 --> 00:43:25,559
+people,
+
+1777
+00:43:25,769 --> 00:43:28,280
+but this is everything we can do
+
+1778
+00:43:28,280 --> 00:43:30,530
+in our control to help the
+
+1779
+00:43:30,659 --> 00:43:32,519
+situation, at least from my
+
+1780
+00:43:32,519 --> 00:43:33,000
+understanding.
+
+1781
+00:43:33,050 --> 00:43:34,599
+Oh, and just to touch back on
+
+1782
+00:43:34,599 --> 00:43:37,239
+this, we have the feedback form.
+
+1783
+00:43:37,239 --> 00:43:38,579
+And then again, I have a loom
+
+1784
+00:43:38,780 --> 00:43:39,159
+video.
+
+1785
+00:43:39,250 --> 00:43:41,699
+So loom is super important to, as
+
+1786
+00:43:41,699 --> 00:43:43,659
+an agency, because you could just
+
+1787
+00:43:43,659 --> 00:43:44,519
+record SOPs.
+
+1788
+00:43:44,610 --> 00:43:46,550
+So I have an SOP here where I'm
+
+1789
+00:43:46,550 --> 00:43:49,179
+recording myself explaining the
+
+1790
+00:43:49,179 --> 00:43:50,760
+feedback form so that they know,
+
+1791
+00:43:50,809 --> 00:43:51,889
+like, what is this actually used
+
+1792
+00:43:51,889 --> 00:43:52,199
+for?
+
+1793
+00:43:52,199 --> 00:43:53,000
+Why does it matter?
+
+1794
+00:43:53,000 --> 00:43:55,159
+Why should they invest their time
+
+1795
+00:43:55,250 --> 00:43:57,030
+into filling out the feedback form
+
+1796
+00:43:57,030 --> 00:43:58,719
+every single day or anytime they
+
+1797
+00:43:58,719 --> 00:43:59,730
+get on a sales call?
+
+1798
+00:43:59,730 --> 00:43:59,960
+Because
+
+1799
+00:44:00,000 --> 00:44:01,480
+it's still, it's a time investment
+
+1800
+00:44:01,480 --> 00:44:02,039
+for them.
+
+1801
+00:44:02,039 --> 00:44:04,610
+So I'm explaining how it's used
+
+1802
+00:44:04,610 --> 00:44:06,199
+and why it's important
+
+1803
+00:44:06,289 --> 00:44:07,690
+and making sure that there's no
+
+1804
+00:44:07,690 --> 00:44:09,010
+questions or that all their
+
+1805
+00:44:09,019 --> 00:44:11,000
+questions are answered more
+
+1806
+00:44:11,000 --> 00:44:12,119
+specifically.
+
+1807
+00:44:12,469 --> 00:44:16,840
+So I think I covered everything
+
+1808
+00:44:16,840 --> 00:44:17,690
+here in this video.
+
+1809
+00:44:17,900 --> 00:44:19,860
+And man, I gotta, I gotta be
+
+1810
+00:44:20,260 --> 00:44:20,920
+careful.
+
+1811
+00:44:20,920 --> 00:44:21,550
+I've been doing
+
+1812
+00:44:21,860 --> 00:44:23,480
+videos for this program and a lot
+
+1813
+00:44:23,480 --> 00:44:25,599
+of them are going like close to an
+
+1814
+00:44:25,820 --> 00:44:28,360
+hour on end without stopping and
+
+1815
+00:44:28,409 --> 00:44:29,510
+And I might lose my voice.
+
+1816
+00:44:29,650 --> 00:44:32,900
+So I gotta be really careful, uh,
+
+1817
+00:44:32,900 --> 00:44:33,719
+with this stuff.
+
+1818
+00:44:33,719 --> 00:44:34,280
+But anyways,
+
+1819
+00:44:34,599 --> 00:44:37,070
+with all that being said, just to
+
+1820
+00:44:37,070 --> 00:44:40,119
+recap, it's again, so important to
+
+1821
+00:44:40,119 --> 00:44:41,639
+properly communicate with
+
+1822
+00:44:41,960 --> 00:44:43,960
+your clients and to also set
+
+1823
+00:44:44,150 --> 00:44:46,309
+expectations and answer any
+
+1824
+00:44:46,320 --> 00:44:48,519
+questions that are looming in
+
+1825
+00:44:48,519 --> 00:44:48,639
+their
+
+1826
+00:44:48,889 --> 00:44:50,119
+brain as soon as they sign the
+
+1827
+00:44:50,119 --> 00:44:50,780
+contract.
+
+1828
+00:44:50,780 --> 00:44:52,869
+Once they sign the contract, that
+
+1829
+00:44:52,869 --> 00:44:54,250
+is like basically the race
+
+1830
+00:44:54,570 --> 00:44:54,840
+begins.
+
+1831
+00:44:54,840 --> 00:44:56,360
+You, you hit start.
+
+1832
+00:44:56,360 --> 00:44:57,579
+You're the game started.
+
+1833
+00:44:57,579 --> 00:44:58,059
+You're in.
+
+1834
+00:44:58,059 --> 00:44:58,840
+That's it.
+
+1835
+00:44:58,840 --> 00:45:00,599
+It's go time.
+
+1836
+00:45:00,690 --> 00:45:02,760
+And once they sign the contract,
+
+1837
+00:45:02,760 --> 00:45:04,329
+you want to have systems and
+
+1838
+00:45:04,780 --> 00:45:07,000
+processes in place to follow
+
+1839
+00:45:07,000 --> 00:45:07,480
+without
+
+1840
+00:45:07,570 --> 00:45:07,710
+question.
+
+1841
+00:45:07,829 --> 00:45:09,710
+Like mindlessly, anyone can follow
+
+1842
+00:45:09,710 --> 00:45:10,199
+this.
+
+1843
+00:45:10,199 --> 00:45:12,110
+It's like an instruction manual
+
+1844
+00:45:12,119 --> 00:45:12,920
+where you go into
+
+1845
+00:45:13,010 --> 00:45:14,809
+Trello or you go into Notion and
+
+1846
+00:45:14,809 --> 00:45:16,610
+you copy a project management
+
+1847
+00:45:16,630 --> 00:45:18,489
+board and you know exactly the
+
+1848
+00:45:18,619 --> 00:45:18,840
+steps
+
+1849
+00:45:19,050 --> 00:45:20,579
+that have to take place to get
+
+1850
+00:45:20,579 --> 00:45:22,039
+this client signed.
+
+1851
+00:45:22,039 --> 00:45:24,550
+And basically the steps that we
+
+1852
+00:45:24,619 --> 00:45:25,320
+took was
+
+1853
+00:45:25,650 --> 00:45:27,570
+setting up a Trello board, getting
+
+1854
+00:45:27,570 --> 00:45:29,019
+the signed service agreement
+
+1855
+00:45:29,500 --> 00:45:32,199
+uploaded to Trello, um, saying
+
+1856
+00:45:32,199 --> 00:45:32,599
+what,
+
+1857
+00:45:32,690 --> 00:45:34,389
+when the signed service agreement
+
+1858
+00:45:34,389 --> 00:45:36,110
+was signed and including the date
+
+1859
+00:45:36,110 --> 00:45:38,119
+in that card, sending an invoice,
+
+1860
+00:45:38,340 --> 00:45:39,269
+waiting for the client to pay the
+
+1861
+00:45:39,409 --> 00:45:40,639
+invoice, setting up the Trello
+
+1862
+00:45:40,639 --> 00:45:41,820
+board, inviting all the people
+
+1863
+00:45:42,300 --> 00:45:42,360
+that
+
+1864
+00:45:42,449 --> 00:45:44,090
+need to be invited to the Trello
+
+1865
+00:45:44,090 --> 00:45:45,610
+board, setting up a Dropbox
+
+1866
+00:45:45,679 --> 00:45:48,610
+folder, setting up Slack channels,
+
+1867
+00:45:48,739 --> 00:45:49,360
+uh,
+
+1868
+00:45:49,619 --> 00:45:51,219
+adding different things to some of
+
+1869
+00:45:51,219 --> 00:45:53,090
+our internal processes that aren't
+
+1870
+00:45:53,090 --> 00:45:54,969
+really worth explaining because
+
+1871
+00:45:55,289 --> 00:45:56,699
+again, it's, it's very, very
+
+1872
+00:45:56,699 --> 00:45:58,079
+specific to the way we do our
+
+1873
+00:45:58,079 --> 00:45:58,760
+business.
+
+1874
+00:45:58,760 --> 00:46:01,480
+But again, like think in terms of
+
+1875
+00:46:01,690 --> 00:46:02,980
+what do I have to do that is
+
+1876
+00:46:02,980 --> 00:46:04,739
+similar to what KnowledgeX is
+
+1877
+00:46:04,800 --> 00:46:05,719
+doing here?
+
+1878
+00:46:05,719 --> 00:46:06,920
+What do I have to do that's
+
+1879
+00:46:07,139 --> 00:46:08,070
+similar to what KnowledgeX is
+
+1880
+00:46:08,210 --> 00:46:08,769
+doing here?
+
+1881
+00:46:08,769 --> 00:46:10,170
+Like, do I have to assign someone
+
+1882
+00:46:10,170 --> 00:46:11,320
+to this account?
+
+1883
+00:46:11,360 --> 00:46:12,840
+Do I have a project manager?
+
+1884
+00:46:12,840 --> 00:46:14,440
+Do I have an account manager?
+
+1885
+00:46:14,440 --> 00:46:16,039
+Do I have inbox managers that I
+
+1886
+00:46:16,039 --> 00:46:16,289
+have to
+
+1887
+00:46:16,570 --> 00:46:17,480
+assign to new clients?
+
+1888
+00:46:17,480 --> 00:46:19,610
+If so, replace what you're doing
+
+1889
+00:46:19,610 --> 00:46:21,820
+with what we're saying here.
+
+1890
+00:46:21,820 --> 00:46:22,590
+Um, and then
+
+1891
+00:46:22,690 --> 00:46:24,239
+send an onboarding for email.
+
+1892
+00:46:24,239 --> 00:46:25,820
+And that onboarding email is,
+
+1893
+00:46:25,820 --> 00:46:27,909
+should be sent again, the same
+
+1894
+00:46:27,909 --> 00:46:28,280
+day,
+
+1895
+00:46:28,369 --> 00:46:30,019
+for sure, the same day that the
+
+1896
+00:46:30,019 --> 00:46:31,980
+client signs the contract so that
+
+1897
+00:46:32,460 --> 00:46:34,920
+they get the sense it's automated
+
+1898
+00:46:35,010 --> 00:46:37,130
+for how fast the turnaround is.
+
+1899
+00:46:37,130 --> 00:46:39,099
+And if you do it like that, and
+
+1900
+00:46:39,099 --> 00:46:40,489
+you include all this information
+
+1901
+00:46:40,619 --> 00:46:40,760
+that
+
+1902
+00:46:40,849 --> 00:46:42,440
+you're seeing here, you let them
+
+1903
+00:46:42,440 --> 00:46:44,000
+know that you can't start until
+
+1904
+00:46:44,000 --> 00:46:45,159
+the setup fees paid.
+
+1905
+00:46:45,159 --> 00:46:45,880
+You let them know
+
+1906
+00:46:45,929 --> 00:46:47,030
+all the steps that you need them
+
+1907
+00:46:47,170 --> 00:46:48,449
+to take to make this relationship
+
+1908
+00:46:48,449 --> 00:46:49,480
+a smashing success.
+
+1909
+00:46:49,480 --> 00:46:51,559
+I guarantee you,
+
+1910
+00:46:51,610 --> 00:46:53,269
+if you start here with these
+
+1911
+00:46:53,269 --> 00:46:55,260
+processes, not only is your agency
+
+1912
+00:46:55,739 --> 00:46:57,400
+going to run a lot more smoothly
+
+1913
+00:46:57,400 --> 00:46:57,550
+and
+
+1914
+00:46:57,610 --> 00:46:59,369
+be a lot more organized, but your
+
+1915
+00:46:59,369 --> 00:47:01,190
+clients are really going to see it
+
+1916
+00:47:01,190 --> 00:47:03,599
+and appreciate it and be retained
+
+1917
+00:47:03,650 --> 00:47:03,719
+a
+
+1918
+00:47:03,809 --> 00:47:05,079
+lot longer because of it.
+
+1919
+00:47:05,079 --> 00:47:07,309
+It's just really simple stuff,
+
+1920
+00:47:07,309 --> 00:47:07,960
+guys.
+
+1921
+00:47:07,960 --> 00:47:09,880
+It's, it's, it's also necessary.
+
+1922
+00:47:09,969 --> 00:47:11,699
+Like, I would rather have this in
+
+1923
+00:47:11,699 --> 00:47:13,570
+place than running an agency where
+
+1924
+00:47:13,599 --> 00:47:14,679
+I sign a client and I
+
+1925
+00:47:14,889 --> 00:47:16,489
+just am kind of going off of my
+
+1926
+00:47:16,489 --> 00:47:18,670
+memory of, Oh, what do I do now?
+
+1927
+00:47:18,860 --> 00:47:20,039
+Because even for you, like,
+
+1928
+00:47:20,130 --> 00:47:21,480
+this is serving you as much as it
+
+1929
+00:47:21,480 --> 00:47:22,269
+is the client.
+
+1930
+00:47:22,269 --> 00:47:23,650
+Like, what do you do when a new
+
+1931
+00:47:23,650 --> 00:47:24,599
+client signed?
+
+1932
+00:47:24,820 --> 00:47:25,130
+Right?
+
+1933
+00:47:25,130 --> 00:47:26,769
+Like, it's not always an easy
+
+1934
+00:47:26,769 --> 00:47:27,369
+answer.
+
+1935
+00:47:27,369 --> 00:47:29,309
+And sometimes you'll forget, but
+
+1936
+00:47:29,309 --> 00:47:30,170
+if you have it all
+
+1937
+00:47:30,550 --> 00:47:32,519
+documented, this is like creating
+
+1938
+00:47:32,530 --> 00:47:33,130
+an SOP.
+
+1939
+00:47:33,130 --> 00:47:35,159
+And also the best thing you could
+
+1940
+00:47:35,309 --> 00:47:36,190
+ever do for client
+
+1941
+00:47:36,610 --> 00:47:37,789
+retention all in one video.
+
+1942
+00:47:37,789 --> 00:47:39,099
+Like this could be the most
+
+1943
+00:47:39,099 --> 00:47:41,159
+valuable video that I create in
+
+1944
+00:47:41,159 --> 00:47:41,849
+this entire
+
+1945
+00:47:42,230 --> 00:47:42,690
+program.
+
+1946
+00:47:42,760 --> 00:47:45,019
+And I hope you agree, or at least
+
+1947
+00:47:45,019 --> 00:47:47,400
+we'll consider it because I think
+
+1948
+00:47:47,400 --> 00:47:48,519
+this is like,
+
+1949
+00:47:48,739 --> 00:47:50,760
+again, just from our experience,
+
+1950
+00:47:50,760 --> 00:47:52,920
+we get complimented on this stuff
+
+1951
+00:47:52,920 --> 00:47:54,760
+more than anything else in our
+
+1952
+00:47:54,900 --> 00:47:55,239
+agency.
+
+1953
+00:47:55,329 --> 00:47:56,940
+And it's consistent and it's
+
+1954
+00:47:56,940 --> 00:47:58,969
+really meaningful compliments.
+
+1955
+00:47:59,400 --> 00:48:00,039
+Like, wow.
+
+1956
+00:48:00,039 --> 00:48:01,239
+And from big companies,
+
+1957
+00:48:01,329 --> 00:48:03,289
+like fortune 500 companies saying,
+
+1958
+00:48:03,289 --> 00:48:04,829
+wow, like we really need to brush
+
+1959
+00:48:04,829 --> 00:48:06,199
+up our onboarding process.
+
+1960
+00:48:06,289 --> 00:48:06,840
+This is great.
+
+1961
+00:48:06,840 --> 00:48:07,639
+Or wow.
+
+1962
+00:48:07,639 --> 00:48:09,110
+You give me a bunch of ideas on
+
+1963
+00:48:09,110 --> 00:48:10,599
+how I can make my onboarding
+
+1964
+00:48:10,599 --> 00:48:11,400
+process or my
+
+1965
+00:48:11,750 --> 00:48:13,320
+business run a lot smoother or
+
+1966
+00:48:13,320 --> 00:48:15,000
+more professionally.
+
+1967
+00:48:15,000 --> 00:48:17,960
+So I'm, we just gave you the, the,
+
+1968
+00:48:17,960 --> 00:48:18,679
+we just gave you
+
+1969
+00:48:18,719 --> 00:48:19,130
+it all.
+
+1970
+00:48:19,130 --> 00:48:20,619
+I just showed you exactly how we
+
+1971
+00:48:20,619 --> 00:48:21,900
+get those compliments.
+
+1972
+00:48:21,900 --> 00:48:24,199
+And again, the biggest thing that
+
+1973
+00:48:24,420 --> 00:48:26,519
+what I'll end this video with is
+
+1974
+00:48:26,710 --> 00:48:29,170
+make it unique to your business.
+
+1975
+00:48:29,300 --> 00:48:31,639
+Copying everything you're seeing
+
+1976
+00:48:31,730 --> 00:48:33,239
+here is not going to do you any
+
+1977
+00:48:33,239 --> 00:48:33,710
+good.
+
+1978
+00:48:33,710 --> 00:48:35,340
+It might in the short term, it
+
+1979
+00:48:35,349 --> 00:48:36,920
+might look good for a little
+
+1980
+00:48:37,139 --> 00:48:38,789
+while, but like with anything
+
+1981
+00:48:38,789 --> 00:48:40,619
+that's copied without a complete
+
+1982
+00:48:40,789 --> 00:48:42,440
+and full understanding of
+
+1983
+00:48:42,530 --> 00:48:44,260
+the reasonings behind it and the
+
+1984
+00:48:44,260 --> 00:48:45,920
+foundations and why it actually
+
+1985
+00:48:45,920 --> 00:48:46,239
+works.
+
+1986
+00:48:46,239 --> 00:48:47,400
+If you can't answer those
+
+1987
+00:48:47,829 --> 00:48:49,289
+questions and answer why, why,
+
+1988
+00:48:49,289 --> 00:48:50,730
+why, how is this unique?
+
+1989
+00:48:50,800 --> 00:48:51,929
+How is this unique?
+
+1990
+00:48:51,929 --> 00:48:53,000
+How is this unique?
+
+1991
+00:48:53,219 --> 00:48:55,619
+Your business, your agency, it's
+
+1992
+00:48:55,619 --> 00:48:57,010
+going to crumble.
+
+1993
+00:48:57,179 --> 00:48:59,880
+It's going to not be sustainable.
+
+1994
+00:48:59,880 --> 00:49:00,360
+So again,
+
+1995
+00:49:00,449 --> 00:49:02,690
+by actually investing the time,
+
+1996
+00:49:02,869 --> 00:49:05,170
+actually doing things with your
+
+1997
+00:49:05,170 --> 00:49:09,159
+unique spin, come on, like that's
+
+1998
+00:49:09,159 --> 00:49:09,480
+all it
+
+1999
+00:49:09,690 --> 00:49:09,969
+takes.
+
+2000
+00:49:09,969 --> 00:49:11,380
+It's really that simple.
+
+2001
+00:49:11,380 --> 00:49:12,909
+And you'll have a sustainable
+
+2002
+00:49:12,909 --> 00:49:14,920
+skillset and a sustainable
+
+2003
+00:49:14,920 --> 00:49:15,469
+business.
+
+2004
+00:49:15,570 --> 00:49:17,269
+And again, I want you not only to
+
+2005
+00:49:17,280 --> 00:49:19,039
+just scale your agency to where
+
+2006
+00:49:19,039 --> 00:49:20,360
+you want to scale it,
+
+2007
+00:49:20,449 --> 00:49:22,110
+but throughout this process, one
+
+2008
+00:49:22,110 --> 00:49:23,800
+of my proudest achievements.
+
+2009
+00:49:23,800 --> 00:49:25,800
+And one thing I'm super excited
+
+2010
+00:49:26,130 --> 00:49:28,130
+about is I'm 21 years old.
+
+2011
+00:49:28,309 --> 00:49:30,659
+I'm not even a year into my agency
+
+2012
+00:49:30,659 --> 00:49:31,719
+business.
+
+2013
+00:49:31,719 --> 00:49:33,400
+And even though the agency
+
+2014
+00:49:33,750 --> 00:49:35,400
+business is super successful, I
+
+2015
+00:49:35,400 --> 00:49:37,130
+know that everything that I've
+
+2016
+00:49:37,579 --> 00:49:39,559
+learned from building this agency,
+
+2017
+00:49:39,889 --> 00:49:44,440
+if this agency goes to zero
+
+2018
+00:49:44,440 --> 00:49:45,039
+tomorrow, I have all the skill
+
+2019
+00:49:45,039 --> 00:49:47,269
+sets and the know how to basically
+
+2020
+00:49:47,699 --> 00:49:48,280
+do it all
+
+2021
+00:49:48,369 --> 00:49:49,789
+over again or start another
+
+2022
+00:49:49,789 --> 00:49:51,760
+business or have success somewhere
+
+2023
+00:49:51,760 --> 00:49:52,079
+else.
+
+2024
+00:49:52,460 --> 00:49:54,260
+And I hope that after you go
+
+2025
+00:49:54,369 --> 00:49:54,519
+through
+
+2026
+00:49:54,610 --> 00:49:55,929
+this program, regardless of where
+
+2027
+00:49:55,929 --> 00:49:57,670
+your agency is, obviously our one
+
+2028
+00:49:57,670 --> 00:49:59,239
+goal is to get you to where you
+
+2029
+00:49:59,329 --> 00:50:00,789
+want it to be and where you want
+
+2030
+00:50:00,789 --> 00:50:01,530
+to get it to.
+
+2031
+00:50:01,530 --> 00:50:02,969
+But in addition to that, I want
+
+2032
+00:50:03,110 --> 00:50:04,119
+you to feel super
+
+2033
+00:50:04,469 --> 00:50:05,820
+confident knowing that if your
+
+2034
+00:50:05,820 --> 00:50:07,179
+agency goes to zero or for
+
+2035
+00:50:07,179 --> 00:50:09,000
+whatever reason you want to stop
+
+2036
+00:50:09,000 --> 00:50:09,400
+doing your
+
+2037
+00:50:09,719 --> 00:50:11,190
+agency, you have the skill sets
+
+2038
+00:50:11,199 --> 00:50:12,469
+and the know how and the
+
+2039
+00:50:12,469 --> 00:50:15,559
+foundation to build on great new
+
+2040
+00:50:15,559 --> 00:50:16,119
+businesses.
+
+2041
+00:50:16,210 --> 00:50:17,719
+And that's really it.
+
+2042
+00:50:17,719 --> 00:50:19,219
+So thank you so much for taking
+
+2043
+00:50:19,219 --> 00:50:20,840
+the time to watch this video all
+
+2044
+00:50:20,840 --> 00:50:21,690
+the way through.
+
+2045
+00:50:21,840 --> 00:50:23,429
+I know a lot of this stuff is
+
+2046
+00:50:23,429 --> 00:50:24,320
+super long.
+
+2047
+00:50:24,320 --> 00:50:26,340
+And for a lot of you, this might
+
+2048
+00:50:26,340 --> 00:50:28,800
+just be basic and repeating
+
+2049
+00:50:28,929 --> 00:50:29,980
+what you already have set up or
+
+2050
+00:50:29,980 --> 00:50:31,000
+what you already know.
+
+2051
+00:50:31,000 --> 00:50:33,639
+So if you, if that's you and you,
+
+2052
+00:50:33,639 --> 00:50:34,280
+you hung on
+
+2053
+00:50:34,489 --> 00:50:35,739
+until the very end, I really do
+
+2054
+00:50:35,739 --> 00:50:36,590
+appreciate it.
+
+2055
+00:50:36,590 --> 00:50:38,119
+And yeah, I'm looking forward to
+
+2056
+00:50:38,460 --> 00:50:39,239
+hearing your feedback
+
+2057
+00:50:39,280 --> 00:50:41,230
+on this one because man, my voice
+
+2058
+00:50:41,230 --> 00:50:42,860
+is like fading away.
+
+2059
+00:50:42,860 --> 00:50:44,679
+I don't know if you noticed
+
+2060
+00:50:44,679 --> 00:50:45,230
+towards the end
+
+2061
+00:50:45,289 --> 00:50:46,989
+of the video, but it's really
+
+2062
+00:50:46,989 --> 00:50:48,179
+starting to fade.
+
+2063
+00:50:48,179 --> 00:50:49,860
+So I'm going to hang up now and
+
+2064
+00:50:49,860 --> 00:50:50,760
+just wait to hear
+
+2065
+00:50:51,090 --> 00:50:52,260
+feedback from you guys and any
+
+2066
+00:50:52,260 --> 00:50:53,760
+questions that you might have
+
+2067
+00:50:53,760 --> 00:50:55,719
+looking forward to them and happy
+
+2068
+00:50:55,719 --> 00:50:55,880
+to
+
+2069
+00:50:56,099 --> 00:50:58,210
+help answer them either through
+
+2070
+00:50:58,389 --> 00:51:00,489
+Slack or on the next coaching
+
+2071
+00:51:00,489 --> 00:51:00,920
+call.

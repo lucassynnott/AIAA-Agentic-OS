@@ -1,0 +1,1348 @@
+{
+  "name": "Webinar Funnel Generator",
+  "nodes": [
+    {
+      "parameters": {
+        "resource": "fileFolder",
+        "queryString": "={{ $json['Client Name'] }}",
+        "returnAll": true,
+        "filter": {},
+        "options": {}
+      },
+      "id": "7fdb0942-d330-4783-b557-0779e1ff1b14",
+      "name": "Get Strategy Document",
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        -1552,
+        784
+      ],
+      "executeOnce": false,
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "a1b2c3d4-e5f6-7890",
+              "name": "client_name",
+              "value": "={{ $('On form submission').first().json['Client Name'] }}",
+              "type": "string"
+            },
+            {
+              "id": "b2c3d4e5-f6g7-8901",
+              "name": "webinar_script",
+              "value": "={{ $('Webinar Copywriter Agent').first().json.output }}",
+              "type": "string"
+            },
+            {
+              "id": "ef521977-d444-4137-88f1-d2d95b2c63c0",
+              "name": "email_sequence",
+              "value": "={{ $('Email Sequence Copywriter').first().json.output}}",
+              "type": "string"
+            },
+            {
+              "id": "f05386f3-1cb4-4309-a240-33e77765d04c",
+              "name": "slide_deck",
+              "value": "={{ $('Slide Deck Copywriter').first().json.output }}",
+              "type": "string"
+            },
+            {
+              "id": "3c08b063-fc7c-4aa2-8b1a-0c5f94d2f833",
+              "name": "registration_page",
+              "value": "={{ $('Registration Page Copywriter').first().json.output }}",
+              "type": "string"
+            },
+            {
+              "id": "3b3adda8-e6d4-4f01-bf32-1565294793b2",
+              "name": "thank_you_page",
+              "value": "={{ $('Thank You Page Copywriter').first().json.output }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "d83387b5-23a5-42a7-87d6-e42f30db65d6",
+      "name": "Store Generated Content",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -176,
+        848
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "n6i7j8k9-l0m1-2n3o-4p5q-6r7s8t9u0v1w",
+              "name": "summary",
+              "value": "=:tada: *Webinar Funnel Generated Successfully!*\n\n:briefcase: *Client:* {{ $('Edit Fields').first().json.clientName }}  \n:calendar: *Date Generated:* {{ $now }}\n\n*Documents Created:*\n1. :page_facing_up: *Registration Page Copy*  \n   - Complete landing page copy with headline, bullets, and CTA\n2. :microphone2: *Webinar Script*  \n   - Full script with timestamps  \n   - Teaching style: *{{ $('On form submission').first().json['Teaching Style'] }}*  \n   - Pitch intensity: *{{ $('On form submission').first().json['Pitch Intensity'] }}*\n3. :email: *Email Sequences*  \n   - 5 pre-webinar emails  \n   - 5 post-webinar follow-up emails\n4. :frame_with_picture: *Slide Deck Outline*  \n   - Complete slide-by-slide breakdown  \n   - Visual suggestions included\n\n*Next Steps:*\n1. Review all generated documents  \n2. Customize any sections as needed  \n3. Create visual slides based on the outline  \n4. Set up webinar platform and email automation  \n5. Test all technical components before going live\n\n:card_file_box: *All documents saved to Google Drive:* <https://drive.google.com/drive/folders/{{ $('Search for Existing Folder').first().json.id }}|Open folder>\n",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "bebdbb79-e339-40d6-b832-b0779c0c38a6",
+      "name": "Create Summary",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1616,
+        848
+      ]
+    },
+    {
+      "parameters": {
+        "formTitle": "Webinar Funnel Generator",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Client Name",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Google Doc URL"
+            },
+            {
+              "fieldLabel": "Webinar Type",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Live Webinar"
+                  },
+                  {
+                    "option": "Evergreen Webinar"
+                  },
+                  {
+                    "option": "Hybrid (Live with Evergreen Replay)"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Webinar Date/Time",
+              "placeholder": "January 15, 2025 at 2:00 PM EST (leave blank for evergreen)",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Webinar Platform",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Zoom"
+                  },
+                  {
+                    "option": "WebinarJam"
+                  },
+                  {
+                    "option": "GoToWebinar"
+                  },
+                  {
+                    "option": "EverWebinar"
+                  },
+                  {
+                    "option": "Other"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Webinar Duration",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "45 Minutes"
+                  },
+                  {
+                    "option": "60 Minutes"
+                  },
+                  {
+                    "option": "75 Minutes"
+                  },
+                  {
+                    "option": "90 Minutes"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Fast Action Bonus",
+              "placeholder": "e.g., First 10 buyers get a 1-on-1 strategy call"
+            },
+            {
+              "fieldLabel": "Replay Availability",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "24 Hours"
+                  },
+                  {
+                    "option": "48 Hours"
+                  },
+                  {
+                    "option": "72 Hours"
+                  },
+                  {
+                    "option": "7 Days"
+                  },
+                  {
+                    "option": "No Replay"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Teaching Style",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Framework Teaching (Systematic methodology)"
+                  },
+                  {
+                    "option": "Case Study (Transformation story)"
+                  },
+                  {
+                    "option": "Workshop (Interactive demonstration)"
+                  },
+                  {
+                    "option": "Hybrid (Mix of all)"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Pitch Intensity",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Soft Sell (Education-heavy, gentle invitation)"
+                  },
+                  {
+                    "option": "Medium Sell (Balanced education and pitch)"
+                  },
+                  {
+                    "option": "Hard Sell (Strong urgency and persuasion)"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Special Guest or Interview",
+              "placeholder": "Name and role of any special guest (leave blank if none)"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.3,
+      "position": [
+        -2000,
+        848
+      ],
+      "id": "8c4cb733-bdfa-45d8-83dd-927b11d7ce9e",
+      "name": "On form submission",
+      "webhookId": "feecaf29-6ddc-4743-8bfa-da29f9b2cebd"
+    },
+    {
+      "parameters": {
+        "resource": "fileFolder",
+        "queryString": "={{ $json.clientName }}",
+        "filter": {
+          "folderId": {
+            "__rl": true,
+            "value": "1Sw0kTgXq8Nki7Woz-0Eso-xMSDksW3MD",
+            "mode": "list",
+            "cachedResultName": "Clients"
+          }
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        720,
+        848
+      ],
+      "id": "698326d7-b5d9-4d3d-a69a-bea5c9645558",
+      "name": "Search for Existing Folder",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      },
+      "onError": "continueErrorOutput"
+    },
+    {
+      "parameters": {
+        "resource": "folder",
+        "name": "={{ $('Edit Fields').item.json.clientName }}",
+        "driveId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "My Drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "value": "1Sw0kTgXq8Nki7Woz-0Eso-xMSDksW3MD",
+          "mode": "list",
+          "cachedResultName": "Clients"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        944,
+        944
+      ],
+      "id": "36bfed74-2a8c-4f9f-ba93-505585bd4bdd",
+      "name": "Create New Client Folder",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "move",
+        "fileId": {
+          "__rl": true,
+          "value": "={{ $('Code1').item.json.docId }}",
+          "mode": "id"
+        },
+        "driveId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "My Drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "value": "={{ $json.id }}",
+          "mode": "id"
+        }
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        1168,
+        752
+      ],
+      "id": "c65c6eec-0c99-43f6-b67f-1b12563c6ec1",
+      "name": "Move to Existing Folder",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "move",
+        "fileId": {
+          "__rl": true,
+          "value": "={{ $('Code1').first().json.docId }}",
+          "mode": "id"
+        },
+        "driveId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "My Drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "value": "={{ $json.id }}",
+          "mode": "id"
+        }
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        1168,
+        944
+      ],
+      "id": "3e0ef4bb-fb7a-452d-bf2a-a7604f44c0cf",
+      "name": "Move to New Folder",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "select": "user",
+        "user": {
+          "__rl": true,
+          "value": "U04GPFR7TN1",
+          "mode": "list",
+          "cachedResultName": "lucas035"
+        },
+        "text": "={{ $json.summary }}",
+        "otherOptions": {}
+      },
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        1840,
+        848
+      ],
+      "id": "8362c6cc-052a-41ca-b8ef-571d42e08a00",
+      "name": "Slack Notification",
+      "webhookId": "d62fe0f4-e807-4062-98d0-c54713249fb7",
+      "credentials": {
+        "slackOAuth2Api": {
+          "id": "nhkttwRMJO9stSq3",
+          "name": "Slack account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "get",
+        "documentURL": "={{ $('On form submission').item.json['Google Doc URL'] }}"
+      },
+      "type": "n8n-nodes-base.googleDocs",
+      "typeVersion": 2,
+      "position": [
+        -1328,
+        784
+      ],
+      "id": "6e239295-8bfe-4a17-ac18-84278116a2b7",
+      "name": "Get a document",
+      "alwaysOutputData": false,
+      "credentials": {
+        "googleDocsOAuth2Api": {
+          "id": "l6gkJBk6UFQH05ci",
+          "name": "Google Docs account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Objective\nCreate a high-converting webinar registration page from the inputs below. Enforce the system rules and adaptive logic.\n\nStrategic Blueprint\n{{ $('Get a document').first().json.content }}\n\nWebinar Configuration\nClient: {{ $('On form submission').first().json['Client Name'] }}\nType: {{ $('On form submission').first().json['Webinar Type'] }}\nDate/Time: {{ $('On form submission').first().json['Webinar Date/Time'] }}\nPlatform: {{ $('On form submission').first().json['Webinar Platform'] }}\nDuration: {{ $('On form submission').first().json['Webinar Duration'] }}\nFast Action Bonus: {{ $('On form submission').first().json['Fast Action Bonus'] }}\nReplay Availability: {{ $('On form submission').first().json['Replay Availability'] }}\nSpecial Guest: {{ $('On form submission').first().json['Special Guest or Interview'] }}\n\nWebinar Script:\n{{ $json.output }}\n\nDeliverables\nReturn a single Markdown document with these sections in order. Do not include code fences. If any input is missing, infer and mark as [inferred].\n\nA) Above the Fold\n\nPre-headline tag for traffic temperature with a one-line qualifier.\n\nMain Headline. 1 line. Max 15 words. Use either “From [Current] to [Desired] in [Timeframe] without [Common Pain]” or a new opportunity headline.\n\nSupporting Subheadline. 20-30 words. Introduce the mechanism and a curiosity gap.\n\nPrimary CTA button. 5-7 words. Include a micro trust line under the button.\n\nSocial proof strip. 1 line with logos or quantified results. Use [inferred] if needed.\n\nB) What You Will Learn Bullets\nProduce 5-7 bullets. Each bullet must include:\n\nThe discovery or method.\n\nThe specific outcome.\n\nWhy this is different from what they have tried.\nAt least 2 bullets must pre-handle top objections from the Blueprint.\n\nC) Authority and Credibility\nWrite 2-3 short paragraphs that cover:\n\nBrief personal transformation or origin that ties to the mechanism.\n\nSpecific client results with numbers and time frames.\n\nCredentials or media mentions if available.\nClose with a one-line authority bridge to the CTA.\n\nD) Urgency and Scarcity\nCreate an authentic urgency block that references:\n\nReal seat limits if Platform or plan imposes one.\n\nFast Action Bonus deadline with explicit timestamp and time zone aligned to Date/Time.\n\nLive-only perk or no-replay logic tied to Replay Availability.\nAdd three short last-chance lines for use in page sections and retargeting.\n\nE) Calls to Action\n\nPrimary CTA button copy. 3 variants. 5-7 words each.\n\nSecondary CTA text link for fence sitters. 1 line.\n\nFinal CTA button for the bottom. 1 line plus micro text reinforcing deadline or seat cap.\nInclude the exact link text for calendar add-to options if relevant.\n\nF) Who This Is And Is Not For\n\nPositive fit bullets. 3-5 items tied to ICP.\n\nWarning box: 3-5 disqualifiers to filter poor fits.\n\nG) Testimonials and Proof Placement Map\n\nInsert 3 short testimonials or proof beats. If missing, create placeholders labeled [testimonial needed] with angle prompts.\n\nPlacement guidance: above fold logo strip, mid-page near bullets, near final CTA.\n\nH) Logistics and Expectations\n\nOne-paragraph clarity on what happens after registration.\n\nTime zone callout.\n\nAccess instructions and tech requirements based on Platform.\n\nPrivacy reassurance in one sentence.\n\nI) PS Section\n\nTwo-line final push that restates mechanism and deadline.\n\nOne micro objection neutralizer.\n\nJ) Testing Pack\n\n5 headline variants: cold, warm, retargeting, mechanism-forward, outcome-forward.\n\n3 subheadline variants that change the curiosity angle.\n\n3 primary CTA button variants with different verbs.\n\n3 hero proof strip options: client logos, quantified wins, credibility markers.\n\nNumerical Guardrails\n\nHeadline max 15 words.\n\nSubheadline 20-30 words.\n\nBullet count 5-7.\n\nParagraphs under 90 words.\n\nReadability target grade 6-8.\n\nUse real numbers with sources or mark as [inferred].\n\nAdaptive Rules\n\nIf Type contains “workshop” or “training,” add a 3-minute quick win promise above the fold and mention workbook or template delivery.\n\nIf Type contains “demo,” include a single-sentence feature-to-outcome bridge and stress limited tech-capacity seats.\n\nIf Special Guest exists, add a guest mini-bio line and a credibility quote or credential in the authority section.\n\nIf Replay Availability is “No,” move urgency block higher on the page and repeat deadline language near every CTA.\n\nIf Platform provides native attendee caps, show the real number and avoid vague “limited seats.”\n\nCompliance\n\nNo guaranteed income claims.\n\nUse conservative numbers with context and timelines.\n\nTie urgency to real constraints.\n\nDo not fabricate media mentions or logos.\n\nOutput Style\nClean Markdown. H1 for page title, H2 for section headers, H3 for subcomponents. No code fences. Short sentences. Concrete words. CTA buttons written as button copy, not HTML.",
+        "options": {
+          "systemMessage": "You are “RegPage Architect,” an elite direct response copywriter who builds webinar registration pages that convert 40-60 percent of cold-to-warm traffic. You write for Schwartz Level 4-5 sophisticated markets. You use the works of Eugene Schwartz, Gary Halbert, Russell Brunson, Alex Hormozi, and Jeremy Haynes as operating principles, not inspiration.\n\nNonnegotiables\n\nResearch pass from Strategic Blueprint. Extract and list ICP segments, top pains, desired outcomes, false beliefs, unique mechanism name, proof assets, case studies, numbers, objections, offer terms, bonus specifics, urgency levers, platform constraints. If any item is missing, infer and mark as [inferred].\n\nMechanism-first positioning. Name the mechanism. Contrast it against the status quo. State why it works now.\n\nAdaptive logic. Copy must change based on:\na) Webinar Type:\n\n“Training” or “Workshop” positions hands-on outcomes and quick win in first 7 minutes.\n\n“Demo” or “Product” emphasizes live walkthrough, limited tech seats, and immediate next step.\n\n“Interview” includes guest authority bridge and social proof forward placement.\nb) Platform: honor real seat caps and tech features. If platform has hard attendee caps, use them. If platform lacks polls, convert poll copy to micro chat prompts.\nc) Duration: reflect promise scope and time-to-value in all copy.\nd) Replay Availability: if No, escalate urgency and add three explicit last-chance lines.\ne) Fast Action Bonus: tease above the fold, detail near CTA, attach deadline and redemption steps.\nf) Special Guest: add credibility stack and a single-line hook leveraging guest’s authority.\n\nProof density. Use specific numbers, named or anonymized roles, micro case studies, before and after, and time stamps. Every claim needs evidence or a conservative qualifier.\n\nUrgency math. Tie deadlines and scarcity to a real mechanism: seat cap, bonus expiry, price rise for live-only perks, or no replay.\n\nTesting pack. Always output headline variants and CTA variants that map to cold, warm, and retargeting traffic.\n\nTone and readability. Grade 6-8 reading level. Short sentences. Concrete words. No clichés.\n\nCompliance. No fabricated scarcity. No guaranteed income claims. Use conservative numbers with context.\n\nFormatting. Clean Markdown with H1-H3 headers. No code fences. Clear section labels.\n\nQuality gates. Run Tightness pass to cut fluff, Proof pass to add specifics, and Conversion pass to sharpen hook, mechanism, and CTA."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        -528,
+        544
+      ],
+      "id": "cffa8d00-331e-439d-9e1d-96f332957236",
+      "name": "Registration Page Copywriter"
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.7-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        -464,
+        768
+      ],
+      "id": "c5d5ea45-6b09-4167-bfaf-18aafdc39fa5",
+      "name": "OpenRouter Chat Model",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Objective\nProduce a complete, conversion-ready webinar package tailored to the inputs below. Respect all system rules and decision logic.\n\nInputs\nStrategic Blueprint\n{{ $('Get a document').first().json.content }}\n\nWebinar Configuration\nClient: {{ $('On form submission').first().json['Client Name'] }}\nType: {{ $('On form submission').first().json['Webinar Type'] }}\nDate/Time: {{ $('On form submission').first().json['Webinar Date/Time'] }}\nPlatform: {{ $('On form submission').first().json['Webinar Platform'] }}\nDuration: {{ $('On form submission').first().json['Webinar Duration'] }}\nFast Action Bonus: {{ $('On form submission').first().json['Fast Action Bonus'] }}\nReplay Availability: {{ $('On form submission').first().json['Replay Availability'] }}\nSpecial Guest: {{ $('On form submission').first().json['Special Guest or Interview'] }}\n\nConstraints and requirements\n\nSelect the correct webinar spine based on the inputs and state which spine you chose in one sentence at the top.\n\nEnforce Brunson style Perfect Webinar structure unless the decision logic selects a different spine. Always include a three-secret or three-chapter core unless Duration forces two.\n\nApply Hormozi’s value equation inside the stack. Show the equation in plain language tied to the Client’s numbers. Include ROI math with conservative assumptions and a risk reversal.\n\nAdopt direct response pacing consistent with Jeremy Haynes. Hooks must be concrete and pattern interrupting.\n\nAdapt for Platform. If live chat exists, specify exact chat prompts and poll placements with timestamps.\n\nIf Replay Availability is No, increase urgency, reduce teaching depth, and add three explicit last-chance lines.\n\nIf Fast Action Bonus is present, integrate it into the stack with value justification and redemption instructions.\n\nDeliverables\nReturn a single plain text response containing all sections in this exact order.\n\nA) One line orientation\nState the chosen spine and why it fits the Type and Duration.\n\nB) Full webinar script with timestamps and speaker notes\n\nCold open hook\n\nAuthority bridge and agenda\n\nTeaching section\na) Secret or Chapter 1\nb) Secret or Chapter 2\nc) Secret or Chapter 3\n\nMechanism reveal and outcomes gallery\n\nProof inserts and social proof beats\n\nThe Stack\na) Core offer\nb) Bonuses\nc) Price anchor and ROI math\nd) Risk reversal and guarantee\ne) Scarcity and deadline logic tied to Replay Availability and Date/Time\n\nCTA 1\n\nObjection handling segment\n\nCTA 2\n\nFAQ quickfire\n\nFinal CTA with exact instructions\n\nC) Slide outline\nNumbered slide list with title, key bullets, and visual cue per slide.\n\nD) Hook menu\n10 distinct hooks. Each under 20 words. All tied to the mechanism or outcome.\n\nE) Polls and chat prompts\nTimestamped list. Each item labeled as poll or chat. Include expected response patterns and how you will pivot based on responses.\n\nF) Objection handling bank\nList top 12 objections. Provide three answers per objection: short 1-liner, medium 3-sentence, long story-based handling.\n\nG) Stack in three variants\nTerse version under 120 words, standard under 250, long under 500. All include bonus rundown and deadline.\n\nH) Price logic and ROI math\nAnchor against comparable options, show monthly and annualized value, include conservative scenario and worst-case break-even.\n\nI) Bonus rundown\nFor each bonus include name, promise, components, delivery format, time to value, dollar value, and usage limit if any.\n\nJ) FAQ\n10 items that neutralize buying friction, logistics, access, refund terms, support, and implementation.\n\nK) Run-of-show and tech cues\nMinute by minute checklist for host and producer. Include cues for screen shares, poll launches, chat prompts, and guest handoffs if Special Guest exists.\n\nL) Post-webinar follow-up assets\n\nEmail 1 same-day summary with CTA\n\nEmail 2 deadline reminder with CTA\n\nEmail 3 last-chance with CTA\n\nThree SMS lines\n\nThree DM lines\n\nAdaptive rules\n\nIf Type contains workshop or training, increase teaching detail and insert a 3-minute quick win demo before the first CTA.\n\nIf Type contains challenge, add daily micro-commitments and a participation CTA with scoreboard mention.\n\nIf Type contains interview or Special Guest is present, add a 12–15 minute structured interview and a host-led CTA.\n\nIf Duration is 30 minutes, collapse to two secrets or chapters and one CTA block plus micro FAQ.\n\nIf Platform has no polls, convert polls to chat prompts.\n\nProof integration\nUse at least three of these proof beats in the teaching section: micro case study, time-stamped screenshot description, quantified before and after, named client with permission or anonymized industry role, mechanism comparison table described verbally.\n\nNumerical guardrails\n\nMax hook line 20 words.\n\nTeaching bullets per slide 3 to 5.\n\nNo paragraph over 120 words.\n\nTotal script length must fit the Duration at a reading pace of 130 words per minute.\n\nInclude an estimated total word count and minutes at the end.\n\nTone\nConfident, specific, no fluff, action-oriented, with clear stage directions in brackets like [show slide], [launch poll], [drop link].\n\nNow produce all deliverables using the above inputs. If an input is missing, infer and label as inferred. Do not include any markdown code blocks. Do not include meta commentary. Return only the webinar package.",
+        "options": {
+          "systemMessage": "=You are “Webinar Architect,” an AI that produces conversion-focused webinar scripts and all supporting assets. Your job is to mine the Strategic Blueprint inputs, decide on the correct webinar spine, and deliver a complete package that can be presented today without human rewriting.\n\nNonnegotiables\n\nResearch pass. Extract the following from the Strategic Blueprint: ICP segments, core pains, desired outcomes, false beliefs, big idea, mechanism name, features mapped to benefits, proof assets, price, terms, guarantee, bonuses, scarcity, timeline to value, case studies, common objections, competitor angles. If any element is missing, infer from context and mark as inferred.\n\nWebinar spines to enforce. Select and adapt one primary spine to the stated Webinar Type and Duration.\na) Brunson style Perfect Webinar backbone: One Big Thing, three secrets that break false beliefs, soft teaching inside each secret, micro CTA, hard stack, price anchor drop, risk reversal, scarcity, final CTA, FAQ.\nb) Offer first demo spine for product walkthroughs: problem framing, opportunity cost math, mechanism reveal, demo beats with proof insertions, outcomes gallery, price logic, bonuses, guarantee, CTA, objection handling, chat-driven Q&A.\nc) Interview spine for Special Guest: host frame, authority bridge, guest origin story linked to mechanism, three insight chapters, proof beats, stacked CTA handled by host, guest testimonial clip, urgency round.\n\nOffer logic. Apply Hormozi’s value equation explicitly inside the price segment: increase dream outcome and perceived likelihood while reducing time delay and effort. Show the math with believable assumptions.\n\nPacing and timeboxing. Respect the exact Duration. Default 60 minutes breakdown if not specified: 0–5 hook, 5–10 authority and agenda, 10–35 teaching secrets or demo chapters, 35–45 stack and price logic, 45–55 objection handling and FAQ, 55–60 final CTA and instructions. Adjust proportionally for other durations.\n\nDirect response style influenced by Jeremy Haynes. Hooks must be specific, pattern interrupting, and tied to the offer. Copy must be concrete, plain, and fast. No fluff, no clichés.\n\nPlatform awareness. If Platform supports live chat and polls, include them. If replay is unavailable, escalate urgent language and reduce teaching depth in favor of offer depth.\n\nCompliance. No false claims. Tie outcomes to proof. Use conservative numbers.\n\nOutput completeness. Always deliver all of the following:\na) Full script with timestamps and speaker notes.\nb) Slide outline with slide titles, bullets, and visual cues.\nc) Hook menu with 10 options.\nd) Polls and chat prompts mapped to timestamps.\ne) Objection handling bank with short, medium, long versions.\nf) The Stack written three ways: terse, standard, long.\ng) Price anchor section with ROI math and risk reversal copy.\nh) Bonus rundown with names, outcomes, dollar values, and justification.\ni) FAQ that neutralizes buying friction.\nj) Host run-of-show checklist and tech cues.\nk) Post-webinar follow-up assets: 3 email summaries, 3 SMS lines, 3 DMs, each with hard CTA and deadline language aligned to Replay Availability and Fast Action Bonus.\n\nLanguage. Use clear, punchy sentences. Aim for grade 6–8 readability. Avoid jargon unless quoting proof.\n\nQuality gates. Before finalizing, run three passes: Tightness pass to cut filler, Proof pass to insert concrete evidence, Conversion pass to sharpen CTAs and urgency mechanics.\n\nDecision logic\n\nIf Special Guest is present, select Interview spine and add a 12–15 minute guest segment without letting it cannibalize the stack window.\n\nIf Webinar Type contains words like “demo,” “product,” or “software,” select Offer first demo spine and include a frictionless trial or quick start sequence.\n\nIf Replay Availability is No, announce this three times, reduce Q&A time by 5 minutes, and compress teaching.\n\nIf Fast Action Bonus exists, tease at start, detail in stack, and set a clear deadline with mechanism for claiming.\n\nIf Duration is under 45 minutes, cut to two secrets or two demo chapters, keep stack intact, and reduce FAQ.\n\nFormatting rules\n\nNo markdown fences.\n\nUse the exact output schema described in the user prompt.\n\nNever apologize. Never say you cannot. If data is missing, infer and label as inferred."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        -880,
+        848
+      ],
+      "id": "f9ee302c-eeb2-4850-a76e-527a643c1a52",
+      "name": "Webinar Copywriter Agent"
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.7-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        -880,
+        1072
+      ],
+      "id": "b92704fe-f340-4e71-acef-b5b9be236b2e",
+      "name": "OpenRouter Chat Model1",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "contextWindowLength": 10
+      },
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.3,
+      "position": [
+        -752,
+        1072
+      ],
+      "id": "fb03349c-6511-4a37-ba39-6336a800dd99",
+      "name": "Simple Memory1"
+    },
+    {
+      "parameters": {
+        "jsCode": "// In a Code node before the Simple Memory node\nconst crypto = require('crypto'); // Import the crypto module\n\n// Generate a UUID (Universally Unique Identifier)\nconst sessionId = crypto.randomUUID();\n\n// Set the sessionId in the output data for the next node\nreturn [{ json: { sessionId: sessionId } }];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -1104,
+        848
+      ],
+      "id": "02c42817-a5d8-4483-a8b6-2d463dce224f",
+      "name": "Code"
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.7-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        -464,
+        1168
+      ],
+      "id": "7d7c61f8-00fc-4e8f-8a96-ca1780dd3d47",
+      "name": "OpenRouter Chat Model2",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Objective\nCreate complete pre and post-webinar email sequences from the inputs below. Enforce the system rules, adaptive logic, segmentation lanes, and quality gates.\n\nStrategic Blueprint\n{{ $('Get a document').first().json.content }}\n\nWebinar Configuration\nClient: {{ $('On form submission').first().json['Client Name'] }}\nType: {{ $('On form submission').first().json['Webinar Type'] }}\nDate/Time: {{ $('On form submission').first().json['Webinar Date/Time'] }}\nPlatform: {{ $('On form submission').first().json['Webinar Platform'] }}\nDuration: {{ $('On form submission').first().json['Webinar Duration'] }}\nFast Action Bonus: {{ $('On form submission').first().json['Fast Action Bonus'] }}\nReplay Availability: {{ $('On form submission').first().json['Replay Availability'] }}\nSpecial Guest: {{ $('On form submission').first().json['Special Guest or Interview'] }}\n\nWebinar Script:\n{{ $json.output }}\n\nDeliverables\nProduce the sequences exactly as specified below. If any input is missing, infer and label as [inferred]. Provide all items for each email. Include a UTM template and scheduling notes at the end.\n\nPRE-WEBINAR SEQUENCE FOR REGISTRANTS (5 emails)\nEMAIL 1: INSTANT CONFIRMATION\nSend time: Immediately after registration\nSubjects: 3 options. Max 45 characters. Include one mechanism-forward, one outcome-forward, one logistics-forward.\nPreview text: 35 to 90 characters.\nEmail body must include: personal thanks with Client name, full logistics with Date/Time and time zone, calendar add instructions, what to bring, one quick value tip aligned to mechanism, soft tease of Fast Action Bonus if present.\nPrimary CTA: Add to calendar link text. Include URL placeholder and UTM template.\nPS: reassurance and reply invitation.\n\nEMAIL 2: VALUE AND CONNECTION\nSend time: 24 hours before\nSubjects: 3 options\nPreview text\nBody must include: short personal story linked to mechanism, one actionable tip they can use now, a proof insert with numbers, reminder of Date/Time, social proof beat, teaser of Fast Action Bonus.\nPrimary CTA: Join live reminder link\nPS: reply question to surface objections\n\nEMAIL 3: CASE STUDY FEATURE\nSend time: 3 hours before\nSubjects: 3 options\nPreview text\nBody must include: one named or anonymized case with numbers and time frame, bridge to what they will see live, quick tech prep checklist, explicit benefit of showing up live.\nPrimary CTA: Join link\nPS: seat cap or bonus tease if applicable\n\nEMAIL 4: GET READY\nSend time: 1 hour before\nSubjects: 3 options\nPreview text\nBody must include: final prep checklist, distraction kill list, note-taking suggestion, promise of first 10 minutes, direct login instructions.\nPrimary CTA: Join link\nPS: last reminder line\n\nEMAIL 5: WE ARE LIVE\nSend time: 15 minutes before\nSubjects: 3 options with urgency\nPreview text\nBody must include: urgent but friendly reminder, direct join link, what is happening now, FOMO line, one short troubleshooting tip.\nPrimary CTA: Join now\nPS: if you cannot get in, reply to this email\n\nPOST-WEBINAR SEQUENCE WITH SEGMENT VARIANTS (5 emails plus bonus)\nFor each email below, produce two openers and CTAs: Attended and No-show.\n\nEMAIL 1: REPLAY AVAILABLE\nSend time: 1 hour after end\nSubjects: 3 options\nPreview text\nBody must include: acknowledgement of attendance state, replay link, clear replay deadline with timestamp and time zone, 3 bullet recap of key teachings, offer reminder, Fast Action Bonus details and deadline if present.\nPrimary CTA: Watch replay\nPS: reply invitation for questions\n\nEMAIL 2: FAQ AND OBJECTIONS\nSend time: Day 1 morning\nSubjects: 3 options\nPreview text\nBody must include: top 5 FAQs with concise answers, objection handling using short medium long structure, one additional success story, guarantee reminder, deadline reminder tied to replay or bonus.\nPrimary CTA: See offer\nPS: reply if your situation is edge case\n\nEMAIL 3: TRANSFORMATION STORY\nSend time: Day 2\nSubjects: 3 options\nPreview text\nBody must include: one deep client story with exact journey and numbers, this could be you bridge, bonus emphasis, urgency building with time left.\nPrimary CTA: Enroll now\nPS: reply and share your goal for a personal recommendation\n\nEMAIL 4: DECISION TIME\nSend time: Day 3\nSubjects: 3 options\nPreview text\nBody must include: cost of inaction math, payment plan highlight if relevant, rapid-fire proof strip, final bonus reminder, deadline countdown.\nPrimary CTA: Choose your plan\nPS: reply if your boss needs justification and request a template\n\nEMAIL 5: FINAL CALL\nSend time: Day 4 or hours before close\nSubjects: 3 options with explicit deadline\nPreview text\nBody must include: last chance framing, what they will miss, short montage of wins, price step or close notice if applicable, direct purchase link, exact deadline with time zone.\nPrimary CTA: Last chance\nPS: reply for last-minute help\n\nEMAIL 6 BONUS: CLOSED BUT\nSend time: After deadline\nSubjects: 3 options\nPreview text\nBody must include: acknowledge close, waitlist link, alternative offer if applicable, stay connected CTA.\nPrimary CTA: Join waitlist\nPS: reply to explain your situation\n\nStrategic notes to include after the sequences\n\nSegmentation strategies: define audience membership rules for Registrants, Attendees, No-shows, and how to move contacts between lanes.\n\nSubject testing priorities: specify which subject style to test first for this Type and audience, with rationale.\n\nPersonalization opportunities: list merge fields and behavioral data to personalize subject, preview, openings, proof, and CTAs.\n\nReply triggers to monitor: list exact phrases or intents that should create tasks or tags and the next step for each.\n\n\nScheduling and time zone. Confirm all send times in the webinar’s time zone and include a conversion note.\n\nCompliance checklist: privacy line, unsubscribe clarity, conservative numbers rule, no fabricated scarcity.\n\nNumerical guardrails\nSubjects max 45 characters. Previews 35 to 90 characters. Paragraphs under 90 words. Reading grade 6 to 8. Include character counts for each subject and preview. Keep total word count per email within 120 to 300 words except replay and FAQ emails which can run to 400 words.",
+        "options": {
+          "systemMessage": "You are “Email Sequence Architect,” an elite email strategist and copywriter for webinar promotion and sales. You write to convert, not to impress. Target open rate 40 percent. Target click rate 10 percent. You use Schwartz sophistication, Halbert clarity, Brunson offer pacing, Hormozi value math, and Haynes style directness as operating rules.\n\nNonnegotiables\n\nResearch pass. From the Strategic Blueprint extract and list: ICP segments, top pains, desired outcomes, false beliefs, unique mechanism name, proof assets and numbers, case studies, primary objections, offer terms, price logic, guarantee, bonuses, deadlines, platform constraints, seat caps, guest credentials. If anything is missing, infer and mark as [inferred].\n\nAdaptive logic. Emails must change based on: Webinar Type, Duration, Platform, Replay Availability, Fast Action Bonus, Special Guest.\n\nSegmentation lanes. Produce variant copy for these segments when relevant: Registrants, Attendees, No-shows. For post-webinar, write separate openers and CTAs for Attendees and No-shows.\n\nOffer logic. Use explicit value math in sales emails. Increase dream outcome and perceived likelihood. Decrease time delay and effort. Present conservative ROI with context.\n\nUrgency integrity. Tie urgency to real constraints. Replay deadlines, bonus expiry, seat caps, price steps. Include exact timestamp and time zone.\n\nTesting pack. Provide at least 3 subject options and 1 alternate CTA per email. Subjects max 45 characters by default. Preview text 35 to 90 characters.\n\nReadability and form. Grade 6 to 8. Short sentences. One idea per paragraph. Max paragraph 90 words. Natural plain-text style.\n\nDeliverable rigor. For each email include: Segment target, Send time relative to Date/Time, 3 subject options with character counts, 1 preview line with character count, Body with skimmable subheads where useful, Primary CTA with a single destination URL placeholder and UTM template, Secondary CTA if specified, PS with deadline reinforcement, and a one-line reason to reply.\n\nCompliance. No guaranteed income promises. Use conservative numbers and context. Include privacy and unsubscribe reassurance line options.\n\nQuality gates. Run Tightness pass to cut fluff, Proof pass to add specifics, Spam pass to replace trigger words, Link pass to ensure every CTA has a URL and UTM.\n\nTone. Confident, specific, useful. Personal but not chatty. Zero fluff.\n\nDecision rules\n\nIf Replay Availability is No, shorten post-webinar window to 24 hours. Increase urgency language. Move Replay email earlier and remove long teaching recaps.\n\nIf Fast Action Bonus exists, tease it in all pre-webinar sends after confirmation. Detail it in the first post-webinar email and every sales email with deadline and redemption steps.\n\nIf Special Guest exists, use their authority in subjects for warm traffic and in body for cold traffic.\n\nIf Type includes Workshop or Training, add a tangible quick win and mention workbook or template delivery in pre-webinar emails.\n\nIf Type includes Demo or Product, stress limited tech capacity and immediate next step.\n\nIf Platform has seat caps, state the real number. No vague scarcity.\n\nOutput conventions\n\nNo code fences.\n\nPlain text with clear section labels.\n\nUse the exact schema requested in the user prompt.\n\nInsert the provided configuration values verbatim where indicated."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        -528,
+        944
+      ],
+      "id": "d2baf8ca-85d6-4f50-b554-6c0f7e356613",
+      "name": "Email Sequence Copywriter"
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.7-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        -464,
+        368
+      ],
+      "id": "035de2d8-1a3b-49c9-8a04-81b143b19862",
+      "name": "OpenRouter Chat Model3",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Create a complete slide deck outline based on the webinar script and strategy.\n\nStrategic Blueprint\n{{ $('Get a document').first().json.content }}\n\nWebinar Configuration\nClient: {{ $('On form submission').first().json['Client Name'] }}\nType: {{ $('On form submission').first().json['Webinar Type'] }}\nDate/Time: {{ $('On form submission').first().json['Webinar Date/Time'] }}\nPlatform: {{ $('On form submission').first().json['Webinar Platform'] }}\nDuration: {{ $('On form submission').first().json['Webinar Duration'] }}\nFast Action Bonus: {{ $('On form submission').first().json['Fast Action Bonus'] }}\nReplay Availability: {{ $('On form submission').first().json['Replay Availability'] }}\nSpecial Guest: {{ $('On form submission').first().json['Special Guest or Interview'] }}\n\nWebinar Script:\n{{ $json.output }}\n\nCreate the following slide-by-slide outline:\n\nTITLE SLIDE SEQUENCE (Slides 1-5)\n\nSLIDE 1: WAITING ROOM\n- Visual: Branded countdown timer\n- Text: \"Webinar Starting Soon...\"\n- Elements: Music note icon, chat invitation\n- Purpose: Build anticipation\n\nSLIDE 2: WELCOME SLIDE\n- Headline: [Webinar Title]\n- Subhead: [Transformation Promise]\n- Visual: Professional headshot or logo\n- Elements: Date/time, presenter name\n\n[Continue for all 40-60 slides with:]\n- Slide number\n- Slide title/purpose\n- Main text (bullet points)\n- Visual suggestions\n- Animation notes\n- Speaker notes reminder\n- Transition timing\n\nTEACHING SLIDES (Slides 10-25)\nFocus on:\n- Framework diagrams\n- Before/after comparisons\n- Process flows\n- Statistics and data\n- Screenshot demonstrations\n- Case study visuals\n\nVALUE STACK SLIDES (Slides 35-45)\n- Module breakdowns\n- Bonus presentations\n- Price build slide\n- Guarantee slide\n- Urgency elements\n\nCLOSING SLIDES (Slides 50-60)\n- Vision casting imagery\n- Call to action\n- Contact information\n- Q&A holding slide\n\nFor each slide include:\n- Visual style notes\n- Color psychology purpose\n- Font hierarchy suggestions\n- Animation recommendations\n- Supporting graphics needed",
+        "options": {
+          "systemMessage": "You are a presentation design expert who creates visually compelling slide decks that enhance teaching and drive sales. You understand the psychology of visual learning and how to support speakers without overwhelming viewers.\n\nYour expertise includes:\n- Visual hierarchy and information design\n- Slide progression for maximum impact\n- When to show vs tell\n- Building visual value stacks\n- Creating memorable frameworks\n- Screenshot and demonstration slides\n- Emotional imagery selection\n\nYou know how to create slides that work for both live presentation and recorded replay."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        -528,
+        144
+      ],
+      "id": "c58d05b4-f813-4a41-89b4-41fd2e1d5460",
+      "name": "Slide Deck Copywriter"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Objective\nCreate a high-converting webinar thank you page that maximizes live attendance and primed intent. Enforce the system rules and adaptive logic.\n\nStrategic Blueprint\n{{ $('Get a document').first().json.content }}\n\nWebinar Configuration\nClient: {{ $('On form submission').first().json['Client Name'] }}\nType: {{ $('On form submission').first().json['Webinar Type'] }}\nDate/Time: {{ $('On form submission').first().json['Webinar Date/Time'] }}\nPlatform: {{ $('On form submission').first().json['Webinar Platform'] }}\nDuration: {{ $('On form submission').first().json['Webinar Duration'] }}\nFast Action Bonus: {{ $('On form submission').first().json['Fast Action Bonus'] }}\nReplay Availability: {{ $('On form submission').first().json['Replay Availability'] }}\nSpecial Guest: {{ $('On form submission').first().json['Special Guest or Interview'] }}\n\nWebinar Script:\n{{ $json.output }}\n\nDeliverables\nReturn a single Markdown document with these sections in order. If any input is missing, infer and label as [inferred]. Keep paragraphs under 90 words. Headline max 12 words unless marked as variant.\n\nA) Above the Fold\n\nConfirmation headline that celebrates and confirms registration.\n\nSubheadline that names the mechanism and benefit in one sentence.\n\nDate, time, timezone line rendered explicitly.\n\nPrimary CTA block: “Add to Calendar” buttons for Google, Apple, Outlook, ICS with placeholders.\n\nSecondary CTA: “Get SMS reminders” with compliant consent microcopy and phone field placeholder.\n\nTest-join button with note on supported devices.\n\nIf Replay Availability is “No,” display a visible “No Replay” ribbon.\n\nB) Webinar Details Box\n\nDate and time with timezone.\n\nDuration expectation.\n\nPlatform and joining instructions.\n\nUnique join link placeholder.\n\nCalendar buttons repeated inline.\n\nC) Immediate Value Pack\nProvide exactly three priming assets tied to the mechanism:\n\nWorksheet or checklist with 3 to 5 steps to complete before the webinar.\n\nPre-training video summary under 3 minutes with what to watch for during the live session.\n\nOne relevant guide or article that answers a top objection.\nEach asset includes title, 1-line promise, link placeholder, and estimated time to complete.\n\nD) Expectation Setting\n\nWhat to prepare: tools, accounts, data, and environment checklist.\n\nWhat you will learn: 3 bullets tied to desired outcomes.\n\nHow to get the most value: 3 bullets on behavior during the webinar.\n\nTechnical requirements: browser, bandwidth, audio setup. Include a quick test step.\n\nE) Engagement and Social\n\nJoin the community link with one-line benefit.\n\nFollow links for key social platforms.\n\nShare block with a simple incentive tied to Fast Action Bonus when applicable. Provide a referral link placeholder with UTM guidance.\n\nPre-webinar micro-survey with 3 multiple choice questions plus one open-ended “biggest obstacle” question.\n\nF) Important Reminders\n\nCheck inbox for confirmation and whitelist address.\n\nBlock the calendar window plus buffer.\n\nDownload required tools or templates.\n\nWhere to get support if the link fails.\n\nG) Guest Highlight [conditional]\nIf Special Guest exists, include a mini bio line, one authority quote, and a small headshot placeholder.\n\nH) Urgency Block\n\nState the real constraint: seat cap, bonus deadline, or no replay.\n\nPresent deadline with exact timestamp and timezone aligned to Date/Time.\n\nThree short last-chance lines for retargeting modules on this page.\n\nI) FAQs\nProvide 6 concise FAQs covering access, replay rules, time zone, tech issues, who it is for, and what to do if late.\n\nJ) Testing Pack\n\n3 headline variants: outcome-forward, mechanism-forward, urgency-forward.\n\n2 above-the-fold layouts: video hero vs static hero.\n\n2 primary CTA button copies.\n\n2 SMS opt-in framings.\n\nK) Analytics Spec and Event Map\n\nPrimary metric: live attendance rate and show-up within first 10 minutes.\n\nSecondary metrics: worksheet completion rate, SMS opt-in rate, test-join click rate.\n\nEvent map with IDs: viewed_thankyou, click_add_calendar, sms_optin_submit, click_test_join, asset_download_{id}, survey_submit, click_share, click_support.\n\nNumerical guardrails\n\nHeadline max 12 words.\n\nSubheadline 15 to 24 words.\n\nEach bullet 8 to 14 words.\n\nReading grade 6 to 8.\n\nSMS consent line under 22 words.\n\nTotal page copy 350 to 700 words excluding FAQs and testing pack.",
+        "options": {
+          "systemMessage": "You are “Thank You Page Architect,” a conversion specialist for post-registration pages whose single KPI is live attendance rate and show-up qualifiedness. You design pages that lock the calendar, create micro-commitments, deliver priming value, and route backups when email fails.\n\nNonnegotiables\n\nResearch pass from Strategic Blueprint. Extract and list: ICP segments, top pains, desired outcomes, false beliefs, unique mechanism name, proof assets, fast action bonus specifics, replay policy, platform constraints and seat caps, guest credentials, tech requirements, and any deadlines. If missing, infer and label as [inferred].\n\nOutcome first. Every section must serve one of three outcomes: lock attendance, reduce friction, or increase intent. Remove anything that doesn’t.\n\nAdaptive logic. The page must change based on:\na) Webinar Type: training or workshop requires quick-win prework and worksheet assignment; demo requires environment checklist and limited tech seats; interview promotes guest credibility and teaser clip.\nb) Platform: show real seat cap if it exists, provide native add-to-calendar, and include a test-join if possible.\nc) Replay Availability: if No, move urgency high, add “no replay” ribbon, insert three last-chance lines.\nd) Fast Action Bonus: tease above the fold with deadline and redemption steps tied to Date/Time.\ne) Special Guest: add mini bio, authority line, and clip or quote.\n\nCommitment mechanics. Require all of the following: prominent add-to-calendar buttons, SMS opt-in with compliant language, backup email link, test-join button, and a micro-survey that seeds intent.\n\nPriming value. Deliver only assets that reinforce the webinar’s mechanism and objection handling: worksheet, short pre-training video, one relevant guide. No generic lead magnets.\n\nUrgency integrity. Tie urgency to a real mechanism only: seat caps, bonus expiry, no replay. Render deadlines with exact timestamp and timezone.\n\nTesting pack. Provide at least 2 above-the-fold variants, 3 headlines, and 2 CTA button variants.\n\nReadability and tone. Grade 6 to 8. Short sentences. Concrete language. No fluff.\n\nCompliance. No fabricated scarcity or media claims. Use conservative numbers with context. Include privacy and SMS consent language options.\n\nQuality gates. Tightness pass to cut filler. Proof pass to add specifics. Conversion pass to sharpen CTAs and commitments.\n\nOutput rules\n\nClean Markdown with H1 to H3 headers. No code fences.\n\nUse placeholders for all links and tokens.\n\nInclude an analytics spec and event map at the end."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        -528,
+        1456
+      ],
+      "id": "805c09ee-a64d-44b1-ae89-6312a7d86223",
+      "name": "Thank You Page Copywriter"
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.7-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        -464,
+        1680
+      ],
+      "id": "6b17e0aa-1300-4dec-9af9-a1cdc3ec3f37",
+      "name": "OpenRouter Chat Model4",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://md2doc.n8n.aemalsayer.com",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleDocsOAuth2Api",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "output",
+              "value": "={{ $json.webinar_script }}"
+            },
+            {
+              "name": "fileName",
+              "value": "={{ $json.client_name }} - Webinar Script"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "75eb1f6c-afec-47a5-86c5-a60d4122e016",
+      "name": "Create Webinar Script Doc",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        48,
+        464
+      ],
+      "credentials": {
+        "googleDocsOAuth2Api": {
+          "id": "l6gkJBk6UFQH05ci",
+          "name": "Google Docs account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://md2doc.n8n.aemalsayer.com",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleDocsOAuth2Api",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "output",
+              "value": "={{ $json.thank_you_page }}"
+            },
+            {
+              "name": "=fileName",
+              "value": "={{ $json.client_name }} - Thank You Page"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "a9f130f4-c516-46c0-b610-363129fabd79",
+      "name": "Create Thank You Page Doc",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        48,
+        656
+      ],
+      "credentials": {
+        "googleDocsOAuth2Api": {
+          "id": "l6gkJBk6UFQH05ci",
+          "name": "Google Docs account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://md2doc.n8n.aemalsayer.com",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleDocsOAuth2Api",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "output",
+              "value": "={{ $json.slide_deck }}"
+            },
+            {
+              "name": "fileName",
+              "value": "={{ $json.client_name }} - Slide Deck Copy"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "90f94687-926e-4331-a29b-594779bb0e59",
+      "name": "Create Slide Deck Doc",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        48,
+        848
+      ],
+      "credentials": {
+        "googleDocsOAuth2Api": {
+          "id": "l6gkJBk6UFQH05ci",
+          "name": "Google Docs account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://md2doc.n8n.aemalsayer.com",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleDocsOAuth2Api",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "output",
+              "value": "={{ $json.email_sequence }}"
+            },
+            {
+              "name": "fileName",
+              "value": "={{ $json.client_name }} - Webinar Email Sequence"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "7c3de6cc-fce1-47c7-abbb-9f728df3de78",
+      "name": "Create Email Sequence Doc",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        48,
+        1040
+      ],
+      "credentials": {
+        "googleDocsOAuth2Api": {
+          "id": "l6gkJBk6UFQH05ci",
+          "name": "Google Docs account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://md2doc.n8n.aemalsayer.com",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleDocsOAuth2Api",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "output",
+              "value": "={{ $json.registration_page }}"
+            },
+            {
+              "name": "fileName",
+              "value": "={{ $json.client_name }} - Webinar Registration Page Copy"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "42ed0d1f-8951-423b-881d-d0e5bbd58dc8",
+      "name": "Create Registration Page Doc",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        48,
+        1232
+      ],
+      "credentials": {
+        "googleDocsOAuth2Api": {
+          "id": "l6gkJBk6UFQH05ci",
+          "name": "Google Docs account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "71a90b5a-0699-4d8a-b6f9-20f346503a87",
+              "name": "clientName",
+              "value": "={{ $('Store Generated Content').first().json.client_name }}",
+              "type": "string"
+            },
+            {
+              "id": "ca7b2518-9ef5-461a-91f6-d276dca43c26",
+              "name": "webinar_script_doc",
+              "value": "={{ $('Create Webinar Script Doc').first().json.url}}",
+              "type": "string"
+            },
+            {
+              "id": "fc4a282f-d643-4a2d-ba24-11bde9b667f1",
+              "name": "thank_you_page_doc",
+              "value": "={{ $('Create Thank You Page Doc').first().json.url}}",
+              "type": "string"
+            },
+            {
+              "id": "89dd287c-c5a6-484b-a613-eda80ac05458",
+              "name": "slide_deck_doc",
+              "value": "={{ $('Create Slide Deck Doc').first().json.url}}",
+              "type": "string"
+            },
+            {
+              "id": "41537b8f-6cea-4911-8715-d11a172fdc48",
+              "name": "email_sequence_doc",
+              "value": "={{ $('Create Email Sequence Doc').first().json.url}}",
+              "type": "string"
+            },
+            {
+              "id": "66b29995-d994-48b6-ba32-f48d6e70cc3c",
+              "name": "registration_page_doc",
+              "value": "={{ $('Create Registration Page Doc').first().json.url}}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        272,
+        848
+      ],
+      "id": "6cfc63d6-269c-4dd2-8df4-6fe87a0fcd40",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "jsCode": "const docs = [\n  { url: $input.item.json.webinar_script_doc, name: 'Webinar Script' },\n  { url: $input.item.json.email_sequence_doc, name: 'Email Sequence' },\n  { url: $input.item.json.slide_deck_doc, name: 'Slide Deck' },\n  { url: $input.item.json.registration_page_doc, name: 'Registration Page' },\n  { url: $input.item.json.thank_you_page_doc, name: 'Thank You Page' }\n];\n\nreturn docs.map(doc => ({\n  json: {\n    docId: doc.url.split('/d/')[1].split('/')[0],\n    docUrl: doc.url,\n    docName: doc.name,\n    clientName: $input.item.json.clientName,\n    folderId: $input.item.json.folderId // Pass the folder ID through\n  }\n}));"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        496,
+        848
+      ],
+      "id": "b0abcfa3-709b-44b2-a962-c0cfca36a926",
+      "name": "Code1"
+    },
+    {
+      "parameters": {
+        "aggregate": "aggregateAllItemData",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        1392,
+        848
+      ],
+      "id": "2618ba5d-53ab-4fae-9311-54ed30de9449",
+      "name": "Aggregate"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "eac52733-4eb2-4d5f-82ba-a775ecb014a4",
+              "leftValue": "={{ $json['Google Doc URL'] }}",
+              "rightValue": "",
+              "operator": {
+                "type": "number",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -1776,
+        848
+      ],
+      "id": "a56aaa1b-d375-409d-835b-bbe55e6c0c32",
+      "name": "If"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Get Strategy Document": {
+      "main": [
+        [
+          {
+            "node": "Get a document",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Store Generated Content": {
+      "main": [
+        [
+          {
+            "node": "Create Webinar Script Doc",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Create Thank You Page Doc",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Create Slide Deck Doc",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Create Email Sequence Doc",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Create Registration Page Doc",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create Summary": {
+      "main": [
+        [
+          {
+            "node": "Slack Notification",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "On form submission": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Search for Existing Folder": {
+      "main": [
+        [
+          {
+            "node": "Move to Existing Folder",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Create New Client Folder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create New Client Folder": {
+      "main": [
+        [
+          {
+            "node": "Move to New Folder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Move to Existing Folder": {
+      "main": [
+        [
+          {
+            "node": "Aggregate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Move to New Folder": {
+      "main": [
+        [
+          {
+            "node": "Aggregate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get a document": {
+      "main": [
+        [
+          {
+            "node": "Code",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Registration Page Copywriter": {
+      "main": [
+        [
+          {
+            "node": "Store Generated Content",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Registration Page Copywriter",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model1": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Webinar Copywriter Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Simple Memory1": {
+      "ai_memory": [
+        [
+          {
+            "node": "Webinar Copywriter Agent",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code": {
+      "main": [
+        [
+          {
+            "node": "Webinar Copywriter Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model2": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Email Sequence Copywriter",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model3": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Slide Deck Copywriter",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Webinar Copywriter Agent": {
+      "main": [
+        [
+          {
+            "node": "Slide Deck Copywriter",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Registration Page Copywriter",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Email Sequence Copywriter",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Thank You Page Copywriter",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model4": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Thank You Page Copywriter",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Email Sequence Copywriter": {
+      "main": [
+        [
+          {
+            "node": "Store Generated Content",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Slide Deck Copywriter": {
+      "main": [
+        [
+          {
+            "node": "Store Generated Content",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Thank You Page Copywriter": {
+      "main": [
+        [
+          {
+            "node": "Store Generated Content",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create Webinar Script Doc": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create Thank You Page Doc": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create Slide Deck Doc": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create Email Sequence Doc": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create Registration Page Doc": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Code1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code1": {
+      "main": [
+        [
+          {
+            "node": "Search for Existing Folder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate": {
+      "main": [
+        [
+          {
+            "node": "Create Summary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Get Strategy Document",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Code",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "f8c572a7-5081-49e8-8d75-fe7ecfc874b5",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "94aed49fc73372525d542e924a8b65d38c4cfc7be69ff82b11f83d6bf3d06ce7"
+  },
+  "id": "nWLaMzbK845oE1pf",
+  "tags": []
+}

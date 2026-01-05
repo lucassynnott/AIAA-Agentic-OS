@@ -1,0 +1,2011 @@
+1
+00:00:00,070 --> 00:00:03,529
+Okay last but of course not least
+
+2
+00:00:03,669 --> 00:00:06,710
+we have the win back flow which is
+
+3
+00:00:06,710 --> 00:00:08,028
+going to do kind of how it
+
+4
+00:00:08,108 --> 00:00:09,789
+sounds when people back it's very
+
+5
+00:00:09,789 --> 00:00:11,490
+straightforward we just want to
+
+6
+00:00:11,490 --> 00:00:13,349
+encourage people to make another
+
+7
+00:00:13,449 --> 00:00:15,550
+purchase these are past customers
+
+8
+00:00:15,550 --> 00:00:17,410
+and we want them to come back so
+
+9
+00:00:17,420 --> 00:00:19,140
+do not overthink this flow
+
+10
+00:00:19,210 --> 00:00:20,769
+the thing is like your customers
+
+11
+00:00:20,769 --> 00:00:22,530
+are still receiving your campaign
+
+12
+00:00:22,530 --> 00:00:23,719
+emails they're still
+
+13
+00:00:23,789 --> 00:00:25,219
+receiving like your sales and
+
+14
+00:00:25,219 --> 00:00:26,899
+whatever else you're blasting to
+
+15
+00:00:26,899 --> 00:00:28,519
+your list and if you're like us
+
+16
+00:00:28,629 --> 00:00:30,379
+and you have an optimized email
+
+17
+00:00:30,379 --> 00:00:32,270
+channel you're sending three to
+
+18
+00:00:32,270 --> 00:00:34,179
+four email campaigns a week so
+
+19
+00:00:34,250 --> 00:00:35,829
+somebody made a purchase three
+
+20
+00:00:35,829 --> 00:00:37,659
+four months ago and you're sending
+
+21
+00:00:37,659 --> 00:00:39,399
+three to four email campaigns a
+
+22
+00:00:39,479 --> 00:00:39,750
+week
+
+23
+00:00:39,829 --> 00:00:41,259
+that's going to handle a lot of
+
+24
+00:00:41,259 --> 00:00:43,130
+your repeat purchases 99 of your
+
+25
+00:00:43,130 --> 00:00:44,560
+attention in repeat purchases
+
+26
+00:00:44,710 --> 00:00:46,310
+will come from your campaigns so
+
+27
+00:00:46,310 --> 00:00:47,850
+for this reason we keep the win
+
+28
+00:00:47,850 --> 00:00:49,600
+back flow nice and simple and it's
+
+29
+00:00:49,710 --> 00:00:51,170
+more for like customer experience
+
+30
+00:00:51,170 --> 00:00:52,549
+and to at least automate a part of
+
+31
+00:00:52,670 --> 00:00:54,259
+the customer journey just to
+
+32
+00:00:54,329 --> 00:00:55,460
+be like hey we notice you haven't
+
+33
+00:00:55,520 --> 00:00:56,539
+bought in a while it's you don't
+
+34
+00:00:56,600 --> 00:00:57,789
+really get too many sales i
+
+35
+00:00:57,929 --> 00:00:58,179
+haven't
+
+36
+00:00:58,250 --> 00:00:59,770
+seen a win back flow like generate
+
+37
+00:00:59,770 --> 00:01:01,289
+crazy money for every brand that
+
+38
+00:01:01,289 --> 00:01:02,799
+i've looked in and even like me
+
+39
+00:01:02,869 --> 00:01:04,010
+trying to like optimize the heck
+
+40
+00:01:04,060 --> 00:01:05,030
+out of it it's just not how it
+
+41
+00:01:05,030 --> 00:01:06,239
+works a lot of people will just
+
+42
+00:01:06,310 --> 00:01:07,579
+convert from your campaigns so
+
+43
+00:01:07,620 --> 00:01:08,650
+it's more for the customer
+
+44
+00:01:08,790 --> 00:01:10,250
+experience um so let's break down
+
+45
+00:01:10,250 --> 00:01:10,760
+the flow
+
+46
+00:01:10,829 --> 00:01:12,060
+really simple just three emails
+
+47
+00:01:12,060 --> 00:01:13,200
+the trigger we're just doing a
+
+48
+00:01:13,310 --> 00:01:14,599
+placed order trigger then we're
+
+49
+00:01:14,599 --> 00:01:14,739
+adding
+
+50
+00:01:14,799 --> 00:01:16,200
+a filter made a purchase zero
+
+51
+00:01:16,200 --> 00:01:17,780
+times to start in this flow then
+
+52
+00:01:17,780 --> 00:01:19,959
+we have a 90 to 120 day time delay
+
+53
+00:01:20,090 --> 00:01:22,189
+so you could do that um what you
+
+54
+00:01:22,189 --> 00:01:24,400
+could also do is you could have a
+
+55
+00:01:24,489 --> 00:01:27,480
+segment based trigger so what you
+
+56
+00:01:27,480 --> 00:01:27,739
+do
+
+57
+00:01:27,810 --> 00:01:29,530
+is you create a segment inside of
+
+58
+00:01:29,530 --> 00:01:30,959
+klaviyo and what you say is
+
+59
+00:01:31,010 --> 00:01:33,500
+somebody placed an order um is at
+
+60
+00:01:33,500 --> 00:01:34,579
+least is
+
+61
+00:01:34,790 --> 00:01:36,950
+90 days ago or is at least is
+
+62
+00:01:36,950 --> 00:01:39,519
+after 90 days and so then anytime
+
+63
+00:01:39,640 --> 00:01:42,040
+somebody enters that flow you or
+
+64
+00:01:42,040 --> 00:01:42,260
+anybody
+
+65
+00:01:42,349 --> 00:01:43,530
+enters that segment you have a
+
+66
+00:01:43,540 --> 00:01:44,689
+flow set up so you create a flow
+
+67
+00:01:44,829 --> 00:01:46,260
+and then you have the trigger beat
+
+68
+00:01:46,329 --> 00:01:47,930
+somebody joins a segment and then
+
+69
+00:01:47,930 --> 00:01:49,459
+you set that as the segment for
+
+70
+00:01:49,459 --> 00:01:51,439
+the person's last purchase was 90
+
+71
+00:01:51,510 --> 00:01:53,629
+days ago um so that's my ideal way
+
+72
+00:01:53,629 --> 00:01:55,659
+of doing it but for simplicity
+
+73
+00:01:55,659 --> 00:01:58,760
+sake i just did this so with email
+
+74
+00:01:58,829 --> 00:02:00,519
+one email two email three email
+
+75
+00:02:00,519 --> 00:02:02,280
+one just a quick it's been a while
+
+76
+00:02:02,439 --> 00:02:04,069
+remind them of the brand encourage
+
+77
+00:02:04,409 --> 00:02:05,340
+them to come back for another
+
+78
+00:02:05,599 --> 00:02:06,379
+purchase just be like hey it's
+
+79
+00:02:06,430 --> 00:02:07,239
+been a while since your last
+
+80
+00:02:07,370 --> 00:02:07,870
+purchase we
+
+81
+00:02:08,008 --> 00:02:09,340
+miss you yada yada more for
+
+82
+00:02:09,340 --> 00:02:11,090
+customer experience and then we
+
+83
+00:02:11,090 --> 00:02:12,750
+wait seven days and then this is
+
+84
+00:02:12,860 --> 00:02:13,159
+where we can
+
+85
+00:02:13,289 --> 00:02:14,919
+introduce a discount make them
+
+86
+00:02:14,919 --> 00:02:16,349
+feel special with a unique
+
+87
+00:02:16,349 --> 00:02:17,909
+discount um to try to get them
+
+88
+00:02:17,909 --> 00:02:18,530
+back wait
+
+89
+00:02:18,830 --> 00:02:19,919
+seven days and then you can do a
+
+90
+00:02:20,020 --> 00:02:21,169
+text-based last chance from the
+
+91
+00:02:21,310 --> 00:02:22,520
+founder and reminding them of it
+
+92
+00:02:22,590 --> 00:02:24,340
+you can set whatever time delay
+
+93
+00:02:24,340 --> 00:02:26,050
+you want if you're like a hot tub
+
+94
+00:02:26,189 --> 00:02:27,830
+company you probably have a very
+
+95
+00:02:28,169 --> 00:02:29,810
+long time period between purchases
+
+96
+00:02:29,810 --> 00:02:31,159
+so you could set this to like a
+
+97
+00:02:31,159 --> 00:02:34,000
+year um but um for stuff like
+
+98
+00:02:34,330 --> 00:02:36,050
+supplements or something it might
+
+99
+00:02:36,050 --> 00:02:38,000
+be helpful to do like 120 day win
+
+100
+00:02:38,000 --> 00:02:40,159
+back uh flow um because usually
+
+101
+00:02:40,259 --> 00:02:40,460
+the
+
+102
+00:02:40,530 --> 00:02:42,289
+purchase periods are a lot shorter
+
+103
+00:02:42,550 --> 00:02:44,340
+so email one which is going to be
+
+104
+00:02:44,340 --> 00:02:47,830
+let's say 120 days um it's
+
+105
+00:02:47,909 --> 00:02:48,800
+been a while this email is purely
+
+106
+00:02:48,800 --> 00:02:49,669
+for client experience let them
+
+107
+00:02:49,770 --> 00:02:50,639
+know we're thinking about
+
+108
+00:02:50,710 --> 00:02:51,909
+them we want to give them the
+
+109
+00:02:51,909 --> 00:02:53,289
+sense that we're not just a big
+
+110
+00:02:53,289 --> 00:02:54,900
+company and this goes a long ways
+
+111
+00:02:54,900 --> 00:02:55,020
+being
+
+112
+00:02:55,169 --> 00:02:56,689
+able to customize things like this
+
+113
+00:02:56,689 --> 00:02:58,000
+i don't know why that's opening
+
+114
+00:02:58,129 --> 00:02:59,379
+but it goes a very long ways
+
+115
+00:02:59,449 --> 00:03:01,789
+so just keep it simple so the
+
+116
+00:03:01,930 --> 00:03:05,099
+purpose make them feel special and
+
+117
+00:03:05,099 --> 00:03:07,680
+like they're missed for a repeat
+
+118
+00:03:07,750 --> 00:03:09,379
+purchase so our subject lines are
+
+119
+00:03:09,379 --> 00:03:11,069
+just addressing that saying it's
+
+120
+00:03:11,069 --> 00:03:12,479
+been a while hey how's it been
+
+121
+00:03:12,669 --> 00:03:14,000
+let's catch up we miss you is it
+
+122
+00:03:14,000 --> 00:03:15,419
+time for restock new memories
+
+123
+00:03:15,419 --> 00:03:17,180
+await something like that and so
+
+124
+00:03:17,180 --> 00:03:17,400
+for
+
+125
+00:03:17,530 --> 00:03:19,060
+this email we like to say uh we
+
+126
+00:03:19,060 --> 00:03:20,860
+like to have this layout for it's
+
+127
+00:03:20,860 --> 00:03:22,500
+been a while have some have a
+
+128
+00:03:22,500 --> 00:03:22,680
+branded
+
+129
+00:03:22,789 --> 00:03:24,349
+image in the background add body
+
+130
+00:03:24,349 --> 00:03:26,030
+copy here about like hey it's been
+
+131
+00:03:26,030 --> 00:03:27,520
+a while it's time to stock back
+
+132
+00:03:27,629 --> 00:03:29,210
+up yada yada yada all that good
+
+133
+00:03:29,210 --> 00:03:30,879
+stuff and then you can say like
+
+134
+00:03:30,879 --> 00:03:32,490
+you've missed a lot um we're
+
+135
+00:03:32,490 --> 00:03:32,789
+always
+
+136
+00:03:32,870 --> 00:03:33,889
+releasing new products something
+
+137
+00:03:34,060 --> 00:03:34,919
+like that or you could do like
+
+138
+00:03:34,919 --> 00:03:36,120
+some social proof in this section
+
+139
+00:03:36,120 --> 00:03:36,280
+if
+
+140
+00:03:36,349 --> 00:03:37,620
+you want uh whatever you want to
+
+141
+00:03:37,659 --> 00:03:38,849
+do and then you can have some
+
+142
+00:03:38,870 --> 00:03:40,310
+products here so this is a cool
+
+143
+00:03:40,319 --> 00:03:40,500
+little
+
+144
+00:03:40,569 --> 00:03:42,169
+product section you just say shop
+
+145
+00:03:42,169 --> 00:03:43,789
+what you miss shop our favorites
+
+146
+00:03:43,800 --> 00:03:45,719
+something like that and this is
+
+147
+00:03:45,789 --> 00:03:46,719
+going to work really well just for
+
+148
+00:03:46,979 --> 00:03:47,550
+customer experience it usually
+
+149
+00:03:47,810 --> 00:03:48,629
+gets pretty good engagement
+
+150
+00:03:48,750 --> 00:03:50,139
+and then if you want to run a
+
+151
+00:03:50,139 --> 00:03:51,879
+discount for win back people to
+
+152
+00:03:51,879 --> 00:03:53,460
+try to get them back after a
+
+153
+00:03:53,460 --> 00:03:53,490
+certain
+
+154
+00:03:53,669 --> 00:03:54,789
+amount of time you can set
+
+155
+00:03:54,860 --> 00:03:56,340
+whatever time delay you want but
+
+156
+00:03:56,340 --> 00:03:57,939
+email to discount open even if you
+
+157
+00:03:57,939 --> 00:03:58,199
+ran
+
+158
+00:03:58,270 --> 00:03:59,400
+sales since customers last
+
+159
+00:03:59,460 --> 00:04:00,789
+purchase they may have just been
+
+160
+00:04:00,810 --> 00:04:02,199
+at the wrong time and then adding
+
+161
+00:04:02,199 --> 00:04:02,289
+a
+
+162
+00:04:02,409 --> 00:04:03,629
+discount that's specific to the
+
+163
+00:04:03,629 --> 00:04:05,009
+customer makes it clear that we're
+
+164
+00:04:05,009 --> 00:04:06,939
+trying to get them back and that
+
+165
+00:04:07,009 --> 00:04:08,610
+could get them over the edge it's
+
+166
+00:04:08,620 --> 00:04:10,300
+a custom discount it's not there
+
+167
+00:04:10,300 --> 00:04:12,250
+it's not like a generic spring 20
+
+168
+00:04:12,560 --> 00:04:12,740
+for
+
+169
+00:04:12,810 --> 00:04:14,430
+like a spring sale type of thing
+
+170
+00:04:14,430 --> 00:04:16,199
+um so some winning subject lines
+
+171
+00:04:16,199 --> 00:04:17,860
+uh x percent off just for you
+
+172
+00:04:17,930 --> 00:04:19,170
+just because we miss you take x
+
+173
+00:04:19,170 --> 00:04:20,540
+percent off your order limited
+
+174
+00:04:20,540 --> 00:04:22,100
+discount inside we got you a gift
+
+175
+00:04:22,170 --> 00:04:23,870
+notice how personal these are and
+
+176
+00:04:23,870 --> 00:04:25,480
+being like this is yours so take
+
+177
+00:04:25,480 --> 00:04:27,759
+10 off your next order you can use
+
+178
+00:04:27,829 --> 00:04:29,899
+this code miss you a 10 for 10 off
+
+179
+00:04:29,899 --> 00:04:31,709
+i just did miss you a 10 um what i
+
+180
+00:04:31,709 --> 00:04:33,519
+would recommend for a lot of the
+
+181
+00:04:33,589 --> 00:04:35,350
+discount codes is use one that
+
+182
+00:04:35,610 --> 00:04:37,339
+looks random so you can say like
+
+183
+00:04:37,339 --> 00:04:39,259
+miss you a dash seven x seven x
+
+184
+00:04:39,259 --> 00:04:40,040
+four z
+
+185
+00:04:40,110 --> 00:04:41,399
+and then have that as a static
+
+186
+00:04:41,430 --> 00:04:42,720
+code in shopify but it looks
+
+187
+00:04:42,720 --> 00:04:44,560
+custom to the person they can have
+
+188
+00:04:44,560 --> 00:04:44,699
+just
+
+189
+00:04:44,750 --> 00:04:46,160
+a product image or lifestyle image
+
+190
+00:04:46,160 --> 00:04:47,360
+and then just a couple of your
+
+191
+00:04:47,360 --> 00:04:49,509
+features again shop 10 off as the
+
+192
+00:04:49,610 --> 00:04:51,370
+buttons super simple nothing crazy
+
+193
+00:04:51,480 --> 00:04:53,079
+just get them to click and make a
+
+194
+00:04:53,209 --> 00:04:55,899
+purchase and then email three we
+
+195
+00:04:55,970 --> 00:04:57,420
+have a text-based discount closer
+
+196
+00:04:57,420 --> 00:04:58,790
+from the founder people just love
+
+197
+00:04:58,930 --> 00:05:00,560
+text-based emails from the founder
+
+198
+00:05:00,629 --> 00:05:01,850
+and offering them a final chance
+
+199
+00:05:01,850 --> 00:05:03,129
+for the exclusive discount just
+
+200
+00:05:03,149 --> 00:05:04,819
+because they miss them it's huge
+
+201
+00:05:04,819 --> 00:05:04,930
+for
+
+202
+00:05:05,009 --> 00:05:05,910
+the customer experience and
+
+203
+00:05:06,189 --> 00:05:07,120
+getting conversions and showing to
+
+204
+00:05:07,120 --> 00:05:08,100
+them we're not just some big
+
+205
+00:05:08,100 --> 00:05:08,430
+corporate
+
+206
+00:05:08,529 --> 00:05:09,800
+brand who doesn't care about you
+
+207
+00:05:09,839 --> 00:05:11,160
+after you make a purchase we're a
+
+208
+00:05:11,160 --> 00:05:12,550
+small enough brand where we have
+
+209
+00:05:12,639 --> 00:05:12,779
+the
+
+210
+00:05:12,850 --> 00:05:14,000
+founder reaching out to you and
+
+211
+00:05:14,040 --> 00:05:15,310
+offering a discount and saying we
+
+212
+00:05:15,329 --> 00:05:16,550
+miss you like that goes a long
+
+213
+00:05:16,560 --> 00:05:16,759
+ways
+
+214
+00:05:16,829 --> 00:05:18,040
+so add urgency and a personal
+
+215
+00:05:18,040 --> 00:05:19,480
+touch acknowledge they haven't
+
+216
+00:05:19,480 --> 00:05:20,629
+bought in a while so just be
+
+217
+00:05:20,629 --> 00:05:21,339
+straight up
+
+218
+00:05:21,410 --> 00:05:22,839
+with it offer them support and
+
+219
+00:05:22,839 --> 00:05:24,459
+give a last chance just checking
+
+220
+00:05:24,459 --> 00:05:26,269
+in for subject lines just checking
+
+221
+00:05:26,269 --> 00:05:26,569
+in
+
+222
+00:05:26,649 --> 00:05:27,829
+do you still want x percent off
+
+223
+00:05:27,839 --> 00:05:28,990
+are you still interested last
+
+224
+00:05:29,129 --> 00:05:30,439
+chance last chance to claim your
+
+225
+00:05:30,509 --> 00:05:32,269
+debt uh your gift have it from the
+
+226
+00:05:32,389 --> 00:05:34,420
+founder you just say something as
+
+227
+00:05:34,420 --> 00:05:36,339
+simple as this uh i noticed it's
+
+228
+00:05:36,360 --> 00:05:36,459
+been
+
+229
+00:05:36,569 --> 00:05:37,680
+quite some time since your last
+
+230
+00:05:37,759 --> 00:05:38,910
+purchase i wanted to check in make
+
+231
+00:05:39,050 --> 00:05:41,160
+sure everything was okay if with
+
+232
+00:05:41,230 --> 00:05:42,990
+your last order if it if nothing
+
+233
+00:05:43,089 --> 00:05:45,120
+if it wasn't good just let us know
+
+234
+00:05:45,120 --> 00:05:46,720
+uh if you did love i have an
+
+235
+00:05:46,790 --> 00:05:48,079
+exclusive discount just for you
+
+236
+00:05:48,100 --> 00:05:49,439
+use code yada yada for 10 off
+
+237
+00:05:49,439 --> 00:05:51,680
+thank you for for your support and
+
+238
+00:05:51,730 --> 00:05:51,920
+that's
+
+239
+00:05:51,990 --> 00:05:53,519
+it for the win back flow a lot of
+
+240
+00:05:53,519 --> 00:05:55,269
+your a lot of your retention will
+
+241
+00:05:55,269 --> 00:05:57,240
+be handled by campaigns so don't
+
+242
+00:05:57,430 --> 00:05:58,689
+overthink this like your big your
+
+243
+00:05:58,689 --> 00:05:59,779
+sales that you're running for
+
+244
+00:05:59,910 --> 00:06:01,839
+memorial day labor day a lot of
+
+245
+00:06:01,839 --> 00:06:02,579
+that is going to get
+
+246
+00:06:02,689 --> 00:06:04,079
+people so uh don't try to get too
+
+247
+00:06:04,079 --> 00:06:05,519
+crazy with this because you'll
+
+248
+00:06:05,649 --> 00:06:07,279
+just spend a lot of time for flow
+
+249
+00:06:07,350 --> 00:06:08,810
+that not a lot of people will
+
+250
+00:06:08,810 --> 00:06:10,480
+convert from so that is the win
+
+251
+00:06:10,480 --> 00:06:12,089
+back flow and yeah there we go
+
+252
+00:06:12,269 --> 00:06:16,240
+okay last but of course not least
+
+253
+00:06:16,279 --> 00:06:19,569
+we have the win back flow which is
+
+254
+00:06:19,600 --> 00:06:21,480
+going to do kind of how it
+
+255
+00:06:21,550 --> 00:06:23,180
+sounds win people back it's very
+
+256
+00:06:23,180 --> 00:06:24,910
+straightforward we just want to
+
+257
+00:06:24,910 --> 00:06:26,790
+encourage people to make another
+
+258
+00:06:26,870 --> 00:06:28,430
+purchase um these are past
+
+259
+00:06:28,430 --> 00:06:30,529
+customers and we want them to come
+
+260
+00:06:30,529 --> 00:06:32,540
+back so do not overthink this flow
+
+261
+00:06:32,610 --> 00:06:33,740
+um the thing is like your
+
+262
+00:06:33,800 --> 00:06:35,430
+customers are still receiving your
+
+263
+00:06:35,569 --> 00:06:37,139
+campaign emails they're still
+
+264
+00:06:37,209 --> 00:06:38,670
+uh receiving like your sales and
+
+265
+00:06:38,680 --> 00:06:40,279
+whatever else you're blasting to
+
+266
+00:06:40,279 --> 00:06:41,939
+your list and if you're like us
+
+267
+00:06:42,050 --> 00:06:43,870
+and you have an optimized email um
+
+268
+00:06:43,910 --> 00:06:45,769
+channel you're sending three to
+
+269
+00:06:45,769 --> 00:06:47,579
+four email campaigns a week so
+
+270
+00:06:47,649 --> 00:06:49,230
+somebody made a purchase three
+
+271
+00:06:49,230 --> 00:06:51,060
+four months ago and you're sending
+
+272
+00:06:51,060 --> 00:06:52,800
+three to four email campaigns a
+
+273
+00:06:52,879 --> 00:06:52,889
+week
+
+274
+00:06:53,250 --> 00:06:54,720
+that's going to handle a lot of
+
+275
+00:06:54,750 --> 00:06:56,670
+your repeat purchases 99 of your
+
+276
+00:06:56,689 --> 00:06:57,990
+attention and repeat purchases
+
+277
+00:06:58,100 --> 00:06:58,500
+will come
+
+278
+00:06:58,730 --> 00:07:00,199
+from your campaigns so for this
+
+279
+00:07:00,230 --> 00:07:01,779
+reason we keep the win back flow
+
+280
+00:07:01,779 --> 00:07:03,420
+nice and simple and it's more for
+
+281
+00:07:03,420 --> 00:07:03,589
+like
+
+282
+00:07:03,670 --> 00:07:04,939
+customer experience and to at
+
+283
+00:07:04,990 --> 00:07:06,240
+least automate a part of the
+
+284
+00:07:06,240 --> 00:07:07,620
+customer journey uh just to be
+
+285
+00:07:07,620 --> 00:07:08,220
+like hey we
+
+286
+00:07:08,290 --> 00:07:09,410
+noticed you haven't bought in a
+
+287
+00:07:09,480 --> 00:07:10,610
+while it's you don't really get
+
+288
+00:07:10,610 --> 00:07:11,750
+too many sales i haven't seen a
+
+289
+00:07:11,889 --> 00:07:11,980
+win
+
+290
+00:07:12,050 --> 00:07:13,370
+back flow like generate crazy
+
+291
+00:07:13,370 --> 00:07:14,819
+money for every brand that i've
+
+292
+00:07:14,819 --> 00:07:16,350
+looked in and even like me trying
+
+293
+00:07:16,449 --> 00:07:16,639
+to like
+
+294
+00:07:16,709 --> 00:07:17,850
+optimize the heck out of it it's
+
+295
+00:07:17,899 --> 00:07:18,910
+just not how it works a lot of
+
+296
+00:07:18,910 --> 00:07:20,339
+people will just convert from your
+
+297
+00:07:20,410 --> 00:07:21,699
+campaigns so it's more for the
+
+298
+00:07:21,720 --> 00:07:23,209
+customer experience um so let's
+
+299
+00:07:23,209 --> 00:07:24,180
+break down the flow
+
+300
+00:07:24,250 --> 00:07:25,430
+really simple just three emails
+
+301
+00:07:25,439 --> 00:07:26,569
+the trigger we're just doing a
+
+302
+00:07:26,569 --> 00:07:28,000
+placed order trigger then we're
+
+303
+00:07:28,000 --> 00:07:28,139
+adding
+
+304
+00:07:28,199 --> 00:07:29,600
+a filter made a purchase zero
+
+305
+00:07:29,600 --> 00:07:31,029
+times to start in this flow then
+
+306
+00:07:31,170 --> 00:07:33,449
+we have a 90 to 120 day time delay
+
+307
+00:07:33,759 --> 00:07:34,040
+so
+
+308
+00:07:34,149 --> 00:07:35,910
+you could do that um what you
+
+309
+00:07:36,160 --> 00:07:38,389
+could also do is you could have a
+
+310
+00:07:38,389 --> 00:07:40,860
+segment based trigger so what you
+
+311
+00:07:40,860 --> 00:07:41,120
+do
+
+312
+00:07:41,250 --> 00:07:42,970
+is you create a segment inside of
+
+313
+00:07:42,970 --> 00:07:44,399
+klaviyo and what you say is
+
+314
+00:07:44,449 --> 00:07:47,399
+somebody placed an order um is at
+
+315
+00:07:47,639 --> 00:07:48,019
+least is
+
+316
+00:07:48,209 --> 00:07:50,279
+90 days ago or is at least is
+
+317
+00:07:50,279 --> 00:07:52,850
+after 90 days and so then anytime
+
+318
+00:07:52,850 --> 00:07:55,500
+somebody enters that flow you or
+
+319
+00:07:55,500 --> 00:07:55,680
+anybody
+
+320
+00:07:55,790 --> 00:07:56,970
+enters that segment you have a
+
+321
+00:07:56,980 --> 00:07:58,129
+flow set up so you create a flow
+
+322
+00:07:58,269 --> 00:07:59,680
+and then you have the trigger beat
+
+323
+00:07:59,750 --> 00:08:01,350
+somebody joins a segment and then
+
+324
+00:08:01,350 --> 00:08:02,860
+you set that as the segment for
+
+325
+00:08:02,860 --> 00:08:04,860
+the person's last purchase was 90
+
+326
+00:08:04,860 --> 00:08:04,990
+days
+
+327
+00:08:05,149 --> 00:08:07,019
+ago um so that's my ideal way of
+
+328
+00:08:07,170 --> 00:08:09,430
+doing it but for simplicity's sake
+
+329
+00:08:09,430 --> 00:08:12,540
+i just did this so with email one
+
+330
+00:08:12,610 --> 00:08:14,300
+email two email three email one
+
+331
+00:08:14,300 --> 00:08:15,899
+just a quick it's been a while
+
+332
+00:08:15,899 --> 00:08:17,759
+remind them of the brand encourage
+
+333
+00:08:17,850 --> 00:08:18,750
+them to come back for another
+
+334
+00:08:19,040 --> 00:08:19,750
+purchase just be like hey it's
+
+335
+00:08:19,870 --> 00:08:20,819
+been a while since your last
+
+336
+00:08:20,819 --> 00:08:21,310
+purchase we
+
+337
+00:08:21,430 --> 00:08:22,899
+miss you yada yada yada more for
+
+338
+00:08:22,930 --> 00:08:24,569
+customer experience and then we
+
+339
+00:08:24,569 --> 00:08:26,170
+wait seven days and then this is
+
+340
+00:08:26,279 --> 00:08:26,399
+where
+
+341
+00:08:26,470 --> 00:08:28,139
+we can introduce a discount make
+
+342
+00:08:28,139 --> 00:08:29,819
+them feel special with a unique
+
+343
+00:08:29,819 --> 00:08:31,420
+discount um to try to get them
+
+344
+00:08:31,420 --> 00:08:31,709
+back
+
+345
+00:08:31,790 --> 00:08:32,940
+wait seven days and then you can
+
+346
+00:08:32,980 --> 00:08:34,129
+do a text-based last chance from
+
+347
+00:08:34,269 --> 00:08:35,809
+the founder and reminding them of
+
+348
+00:08:35,889 --> 00:08:37,590
+it you can set whatever time delay
+
+349
+00:08:37,590 --> 00:08:39,220
+you want if you're like a hot tub
+
+350
+00:08:39,220 --> 00:08:41,538
+company you probably have a very
+
+351
+00:08:41,610 --> 00:08:43,250
+long time period between purchases
+
+352
+00:08:43,250 --> 00:08:44,600
+so you could set this to like a
+
+353
+00:08:44,600 --> 00:08:47,440
+year um but um for stuff like
+
+354
+00:08:47,730 --> 00:08:49,490
+supplements or something it might
+
+355
+00:08:49,750 --> 00:08:51,980
+be helpful to do like 120 day win
+
+356
+00:08:51,980 --> 00:08:53,559
+back uh flow um because usually
+
+357
+00:08:53,789 --> 00:08:55,899
+the purchase periods are a lot
+
+358
+00:08:55,899 --> 00:08:58,000
+shorter so email one which is
+
+359
+00:08:58,000 --> 00:09:00,759
+going to be let's say 120 days um
+
+360
+00:09:00,820 --> 00:09:01,259
+it's
+
+361
+00:09:01,330 --> 00:09:02,220
+been a while this email is purely
+
+362
+00:09:02,220 --> 00:09:03,090
+for client experience let them
+
+363
+00:09:03,190 --> 00:09:04,480
+know we're thinking about them we
+
+364
+00:09:04,480 --> 00:09:04,700
+want to
+
+365
+00:09:04,769 --> 00:09:06,190
+give them the sense that we're not
+
+366
+00:09:06,190 --> 00:09:07,610
+just a big company and this goes a
+
+367
+00:09:07,730 --> 00:09:08,730
+long ways being able to
+
+368
+00:09:08,850 --> 00:09:10,379
+customize things like this i don't
+
+369
+00:09:10,379 --> 00:09:11,690
+know why that's opening but it
+
+370
+00:09:11,809 --> 00:09:12,799
+goes a very long ways
+
+371
+00:09:12,870 --> 00:09:15,210
+so just keep it simple so the
+
+372
+00:09:15,350 --> 00:09:18,519
+purpose make them feel special and
+
+373
+00:09:18,519 --> 00:09:21,110
+like they're missed for a repeat
+
+374
+00:09:21,190 --> 00:09:22,789
+purchase so our subject lines are
+
+375
+00:09:22,789 --> 00:09:24,490
+just addressing that saying it's
+
+376
+00:09:24,490 --> 00:09:25,919
+been a while hey how's it been
+
+377
+00:09:26,090 --> 00:09:27,440
+let's catch up we miss you it's a
+
+378
+00:09:27,440 --> 00:09:28,809
+time for restock new memories
+
+379
+00:09:28,809 --> 00:09:30,700
+await something like that and so
+
+380
+00:09:30,700 --> 00:09:31,039
+for this
+
+381
+00:09:31,110 --> 00:09:32,730
+email we like to say uh we like to
+
+382
+00:09:32,730 --> 00:09:34,409
+have this layout for it's been a
+
+383
+00:09:34,409 --> 00:09:36,139
+while have some have a branded
+
+384
+00:09:36,139 --> 00:09:36,659
+image in
+
+385
+00:09:36,730 --> 00:09:38,279
+the background add body copy here
+
+386
+00:09:38,279 --> 00:09:39,759
+about like hey it's been a while
+
+387
+00:09:39,759 --> 00:09:41,259
+it's time to stock back up
+
+388
+00:09:41,320 --> 00:09:43,019
+yada yada yada all that good stuff
+
+389
+00:09:43,019 --> 00:09:44,659
+and then you can say like you've
+
+390
+00:09:44,659 --> 00:09:46,210
+missed a lot um we're always
+
+391
+00:09:46,289 --> 00:09:47,149
+releasing new products something
+
+392
+00:09:47,480 --> 00:09:48,500
+like that or you can do like some
+
+393
+00:09:48,559 --> 00:09:49,700
+social proof in this section if
+
+394
+00:09:49,700 --> 00:09:49,750
+you
+
+395
+00:09:49,870 --> 00:09:51,100
+want uh whatever you want to do
+
+396
+00:09:51,100 --> 00:09:52,210
+and then you can have some
+
+397
+00:09:52,210 --> 00:09:53,509
+products here so this is a cool
+
+398
+00:09:53,509 --> 00:09:53,889
+little
+
+399
+00:09:53,990 --> 00:09:55,590
+product section you just say shop
+
+400
+00:09:55,590 --> 00:09:57,210
+what you miss shop our favorites
+
+401
+00:09:57,220 --> 00:09:59,120
+something like that and this is
+
+402
+00:09:59,190 --> 00:10:00,120
+going to work really well just for
+
+403
+00:10:00,379 --> 00:10:00,950
+customer experience it usually
+
+404
+00:10:01,210 --> 00:10:02,029
+gets pretty good engagement
+
+405
+00:10:02,169 --> 00:10:03,559
+and then if you want to run a
+
+406
+00:10:03,559 --> 00:10:05,299
+discount for win back people to
+
+407
+00:10:05,299 --> 00:10:06,879
+try to get them back after a
+
+408
+00:10:06,879 --> 00:10:06,909
+certain
+
+409
+00:10:07,090 --> 00:10:08,210
+amount of time you can set
+
+410
+00:10:08,279 --> 00:10:09,759
+whatever time delay you want but
+
+411
+00:10:09,759 --> 00:10:11,360
+email to discount open even if you
+
+412
+00:10:11,360 --> 00:10:11,620
+ran
+
+413
+00:10:11,690 --> 00:10:12,820
+sales since customers last
+
+414
+00:10:12,879 --> 00:10:14,210
+purchase they may have just been
+
+415
+00:10:14,230 --> 00:10:15,620
+at the wrong time and then adding
+
+416
+00:10:15,620 --> 00:10:15,710
+a
+
+417
+00:10:15,830 --> 00:10:17,049
+discount that's specific to the
+
+418
+00:10:17,049 --> 00:10:18,429
+customer makes it clear that we're
+
+419
+00:10:18,429 --> 00:10:20,360
+trying to get them back and that
+
+420
+00:10:20,429 --> 00:10:21,980
+could get them over the edge it's
+
+421
+00:10:21,980 --> 00:10:23,600
+a custom discount it's not there
+
+422
+00:10:23,649 --> 00:10:25,669
+it's not like a generic spring 20
+
+423
+00:10:25,950 --> 00:10:27,490
+for like a spring sale type of
+
+424
+00:10:27,490 --> 00:10:29,320
+thing um so some winning subject
+
+425
+00:10:29,320 --> 00:10:31,019
+lines uh x percent off just for
+
+426
+00:10:31,019 --> 00:10:31,190
+you
+
+427
+00:10:31,350 --> 00:10:32,600
+just because we miss you take x
+
+428
+00:10:32,600 --> 00:10:34,000
+percent off your order limited
+
+429
+00:10:34,000 --> 00:10:35,539
+discount inside we got you a gift
+
+430
+00:10:35,610 --> 00:10:37,309
+notice how personal these are and
+
+431
+00:10:37,309 --> 00:10:38,919
+being like this is yours so take
+
+432
+00:10:38,919 --> 00:10:41,179
+10 off your next order you can use
+
+433
+00:10:41,250 --> 00:10:43,399
+this code missya10 for 10 off i
+
+434
+00:10:43,399 --> 00:10:45,480
+just did missya10 um what i would
+
+435
+00:10:45,480 --> 00:10:46,940
+recommend for a lot of the
+
+436
+00:10:47,009 --> 00:10:48,370
+discount codes is use one that
+
+437
+00:10:48,370 --> 00:10:49,840
+looks random so you can say like
+
+438
+00:10:49,970 --> 00:10:54,299
+missya dash 7x7x4z and then have
+
+439
+00:10:54,389 --> 00:10:55,679
+that as a static code in shopify
+
+440
+00:10:55,700 --> 00:10:57,110
+but it looks custom to the person
+
+441
+00:10:57,110 --> 00:10:58,340
+they can have just like a
+
+442
+00:10:58,409 --> 00:10:59,870
+product image or lifestyle image
+
+443
+00:10:59,919 --> 00:11:01,190
+and then just a couple of your
+
+444
+00:11:01,190 --> 00:11:02,980
+features again shop 10 off as the
+
+445
+00:11:03,049 --> 00:11:05,250
+buttons super simple nothing crazy
+
+446
+00:11:05,250 --> 00:11:07,190
+just get them to click and make a
+
+447
+00:11:07,190 --> 00:11:09,320
+purchase and then email three we
+
+448
+00:11:09,389 --> 00:11:10,830
+have a text-based discount closer
+
+449
+00:11:10,830 --> 00:11:12,210
+from the founder people just love
+
+450
+00:11:12,350 --> 00:11:13,960
+text-based emails from the founder
+
+451
+00:11:14,029 --> 00:11:15,250
+and offering them a final chance
+
+452
+00:11:15,250 --> 00:11:16,529
+for the exclusive discount just
+
+453
+00:11:16,549 --> 00:11:18,240
+because they miss them it's huge
+
+454
+00:11:18,240 --> 00:11:18,340
+for
+
+455
+00:11:18,429 --> 00:11:19,330
+the customer experience and
+
+456
+00:11:19,610 --> 00:11:20,539
+getting conversions and showing to
+
+457
+00:11:20,539 --> 00:11:21,519
+them we're not just some big
+
+458
+00:11:21,519 --> 00:11:22,200
+corporate brand
+
+459
+00:11:22,269 --> 00:11:23,509
+who doesn't care about you after
+
+460
+00:11:23,509 --> 00:11:24,830
+you make a purchase we're a small
+
+461
+00:11:24,830 --> 00:11:26,179
+enough brand where we have the
+
+462
+00:11:26,250 --> 00:11:27,409
+founder reaching out to you and
+
+463
+00:11:27,440 --> 00:11:28,730
+offering a discount and saying we
+
+464
+00:11:28,730 --> 00:11:29,919
+miss you like that goes a long
+
+465
+00:11:29,919 --> 00:11:30,179
+ways
+
+466
+00:11:30,250 --> 00:11:31,700
+so at urgency and a personal touch
+
+467
+00:11:31,700 --> 00:11:33,340
+acknowledge they haven't bought in
+
+468
+00:11:33,340 --> 00:11:34,759
+a while so just be straight up
+
+469
+00:11:34,830 --> 00:11:36,259
+with it offer them support and
+
+470
+00:11:36,259 --> 00:11:37,879
+give a last chance just checking
+
+471
+00:11:37,879 --> 00:11:39,690
+in for subject lines just checking
+
+472
+00:11:39,690 --> 00:11:39,990
+in
+
+473
+00:11:40,070 --> 00:11:41,250
+do you still want x percent off
+
+474
+00:11:41,259 --> 00:11:42,409
+are you still interested last
+
+475
+00:11:42,549 --> 00:11:43,860
+chance last chance to claim your
+
+476
+00:11:43,929 --> 00:11:45,629
+uh your gift have it from the
+
+477
+00:11:45,629 --> 00:11:47,779
+founder you just say something as
+
+478
+00:11:47,779 --> 00:11:49,759
+simple as this uh i noticed it's
+
+479
+00:11:49,779 --> 00:11:49,879
+been
+
+480
+00:11:49,990 --> 00:11:51,100
+quite some time since your last
+
+481
+00:11:51,179 --> 00:11:52,330
+purchase i wanted to check in make
+
+482
+00:11:52,470 --> 00:11:54,580
+sure everything was okay if with
+
+483
+00:11:54,649 --> 00:11:56,409
+your last order if it if nothing
+
+484
+00:11:56,669 --> 00:11:58,559
+if it wasn't good just let us know
+
+485
+00:11:58,559 --> 00:12:00,139
+uh if you did love i have an
+
+486
+00:12:00,210 --> 00:12:01,500
+exclusive discount just for you
+
+487
+00:12:01,519 --> 00:12:02,860
+use code yada yada for 10 off
+
+488
+00:12:02,860 --> 00:12:05,100
+thank you for for your support and
+
+489
+00:12:05,149 --> 00:12:05,340
+that's
+
+490
+00:12:05,409 --> 00:12:06,940
+it for the win back flow a lot of
+
+491
+00:12:06,940 --> 00:12:08,690
+your a lot of your retention will
+
+492
+00:12:08,690 --> 00:12:10,659
+be handled by campaigns so don't
+
+493
+00:12:10,830 --> 00:12:12,370
+overthink this like your big your
+
+494
+00:12:12,370 --> 00:12:13,799
+sales that you're running for
+
+495
+00:12:13,799 --> 00:12:15,259
+memorial day labor day a lot of
+
+496
+00:12:15,259 --> 00:12:15,440
+that
+
+497
+00:12:15,509 --> 00:12:16,919
+is going to get people so uh don't
+
+498
+00:12:16,919 --> 00:12:18,230
+try to get too crazy with this
+
+499
+00:12:18,230 --> 00:12:19,820
+because you'll just spend a lot of
+
+500
+00:12:19,950 --> 00:12:21,480
+time for flow that not a lot of
+
+501
+00:12:21,480 --> 00:12:23,289
+people will convert from so that
+
+502
+00:12:23,289 --> 00:12:24,820
+is the win back flow and yeah
+
+503
+00:12:24,820 --> 00:12:25,620
+there we go

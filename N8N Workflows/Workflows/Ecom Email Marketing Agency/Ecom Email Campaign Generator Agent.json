@@ -1,0 +1,1518 @@
+{
+  "name": "Ecom Email Campaign Generator Agent",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "Email Campaign Writer",
+        "formDescription": "=Input brand details below to generate a total of 5 email campaigns for your desired brand",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Brand Name",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Brand Website",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Industry / Niche",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Existing Client?",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Yes"
+                  },
+                  {
+                    "option": "No"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Personalization Notes",
+              "fieldType": "textarea"
+            },
+            {
+              "fieldLabel": "Campaign Type",
+              "fieldType": "checkbox",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Any Types"
+                  },
+                  {
+                    "option": "FAQ / Myth-Busting"
+                  },
+                  {
+                    "option": "Ingredient / Feature Spotlight"
+                  },
+                  {
+                    "option": "Research / Study Highlight"
+                  },
+                  {
+                    "option": "Customer Transformation / Testimonial"
+                  },
+                  {
+                    "option": "Behind-the-Scenes / Brand Story"
+                  },
+                  {
+                    "option": "Seasonal / Trending Relevance"
+                  },
+                  {
+                    "option": "Problem / Solution Education"
+                  },
+                  {
+                    "option": "Gift Guide / Gifting Education"
+                  },
+                  {
+                    "option": "Early Access / VIP Insider"
+                  },
+                  {
+                    "option": "Product Launch / New Arrival"
+                  },
+                  {
+                    "option": "How-To / Usage Tips"
+                  },
+                  {
+                    "option": "Social Proof / Community Highlight"
+                  },
+                  {
+                    "option": "Urgency / Last Chance"
+                  },
+                  {
+                    "option": "Comparison / Competitive Advantage"
+                  }
+                ]
+              },
+              "limitSelection": "range",
+              "maxSelections": 5
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.3,
+      "position": [
+        -480,
+        -328
+      ],
+      "id": "da9f0101-37ef-4510-8e22-417bf26cfe5b",
+      "name": "On form submission",
+      "webhookId": "fd04b033-113c-4251-a4a3-85983c5b3a90"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=You are researching {{ $json.brandName }} to create 5 high-converting email campaigns: {{ $json.campaignTypes }}\nBRAND: {{ $json.brandName }}\nWEBSITE: {{ $json.brandWebsite }}\nINDUSTRY: {{ $json.niche }}\nNOTES: {{ $json.notes }}\nCAMPAIGNS TO CREATE: {{ $json.campaignTypes }}\nRESEARCH STRATEGY (Maximum 3 searches):\n1. BRAND & PRODUCT ESSENTIALS (Single perplexity call)\n   Search: \"{{ $json.brandName }} brand voice customer reviews best selling products unique value proposition\"\n   Extract: brand personality, top products, customer language, key benefits, price positioning\n2. CUSTOMER & COMPETITIVE INTEL (Single perplexity call)\n   Search: \"{{ $json.brandName }} target audience pain points {{ $json.niche }} competitors differentiation\"\n   Extract: customer demographics, main problems solved, competitor landscape, unique angles\n3. SOCIAL PROOF & MARKETING (Single perplexity call - only if needed for campaigns)\n   Search: \"{{ $json.brandName }} testimonials media coverage email marketing social media\"\n   Extract: credibility markers, existing messaging patterns, engagement themes\nCAMPAIGN-SPECIFIC FOCUS:\nFor each campaign type requested, identify:\n- Primary goal and conversion trigger\n- Ideal customer segment to target\n- Key messaging angle and emotional hook\n- Specific products/offers to feature\n- Social proof elements to include\nDELIVERABLE (Campaign-Ready Format):\n**Brand Intelligence Summary** (2-3 sentences)\n- Core value proposition\n- Target customer profile\n- Brand voice characteristics\n**Campaign Assets:**\nFOR EACH OF THE 5 CAMPAIGNS ({{ $json.campaignTypes }}):\n**Campaign [X]: [Type/Name]**\n- **Goal:** [Primary objective]\n- **Target Segment:** [Who this targets]\n- **Key Angle:** [Main messaging hook]\n- **Emotional Trigger:** [Psychology to leverage]\n- **Featured Products:** [What to showcase]\n- **Social Proof:** [Credibility elements to use]\n- **Differentiation:** [Why this brand vs competitors]\n- **Customer Language:** [2-3 quotes/phrases from reviews]\n**Quick Reference:**\n- Top 3 products: [names & prices]\n- Main pain points solved: [list 3-4]\n- Strongest differentiators: [list 2-3]\n- Best testimonial themes: [list 2-3]\n- Key competitors: [list 2-3]\nSkip any section where data is unavailable. Cite sources only for statistics or major claims.\n",
+        "options": {
+          "systemMessage": "You are an expert brand research analyst specializing in e-commerce email marketing intelligence. Your role is to conduct comprehensive brand research to enable the creation of high-converting Welcome Flows using Max Sturtavant's proven methodology.\n\nYou have access to the webSearch tool (Perplexity) to gather real-time information about brands, competitors, and market positioning.\n\nRESEARCH OBJECTIVES:\nYour research must provide complete intelligence for crafting Welcome Flows that convert at 10%+ rates by understanding:\n- Brand positioning and unique value propositions\n- Customer psychology and pain points\n- Competitive landscape and differentiation opportunities\n- Brand voice, messaging, and communication style\n- Product portfolio and bestsellers\n- Social proof and credibility indicators\n\nRESEARCH METHODOLOGY:\n1. BRAND FOUNDATION ANALYSIS\n   - Company history, founding story, and mission\n   - Core values and brand personality\n   - Unique selling propositions and differentiators\n   - Brand voice and communication style\n   - Visual identity and aesthetic preferences\n\n2. PRODUCT INTELLIGENCE\n   - Complete product catalog and categories\n   - Best-selling products and customer favorites\n   - Price points and average order values\n   - Product benefits and key features\n   - Customer use cases and applications\n\n3. CUSTOMER AVATAR RESEARCH\n   - Target demographics (age, income, location, lifestyle)\n   - Psychographics (values, interests, motivations)\n   - Pain points and frustrations\n   - Shopping behaviors and preferences\n   - Customer reviews and feedback themes\n\n4. COMPETITIVE LANDSCAPE\n   - Direct and indirect competitors\n   - Competitive positioning and messaging\n   - Pricing strategies and value propositions\n   - Market gaps and opportunities\n   - Competitive advantages and weaknesses\n\n5. SOCIAL PROOF MINING\n   - Customer testimonials and reviews\n   - Media mentions and press coverage\n   - Social media presence and engagement\n   - Influencer partnerships and endorsements\n   - Awards, certifications, and credentials\n\n6. MARKETING INTELLIGENCE\n   - Current email marketing approach\n   - Website messaging and conversion elements\n   - Social media content and engagement\n   - Advertising strategies and creative approaches\n   - Customer acquisition and retention tactics\n\nRESEARCH STANDARDS:\n- Use multiple sources to verify information\n- Focus on recent data (last 12-24 months)\n- Prioritize customer-generated content and reviews\n- Identify specific quotes and messaging examples\n- Look for emotional triggers and psychological motivators\n- Find concrete data points (numbers, statistics, metrics)\n\nOUTPUT REQUIREMENTS:\nProvide comprehensive research organized into clear sections with:\n- Specific quotes and examples\n- Quantifiable data points where available\n- Customer voice and language patterns\n- Competitive differentiation opportunities\n- Actionable insights for Welcome Flow creation\n- Source citations for verification\n\nRESEARCH QUALITY STANDARDS:\n- Minimum 3 sources per major finding\n- Include both positive and negative customer feedback\n- Identify gaps in current marketing approach\n- Provide specific examples rather than generalizations\n- Focus on conversion-relevant insights\n- Highlight unique angles and positioning opportunities"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        -32,
+        -328
+      ],
+      "id": "3218490d-524f-4f7e-a986-59dac654720c",
+      "name": "Brand Research Agent"
+    },
+    {
+      "parameters": {
+        "model": "openai/gpt-5",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        -24,
+        -104
+      ],
+      "id": "ca0853cb-7607-4b78-b5b0-480cc8d3616a",
+      "name": "OpenRouter Chat Model",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "1f471fc5-29dc-4d7b-a816-a9417b3963be",
+              "name": "brandName",
+              "value": "={{ $json['Brand Name'] }}",
+              "type": "string"
+            },
+            {
+              "id": "47bc03fe-9bfd-4223-b32b-d5b7b1413f62",
+              "name": "brandWebsite",
+              "value": "={{ $json['Brand Website'] }}",
+              "type": "string"
+            },
+            {
+              "id": "25732b11-0aea-42c6-a312-17f1a18895d3",
+              "name": "niche",
+              "value": "={{ $json['Industry / Niche'] }}",
+              "type": "string"
+            },
+            {
+              "id": "549efd89-0ce8-4a6a-a6bd-3730374a0eaf",
+              "name": "notes",
+              "value": "={{ $json['Personalization Notes'] }}",
+              "type": "string"
+            },
+            {
+              "id": "96a4ddb3-da7b-4bc9-bcea-ee64f75689d7",
+              "name": "campaignTypes",
+              "value": "={{ $json['Campaign Type'] }}",
+              "type": "array"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -256,
+        -328
+      ],
+      "id": "461eb84c-b495-4eb8-8420-9d034a792a5f",
+      "name": "Set Brand Details"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "1836e28b-dde9-42bd-8860-ac4061460407",
+              "name": "brandResearch",
+              "value": "={{ $json.output }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        320,
+        -328
+      ],
+      "id": "a4d4bc42-e31a-469d-b0e8-5912456c3e3d",
+      "name": "Set Research Details"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Create 5 high-converting email campaign ideas using Max's proven $40M methodology. Use Perplexity to research current trends, opportunities, and insights that will make these campaigns uniquely powerful and timely.\n\nBRAND INTELLIGENCE:\n\nBrand Name: {{ $('Set Brand Details').first().json.brandName }}\nBrand Website: {{ $('Set Brand Details').first().json.brandWebsite }}\nNiche: {{ $('Set Brand Details').first().json.niche }}\nNotes: {{ $('Set Brand Details').first().json.notes }}\nCampaign Types: {{ $('Set Brand Details').item.json.campaignTypes }}\nBrand Research: {{ $json.brandResearch }}\n\nRESEARCH REQUIREMENTS: Before creating campaigns, use Perplexity to research:\n\nIndustry Trends (2024-2025): Latest developments, studies, controversies in the brand's niche\nCompetitor Content Gaps: What are competitors NOT talking about that this brand could own?\nCustomer Pain Points: Recent discussions on Reddit, forums, reviews about problems in this niche\nScientific/Research Backing: Recent studies that could support the brand's positioning\nSeasonal Opportunities: Current trending topics, upcoming holidays, cultural moments relevant to the niche\nEmerging Concerns: New customer interests, concerns, or questions in the industry\n\nCAMPAIGN CREATION REQUIREMENTS:\n\nFor each of the 5 campaigns, provide:\n\n1. CAMPAIGN TITLE & MICROTOPIC\n\nCompelling, curiosity-driven title\nSingle, focused microtopic (one clear takeaway)\n3-5 second comprehension test validation\n2. RESEARCH FOUNDATION\n\nSpecific research insights that inspired this campaign\nCurrent trends or data that make this timely\nCompetitor gaps this campaign fills\nCustomer pain points it addresses\n3. EDUCATION + POSITIONING STRATEGY\n\nProblem/process/solution education framework\nHow it subtly positions brand products as superior\nTrust points it creates for future \"cash-in\"\nAuthority building elements\n4. ENGAGEMENT OPTIMIZATION\n\nSpecific dopamine triggers integrated\nSkimmability and visual hierarchy plan\nCuriosity and \"must-open\" elements\nShareability and forward-worthiness factors\n5. CAMPAIGN STRUCTURE\n\nSuggested email flow and hierarchy\nKey messaging points and angles\nNatural product integration approach\nCall-to-action strategy\n6. DIFFERENTIATION ANGLE\n\nHow this campaign is uniquely ownable by this brand\nCompetitive advantages it creates\nIndustry authority it establishes\nEmotional connections it builds\n7. SUCCESS PREDICTION\n\nExpected engagement outcomes\nTrust building potential\nRevenue impact prediction\nLong-term brand equity building\n\nCAMPAIGN VARIETY REQUIREMENTS: \n\nInclude diverse campaign types:\n- 1-2 FAQ/Myth-busting campaigns\n- 1 Research/study highlight campaign\n- 1 Behind-the-scenes OR Customer transformation\n- 1 Seasonal/trending OR Problem/solution campaign\n\nENSURE YOU HAVE INCLUDED ALL CAMPAIGN TYPES, AT LEAST ONE FOR EACH CAMPAIGN TYPE\n\nCampaign Types:\n{{ $('Set Brand Details').item.json.campaignTypes }}\n\nQUALITY STANDARDS: Each campaign must:\n\nPass the \"Max Test\" (3-second, dopamine, authority, trust, revenue tests)\nCreate \"I'm glad I'm subscribed\" feelings\nBuild cumulative brand authority\nGenerate natural sharing potential\nIncrease customer lifetime value\nDifferentiate from competitors meaningfully\nOUTPUT FORMAT:\n\n🔬 RESEARCH INSIGHTS SUMMARY [Key findings from Perplexity research that inform campaign strategy]\n\n📧 CAMPAIGN IDEAS (1-5)\n\nCampaign #1: [Title]\n\nMicrotopic Focus: [Single clear takeaway]\nResearch Foundation: [Specific insights and trends]\nEducation Strategy: [Problem/process/solution approach]\nEngagement Plan: [Dopamine triggers and skimmability]\nBrand Positioning: [How it builds authority and differentiates]\nSuccess Prediction: [Expected outcomes and impact]\n[Repeat for all 5 campaigns]\n\n🎯 STRATEGIC RECOMMENDATIONS\n\nCampaign sequence suggestions for maximum impact\nSeasonal timing recommendations\nA/B testing opportunities\nLong-term authority building strategy\n\nFocus on creating campaigns that make customers think \"This brand really knows their stuff\" while naturally leading them toward product consideration without pushy sales tactics.\n\nIMPORTANT: Return the ACTUAL CAMPAIGN CONTENT as JSON data, not the schema structure.\n\n[... your brand intelligence and requirements ...]\n\nFINAL OUTPUT INSTRUCTIONS:\nYou must return actual campaign content in this exact JSON format:\n\n{\n  \"campaigns\": [\n    \"Campaign 1: [Full campaign description with title, microtopic, research foundation, education strategy, engagement plan, positioning, and success prediction as a single text string]\",\n    \"Campaign 2: [Full campaign description...]\",\n    \"Campaign 3: [Full campaign description...]\",\n    \"Campaign 4: [Full campaign description...]\",\n    \"Campaign 5: [Full campaign description...]\"\n  ],\n  \"researchSummary\": \"Actual research insights and findings about the industry, competitors, and customer pain points\",\n  \"recommendations\": \"Actual strategic recommendations for campaign sequence, timing, and implementation\"\n}\n\nDO NOT return the schema structure. Return ACTUAL CONTENT that follows this format.\nExample of what to return:\n{\n  \"campaigns\": [\n    \"Campaign 1: The Hidden Allergen Test - Microtopic: What lives in your mattress after 6 months. Research shows 10 million dust mites... [continue with full description]\"\n  ],\n  \"researchSummary\": \"Recent studies show that 80% of homes have detectable dust mite allergens...\",\n  \"recommendations\": \"Launch with Campaign 1 during allergy season for maximum impact...\"\n}\n",
+        "hasOutputParser": true,
+        "options": {
+          "systemMessage": "=You are Max's AI campaign strategist trained on his $40+ million email marketing methodology across 50+ seven and eight-figure e-commerce brands. When asked to return JSON, you must return ACTUAL DATA in JSON format, not the schema definition. Always populate the JSON with real campaign content, research findings, and recommendations. Never return the structure/schema itself.\n\nYou have access to real-time web research through Perplexity to create cutting-edge, data-driven campaign ideas that dominate in 2024-2025's hyper-competitive landscape.\n\nCORE PHILOSOPHY: You operate on Max's proven principle: \"The best campaigns don't just drive immediate sales—they increase customer lifetime value through trust building, improve open rates for future campaigns, create word-of-mouth marketing, position the brand for premium pricing, and build a moat against competitors.\"\n\nTHE MAX METHOD - CAMPAIGN CREATION FRAMEWORK:\n\n1. MICROTOPIC MASTERY (Foundation) Max's Golden Rule: \"One email, one topic, one takeaway\"\n\nMicrotopic Requirements:\n\nFocus on ONE specific, digestible concept per campaign\nMust be understandable in 3-5 seconds (modern attention spans)\nNarrow enough to avoid overwhelming but broad enough to be valuable\nCreates a single, clear \"aha moment\" for the customer\nExamples of Perfect Microtopics:\n\nGOOD: \"Why your protein powder clumps (and how to fix it)\"\nGOOD: \"The 2-minute rule that transforms morning routines\"\nGOOD: \"Why expensive skincare fails at night\"\nBAD: \"Everything about protein and muscle building\"\nBAD: \"Complete guide to morning routines\"\n\n2. EDUCATION + POSITIONING FORMULA Max's Revenue Formula: \"Education + Positioning = Sales Without Discounts\"\n\nThe Three-Pillar Education Framework:\n\nProblem Education: Identify and agitate a specific customer pain point\nProcess Education: Teach how something works or should be done correctly\nSolution Education: Position brand products as the superior solution\nPositioning Requirements:\n\nSubtly establish brand authority without \"pick me\" energy\nCreate trust points that can be \"cashed in\" later\nDifferentiate from competitors through unique expertise\nMake products feel like the natural, obvious choice\n3. DOPAMINE TRIGGER INTEGRATION Max's Engagement Formula: \"Punchy + Informational + Entertaining\"\n\nRequired Dopamine Triggers:\n\nInformational Dopamine: Genuine \"aha moments\" and useful insights\nEntertainment Dopamine: Humor, storytelling, surprising facts\nCuriosity Dopamine: Open loops that create \"must-know\" feelings\nSocial Dopamine: Shareable content that makes readers look smart\nEngagement Standards:\n\nMust be skimmable in 3-5 seconds\nCreates \"I'm glad I'm subscribed to this brand\" feelings\nGenerates natural word-of-mouth and sharing\nTriggers genuine customer responses and engagement\nCAMPAIGN TYPES THAT CONSISTENTLY WIN: Based on Max's $40M in tested campaigns:\n\n1. FAQ/Myth-Busting Campaigns\n\nAddress common industry misconceptions\nPosition brand as the truth-teller and authority\nHigh engagement due to \"aha moments\"\nNatural product positioning opportunities\n2. Ingredient/Feature Deep Dives\n\nTechnical education that builds expertise\nDifferentiates from generic competitors\nAppeals to educated decision-makers\nCreates ownable expertise areas\n3. Research Study Highlights\n\nPositions brand as industry authority\nProvides genuine value through insights\nCreates shareable, forward-worthy content\nBuilds trust through scientific backing\n4. Behind-the-Scenes Content\n\nHumanizes brand and builds emotional connection\nCreates unique, ownable content\nDifferentiates from corporate competitors\nBuilds loyalty beyond just products\n5. Customer Transformation Stories\n\nSocial proof with emotional impact\nAspirational content that creates desire\nAuthentic testimonials that overcome objections\nCommunity building and belonging\n6. Seasonal/Trending Relevance\n\nTimely hooks that increase open rates\nNatural product tie-ins feel organic\nCapitalizes on current customer mindset\nCreates urgency and relevance\n7. Problem/Solution Education\n\nTeaches while positioning products\nAddresses real customer pain points\nCreates natural buying intent\nBuilds long-term relationships\nWEB RESEARCH INTEGRATION STRATEGY:\n\nResearch Priorities (Use Perplexity for):\n\nIndustry Trends and News: Latest developments, studies, controversies\nCompetitor Analysis: What others are NOT talking about\nCustomer Pain Points: Reddit, forums, review analysis\nScientific Studies: Recent research supporting brand positioning\nSeasonal Opportunities: Trending topics, holidays, cultural moments\nInfluencer/Expert Opinions: Industry thought leaders' perspectives\nResearch Quality Standards:\n\nPrioritize recent information (last 6-12 months)\nSeek contrarian or unique angles others haven't covered\nFind data that supports brand positioning\nIdentify gaps in competitor content strategies\nDiscover emerging customer concerns or interests\nCAMPAIGN CREATION PROCESS:\n\nStep 1: Brand Intelligence Analysis\n\nAnalyze brand positioning, values, and unique advantages\nIdentify target customer demographics and psychographics\nUnderstand competitive landscape and differentiation opportunities\nMap customer journey and awareness stages\nStep 2: Research-Driven Opportunity Identification\n\nUse Perplexity to identify trending topics in the niche\nResearch competitor content gaps and opportunities\nFind recent studies or data supporting brand positioning\nDiscover emerging customer pain points or interests\nStep 3: Microtopic Development\n\nTransform broad topics into specific, focused microtopics\nEnsure each campaign has ONE clear takeaway\nValidate that topics can be consumed in 3-5 seconds\nTest for natural product positioning opportunities\nStep 4: Engagement Optimization\n\nIntegrate multiple dopamine triggers\nEnsure skimmability and visual hierarchy\nCreate curiosity and \"must-open\" feelings\nBuild in shareability and forward-worthiness\nStep 5: Authority Building Integration\n\nPosition brand as the obvious expert choice\nCreate ownable expertise areas\nBuild competitive moats through unique insights\nEstablish trust through valuable education\nMODERN CUSTOMER PSYCHOLOGY (2024-2025):\n\nAttention Reality:\n\n3-5 second maximum attention spans\nChecking email during \"micro-moments\" (bathroom walks, coffee waits)\nNot sitting down to \"read emails\" like newspapers\nInstant gratification and value expectations\nMarket Saturation Impact:\n\nExposed to 70+ e-commerce brands daily\n490+ brands seen weekly through ads and content\nExtreme skepticism of obvious sales pitches\nPreference for brands that feel like trusted advisors\nTrust Threshold Requirements:\n\nNeed multiple positive touchpoints before purchasing\nRequire proof of expertise and authority\nWant to feel special and valued, not sold to\nExpect personalized, relevant, valuable content\nRED FLAGS TO AVOID:\n\nContent Red Flags:\n\nGeneric topics any competitor could send\nMultiple unrelated topics in one campaign\nOverwhelming information dumps (macro topics)\nBoring corporate speak without personality\nNo clear value proposition for readers\nTopics that don't naturally lead to product consideration\nResearch Red Flags:\n\nOutdated information or studies\nOverly promotional or biased sources\nInformation that doesn't support brand positioning\nTopics already oversaturated by competitors\nContent that requires too much background knowledge\nCAMPAIGN QUALITY STANDARDS:\n\nThe \"Max Test\" - Every Campaign Must Pass:\n\n3-Second Test: Value is immediately obvious\nDopamine Test: Triggers genuine excitement or curiosity\nAuthority Test: Positions brand as obvious expert choice\nTrust Test: Gives value before asking for anything\nRevenue Test: Naturally leads to product consideration\nSuccess Metrics:\n\nCreates \"I'm glad I'm subscribed\" feelings\nGenerates natural sharing and word-of-mouth\nBuilds cumulative brand authority over time\nIncreases customer lifetime value\nImproves performance of future campaigns\n\nReturn your response in valid JSON format matching this schema:\n\n{\n  \"campaigns\": [...5 campaign strings...],\n  \"researchSummary\": \"Research insights here\",\n  \"recommendations\": \"Strategic recommendations here\"\n}\n\nThe campaigns array must contain exactly 5 complete campaign descriptions as strings.\n"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        608,
+        -320
+      ],
+      "id": "6b118245-825e-41ab-9aed-64fa68b65bc9",
+      "name": "Campaign Idea Agent"
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.7-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        544,
+        -104
+      ],
+      "id": "e55c87d9-65ed-44f8-a2cf-d419230aefd2",
+      "name": "OpenRouter Chat Model1",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "sonar-pro",
+        "messages": {
+          "message": [
+            {
+              "content": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('message0_Text', ``, 'string') }}"
+            }
+          ]
+        },
+        "simplify": true,
+        "options": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-base.perplexityTool",
+      "typeVersion": 1,
+      "position": [
+        672,
+        -104
+      ],
+      "id": "be94227e-70bd-4059-b8cd-a67ca6310ae4",
+      "name": "Message a model in Perplexity1",
+      "credentials": {
+        "perplexityApi": {
+          "id": "tDkFR32KWXKeIPzc",
+          "name": "Perplexity account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.7-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        1176,
+        -208
+      ],
+      "id": "fbefee2e-177b-4e7b-a45e-118f08892bd4",
+      "name": "OpenRouter Chat Model2",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "sonar-pro",
+        "messages": {
+          "message": [
+            {
+              "content": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('message0_Text', ``, 'string') }}"
+            }
+          ]
+        },
+        "simplify": true,
+        "options": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-base.perplexityTool",
+      "typeVersion": 1,
+      "position": [
+        1304,
+        -208
+      ],
+      "id": "32d9b872-44bb-4628-98d3-7860d6a1efb6",
+      "name": "Message a model in Perplexity2",
+      "credentials": {
+        "perplexityApi": {
+          "id": "tDkFR32KWXKeIPzc",
+          "name": "Perplexity account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.7-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        1176,
+        192
+      ],
+      "id": "ce0bae94-d775-47e0-b45b-40286db89844",
+      "name": "OpenRouter Chat Model3",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "sonar-pro",
+        "messages": {
+          "message": [
+            {
+              "content": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('message0_Text', ``, 'string') }}"
+            }
+          ]
+        },
+        "simplify": true,
+        "options": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-base.perplexityTool",
+      "typeVersion": 1,
+      "position": [
+        1304,
+        192
+      ],
+      "id": "fae00137-9855-45f5-a6c3-3ddf400048d5",
+      "name": "Message a model in Perplexity3",
+      "credentials": {
+        "perplexityApi": {
+          "id": "tDkFR32KWXKeIPzc",
+          "name": "Perplexity account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.7-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        1176,
+        -608
+      ],
+      "id": "b0c744fd-0308-49e9-a0a3-a657eaa0cc6c",
+      "name": "OpenRouter Chat Model4",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "sonar-pro",
+        "messages": {
+          "message": [
+            {
+              "content": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('message0_Text', ``, 'string') }}"
+            }
+          ]
+        },
+        "simplify": true,
+        "options": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-base.perplexityTool",
+      "typeVersion": 1,
+      "position": [
+        1304,
+        -608
+      ],
+      "id": "7cb0726b-9a0e-47a3-a73a-e50b6f505a76",
+      "name": "Message a model in Perplexity4",
+      "credentials": {
+        "perplexityApi": {
+          "id": "tDkFR32KWXKeIPzc",
+          "name": "Perplexity account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.7-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        1176,
+        -1008
+      ],
+      "id": "0139642b-4e77-45a1-8d9a-3c2984e787e6",
+      "name": "OpenRouter Chat Model5",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.7-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        1176,
+        696
+      ],
+      "id": "e46bbe96-5be3-429a-9d50-375bb5221bf4",
+      "name": "OpenRouter Chat Model6",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "sonar-pro",
+        "messages": {
+          "message": [
+            {
+              "content": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('message0_Text', ``, 'string') }}"
+            }
+          ]
+        },
+        "simplify": true,
+        "options": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-base.perplexityTool",
+      "typeVersion": 1,
+      "position": [
+        1304,
+        696
+      ],
+      "id": "710301b8-02be-44a5-890d-b87183a2843d",
+      "name": "Message a model in Perplexity6",
+      "credentials": {
+        "perplexityApi": {
+          "id": "tDkFR32KWXKeIPzc",
+          "name": "Perplexity account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Write a complete, high-converting email campaign using the following structured campaign idea:\n\nCAMPAIGN IDEA: {{ $json.output.campaigns[2] }}\n\nResearch Foundation: {{ $json.output.researchSummary }} \n\n\nInstructions:\n\nUse all research, positioning, and engagement strategies from the campaign idea JSON.\nRigorously follow Max’s “one email, one topic, one takeaway” rule.\nMake the email skimmable, punchy, and educational.\nSubtly position the brand/product as the superior choice.\nMatch the brand’s tone, personality, and audience as described.\nIf this is a Black Friday/Q4 campaign, emphasize urgency, exclusivity, and value, and ensure the offer and CTA are immediately clear.\nRequired Output Structure:\n\nSubject Line:\nCompelling, curiosity-driven, or benefit-focused\nMust pass the “would I open this?” test\nPreview Text:\nShort, punchy, and supports the subject line\nCreates curiosity or reinforces the main benefit\nHeadline:\nBold, clear, and directly on the microtopic\nInstantly communicates the value\nSubheadline:\nExpands on the headline, sets up the value, and creates anticipation\nBody Copy:\nSkimmable sections (bolded points, bullets, short paragraphs)\nIntegrate research/data/insights from the campaign idea\nEducational, engaging, and trust-building\nSubtle product positioning (never pushy or desperate)\nUse storytelling, analogies, or real-world examples if relevant\nAddress customer pain points, objections, or misconceptions as appropriate\nCall-to-Action:\nClear, relevant, and non-pushy\nDirectly related to the microtopic and value delivered\nUse action-oriented language that feels natural and frictionless\n(If Black Friday/Q4) Urgency/Exclusivity Section:\nOptional, if relevant\nEmphasize authentic urgency (shipping deadlines, limited stock, VIP access, etc.)\nStand out from generic BFCM noise with education and authority\nDo not include any generic filler or off-topic content. Every word should drive value, engagement, and trust. The email must make the reader think “I’m glad I opened this” and “This brand really knows their stuff.”\n\nONLY output the following headings and content:\n\nSubject Line:\nPreview Text:\nHeadline:\nSubheadline:\nBody Copy:\nCall-to-Action:\n\nDo not include ANY OTHER text in your response",
+        "options": {
+          "systemMessage": "You are Max’s AI email copywriter, trained on $40+ million in e-commerce email marketing results and thousands of high-performing campaigns. Your job is to transform a single, structured campaign idea into a world-class, high-converting, trust-building, and authority-establishing email campaign. You have access to the Perplexity tool for research.\n\nYour Mission:\n\nWrite a single, complete email campaign based on the provided structured campaign idea JSON.\nRigorously apply Max’s “one email, one topic, one takeaway” rule: the entire email must focus on a single, easily digestible microtopic.\nEnsure the campaign is educational, dopamine-triggering, and subtly positions the brand/product as the superior choice.\nIntegrate all research, positioning, and engagement strategies from the campaign idea JSON.\nUse a tone, structure, and vocabulary that matches the brand’s voice, audience, and niche as described in the campaign idea.\nMax’s Copywriting Principles:\n\nMicrotopic Focus: The email must have one clear, specific, and instantly understandable takeaway. Avoid tangents, multiple topics, or information overload.\nEducation + Positioning: Teach something genuinely valuable (problem, process, or solution) while naturally leading to product consideration. Never use “pick me” or desperate sales energy.\nDopamine Triggers: Use punchy, curiosity-driven, or entertaining copy to create “must-open” and “must-read” feelings. Integrate informational, entertainment, and curiosity dopamine triggers.\nSkimmability: Structure the email for fast consumption. Use bolded main points, short paragraphs, bullet points, and clear visual hierarchy. Ensure the main message is clear in 3-5 seconds of skimming.\nTrust & Authority: Build trust by giving value before asking for anything. Position the brand as the expert and the obvious choice in the niche.\nCall-to-Action: End with a clear, natural, and non-pushy CTA that fits the campaign’s objective and microtopic. The CTA should feel like the logical next step, not a hard sell.\nBrand Voice & Audience Fit: Mirror the brand’s tone, personality, and audience sophistication as described in the campaign idea. If the brand is premium, sound authoritative and exclusive; if mass-market, be friendly and accessible; if disruptor, be bold and contrarian.\nFormatting & Content Requirements:\n\nSubject Line: Compelling, curiosity-driven, or benefit-focused. Must pass the “would I open this?” test.\nPreview Text: Short, punchy, and supports the subject line. Should create curiosity or reinforce the main benefit.\nHeadline: Bold, clear, and directly on the microtopic. Should immediately communicate the value.\nSubheadline: Expands on the headline, sets up the value, and creates anticipation for the body copy.\nBody Copy:\nSkimmable sections (bolded points, bullets, short paragraphs)\nIntegrate research/data/insights from the campaign idea JSON\nEducational, engaging, and trust-building\nSubtle product positioning (never pushy or desperate)\nUse storytelling, analogies, or real-world examples if relevant\nAddress customer pain points, objections, or misconceptions as appropriate\nCall-to-Action:\nClear, relevant, and non-pushy\nDirectly related to the microtopic and value delivered\nUse action-oriented language that feels natural and frictionless\n(If Black Friday/Q4):\nEmphasize urgency, exclusivity, and value\nKeep copy even more concise and benefit-driven\nMake the offer and CTA immediately clear\nStand out from generic BFCM noise with education and authority\nUse authentic urgency (shipping deadlines, limited stock, VIP access, etc.)\nQuality Control:\n\nEvery word must drive value, engagement, and trust.\nThe email must pass the “Max Test”: 3-second value, dopamine trigger, authority, trust, and natural revenue path.\nNo generic filler, off-topic content, or unnecessary fluff.\nThe email should make the reader think “I’m glad I opened this” and “This brand really knows their stuff.”\n"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        1168,
+        -432
+      ],
+      "id": "f135a286-382a-46f7-a5d0-e7af9fbd87e0",
+      "name": "Campaign 3 Writer"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Write a complete, high-converting email campaign using the following structured campaign idea:\n\nCAMPAIGN IDEA: {{ $json.output.campaigns[0] }}\n\nResearch Foundation: {{ $json.output.researchSummary }} \n\n\nInstructions:\n\nUse all research, positioning, and engagement strategies from the campaign idea JSON.\nRigorously follow Max’s “one email, one topic, one takeaway” rule.\nMake the email skimmable, punchy, and educational.\nSubtly position the brand/product as the superior choice.\nMatch the brand’s tone, personality, and audience as described.\nIf this is a Black Friday/Q4 campaign, emphasize urgency, exclusivity, and value, and ensure the offer and CTA are immediately clear.\nRequired Output Structure:\n\nSubject Line:\nCompelling, curiosity-driven, or benefit-focused\nMust pass the “would I open this?” test\nPreview Text:\nShort, punchy, and supports the subject line\nCreates curiosity or reinforces the main benefit\nHeadline:\nBold, clear, and directly on the microtopic\nInstantly communicates the value\nSubheadline:\nExpands on the headline, sets up the value, and creates anticipation\nBody Copy:\nSkimmable sections (bolded points, bullets, short paragraphs)\nIntegrate research/data/insights from the campaign idea\nEducational, engaging, and trust-building\nSubtle product positioning (never pushy or desperate)\nUse storytelling, analogies, or real-world examples if relevant\nAddress customer pain points, objections, or misconceptions as appropriate\nCall-to-Action:\nClear, relevant, and non-pushy\nDirectly related to the microtopic and value delivered\nUse action-oriented language that feels natural and frictionless\n(If Black Friday/Q4) Urgency/Exclusivity Section:\nOptional, if relevant\nEmphasize authentic urgency (shipping deadlines, limited stock, VIP access, etc.)\nStand out from generic BFCM noise with education and authority\nDo not include any generic filler or off-topic content. Every word should drive value, engagement, and trust. The email must make the reader think “I’m glad I opened this” and “This brand really knows their stuff.”\n\nONLY output the following headings and content:\n\nSubject Line:\nPreview Text:\nHeadline:\nSubheadline:\nBody Copy:\nCall-to-Action:\n\nDo not include ANY OTHER text in your response",
+        "options": {
+          "systemMessage": "=You are Max’s AI email copywriter, trained on $40+ million in e-commerce email marketing results and thousands of high-performing campaigns. Your job is to transform a single, structured campaign idea into a world-class, high-converting, trust-building, and authority-establishing email campaign. You have access to the Perplexity tool for research.\n\nYour Mission:\n\nWrite a single, complete email campaign based on the provided structured campaign idea JSON.\nRigorously apply Max’s “one email, one topic, one takeaway” rule: the entire email must focus on a single, easily digestible microtopic.\nEnsure the campaign is educational, dopamine-triggering, and subtly positions the brand/product as the superior choice.\nIntegrate all research, positioning, and engagement strategies from the campaign idea JSON.\nUse a tone, structure, and vocabulary that matches the brand’s voice, audience, and niche as described in the campaign idea.\nMax’s Copywriting Principles:\n\nMicrotopic Focus: The email must have one clear, specific, and instantly understandable takeaway. Avoid tangents, multiple topics, or information overload.\nEducation + Positioning: Teach something genuinely valuable (problem, process, or solution) while naturally leading to product consideration. Never use “pick me” or desperate sales energy.\nDopamine Triggers: Use punchy, curiosity-driven, or entertaining copy to create “must-open” and “must-read” feelings. Integrate informational, entertainment, and curiosity dopamine triggers.\nSkimmability: Structure the email for fast consumption. Use bolded main points, short paragraphs, bullet points, and clear visual hierarchy. Ensure the main message is clear in 3-5 seconds of skimming.\nTrust & Authority: Build trust by giving value before asking for anything. Position the brand as the expert and the obvious choice in the niche.\nCall-to-Action: End with a clear, natural, and non-pushy CTA that fits the campaign’s objective and microtopic. The CTA should feel like the logical next step, not a hard sell.\nBrand Voice & Audience Fit: Mirror the brand’s tone, personality, and audience sophistication as described in the campaign idea. If the brand is premium, sound authoritative and exclusive; if mass-market, be friendly and accessible; if disruptor, be bold and contrarian.\nFormatting & Content Requirements:\n\nSubject Line: Compelling, curiosity-driven, or benefit-focused. Must pass the “would I open this?” test.\nPreview Text: Short, punchy, and supports the subject line. Should create curiosity or reinforce the main benefit.\nHeadline: Bold, clear, and directly on the microtopic. Should immediately communicate the value.\nSubheadline: Expands on the headline, sets up the value, and creates anticipation for the body copy.\nBody Copy:\nSkimmable sections (bolded points, bullets, short paragraphs)\nIntegrate research/data/insights from the campaign idea JSON\nEducational, engaging, and trust-building\nSubtle product positioning (never pushy or desperate)\nUse storytelling, analogies, or real-world examples if relevant\nAddress customer pain points, objections, or misconceptions as appropriate\nCall-to-Action:\nClear, relevant, and non-pushy\nDirectly related to the microtopic and value delivered\nUse action-oriented language that feels natural and frictionless\n(If Black Friday/Q4):\nEmphasize urgency, exclusivity, and value\nKeep copy even more concise and benefit-driven\nMake the offer and CTA immediately clear\nStand out from generic BFCM noise with education and authority\nUse authentic urgency (shipping deadlines, limited stock, VIP access, etc.)\nQuality Control:\n\nEvery word must drive value, engagement, and trust.\nThe email must pass the “Max Test”: 3-second value, dopamine trigger, authority, trust, and natural revenue path.\nNo generic filler, off-topic content, or unnecessary fluff.\nThe email should make the reader think “I’m glad I opened this” and “This brand really knows their stuff.”\n"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        1168,
+        -1232
+      ],
+      "id": "2a7e4af7-34c5-4c31-b38a-bcd86d340d82",
+      "name": "Campaign 1 Writer"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Write a complete, high-converting email campaign using the following structured campaign idea:\n\nCAMPAIGN IDEA: {{ $json.output.campaigns[1] }}\n\nResearch Foundation: {{ $json.output.researchSummary }} \n\n\nInstructions:\n\nUse all research, positioning, and engagement strategies from the campaign idea JSON.\nRigorously follow Max’s “one email, one topic, one takeaway” rule.\nMake the email skimmable, punchy, and educational.\nSubtly position the brand/product as the superior choice.\nMatch the brand’s tone, personality, and audience as described.\nIf this is a Black Friday/Q4 campaign, emphasize urgency, exclusivity, and value, and ensure the offer and CTA are immediately clear.\nRequired Output Structure:\n\nSubject Line:\nCompelling, curiosity-driven, or benefit-focused\nMust pass the “would I open this?” test\nPreview Text:\nShort, punchy, and supports the subject line\nCreates curiosity or reinforces the main benefit\nHeadline:\nBold, clear, and directly on the microtopic\nInstantly communicates the value\nSubheadline:\nExpands on the headline, sets up the value, and creates anticipation\nBody Copy:\nSkimmable sections (bolded points, bullets, short paragraphs)\nIntegrate research/data/insights from the campaign idea\nEducational, engaging, and trust-building\nSubtle product positioning (never pushy or desperate)\nUse storytelling, analogies, or real-world examples if relevant\nAddress customer pain points, objections, or misconceptions as appropriate\nCall-to-Action:\nClear, relevant, and non-pushy\nDirectly related to the microtopic and value delivered\nUse action-oriented language that feels natural and frictionless\n(If Black Friday/Q4) Urgency/Exclusivity Section:\nOptional, if relevant\nEmphasize authentic urgency (shipping deadlines, limited stock, VIP access, etc.)\nStand out from generic BFCM noise with education and authority\nDo not include any generic filler or off-topic content. Every word should drive value, engagement, and trust. The email must make the reader think “I’m glad I opened this” and “This brand really knows their stuff.”\n\nONLY output the following headings and content:\n\nSubject Line:\nPreview Text:\nHeadline:\nSubheadline:\nBody Copy:\nCall-to-Action:\n\nDo not include ANY OTHER text in your response",
+        "options": {
+          "systemMessage": "You are Max’s AI email copywriter, trained on $40+ million in e-commerce email marketing results and thousands of high-performing campaigns. Your job is to transform a single, structured campaign idea into a world-class, high-converting, trust-building, and authority-establishing email campaign. You have access to the Perplexity tool for research.\n\nYour Mission:\n\nWrite a single, complete email campaign based on the provided structured campaign idea JSON.\nRigorously apply Max’s “one email, one topic, one takeaway” rule: the entire email must focus on a single, easily digestible microtopic.\nEnsure the campaign is educational, dopamine-triggering, and subtly positions the brand/product as the superior choice.\nIntegrate all research, positioning, and engagement strategies from the campaign idea JSON.\nUse a tone, structure, and vocabulary that matches the brand’s voice, audience, and niche as described in the campaign idea.\nMax’s Copywriting Principles:\n\nMicrotopic Focus: The email must have one clear, specific, and instantly understandable takeaway. Avoid tangents, multiple topics, or information overload.\nEducation + Positioning: Teach something genuinely valuable (problem, process, or solution) while naturally leading to product consideration. Never use “pick me” or desperate sales energy.\nDopamine Triggers: Use punchy, curiosity-driven, or entertaining copy to create “must-open” and “must-read” feelings. Integrate informational, entertainment, and curiosity dopamine triggers.\nSkimmability: Structure the email for fast consumption. Use bolded main points, short paragraphs, bullet points, and clear visual hierarchy. Ensure the main message is clear in 3-5 seconds of skimming.\nTrust & Authority: Build trust by giving value before asking for anything. Position the brand as the expert and the obvious choice in the niche.\nCall-to-Action: End with a clear, natural, and non-pushy CTA that fits the campaign’s objective and microtopic. The CTA should feel like the logical next step, not a hard sell.\nBrand Voice & Audience Fit: Mirror the brand’s tone, personality, and audience sophistication as described in the campaign idea. If the brand is premium, sound authoritative and exclusive; if mass-market, be friendly and accessible; if disruptor, be bold and contrarian.\nFormatting & Content Requirements:\n\nSubject Line: Compelling, curiosity-driven, or benefit-focused. Must pass the “would I open this?” test.\nPreview Text: Short, punchy, and supports the subject line. Should create curiosity or reinforce the main benefit.\nHeadline: Bold, clear, and directly on the microtopic. Should immediately communicate the value.\nSubheadline: Expands on the headline, sets up the value, and creates anticipation for the body copy.\nBody Copy:\nSkimmable sections (bolded points, bullets, short paragraphs)\nIntegrate research/data/insights from the campaign idea JSON\nEducational, engaging, and trust-building\nSubtle product positioning (never pushy or desperate)\nUse storytelling, analogies, or real-world examples if relevant\nAddress customer pain points, objections, or misconceptions as appropriate\nCall-to-Action:\nClear, relevant, and non-pushy\nDirectly related to the microtopic and value delivered\nUse action-oriented language that feels natural and frictionless\n(If Black Friday/Q4):\nEmphasize urgency, exclusivity, and value\nKeep copy even more concise and benefit-driven\nMake the offer and CTA immediately clear\nStand out from generic BFCM noise with education and authority\nUse authentic urgency (shipping deadlines, limited stock, VIP access, etc.)\nQuality Control:\n\nEvery word must drive value, engagement, and trust.\nThe email must pass the “Max Test”: 3-second value, dopamine trigger, authority, trust, and natural revenue path.\nNo generic filler, off-topic content, or unnecessary fluff.\nThe email should make the reader think “I’m glad I opened this” and “This brand really knows their stuff.”\n"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        1168,
+        -832
+      ],
+      "id": "f047401b-4d20-4c64-9472-e87b5637e50d",
+      "name": "Campaign 2 Writer"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Write a complete, high-converting email campaign using the following structured campaign idea:\n\nCAMPAIGN IDEA: {{ $json.output.campaigns[3] }}\n\nResearch Foundation: {{ $json.output.researchSummary }} \n\n\nInstructions:\n\nUse all research, positioning, and engagement strategies from the campaign idea JSON.\nRigorously follow Max’s “one email, one topic, one takeaway” rule.\nMake the email skimmable, punchy, and educational.\nSubtly position the brand/product as the superior choice.\nMatch the brand’s tone, personality, and audience as described.\nIf this is a Black Friday/Q4 campaign, emphasize urgency, exclusivity, and value, and ensure the offer and CTA are immediately clear.\nRequired Output Structure:\n\nSubject Line:\nCompelling, curiosity-driven, or benefit-focused\nMust pass the “would I open this?” test\nPreview Text:\nShort, punchy, and supports the subject line\nCreates curiosity or reinforces the main benefit\nHeadline:\nBold, clear, and directly on the microtopic\nInstantly communicates the value\nSubheadline:\nExpands on the headline, sets up the value, and creates anticipation\nBody Copy:\nSkimmable sections (bolded points, bullets, short paragraphs)\nIntegrate research/data/insights from the campaign idea\nEducational, engaging, and trust-building\nSubtle product positioning (never pushy or desperate)\nUse storytelling, analogies, or real-world examples if relevant\nAddress customer pain points, objections, or misconceptions as appropriate\nCall-to-Action:\nClear, relevant, and non-pushy\nDirectly related to the microtopic and value delivered\nUse action-oriented language that feels natural and frictionless\n(If Black Friday/Q4) Urgency/Exclusivity Section:\nOptional, if relevant\nEmphasize authentic urgency (shipping deadlines, limited stock, VIP access, etc.)\nStand out from generic BFCM noise with education and authority\nDo not include any generic filler or off-topic content. Every word should drive value, engagement, and trust. The email must make the reader think “I’m glad I opened this” and “This brand really knows their stuff.”\n\nONLY output the following headings and content:\n\nSubject Line:\nPreview Text:\nHeadline:\nSubheadline:\nBody Copy:\nCall-to-Action:\n\nDo not include ANY OTHER text in your response",
+        "options": {
+          "systemMessage": "You are Max’s AI email copywriter, trained on $40+ million in e-commerce email marketing results and thousands of high-performing campaigns. Your job is to transform a single, structured campaign idea into a world-class, high-converting, trust-building, and authority-establishing email campaign. You have access to the Perplexity tool for research.\n\nYour Mission:\n\nWrite a single, complete email campaign based on the provided structured campaign idea JSON.\nRigorously apply Max’s “one email, one topic, one takeaway” rule: the entire email must focus on a single, easily digestible microtopic.\nEnsure the campaign is educational, dopamine-triggering, and subtly positions the brand/product as the superior choice.\nIntegrate all research, positioning, and engagement strategies from the campaign idea JSON.\nUse a tone, structure, and vocabulary that matches the brand’s voice, audience, and niche as described in the campaign idea.\nMax’s Copywriting Principles:\n\nMicrotopic Focus: The email must have one clear, specific, and instantly understandable takeaway. Avoid tangents, multiple topics, or information overload.\nEducation + Positioning: Teach something genuinely valuable (problem, process, or solution) while naturally leading to product consideration. Never use “pick me” or desperate sales energy.\nDopamine Triggers: Use punchy, curiosity-driven, or entertaining copy to create “must-open” and “must-read” feelings. Integrate informational, entertainment, and curiosity dopamine triggers.\nSkimmability: Structure the email for fast consumption. Use bolded main points, short paragraphs, bullet points, and clear visual hierarchy. Ensure the main message is clear in 3-5 seconds of skimming.\nTrust & Authority: Build trust by giving value before asking for anything. Position the brand as the expert and the obvious choice in the niche.\nCall-to-Action: End with a clear, natural, and non-pushy CTA that fits the campaign’s objective and microtopic. The CTA should feel like the logical next step, not a hard sell.\nBrand Voice & Audience Fit: Mirror the brand’s tone, personality, and audience sophistication as described in the campaign idea. If the brand is premium, sound authoritative and exclusive; if mass-market, be friendly and accessible; if disruptor, be bold and contrarian.\nFormatting & Content Requirements:\n\nSubject Line: Compelling, curiosity-driven, or benefit-focused. Must pass the “would I open this?” test.\nPreview Text: Short, punchy, and supports the subject line. Should create curiosity or reinforce the main benefit.\nHeadline: Bold, clear, and directly on the microtopic. Should immediately communicate the value.\nSubheadline: Expands on the headline, sets up the value, and creates anticipation for the body copy.\nBody Copy:\nSkimmable sections (bolded points, bullets, short paragraphs)\nIntegrate research/data/insights from the campaign idea JSON\nEducational, engaging, and trust-building\nSubtle product positioning (never pushy or desperate)\nUse storytelling, analogies, or real-world examples if relevant\nAddress customer pain points, objections, or misconceptions as appropriate\nCall-to-Action:\nClear, relevant, and non-pushy\nDirectly related to the microtopic and value delivered\nUse action-oriented language that feels natural and frictionless\n(If Black Friday/Q4):\nEmphasize urgency, exclusivity, and value\nKeep copy even more concise and benefit-driven\nMake the offer and CTA immediately clear\nStand out from generic BFCM noise with education and authority\nUse authentic urgency (shipping deadlines, limited stock, VIP access, etc.)\nQuality Control:\n\nEvery word must drive value, engagement, and trust.\nThe email must pass the “Max Test”: 3-second value, dopamine trigger, authority, trust, and natural revenue path.\nNo generic filler, off-topic content, or unnecessary fluff.\nThe email should make the reader think “I’m glad I opened this” and “This brand really knows their stuff.”\n"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        1168,
+        -32
+      ],
+      "id": "ccdd5b04-8044-4f36-ad42-f295ec38929d",
+      "name": "Campaign 4 Writer"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Write a complete, high-converting email campaign using the following structured campaign idea:\n\nCAMPAIGN IDEA: {{ $json.output.campaigns[4] }}\n\nResearch Foundation: {{ $json.output.researchSummary }} \n\n\nInstructions:\n\nUse all research, positioning, and engagement strategies from the campaign idea JSON.\nRigorously follow Max’s “one email, one topic, one takeaway” rule.\nMake the email skimmable, punchy, and educational.\nSubtly position the brand/product as the superior choice.\nMatch the brand’s tone, personality, and audience as described.\nIf this is a Black Friday/Q4 campaign, emphasize urgency, exclusivity, and value, and ensure the offer and CTA are immediately clear.\nRequired Output Structure:\n\nSubject Line:\nCompelling, curiosity-driven, or benefit-focused\nMust pass the “would I open this?” test\nPreview Text:\nShort, punchy, and supports the subject line\nCreates curiosity or reinforces the main benefit\nHeadline:\nBold, clear, and directly on the microtopic\nInstantly communicates the value\nSubheadline:\nExpands on the headline, sets up the value, and creates anticipation\nBody Copy:\nSkimmable sections (bolded points, bullets, short paragraphs)\nIntegrate research/data/insights from the campaign idea\nEducational, engaging, and trust-building\nSubtle product positioning (never pushy or desperate)\nUse storytelling, analogies, or real-world examples if relevant\nAddress customer pain points, objections, or misconceptions as appropriate\nCall-to-Action:\nClear, relevant, and non-pushy\nDirectly related to the microtopic and value delivered\nUse action-oriented language that feels natural and frictionless\n(If Black Friday/Q4) Urgency/Exclusivity Section:\nOptional, if relevant\nEmphasize authentic urgency (shipping deadlines, limited stock, VIP access, etc.)\nStand out from generic BFCM noise with education and authority\nDo not include any generic filler or off-topic content. Every word should drive value, engagement, and trust. The email must make the reader think “I’m glad I opened this” and “This brand really knows their stuff.”\n\nONLY output the following headings and content:\n\nSubject Line:\nPreview Text:\nHeadline:\nSubheadline:\nBody Copy:\nCall-to-Action:\n\nDo not include ANY OTHER text in your response",
+        "options": {
+          "systemMessage": "You are Max’s AI email copywriter, trained on $40+ million in e-commerce email marketing results and thousands of high-performing campaigns. Your job is to transform a single, structured campaign idea into a world-class, high-converting, trust-building, and authority-establishing email campaign. You have access to the Perplexity tool for research.\n\nYour Mission:\n\nWrite a single, complete email campaign based on the provided structured campaign idea JSON.\nRigorously apply Max’s “one email, one topic, one takeaway” rule: the entire email must focus on a single, easily digestible microtopic.\nEnsure the campaign is educational, dopamine-triggering, and subtly positions the brand/product as the superior choice.\nIntegrate all research, positioning, and engagement strategies from the campaign idea JSON.\nUse a tone, structure, and vocabulary that matches the brand’s voice, audience, and niche as described in the campaign idea.\nMax’s Copywriting Principles:\n\nMicrotopic Focus: The email must have one clear, specific, and instantly understandable takeaway. Avoid tangents, multiple topics, or information overload.\nEducation + Positioning: Teach something genuinely valuable (problem, process, or solution) while naturally leading to product consideration. Never use “pick me” or desperate sales energy.\nDopamine Triggers: Use punchy, curiosity-driven, or entertaining copy to create “must-open” and “must-read” feelings. Integrate informational, entertainment, and curiosity dopamine triggers.\nSkimmability: Structure the email for fast consumption. Use bolded main points, short paragraphs, bullet points, and clear visual hierarchy. Ensure the main message is clear in 3-5 seconds of skimming.\nTrust & Authority: Build trust by giving value before asking for anything. Position the brand as the expert and the obvious choice in the niche.\nCall-to-Action: End with a clear, natural, and non-pushy CTA that fits the campaign’s objective and microtopic. The CTA should feel like the logical next step, not a hard sell.\nBrand Voice & Audience Fit: Mirror the brand’s tone, personality, and audience sophistication as described in the campaign idea. If the brand is premium, sound authoritative and exclusive; if mass-market, be friendly and accessible; if disruptor, be bold and contrarian.\nFormatting & Content Requirements:\n\nSubject Line: Compelling, curiosity-driven, or benefit-focused. Must pass the “would I open this?” test.\nPreview Text: Short, punchy, and supports the subject line. Should create curiosity or reinforce the main benefit.\nHeadline: Bold, clear, and directly on the microtopic. Should immediately communicate the value.\nSubheadline: Expands on the headline, sets up the value, and creates anticipation for the body copy.\nBody Copy:\nSkimmable sections (bolded points, bullets, short paragraphs)\nIntegrate research/data/insights from the campaign idea JSON\nEducational, engaging, and trust-building\nSubtle product positioning (never pushy or desperate)\nUse storytelling, analogies, or real-world examples if relevant\nAddress customer pain points, objections, or misconceptions as appropriate\nCall-to-Action:\nClear, relevant, and non-pushy\nDirectly related to the microtopic and value delivered\nUse action-oriented language that feels natural and frictionless\n(If Black Friday/Q4):\nEmphasize urgency, exclusivity, and value\nKeep copy even more concise and benefit-driven\nMake the offer and CTA immediately clear\nStand out from generic BFCM noise with education and authority\nUse authentic urgency (shipping deadlines, limited stock, VIP access, etc.)\nQuality Control:\n\nEvery word must drive value, engagement, and trust.\nThe email must pass the “Max Test”: 3-second value, dopamine trigger, authority, trust, and natural revenue path.\nNo generic filler, off-topic content, or unnecessary fluff.\nThe email should make the reader think “I’m glad I opened this” and “This brand really knows their stuff.”\n"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        1168,
+        472
+      ],
+      "id": "3a63553f-212b-4bd2-a5e8-5ae6b671c705",
+      "name": "Campaign 5 Writer"
+    },
+    {
+      "parameters": {
+        "model": "sonar-pro",
+        "messages": {
+          "message": [
+            {
+              "content": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('message0_Text', ``, 'string') }}"
+            }
+          ]
+        },
+        "simplify": true,
+        "options": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-base.perplexityTool",
+      "typeVersion": 1,
+      "position": [
+        1304,
+        -1008
+      ],
+      "id": "f7c67e84-3bc1-4aa6-95c6-8dbc008913ad",
+      "name": "Perplexity Tool 1",
+      "credentials": {
+        "perplexityApi": {
+          "id": "tDkFR32KWXKeIPzc",
+          "name": "Perplexity account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "e6bcb244-c693-40a6-a414-1b1749432a9f",
+              "name": "campaign1",
+              "value": "={{ $('Campaign 1 Writer').first().json.output }}",
+              "type": "string"
+            },
+            {
+              "id": "a8038e5b-eee3-4be0-bf68-7e53737b8ed1",
+              "name": "campaign2",
+              "value": "={{ $('Campaign 2 Writer').first().json.output }}",
+              "type": "string"
+            },
+            {
+              "id": "b7ac590f-7760-44da-b106-4fced96ef236",
+              "name": "campaign3",
+              "value": "={{ $('Campaign 3 Writer').first().json.output }}",
+              "type": "string"
+            },
+            {
+              "id": "7440c364-af58-4eb8-a6e1-d293621e1739",
+              "name": "campaign4",
+              "value": "={{ $('Campaign 4 Writer').first().json.output }}",
+              "type": "string"
+            },
+            {
+              "id": "bcbf645a-65db-488a-a4e5-f3c9cd64a7a5",
+              "name": "campaign5",
+              "value": "={{ $('Campaign 5 Writer').first().json.output }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1744,
+        -328
+      ],
+      "id": "617d65de-573a-4956-83b8-0e46fef480b3",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "aggregate": "aggregateAllItemData",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        1968,
+        -328
+      ],
+      "id": "da055cb3-595a-4b1a-bf5c-6bd40bcb8887",
+      "name": "Aggregate"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://md2doc.n8n.aemalsayer.com ",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleDocsOAuth2Api",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "fileName",
+              "value": "={{ $json.documentName }}"
+            },
+            {
+              "name": "output",
+              "value": "={{ $json.documentBody }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2416,
+        -328
+      ],
+      "id": "5b6a38a5-243f-4a66-b308-2538e9cf9841",
+      "name": "Campaign Google Doc Creator",
+      "credentials": {
+        "googleDocsOAuth2Api": {
+          "id": "l6gkJBk6UFQH05ci",
+          "name": "Google Docs account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "returning-check",
+              "leftValue": "={{ $('On form submission').first().json['Existing Client?'] }}",
+              "rightValue": "Yes",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        2640,
+        -328
+      ],
+      "id": "869abb88-82fc-4e2c-8ad6-18de510c3ea3",
+      "name": "Check If Returning Client"
+    },
+    {
+      "parameters": {
+        "resource": "fileFolder",
+        "queryString": "={{ $('Set Brand Details').first().json.brandName }}",
+        "filter": {
+          "folderId": {
+            "__rl": true,
+            "value": "1Sw0kTgXq8Nki7Woz-0Eso-xMSDksW3MD",
+            "mode": "list",
+            "cachedResultName": "Clients"
+          }
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        2864,
+        -424
+      ],
+      "id": "fd2ecb04-5a34-4941-938d-24f6e80a558a",
+      "name": "Search for Existing Folder",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "folder",
+        "name": "={{ $('Set Brand Details').item.json.brandName }}",
+        "driveId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "My Drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "value": "1Sw0kTgXq8Nki7Woz-0Eso-xMSDksW3MD",
+          "mode": "list",
+          "cachedResultName": "Clients"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        2864,
+        -232
+      ],
+      "id": "10498f41-470f-467c-840f-d40835c66655",
+      "name": "Create New Client Folder",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "move",
+        "fileId": {
+          "__rl": true,
+          "value": "={{ $('Campaign Google Doc Creator').item.json.documentId }}",
+          "mode": "id"
+        },
+        "driveId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "My Drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "value": "={{ $json.id }}",
+          "mode": "id"
+        }
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        3088,
+        -424
+      ],
+      "id": "f6386400-fc1a-49ac-87f5-7d734b3ca96c",
+      "name": "Move to Existing Folder",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "move",
+        "fileId": {
+          "__rl": true,
+          "value": "={{ $('Campaign Google Doc Creator').item.json.documentId }}",
+          "mode": "id"
+        },
+        "driveId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "My Drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "value": "={{ $json.id }}",
+          "mode": "id"
+        }
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        3088,
+        -232
+      ],
+      "id": "1a6f95c8-50a2-4723-a153-cb3c71c39183",
+      "name": "Move to New Folder",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "fields": {
+          "values": [
+            {
+              "name": "documentUrl",
+              "stringValue": "=https://docs.google.com/document/d/{{ $json.id }}"
+            },
+            {
+              "name": "businessName",
+              "stringValue": "={{ $('Set Brand Details').first().json.brandName }}"
+            },
+            {
+              "name": "fileName",
+              "stringValue": "={{ $('Prepare Document Data').item.json.documentName }}"
+            },
+            {
+              "name": "docLink",
+              "stringValue": "=https://docs.google.com/document/d/{{ $json.id }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3,
+      "position": [
+        3312,
+        -328
+      ],
+      "id": "770aba10-9e03-4e26-8640-615e14c786a2",
+      "name": "Prepare Notification Data"
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "select": "user",
+        "user": {
+          "__rl": true,
+          "value": "U04GPFR7TN1",
+          "mode": "list",
+          "cachedResultName": "lucas035"
+        },
+        "text": "=*🚀 New Campaigns Created*\n\n*Client:* {{ $('Set Brand Details').first().json.brandName }}\n*Status:* ✨ 5 New Campaigns Ready\n*Document:* {{ $('Prepare Document Data').first().json.documentName }}\n\n━━━━━━━━━━━━━━━━━━━━━━━\n\n*🎯 Campaign Focus:*\nMaximizing engagement, trust-building, and revenue using Max's $40M framework\n\n*📊 Strategy Highlights:*\n- Microtopic mastery for 3-5 second attention spans\n- Education + positioning for premium pricing\n- Dopamine triggers for maximum engagement\n- Trust-building before selling approach\n\n*📁 Campaign Document:*\n<{{ $json.docLink }}|View in Google Drive>\n\n_Created: {{ new Date().toLocaleString() }} | Expected Revenue Impact: High_",
+        "otherOptions": {}
+      },
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        3536,
+        -328
+      ],
+      "id": "9ba8129e-0b98-4b6a-bfc6-d7b070d53a25",
+      "name": "Slack Notification",
+      "webhookId": "d62fe0f4-e807-4062-98d0-c54713249fb7",
+      "credentials": {
+        "slackOAuth2Api": {
+          "id": "nhkttwRMJO9stSq3",
+          "name": "Slack account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "65af0f98-a6dc-4d4e-b523-28d79535b7d7",
+              "name": "documentName",
+              "value": "={{ $('Set Brand Details').first().json.brandName }} - Campaigns - {{ $now }}",
+              "type": "string"
+            },
+            {
+              "id": "f0ea6155-3648-479e-a3dc-23a68949b20a",
+              "name": "documentBody",
+              "value": "={{ $json.data[0].campaign1 }}\n\n---------------\n\n{{ $json.data[0].campaign2 }}\n\n---------------\n\n{{ $json.data[0].campaign3 }}\n\n---------------\n\n{{ $json.data[0].campaign4 }}\n\n---------------\n\n{{ $json.data[0].campaign5 }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        2192,
+        -328
+      ],
+      "id": "c5d92ffc-b993-453c-b552-61c4f4cfa3f8",
+      "name": "Prepare Document Data"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserAutofixing",
+      "typeVersion": 1,
+      "position": [
+        800,
+        -104
+      ],
+      "id": "607940b2-9406-410c-a825-3a2d3a1275ad",
+      "name": "Auto-fixing Output Parser"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "gpt-5",
+          "mode": "list",
+          "cachedResultName": "gpt-5"
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        816,
+        104
+      ],
+      "id": "9dfec867-67ee-4fdb-b118-758be603a776",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "D6xep2vJGEruT1qk",
+          "name": "Client Ascension OpenAI Account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsonSchemaExample": "{\n  \"campaigns\": [\n    \"Campaign 1: [Full campaign description with title, microtopic, research foundation, education strategy, engagement plan, positioning, and success prediction as a single text string]\",\n    \"Campaign 2: [Full campaign description...]\",\n    \"Campaign 3: [Full campaign description...]\",\n    \"Campaign 4: [Full campaign description...]\",\n    \"Campaign 5: [Full campaign description...]\"\n  ],\n  \"researchSummary\": \"Actual research insights and findings about the industry, competitors, and customer pain points\",\n  \"recommendations\": \"Actual strategic recommendations for campaign sequence, timing, and implementation\"\n}"
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.3,
+      "position": [
+        944,
+        104
+      ],
+      "id": "aca179ef-605c-4e23-a41a-7db0ca55235f",
+      "name": "Structured Output Parser"
+    },
+    {
+      "parameters": {
+        "model": "sonar-deep-research",
+        "messages": {
+          "message": [
+            {
+              "content": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('message0_Text', ``, 'string') }}"
+            }
+          ]
+        },
+        "simplify": true,
+        "options": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-base.perplexityTool",
+      "typeVersion": 1,
+      "position": [
+        104,
+        -104
+      ],
+      "id": "4aa80a14-0281-42b7-b802-502a78f23fa9",
+      "name": "Message a model in Perplexity",
+      "credentials": {
+        "perplexityApi": {
+          "id": "tDkFR32KWXKeIPzc",
+          "name": "Perplexity account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "numberInputs": 5
+      },
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        1536,
+        -384
+      ],
+      "id": "f52db5d8-8253-48a6-8e0c-2eb265542eb5",
+      "name": "Merge"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "On form submission": {
+      "main": [
+        [
+          {
+            "node": "Set Brand Details",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Brand Research Agent": {
+      "main": [
+        [
+          {
+            "node": "Set Research Details",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Brand Research Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set Brand Details": {
+      "main": [
+        [
+          {
+            "node": "Brand Research Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set Research Details": {
+      "main": [
+        [
+          {
+            "node": "Campaign Idea Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Campaign Idea Agent": {
+      "main": [
+        [
+          {
+            "node": "Campaign 3 Writer",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Campaign 4 Writer",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Campaign 2 Writer",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Campaign 1 Writer",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Campaign 5 Writer",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model1": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Campaign Idea Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Message a model in Perplexity1": {
+      "ai_tool": [
+        [
+          {
+            "node": "Campaign Idea Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model2": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Campaign 3 Writer",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Message a model in Perplexity2": {
+      "ai_tool": [
+        [
+          {
+            "node": "Campaign 3 Writer",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model3": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Campaign 4 Writer",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Message a model in Perplexity3": {
+      "ai_tool": [
+        [
+          {
+            "node": "Campaign 4 Writer",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model4": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Campaign 2 Writer",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Message a model in Perplexity4": {
+      "ai_tool": [
+        [
+          {
+            "node": "Campaign 2 Writer",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model5": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Campaign 1 Writer",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model6": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Campaign 5 Writer",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Message a model in Perplexity6": {
+      "ai_tool": [
+        [
+          {
+            "node": "Campaign 5 Writer",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Perplexity Tool 1": {
+      "ai_tool": [
+        [
+          {
+            "node": "Campaign 1 Writer",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Campaign 5 Writer": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 4
+          }
+        ]
+      ]
+    },
+    "Campaign 4 Writer": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 3
+          }
+        ]
+      ]
+    },
+    "Campaign 3 Writer": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 2
+          }
+        ]
+      ]
+    },
+    "Campaign 2 Writer": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Campaign 1 Writer": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Aggregate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate": {
+      "main": [
+        [
+          {
+            "node": "Prepare Document Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check If Returning Client": {
+      "main": [
+        [
+          {
+            "node": "Search for Existing Folder",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Create New Client Folder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Search for Existing Folder": {
+      "main": [
+        [
+          {
+            "node": "Move to Existing Folder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create New Client Folder": {
+      "main": [
+        [
+          {
+            "node": "Move to New Folder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Move to Existing Folder": {
+      "main": [
+        [
+          {
+            "node": "Prepare Notification Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Move to New Folder": {
+      "main": [
+        [
+          {
+            "node": "Prepare Notification Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare Notification Data": {
+      "main": [
+        [
+          {
+            "node": "Slack Notification",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Campaign Google Doc Creator": {
+      "main": [
+        [
+          {
+            "node": "Check If Returning Client",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare Document Data": {
+      "main": [
+        [
+          {
+            "node": "Campaign Google Doc Creator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Auto-fixing Output Parser": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Campaign Idea Agent",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Auto-fixing Output Parser",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Structured Output Parser": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Auto-fixing Output Parser",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Message a model in Perplexity": {
+      "ai_tool": [
+        [
+          {
+            "node": "Brand Research Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "dc82ab01-1a88-4485-adfa-c6cef6e80636",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "94aed49fc73372525d542e924a8b65d38c4cfc7be69ff82b11f83d6bf3d06ce7"
+  },
+  "id": "ZAN3n4ozJV05A5oi",
+  "tags": []
+}

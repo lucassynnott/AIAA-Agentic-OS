@@ -1,0 +1,2359 @@
+1
+00:00:00,050 --> 00:00:01,080
+All right, in this video, I'm
+
+2
+00:00:01,199 --> 00:00:02,779
+going to cover how you can set up
+
+3
+00:00:02,779 --> 00:00:04,480
+a cold email campaign inside of
+
+4
+00:00:04,750 --> 00:00:05,129
+Smartlead.
+
+5
+00:00:05,129 --> 00:00:06,830
+It is really not that complicated.
+
+6
+00:00:06,830 --> 00:00:08,070
+It does not take that long.
+
+7
+00:00:08,160 --> 00:00:09,210
+It just requires you to
+
+8
+00:00:09,439 --> 00:00:10,060
+press a few buttons.
+
+9
+00:00:10,060 --> 00:00:11,250
+So first off, we're going to hop
+
+10
+00:00:11,250 --> 00:00:12,449
+into Smartlead, go to the email
+
+11
+00:00:12,449 --> 00:00:12,939
+campaign
+
+12
+00:00:13,240 --> 00:00:14,580
+section and press create campaign.
+
+13
+00:00:14,580 --> 00:00:15,859
+Now you're going to be prompted
+
+14
+00:00:15,980 --> 00:00:16,929
+here to import leads.
+
+15
+00:00:16,929 --> 00:00:17,109
+So
+
+16
+00:00:17,190 --> 00:00:18,519
+you can drag these in from
+
+17
+00:00:18,519 --> 00:00:20,370
+wherever you are dragging them in
+
+18
+00:00:20,370 --> 00:00:20,829
+from.
+
+19
+00:00:20,829 --> 00:00:22,000
+This is a list I made
+
+20
+00:00:22,050 --> 00:00:23,199
+for my boy Evan Siege here in
+
+21
+00:00:23,199 --> 00:00:24,140
+Client Ascension.
+
+22
+00:00:24,140 --> 00:00:24,920
+Shout out Evan.
+
+23
+00:00:25,030 --> 00:00:26,390
+So I'm just going to upload this
+
+24
+00:00:26,449 --> 00:00:27,059
+as an example.
+
+25
+00:00:27,059 --> 00:00:28,129
+Now it's going to ask you for
+
+26
+00:00:28,129 --> 00:00:29,609
+settings here, import leads, even
+
+27
+00:00:29,609 --> 00:00:30,160
+if they're
+
+28
+00:00:30,210 --> 00:00:32,320
+in the general or in the global
+
+29
+00:00:32,320 --> 00:00:33,359
+block list.
+
+30
+00:00:33,359 --> 00:00:35,869
+I like to respect that, not import
+
+31
+00:00:35,869 --> 00:00:36,659
+the leads
+
+32
+00:00:36,710 --> 00:00:37,740
+if they're in the block list, not
+
+33
+00:00:37,859 --> 00:00:39,049
+import the leads if they're in the
+
+34
+00:00:39,049 --> 00:00:40,000
+unsubscribed list.
+
+35
+00:00:40,049 --> 00:00:41,750
+I do like to ignore this because
+
+36
+00:00:41,750 --> 00:00:43,700
+Smartlead's global bounce list is
+
+37
+00:00:43,700 --> 00:00:45,039
+not super accurate in
+
+38
+00:00:45,090 --> 00:00:45,909
+our experience.
+
+39
+00:00:45,909 --> 00:00:47,380
+And then ignore leads that exist
+
+40
+00:00:47,380 --> 00:00:48,350
+in other campaign.
+
+41
+00:00:48,359 --> 00:00:49,270
+That's up to you.
+
+42
+00:00:49,280 --> 00:00:49,859
+I only
+
+43
+00:00:50,159 --> 00:00:51,299
+enable this if you have leads in
+
+44
+00:00:51,299 --> 00:00:52,780
+other campaigns you want to filter
+
+45
+00:00:52,960 --> 00:00:53,240
+out.
+
+46
+00:00:53,240 --> 00:00:54,270
+This depends on your
+
+47
+00:00:54,579 --> 00:00:55,619
+exact circumstance.
+
+48
+00:00:55,619 --> 00:00:57,200
+You could leave this off or on
+
+49
+00:00:57,320 --> 00:00:58,920
+depending if you want to import
+
+50
+00:00:58,920 --> 00:00:59,179
+leads
+
+51
+00:00:59,500 --> 00:01:00,469
+exists in other campaigns to
+
+52
+00:01:00,469 --> 00:01:00,939
+yours.
+
+53
+00:01:00,939 --> 00:01:02,490
+The next step you're going to do
+
+54
+00:01:02,500 --> 00:01:03,429
+here, you can name
+
+55
+00:01:03,490 --> 00:01:04,519
+the campaign however you'd like.
+
+56
+00:01:04,590 --> 00:01:05,859
+I like to name it, you know,
+
+57
+00:01:05,859 --> 00:01:07,219
+whatever campaign this is.
+
+58
+00:01:07,219 --> 00:01:07,340
+So
+
+59
+00:01:07,390 --> 00:01:09,010
+let's say Hormozy followers and
+
+60
+00:01:09,010 --> 00:01:10,780
+then 12, 15, 24.
+
+61
+00:01:10,790 --> 00:01:12,239
+So like what the date is.
+
+62
+00:01:12,280 --> 00:01:14,060
+Now here's where
+
+63
+00:01:14,109 --> 00:01:15,019
+you're going to map the fields.
+
+64
+00:01:15,019 --> 00:01:15,859
+You're going to add your first
+
+65
+00:01:15,930 --> 00:01:16,799
+name, your email, all the
+
+66
+00:01:16,799 --> 00:01:16,980
+different
+
+67
+00:01:17,359 --> 00:01:17,599
+fields.
+
+68
+00:01:17,599 --> 00:01:19,150
+Typically you're going to have
+
+69
+00:01:19,159 --> 00:01:20,840
+first name, last name, company
+
+70
+00:01:20,840 --> 00:01:22,659
+name, email, any custom
+
+71
+00:01:22,959 --> 00:01:24,659
+variable, custom variables.
+
+72
+00:01:24,659 --> 00:01:26,439
+You'll have a company name and
+
+73
+00:01:26,439 --> 00:01:28,409
+LinkedIn profile and a few others
+
+74
+00:01:28,760 --> 00:01:28,900
+website.
+
+75
+00:01:28,900 --> 00:01:30,010
+So this is where you're going to
+
+76
+00:01:30,010 --> 00:01:30,349
+map it.
+
+77
+00:01:30,349 --> 00:01:31,620
+You're just going to want to tell
+
+78
+00:01:31,620 --> 00:01:32,000
+Smartlead
+
+79
+00:01:32,049 --> 00:01:33,250
+like, Hey, in the Google sheet, it
+
+80
+00:01:33,250 --> 00:01:33,890
+says first name.
+
+81
+00:01:33,890 --> 00:01:34,920
+We're going to map this to first
+
+82
+00:01:35,040 --> 00:01:35,359
+name.
+
+83
+00:01:35,409 --> 00:01:36,439
+Same thing with email and all the
+
+84
+00:01:36,560 --> 00:01:37,799
+other stuff you want to pull in.
+
+85
+00:01:37,799 --> 00:01:39,299
+Now, if I want to include
+
+86
+00:01:39,599 --> 00:01:40,939
+their follower count as a custom
+
+87
+00:01:40,939 --> 00:01:42,689
+field, I can just press the custom
+
+88
+00:01:42,689 --> 00:01:43,849
+field button here and
+
+89
+00:01:43,909 --> 00:01:44,700
+then import that.
+
+90
+00:01:44,700 --> 00:01:46,359
+So we're going to, I'm going to
+
+91
+00:01:46,500 --> 00:01:48,359
+make sure the settings are set up
+
+92
+00:01:48,359 --> 00:01:48,680
+properly.
+
+93
+00:01:48,829 --> 00:01:50,519
+So I'm just going to upload this
+
+94
+00:01:50,519 --> 00:01:51,280
+as a sample.
+
+95
+00:01:51,420 --> 00:01:53,010
+This takes anywhere from a few
+
+96
+00:01:53,010 --> 00:01:54,000
+seconds to a few
+
+97
+00:01:54,299 --> 00:01:55,390
+minutes, depending on how big your
+
+98
+00:01:55,390 --> 00:01:55,799
+list is.
+
+99
+00:01:55,799 --> 00:01:56,920
+So you're going to let this upload
+
+100
+00:01:57,099 --> 00:01:57,840
+and wait a couple
+
+101
+00:01:58,140 --> 00:01:59,780
+seconds here for this to load.
+
+102
+00:01:59,780 --> 00:02:01,629
+While this is loading, you're
+
+103
+00:02:01,640 --> 00:02:03,379
+going to want to make sure that
+
+104
+00:02:03,430 --> 00:02:04,829
+you have your email script already
+
+105
+00:02:04,829 --> 00:02:06,079
+set up and all the other assets
+
+106
+00:02:06,079 --> 00:02:06,540
+ready.
+
+107
+00:02:06,540 --> 00:02:08,000
+Now you can see here,
+
+108
+00:02:08,270 --> 00:02:09,400
+this is all the stuff that
+
+109
+00:02:09,400 --> 00:02:10,729
+Smartlead uploaded.
+
+110
+00:02:10,729 --> 00:02:12,389
+So you can see, here's all the
+
+111
+00:02:12,389 --> 00:02:13,020
+stuff.
+
+112
+00:02:13,020 --> 00:02:13,620
+I don't like
+
+113
+00:02:13,669 --> 00:02:14,909
+to validate inside Smartlead.
+
+114
+00:02:14,909 --> 00:02:16,120
+I like to validate externally.
+
+115
+00:02:16,259 --> 00:02:17,759
+And so we're going to continue and
+
+116
+00:02:18,060 --> 00:02:18,240
+upload.
+
+117
+00:02:18,240 --> 00:02:19,870
+Now, now that we're in the
+
+118
+00:02:19,870 --> 00:02:21,969
+sequences section here, here's
+
+119
+00:02:21,979 --> 00:02:23,699
+where you can write the email.
+
+120
+00:02:23,770 --> 00:02:25,129
+You're going to put your subject
+
+121
+00:02:25,129 --> 00:02:26,539
+line, all your different email
+
+122
+00:02:26,539 --> 00:02:27,110
+contents.
+
+123
+00:02:27,110 --> 00:02:28,199
+Writing this is pretty
+
+124
+00:02:28,500 --> 00:02:28,919
+straightforward.
+
+125
+00:02:29,009 --> 00:02:29,939
+So you're just going to insert
+
+126
+00:02:29,939 --> 00:02:31,030
+what you put as a subject line.
+
+127
+00:02:31,030 --> 00:02:32,080
+If you want variables,
+
+128
+00:02:32,129 --> 00:02:33,159
+like the stuff in your sheets, all
+
+129
+00:02:33,280 --> 00:02:34,120
+you have to do is press this
+
+130
+00:02:34,180 --> 00:02:34,810
+variable button.
+
+131
+00:02:34,810 --> 00:02:35,560
+So I could say like,
+
+132
+00:02:35,610 --> 00:02:36,810
+hi, first name.
+
+133
+00:02:36,810 --> 00:02:38,479
+This is obviously not a good
+
+134
+00:02:38,659 --> 00:02:39,340
+script.
+
+135
+00:02:39,340 --> 00:02:40,680
+Hi, first name.
+
+136
+00:02:40,680 --> 00:02:42,090
+Sometimes it does that like
+
+137
+00:02:42,150 --> 00:02:43,680
+undefined thing if you press
+
+138
+00:02:43,710 --> 00:02:44,250
+enter.
+
+139
+00:02:44,250 --> 00:02:45,789
+So just keep that in mind.
+
+140
+00:02:45,789 --> 00:02:47,000
+Hi, first name.
+
+141
+00:02:47,000 --> 00:02:49,860
+I want you to book
+
+142
+00:02:50,310 --> 00:02:50,909
+a call.
+
+143
+00:02:50,909 --> 00:02:51,479
+Okay.
+
+144
+00:02:51,479 --> 00:02:53,590
+That's how you type stuff in.
+
+145
+00:02:53,590 --> 00:02:55,789
+If you want to make split tests,
+
+146
+00:02:55,789 --> 00:02:57,120
+this is where you add
+
+147
+00:02:57,419 --> 00:02:57,569
+variant.
+
+148
+00:02:57,569 --> 00:02:58,800
+You can have your split tests.
+
+149
+00:02:58,800 --> 00:02:59,990
+If you want to add extra steps to
+
+150
+00:02:59,990 --> 00:03:00,860
+the campaign, like
+
+151
+00:03:01,159 --> 00:03:01,930
+other emails.
+
+152
+00:03:01,930 --> 00:03:04,139
+Let me move this loom thing here.
+
+153
+00:03:04,150 --> 00:03:05,990
+You just press add step, add
+
+154
+00:03:05,990 --> 00:03:07,780
+email, and then plug in
+
+155
+00:03:07,849 --> 00:03:09,030
+your next email here and you can
+
+156
+00:03:09,030 --> 00:03:09,599
+keep going.
+
+157
+00:03:09,599 --> 00:03:10,979
+You can keep adding split tests
+
+158
+00:03:10,979 --> 00:03:12,080
+and do all that
+
+159
+00:03:12,379 --> 00:03:12,770
+stuff here.
+
+160
+00:03:12,770 --> 00:03:14,379
+This video is not on copywriting,
+
+161
+00:03:14,400 --> 00:03:15,840
+but this is where you paste your
+
+162
+00:03:15,840 --> 00:03:16,330
+copy.
+
+163
+00:03:16,340 --> 00:03:17,479
+If you want to add
+
+164
+00:03:17,770 --> 00:03:19,050
+images, links, which in 99% of the
+
+165
+00:03:19,080 --> 00:03:20,520
+scenarios, I don't recommend it.
+
+166
+00:03:20,580 --> 00:03:22,120
+You can do that here as well.
+
+167
+00:03:22,169 --> 00:03:23,569
+Now, moving on, we're just going
+
+168
+00:03:23,569 --> 00:03:24,620
+to press save it next and go
+
+169
+00:03:24,750 --> 00:03:26,020
+through this very quickly.
+
+170
+00:03:26,020 --> 00:03:27,319
+That's where
+
+171
+00:03:27,370 --> 00:03:28,150
+you write your sequences.
+
+172
+00:03:28,150 --> 00:03:29,229
+Again, pretty straightforward.
+
+173
+00:03:29,229 --> 00:03:30,240
+You're just copying and pasting
+
+174
+00:03:30,360 --> 00:03:30,719
+your stuff into
+
+175
+00:03:30,770 --> 00:03:31,069
+here.
+
+176
+00:03:31,069 --> 00:03:32,430
+And then if you want variables,
+
+177
+00:03:32,430 --> 00:03:33,759
+you can insert those through the
+
+178
+00:03:33,819 --> 00:03:34,780
+variable button.
+
+179
+00:03:35,310 --> 00:03:36,669
+Now, moving on to the setup.
+
+180
+00:03:36,669 --> 00:03:38,180
+Oh, one last thing I'll cover here
+
+181
+00:03:38,300 --> 00:03:38,960
+is Spintax.
+
+182
+00:03:38,960 --> 00:03:40,490
+So Spintax is a good
+
+183
+00:03:40,759 --> 00:03:41,210
+thing to have.
+
+184
+00:03:41,219 --> 00:03:42,689
+Generally, Spintax is basically
+
+185
+00:03:42,729 --> 00:03:44,030
+like randomization of stuff in
+
+186
+00:03:44,030 --> 00:03:44,729
+your email.
+
+187
+00:03:44,740 --> 00:03:45,009
+So
+
+188
+00:03:45,069 --> 00:03:46,659
+if you want your email to say hi
+
+189
+00:03:46,659 --> 00:03:48,430
+in half the cases and hello in the
+
+190
+00:03:48,430 --> 00:03:49,900
+other half the cases like
+
+191
+00:03:50,199 --> 00:03:52,169
+this, all you have to do is make a
+
+192
+00:03:52,180 --> 00:03:54,629
+curly open embrace, put whatever
+
+193
+00:03:54,659 --> 00:03:56,669
+you want one randomization
+
+194
+00:03:56,729 --> 00:03:58,409
+to be, put a line, put your other
+
+195
+00:03:58,409 --> 00:04:00,219
+randomization, and then close it
+
+196
+00:04:00,219 --> 00:04:00,699
+out.
+
+197
+00:04:00,699 --> 00:04:02,219
+So if you want half the
+
+198
+00:04:02,520 --> 00:04:03,900
+emails to say A and half the
+
+199
+00:04:03,900 --> 00:04:05,719
+emails to say B, if you set up
+
+200
+00:04:05,719 --> 00:04:07,740
+this Spintax, it will show us
+
+201
+00:04:07,740 --> 00:04:07,860
+that.
+
+202
+00:04:07,909 --> 00:04:09,379
+So the reason why you do this is
+
+203
+00:04:09,379 --> 00:04:10,990
+because you want your emails to
+
+204
+00:04:10,990 --> 00:04:12,590
+appear not as like copy and paste
+
+205
+00:04:12,900 --> 00:04:13,610
+templates and have some
+
+206
+00:04:13,610 --> 00:04:14,400
+randomization.
+
+207
+00:04:14,469 --> 00:04:15,780
+So in this case, you know, half
+
+208
+00:04:15,780 --> 00:04:16,920
+our emails will say hi,
+
+209
+00:04:16,970 --> 00:04:18,269
+half our emails will say hello,
+
+210
+00:04:18,269 --> 00:04:19,170
+and this is useful for
+
+211
+00:04:19,170 --> 00:04:20,459
+deliverability reasons.
+
+212
+00:04:20,459 --> 00:04:21,459
+Now, if you're trying
+
+213
+00:04:21,509 --> 00:04:22,879
+to like split test something to
+
+214
+00:04:22,879 --> 00:04:24,240
+see which result will perform
+
+215
+00:04:24,240 --> 00:04:25,699
+better, that's where you're going
+
+216
+00:04:25,769 --> 00:04:27,089
+to want to use the A/B split
+
+217
+00:04:27,089 --> 00:04:28,180
+testing feature.
+
+218
+00:04:28,180 --> 00:04:29,870
+If you want to just include micro
+
+219
+00:04:29,879 --> 00:04:31,139
+variations in your
+
+220
+00:04:31,379 --> 00:04:32,000
+email to help improve
+
+221
+00:04:32,000 --> 00:04:33,290
+deliverability, this is where
+
+222
+00:04:33,290 --> 00:04:34,319
+you're going to want to use
+
+223
+00:04:34,319 --> 00:04:34,930
+Spintax.
+
+224
+00:04:34,970 --> 00:04:35,350
+You can say,
+
+225
+00:04:35,410 --> 00:04:37,240
+hey, instead of I want you to book
+
+226
+00:04:37,240 --> 00:04:38,949
+a call, I want you to schedule a
+
+227
+00:04:39,040 --> 00:04:40,149
+meeting, right?
+
+228
+00:04:40,149 --> 00:04:40,879
+And it's not
+
+229
+00:04:40,930 --> 00:04:41,600
+half our emails.
+
+230
+00:04:41,689 --> 00:04:42,810
+It'll say, I want you to book a
+
+231
+00:04:42,810 --> 00:04:43,139
+call.
+
+232
+00:04:43,149 --> 00:04:44,310
+And the other half, it'll say
+
+233
+00:04:44,310 --> 00:04:44,949
+schedule a
+
+234
+00:04:45,259 --> 00:04:45,470
+meeting.
+
+235
+00:04:45,480 --> 00:04:46,939
+So that's how you set up Spintax.
+
+236
+00:04:46,939 --> 00:04:48,069
+Spintax is basically just
+
+237
+00:04:48,069 --> 00:04:49,339
+randomization your email,
+
+238
+00:04:49,579 --> 00:04:51,500
+and it helps improve results for
+
+239
+00:04:51,500 --> 00:04:52,860
+deliverability.
+
+240
+00:04:52,860 --> 00:04:55,240
+So that's how you set up Spintax.
+
+241
+00:04:55,240 --> 00:04:55,639
+That's how you
+
+242
+00:04:55,689 --> 00:04:56,490
+set up your emails.
+
+243
+00:04:56,490 --> 00:04:57,680
+Now moving on to the next step,
+
+244
+00:04:57,730 --> 00:04:58,560
+the setup section.
+
+245
+00:04:58,740 --> 00:05:00,139
+Choose sender accounts.
+
+246
+00:05:00,139 --> 00:05:00,370
+This is
+
+247
+00:05:00,430 --> 00:05:01,389
+where you can add the emails that
+
+248
+00:05:01,389 --> 00:05:02,319
+you want to be associated with
+
+249
+00:05:02,319 --> 00:05:02,879
+this campaign.
+
+250
+00:05:03,019 --> 00:05:04,120
+I like to just add
+
+251
+00:05:04,170 --> 00:05:05,870
+all the emails that are relevant,
+
+252
+00:05:05,870 --> 00:05:07,259
+you know, included in this
+
+253
+00:05:07,259 --> 00:05:07,910
+campaign.
+
+254
+00:05:07,949 --> 00:05:09,540
+Some people like to chop them up
+
+255
+00:05:09,750 --> 00:05:10,920
+into separate campaigns, but
+
+256
+00:05:10,920 --> 00:05:12,370
+smartly, smart enough to know to
+
+257
+00:05:12,370 --> 00:05:13,790
+like respect your daily sending
+
+258
+00:05:13,800 --> 00:05:14,360
+limits and
+
+259
+00:05:14,410 --> 00:05:15,439
+not over send on those email
+
+260
+00:05:15,560 --> 00:05:16,019
+accounts.
+
+261
+00:05:16,019 --> 00:05:17,209
+I just add them all in here.
+
+262
+00:05:17,209 --> 00:05:19,060
+Schedule campaign, pick your time
+
+263
+00:05:19,110 --> 00:05:20,139
+zone, pick the days you want to
+
+264
+00:05:20,259 --> 00:05:20,509
+send.
+
+265
+00:05:20,560 --> 00:05:21,560
+You can send on weekends if you
+
+266
+00:05:21,699 --> 00:05:21,949
+want.
+
+267
+00:05:21,949 --> 00:05:23,290
+I know people that crush that do
+
+268
+00:05:23,560 --> 00:05:23,750
+that.
+
+269
+00:05:23,750 --> 00:05:25,420
+For your time of day that you're
+
+270
+00:05:25,420 --> 00:05:27,269
+sending, again, this depends on
+
+271
+00:05:27,269 --> 00:05:28,610
+your time zone and who you're
+
+272
+00:05:28,920 --> 00:05:29,459
+sending to.
+
+273
+00:05:29,459 --> 00:05:31,350
+But I like to send from like seven
+
+274
+00:05:31,350 --> 00:05:33,350
+in the morning to like 2 p.m.
+
+275
+00:05:33,379 --> 00:05:34,519
+ish because I'd rather
+
+276
+00:05:34,730 --> 00:05:35,740
+send earlier and they see it
+
+277
+00:05:35,740 --> 00:05:37,019
+during their workday than send
+
+278
+00:05:37,149 --> 00:05:38,319
+close to when most people's
+
+279
+00:05:38,350 --> 00:05:39,120
+workday is up.
+
+280
+00:05:39,170 --> 00:05:41,120
+An email will be sent every X
+
+281
+00:05:41,120 --> 00:05:42,040
+minutes.
+
+282
+00:05:42,040 --> 00:05:43,930
+I like to make sure that this just
+
+283
+00:05:43,930 --> 00:05:45,620
+adds up to whatever your
+
+284
+00:05:45,920 --> 00:05:46,939
+email sending limit is.
+
+285
+00:05:46,939 --> 00:05:48,860
+So if you're sending 15 emails per
+
+286
+00:05:48,860 --> 00:05:50,420
+account per day, you want this
+
+287
+00:05:50,420 --> 00:05:50,879
+number
+
+288
+00:05:50,949 --> 00:05:52,699
+to be 15 or greater, which it is
+
+289
+00:05:52,759 --> 00:05:53,399
+by default.
+
+290
+00:05:53,529 --> 00:05:54,930
+But if you want it to be, you
+
+291
+00:05:54,930 --> 00:05:56,149
+know, exactly the same
+
+292
+00:05:56,269 --> 00:05:57,300
+as what you have it for your email
+
+293
+00:05:57,420 --> 00:05:58,629
+accounts, you can keep playing
+
+294
+00:05:58,629 --> 00:05:59,939
+with the numbers until it's like
+
+295
+00:06:00,170 --> 00:06:00,339
+that.
+
+296
+00:06:00,339 --> 00:06:01,879
+As long as this is above what your
+
+297
+00:06:01,879 --> 00:06:03,430
+email sending limits are, then
+
+298
+00:06:03,430 --> 00:06:04,259
+that's fine.
+
+299
+00:06:04,259 --> 00:06:05,360
+Email
+
+300
+00:06:05,660 --> 00:06:06,319
+account start date.
+
+301
+00:06:06,319 --> 00:06:07,329
+If you want to schedule a
+
+302
+00:06:07,329 --> 00:06:08,889
+campaign, you can do this 99% of
+
+303
+00:06:08,889 --> 00:06:09,480
+the time.
+
+304
+00:06:09,480 --> 00:06:09,980
+I don't do
+
+305
+00:06:10,199 --> 00:06:10,360
+that.
+
+306
+00:06:10,360 --> 00:06:11,709
+For the max number of new leads
+
+307
+00:06:11,709 --> 00:06:12,480
+reached per day.
+
+308
+00:06:12,610 --> 00:06:14,319
+Again, this doesn't really matter
+
+309
+00:06:14,319 --> 00:06:14,600
+because
+
+310
+00:06:14,860 --> 00:06:16,029
+smartly to smart enough to know to
+
+311
+00:06:16,029 --> 00:06:17,290
+say like, hey, if your email
+
+312
+00:06:17,290 --> 00:06:18,879
+account, if you have 10 email
+
+313
+00:06:19,180 --> 00:06:20,459
+accounts sending 50 emails per
+
+314
+00:06:20,470 --> 00:06:22,470
+day, 1515, that means you're going
+
+315
+00:06:22,560 --> 00:06:23,899
+to send 150 emails a day.
+
+316
+00:06:23,949 --> 00:06:25,660
+Now, if I put anything higher than
+
+317
+00:06:25,660 --> 00:06:27,699
+150, smart leads are not going to
+
+318
+00:06:27,730 --> 00:06:28,980
+go over that because you
+
+319
+00:06:29,220 --> 00:06:30,430
+have email account limits.
+
+320
+00:06:30,480 --> 00:06:31,899
+So it doesn't matter as long as
+
+321
+00:06:32,019 --> 00:06:33,529
+it's above the number that your
+
+322
+00:06:33,540 --> 00:06:33,939
+email
+
+323
+00:06:34,240 --> 00:06:35,740
+account, like your amount of email
+
+324
+00:06:35,810 --> 00:06:37,500
+accounts times the amount sent per
+
+325
+00:06:37,500 --> 00:06:38,649
+day of the email account.
+
+326
+00:06:38,660 --> 00:06:38,899
+So
+
+327
+00:06:38,949 --> 00:06:40,310
+you can just set this to a really
+
+328
+00:06:40,310 --> 00:06:41,019
+high number.
+
+329
+00:06:41,019 --> 00:06:42,149
+I like to set this to like a
+
+330
+00:06:42,180 --> 00:06:43,449
+thousand or whatever
+
+331
+00:06:43,759 --> 00:06:45,220
+higher number you could possibly
+
+332
+00:06:45,220 --> 00:06:46,899
+think of because your smart lead
+
+333
+00:06:46,899 --> 00:06:48,560
+account will respect your email
+
+334
+00:06:48,860 --> 00:06:49,579
+account sending limits.
+
+335
+00:06:49,579 --> 00:06:50,879
+By the way, I know I'm breezing
+
+336
+00:06:50,879 --> 00:06:52,180
+through this really quickly.
+
+337
+00:06:52,230 --> 00:06:53,920
+Um, there, if you want to rewatch
+
+338
+00:06:53,920 --> 00:06:55,660
+this video, I'd recommend it just
+
+339
+00:06:55,660 --> 00:06:57,079
+to solidify the settings,
+
+340
+00:06:57,170 --> 00:06:58,430
+but this is to mainly be a quick
+
+341
+00:06:58,430 --> 00:06:59,129
+start guide.
+
+342
+00:06:59,129 --> 00:07:00,430
+And again, you can DM me if you
+
+343
+00:07:00,439 --> 00:07:01,420
+have any questions,
+
+344
+00:07:01,470 --> 00:07:02,819
+time zone, pick your time zone,
+
+345
+00:07:02,819 --> 00:07:04,240
+pretty straightforward, press
+
+346
+00:07:04,240 --> 00:07:04,660
+save.
+
+347
+00:07:04,660 --> 00:07:06,019
+So I'm going to put New York here,
+
+348
+00:07:06,319 --> 00:07:07,470
+New York.
+
+349
+00:07:07,470 --> 00:07:08,920
+Awesome.
+
+350
+00:07:08,920 --> 00:07:11,240
+Cause I want EST.
+
+351
+00:07:11,240 --> 00:07:12,189
+Cool.
+
+352
+00:07:12,319 --> 00:07:16,579
+So now that's set up, um, schedule
+
+353
+00:07:16,660 --> 00:07:18,300
+campaign center
+
+354
+00:07:18,600 --> 00:07:19,000
+settings.
+
+355
+00:07:19,110 --> 00:07:21,000
+We have that all set up campaign
+
+356
+00:07:21,000 --> 00:07:21,810
+settings.
+
+357
+00:07:21,810 --> 00:07:23,939
+These are, um, where you can put
+
+358
+00:07:23,939 --> 00:07:24,839
+your kind of more
+
+359
+00:07:25,199 --> 00:07:25,980
+important settings here.
+
+360
+00:07:26,100 --> 00:07:27,399
+So if you want to optimize email
+
+361
+00:07:27,399 --> 00:07:28,800
+deliverability, which I always
+
+362
+00:07:28,800 --> 00:07:29,439
+recommend,
+
+363
+00:07:29,490 --> 00:07:30,839
+this is basically saying, Hey,
+
+364
+00:07:30,839 --> 00:07:31,939
+smart lead, don't send any
+
+365
+00:07:32,069 --> 00:07:33,480
+additional baggage in my email.
+
+366
+00:07:33,480 --> 00:07:34,860
+So, um,
+
+367
+00:07:34,910 --> 00:07:36,310
+my emails land in the inbox as
+
+368
+00:07:36,360 --> 00:07:37,360
+much as possible.
+
+369
+00:07:37,490 --> 00:07:38,930
+I always have this ticked now
+
+370
+00:07:38,930 --> 00:07:40,000
+force plain Texas
+
+371
+00:07:40,300 --> 00:07:41,029
+content type.
+
+372
+00:07:41,029 --> 00:07:42,920
+What this basically means is like
+
+373
+00:07:43,100 --> 00:07:45,209
+some email providers won't like,
+
+374
+00:07:45,209 --> 00:07:46,379
+you'll say, Hey,
+
+375
+00:07:46,430 --> 00:07:47,680
+I want to send this to the plain
+
+376
+00:07:47,680 --> 00:07:48,879
+text email and they'll like
+
+377
+00:07:49,019 --> 00:07:49,569
+reformat it.
+
+378
+00:07:49,569 --> 00:07:50,740
+You can force your emails
+
+379
+00:07:51,040 --> 00:07:51,439
+plain text.
+
+380
+00:07:51,459 --> 00:07:52,939
+I haven't seen the like actual
+
+381
+00:07:52,959 --> 00:07:54,699
+results on deliverability, but I
+
+382
+00:07:54,699 --> 00:07:55,970
+typically don't have this
+
+383
+00:07:56,279 --> 00:07:57,259
+enabled because sometimes it
+
+384
+00:07:57,259 --> 00:07:58,470
+messes up the formatting.
+
+385
+00:07:58,470 --> 00:07:59,899
+So your mileage may vary here.
+
+386
+00:07:59,899 --> 00:08:00,779
+You can split test
+
+387
+00:08:00,829 --> 00:08:01,500
+this right now.
+
+388
+00:08:01,579 --> 00:08:02,800
+I just believe this unchecked
+
+389
+00:08:02,800 --> 00:08:04,220
+since you have this ticked, it's
+
+390
+00:08:04,220 --> 00:08:04,699
+not going to let
+
+391
+00:08:04,750 --> 00:08:05,930
+you track email opens or link
+
+392
+00:08:05,930 --> 00:08:07,199
+clicks, which is what we want
+
+393
+00:08:07,199 --> 00:08:08,560
+because again, that reduces
+
+394
+00:08:08,560 --> 00:08:09,240
+deliverability.
+
+395
+00:08:09,449 --> 00:08:11,439
+Now prioritizing sending pattern.
+
+396
+00:08:11,470 --> 00:08:13,610
+Uh, I like to set this just 50% of
+
+397
+00:08:13,610 --> 00:08:15,500
+emails go to new leads and 50%
+
+398
+00:08:15,550 --> 00:08:16,550
+go to follow-ups pretty
+
+399
+00:08:16,550 --> 00:08:17,509
+straightforward.
+
+400
+00:08:17,509 --> 00:08:19,019
+If you want results to be quicker,
+
+401
+00:08:19,019 --> 00:08:20,209
+you can send it all to new
+
+402
+00:08:20,500 --> 00:08:21,040
+leads that way.
+
+403
+00:08:21,040 --> 00:08:22,569
+Um, you're hitting new people as
+
+404
+00:08:22,569 --> 00:08:23,990
+fast as possible and new people
+
+405
+00:08:23,990 --> 00:08:25,000
+typically respond
+
+406
+00:08:25,300 --> 00:08:26,079
+better than follow-up.
+
+407
+00:08:26,199 --> 00:08:27,040
+So you can do that.
+
+408
+00:08:27,089 --> 00:08:28,540
+Um, company level auto pause.
+
+409
+00:08:28,540 --> 00:08:29,879
+I always have this disabled
+
+410
+00:08:30,180 --> 00:08:31,120
+because there's been plenty of
+
+411
+00:08:31,120 --> 00:08:32,250
+times where I reach out to two
+
+412
+00:08:32,250 --> 00:08:33,639
+people from the same company.
+
+413
+00:08:33,639 --> 00:08:34,360
+One person
+
+414
+00:08:34,570 --> 00:08:34,830
+says no.
+
+415
+00:08:34,830 --> 00:08:36,019
+And one person says yes.
+
+416
+00:08:36,019 --> 00:08:37,899
+And what this feature does is if
+
+417
+00:08:37,899 --> 00:08:39,879
+person a response, your email,
+
+418
+00:08:40,090 --> 00:08:41,179
+then it also pauses person B if
+
+419
+00:08:41,179 --> 00:08:42,340
+they are belong to the same
+
+420
+00:08:42,340 --> 00:08:43,000
+company.
+
+421
+00:08:43,000 --> 00:08:44,679
+So I don't have this enabled
+
+422
+00:08:44,980 --> 00:08:46,419
+enhanced email sending.
+
+423
+00:08:46,419 --> 00:08:47,879
+This is like, if you have outlook
+
+424
+00:08:47,879 --> 00:08:49,320
+accounts, it'll route them to
+
+425
+00:08:49,320 --> 00:08:49,929
+outlook accounts.
+
+426
+00:08:49,990 --> 00:08:51,159
+If you have Google accounts, it'll
+
+427
+00:08:51,159 --> 00:08:52,070
+route them to other Google
+
+428
+00:08:52,070 --> 00:08:52,600
+accounts.
+
+429
+00:08:52,899 --> 00:08:55,440
+Your mileage may vary here.
+
+430
+00:08:55,440 --> 00:08:56,879
+I usually leave this off.
+
+431
+00:08:56,879 --> 00:08:58,769
+Uh, and in some cases sending
+
+432
+00:08:58,899 --> 00:08:59,960
+across providers
+
+433
+00:09:00,070 --> 00:09:01,480
+and say if instead of the same
+
+434
+00:09:01,519 --> 00:09:03,059
+providers performs better, I
+
+435
+00:09:03,120 --> 00:09:04,519
+usually leave this off.
+
+436
+00:09:04,519 --> 00:09:05,539
+Um, isolated
+
+437
+00:09:05,840 --> 00:09:07,200
+sending provider matching.
+
+438
+00:09:07,200 --> 00:09:08,789
+So right now, as of December,
+
+439
+00:09:08,820 --> 00:09:11,139
+2024, a lot of outlook accounts
+
+440
+00:09:11,139 --> 00:09:11,940
+reject emails
+
+441
+00:09:11,990 --> 00:09:12,659
+at a lot higher rate.
+
+442
+00:09:12,750 --> 00:09:13,740
+So if you're like, Hey, I don't
+
+443
+00:09:13,799 --> 00:09:14,769
+want to reach out to outlook
+
+444
+00:09:14,769 --> 00:09:15,399
+accounts.
+
+445
+00:09:15,450 --> 00:09:16,480
+I only want to do the Gmail.
+
+446
+00:09:16,600 --> 00:09:17,899
+Then you can just take this box.
+
+447
+00:09:18,029 --> 00:09:21,559
+This depends if you want to filter
+
+448
+00:09:21,610 --> 00:09:22,850
+out certain providers, but in a
+
+449
+00:09:22,850 --> 00:09:24,019
+lot of cases, you just want to
+
+450
+00:09:24,019 --> 00:09:26,110
+send to all intelligent AI
+
+451
+00:09:26,120 --> 00:09:26,820
+categorization.
+
+452
+00:09:27,080 --> 00:09:28,480
+This is basically telling smart
+
+453
+00:09:28,480 --> 00:09:30,279
+lead to like, Hey, whenever we get
+
+454
+00:09:30,279 --> 00:09:32,279
+replies, let's tag them as certain
+
+455
+00:09:32,580 --> 00:09:33,919
+filters, um, which can be useful
+
+456
+00:09:33,919 --> 00:09:35,129
+for inbox management.
+
+457
+00:09:35,129 --> 00:09:36,350
+I like to have this on.
+
+458
+00:09:36,360 --> 00:09:38,029
+And then I like to include,
+
+459
+00:09:38,090 --> 00:09:39,980
+um, do not contact out of office,
+
+460
+00:09:39,980 --> 00:09:42,059
+interested, not interested, um,
+
+461
+00:09:42,059 --> 00:09:44,200
+and meeting a request that pretty
+
+462
+00:09:44,200 --> 00:09:44,360
+much
+
+463
+00:09:44,600 --> 00:09:45,370
+gets the job done.
+
+464
+00:09:45,370 --> 00:09:46,720
+I have a bunch of extra stuff
+
+465
+00:09:46,720 --> 00:09:48,240
+inside my smart lead, uh, for
+
+466
+00:09:48,240 --> 00:09:49,240
+custom tags, which
+
+467
+00:09:49,289 --> 00:09:50,320
+you don't need to have.
+
+468
+00:09:50,440 --> 00:09:51,740
+Um, so that's why you might see
+
+469
+00:09:51,870 --> 00:09:53,259
+different stuff than what I have
+
+470
+00:09:53,259 --> 00:09:53,720
+here.
+
+471
+00:09:53,769 --> 00:09:55,519
+Um, ignore auto categorize out of
+
+472
+00:09:55,529 --> 00:09:57,159
+office from the reply rate.
+
+473
+00:09:57,159 --> 00:09:58,360
+I like to include it as part
+
+474
+00:09:58,409 --> 00:09:59,330
+of the reply rate.
+
+475
+00:09:59,330 --> 00:10:00,519
+So I leave this in and then
+
+476
+00:10:00,519 --> 00:10:01,799
+automatically restart AI
+
+477
+00:10:01,799 --> 00:10:03,000
+categorize out of office
+
+478
+00:10:03,049 --> 00:10:03,899
+from lead returns.
+
+479
+00:10:03,899 --> 00:10:05,279
+This is basically saying someone
+
+480
+00:10:05,299 --> 00:10:06,789
+says, Hey, I'm out of office until
+
+481
+00:10:06,830 --> 00:10:07,960
+January 15th.
+
+482
+00:10:08,009 --> 00:10:09,409
+It'll pause them for now.
+
+483
+00:10:09,409 --> 00:10:11,320
+And then in January 15th, it'll
+
+484
+00:10:11,320 --> 00:10:12,600
+resume them, which is pretty cool.
+
+485
+00:10:12,649 --> 00:10:14,399
+So I have this enabled high bounce
+
+486
+00:10:14,460 --> 00:10:15,870
+rate auto protection.
+
+487
+00:10:15,879 --> 00:10:16,830
+This is basically saying like,
+
+488
+00:10:16,840 --> 00:10:17,320
+Hey,
+
+489
+00:10:17,370 --> 00:10:19,000
+if our bounce rate goes above 4%,
+
+490
+00:10:19,000 --> 00:10:20,570
+pause this campaign so that you
+
+491
+00:10:20,570 --> 00:10:21,159
+don't, you know,
+
+492
+00:10:21,419 --> 00:10:22,470
+ruin your email account
+
+493
+00:10:22,470 --> 00:10:23,340
+reputation.
+
+494
+00:10:23,340 --> 00:10:25,139
+I like to have this on, uh, email
+
+495
+00:10:25,139 --> 00:10:25,639
+accounts.
+
+496
+00:10:25,690 --> 00:10:26,539
+This is where you can select the
+
+497
+00:10:26,539 --> 00:10:27,600
+email accounts again, just in a
+
+498
+00:10:27,600 --> 00:10:28,139
+different view.
+
+499
+00:10:28,330 --> 00:10:29,289
+If I want to select all of my
+
+500
+00:10:29,289 --> 00:10:30,779
+3,800 accounts, I can do that
+
+501
+00:10:30,919 --> 00:10:31,200
+here.
+
+502
+00:10:31,320 --> 00:10:33,240
+Um, and so that's where you can
+
+503
+00:10:33,460 --> 00:10:34,120
+set that up.
+
+504
+00:10:34,120 --> 00:10:36,159
+Now, last section here, final
+
+505
+00:10:36,340 --> 00:10:38,110
+review in the final review
+
+506
+00:10:38,110 --> 00:10:38,919
+section.
+
+507
+00:10:38,919 --> 00:10:39,960
+This is where you can see
+
+508
+00:10:40,009 --> 00:10:41,000
+what your emails look like.
+
+509
+00:10:41,000 --> 00:10:42,000
+And so this is great.
+
+510
+00:10:42,049 --> 00:10:44,269
+If you want to see what, if like
+
+511
+00:10:44,269 --> 00:10:45,080
+your spin tax is
+
+512
+00:10:45,360 --> 00:10:45,480
+working.
+
+513
+00:10:45,480 --> 00:10:46,480
+So you can see a high, hello,
+
+514
+00:10:46,480 --> 00:10:46,960
+first name.
+
+515
+00:10:46,960 --> 00:10:48,429
+I want to schedule a meeting, book
+
+516
+00:10:48,429 --> 00:10:48,919
+a call.
+
+517
+00:10:48,970 --> 00:10:49,909
+So you can see, and some of these
+
+518
+00:10:49,909 --> 00:10:50,950
+will say, hello, first name.
+
+519
+00:10:50,950 --> 00:10:52,360
+And some of these will say,
+
+520
+00:10:52,659 --> 00:10:55,220
+um, Oh, looks like it, this did
+
+521
+00:10:55,220 --> 00:10:55,950
+not save.
+
+522
+00:10:56,039 --> 00:10:56,750
+Hold on.
+
+523
+00:10:56,759 --> 00:10:58,840
+So in some of these emails, it'll
+
+524
+00:10:58,840 --> 00:10:59,240
+say hi,
+
+525
+00:10:59,450 --> 00:10:59,750
+first name.
+
+526
+00:10:59,750 --> 00:11:01,039
+And some of them, it'll say hello.
+
+527
+00:11:01,110 --> 00:11:01,559
+So hello.
+
+528
+00:11:01,559 --> 00:11:04,990
+Hi, hi, hello.
+
+529
+00:11:05,049 --> 00:11:06,169
+This is for deliverability
+
+530
+00:11:06,500 --> 00:11:06,809
+reasons.
+
+531
+00:11:06,809 --> 00:11:08,450
+And you can see some say schedule
+
+532
+00:11:08,460 --> 00:11:10,059
+a meeting, book a call, book a
+
+533
+00:11:10,059 --> 00:11:11,320
+call, schedule a meeting.
+
+534
+00:11:11,570 --> 00:11:11,720
+Right.
+
+535
+00:11:11,720 --> 00:11:12,870
+So the point of this is to add
+
+536
+00:11:12,870 --> 00:11:14,649
+randomization to make your emails,
+
+537
+00:11:14,649 --> 00:11:16,759
+uh, land in inbox better.
+
+538
+00:11:16,809 --> 00:11:18,419
+I always recommend saying a test
+
+539
+00:11:18,419 --> 00:11:19,679
+email before you run your
+
+540
+00:11:19,799 --> 00:11:20,350
+campaign.
+
+541
+00:11:20,440 --> 00:11:21,309
+So you can see what it looks like
+
+542
+00:11:21,370 --> 00:11:21,799
+in the inbox.
+
+543
+00:11:21,799 --> 00:11:22,720
+And then if you want to see what
+
+544
+00:11:22,720 --> 00:11:24,220
+your email to looks like, this is
+
+545
+00:11:24,220 --> 00:11:25,549
+where, if I had an
+
+546
+00:11:25,840 --> 00:11:26,990
+email to, which I'll add super
+
+547
+00:11:26,990 --> 00:11:28,480
+quick, you'll be able to see what
+
+548
+00:11:28,600 --> 00:11:30,360
+this looks like in your sequences.
+
+549
+00:11:30,409 --> 00:11:31,820
+So before you push it live, always
+
+550
+00:11:31,860 --> 00:11:33,200
+send a test email to make sure it
+
+551
+00:11:33,200 --> 00:11:33,879
+looks good.
+
+552
+00:11:33,879 --> 00:11:34,590
+Always double check
+
+553
+00:11:34,860 --> 00:11:36,299
+your spin tax looks like, or it
+
+554
+00:11:36,299 --> 00:11:38,190
+looks right in the editor, because
+
+555
+00:11:38,279 --> 00:11:39,860
+what you see in the editor is what
+
+556
+00:11:39,929 --> 00:11:41,389
+your recipients will see, and then
+
+557
+00:11:41,389 --> 00:11:42,700
+also send a test email so you can
+
+558
+00:11:42,700 --> 00:11:44,110
+see your email signature to make
+
+559
+00:11:44,169 --> 00:11:45,090
+sure that shows up right.
+
+560
+00:11:45,090 --> 00:11:46,389
+For whatever reason, your email
+
+561
+00:11:46,389 --> 00:11:48,350
+signature does not show up in the
+
+562
+00:11:48,360 --> 00:11:48,759
+final
+
+563
+00:11:49,059 --> 00:11:49,840
+review section.
+
+564
+00:11:49,960 --> 00:11:51,879
+So again, I sped run this super
+
+565
+00:11:51,879 --> 00:11:53,559
+quick to go over like quick start,
+
+566
+00:11:53,559 --> 00:11:53,879
+how to make
+
+567
+00:11:54,120 --> 00:11:55,519
+sure your campaign settings are
+
+568
+00:11:55,519 --> 00:11:56,000
+right.
+
+569
+00:11:56,000 --> 00:11:57,669
+That's basically everything you
+
+570
+00:11:57,710 --> 00:11:59,240
+need to know, how I like to set up
+
+571
+00:11:59,289 --> 00:12:00,320
+my campaigns, how I like to set
+
+572
+00:12:00,440 --> 00:12:01,740
+up, um, everything from there.
+
+573
+00:12:01,879 --> 00:12:02,679
+And then when you're ready to go,
+
+574
+00:12:02,730 --> 00:12:04,090
+you can just launch your email,
+
+575
+00:12:04,090 --> 00:12:04,919
+um, campaign.
+
+576
+00:12:04,919 --> 00:12:06,039
+It says select email accounts
+
+577
+00:12:06,039 --> 00:12:07,000
+because I didn't actually
+
+578
+00:12:07,299 --> 00:12:08,899
+save one, but if I press this
+
+579
+00:12:08,899 --> 00:12:11,240
+account, I press save, you'll see
+
+580
+00:12:11,240 --> 00:12:12,840
+it'll let you just launch the
+
+581
+00:12:12,840 --> 00:12:13,169
+campaign
+
+582
+00:12:13,480 --> 00:12:13,659
+here.
+
+583
+00:12:13,659 --> 00:12:15,399
+So that's a quick start guide, how
+
+584
+00:12:15,399 --> 00:12:16,830
+to set up email campaigns.
+
+585
+00:12:16,899 --> 00:12:18,360
+I went through that super quick,
+
+586
+00:12:18,409 --> 00:12:19,570
+but if you have any questions,
+
+587
+00:12:19,570 --> 00:12:20,860
+reach out to me in Slack, reach
+
+588
+00:12:21,000 --> 00:12:22,279
+out in the outbound channel,
+
+589
+00:12:22,490 --> 00:12:23,820
+and we will help you out.
+
+590
+00:12:24,120 --> 00:12:24,330
+Appreciate you.

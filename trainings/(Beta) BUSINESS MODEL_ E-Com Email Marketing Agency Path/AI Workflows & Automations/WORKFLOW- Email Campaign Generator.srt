@@ -1,0 +1,747 @@
+1
+00:00:00,480 --> 00:00:01,800
+What's up guys, Lucas here, and
+
+2
+00:00:01,800 --> 00:00:02,879
+this one will be showing you
+
+3
+00:00:03,060 --> 00:00:05,169
+our e-com email campaign generator
+
+4
+00:00:05,259 --> 00:00:05,730
+agent.
+
+5
+00:00:06,049 --> 00:00:06,780
+This one is pretty
+
+6
+00:00:06,780 --> 00:00:08,599
+straightforward, but pretty cool.
+
+7
+00:00:08,640 --> 00:00:10,039
+So essentially what this does is
+
+8
+00:00:10,310 --> 00:00:11,039
+like a lot of the others,
+
+9
+00:00:11,080 --> 00:00:12,839
+it's a form submission workflow.
+
+10
+00:00:12,990 --> 00:00:14,740
+So we have a form and on that
+
+11
+00:00:14,800 --> 00:00:16,210
+form, all you have to submit is
+
+12
+00:00:16,460 --> 00:00:17,120
+the brand name,
+
+13
+00:00:17,350 --> 00:00:18,879
+the brand website, industry and
+
+14
+00:00:18,920 --> 00:00:20,280
+niche, choose their existing
+
+15
+00:00:20,280 --> 00:00:20,760
+client.
+
+16
+00:00:20,809 --> 00:00:22,199
+You can add some personalization
+
+17
+00:00:22,469 --> 00:00:22,640
+notes.
+
+18
+00:00:22,890 --> 00:00:24,160
+You also could put some details
+
+19
+00:00:24,440 --> 00:00:25,570
+here about any specific campaigns
+
+20
+00:00:25,679 --> 00:00:26,079
+that you want
+
+21
+00:00:26,250 --> 00:00:28,179
+to create, you know, say civic
+
+22
+00:00:28,179 --> 00:00:29,800
+data or product launch coming up.
+
+23
+00:00:30,210 --> 00:00:32,689
+And then choose from a dropdown,
+
+24
+00:00:32,689 --> 00:00:34,280
+the campaign types you want to
+
+25
+00:00:34,450 --> 00:00:34,679
+make.
+
+26
+00:00:34,719 --> 00:00:36,039
+Uh, there's multiple you can
+
+27
+00:00:36,039 --> 00:00:37,159
+select from on there.
+
+28
+00:00:37,200 --> 00:00:38,880
+Uh, if I scroll down here, you can
+
+29
+00:00:38,880 --> 00:00:40,009
+see a few, as you can see, it's a
+
+30
+00:00:40,119 --> 00:00:40,520
+lot here.
+
+31
+00:00:40,640 --> 00:00:42,039
+So choose the ones that you want.
+
+32
+00:00:42,329 --> 00:00:44,170
+They're a checkbox and then we are
+
+33
+00:00:44,170 --> 00:00:44,969
+good to go.
+
+34
+00:00:45,219 --> 00:00:46,939
+After that, we have our brand
+
+35
+00:00:47,000 --> 00:00:49,600
+research agent, um, that goes and
+
+36
+00:00:49,600 --> 00:00:50,200
+researches
+
+37
+00:00:50,429 --> 00:00:51,490
+everything about the brand reason
+
+38
+00:00:51,490 --> 00:00:52,079
+perplexity.
+
+39
+00:00:52,170 --> 00:00:53,039
+Make sure you got perplexity set
+
+40
+00:00:53,039 --> 00:00:53,270
+up.
+
+41
+00:00:53,429 --> 00:00:54,439
+Make sure you get open writer set
+
+42
+00:00:54,520 --> 00:00:56,119
+up, make sure you got Google drive
+
+43
+00:00:56,119 --> 00:00:56,520
+set up.
+
+44
+00:00:56,560 --> 00:00:57,799
+I make sure you got slack set up.
+
+45
+00:00:57,850 --> 00:00:58,479
+Those are all the ones we're
+
+46
+00:00:58,530 --> 00:00:58,799
+using.
+
+47
+00:00:59,369 --> 00:01:01,460
+Uh, then we have a campaign idea
+
+48
+00:01:01,460 --> 00:01:02,119
+agent.
+
+49
+00:01:02,270 --> 00:01:03,560
+And this actually creates the
+
+50
+00:01:03,829 --> 00:01:05,439
+ideas for your campaigns.
+
+51
+00:01:05,480 --> 00:01:07,180
+So, uh, it takes the information
+
+52
+00:01:07,180 --> 00:01:08,670
+you put into it, uh, next to
+
+53
+00:01:08,670 --> 00:01:09,959
+research and then create some
+
+54
+00:01:10,170 --> 00:01:11,409
+really, really nice campaigns.
+
+55
+00:01:11,730 --> 00:01:13,000
+And then we write five of them
+
+56
+00:01:13,269 --> 00:01:14,930
+that we actually have a different,
+
+57
+00:01:15,170 --> 00:01:16,599
+uh, AI agent writing each
+
+58
+00:01:16,640 --> 00:01:17,599
+of the campaigns to make sure
+
+59
+00:01:17,599 --> 00:01:18,859
+they're as detailed as possible.
+
+60
+00:01:19,700 --> 00:01:21,400
+And then at the end, we aggregate
+
+61
+00:01:21,480 --> 00:01:23,560
+all this information together.
+
+62
+00:01:23,790 --> 00:01:25,819
+Google docs, send your Google, uh,
+
+63
+00:01:25,939 --> 00:01:27,840
+docs OAuth to set up for MD2 docs
+
+64
+00:01:28,010 --> 00:01:29,260
+creates a nice Google
+
+65
+00:01:29,530 --> 00:01:30,120
+document for us.
+
+66
+00:01:30,170 --> 00:01:31,500
+And then as usual, we run through
+
+67
+00:01:31,510 --> 00:01:32,840
+the, are they using client?
+
+68
+00:01:33,049 --> 00:01:33,200
+Yes.
+
+69
+00:01:33,489 --> 00:01:34,469
+Then searches for the existing
+
+70
+00:01:34,549 --> 00:01:36,680
+folder, moves the folder and sends
+
+71
+00:01:36,939 --> 00:01:38,640
+you a slack notification.
+
+72
+00:01:39,650 --> 00:01:40,989
+Now the campaigns themselves or
+
+73
+00:01:40,989 --> 00:01:42,450
+the document actually looks like
+
+74
+00:01:42,450 --> 00:01:43,560
+it gives you the subject
+
+75
+00:01:43,739 --> 00:01:44,989
+line, the preview text, the
+
+76
+00:01:44,989 --> 00:01:46,760
+headline, the body copy, uh, goes
+
+77
+00:01:46,760 --> 00:01:48,439
+into full detail on the campaign.
+
+78
+00:01:48,480 --> 00:01:49,760
+It gives you the CTA, uh, goes
+
+79
+00:01:49,760 --> 00:01:51,040
+through the whole thing.
+
+80
+00:01:51,090 --> 00:01:53,219
+So it is super in-depth it, uh,
+
+81
+00:01:53,219 --> 00:01:55,180
+does a very, very good job of
+
+82
+00:01:55,180 --> 00:01:57,480
+writing, uh, the full campaigns
+
+83
+00:01:57,689 --> 00:01:58,879
+seven pages worth of campaigns in
+
+84
+00:01:58,879 --> 00:01:59,280
+here.
+
+85
+00:01:59,489 --> 00:02:02,030
+And, uh, it is, uh, everything you
+
+86
+00:02:02,030 --> 00:02:04,519
+need to automatically create new
+
+87
+00:02:04,519 --> 00:02:05,069
+campaigns for your
+
+88
+00:02:05,439 --> 00:02:07,450
+clients on autopilot, uh, super
+
+89
+00:02:07,459 --> 00:02:09,819
+easy to, to, to run again, all you
+
+90
+00:02:09,819 --> 00:02:11,520
+need is that input form.
+
+91
+00:02:11,560 --> 00:02:12,680
+Uh, make sure you've got your
+
+92
+00:02:12,750 --> 00:02:13,909
+perplexity API key in there and
+
+93
+00:02:13,909 --> 00:02:14,800
+make sure you get your open
+
+94
+00:02:15,030 --> 00:02:16,879
+writers set up and make sure that
+
+95
+00:02:16,879 --> 00:02:18,800
+you have your Google drive and
+
+96
+00:02:18,800 --> 00:02:20,590
+your Google docs or MD2 doc set
+
+97
+00:02:20,669 --> 00:02:20,879
+up.
+
+98
+00:02:21,439 --> 00:02:22,370
+Uh, again, all this is doing is
+
+99
+00:02:22,400 --> 00:02:23,689
+taking the information,
+
+100
+00:02:23,689 --> 00:02:25,280
+researching the brand, uh,
+
+101
+00:02:25,509 --> 00:02:27,150
+creating campaign ideas, sending
+
+102
+00:02:27,150 --> 00:02:28,580
+those ideas to our campaign
+
+103
+00:02:28,580 --> 00:02:29,199
+writer.
+
+104
+00:02:29,370 --> 00:02:30,469
+This code node just spits out the
+
+105
+00:02:30,469 --> 00:02:31,680
+different campaign ideas.
+
+106
+00:02:31,849 --> 00:02:32,840
+And then we take all the
+
+107
+00:02:32,909 --> 00:02:34,909
+information, put it all together,
+
+108
+00:02:34,909 --> 00:02:36,560
+prepare the document data,
+
+109
+00:02:36,789 --> 00:02:38,810
+create the document to MD2 docs,
+
+110
+00:02:38,810 --> 00:02:40,250
+and then send you a slack
+
+111
+00:02:40,319 --> 00:02:41,520
+notification.
+
+112
+00:02:41,669 --> 00:02:42,860
+Just saying, Hey, new campaigns
+
+113
+00:02:42,860 --> 00:02:43,360
+created.
+
+114
+00:02:43,400 --> 00:02:44,039
+We're all done.
+
+115
+00:02:44,129 --> 00:02:46,560
+Uh, you know, uh, the client, the
+
+116
+00:02:46,560 --> 00:02:48,800
+status document, each campaign
+
+117
+00:02:48,800 --> 00:02:50,319
+strategy created the
+
+118
+00:02:50,530 --> 00:02:51,120
+campaign focus.
+
+119
+00:02:51,300 --> 00:02:53,680
+Um, and then the strategy
+
+120
+00:02:53,680 --> 00:02:54,879
+highlights.
+
+121
+00:02:54,930 --> 00:02:56,319
+Now in the ages themselves, these
+
+122
+00:02:56,590 --> 00:02:57,939
+are actually built very, very
+
+123
+00:02:57,939 --> 00:02:59,039
+heavily on max.
+
+124
+00:02:59,219 --> 00:03:03,039
+Um, uh, campaign, uh, methodology.
+
+125
+00:03:03,080 --> 00:03:04,370
+Uh, you can see here actually in
+
+126
+00:03:04,370 --> 00:03:05,599
+the, in this one, up here we go.
+
+127
+00:03:05,639 --> 00:03:06,939
+Uh, we're actually saying create
+
+128
+00:03:06,939 --> 00:03:08,240
+five high converting emails.
+
+129
+00:03:08,449 --> 00:03:10,270
+Using max has proven, uh, 40
+
+130
+00:03:10,270 --> 00:03:11,599
+million methodology.
+
+131
+00:03:11,930 --> 00:03:14,360
+Um, and then, uh, same for our
+
+132
+00:03:14,360 --> 00:03:15,680
+system message.
+
+133
+00:03:15,719 --> 00:03:17,120
+Uh, we sell it the micro topic
+
+134
+00:03:17,400 --> 00:03:19,039
+mastery education positioning.
+
+135
+00:03:19,159 --> 00:03:20,099
+We go through all the different
+
+136
+00:03:20,099 --> 00:03:21,120
+things it's got to include.
+
+137
+00:03:21,169 --> 00:03:23,580
+So, uh, this goes super in depth,
+
+138
+00:03:23,580 --> 00:03:24,810
+uh, make sure that, you know,
+
+139
+00:03:24,879 --> 00:03:25,759
+everything that is being,
+
+140
+00:03:25,810 --> 00:03:28,319
+um, out, uh, output by max here
+
+141
+00:03:28,319 --> 00:03:29,919
+is, uh, everything's output is
+
+142
+00:03:29,919 --> 00:03:30,960
+based on max's training.
+
+143
+00:03:31,129 --> 00:03:32,949
+And, uh, you know, guarantees that
+
+144
+00:03:32,949 --> 00:03:34,750
+you are getting really, really
+
+145
+00:03:34,750 --> 00:03:35,680
+solid campaigns.
+
+146
+00:03:35,719 --> 00:03:37,069
+Uh, I use an existing brand that I
+
+147
+00:03:37,069 --> 00:03:38,080
+knew about for this.
+
+148
+00:03:38,120 --> 00:03:39,349
+So we were able to get actual real
+
+149
+00:03:39,349 --> 00:03:40,639
+information or real brand.
+
+150
+00:03:40,680 --> 00:03:41,960
+Um, obviously put in the brand
+
+151
+00:03:41,960 --> 00:03:43,120
+that you're working with.
+
+152
+00:03:43,159 --> 00:03:44,409
+If you give it the, the, the brand
+
+153
+00:03:44,409 --> 00:03:45,919
+website, it helps a lot.
+
+154
+00:03:46,099 --> 00:03:47,250
+And, uh, again, any
+
+155
+00:03:47,250 --> 00:03:48,930
+personalization notes, you just
+
+156
+00:03:48,930 --> 00:03:50,199
+put it in the presentation, those
+
+157
+00:03:50,370 --> 00:03:50,960
+box.
+
+158
+00:03:51,009 --> 00:03:52,400
+And, uh, you'll get some kind of
+
+159
+00:03:52,669 --> 00:03:53,810
+extra context and it'd be, you
+
+160
+00:03:53,909 --> 00:03:54,000
+know,
+
+161
+00:03:54,150 --> 00:03:55,000
+kind of tailored a bit more to
+
+162
+00:03:55,000 --> 00:03:56,229
+whatever kind of information that
+
+163
+00:03:56,229 --> 00:03:56,800
+you give it.
+
+164
+00:03:56,849 --> 00:03:58,240
+So that's how this works.
+
+165
+00:03:58,520 --> 00:03:59,639
+Uh, super straightforward.
+
+166
+00:03:59,889 --> 00:04:01,500
+Again, all you need to do is get
+
+167
+00:04:01,500 --> 00:04:04,800
+the, uh, production URL here and
+
+168
+00:04:04,800 --> 00:04:06,800
+then set your flow live.
+
+169
+00:04:07,009 --> 00:04:09,199
+And you will be good to go.
+
+170
+00:04:09,349 --> 00:04:10,490
+All you gotta do is input the
+
+171
+00:04:10,490 --> 00:04:11,900
+information form and you're
+
+172
+00:04:11,900 --> 00:04:12,479
+flying.
+
+173
+00:04:12,520 --> 00:04:13,639
+So this is great for, you've got
+
+174
+00:04:13,719 --> 00:04:14,740
+a, if you're running an e-commerce
+
+175
+00:04:14,860 --> 00:04:14,879
+agency,
+
+176
+00:04:14,919 --> 00:04:15,840
+you've got some campaign managers
+
+177
+00:04:15,840 --> 00:04:17,120
+that we were doing, you know, uh,
+
+178
+00:04:17,120 --> 00:04:17,839
+more in detail things,
+
+179
+00:04:18,050 --> 00:04:19,120
+handling clients, stuff like that.
+
+180
+00:04:19,160 --> 00:04:20,170
+Now they can actually just write
+
+181
+00:04:20,189 --> 00:04:21,600
+campaigns pretty much on autopilot
+
+182
+00:04:21,600 --> 00:04:22,160
+as well.
+
+183
+00:04:22,329 --> 00:04:23,439
+And you're good to go.
+
+184
+00:04:23,480 --> 00:04:24,560
+So I'll be helpful.
+
+185
+00:04:24,610 --> 00:04:25,720
+And I will see you in the next
+
+186
+00:04:25,790 --> 00:04:26,009
+one.
+
+187
+00:04:26,670 --> 00:04:26,800
+Peace.

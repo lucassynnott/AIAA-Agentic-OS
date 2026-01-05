@@ -1,0 +1,5447 @@
+1
+00:00:00,360 --> 00:00:01,030
+Welcome guys.
+
+2
+00:00:01,129 --> 00:00:02,930
+So in this video, I'm actually
+
+3
+00:00:03,129 --> 00:00:05,009
+going to show you how to manage a
+
+4
+00:00:05,009 --> 00:00:06,379
+customer
+
+5
+00:00:06,419 --> 00:00:08,028
+success manager or client success
+
+6
+00:00:08,028 --> 00:00:09,439
+manager, CSM essentially,
+
+7
+00:00:09,439 --> 00:00:10,300
+effectively.
+
+8
+00:00:10,300 --> 00:00:11,160
+So this is going
+
+9
+00:00:11,199 --> 00:00:13,449
+to be my guide of how like you as
+
+10
+00:00:13,449 --> 00:00:15,570
+a founder can do this in your
+
+11
+00:00:15,570 --> 00:00:16,079
+time.
+
+12
+00:00:16,079 --> 00:00:17,519
+And I'll cover a
+
+13
+00:00:17,559 --> 00:00:19,129
+later video later down the line of
+
+14
+00:00:19,129 --> 00:00:20,690
+like how to actually like remove
+
+15
+00:00:20,690 --> 00:00:21,980
+yourself from the management
+
+16
+00:00:22,019 --> 00:00:23,329
+kind of situation there, what that
+
+17
+00:00:23,449 --> 00:00:24,589
+handover actually looks like.
+
+18
+00:00:24,739 --> 00:00:25,500
+But this is how you the
+
+19
+00:00:25,539 --> 00:00:27,149
+founder is actually going to
+
+20
+00:00:27,149 --> 00:00:28,859
+manage your customer success
+
+21
+00:00:28,859 --> 00:00:30,359
+managers or just customer
+
+22
+00:00:30,399 --> 00:00:32,060
+success manager in general, if you
+
+23
+00:00:32,060 --> 00:00:32,969
+only have the one.
+
+24
+00:00:33,170 --> 00:00:36,799
+So the management reality check,
+
+25
+00:00:36,810 --> 00:00:36,929
+why
+
+26
+00:00:36,979 --> 00:00:38,640
+CSM leadership matters.
+
+27
+00:00:38,969 --> 00:00:40,399
+Like the data paints a clear
+
+28
+00:00:40,399 --> 00:00:41,149
+picture.
+
+29
+00:00:41,149 --> 00:00:43,000
+CSM teams without systematic
+
+30
+00:00:43,049 --> 00:00:44,710
+management frameworks, they just
+
+31
+00:00:45,060 --> 00:00:47,009
+achieve like 30% lower retention
+
+32
+00:00:47,009 --> 00:00:48,799
+rates and 47% higher turnover
+
+33
+00:00:48,840 --> 00:00:50,359
+compared to teams with structured
+
+34
+00:00:50,359 --> 00:00:51,009
+oversight.
+
+35
+00:00:51,009 --> 00:00:52,570
+So in other words, you're going to
+
+36
+00:00:52,570 --> 00:00:53,280
+have, you're
+
+37
+00:00:53,320 --> 00:00:55,570
+you're looking at 50% churn and
+
+38
+00:00:55,570 --> 00:00:57,640
+you're like, you know, you're
+
+39
+00:00:57,640 --> 00:00:59,600
+probably going to on average,
+
+40
+00:00:59,640 --> 00:01:00,700
+if you're converting and retaining
+
+41
+00:01:01,070 --> 00:01:02,570
+50% of your clients, you're only
+
+42
+00:01:02,570 --> 00:01:04,310
+going to retain about 20%
+
+43
+00:01:04,359 --> 00:01:04,900
+of them.
+
+44
+00:01:04,939 --> 00:01:06,510
+And so it's, it's really not a
+
+45
+00:01:06,510 --> 00:01:07,219
+good look.
+
+46
+00:01:07,219 --> 00:01:09,239
+It's really much, much lower kind
+
+47
+00:01:09,680 --> 00:01:10,099
+of insights
+
+48
+00:01:10,140 --> 00:01:10,609
+there.
+
+49
+00:01:10,719 --> 00:01:12,310
+So again, you really do need to
+
+50
+00:01:12,310 --> 00:01:13,799
+keep an eye on your CSMs.
+
+51
+00:01:13,799 --> 00:01:17,819
+And again, they are pretty
+
+52
+00:01:17,859 --> 00:01:19,500
+much the brand there who your
+
+53
+00:01:19,500 --> 00:01:21,030
+clients are talking to on a
+
+54
+00:01:21,079 --> 00:01:22,379
+day-to-day basis.
+
+55
+00:01:22,379 --> 00:01:23,760
+If you're not keeping track
+
+56
+00:01:23,859 --> 00:01:26,159
+of this and you let them kind of
+
+57
+00:01:26,180 --> 00:01:28,739
+run wild and there's no management
+
+58
+00:01:29,269 --> 00:01:31,180
+there, they can easily get
+
+59
+00:01:31,219 --> 00:01:31,879
+complacent.
+
+60
+00:01:31,879 --> 00:01:32,780
+They can get lazy.
+
+61
+00:01:32,780 --> 00:01:34,239
+They're not going to be proactive
+
+62
+00:01:34,299 --> 00:01:35,739
+and they're probably not even
+
+63
+00:01:35,739 --> 00:01:35,980
+going to
+
+64
+00:01:36,019 --> 00:01:36,680
+put that much effort into your
+
+65
+00:01:36,790 --> 00:01:37,079
+clients.
+
+66
+00:01:37,079 --> 00:01:38,010
+And therefore your clients aren't
+
+67
+00:01:38,040 --> 00:01:38,939
+going to put that much effort
+
+68
+00:01:38,980 --> 00:01:39,760
+into your service and your
+
+69
+00:01:39,760 --> 00:01:40,140
+product.
+
+70
+00:01:40,359 --> 00:01:42,849
+So the unique challenge of CSM
+
+71
+00:01:42,849 --> 00:01:44,980
+management is just fundamentally
+
+72
+00:01:45,019 --> 00:01:46,590
+different approaches to most other
+
+73
+00:01:46,590 --> 00:01:47,019
+roles.
+
+74
+00:01:47,040 --> 00:01:48,290
+CSMs are the critical bridge
+
+75
+00:01:48,290 --> 00:01:49,519
+between your company and your
+
+76
+00:01:49,560 --> 00:01:50,129
+clients.
+
+77
+00:01:50,140 --> 00:01:51,709
+And so client trust and loyalty
+
+78
+00:01:51,709 --> 00:01:53,049
+and revenue retention and
+
+79
+00:01:53,049 --> 00:01:53,760
+expansion.
+
+80
+00:01:53,790 --> 00:01:55,000
+So, and then your brand
+
+81
+00:01:55,049 --> 00:01:55,819
+reputation.
+
+82
+00:01:55,819 --> 00:01:57,310
+So most successful CSM teams
+
+83
+00:01:57,310 --> 00:01:59,010
+operate on predictable rhythms
+
+84
+00:01:59,010 --> 00:01:59,920
+with continuous quality
+
+85
+00:02:00,459 --> 00:02:00,840
+monitoring,
+
+86
+00:02:00,879 --> 00:02:02,890
+not reactive management based off
+
+87
+00:02:02,900 --> 00:02:03,670
+problems.
+
+88
+00:02:03,670 --> 00:02:05,290
+So you want to be constantly
+
+89
+00:02:05,290 --> 00:02:06,760
+keeping an eye on things and
+
+90
+00:02:06,799 --> 00:02:08,469
+having a routine and having like
+
+91
+00:02:08,629 --> 00:02:10,490
+an actual system in your calendar
+
+92
+00:02:10,490 --> 00:02:13,120
+and in place, not just clients
+
+93
+00:02:13,199 --> 00:02:14,139
+pissed off.
+
+94
+00:02:14,180 --> 00:02:15,110
+Now I need to react.
+
+95
+00:02:15,219 --> 00:02:16,580
+Now I need to look and investigate
+
+96
+00:02:16,580 --> 00:02:18,080
+and audit and ask the client and
+
+97
+00:02:18,180 --> 00:02:19,099
+then ask the CSM
+
+98
+00:02:19,180 --> 00:02:20,680
+and then look at a call recording
+
+99
+00:02:20,680 --> 00:02:22,199
+and look back on Slack or like,
+
+100
+00:02:22,259 --> 00:02:23,560
+you know, like, let me show me
+
+101
+00:02:23,560 --> 00:02:24,050
+these emails
+
+102
+00:02:24,120 --> 00:02:25,180
+and going through this entire
+
+103
+00:02:25,539 --> 00:02:27,500
+investigation to uncover what the
+
+104
+00:02:27,500 --> 00:02:29,000
+actual problem is.
+
+105
+00:02:29,479 --> 00:02:30,430
+Because sometimes clients are just
+
+106
+00:02:30,539 --> 00:02:31,830
+being really, really difficult.
+
+107
+00:02:31,909 --> 00:02:32,949
+In some cases, CSMs are just not
+
+108
+00:02:32,949 --> 00:02:34,060
+doing their fucking job.
+
+109
+00:02:34,060 --> 00:02:35,340
+And so it's like
+
+110
+00:02:35,379 --> 00:02:36,849
+you're going to spend so many
+
+111
+00:02:36,849 --> 00:02:38,599
+hours wasted on just figuring out
+
+112
+00:02:38,629 --> 00:02:39,900
+what the problem is.
+
+113
+00:02:39,900 --> 00:02:41,360
+And no matter what,
+
+114
+00:02:41,400 --> 00:02:42,710
+you're going to be disappointed by
+
+115
+00:02:42,830 --> 00:02:43,360
+the answer.
+
+116
+00:02:43,419 --> 00:02:44,870
+So it's just really a head-racking
+
+117
+00:02:44,870 --> 00:02:45,780
+process for you
+
+118
+00:02:45,819 --> 00:02:46,340
+specifically.
+
+119
+00:02:46,400 --> 00:02:49,550
+So CSM management fails
+
+120
+00:02:49,620 --> 00:02:51,099
+consequences, extended more than
+
+121
+00:02:51,229 --> 00:02:52,349
+team dynamics and poor management
+
+122
+00:02:52,419 --> 00:02:53,990
+creates a ripple effect that like
+
+123
+00:02:53,990 --> 00:02:54,990
+undermines and client
+
+124
+00:02:55,189 --> 00:02:57,300
+relationships, damages trust, and
+
+125
+00:02:57,699 --> 00:02:57,699
+ultimately
+
+126
+00:02:57,740 --> 00:02:58,340
+it always leads to churn.
+
+127
+00:02:58,340 --> 00:02:59,969
+So structured teams have
+
+128
+00:02:59,969 --> 00:03:02,389
+consistent client communication,
+
+129
+00:03:02,389 --> 00:03:03,580
+proactive issue
+
+130
+00:03:03,629 --> 00:03:05,289
+identification, higher client
+
+131
+00:03:05,639 --> 00:03:07,520
+satisfaction scores, and lower
+
+132
+00:03:07,520 --> 00:03:09,520
+turnover rates, whether that's
+
+133
+00:03:09,599 --> 00:03:10,439
+team and lower
+
+134
+00:03:10,500 --> 00:03:11,439
+churn rates.
+
+135
+00:03:11,479 --> 00:03:13,419
+Unstructured teams are reactive
+
+136
+00:03:13,419 --> 00:03:14,750
+client management.
+
+137
+00:03:14,750 --> 00:03:16,520
+You only react to problems and
+
+138
+00:03:16,520 --> 00:03:16,719
+your
+
+139
+00:03:16,770 --> 00:03:18,919
+firefighting approaches to issues.
+
+140
+00:03:18,919 --> 00:03:20,949
+You've lowered client satisfaction
+
+141
+00:03:20,990 --> 00:03:21,620
+scores.
+
+142
+00:03:21,620 --> 00:03:22,949
+Your team's going to burn
+
+143
+00:03:23,000 --> 00:03:23,159
+out.
+
+144
+00:03:23,159 --> 00:03:23,949
+Your clients are going to get
+
+145
+00:03:23,979 --> 00:03:24,659
+pissed off as well.
+
+146
+00:03:24,659 --> 00:03:28,479
+So weekly management rhythm.
+
+147
+00:03:28,479 --> 00:03:30,289
+This is my personal
+
+148
+00:03:30,340 --> 00:03:32,009
+rhythm that I have with the team
+
+149
+00:03:32,319 --> 00:03:34,000
+that I run in Client Ascension.
+
+150
+00:03:34,000 --> 00:03:37,419
+So on Mondays, I like to run a
+
+151
+00:03:37,419 --> 00:03:38,020
+power hour
+
+152
+00:03:38,060 --> 00:03:39,719
+first thing on Monday morning with
+
+153
+00:03:39,889 --> 00:03:40,360
+my team.
+
+154
+00:03:40,360 --> 00:03:43,550
+That is there to focus on specific
+
+155
+00:03:43,740 --> 00:03:45,379
+tasks that we want to
+
+156
+00:03:45,419 --> 00:03:45,860
+cover.
+
+157
+00:03:46,000 --> 00:03:47,430
+Like that is important to us.
+
+158
+00:03:47,439 --> 00:03:48,870
+And I'll go into those in a lot
+
+159
+00:03:48,870 --> 00:03:50,620
+more deeper detail, but just to
+
+160
+00:03:50,740 --> 00:03:50,740
+give
+
+161
+00:03:50,780 --> 00:03:52,360
+you a quick understanding, it
+
+162
+00:03:52,360 --> 00:03:54,259
+could be churn reactivation, trust
+
+163
+00:03:54,259 --> 00:03:56,120
+pilot collection, check-ins,
+
+164
+00:03:56,159 --> 00:03:57,409
+health score sheets.
+
+165
+00:03:57,539 --> 00:03:59,180
+It could be something that we need
+
+166
+00:03:59,240 --> 00:04:01,030
+to, like anything that we need to
+
+167
+00:04:01,180 --> 00:04:01,659
+do as a team,
+
+168
+00:04:01,759 --> 00:04:03,219
+that's part of the work that we
+
+169
+00:04:03,219 --> 00:04:04,330
+actually have to do.
+
+170
+00:04:04,500 --> 00:04:06,430
+I just put it into an hour for us
+
+171
+00:04:06,490 --> 00:04:07,979
+to sit down and silence for the
+
+172
+00:04:07,979 --> 00:04:07,979
+first
+
+173
+00:04:08,020 --> 00:04:09,590
+hour of the day and just get
+
+174
+00:04:09,590 --> 00:04:10,919
+something that's a really high
+
+175
+00:04:10,919 --> 00:04:12,840
+leverage task for us out of the
+
+176
+00:04:12,840 --> 00:04:13,919
+way, first and
+
+177
+00:04:14,000 --> 00:04:14,439
+foremost.
+
+178
+00:04:14,580 --> 00:04:17,459
+So all CSMs and anyone that is in
+
+179
+00:04:17,459 --> 00:04:19,189
+the management position, that's
+
+180
+00:04:19,410 --> 00:04:19,720
+key.
+
+181
+00:04:19,720 --> 00:04:21,389
+They need to have the
+
+182
+00:04:21,509 --> 00:04:23,170
+accountability of the senior there
+
+183
+00:04:23,300 --> 00:04:24,519
+on the call so that people are
+
+184
+00:04:24,579 --> 00:04:26,379
+actually getting something done.
+
+185
+00:04:26,910 --> 00:04:28,500
+Otherwise, they will sit on a call
+
+186
+00:04:28,509 --> 00:04:29,439
+and fuck around for an hour.
+
+187
+00:04:29,480 --> 00:04:31,149
+an hour.
+
+188
+00:04:31,500 --> 00:04:32,879
+Not all, but most cases they will,
+
+189
+00:04:32,879 --> 00:04:35,550
+especially as like time goes on
+
+190
+00:04:35,550 --> 00:04:37,259
+and no one's checking that call.
+
+191
+00:04:37,310 --> 00:04:39,519
+Tuesday is the one-to-one that is
+
+192
+00:04:39,519 --> 00:04:41,699
+there where you, the founder or
+
+193
+00:04:41,699 --> 00:04:43,540
+the manager of the client success
+
+194
+00:04:43,540 --> 00:04:45,430
+team will have an individual
+
+195
+00:04:45,490 --> 00:04:46,089
+performance
+
+196
+00:04:46,149 --> 00:04:48,269
+development conversation with the
+
+197
+00:04:48,269 --> 00:04:48,709
+CSM.
+
+198
+00:04:48,910 --> 00:04:50,800
+They're typically 30 minutes.
+
+199
+00:04:50,800 --> 00:04:53,100
+I would use it as an hour for
+
+200
+00:04:53,110 --> 00:04:54,839
+anyone that's a new hire so that
+
+201
+00:04:54,839 --> 00:04:55,480
+you can kind of
+
+202
+00:04:55,620 --> 00:04:56,759
+have like a bit of more of a
+
+203
+00:04:57,050 --> 00:04:58,600
+training session with that person,
+
+204
+00:04:58,600 --> 00:05:00,399
+but typically they're only 30
+
+205
+00:05:00,399 --> 00:05:01,079
+minutes long.
+
+206
+00:05:01,079 --> 00:05:02,620
+That's going to be the manager of
+
+207
+00:05:02,689 --> 00:05:04,000
+the founder and the individual
+
+208
+00:05:04,040 --> 00:05:07,000
+CSM, not a team, just the one CSM.
+
+209
+00:05:07,040 --> 00:05:09,319
+Then you have Wednesday.
+
+210
+00:05:09,319 --> 00:05:10,720
+I like to do a team training.
+
+211
+00:05:10,720 --> 00:05:12,160
+Again, I like to run this at 9
+
+212
+00:05:12,160 --> 00:05:12,529
+a.m.
+
+213
+00:05:12,680 --> 00:05:13,129
+in the morning.
+
+214
+00:05:13,209 --> 00:05:15,360
+This sometimes is a duration of 60
+
+215
+00:05:15,410 --> 00:05:16,199
+to 90 minutes.
+
+216
+00:05:16,240 --> 00:05:17,779
+This is for skills development and
+
+217
+00:05:17,779 --> 00:05:18,810
+knowledge expansion.
+
+218
+00:05:19,009 --> 00:05:21,120
+CSMs always have to stay ahead of
+
+219
+00:05:21,279 --> 00:05:22,300
+the curve.
+
+220
+00:05:22,300 --> 00:05:23,939
+They always have to learn new
+
+221
+00:05:23,939 --> 00:05:24,620
+things and
+
+222
+00:05:24,660 --> 00:05:26,069
+new insights, whether you have a
+
+223
+00:05:26,100 --> 00:05:27,509
+new service, new offering, new
+
+224
+00:05:27,509 --> 00:05:28,220
+packaging.
+
+225
+00:05:28,220 --> 00:05:29,540
+It doesn't matter.
+
+226
+00:05:29,800 --> 00:05:31,459
+As long as your business is
+
+227
+00:05:31,459 --> 00:05:32,899
+evolving, they have something to
+
+228
+00:05:32,899 --> 00:05:34,209
+learn and understand about.
+
+229
+00:05:34,639 --> 00:05:36,310
+So you can leave them to learn
+
+230
+00:05:36,660 --> 00:05:38,310
+this on their own sometimes and
+
+231
+00:05:38,310 --> 00:05:40,129
+they can sometimes like they'll
+
+232
+00:05:40,319 --> 00:05:41,019
+forget.
+
+233
+00:05:41,050 --> 00:05:42,519
+It's not their fault because they
+
+234
+00:05:42,519 --> 00:05:43,019
+have calls and they're not
+
+235
+00:05:43,060 --> 00:05:44,079
+dealing with clients and they're
+
+236
+00:05:44,079 --> 00:05:45,019
+putting out fires and they're
+
+237
+00:05:45,079 --> 00:05:46,160
+helping strategic problems.
+
+238
+00:05:46,160 --> 00:05:47,939
+So it's helpful just to actually
+
+239
+00:05:48,470 --> 00:05:49,819
+set some time during the week.
+
+240
+00:05:49,860 --> 00:05:52,019
+So at least one hour a week, they
+
+241
+00:05:52,019 --> 00:05:53,439
+are taking the time to learn and
+
+242
+00:05:53,439 --> 00:05:54,740
+develop and they should be doing
+
+243
+00:05:55,240 --> 00:05:57,810
+this as a team so that everyone's
+
+244
+00:05:57,810 --> 00:05:59,189
+learning together and everyone's
+
+245
+00:05:59,220 --> 00:06:00,430
+asking questions and there's
+
+246
+00:06:00,540 --> 00:06:02,069
+alignment there across the board.
+
+247
+00:06:03,319 --> 00:06:04,870
+Then finally, Friday, the
+
+248
+00:06:04,870 --> 00:06:06,339
+leadership alignment.
+
+249
+00:06:06,339 --> 00:06:08,199
+That is your weekly SSE team call.
+
+250
+00:06:08,629 --> 00:06:09,540
+That is going to be founder,
+
+251
+00:06:09,540 --> 00:06:11,759
+leadership, CSM managers and the
+
+252
+00:06:11,759 --> 00:06:12,300
+CSMs.
+
+253
+00:06:12,339 --> 00:06:14,459
+Founders, most importantly, if you
+
+254
+00:06:14,459 --> 00:06:16,350
+are the founder of the company and
+
+255
+00:06:16,350 --> 00:06:17,839
+you have like a head of client
+
+256
+00:06:17,990 --> 00:06:20,470
+success, you should still be on
+
+257
+00:06:20,529 --> 00:06:22,149
+that call because that is the call
+
+258
+00:06:22,209 --> 00:06:23,459
+where you are going to give the
+
+259
+00:06:23,459 --> 00:06:25,639
+CSM team company updates.
+
+260
+00:06:25,680 --> 00:06:27,240
+What's happening with the company?
+
+261
+00:06:27,240 --> 00:06:28,079
+What are we doing?
+
+262
+00:06:28,089 --> 00:06:29,189
+How are we progressing?
+
+263
+00:06:29,189 --> 00:06:30,279
+What are we working on?
+
+264
+00:06:30,279 --> 00:06:31,139
+What's coming up?
+
+265
+00:06:31,139 --> 00:06:33,069
+What are we transitioning in and
+
+266
+00:06:33,139 --> 00:06:33,259
+out of?
+
+267
+00:06:33,319 --> 00:06:34,949
+What are we transitioning into?
+
+268
+00:06:34,949 --> 00:06:36,740
+What are we transitioning out to?
+
+269
+00:06:36,740 --> 00:06:38,199
+It's important.
+
+270
+00:06:38,730 --> 00:06:41,180
+And that founder presence there
+
+271
+00:06:41,180 --> 00:06:43,129
+holds a layer of higher
+
+272
+00:06:43,189 --> 00:06:43,670
+accountability.
+
+273
+00:06:44,420 --> 00:06:46,089
+You'll have people fucking around
+
+274
+00:06:46,389 --> 00:06:47,300
+less on your calls.
+
+275
+00:06:47,300 --> 00:06:48,839
+You know, you'll have people being
+
+276
+00:06:48,839 --> 00:06:50,300
+very serious and taking them very
+
+277
+00:06:50,300 --> 00:06:51,060
+diligently.
+
+278
+00:06:51,100 --> 00:06:54,850
+So that is there to also summarize
+
+279
+00:06:54,889 --> 00:06:56,509
+what's new in the company, what
+
+280
+00:06:56,509 --> 00:06:58,269
+we're working on, what updates we
+
+281
+00:06:58,269 --> 00:06:59,209
+have to cover.
+
+282
+00:06:59,519 --> 00:07:01,149
+And then you can kind of just do a
+
+283
+00:07:01,149 --> 00:07:02,500
+round robin in the room of
+
+284
+00:07:02,500 --> 00:07:04,379
+individual people of like, how is
+
+285
+00:07:04,379 --> 00:07:05,170
+your week?
+
+286
+00:07:05,199 --> 00:07:06,519
+What wins did you collect?
+
+287
+00:07:06,579 --> 00:07:07,610
+What like any case studies
+
+288
+00:07:08,009 --> 00:07:08,839
+collected, any referrals
+
+289
+00:07:08,839 --> 00:07:10,129
+collected, any trust pilots
+
+290
+00:07:10,129 --> 00:07:10,839
+collected?
+
+291
+00:07:11,120 --> 00:07:13,019
+Like what's, you know, what's
+
+292
+00:07:13,139 --> 00:07:14,819
+working for your clients?
+
+293
+00:07:14,819 --> 00:07:15,720
+What's not working for your
+
+294
+00:07:15,720 --> 00:07:16,000
+clients?
+
+295
+00:07:16,180 --> 00:07:17,560
+And then we can all have an open
+
+296
+00:07:17,610 --> 00:07:19,100
+conversation about like what's
+
+297
+00:07:19,100 --> 00:07:20,920
+happening in that specific space.
+
+298
+00:07:20,959 --> 00:07:22,529
+And it's like, are other CSMs also
+
+299
+00:07:22,529 --> 00:07:23,980
+running into this problem?
+
+300
+00:07:24,019 --> 00:07:25,680
+So do you as a company then are
+
+301
+00:07:26,040 --> 00:07:27,759
+aware like, oh, we need to fix
+
+302
+00:07:27,819 --> 00:07:29,920
+this because it's not just you and
+
+303
+00:07:30,000 --> 00:07:31,160
+this client.
+
+304
+00:07:31,399 --> 00:07:32,860
+It's a few other of you guys and
+
+305
+00:07:32,860 --> 00:07:34,300
+you're a few other different
+
+306
+00:07:34,300 --> 00:07:34,920
+clients.
+
+307
+00:07:34,959 --> 00:07:36,019
+So we're seeing a reoccurring
+
+308
+00:07:36,379 --> 00:07:37,410
+pattern and there's something we
+
+309
+00:07:37,410 --> 00:07:38,079
+need to fix.
+
+310
+00:07:38,120 --> 00:07:39,790
+And that's going to fall into next
+
+311
+00:07:40,139 --> 00:07:42,050
+week's situation, either your team
+
+312
+00:07:42,050 --> 00:07:43,519
+training or a power hour or
+
+313
+00:07:43,540 --> 00:07:44,920
+something to address in a
+
+314
+00:07:44,920 --> 00:07:46,220
+one-to-one call.
+
+315
+00:07:46,259 --> 00:07:47,930
+OK, if you don't have these
+
+316
+00:07:48,279 --> 00:07:50,459
+patterns and rhythms and your CSMs
+
+317
+00:07:50,490 --> 00:07:52,730
+are not talking and learning and
+
+318
+00:07:52,730 --> 00:07:54,509
+having coaching and having
+
+319
+00:07:54,519 --> 00:07:55,060
+one-to-ones
+
+320
+00:07:55,220 --> 00:07:56,600
+and having team calls that are
+
+321
+00:07:56,639 --> 00:07:58,240
+effective in pushing the needle,
+
+322
+00:07:58,300 --> 00:07:59,980
+there's no pulse on the company
+
+323
+00:07:59,980 --> 00:08:02,040
+and what's happening whatsoever.
+
+324
+00:08:02,100 --> 00:08:03,540
+And you can't hand up having
+
+325
+00:08:03,540 --> 00:08:05,220
+yourself CSMs that are just not
+
+326
+00:08:05,220 --> 00:08:06,910
+doing their job and just kind of
+
+327
+00:08:06,910 --> 00:08:08,740
+chilling in the background.
+
+328
+00:08:08,779 --> 00:08:11,319
+So your morning focus strategy,
+
+329
+00:08:11,319 --> 00:08:13,660
+again, just try and get them done
+
+330
+00:08:14,189 --> 00:08:16,269
+first thing in the morning.
+
+331
+00:08:16,339 --> 00:08:17,610
+It just lets the guys open up
+
+332
+00:08:17,769 --> 00:08:19,199
+their calendar for the day to take
+
+333
+00:08:19,199 --> 00:08:20,360
+on client meetings.
+
+334
+00:08:21,740 --> 00:08:23,329
+Not very often you'll have clients
+
+335
+00:08:23,329 --> 00:08:25,019
+wanting to do a call at 9 a.m.
+
+336
+00:08:25,019 --> 00:08:25,490
+in the morning.
+
+337
+00:08:25,540 --> 00:08:27,899
+Most often it's after 10 a.m.
+
+338
+00:08:27,939 --> 00:08:30,060
+And again, like there's just no
+
+339
+00:08:30,060 --> 00:08:30,509
+harm.
+
+340
+00:08:30,680 --> 00:08:31,689
+Just get it done first thing in
+
+341
+00:08:31,689 --> 00:08:32,298
+the morning.
+
+342
+00:08:32,340 --> 00:08:33,200
+It adds that.
+
+343
+00:08:33,240 --> 00:08:34,798
+It kind of kicks the day off in a
+
+344
+00:08:34,798 --> 00:08:35,759
+positive way.
+
+345
+00:08:35,798 --> 00:08:37,470
+So, yeah, critical client
+
+346
+00:08:37,820 --> 00:08:39,769
+meetings, team synchronization,
+
+347
+00:08:39,769 --> 00:08:42,120
+complex problem solving, strategic
+
+348
+00:08:42,179 --> 00:08:44,500
+planning, all that sort of jazz.
+
+349
+00:08:44,539 --> 00:08:46,700
+And then afternoon, then they can
+
+350
+00:08:46,700 --> 00:08:48,580
+spend time on Slack messages,
+
+351
+00:08:48,669 --> 00:08:50,860
+taking calls, things like that as
+
+352
+00:08:50,950 --> 00:08:51,509
+well.
+
+353
+00:08:51,559 --> 00:08:52,620
+Preparation for work.
+
+354
+00:08:52,659 --> 00:08:55,009
+So, call quality management
+
+355
+00:08:55,009 --> 00:08:55,879
+system.
+
+356
+00:08:55,940 --> 00:08:59,110
+So, I like to use Fathom for this
+
+357
+00:08:59,159 --> 00:09:00,259
+as well.
+
+358
+00:09:00,299 --> 00:09:02,250
+But like, as the manager, you're
+
+359
+00:09:02,320 --> 00:09:03,980
+going to have to review a lot of
+
+360
+00:09:03,980 --> 00:09:04,600
+calls.
+
+361
+00:09:05,059 --> 00:09:06,370
+And you're going to want to do
+
+362
+00:09:06,490 --> 00:09:07,779
+them like, you want to set up a
+
+363
+00:09:07,830 --> 00:09:09,100
+routine to do it and block some
+
+364
+00:09:09,190 --> 00:09:10,559
+time off in your calendar and
+
+365
+00:09:10,710 --> 00:09:11,659
+things like that.
+
+366
+00:09:11,700 --> 00:09:13,159
+But what you really want to do
+
+367
+00:09:13,159 --> 00:09:14,600
+there is kind of like almost
+
+368
+00:09:14,600 --> 00:09:16,370
+catching by surprise a little bit
+
+369
+00:09:16,370 --> 00:09:17,080
+as well.
+
+370
+00:09:17,120 --> 00:09:18,179
+So, there's always that feeling of
+
+371
+00:09:18,240 --> 00:09:19,299
+like, oh, I'm always kind of being
+
+372
+00:09:19,299 --> 00:09:19,690
+watched.
+
+373
+00:09:21,960 --> 00:09:23,120
+It's not to cause any sort of
+
+374
+00:09:23,379 --> 00:09:23,879
+creepiness.
+
+375
+00:09:23,919 --> 00:09:24,870
+It's just to let them know like,
+
+376
+00:09:24,870 --> 00:09:25,580
+hey, you're always being
+
+377
+00:09:25,940 --> 00:09:26,220
+monitored.
+
+378
+00:09:26,259 --> 00:09:27,690
+So, like every call that they get
+
+379
+00:09:27,700 --> 00:09:29,269
+on then, they have the expectation
+
+380
+00:09:29,269 --> 00:09:30,610
+of like, I need to put in my best
+
+381
+00:09:30,610 --> 00:09:31,759
+performance here.
+
+382
+00:09:31,799 --> 00:09:32,860
+Because if this is a call that
+
+383
+00:09:33,230 --> 00:09:34,370
+either the founder or my manager
+
+384
+00:09:34,480 --> 00:09:35,669
+is going to check, like I want
+
+385
+00:09:35,669 --> 00:09:36,950
+this one to be the one that they
+
+386
+00:09:37,210 --> 00:09:37,519
+check.
+
+387
+00:09:37,559 --> 00:09:39,230
+So, you're also going to analyze
+
+388
+00:09:39,529 --> 00:09:41,409
+it for structured frameworks.
+
+389
+00:09:41,460 --> 00:09:42,120
+Are they doing the right
+
+390
+00:09:42,220 --> 00:09:42,879
+documentation?
+
+391
+00:09:42,919 --> 00:09:43,870
+Are they saying the right things?
+
+392
+00:09:43,940 --> 00:09:45,570
+Are they, you know, are they
+
+393
+00:09:45,570 --> 00:09:47,340
+leveraging the product and the
+
+394
+00:09:47,340 --> 00:09:49,169
+support that we offer clients in
+
+395
+00:09:49,350 --> 00:09:51,039
+the most affectionate way?
+
+396
+00:09:51,320 --> 00:09:52,610
+And then you can get them actual
+
+397
+00:09:52,750 --> 00:09:53,259
+feedback.
+
+398
+00:09:53,299 --> 00:09:54,960
+You know, you can send them a
+
+399
+00:09:54,960 --> 00:09:55,519
+note.
+
+400
+00:09:55,559 --> 00:09:56,590
+You can send them like a voice
+
+401
+00:09:56,590 --> 00:09:56,960
+note.
+
+402
+00:09:57,000 --> 00:09:58,059
+You can send them some notes in
+
+403
+00:09:58,399 --> 00:09:59,289
+general and just be like, hey,
+
+404
+00:09:59,289 --> 00:10:00,159
+review this call.
+
+405
+00:10:00,200 --> 00:10:01,059
+Send them the Fathom link.
+
+406
+00:10:01,100 --> 00:10:02,500
+I recommend you do this.
+
+407
+00:10:02,539 --> 00:10:03,600
+You did this really well, but you
+
+408
+00:10:03,659 --> 00:10:04,559
+didn't do that so well.
+
+409
+00:10:04,600 --> 00:10:06,269
+So, that there's constant quality
+
+410
+00:10:06,620 --> 00:10:08,450
+assessment and there's constantly
+
+411
+00:10:08,450 --> 00:10:10,100
+like room for improvement.
+
+412
+00:10:10,200 --> 00:10:11,509
+Because there is always room for
+
+413
+00:10:11,620 --> 00:10:12,769
+improvement with your CSMs.
+
+414
+00:10:12,940 --> 00:10:14,539
+Like, you're going to be dealing.
+
+415
+00:10:14,580 --> 00:10:16,080
+It's going to take a CSM years
+
+416
+00:10:16,080 --> 00:10:17,750
+until they're like absolutely
+
+417
+00:10:17,799 --> 00:10:18,480
+perfect.
+
+418
+00:10:18,519 --> 00:10:19,570
+They get everything absolutely
+
+419
+00:10:19,639 --> 00:10:20,000
+right.
+
+420
+00:10:20,139 --> 00:10:21,070
+Like, there's always room to
+
+421
+00:10:21,070 --> 00:10:21,429
+improve.
+
+422
+00:10:23,200 --> 00:10:24,750
+So, yeah, you want to check it by,
+
+423
+00:10:24,750 --> 00:10:26,009
+like, quality, you know,
+
+424
+00:10:26,009 --> 00:10:27,580
+communication quality, problem
+
+425
+00:10:27,580 --> 00:10:29,289
+solving, relationship management,
+
+426
+00:10:29,370 --> 00:10:30,740
+and process adherence.
+
+427
+00:10:30,779 --> 00:10:33,129
+So, these are some just kind of
+
+428
+00:10:33,129 --> 00:10:34,830
+like targets here.
+
+429
+00:10:34,929 --> 00:10:36,399
+Communication quality is going to
+
+430
+00:10:36,399 --> 00:10:37,750
+be the most important aspect of
+
+431
+00:10:37,750 --> 00:10:38,080
+it.
+
+432
+00:10:38,120 --> 00:10:39,639
+You need to make sure that, you
+
+433
+00:10:39,639 --> 00:10:41,450
+know, they're able to translate,
+
+434
+00:10:41,450 --> 00:10:43,000
+you know, complex concepts into
+
+435
+00:10:43,000 --> 00:10:44,840
+kind of like friendly language so
+
+436
+00:10:44,840 --> 00:10:46,370
+that the client can basically
+
+437
+00:10:46,370 --> 00:10:48,070
+simply understand what it is that
+
+438
+00:10:48,070 --> 00:10:49,100
+you need to do.
+
+439
+00:10:49,940 --> 00:10:51,490
+A lot of the times, they're going
+
+440
+00:10:51,490 --> 00:10:52,730
+to be doing a lot of problem
+
+441
+00:10:52,730 --> 00:10:54,389
+solving, diagnostic thinking,
+
+442
+00:10:54,389 --> 00:10:56,000
+solution creativity, resource
+
+443
+00:10:56,000 --> 00:10:57,789
+utilization, and effectiveness in
+
+444
+00:10:57,789 --> 00:10:59,299
+terms of addressing the client's
+
+445
+00:10:59,480 --> 00:11:00,269
+challenge.
+
+446
+00:11:00,360 --> 00:11:01,740
+Like, your clients are going to
+
+447
+00:11:01,799 --> 00:11:02,600
+have problems.
+
+448
+00:11:02,639 --> 00:11:03,950
+The CSM is there to make sure that
+
+449
+00:11:04,070 --> 00:11:05,149
+those problems are no longer
+
+450
+00:11:05,149 --> 00:11:05,779
+problems.
+
+451
+00:11:05,820 --> 00:11:06,879
+That's kind of the whole point of
+
+452
+00:11:06,940 --> 00:11:07,480
+this shit.
+
+453
+00:11:08,059 --> 00:11:09,299
+And then relationship management.
+
+454
+00:11:09,340 --> 00:11:10,850
+Did they do anything to build
+
+455
+00:11:10,850 --> 00:11:11,399
+trust?
+
+456
+00:11:11,440 --> 00:11:12,450
+Was there some rapport
+
+457
+00:11:12,450 --> 00:11:13,110
+established?
+
+458
+00:11:13,299 --> 00:11:14,360
+Did the client seem satisfied
+
+459
+00:11:14,730 --> 00:11:15,419
+leaving the call?
+
+460
+00:11:15,460 --> 00:11:16,759
+You know, do you see like a
+
+461
+00:11:16,889 --> 00:11:18,320
+long-term like relationship
+
+462
+00:11:18,320 --> 00:11:19,460
+developing here?
+
+463
+00:11:20,600 --> 00:11:21,879
+That's really another aspect.
+
+464
+00:11:21,919 --> 00:11:23,500
+And then just process adherence.
+
+465
+00:11:23,539 --> 00:11:25,000
+Just making sure, you know,
+
+466
+00:11:25,000 --> 00:11:26,799
+documentation was complete, that
+
+467
+00:11:26,799 --> 00:11:28,419
+they left notes, or they did take
+
+468
+00:11:28,779 --> 00:11:30,220
+notes, or that there's like, you
+
+469
+00:11:30,220 --> 00:11:32,289
+know, you know, you've marked down
+
+470
+00:11:32,289 --> 00:11:33,600
+like what you need to get done
+
+471
+00:11:33,679 --> 00:11:35,210
+this week or what they need to get
+
+472
+00:11:35,210 --> 00:11:36,240
+done next week.
+
+473
+00:11:36,279 --> 00:11:37,340
+Or if it was a monthly check-in
+
+474
+00:11:37,340 --> 00:11:38,580
+call, what they did that month,
+
+475
+00:11:38,620 --> 00:11:39,940
+what's the goal for next month.
+
+476
+00:11:40,240 --> 00:11:41,740
+Like, you just want to make sure
+
+477
+00:11:41,740 --> 00:11:43,509
+that it's, you know, everything's
+
+478
+00:11:43,509 --> 00:11:45,100
+up to scratch, and it wasn't just
+
+479
+00:11:45,100 --> 00:11:46,460
+a call, and that there was no
+
+480
+00:11:46,460 --> 00:11:47,960
+follow-up or handover after the
+
+481
+00:11:48,009 --> 00:11:49,570
+call, so then the client doesn't
+
+482
+00:11:49,600 --> 00:11:51,220
+go, wait, what did so-and-so say
+
+483
+00:11:51,220 --> 00:11:52,049
+to me?
+
+484
+00:11:52,120 --> 00:11:53,179
+What was my next step?
+
+485
+00:11:53,279 --> 00:11:54,340
+What do I have to do?
+
+486
+00:11:54,440 --> 00:11:56,100
+Like, and, you know, you can just
+
+487
+00:11:56,100 --> 00:11:57,700
+quality check it from there.
+
+488
+00:11:57,740 --> 00:12:00,669
+CSM types, again, you know this
+
+489
+00:12:00,669 --> 00:12:01,779
+already.
+
+490
+00:12:01,840 --> 00:12:04,360
+Like, high-touch CSMs, they should
+
+491
+00:12:04,360 --> 00:12:07,120
+be doing 15 to 25 calls a week.
+
+492
+00:12:07,159 --> 00:12:08,610
+Mid-touch CSMs are looking at 10
+
+493
+00:12:08,610 --> 00:12:09,720
+to 15 calls a week.
+
+494
+00:12:10,120 --> 00:12:11,179
+Low-touch-point CSMs are only
+
+495
+00:12:11,250 --> 00:12:12,629
+going to do about 5 to 10 calls a
+
+496
+00:12:12,629 --> 00:12:13,059
+week.
+
+497
+00:12:13,100 --> 00:12:15,159
+Those calls are going to go, like,
+
+498
+00:12:15,159 --> 00:12:16,539
+smaller and sooner.
+
+499
+00:12:16,580 --> 00:12:17,500
+Mid-touch clients are going to be
+
+500
+00:12:17,500 --> 00:12:18,580
+about 20 to 30 minutes.
+
+501
+00:12:18,620 --> 00:12:20,080
+High-touch-point CSMs are going to
+
+502
+00:12:20,080 --> 00:12:21,730
+be doing about 30 to 45-minute
+
+503
+00:12:21,730 --> 00:12:22,159
+calls.
+
+504
+00:12:22,200 --> 00:12:23,840
+Unless it's an onboarding call,
+
+505
+00:12:23,840 --> 00:12:25,220
+depending on the product and
+
+506
+00:12:25,279 --> 00:12:26,740
+service, your onboarding calls can
+
+507
+00:12:26,740 --> 00:12:28,100
+range anywhere between 30 minutes
+
+508
+00:12:28,179 --> 00:12:29,460
+to an hour, in some cases, even an
+
+509
+00:12:29,460 --> 00:12:30,149
+hour and a half.
+
+510
+00:12:30,220 --> 00:12:31,960
+So, you know, and you have a
+
+511
+00:12:32,240 --> 00:12:34,070
+certain quality target for those
+
+512
+00:12:34,070 --> 00:12:36,840
+calls, really nothing below 80%.
+
+513
+00:12:36,879 --> 00:12:37,889
+Like, no one should be doing
+
+514
+00:12:37,889 --> 00:12:39,179
+anything that's just 80%.
+
+515
+00:12:39,799 --> 00:12:41,289
+Like, an 8 out of 10 below that in
+
+516
+00:12:41,289 --> 00:12:42,539
+terms of quality calls is kind of
+
+517
+00:12:42,559 --> 00:12:43,600
+a waste of time for everyone
+
+518
+00:12:43,610 --> 00:12:44,539
+across the board.
+
+519
+00:12:45,779 --> 00:12:46,379
+So, yeah.
+
+520
+00:12:46,419 --> 00:12:48,090
+Daily performance tracking systems
+
+521
+00:12:48,440 --> 00:12:48,990
+as well.
+
+522
+00:12:49,039 --> 00:12:50,700
+End-of-day type form protocols.
+
+523
+00:12:50,820 --> 00:12:52,480
+Like, you need to implement, like,
+
+524
+00:12:52,649 --> 00:12:53,960
+an end-of-day type form.
+
+525
+00:12:54,000 --> 00:12:55,669
+It only takes, like, five minutes
+
+526
+00:12:55,789 --> 00:12:56,480
+to complete.
+
+527
+00:12:56,519 --> 00:12:57,580
+It's not that long.
+
+528
+00:12:57,720 --> 00:12:59,389
+Make sure you also, to avoid
+
+529
+00:12:59,740 --> 00:13:01,899
+missed end-of-day type forms,
+
+530
+00:13:01,899 --> 00:13:04,399
+don't send it out at 5 p.m.
+
+531
+00:13:04,399 --> 00:13:06,220
+on the dot when they finish their
+
+532
+00:13:06,220 --> 00:13:06,679
+day.
+
+533
+00:13:06,840 --> 00:13:08,250
+Like, they're going to miss doing
+
+534
+00:13:08,279 --> 00:13:08,500
+it.
+
+535
+00:13:08,559 --> 00:13:10,230
+Send it to them at, like, 4
+
+536
+00:13:10,509 --> 00:13:11,129
+o'clock.
+
+537
+00:13:11,340 --> 00:13:12,860
+Ideally, their last hour before
+
+538
+00:13:12,860 --> 00:13:13,909
+their day finishes.
+
+539
+00:13:14,019 --> 00:13:15,080
+So that they just do the
+
+540
+00:13:15,139 --> 00:13:16,590
+end-of-day type form and they
+
+541
+00:13:16,789 --> 00:13:18,519
+complete their last hour of work.
+
+542
+00:13:18,559 --> 00:13:19,830
+You know, because otherwise,
+
+543
+00:13:19,990 --> 00:13:21,019
+they're going to forget.
+
+544
+00:13:21,059 --> 00:13:22,720
+And, you know, so you want to ask
+
+545
+00:13:23,070 --> 00:13:24,230
+them, like, what did you
+
+546
+00:13:24,279 --> 00:13:25,480
+accomplish today?
+
+547
+00:13:25,620 --> 00:13:26,669
+Which clients need immediate
+
+548
+00:13:27,049 --> 00:13:27,929
+attention or follow-up?
+
+549
+00:13:28,000 --> 00:13:29,429
+Did you collect any case studies,
+
+550
+00:13:29,429 --> 00:13:30,970
+trust pilot reviews, or referrals
+
+551
+00:13:30,970 --> 00:13:31,460
+today?
+
+552
+00:13:31,500 --> 00:13:32,789
+What challenges did you face with
+
+553
+00:13:32,940 --> 00:13:34,320
+your work or with clients today?
+
+554
+00:13:34,360 --> 00:13:35,789
+You know, what process could we
+
+555
+00:13:35,789 --> 00:13:36,929
+improve based on today's
+
+556
+00:13:36,929 --> 00:13:37,700
+experience?
+
+557
+00:13:37,740 --> 00:13:38,799
+What are your top three priorities
+
+558
+00:13:39,120 --> 00:13:39,659
+for tomorrow?
+
+559
+00:13:39,700 --> 00:13:41,759
+Or pretty much, what's your entire
+
+560
+00:13:41,759 --> 00:13:43,100
+plan for tomorrow?
+
+561
+00:13:43,139 --> 00:13:44,200
+Like, what calls are you taking?
+
+562
+00:13:44,259 --> 00:13:45,320
+Whose clients are you meeting?
+
+563
+00:13:45,419 --> 00:13:46,679
+Things like that, too.
+
+564
+00:13:46,720 --> 00:13:48,960
+And, you know, response analysis.
+
+565
+00:13:49,000 --> 00:13:50,659
+So, like, daily review, you know,
+
+566
+00:13:50,879 --> 00:13:52,360
+for yourself, the founder, or the
+
+567
+00:13:52,370 --> 00:13:53,879
+head CSM, you want to review all
+
+568
+00:13:53,879 --> 00:13:55,019
+the submissions,
+
+569
+00:13:55,299 --> 00:13:56,590
+flagging urgent client details,
+
+570
+00:13:56,740 --> 00:13:57,820
+you know, so you can start all
+
+571
+00:13:57,820 --> 00:13:59,490
+having communication about certain
+
+572
+00:13:59,490 --> 00:14:00,399
+things that are happening.
+
+573
+00:14:00,440 --> 00:14:01,480
+You're just in the know of what's
+
+574
+00:14:01,480 --> 00:14:02,480
+happening in the company.
+
+575
+00:14:02,519 --> 00:14:03,580
+Like, there's intervention
+
+576
+00:14:03,950 --> 00:14:04,820
+planning as well.
+
+577
+00:14:04,860 --> 00:14:06,100
+So you can start seeing if there
+
+578
+00:14:06,269 --> 00:14:07,419
+isn't CSM particularly that's
+
+579
+00:14:07,419 --> 00:14:08,200
+having issues.
+
+580
+00:14:08,240 --> 00:14:09,299
+They can see the additional
+
+581
+00:14:09,669 --> 00:14:10,539
+support that they need.
+
+582
+00:14:10,620 --> 00:14:11,559
+You can give them some coaching
+
+583
+00:14:11,600 --> 00:14:12,000
+advice.
+
+584
+00:14:12,039 --> 00:14:13,080
+You can see their response.
+
+585
+00:14:13,120 --> 00:14:14,789
+And you can just basically help
+
+586
+00:14:15,090 --> 00:14:16,490
+them before, you know, this
+
+587
+00:14:16,490 --> 00:14:18,289
+problem starts spiraling out of
+
+588
+00:14:18,529 --> 00:14:19,019
+control.
+
+589
+00:14:19,080 --> 00:14:20,750
+And then, you know, weekly pattern
+
+590
+00:14:21,100 --> 00:14:21,600
+analysis.
+
+591
+00:14:21,639 --> 00:14:23,159
+You can start compiling insights.
+
+592
+00:14:23,200 --> 00:14:24,259
+You can start tracking all of this
+
+593
+00:14:24,320 --> 00:14:24,700
+data.
+
+594
+00:14:24,980 --> 00:14:26,269
+You can start seeing, like, what
+
+595
+00:14:26,409 --> 00:14:27,389
+problems are occurring.
+
+596
+00:14:27,440 --> 00:14:28,389
+What's the stress point?
+
+597
+00:14:28,460 --> 00:14:29,950
+Do we need to give extra resources
+
+598
+00:14:29,950 --> 00:14:31,309
+or extra support here to these
+
+599
+00:14:31,309 --> 00:14:33,000
+clients for, like, a specific area
+
+600
+00:14:33,000 --> 00:14:33,960
+in the business?
+
+601
+00:14:34,000 --> 00:14:35,059
+And then there's, like, a process
+
+602
+00:14:35,419 --> 00:14:35,919
+refinement.
+
+603
+00:14:35,960 --> 00:14:37,379
+Again, just like what I mentioned,
+
+604
+00:14:37,399 --> 00:14:38,529
+like, daily visibility creates
+
+605
+00:14:38,730 --> 00:14:39,590
+accountability.
+
+606
+00:14:39,639 --> 00:14:40,799
+And when CSMs know they'll be
+
+607
+00:14:41,070 --> 00:14:42,210
+reporting on specific actions each
+
+608
+00:14:42,409 --> 00:14:43,980
+day, they'll naturally prioritize
+
+609
+00:14:43,980 --> 00:14:45,289
+high-impact activities and
+
+610
+00:14:45,289 --> 00:14:47,029
+client-focused outcomes.
+
+611
+00:14:47,559 --> 00:14:48,929
+So this is why it's also very,
+
+612
+00:14:49,000 --> 00:14:50,129
+very important as well.
+
+613
+00:14:50,320 --> 00:14:54,049
+So auditing your CSMs.
+
+614
+00:14:54,100 --> 00:14:56,179
+Another thing you want to do, the
+
+615
+00:14:56,179 --> 00:14:58,460
+day your CSMs do their check-ins,
+
+616
+00:14:58,460 --> 00:15:00,090
+ideally, like I've mentioned
+
+617
+00:15:00,090 --> 00:15:01,629
+before, they'd, like, do Monday,
+
+618
+00:15:01,629 --> 00:15:02,639
+Wednesday, and Friday.
+
+619
+00:15:02,799 --> 00:15:03,840
+They should be checking in on
+
+620
+00:15:03,840 --> 00:15:05,039
+Mondays so that they set up a game
+
+621
+00:15:05,039 --> 00:15:05,970
+plan for the clients.
+
+622
+00:15:06,059 --> 00:15:06,990
+They should be checking on a
+
+623
+00:15:06,990 --> 00:15:08,110
+Wednesday so they can see how's
+
+624
+00:15:08,110 --> 00:15:09,389
+everything going halfway through
+
+625
+00:15:09,389 --> 00:15:09,919
+the week.
+
+626
+00:15:09,960 --> 00:15:10,990
+And then Friday, do you kind of
+
+627
+00:15:10,990 --> 00:15:12,139
+want to get an end-of-week kind of
+
+628
+00:15:12,139 --> 00:15:13,320
+wrap-up of, like, how things are
+
+629
+00:15:13,320 --> 00:15:14,200
+currently going?
+
+630
+00:15:15,360 --> 00:15:17,470
+Here, you also, this is the days
+
+631
+00:15:17,470 --> 00:15:19,539
+you also want to do your audits of
+
+632
+00:15:19,539 --> 00:15:20,240
+the CSMs.
+
+633
+00:15:20,480 --> 00:15:21,899
+You want to go through, like, all
+
+634
+00:15:21,919 --> 00:15:23,429
+the communication channels to make
+
+635
+00:15:23,429 --> 00:15:24,889
+sure, like, did you message your
+
+636
+00:15:24,889 --> 00:15:25,720
+client today?
+
+637
+00:15:25,759 --> 00:15:27,169
+Did you see if everything was
+
+638
+00:15:27,190 --> 00:15:27,429
+okay?
+
+639
+00:15:27,659 --> 00:15:29,299
+Was the response good?
+
+640
+00:15:29,340 --> 00:15:30,289
+Like, were you helpful?
+
+641
+00:15:30,360 --> 00:15:31,649
+Was it a standard check-in of,
+
+642
+00:15:31,789 --> 00:15:33,320
+like, hey, how's your day going?
+
+643
+00:15:33,360 --> 00:15:34,419
+Because that's not fucking useful
+
+644
+00:15:34,480 --> 00:15:34,980
+to anyone.
+
+645
+00:15:35,019 --> 00:15:36,080
+Or was it, hey, how are you
+
+646
+00:15:36,440 --> 00:15:37,750
+currently getting on with, like,
+
+647
+00:15:37,789 --> 00:15:38,750
+creating your VSL?
+
+648
+00:15:38,860 --> 00:15:39,919
+Or, hey, did you make that landing
+
+649
+00:15:39,980 --> 00:15:40,419
+page yet?
+
+650
+00:15:40,460 --> 00:15:41,509
+Or, hey, how did I call the email
+
+651
+00:15:41,509 --> 00:15:41,899
+launch?
+
+652
+00:15:41,940 --> 00:15:42,990
+Like, that's a client extension
+
+653
+00:15:43,360 --> 00:15:44,320
+example, but I'm just throwing one
+
+654
+00:15:44,320 --> 00:15:45,259
+out for the fuck of it.
+
+655
+00:15:46,100 --> 00:15:46,490
+Like, you want to actually add
+
+656
+00:15:46,720 --> 00:15:47,799
+something that's, like, why were
+
+657
+00:15:48,100 --> 00:15:49,309
+they actually working on it?
+
+658
+00:15:49,379 --> 00:15:50,440
+That was part of the plan and the
+
+659
+00:15:50,750 --> 00:15:51,620
+process and the implementation
+
+660
+00:15:51,620 --> 00:15:52,720
+that you're trying to drive and
+
+661
+00:15:52,730 --> 00:15:53,120
+adopt.
+
+662
+00:15:53,179 --> 00:15:56,059
+So, and did the client reply, but
+
+663
+00:15:56,059 --> 00:15:58,059
+the CSM didn't reply?
+
+664
+00:15:58,220 --> 00:15:59,580
+Why is the CSM replying?
+
+665
+00:15:59,620 --> 00:16:01,179
+You know, and how long was the
+
+666
+00:16:01,179 --> 00:16:03,039
+client waiting for the reply after
+
+667
+00:16:03,039 --> 00:16:03,500
+CSM?
+
+668
+00:16:03,539 --> 00:16:04,809
+You know, you want to check, like,
+
+669
+00:16:04,940 --> 00:16:05,889
+you know, response times and
+
+670
+00:16:05,889 --> 00:16:06,940
+things like that, too.
+
+671
+00:16:06,980 --> 00:16:08,200
+So, you need to audit all of this
+
+672
+00:16:08,200 --> 00:16:08,639
+as well.
+
+673
+00:16:08,720 --> 00:16:10,179
+And then also, like, on those days
+
+674
+00:16:10,179 --> 00:16:11,679
+as well, you really want to audit,
+
+675
+00:16:11,679 --> 00:16:12,759
+like, Stripe billing.
+
+676
+00:16:13,220 --> 00:16:14,769
+Like, did your CSM message clients
+
+677
+00:16:14,769 --> 00:16:15,929
+who missed or are late for a
+
+678
+00:16:15,990 --> 00:16:16,559
+payment?
+
+679
+00:16:16,600 --> 00:16:18,110
+Is there any clients who have not
+
+680
+00:16:18,110 --> 00:16:20,039
+been billed in the past 30 days?
+
+681
+00:16:20,080 --> 00:16:21,340
+And it's like, wait, has this
+
+682
+00:16:21,509 --> 00:16:22,480
+person had a back-end sales
+
+683
+00:16:22,490 --> 00:16:23,340
+conversation?
+
+684
+00:16:23,379 --> 00:16:24,440
+Have this person not renewed?
+
+685
+00:16:24,580 --> 00:16:25,639
+Like, are we doing free work for
+
+686
+00:16:25,700 --> 00:16:26,480
+this individual?
+
+687
+00:16:26,519 --> 00:16:28,120
+And they haven't even paid yet?
+
+688
+00:16:28,159 --> 00:16:29,059
+Like, what's going on?
+
+689
+00:16:29,100 --> 00:16:30,409
+You want to, like, check, you
+
+690
+00:16:30,529 --> 00:16:31,620
+know, communications.
+
+691
+00:16:31,659 --> 00:16:33,220
+Then you also want to check Stripe
+
+692
+00:16:33,220 --> 00:16:34,779
+and making sure all the payments
+
+693
+00:16:34,779 --> 00:16:36,039
+are in place and that there's no
+
+694
+00:16:36,039 --> 00:16:37,090
+failed payments and things like
+
+695
+00:16:37,090 --> 00:16:37,399
+that.
+
+696
+00:16:37,500 --> 00:16:38,549
+Because your CSMs are responsible
+
+697
+00:16:38,610 --> 00:16:39,960
+for collecting payments, too.
+
+698
+00:16:40,000 --> 00:16:42,570
+Then another thing you're going to
+
+699
+00:16:42,769 --> 00:16:44,879
+have your CSMs do is a bi-weekly
+
+700
+00:16:45,409 --> 00:16:47,340
+health score assessment.
+
+701
+00:16:47,379 --> 00:16:49,529
+This is going to be basically,
+
+702
+00:16:49,529 --> 00:16:51,340
+like, you can...
+
+703
+00:16:51,379 --> 00:16:53,039
+I like to do this on the Mondays
+
+704
+00:16:53,230 --> 00:16:54,899
+on a bi-weekly basis, which is
+
+705
+00:16:54,899 --> 00:16:56,259
+really, really helpful because
+
+706
+00:16:56,259 --> 00:16:57,639
+it's, like...
+
+707
+00:16:57,679 --> 00:16:58,740
+So, just to give you an inside
+
+708
+00:16:59,110 --> 00:17:00,250
+look at how I do my structure.
+
+709
+00:17:00,940 --> 00:17:02,480
+So, the first Monday of the month,
+
+710
+00:17:02,480 --> 00:17:03,789
+my team are going to do a health
+
+711
+00:17:03,789 --> 00:17:04,619
+score sheet.
+
+712
+00:17:04,660 --> 00:17:06,328
+When they do the health score
+
+713
+00:17:06,680 --> 00:17:08,559
+sheet, then, and it's complete,
+
+714
+00:17:08,559 --> 00:17:09,960
+they bring that with them on their
+
+715
+00:17:10,068 --> 00:17:10,838
+Tuesday one-to-one.
+
+716
+00:17:10,880 --> 00:17:11,818
+And we break down their health
+
+717
+00:17:11,859 --> 00:17:12,940
+score sheet of how their clients
+
+718
+00:17:12,940 --> 00:17:13,859
+are currently doing.
+
+719
+00:17:13,900 --> 00:17:15,410
+The second week, when they don't
+
+720
+00:17:15,410 --> 00:17:16,900
+have to do a health score sheet,
+
+721
+00:17:16,900 --> 00:17:18,390
+that Monday, I actually really
+
+722
+00:17:18,390 --> 00:17:19,640
+like to review calls.
+
+723
+00:17:19,680 --> 00:17:21,318
+So, then I can bring that call
+
+724
+00:17:21,318 --> 00:17:22,900
+with me to that meeting.
+
+725
+00:17:22,960 --> 00:17:24,119
+And then we can have a proactive,
+
+726
+00:17:24,390 --> 00:17:25,338
+instructive conversation of how
+
+727
+00:17:25,338 --> 00:17:26,539
+they can improve that call.
+
+728
+00:17:26,578 --> 00:17:28,250
+But also, then, hey, your health
+
+729
+00:17:28,599 --> 00:17:30,130
+score sheet, what's the difference
+
+730
+00:17:30,130 --> 00:17:31,460
+in this week than last week?
+
+731
+00:17:31,740 --> 00:17:32,799
+Like, how did we drive?
+
+732
+00:17:32,900 --> 00:17:33,829
+Did you take the advice?
+
+733
+00:17:33,880 --> 00:17:34,920
+Did you adopt the product?
+
+734
+00:17:34,960 --> 00:17:35,980
+Did you help them improve?
+
+735
+00:17:36,019 --> 00:17:37,500
+Like, how do we make that work?
+
+736
+00:17:37,539 --> 00:17:38,710
+Because the next week, they're
+
+737
+00:17:38,950 --> 00:17:39,900
+going to have to do their health
+
+738
+00:17:39,900 --> 00:17:40,559
+score sheet.
+
+739
+00:17:40,619 --> 00:17:41,779
+And if shit hasn't improved, then
+
+740
+00:17:41,779 --> 00:17:43,079
+we're going to have a problem.
+
+741
+00:17:43,119 --> 00:17:45,690
+So, it works really, really well,
+
+742
+00:17:45,890 --> 00:17:46,799
+you know.
+
+743
+00:17:46,839 --> 00:17:47,789
+So, health score sheets must be
+
+744
+00:17:47,809 --> 00:17:48,509
+completed the night before
+
+745
+00:17:48,799 --> 00:17:49,859
+one-to-ones with management.
+
+746
+00:17:49,900 --> 00:17:52,450
+I know it's a submission by 12
+
+747
+00:17:52,450 --> 00:17:53,440
+o'clock.
+
+748
+00:17:53,480 --> 00:17:54,480
+I don't really give a shit to get
+
+749
+00:17:54,480 --> 00:17:55,640
+it done that morning, to be honest
+
+750
+00:17:55,640 --> 00:17:56,049
+with you.
+
+751
+00:17:56,119 --> 00:17:57,180
+As long as it's done before the
+
+752
+00:17:57,539 --> 00:17:58,690
+meeting, that's fucking fine.
+
+753
+00:17:58,759 --> 00:17:59,819
+Like, they need to just be able to
+
+754
+00:17:59,880 --> 00:18:00,400
+have it done.
+
+755
+00:18:00,440 --> 00:18:02,759
+You know, full client company
+
+756
+00:18:02,779 --> 00:18:04,859
+name, who their SSE is.
+
+757
+00:18:04,900 --> 00:18:05,740
+Again, if it's your team, you're
+
+758
+00:18:05,740 --> 00:18:06,380
+just going to do it.
+
+759
+00:18:06,420 --> 00:18:07,349
+If you're a client, I'm going to
+
+760
+00:18:07,359 --> 00:18:08,039
+be able to see it.
+
+761
+00:18:08,079 --> 00:18:09,109
+Like, what service and package are
+
+762
+00:18:09,109 --> 00:18:09,480
+they on?
+
+763
+00:18:09,519 --> 00:18:10,519
+What's their contract value?
+
+764
+00:18:10,559 --> 00:18:12,220
+Like, you know, was it, like, how
+
+765
+00:18:12,500 --> 00:18:13,710
+many months they've left or how
+
+766
+00:18:13,710 --> 00:18:14,480
+many days left they have to
+
+767
+00:18:14,480 --> 00:18:14,880
+program?
+
+768
+00:18:14,920 --> 00:18:15,980
+Stage classification.
+
+769
+00:18:16,099 --> 00:18:17,920
+Are they on pre-launch, launch, or
+
+770
+00:18:18,109 --> 00:18:18,670
+post-launch?
+
+771
+00:18:18,819 --> 00:18:20,490
+You know, like, where are they
+
+772
+00:18:20,839 --> 00:18:22,200
+currently at in terms of, you
+
+773
+00:18:22,200 --> 00:18:23,700
+know, the service communication
+
+774
+00:18:24,240 --> 00:18:24,720
+assessment?
+
+775
+00:18:24,819 --> 00:18:25,880
+Like, when did you last have a
+
+776
+00:18:25,880 --> 00:18:26,480
+call with them?
+
+777
+00:18:26,619 --> 00:18:27,859
+Are they active on Slack?
+
+778
+00:18:27,900 --> 00:18:30,180
+You know, like, what's the level
+
+779
+00:18:30,180 --> 00:18:31,710
+of engagement here?
+
+780
+00:18:31,759 --> 00:18:33,950
+Are you proactive or reactive to
+
+781
+00:18:33,950 --> 00:18:35,059
+this client?
+
+782
+00:18:35,109 --> 00:18:36,380
+Performance metrics.
+
+783
+00:18:36,420 --> 00:18:37,609
+Like, what's their latest ROI?
+
+784
+00:18:37,660 --> 00:18:39,200
+What's their implementation status
+
+785
+00:18:39,200 --> 00:18:39,900
+percentage?
+
+786
+00:18:39,940 --> 00:18:41,220
+And what's their goal progress?
+
+787
+00:18:41,400 --> 00:18:42,839
+Like, where are they?
+
+788
+00:18:42,880 --> 00:18:43,829
+Like, how are they doing?
+
+789
+00:18:43,880 --> 00:18:44,940
+Like, it depends on the business
+
+790
+00:18:45,000 --> 00:18:45,549
+and the service.
+
+791
+00:18:45,759 --> 00:18:46,589
+But, like, if you're in the
+
+792
+00:18:46,589 --> 00:18:47,589
+business of helping people make
+
+793
+00:18:47,769 --> 00:18:48,769
+money, how much money should we
+
+794
+00:18:48,769 --> 00:18:49,619
+have we help them make?
+
+795
+00:18:49,660 --> 00:18:50,680
+If you're in the business of
+
+796
+00:18:50,680 --> 00:18:51,789
+helping people, like, fix
+
+797
+00:18:51,789 --> 00:18:53,170
+operations and save time, how much
+
+798
+00:18:53,170 --> 00:18:54,500
+time are we saving them here?
+
+799
+00:18:54,539 --> 00:18:55,839
+If it's, you know, so it just
+
+800
+00:18:55,970 --> 00:18:57,109
+depends on the business.
+
+801
+00:18:57,259 --> 00:18:58,930
+And then the SS, your CSM needs to
+
+802
+00:18:59,269 --> 00:19:00,880
+then give, like, a health score
+
+803
+00:19:00,880 --> 00:19:02,910
+sheet, like, a health score rating
+
+804
+00:19:02,940 --> 00:19:04,259
+out of 1 to 10.
+
+805
+00:19:05,420 --> 00:19:07,480
+One is, like, they haven't done
+
+806
+00:19:07,480 --> 00:19:08,359
+jack shit.
+
+807
+00:19:08,400 --> 00:19:09,980
+Like, this is the worst client
+
+808
+00:19:09,980 --> 00:19:10,460
+ever.
+
+809
+00:19:10,500 --> 00:19:11,079
+They're lazy.
+
+810
+00:19:11,119 --> 00:19:12,069
+They're not doing anything.
+
+811
+00:19:12,119 --> 00:19:14,380
+Like, they're going to fail.
+
+812
+00:19:14,420 --> 00:19:16,079
+Like, this person's bad.
+
+813
+00:19:16,160 --> 00:19:17,680
+Two, not far off.
+
+814
+00:19:17,720 --> 00:19:18,359
+Three, four.
+
+815
+00:19:18,400 --> 00:19:19,779
+Like, if any client is a four,
+
+816
+00:19:19,839 --> 00:19:21,420
+they should be marked in the red.
+
+817
+00:19:21,500 --> 00:19:22,170
+That's critical.
+
+818
+00:19:22,240 --> 00:19:23,880
+Like, they're a critical risk.
+
+819
+00:19:23,920 --> 00:19:25,890
+This person, we need to turn this
+
+820
+00:19:25,940 --> 00:19:27,400
+around very quickly.
+
+821
+00:19:27,440 --> 00:19:29,099
+Either we need to do everything we
+
+822
+00:19:29,099 --> 00:19:30,750
+possibly can in our power so that
+
+823
+00:19:30,750 --> 00:19:32,400
+we can uphold our reputation as a
+
+824
+00:19:32,829 --> 00:19:33,119
+company.
+
+825
+00:19:33,599 --> 00:19:34,789
+Or we need to have a serious,
+
+826
+00:19:35,029 --> 00:19:36,170
+honest, hard conversation with
+
+827
+00:19:36,369 --> 00:19:37,640
+that client and, like, why they
+
+828
+00:19:37,740 --> 00:19:39,069
+are not doing and working as hard
+
+829
+00:19:39,069 --> 00:19:40,400
+as they possibly should.
+
+830
+00:19:40,440 --> 00:19:42,430
+Orange is basically your middle of
+
+831
+00:19:42,460 --> 00:19:43,009
+the road.
+
+832
+00:19:43,200 --> 00:19:44,470
+You're not doing bad, but you're
+
+833
+00:19:44,609 --> 00:19:45,279
+not doing great.
+
+834
+00:19:45,319 --> 00:19:46,380
+You're just fine.
+
+835
+00:19:46,420 --> 00:19:47,720
+And it's, like, cool.
+
+836
+00:19:47,799 --> 00:19:49,460
+We're not in a bad spot, but we
+
+837
+00:19:49,809 --> 00:19:51,839
+have definitely room for improve.
+
+838
+00:19:51,880 --> 00:19:53,779
+And we have an area here where we
+
+839
+00:19:53,900 --> 00:19:56,029
+need to, like, increase, like,
+
+840
+00:19:56,029 --> 00:19:58,059
+communication and strategy.
+
+841
+00:19:58,119 --> 00:19:59,609
+And we need to turn things around
+
+842
+00:19:59,609 --> 00:20:01,140
+quickly before they do go into the
+
+843
+00:20:01,200 --> 00:20:01,619
+red.
+
+844
+00:20:01,779 --> 00:20:03,279
+And then green is, like, healthy.
+
+845
+00:20:03,319 --> 00:20:04,740
+And then you want to also, like,
+
+846
+00:20:04,759 --> 00:20:06,420
+in these notes, too, leave, like,
+
+847
+00:20:06,420 --> 00:20:07,450
+strategic notes.
+
+848
+00:20:07,500 --> 00:20:08,880
+Current challenges, opportunities,
+
+849
+00:20:08,930 --> 00:20:10,049
+required actions, next steps,
+
+850
+00:20:10,049 --> 00:20:11,039
+issues for leadership.
+
+851
+00:20:11,079 --> 00:20:12,470
+This is your notes that you want
+
+852
+00:20:12,519 --> 00:20:13,789
+to give to either your head of
+
+853
+00:20:13,849 --> 00:20:15,279
+client success or the founder of
+
+854
+00:20:15,279 --> 00:20:16,569
+the company so they can kind of
+
+855
+00:20:16,759 --> 00:20:17,900
+get a bit of a, like, a deeper
+
+856
+00:20:17,960 --> 00:20:19,359
+insight of, like, what's the
+
+857
+00:20:19,359 --> 00:20:20,420
+situation there with these
+
+858
+00:20:20,650 --> 00:20:21,140
+clients?
+
+859
+00:20:21,599 --> 00:20:23,250
+Non-responsive clients,
+
+860
+00:20:23,250 --> 00:20:25,339
+significant missed deadlines and
+
+861
+00:20:25,400 --> 00:20:27,509
+implementation gaps, expressed
+
+862
+00:20:27,579 --> 00:20:29,519
+dissatisfaction, escalation
+
+863
+00:20:29,519 --> 00:20:31,509
+concerns, declining business
+
+864
+00:20:31,509 --> 00:20:32,930
+metrics, or ROI.
+
+865
+00:20:32,980 --> 00:20:34,640
+Inconsistent communication, some
+
+866
+00:20:34,640 --> 00:20:36,119
+miscommunicates, like, some
+
+867
+00:20:36,119 --> 00:20:37,140
+miscommitments.
+
+868
+00:20:37,180 --> 00:20:38,470
+Mixed results, both success and
+
+869
+00:20:38,609 --> 00:20:40,039
+having some challenges, requires
+
+870
+00:20:40,039 --> 00:20:41,180
+attention and support.
+
+871
+00:20:42,039 --> 00:20:43,099
+Consistive proactive
+
+872
+00:20:43,460 --> 00:20:44,609
+communication, meaning or
+
+873
+00:20:44,809 --> 00:20:46,029
+exceeding implementation
+
+874
+00:20:46,029 --> 00:20:47,859
+timelines, positive ROI, strong
+
+875
+00:20:47,859 --> 00:20:49,519
+relationship and satisfaction
+
+876
+00:20:49,519 --> 00:20:50,500
+indications.
+
+877
+00:20:50,539 --> 00:20:52,200
+That's how you scale it.
+
+878
+00:20:52,240 --> 00:20:54,339
+It's not really that difficult.
+
+879
+00:20:54,380 --> 00:20:56,049
+You just need to be very, very
+
+880
+00:20:56,400 --> 00:20:58,009
+honest about, like, what the
+
+881
+00:20:58,009 --> 00:21:00,079
+standards of the company are.
+
+882
+00:21:00,259 --> 00:21:02,109
+And that's where you, the manager,
+
+883
+00:21:02,279 --> 00:21:03,880
+need to set those standards of,
+
+884
+00:21:03,890 --> 00:21:05,650
+like, what is good and what is not
+
+885
+00:21:05,670 --> 00:21:06,259
+good.
+
+886
+00:21:06,299 --> 00:21:07,970
+When you're doing these health
+
+887
+00:21:08,319 --> 00:21:09,759
+score sheets, you should be
+
+888
+00:21:09,759 --> 00:21:11,660
+holding the CSMs accountable to
+
+889
+00:21:11,710 --> 00:21:13,400
+why this person is green.
+
+890
+00:21:13,440 --> 00:21:15,099
+Tell me why they should be in the
+
+891
+00:21:15,460 --> 00:21:15,750
+green.
+
+892
+00:21:15,819 --> 00:21:17,480
+What results are they bringing in
+
+893
+00:21:17,759 --> 00:21:19,109
+that is such an amazing ROI that
+
+894
+00:21:19,109 --> 00:21:20,700
+we should be reaching out to them
+
+895
+00:21:20,950 --> 00:21:22,349
+for, like, a case study, for
+
+896
+00:21:22,359 --> 00:21:23,119
+example.
+
+897
+00:21:23,160 --> 00:21:24,819
+And then what puts someone in
+
+898
+00:21:25,180 --> 00:21:25,640
+orange?
+
+899
+00:21:25,680 --> 00:21:27,339
+Which, like, because if they're in
+
+900
+00:21:27,339 --> 00:21:28,779
+the orange, their most likely
+
+901
+00:21:28,779 --> 00:21:30,200
+could be as well in the red.
+
+902
+00:21:30,240 --> 00:21:31,490
+You need to investigate these and
+
+903
+00:21:31,630 --> 00:21:32,680
+you need to troubleshoot all of
+
+904
+00:21:32,680 --> 00:21:33,849
+these sort of situations.
+
+905
+00:21:33,900 --> 00:21:34,839
+So when you're in your
+
+906
+00:21:34,880 --> 00:21:36,690
+one-to-ones, then, your first five
+
+907
+00:21:36,690 --> 00:21:38,539
+minutes health score overview.
+
+908
+00:21:38,579 --> 00:21:39,640
+You just kind of want to review
+
+909
+00:21:39,990 --> 00:21:41,140
+this portfolio and identify the
+
+910
+00:21:41,140 --> 00:21:42,619
+red flags and the opportunities.
+
+911
+00:21:42,759 --> 00:21:43,910
+Then you want to start going
+
+912
+00:21:44,190 --> 00:21:45,329
+through your red and orange
+
+913
+00:21:45,529 --> 00:21:46,039
+clients.
+
+914
+00:21:46,079 --> 00:21:47,339
+You want to deep dive this
+
+915
+00:21:47,500 --> 00:21:48,390
+significantly.
+
+916
+00:21:48,440 --> 00:21:50,109
+What's the root cause?
+
+917
+00:21:50,400 --> 00:21:51,440
+What can we develop?
+
+918
+00:21:51,480 --> 00:21:53,140
+What intervention strategies can
+
+919
+00:21:53,359 --> 00:21:54,049
+we apply here?
+
+920
+00:21:54,720 --> 00:21:55,779
+Then you want to go through the
+
+921
+00:21:56,140 --> 00:21:57,099
+clients that are in the green.
+
+922
+00:21:57,140 --> 00:21:58,809
+Because there's expansion
+
+923
+00:21:58,809 --> 00:22:00,230
+planning, case study
+
+924
+00:22:00,230 --> 00:22:02,019
+identification, best practice
+
+925
+00:22:02,559 --> 00:22:03,359
+extraction.
+
+926
+00:22:03,400 --> 00:22:04,640
+We can take something like, what
+
+927
+00:22:04,779 --> 00:22:05,920
+are these clients doing that's so
+
+928
+00:22:05,920 --> 00:22:07,200
+well that we can start teaching to
+
+929
+00:22:07,200 --> 00:22:08,160
+the other clients.
+
+930
+00:22:08,200 --> 00:22:09,759
+And then also, your clients that
+
+931
+00:22:09,759 --> 00:22:11,220
+are in the green are the clients
+
+932
+00:22:11,279 --> 00:22:12,759
+that are most likely to give you a
+
+933
+00:22:12,769 --> 00:22:13,500
+referral.
+
+934
+00:22:13,539 --> 00:22:14,730
+They're the clients that are most
+
+935
+00:22:14,970 --> 00:22:15,839
+likely to jump on a client case
+
+936
+00:22:15,880 --> 00:22:16,710
+study interview.
+
+937
+00:22:16,759 --> 00:22:18,240
+They're the clients that are most
+
+938
+00:22:18,240 --> 00:22:19,329
+likely going to stay.
+
+939
+00:22:19,420 --> 00:22:21,319
+So it's like, okay, what back-end
+
+940
+00:22:21,440 --> 00:22:23,039
+strategy are we going to do?
+
+941
+00:22:23,079 --> 00:22:24,720
+What feature or service or product
+
+942
+00:22:24,720 --> 00:22:26,250
+that we have that they don't have
+
+943
+00:22:26,299 --> 00:22:27,960
+that they could use at this point?
+
+944
+00:22:28,200 --> 00:22:29,869
+Like, how can we benefit them
+
+945
+00:22:30,220 --> 00:22:30,680
+more?
+
+946
+00:22:30,720 --> 00:22:32,390
+What package do we want to sell
+
+947
+00:22:32,390 --> 00:22:34,170
+them on to retain them so that we
+
+948
+00:22:34,170 --> 00:22:36,000
+can add even more value to them?
+
+949
+00:22:36,200 --> 00:22:37,859
+So they get an even bigger ROI and
+
+950
+00:22:38,069 --> 00:22:39,509
+it's an even more successful
+
+951
+00:22:39,509 --> 00:22:41,039
+working relationship.
+
+952
+00:22:41,079 --> 00:22:42,140
+That's what you want to get
+
+953
+00:22:42,140 --> 00:22:43,589
+through when you're going through
+
+954
+00:22:43,589 --> 00:22:44,819
+your health score sheets.
+
+955
+00:22:44,880 --> 00:22:46,369
+And that's why it's important to
+
+956
+00:22:46,369 --> 00:22:47,750
+have them done before you're
+
+957
+00:22:47,750 --> 00:22:48,609
+one-to-ones.
+
+958
+00:22:49,259 --> 00:22:50,180
+Otherwise, you're going to have
+
+959
+00:22:50,180 --> 00:22:51,150
+one-to-one calls with the guys and
+
+960
+00:22:51,230 --> 00:22:52,210
+it's going to be like, hey, what's
+
+961
+00:22:52,210 --> 00:22:52,839
+the hell's your week?
+
+962
+00:22:52,880 --> 00:22:53,440
+And it's like, it's good.
+
+963
+00:22:53,480 --> 00:22:54,099
+It's like, is it?
+
+964
+00:22:54,140 --> 00:22:54,700
+Okay, cool.
+
+965
+00:22:54,740 --> 00:22:56,109
+And it's like a fucking waste of
+
+966
+00:22:56,180 --> 00:22:56,400
+time.
+
+967
+00:22:56,579 --> 00:22:58,599
+So you need to, this is really,
+
+968
+00:22:58,599 --> 00:23:00,059
+really important.
+
+969
+00:23:00,099 --> 00:23:01,500
+I cannot stress this enough.
+
+970
+00:23:01,539 --> 00:23:03,480
+Power Hour Meeting Framework,
+
+971
+00:23:03,559 --> 00:23:05,740
+again, simple things like that.
+
+972
+00:23:05,799 --> 00:23:06,589
+First couple of minutes, just
+
+973
+00:23:06,589 --> 00:23:07,440
+figure out like what you guys are
+
+974
+00:23:07,440 --> 00:23:08,369
+going to be covering this week.
+
+975
+00:23:08,480 --> 00:23:09,650
+The manager or the founder on the
+
+976
+00:23:09,710 --> 00:23:10,779
+call should have an idea of what
+
+977
+00:23:10,819 --> 00:23:11,940
+you're going to be doing.
+
+978
+00:23:11,980 --> 00:23:13,559
+It can be a churn, reactivation
+
+979
+00:23:13,559 --> 00:23:15,500
+campaign, trust pilot collection,
+
+980
+00:23:15,500 --> 00:23:16,849
+health score updates.
+
+981
+00:23:17,400 --> 00:23:18,460
+And then you want to re-engage
+
+982
+00:23:18,519 --> 00:23:19,950
+like, you know, some clients that
+
+983
+00:23:19,950 --> 00:23:21,119
+are just like inactive or like
+
+984
+00:23:21,130 --> 00:23:22,069
+slow to response.
+
+985
+00:23:22,160 --> 00:23:23,160
+And then you just want to use the
+
+986
+00:23:23,160 --> 00:23:24,079
+last five minutes to kind of
+
+987
+00:23:24,180 --> 00:23:25,309
+click, collect feedback, track
+
+988
+00:23:25,309 --> 00:23:26,500
+numbers and share a document or
+
+989
+00:23:26,500 --> 00:23:27,480
+something like that.
+
+990
+00:23:27,519 --> 00:23:29,019
+You know, personally, I like to
+
+991
+00:23:29,019 --> 00:23:30,349
+just drop my notes in my Slack
+
+992
+00:23:30,349 --> 00:23:31,940
+channel where all my CSMs are.
+
+993
+00:23:31,980 --> 00:23:34,549
+Task Execution Sprint.
+
+994
+00:23:34,740 --> 00:23:36,119
+Yeah, that's pretty much this.
+
+995
+00:23:36,160 --> 00:23:36,980
+I pretty much went.
+
+996
+00:23:37,019 --> 00:23:38,079
+The Power Hour comes from its
+
+997
+00:23:38,440 --> 00:23:38,690
+consistency.
+
+998
+00:23:38,880 --> 00:23:39,789
+When the team knows every Monday
+
+999
+00:23:39,789 --> 00:23:40,299
+at 9 a.m.
+
+1000
+00:23:40,339 --> 00:23:41,180
+They'll focus on specific
+
+1001
+00:23:41,180 --> 00:23:42,180
+operational priorities.
+
+1002
+00:23:42,220 --> 00:23:43,890
+These activities become habitual
+
+1003
+00:23:44,240 --> 00:23:46,119
+rather than occasional, which is
+
+1004
+00:23:46,119 --> 00:23:46,660
+true.
+
+1005
+00:23:46,960 --> 00:23:48,599
+Like if you train your CSMs on
+
+1006
+00:23:48,599 --> 00:23:50,559
+like on this, that they have to do
+
+1007
+00:23:50,559 --> 00:23:52,759
+this on a regular basis, it kind
+
+1008
+00:23:52,759 --> 00:23:54,170
+of also falls into like, you know,
+
+1009
+00:23:54,170 --> 00:23:55,089
+secondhand nature.
+
+1010
+00:23:56,839 --> 00:23:58,400
+So, yeah, doing this, you're going
+
+1011
+00:23:58,400 --> 00:23:59,759
+to have more tasks complete.
+
+1012
+00:23:59,799 --> 00:24:00,460
+You're going to have more team
+
+1013
+00:24:00,569 --> 00:24:00,950
+engagement.
+
+1014
+00:24:01,000 --> 00:24:01,900
+There's going to be more
+
+1015
+00:24:01,900 --> 00:24:03,130
+efficiency and you're going to
+
+1016
+00:24:03,130 --> 00:24:04,500
+like generate way more reviews and
+
+1017
+00:24:04,500 --> 00:24:05,319
+testimonials.
+
+1018
+00:24:05,359 --> 00:24:06,880
+So, Power Hour is like nothing to
+
+1019
+00:24:06,880 --> 00:24:07,839
+be slept on here.
+
+1020
+00:24:09,029 --> 00:24:10,690
+Individual CSM development then.
+
+1021
+00:24:10,880 --> 00:24:12,380
+This is just for their, like your
+
+1022
+00:24:12,380 --> 00:24:13,970
+personal one-to-ones there, you
+
+1023
+00:24:13,970 --> 00:24:15,470
+know, call quality feedback,
+
+1024
+00:24:15,470 --> 00:24:16,910
+client satisfaction, scored
+
+1025
+00:24:16,910 --> 00:24:18,750
+feedback, goal progress, challenge
+
+1026
+00:24:18,750 --> 00:24:20,180
+identification, specific
+
+1027
+00:24:20,180 --> 00:24:21,630
+improvement areas, role-playing
+
+1028
+00:24:21,630 --> 00:24:22,549
+scenarios, resource
+
+1029
+00:24:22,549 --> 00:24:24,000
+recommendations and learnings that
+
+1030
+00:24:24,109 --> 00:24:25,019
+you can recommend to them
+
+1031
+00:24:25,069 --> 00:24:25,900
+specifically.
+
+1032
+00:24:25,980 --> 00:24:27,599
+Industry knowledge and competitive
+
+1033
+00:24:27,599 --> 00:24:28,160
+updates.
+
+1034
+00:24:28,319 --> 00:24:29,599
+Again, you're the founder, you're
+
+1035
+00:24:29,730 --> 00:24:30,670
+the manager, you should know
+
+1036
+00:24:30,670 --> 00:24:31,809
+what's going on more than anyone
+
+1037
+00:24:31,809 --> 00:24:32,220
+else.
+
+1038
+00:24:32,259 --> 00:24:33,319
+You know what's also happening
+
+1039
+00:24:33,690 --> 00:24:35,180
+across all the other CSM teams so
+
+1040
+00:24:35,180 --> 00:24:36,690
+that you can give that insight to
+
+1041
+00:24:36,690 --> 00:24:37,500
+these guys.
+
+1042
+00:24:38,000 --> 00:24:38,920
+And then kind of like career
+
+1043
+00:24:38,940 --> 00:24:40,200
+growth and opportunities, maybe
+
+1044
+00:24:40,200 --> 00:24:41,509
+let them know like, hey, you know,
+
+1045
+00:24:41,509 --> 00:24:42,670
+you can get some more referrals or
+
+1046
+00:24:42,730 --> 00:24:43,789
+you upset all these clients,
+
+1047
+00:24:43,789 --> 00:24:44,819
+you're going to make some more
+
+1048
+00:24:44,880 --> 00:24:45,390
+money.
+
+1049
+00:24:45,460 --> 00:24:47,119
+Process improvement, suggestion,
+
+1050
+00:24:47,480 --> 00:24:48,980
+implementation, team contribution,
+
+1051
+00:24:48,980 --> 00:24:50,259
+leadership potential.
+
+1052
+00:24:50,299 --> 00:24:51,759
+And then next week's kind of like,
+
+1053
+00:24:51,759 --> 00:24:53,309
+you know, your priorities and like
+
+1054
+00:24:53,309 --> 00:24:54,339
+you're what we consider a
+
+1055
+00:24:54,440 --> 00:24:55,799
+successful week given what that
+
+1056
+00:24:55,980 --> 00:24:56,980
+criteria looks like.
+
+1057
+00:24:57,019 --> 00:24:58,690
+Your team development and training
+
+1058
+00:24:59,039 --> 00:25:01,180
+calls, communication excellence.
+
+1059
+00:25:01,220 --> 00:25:02,000
+So, you can talk about how to
+
+1060
+00:25:02,000 --> 00:25:02,880
+communicate with clients.
+
+1061
+00:25:02,960 --> 00:25:03,859
+You can break down one of the
+
+1062
+00:25:03,859 --> 00:25:04,539
+guys' clients.
+
+1063
+00:25:05,039 --> 00:25:06,220
+If one of the CSMs had like a
+
+1064
+00:25:06,470 --> 00:25:07,730
+really amazing call, you can do
+
+1065
+00:25:07,809 --> 00:25:08,180
+that.
+
+1066
+00:25:08,220 --> 00:25:09,279
+And sometimes, actually, if I have
+
+1067
+00:25:09,339 --> 00:25:10,309
+a team training and I've really
+
+1068
+00:25:10,309 --> 00:25:11,630
+nothing planned for whatsoever, I
+
+1069
+00:25:11,630 --> 00:25:12,980
+like to just jump on FASM and take
+
+1070
+00:25:12,980 --> 00:25:14,309
+a random call and say, boys, we're
+
+1071
+00:25:14,390 --> 00:25:15,140
+going to watch this and we're all
+
+1072
+00:25:15,140 --> 00:25:15,940
+going to review it together.
+
+1073
+00:25:16,019 --> 00:25:16,829
+That's a really good
+
+1074
+00:25:16,829 --> 00:25:18,450
+accountability metric, by the way,
+
+1075
+00:25:18,450 --> 00:25:19,970
+because someone kind of goes, oh,
+
+1076
+00:25:19,970 --> 00:25:21,519
+shit, my call is getting picked.
+
+1077
+00:25:21,640 --> 00:25:22,700
+And I don't know if I did this
+
+1078
+00:25:22,759 --> 00:25:24,099
+call right or wrong or what's the
+
+1079
+00:25:24,099 --> 00:25:25,109
+feedback, but it's all
+
+1080
+00:25:25,109 --> 00:25:26,480
+constructive because we're all
+
+1081
+00:25:26,480 --> 00:25:27,859
+learning from each other.
+
+1082
+00:25:29,400 --> 00:25:30,710
+You know, you can also do like
+
+1083
+00:25:30,819 --> 00:25:32,369
+strategic business analysis, you
+
+1084
+00:25:32,369 --> 00:25:33,950
+know, work on ROI calculators and
+
+1085
+00:25:33,950 --> 00:25:35,259
+things like that, too.
+
+1086
+00:25:35,299 --> 00:25:36,599
+And you can work on like
+
+1087
+00:25:36,720 --> 00:25:38,299
+technology processes.
+
+1088
+00:25:38,339 --> 00:25:39,529
+We can work on like updates,
+
+1089
+00:25:39,740 --> 00:25:41,259
+dashboards, whatever it might be.
+
+1090
+00:25:41,299 --> 00:25:42,349
+And then revenue generation
+
+1091
+00:25:42,730 --> 00:25:42,960
+machines.
+
+1092
+00:25:43,039 --> 00:25:44,099
+Also, with like the team training
+
+1093
+00:25:44,160 --> 00:25:45,339
+and development, sometimes I
+
+1094
+00:25:45,380 --> 00:25:46,529
+actually really like to do a book
+
+1095
+00:25:46,529 --> 00:25:47,710
+club with some of the guys.
+
+1096
+00:25:48,420 --> 00:25:49,940
+We have a massive section, I have
+
+1097
+00:25:49,940 --> 00:25:51,440
+a module that I'll be developing
+
+1098
+00:25:51,500 --> 00:25:52,470
+in this section called
+
+1099
+00:25:52,549 --> 00:25:54,200
+Unreasonable Hospitality, based
+
+1100
+00:25:54,200 --> 00:25:55,410
+off the book Unreasonable
+
+1101
+00:25:55,410 --> 00:25:56,859
+Hospitality, because it is
+
+1102
+00:25:56,859 --> 00:25:58,140
+actually one of the most important
+
+1103
+00:25:58,170 --> 00:25:59,079
+books to client success
+
+1104
+00:25:59,099 --> 00:25:59,759
+management.
+
+1105
+00:25:59,799 --> 00:26:00,859
+But that's a whole separate
+
+1106
+00:26:01,230 --> 00:26:01,460
+module.
+
+1107
+00:26:01,599 --> 00:26:03,529
+Career progression frameworks and
+
+1108
+00:26:03,619 --> 00:26:05,480
+things like that, junior CSMs.
+
+1109
+00:26:05,519 --> 00:26:07,819
+You're considered a junior CSM
+
+1110
+00:26:07,859 --> 00:26:10,019
+within their first year.
+
+1111
+00:26:10,880 --> 00:26:12,539
+Your senior CSM is going to be
+
+1112
+00:26:12,900 --> 00:26:14,880
+around 12 to 24 months.
+
+1113
+00:26:14,920 --> 00:26:16,289
+And then you're like a lead CSM
+
+1114
+00:26:16,349 --> 00:26:17,490
+or, you know, like a really
+
+1115
+00:26:17,690 --> 00:26:18,880
+advanced CSM is going to be
+
+1116
+00:26:18,880 --> 00:26:20,369
+someone past like two years and
+
+1117
+00:26:20,369 --> 00:26:21,500
+things like that.
+
+1118
+00:26:21,539 --> 00:26:22,690
+You know, this person can mentor
+
+1119
+00:26:22,970 --> 00:26:24,069
+teams and you can like hand over a
+
+1120
+00:26:24,069 --> 00:26:25,400
+lot of leadership abilities.
+
+1121
+00:26:25,440 --> 00:26:26,990
+Senior CSM is going to be like,
+
+1122
+00:26:26,990 --> 00:26:28,460
+you know, really strategic
+
+1123
+00:26:28,519 --> 00:26:30,309
+thinking, like a real go-getter,
+
+1124
+00:26:30,309 --> 00:26:32,160
+very good, solid portfolio, like
+
+1125
+00:26:32,160 --> 00:26:34,079
+showed proper revenue growth.
+
+1126
+00:26:35,440 --> 00:26:36,450
+So, yeah, there's just some
+
+1127
+00:26:36,450 --> 00:26:37,660
+metrics there for you just to kind
+
+1128
+00:26:37,660 --> 00:26:38,460
+of get a little bit of an
+
+1129
+00:26:38,460 --> 00:26:39,480
+understanding of like what I
+
+1130
+00:26:39,579 --> 00:26:40,769
+consider a junior, a senior, and a
+
+1131
+00:26:40,849 --> 00:26:41,299
+lead.
+
+1132
+00:26:41,339 --> 00:26:43,009
+And that way, the responsibilities
+
+1133
+00:26:43,349 --> 00:26:44,630
+and the interactions and the
+
+1134
+00:26:44,630 --> 00:26:46,200
+communication and the style of
+
+1135
+00:26:46,200 --> 00:26:47,829
+your management can then change
+
+1136
+00:26:47,829 --> 00:26:48,619
+over time.
+
+1137
+00:26:48,660 --> 00:26:50,170
+Because as someone is more in that
+
+1138
+00:26:50,170 --> 00:26:51,680
+senior position who's been in the
+
+1139
+00:26:51,740 --> 00:26:53,460
+role for like two years, you know
+
+1140
+00:26:53,460 --> 00:26:55,319
+then they're going to be pretty
+
+1141
+00:26:55,319 --> 00:26:56,519
+rock solid then.
+
+1142
+00:26:56,559 --> 00:26:58,079
+And you can actually then start
+
+1143
+00:26:58,079 --> 00:26:59,700
+using that CSM to get more kind of
+
+1144
+00:26:59,700 --> 00:27:01,230
+like SOPs kind of build out.
+
+1145
+00:27:01,319 --> 00:27:02,269
+And you can kind of give them more
+
+1146
+00:27:02,279 --> 00:27:03,349
+higher leverage tasks and things
+
+1147
+00:27:03,349 --> 00:27:03,890
+like that.
+
+1148
+00:27:05,210 --> 00:27:06,859
+Performance monitoring, KPIs and
+
+1149
+00:27:07,220 --> 00:27:08,039
+things like that.
+
+1150
+00:27:08,079 --> 00:27:10,220
+Client retention, you always want
+
+1151
+00:27:10,220 --> 00:27:12,279
+to target like, again, this is,
+
+1152
+00:27:12,309 --> 00:27:14,470
+these targets, these numbers here
+
+1153
+00:27:14,490 --> 00:27:16,410
+are a very generalized business
+
+1154
+00:27:16,450 --> 00:27:18,859
+kind of, you know, projections.
+
+1155
+00:27:18,900 --> 00:27:20,359
+It's very hard to like, you know,
+
+1156
+00:27:20,359 --> 00:27:21,779
+do it in very specific fields and
+
+1157
+00:27:21,779 --> 00:27:22,839
+things like that.
+
+1158
+00:27:22,880 --> 00:27:24,309
+So, this is just a very generic
+
+1159
+00:27:24,309 --> 00:27:25,900
+like, hey, aim for the fucking,
+
+1160
+00:27:25,960 --> 00:27:27,369
+aim for the stars if you land on
+
+1161
+00:27:27,369 --> 00:27:28,099
+the moon.
+
+1162
+00:27:28,140 --> 00:27:28,519
+Amazing.
+
+1163
+00:27:28,559 --> 00:27:29,859
+So, yeah, client retention rate.
+
+1164
+00:27:29,940 --> 00:27:31,609
+It should be about 75%.
+
+1165
+00:27:31,779 --> 00:27:33,440
+You'd like to retain 75% of your
+
+1166
+00:27:33,799 --> 00:27:34,140
+clients.
+
+1167
+00:27:34,180 --> 00:27:35,490
+It's like, you know, you don't
+
+1168
+00:27:35,609 --> 00:27:36,750
+want to be losing more than really
+
+1169
+00:27:36,950 --> 00:27:37,339
+that.
+
+1170
+00:27:38,859 --> 00:27:40,289
+You know, and like, and by the
+
+1171
+00:27:40,299 --> 00:27:41,880
+way, client retention is kind of
+
+1172
+00:27:41,880 --> 00:27:43,059
+different to churn.
+
+1173
+00:27:43,119 --> 00:27:45,170
+Churn is kind of like, you know,
+
+1174
+00:27:45,170 --> 00:27:46,970
+to a certain degree, people
+
+1175
+00:27:46,970 --> 00:27:49,019
+leaving after like past due.
+
+1176
+00:27:49,059 --> 00:27:50,519
+So, if you have an offer, for
+
+1177
+00:27:50,519 --> 00:27:52,200
+example, where it's like, like
+
+1178
+00:27:52,200 --> 00:27:54,119
+email marketing, for example, it's
+
+1179
+00:27:54,119 --> 00:27:55,960
+like, we'll add $50,000 revenue in
+
+1180
+00:27:55,960 --> 00:27:56,640
+90 days.
+
+1181
+00:27:56,740 --> 00:27:57,869
+Like, if you hit that goal and the
+
+1182
+00:27:58,150 --> 00:27:59,170
+client just still doesn't stay on,
+
+1183
+00:27:59,170 --> 00:28:00,349
+I mean, like, you know, you can
+
+1184
+00:28:00,349 --> 00:28:01,609
+look into certain factors.
+
+1185
+00:28:01,660 --> 00:28:03,329
+But if that client leaves like 30
+
+1186
+00:28:03,680 --> 00:28:05,299
+days in, that's like, you know,
+
+1187
+00:28:05,309 --> 00:28:07,029
+like, that's how you really want
+
+1188
+00:28:07,069 --> 00:28:08,609
+to like, you know, check in on
+
+1189
+00:28:08,609 --> 00:28:10,089
+like your churn and be like,
+
+1190
+00:28:10,089 --> 00:28:11,849
+right, that was a, that was a real
+
+1191
+00:28:11,849 --> 00:28:13,119
+fuck up on our end.
+
+1192
+00:28:13,259 --> 00:28:14,160
+Like, what went wrong there?
+
+1193
+00:28:14,200 --> 00:28:15,859
+But yes, client retention, you
+
+1194
+00:28:16,210 --> 00:28:17,940
+want to aim it to be about 75%.
+
+1195
+00:28:18,019 --> 00:28:19,079
+You know, your net revenue
+
+1196
+00:28:19,450 --> 00:28:20,430
+retention about 80%.
+
+1197
+00:28:20,480 --> 00:28:21,539
+Your average client health score
+
+1198
+00:28:21,589 --> 00:28:22,339
+is about eight.
+
+1199
+00:28:22,380 --> 00:28:24,950
+Your NPS score plus 70.
+
+1200
+00:28:25,180 --> 00:28:26,759
+You know, your CSM activity is
+
+1201
+00:28:26,759 --> 00:28:28,519
+like, they should be completing
+
+1202
+00:28:28,519 --> 00:28:30,039
+95% of their calls.
+
+1203
+00:28:30,079 --> 00:28:31,640
+Documentation quality should be at
+
+1204
+00:28:31,640 --> 00:28:32,650
+least over 90%.
+
+1205
+00:28:32,759 --> 00:28:33,819
+Their response time should be less
+
+1206
+00:28:33,880 --> 00:28:34,430
+than two hours.
+
+1207
+00:28:34,599 --> 00:28:36,210
+And like proactive outreach, like
+
+1208
+00:28:36,210 --> 00:28:37,730
+checking out their clients three
+
+1209
+00:28:37,730 --> 00:28:38,930
+times a week, absolutely
+
+1210
+00:28:38,930 --> 00:28:39,480
+important.
+
+1211
+00:28:39,720 --> 00:28:41,390
+Business impact, expansion revenue
+
+1212
+00:28:41,730 --> 00:28:43,460
+per CSM, referral generation, they
+
+1213
+00:28:43,519 --> 00:28:45,490
+should be like, you know, at least
+
+1214
+00:28:45,490 --> 00:28:47,259
+getting, you know, out of their
+
+1215
+00:28:47,259 --> 00:28:47,660
+clients.
+
+1216
+00:28:47,700 --> 00:28:48,839
+At least 25%, they should be
+
+1217
+00:28:49,119 --> 00:28:49,700
+getting referrals.
+
+1218
+00:28:49,740 --> 00:28:51,210
+They should be collecting 25% of
+
+1219
+00:28:51,210 --> 00:28:52,730
+like referrals from their clients,
+
+1220
+00:28:52,730 --> 00:28:53,470
+like minimum.
+
+1221
+00:28:53,539 --> 00:28:55,440
+They should be aiming to get two
+
+1222
+00:28:55,559 --> 00:28:57,000
+case studies a month.
+
+1223
+00:28:57,039 --> 00:28:58,700
+And then they should be like, you
+
+1224
+00:28:59,049 --> 00:29:00,789
+know, really like increasing churn
+
+1225
+00:29:00,839 --> 00:29:02,730
+prevention metrics as much as they
+
+1226
+00:29:02,730 --> 00:29:03,740
+possibly can.
+
+1227
+00:29:03,789 --> 00:29:05,390
+Essential management tools,
+
+1228
+00:29:05,390 --> 00:29:07,490
+Fathom, Typeform, Zoom, Calendly,
+
+1229
+00:29:07,490 --> 00:29:08,660
+some sort of customer success
+
+1230
+00:29:09,200 --> 00:29:11,009
+platform, whether you're using any
+
+1231
+00:29:11,029 --> 00:29:11,900
+sort of CRM.
+
+1232
+00:29:11,980 --> 00:29:13,529
+I mean, you can use ClickFunnels,
+
+1233
+00:29:13,529 --> 00:29:15,589
+you can use Trello, you can use,
+
+1234
+00:29:15,589 --> 00:29:17,339
+you can,
+
+1235
+00:29:17,380 --> 00:29:18,440
+you know, whatever that you are
+
+1236
+00:29:18,500 --> 00:29:19,359
+able to use and what you're
+
+1237
+00:29:19,400 --> 00:29:20,200
+comfortable with.
+
+1238
+00:29:20,240 --> 00:29:20,900
+Like some people like to use
+
+1239
+00:29:21,009 --> 00:29:21,299
+Notion.
+
+1240
+00:29:21,339 --> 00:29:22,890
+Some people also like to use, like
+
+1241
+00:29:22,890 --> 00:29:24,509
+build out their own dashboards.
+
+1242
+00:29:24,559 --> 00:29:25,930
+Some people like HubSpot, like
+
+1243
+00:29:25,990 --> 00:29:27,130
+whatever works for you, like
+
+1244
+00:29:27,329 --> 00:29:28,190
+Monday.com.
+
+1245
+00:29:28,240 --> 00:29:29,299
+Like I don't care.
+
+1246
+00:29:29,380 --> 00:29:30,880
+But something to track, like
+
+1247
+00:29:30,880 --> 00:29:32,309
+what's happening with your
+
+1248
+00:29:32,309 --> 00:29:32,990
+clients.
+
+1249
+00:29:33,039 --> 00:29:33,859
+So even if you want to use a
+
+1250
+00:29:33,859 --> 00:29:34,890
+Google Sheet, like that's no
+
+1251
+00:29:35,059 --> 00:29:35,400
+problem.
+
+1252
+00:29:35,440 --> 00:29:36,460
+And then of course, Google
+
+1253
+00:29:36,460 --> 00:29:37,319
+Calendar as well.
+
+1254
+00:29:37,359 --> 00:29:39,559
+And this is important too, so that
+
+1255
+00:29:39,559 --> 00:29:41,730
+you can also see what's happening
+
+1256
+00:29:41,730 --> 00:29:43,039
+with your CSMs.
+
+1257
+00:29:43,079 --> 00:29:44,380
+Because if you use Google Admin
+
+1258
+00:29:44,519 --> 00:29:46,700
+and Google Calendar, you can then
+
+1259
+00:29:46,700 --> 00:29:49,900
+go through like your actual SSEs
+
+1260
+00:29:49,960 --> 00:29:52,279
+or sorry, your CSMs like calendar
+
+1261
+00:29:52,279 --> 00:29:53,759
+and see how many calls they're
+
+1262
+00:29:53,759 --> 00:29:55,180
+doing and things like that as
+
+1263
+00:29:55,180 --> 00:29:55,660
+well.
+
+1264
+00:29:55,960 --> 00:29:56,990
+And then monthly performance
+
+1265
+00:29:56,990 --> 00:29:57,440
+reviews.
+
+1266
+00:29:57,480 --> 00:29:58,539
+Allow 30 days for full system
+
+1267
+00:29:58,900 --> 00:29:59,990
+implementation to focus on
+
+1268
+00:29:59,990 --> 00:30:01,519
+foundational elements, one week in
+
+1269
+00:30:01,619 --> 00:30:02,099
+process.
+
+1270
+00:30:02,140 --> 00:30:03,650
+So, you know, data preparation,
+
+1271
+00:30:03,650 --> 00:30:04,950
+trend analysis, contextual
+
+1272
+00:30:04,950 --> 00:30:06,599
+assessment, forward planning, and
+
+1273
+00:30:06,599 --> 00:30:07,640
+then recognition.
+
+1274
+00:30:08,599 --> 00:30:10,650
+So, you're always checking the
+
+1275
+00:30:10,650 --> 00:30:12,990
+monthly performance of your entire
+
+1276
+00:30:12,990 --> 00:30:13,480
+team.
+
+1277
+00:30:13,660 --> 00:30:14,720
+You want to make sure that
+
+1278
+00:30:15,079 --> 00:30:16,230
+everything is going in the right
+
+1279
+00:30:16,430 --> 00:30:17,690
+direction and that there's
+
+1280
+00:30:17,690 --> 00:30:19,559
+constant learning in portfolios.
+
+1281
+00:30:19,660 --> 00:30:21,259
+There's constant forward planning
+
+1282
+00:30:21,259 --> 00:30:22,559
+and that you're never really
+
+1283
+00:30:22,559 --> 00:30:24,089
+taking your hand off the steering
+
+1284
+00:30:24,089 --> 00:30:24,859
+wheel there.
+
+1285
+00:30:24,900 --> 00:30:26,420
+So, and then scaling and
+
+1286
+00:30:26,420 --> 00:30:27,720
+implementation.
+
+1287
+00:30:27,759 --> 00:30:29,890
+So, as your customer success team
+
+1288
+00:30:29,890 --> 00:30:32,200
+functions and grows, your approach
+
+1289
+00:30:32,200 --> 00:30:34,369
+evolving, you know, that's also
+
+1290
+00:30:34,369 --> 00:30:36,180
+going to change then too.
+
+1291
+00:30:37,019 --> 00:30:38,079
+So, you're going to have process
+
+1292
+00:30:38,440 --> 00:30:39,940
+integration for your power hours.
+
+1293
+00:30:39,980 --> 00:30:40,869
+You know, you're going to have
+
+1294
+00:30:40,869 --> 00:30:41,400
+foundation.
+
+1295
+00:30:41,440 --> 00:30:43,000
+Again, this is just kind of a
+
+1296
+00:30:43,000 --> 00:30:43,880
+recap here.
+
+1297
+00:30:43,920 --> 00:30:45,589
+So, foundation setup, process
+
+1298
+00:30:45,940 --> 00:30:47,430
+integration, quality control,
+
+1299
+00:30:47,430 --> 00:30:48,990
+optimization, and then your team
+
+1300
+00:30:49,339 --> 00:30:50,920
+structure is going to evolve from
+
+1301
+00:30:50,980 --> 00:30:51,579
+there.
+
+1302
+00:30:51,619 --> 00:30:53,000
+This is basically just a TDLR of
+
+1303
+00:30:53,039 --> 00:30:54,779
+everything that you're working on.
+
+1304
+00:30:54,819 --> 00:30:56,400
+And this is going to be some like
+
+1305
+00:30:56,400 --> 00:30:58,160
+client count and things like that
+
+1306
+00:30:58,170 --> 00:30:59,490
+as well, depending.
+
+1307
+00:31:00,119 --> 00:31:01,650
+Just to start you off to give you
+
+1308
+00:31:01,650 --> 00:31:03,339
+an understanding of like, if you
+
+1309
+00:31:03,369 --> 00:31:04,920
+are hiring CSMs and when you're
+
+1310
+00:31:04,920 --> 00:31:06,759
+going to like manage CSMs, like
+
+1311
+00:31:06,759 --> 00:31:08,509
+what that sort of is going to look
+
+1312
+00:31:08,509 --> 00:31:08,920
+like.
+
+1313
+00:31:09,019 --> 00:31:10,470
+So, if you have 25 to 50 clients,
+
+1314
+00:31:10,470 --> 00:31:11,589
+you're really fine with one single
+
+1315
+00:31:11,750 --> 00:31:12,750
+CSM and manager support.
+
+1316
+00:31:12,799 --> 00:31:14,390
+And if you have 45 to 90 clients,
+
+1317
+00:31:14,390 --> 00:31:15,660
+you're going to look at about two
+
+1318
+00:31:15,660 --> 00:31:17,059
+CSMs with, you know, specialized
+
+1319
+00:31:17,059 --> 00:31:17,579
+roles.
+
+1320
+00:31:17,859 --> 00:31:19,410
+And then 100 clients, you're
+
+1321
+00:31:19,410 --> 00:31:20,799
+looking at a CSM team with like,
+
+1322
+00:31:20,799 --> 00:31:21,869
+you know, a lead CSM and a
+
+1323
+00:31:21,869 --> 00:31:22,500
+manager.
+
+1324
+00:31:22,539 --> 00:31:23,769
+And then 300 clients, you're
+
+1325
+00:31:23,970 --> 00:31:24,839
+looking at multiple teams with
+
+1326
+00:31:24,839 --> 00:31:25,799
+specialized focused.
+
+1327
+00:31:25,839 --> 00:31:26,740
+So, yeah.
+
+1328
+00:31:26,779 --> 00:31:28,450
+Metrics after 30 days.
+
+1329
+00:31:28,720 --> 00:31:30,029
+Team engagement should be about
+
+1330
+00:31:30,150 --> 00:31:30,740
+90% high.
+
+1331
+00:31:30,779 --> 00:31:33,160
+Process compliance should be 95%.
+
+1332
+00:31:33,200 --> 00:31:34,259
+Health score integration.
+
+1333
+00:31:34,299 --> 00:31:35,730
+So, making sure they're all
+
+1334
+00:31:35,730 --> 00:31:37,460
+actually done is 100%.
+
+1335
+00:31:37,500 --> 00:31:38,880
+And early warning systems for
+
+1336
+00:31:38,930 --> 00:31:40,380
+yourself, then be able to catch
+
+1337
+00:31:40,380 --> 00:31:41,890
+all this and catch like problems
+
+1338
+00:31:41,890 --> 00:31:43,980
+with your client should be 100%.
+
+1339
+00:31:44,019 --> 00:31:44,869
+You always want to be able to
+
+1340
+00:31:44,869 --> 00:31:45,309
+catch them.
+
+1341
+00:31:45,420 --> 00:31:46,359
+So, yeah.
+
+1342
+00:31:46,420 --> 00:31:48,490
+This framework requires about 8 to
+
+1343
+00:31:48,490 --> 00:31:50,599
+10 works of weekly management,
+
+1344
+00:31:50,599 --> 00:31:52,509
+which is true, and delivers about
+
+1345
+00:31:52,509 --> 00:31:54,369
+a 25 to 40% improvement in team
+
+1346
+00:31:54,450 --> 00:31:56,319
+performance and client outcomes.
+
+1347
+00:31:56,359 --> 00:31:58,460
+So, this is going to bring in a
+
+1348
+00:31:58,460 --> 00:31:59,660
+massive ROI.
+
+1349
+00:31:59,700 --> 00:32:01,369
+So, you can read more about this
+
+1350
+00:32:01,710 --> 00:32:02,799
+in the document.
+
+1351
+00:32:02,980 --> 00:32:03,640
+You can reach out to me if you
+
+1352
+00:32:03,750 --> 00:32:04,549
+have any questions, if you're
+
+1353
+00:32:04,549 --> 00:32:05,279
+inside Client Ascension or
+
+1354
+00:32:05,319 --> 00:32:05,779
+Olympia.
+
+1355
+00:32:05,819 --> 00:32:07,420
+And I'm happy to answer anything
+
+1356
+00:32:07,420 --> 00:32:08,390
+you possibly need.
+
+1357
+00:32:08,599 --> 00:32:09,099
+All right.
+
+1358
+00:32:09,140 --> 00:32:10,200
+This is how you manage your team.
+
+1359
+00:32:10,339 --> 00:32:11,369
+Take care.
+
+1360
+00:32:11,420 --> 00:32:11,859
+Peace.
+
+1361
+00:32:11,900 --> 00:32:12,339
+Love you.
+
+1362
+00:32:12,380 --> 00:32:12,630
+Bye.

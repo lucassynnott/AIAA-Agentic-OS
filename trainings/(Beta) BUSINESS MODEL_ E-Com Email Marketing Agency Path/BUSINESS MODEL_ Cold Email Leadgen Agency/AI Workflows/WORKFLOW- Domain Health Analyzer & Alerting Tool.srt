@@ -1,0 +1,1115 @@
+1
+00:00:00,280 --> 00:00:02,370
+What's up guys Lucas here so in
+
+2
+00:00:02,390 --> 00:00:03,730
+this one I'm gonna be showing you
+
+3
+00:00:03,730 --> 00:00:04,500
+guys the email
+
+4
+00:00:04,540 --> 00:00:06,809
+deliverability and reputation
+
+5
+00:00:06,809 --> 00:00:09,029
+manager workflow so as you guys
+
+6
+00:00:09,029 --> 00:00:09,720
+know if you're
+
+7
+00:00:09,759 --> 00:00:11,640
+going to be running both cold
+
+8
+00:00:11,640 --> 00:00:13,710
+email or also actually email for
+
+9
+00:00:13,789 --> 00:00:14,720
+e-com brands
+
+10
+00:00:14,759 --> 00:00:16,789
+your domain reputation is very
+
+11
+00:00:16,969 --> 00:00:18,149
+important you're gonna have to
+
+12
+00:00:18,179 --> 00:00:18,519
+check to
+
+13
+00:00:18,559 --> 00:00:20,019
+make sure that your emails are
+
+14
+00:00:20,019 --> 00:00:21,679
+going to spam you know it's a big
+
+15
+00:00:21,679 --> 00:00:22,190
+part of that
+
+16
+00:00:22,280 --> 00:00:24,969
+whole process so what we developed
+
+17
+00:00:25,070 --> 00:00:27,019
+here is a flow that runs on a
+
+18
+00:00:27,050 --> 00:00:28,239
+schedule that
+
+19
+00:00:28,280 --> 00:00:30,699
+will check your domains to ensure
+
+20
+00:00:30,699 --> 00:00:33,020
+that they are still all good and
+
+21
+00:00:33,030 --> 00:00:33,460
+provide the
+
+22
+00:00:33,500 --> 00:00:35,289
+maximum deliverability for your
+
+23
+00:00:35,350 --> 00:00:37,429
+email accounts so as usual I'm
+
+24
+00:00:37,429 --> 00:00:38,679
+gonna walk you
+
+25
+00:00:38,719 --> 00:00:39,960
+through the different nodes in
+
+26
+00:00:40,030 --> 00:00:41,159
+this flow I'm gonna explain
+
+27
+00:00:41,159 --> 00:00:42,219
+anything you'll need to
+
+28
+00:00:42,259 --> 00:00:44,429
+edit or set and then kind of what
+
+29
+00:00:44,469 --> 00:00:46,579
+it sort of looks like at the end
+
+30
+00:00:46,579 --> 00:00:47,899
+result now with
+
+31
+00:00:47,939 --> 00:00:49,179
+this flow we're actually going to
+
+32
+00:00:49,250 --> 00:00:50,409
+be using for the first time what
+
+33
+00:00:50,520 --> 00:00:50,829
+we call
+
+34
+00:00:50,899 --> 00:00:53,049
+variables and variables very
+
+35
+00:00:53,109 --> 00:00:55,219
+simply are just a set of keys or
+
+36
+00:00:55,219 --> 00:00:56,799
+information you can
+
+37
+00:00:56,840 --> 00:00:58,579
+create and reference in any of
+
+38
+00:00:58,579 --> 00:00:59,909
+your flows they're very handy for
+
+39
+00:00:59,909 --> 00:01:00,759
+things like API
+
+40
+00:01:00,799 --> 00:01:01,799
+keys so that's exactly what we're
+
+41
+00:01:01,799 --> 00:01:05,099
+using it for here so you will need
+
+42
+00:01:05,099 --> 00:01:06,010
+an account over
+
+43
+00:01:06,060 --> 00:01:10,170
+at MX Toolbox now this is
+
+44
+00:01:10,260 --> 00:01:12,680
+mxtoolbox.com if we go to the main
+
+45
+00:01:12,680 --> 00:01:13,599
+page here you can see
+
+46
+00:01:13,640 --> 00:01:15,590
+there's a ton of domain related
+
+47
+00:01:15,590 --> 00:01:17,269
+tools all you need to know is that
+
+48
+00:01:17,349 --> 00:01:18,099
+when you get to
+
+49
+00:01:18,140 --> 00:01:19,390
+this site on the main site here
+
+50
+00:01:19,450 --> 00:01:20,790
+you're going to click your name
+
+51
+00:01:20,790 --> 00:01:22,230
+and click settings
+
+52
+00:01:22,280 --> 00:01:25,010
+then you're going to go over to
+
+53
+00:01:25,069 --> 00:01:27,769
+API and get your API key once you
+
+54
+00:01:27,890 --> 00:01:28,920
+have that if you go back
+
+55
+00:01:28,959 --> 00:01:30,629
+to our flow here you're going to
+
+56
+00:01:30,629 --> 00:01:32,790
+see variables here on the left
+
+57
+00:01:32,790 --> 00:01:34,780
+hand side now I open this in a new
+
+58
+00:01:34,780 --> 00:01:36,819
+tab and very simply it looks like
+
+59
+00:01:36,989 --> 00:01:39,200
+this you're going to click add
+
+60
+00:01:39,200 --> 00:01:41,069
+variable and you're going to name
+
+61
+00:01:41,069 --> 00:01:44,680
+it MX Toolbox API and paste your
+
+62
+00:01:44,680 --> 00:01:46,900
+API key in here now we've done
+
+63
+00:01:46,900 --> 00:01:49,200
+that as you can see and you can
+
+64
+00:01:49,219 --> 00:01:50,879
+see here we've got copy to
+
+65
+00:01:50,879 --> 00:01:51,459
+clipboard virus dot mxtoolbox API
+
+66
+00:01:51,459 --> 00:01:51,609
+and paste your API key in here now
+
+67
+00:01:51,620 --> 00:01:51,780
+we've done that as you can see and
+
+68
+00:01:51,780 --> 00:01:51,939
+you can see here we've got copy to
+
+69
+00:01:51,939 --> 00:01:52,219
+clipboard virus dot mxtoolbox API
+
+70
+00:01:52,219 --> 00:01:52,219
+and paste your API key in here now
+
+71
+00:01:52,219 --> 00:01:52,219
+we've done that as you can see and
+
+72
+00:01:52,219 --> 00:01:52,219
+you can see here we've got copy to
+
+73
+00:01:52,219 --> 00:01:52,219
+clipboard virus dot mxtoolbox API
+
+74
+00:01:52,219 --> 00:01:52,219
+and paste your API key in here.
+
+75
+00:01:52,280 --> 00:01:55,010
+mxtoolbox API so basically we can
+
+76
+00:01:55,069 --> 00:01:57,989
+now reference that API key in our
+
+77
+00:01:57,989 --> 00:01:59,709
+workflow this is so that you don't
+
+78
+00:01:59,709 --> 00:02:00,920
+have to go through every node
+
+79
+00:02:00,920 --> 00:02:02,780
+separately and you know copy and
+
+80
+00:02:02,780 --> 00:02:03,920
+paste your API key the entire time
+
+81
+00:02:03,920 --> 00:02:07,209
+very simply all we do here is uh
+
+82
+00:02:07,349 --> 00:02:08,990
+later on in the process we're
+
+83
+00:02:08,990 --> 00:02:09,580
+going to show you where to where
+
+84
+00:02:09,580 --> 00:02:11,490
+to put that uh how that's set up
+
+85
+00:02:11,490 --> 00:02:12,610
+so that it'll automatically pull
+
+86
+00:02:12,669 --> 00:02:14,639
+in your API key but uh how does
+
+87
+00:02:14,639 --> 00:02:16,360
+this work so there's a few ways
+
+88
+00:02:16,360 --> 00:02:17,840
+that this can kind of be triggered
+
+89
+00:02:17,840 --> 00:02:18,889
+it'll be triggered by an email
+
+90
+00:02:18,919 --> 00:02:22,219
+provider event so maybe your email
+
+91
+00:02:22,219 --> 00:02:22,219
+provider like smart lead or
+
+92
+00:02:22,219 --> 00:02:22,219
+something
+
+93
+00:02:22,280 --> 00:02:23,129
+uh you know can notify you can
+
+94
+00:02:23,129 --> 00:02:23,810
+notify you if a domain is
+
+95
+00:02:23,870 --> 00:02:24,750
+disconnected or if there's an
+
+96
+00:02:24,860 --> 00:02:25,909
+issue with it in which case you
+
+97
+00:02:25,990 --> 00:02:28,780
+can run this flow uh or by doing
+
+98
+00:02:28,780 --> 00:02:30,520
+it uh a forum trigger a manual
+
+99
+00:02:30,750 --> 00:02:31,870
+assessment and then we can run the
+
+100
+00:02:31,870 --> 00:02:34,669
+trigger on a continuous monitoring
+
+101
+00:02:34,669 --> 00:02:36,639
+or weekly audit weekly audit is
+
+102
+00:02:36,639 --> 00:02:37,680
+probably the best in terms of
+
+103
+00:02:37,680 --> 00:02:39,409
+keeping your API costs down you
+
+104
+00:02:39,460 --> 00:02:40,530
+should not have to pay for
+
+105
+00:02:40,530 --> 00:02:41,060
+mxtoolbox if you're just doing a
+
+106
+00:02:41,060 --> 00:02:42,240
+weekly audit should be fine
+
+107
+00:02:42,280 --> 00:02:43,530
+so if we go over here we're going
+
+108
+00:02:43,590 --> 00:02:44,939
+to see how this works so let's see
+
+109
+00:02:44,939 --> 00:02:46,639
+here from the form from the form
+
+110
+00:02:46,639 --> 00:02:48,379
+trigger i double click it at this
+
+111
+00:02:48,419 --> 00:02:49,949
+go to schema version
+
+112
+00:02:50,000 --> 00:02:51,530
+you can see the assessment type
+
+113
+00:02:51,590 --> 00:02:53,240
+we've chosen is a pre-campaign
+
+114
+00:02:53,240 --> 00:02:54,819
+validation this is essentially
+
+115
+00:02:54,819 --> 00:02:56,030
+you're running this before you
+
+116
+00:02:56,030 --> 00:02:57,460
+have started sending out your
+
+117
+00:02:57,460 --> 00:02:58,259
+email campaigns
+
+118
+00:02:58,319 --> 00:02:59,979
+you put in your domain name uh
+
+119
+00:02:59,979 --> 00:03:02,270
+your ip address uh the email
+
+120
+00:03:02,520 --> 00:03:04,939
+service provider uh the campaign
+
+121
+00:03:04,939 --> 00:03:05,449
+volume
+
+122
+00:03:05,500 --> 00:03:07,000
+the urgency level of checking this
+
+123
+00:03:07,009 --> 00:03:08,319
+as if for instance if there is a
+
+124
+00:03:08,319 --> 00:03:09,750
+performance issue or we're just
+
+125
+00:03:09,750 --> 00:03:10,300
+checking
+
+126
+00:03:10,340 --> 00:03:12,009
+beforehand uh add additional notes
+
+127
+00:03:12,030 --> 00:03:13,580
+this is for your own records that
+
+128
+00:03:13,580 --> 00:03:15,409
+we're going to save all of this in
+
+129
+00:03:15,479 --> 00:03:17,430
+air table so that runs and that's
+
+130
+00:03:17,430 --> 00:03:19,250
+we did a manual assessment so
+
+131
+00:03:19,250 --> 00:03:21,379
+we've got the manual assessment
+
+132
+00:03:21,379 --> 00:03:22,060
+data here
+
+133
+00:03:22,099 --> 00:03:23,629
+just get set it's the same stuff
+
+134
+00:03:23,689 --> 00:03:25,590
+that we had over here before then
+
+135
+00:03:25,590 --> 00:03:28,139
+what this does is it goes to the
+
+136
+00:03:28,139 --> 00:03:28,780
+mxtoolbox
+
+137
+00:03:28,860 --> 00:03:30,729
+blacklist check this checks if it
+
+138
+00:03:30,729 --> 00:03:32,620
+has been blacklisted then the spf
+
+139
+00:03:32,620 --> 00:03:34,819
+record check dkim record check and
+
+140
+00:03:34,819 --> 00:03:36,060
+the dmark policy check
+
+141
+00:03:36,099 --> 00:03:37,180
+basically all the things you want
+
+142
+00:03:37,180 --> 00:03:38,270
+to check to make sure your domains
+
+143
+00:03:38,310 --> 00:03:40,180
+deliverability is at the peak that
+
+144
+00:03:40,180 --> 00:03:40,229
+it
+
+145
+00:03:40,300 --> 00:03:41,830
+should be so let's take a look in
+
+146
+00:03:41,889 --> 00:03:43,560
+here we're going to see how we set
+
+147
+00:03:43,560 --> 00:03:45,340
+that api key we've already got all
+
+148
+00:03:45,340 --> 00:03:45,740
+the information
+
+149
+00:03:45,819 --> 00:03:47,819
+you need in here that's all set up
+
+150
+00:03:47,819 --> 00:03:49,710
+and good to go but if you go down
+
+151
+00:03:49,710 --> 00:03:51,250
+here you're going to see the
+
+152
+00:03:51,460 --> 00:03:53,439
+authorization and this is our
+
+153
+00:03:53,439 --> 00:03:55,520
+variable that we got from here
+
+154
+00:03:55,659 --> 00:03:57,439
+right so if you name this mx
+
+155
+00:03:57,439 --> 00:03:58,629
+toolbox api
+
+156
+00:03:58,680 --> 00:04:00,469
+that and put your your api key in
+
+157
+00:04:00,509 --> 00:04:01,939
+here then this will work
+
+158
+00:04:01,939 --> 00:04:04,819
+automatically but uh say you named
+
+159
+00:04:04,819 --> 00:04:04,849
+it
+
+160
+00:04:04,939 --> 00:04:06,729
+something else you wanted to add a
+
+161
+00:04:06,789 --> 00:04:08,520
+variable it's very simple as we
+
+162
+00:04:08,520 --> 00:04:10,099
+saw over here you copy this
+
+163
+00:04:10,139 --> 00:04:12,009
+make sure the word bearer and
+
+164
+00:04:12,009 --> 00:04:14,060
+space is in there for that's the
+
+165
+00:04:14,060 --> 00:04:16,310
+type of authentication that the mx
+
+166
+00:04:16,389 --> 00:04:16,740
+toolbox
+
+167
+00:04:16,779 --> 00:04:19,509
+api uses then we do a space to uh
+
+168
+00:04:19,569 --> 00:04:22,680
+curly brackets there we go that's
+
+169
+00:04:22,680 --> 00:04:25,019
+it paste it in so if we've got
+
+170
+00:04:25,120 --> 00:04:27,279
+the setup for you so just go to uh
+
+171
+00:04:27,329 --> 00:04:29,439
+variables create one named mx
+
+172
+00:04:29,439 --> 00:04:31,860
+toolbox api paste in your api key
+
+173
+00:04:31,860 --> 00:04:32,319
+and
+
+174
+00:04:32,360 --> 00:04:34,470
+then everything else will work so
+
+175
+00:04:34,519 --> 00:04:36,579
+then it runs through all of those
+
+176
+00:04:36,579 --> 00:04:39,490
+before we send it to an ai to make
+
+177
+00:04:39,500 --> 00:04:39,720
+an
+
+178
+00:04:40,000 --> 00:04:42,110
+analysis of it where it gives us a
+
+179
+00:04:42,209 --> 00:04:44,100
+score a grade a summary uh notes
+
+180
+00:04:44,199 --> 00:04:46,420
+any issues uh and ways to fix this
+
+181
+00:04:46,459 --> 00:04:47,699
+and then we save it to an air
+
+182
+00:04:47,759 --> 00:04:49,350
+table base so i'm going to share
+
+183
+00:04:49,420 --> 00:04:50,769
+the air table base that i've
+
+184
+00:04:50,769 --> 00:04:51,319
+created
+
+185
+00:04:51,360 --> 00:04:53,060
+for this uh with you guys so you
+
+186
+00:04:53,060 --> 00:04:54,889
+guys can essentially copy it uh
+
+187
+00:04:54,889 --> 00:04:56,430
+but all this does here is it
+
+188
+00:04:56,439 --> 00:04:57,040
+stores the
+
+189
+00:04:57,079 --> 00:04:59,089
+assessment in the air table base
+
+190
+00:04:59,089 --> 00:05:00,970
+so this is what it looks like uh
+
+191
+00:05:00,970 --> 00:05:02,899
+it's just called domain risk
+
+192
+00:05:02,899 --> 00:05:03,250
+manager
+
+193
+00:05:03,300 --> 00:05:04,480
+and if you go across here you can
+
+194
+00:05:04,480 --> 00:05:05,759
+see it's got all the information
+
+195
+00:05:05,759 --> 00:05:06,660
+we need gives us the
+
+196
+00:05:06,720 --> 00:05:08,779
+different uh results the score the
+
+197
+00:05:08,930 --> 00:05:10,990
+timestamp and the recommendations
+
+198
+00:05:10,990 --> 00:05:12,149
+and then the status
+
+199
+00:05:12,259 --> 00:05:13,189
+so this just helps us to keep
+
+200
+00:05:13,189 --> 00:05:14,370
+track of everything and make sure
+
+201
+00:05:14,470 --> 00:05:15,620
+that everything is all running
+
+202
+00:05:15,689 --> 00:05:16,100
+smoothly
+
+203
+00:05:16,139 --> 00:05:17,399
+uh we can check this on a regular
+
+204
+00:05:17,439 --> 00:05:18,500
+basis but also we want to be
+
+205
+00:05:18,500 --> 00:05:19,769
+notified if there's a problem
+
+206
+00:05:19,850 --> 00:05:20,089
+right
+
+207
+00:05:20,199 --> 00:05:22,600
+so it checks the alert threshold
+
+208
+00:05:22,600 --> 00:05:24,740
+so basically if the alert is or
+
+209
+00:05:24,769 --> 00:05:27,279
+the domain score is less than 70
+
+210
+00:05:27,319 --> 00:05:28,990
+it will send us uh an alert and if
+
+211
+00:05:29,000 --> 00:05:30,660
+not it just sends us the status
+
+212
+00:05:30,660 --> 00:05:32,120
+report after the thing is run
+
+213
+00:05:32,160 --> 00:05:33,389
+saying it's all good here's what
+
+214
+00:05:33,389 --> 00:05:34,509
+we've got so far so either way
+
+215
+00:05:34,509 --> 00:05:36,040
+you're getting a message in slack
+
+216
+00:05:36,079 --> 00:05:37,240
+either saying that there's a
+
+217
+00:05:37,250 --> 00:05:38,689
+critical alert or that everything
+
+218
+00:05:38,689 --> 00:05:40,519
+is all good and again as i've
+
+219
+00:05:40,519 --> 00:05:40,720
+shown you
+
+220
+00:05:40,759 --> 00:05:42,259
+in previous videos to set up slack
+
+221
+00:05:42,259 --> 00:05:43,629
+you simply just add your slack
+
+222
+00:05:43,629 --> 00:05:45,220
+account then choose whether you
+
+223
+00:05:45,220 --> 00:05:45,379
+want
+
+224
+00:05:45,420 --> 00:05:46,949
+the message to go to a channel or
+
+225
+00:05:47,009 --> 00:05:48,490
+to a user so you can send it to a
+
+226
+00:05:48,490 --> 00:05:50,040
+channel uh you know it's gonna be
+
+227
+00:05:50,079 --> 00:05:51,300
+your email to really check our
+
+228
+00:05:51,300 --> 00:05:52,720
+channel to make sure it's working
+
+229
+00:05:52,720 --> 00:05:54,939
+okay uh you just send message to
+
+230
+00:05:54,980 --> 00:05:56,230
+channel instead of user and select
+
+231
+00:05:56,290 --> 00:05:57,439
+your channel from here or select
+
+232
+00:05:57,439 --> 00:05:58,610
+user and then as i have done
+
+233
+00:05:58,699 --> 00:06:00,860
+select my username from slack and
+
+234
+00:06:00,910 --> 00:06:03,300
+that's how the slack notifications
+
+235
+00:06:03,300 --> 00:06:05,040
+work so again if you just roll
+
+236
+00:06:05,079 --> 00:06:06,839
+through this super quick you will
+
+237
+00:06:06,850 --> 00:06:08,670
+trigger the manual assessment by
+
+238
+00:06:08,670 --> 00:06:10,589
+uh opening the form and inputting
+
+239
+00:06:10,639 --> 00:06:12,610
+uh all of this information here
+
+240
+00:06:12,610 --> 00:06:14,680
+then it will send that through to
+
+241
+00:06:14,680 --> 00:06:16,810
+mx toolbox where we check all of
+
+242
+00:06:16,889 --> 00:06:17,000
+the
+
+243
+00:06:17,040 --> 00:06:18,370
+different uh things we need to
+
+244
+00:06:18,370 --> 00:06:19,509
+know about the domain our ai
+
+245
+00:06:19,620 --> 00:06:20,990
+summarizes it in a nice report
+
+246
+00:06:21,240 --> 00:06:21,930
+stores it in
+
+247
+00:06:21,980 --> 00:06:23,769
+air table and then sends us a
+
+248
+00:06:23,829 --> 00:06:25,930
+message in slack so again i will
+
+249
+00:06:26,180 --> 00:06:28,480
+share this uh air table base uh
+
+250
+00:06:28,480 --> 00:06:28,720
+with
+
+251
+00:06:28,759 --> 00:06:29,910
+you so you guys can copy it
+
+252
+00:06:29,930 --> 00:06:31,449
+exactly if you make a base and you
+
+253
+00:06:31,449 --> 00:06:33,269
+name it domain risk manager you
+
+254
+00:06:33,279 --> 00:06:33,730
+name
+
+255
+00:06:33,779 --> 00:06:35,660
+the table deliverability
+
+256
+00:06:35,660 --> 00:06:38,120
+assessments and add these fields
+
+257
+00:06:38,120 --> 00:06:40,279
+then we will be good to go uh you
+
+258
+00:06:40,279 --> 00:06:40,899
+also if
+
+259
+00:06:40,939 --> 00:06:42,100
+you're totally free to swap this
+
+260
+00:06:42,110 --> 00:06:43,290
+out for a google sheet it'd be the
+
+261
+00:06:43,290 --> 00:06:44,420
+exact same process you would
+
+262
+00:06:44,420 --> 00:06:44,569
+simply
+
+263
+00:06:44,620 --> 00:06:46,290
+just add a google sheet node and
+
+264
+00:06:46,290 --> 00:06:47,939
+you would change adding uh all
+
+265
+00:06:47,939 --> 00:06:49,819
+these uh different outputs that
+
+266
+00:06:49,819 --> 00:06:49,899
+you
+
+267
+00:06:49,939 --> 00:06:51,310
+get here so you don't score grade
+
+268
+00:06:51,310 --> 00:06:52,579
+summary issues remediation
+
+269
+00:06:52,579 --> 00:06:53,990
+optimizations just got all that
+
+270
+00:06:54,000 --> 00:06:54,360
+stuff
+
+271
+00:06:54,399 --> 00:06:56,329
+there so that's the basis of how
+
+272
+00:06:56,329 --> 00:06:58,360
+it works um hopefully this will be
+
+273
+00:06:58,430 --> 00:07:00,199
+a super useful one for you guys
+
+274
+00:07:00,240 --> 00:07:01,389
+especially any of you guys that
+
+275
+00:07:01,410 --> 00:07:02,399
+are doing uh both cold email
+
+276
+00:07:02,449 --> 00:07:03,540
+marketing and e-com email
+
+277
+00:07:03,540 --> 00:07:03,839
+marketing
+
+278
+00:07:03,879 --> 00:07:06,250
+and uh yeah i'll see you guys in
+
+279
+00:07:06,250 --> 00:07:07,040
+the next one peace

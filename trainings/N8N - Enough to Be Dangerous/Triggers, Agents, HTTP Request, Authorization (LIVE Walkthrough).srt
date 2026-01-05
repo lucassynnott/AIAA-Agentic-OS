@@ -1,0 +1,2415 @@
+1
+00:00:00,000 --> 00:00:01,600
+What's up, guys?
+
+2
+00:00:01,600 --> 00:00:03,000
+Lucas here.
+
+3
+00:00:03,000 --> 00:00:04,639
+So today I'm going to be showing
+
+4
+00:00:04,639 --> 00:00:05,860
+you an existing workflow
+
+5
+00:00:05,860 --> 00:00:06,849
+we have.
+
+6
+00:00:06,910 --> 00:00:08,410
+I'm a great believer in general of
+
+7
+00:00:08,410 --> 00:00:10,029
+showing things practically and,
+
+8
+00:00:10,029 --> 00:00:10,599
+you know,
+
+9
+00:00:10,599 --> 00:00:11,689
+breaking down the exact use case
+
+10
+00:00:11,779 --> 00:00:12,779
+for them rather than just learning
+
+11
+00:00:12,929 --> 00:00:13,550
+the theory behind
+
+12
+00:00:13,560 --> 00:00:13,960
+things.
+
+13
+00:00:13,960 --> 00:00:16,050
+So for this, I'm going to be
+
+14
+00:00:16,050 --> 00:00:18,620
+showing you a workflow that takes
+
+15
+00:00:18,620 --> 00:00:20,300
+a message from Telegram
+
+16
+00:00:20,300 --> 00:00:22,010
+and writes a LinkedIn post based
+
+17
+00:00:22,010 --> 00:00:23,579
+around the idea you've sent to
+
+18
+00:00:23,579 --> 00:00:25,219
+Telegram and then sends
+
+19
+00:00:25,300 --> 00:00:27,010
+it to LinkedIn and lets you know
+
+20
+00:00:27,010 --> 00:00:27,670
+about it.
+
+21
+00:00:27,670 --> 00:00:29,250
+So we're going to start off by
+
+22
+00:00:29,250 --> 00:00:30,120
+breaking down
+
+23
+00:00:30,120 --> 00:00:30,980
+the workflow and then showing you
+
+24
+00:00:30,980 --> 00:00:31,589
+how to get it working.
+
+25
+00:00:31,589 --> 00:00:32,298
+As you can see, there's a few
+
+26
+00:00:32,420 --> 00:00:33,439
+notes here that are red, and I'm
+
+27
+00:00:33,600 --> 00:00:34,490
+going to explain why that is what
+
+28
+00:00:34,490 --> 00:00:35,159
+we do to fix them.
+
+29
+00:00:35,219 --> 00:00:36,810
+So let's start off by just an
+
+30
+00:00:36,890 --> 00:00:39,000
+overview of what the workflow does
+
+31
+00:00:39,119 --> 00:00:39,840
+in total.
+
+32
+00:00:39,840 --> 00:00:40,859
+So the trigger
+
+33
+00:00:40,859 --> 00:00:42,460
+referred is a Telegram message.
+
+34
+00:00:42,530 --> 00:00:44,000
+So sending a message to a Telegram
+
+35
+00:00:44,000 --> 00:00:45,060
+bot starts the whole
+
+36
+00:00:45,060 --> 00:00:45,500
+flow.
+
+37
+00:00:45,750 --> 00:00:47,240
+Then this LinkedIn post agent will
+
+38
+00:00:47,390 --> 00:00:48,280
+write the post.
+
+39
+00:00:48,280 --> 00:00:49,979
+This agent will write the title
+
+40
+00:00:50,060 --> 00:00:50,179
+for
+
+41
+00:00:50,179 --> 00:00:50,909
+the post.
+
+42
+00:00:50,909 --> 00:00:52,869
+Then this tool will create a nice
+
+43
+00:00:52,869 --> 00:00:53,530
+Google doc.
+
+44
+00:00:53,700 --> 00:00:55,320
+It will move it to the correct
+
+45
+00:00:55,320 --> 00:00:55,820
+folder.
+
+46
+00:00:55,820 --> 00:00:56,929
+And then it will send you a
+
+47
+00:00:57,009 --> 00:00:58,429
+message to Telegram asking you if
+
+48
+00:00:58,429 --> 00:01:00,000
+you want to approve the post for
+
+49
+00:01:00,000 --> 00:01:00,600
+posting.
+
+50
+00:01:00,719 --> 00:01:02,179
+If you say yes, it will prepare it
+
+51
+00:01:02,329 --> 00:01:04,019
+for the LinkedIn content queue.
+
+52
+00:01:04,019 --> 00:01:05,019
+If not, it just marks
+
+53
+00:01:05,019 --> 00:01:06,349
+the automation as done.
+
+54
+00:01:06,349 --> 00:01:07,760
+Then it'll create the post and
+
+55
+00:01:07,980 --> 00:01:09,180
+then it will send you a text
+
+56
+00:01:09,180 --> 00:01:09,939
+message telling
+
+57
+00:01:10,000 --> 00:01:10,890
+you that it's been posted.
+
+58
+00:01:10,900 --> 00:01:12,640
+So let's start off by looking at
+
+59
+00:01:12,640 --> 00:01:14,060
+the Telegram trigger.
+
+60
+00:01:14,060 --> 00:01:14,819
+Zoom in here.
+
+61
+00:01:14,819 --> 00:01:15,719
+Double click.
+
+62
+00:01:15,909 --> 00:01:17,189
+You can see here we've got no
+
+63
+00:01:17,189 --> 00:01:18,900
+credentials for Telegram.
+
+64
+00:01:19,260 --> 00:01:20,120
+So we're going to create a new
+
+65
+00:01:20,439 --> 00:01:20,659
+credential.
+
+66
+00:01:20,659 --> 00:01:22,719
+And as always, you see we've got
+
+67
+00:01:22,939 --> 00:01:23,250
+access token
+
+68
+00:01:23,260 --> 00:01:24,230
+in base URL, but we're going to do
+
+69
+00:01:24,420 --> 00:01:25,250
+what I always suggest, which is
+
+70
+00:01:25,250 --> 00:01:26,819
+reading the docs that will
+
+71
+00:01:26,859 --> 00:01:27,829
+give you the step-by-step
+
+72
+00:01:28,010 --> 00:01:29,219
+walkthrough of how to set this up.
+
+73
+00:01:29,219 --> 00:01:31,060
+So to generate our access token,
+
+74
+00:01:31,060 --> 00:01:32,079
+we start a chat with the bot
+
+75
+00:01:32,250 --> 00:01:33,459
+father and then enter new bot.
+
+76
+00:01:33,459 --> 00:01:35,420
+So let's click bot father.
+
+77
+00:01:35,420 --> 00:01:35,560
+It's
+
+78
+00:01:35,560 --> 00:01:37,099
+going to open my Telegram here.
+
+79
+00:01:37,099 --> 00:01:38,540
+We're going to click start.
+
+80
+00:01:38,540 --> 00:01:41,439
+From here, we're going to do new
+
+81
+00:01:41,439 --> 00:01:41,780
+bot.
+
+82
+00:01:41,780 --> 00:01:43,170
+What are we going to call it?
+
+83
+00:01:43,170 --> 00:01:44,180
+Please choose a name.
+
+84
+00:01:44,340 --> 00:01:46,849
+So let's just say CA N8N, right?
+
+85
+00:01:48,340 --> 00:01:50,340
+Username was NN bot.
+
+86
+00:01:50,340 --> 00:01:55,769
+So CA N8N bot done.
+
+87
+00:01:56,049 --> 00:01:58,299
+So now we've got our access token.
+
+88
+00:01:58,299 --> 00:02:00,579
+So that was super simple,
+
+89
+00:02:00,579 --> 00:02:01,370
+super easy.
+
+90
+00:02:01,370 --> 00:02:02,420
+Let's copy this.
+
+91
+00:02:02,420 --> 00:02:03,930
+Let's go back here and paste this
+
+92
+00:02:04,099 --> 00:02:05,739
+in as the access token and save
+
+93
+00:02:05,739 --> 00:02:05,939
+it.
+
+94
+00:02:06,620 --> 00:02:08,340
+Done, right?
+
+95
+00:02:08,340 --> 00:02:10,840
+So now when we send a message to
+
+96
+00:02:10,840 --> 00:02:14,000
+that bot, which is now in our, or
+
+97
+00:02:14,000 --> 00:02:14,979
+should be in our Telegram,
+
+98
+00:02:14,979 --> 00:02:17,159
+we click this and click start,
+
+99
+00:02:17,310 --> 00:02:19,509
+this is now our bot where we will
+
+100
+00:02:19,509 --> 00:02:21,379
+send our messages, right?
+
+101
+00:02:21,379 --> 00:02:24,979
+So next thing,
+
+102
+00:02:24,979 --> 00:02:26,199
+I'm going to break down just what
+
+103
+00:02:26,199 --> 00:02:27,719
+this LinkedIn post agent does.
+
+104
+00:02:27,949 --> 00:02:30,099
+So if we go here, you can see it's
+
+105
+00:02:30,099 --> 00:02:31,210
+set as a tools
+
+106
+00:02:31,219 --> 00:02:33,080
+agent, and we have a prompt and a
+
+107
+00:02:33,150 --> 00:02:35,199
+system message, a user message, a
+
+108
+00:02:35,210 --> 00:02:36,419
+system message.
+
+109
+00:02:36,419 --> 00:02:37,219
+If you set it to expression,
+
+110
+00:02:37,219 --> 00:02:38,379
+set it to expression, then click
+
+111
+00:02:38,409 --> 00:02:39,400
+this little button here, we're
+
+112
+00:02:39,550 --> 00:02:41,300
+going to be able to see what the
+
+113
+00:02:41,300 --> 00:02:41,460
+whole
+
+114
+00:02:41,460 --> 00:02:42,020
+thing looks like.
+
+115
+00:02:42,180 --> 00:02:44,199
+So let's change that to message.
+
+116
+00:02:44,430 --> 00:02:46,659
+Let's read what this says goal.
+
+117
+00:02:46,659 --> 00:02:47,860
+Take the idea
+
+118
+00:02:47,860 --> 00:02:48,620
+provided and turn it into a
+
+119
+00:02:48,620 --> 00:02:49,120
+LinkedIn post.
+
+120
+00:02:49,159 --> 00:02:50,039
+Remember that I am Lucas Sennett
+
+121
+00:02:50,159 --> 00:02:50,819
+and I'm writing the first
+
+122
+00:02:50,819 --> 00:02:51,120
+person.
+
+123
+00:02:51,120 --> 00:02:51,979
+Use the general idea, topic,
+
+124
+00:02:52,009 --> 00:02:52,969
+combine your system of knowledge,
+
+125
+00:02:52,969 --> 00:02:54,020
+create a high performing LinkedIn
+
+126
+00:02:54,020 --> 00:02:54,400
+post.
+
+127
+00:02:54,620 --> 00:02:55,879
+Format the output according to the
+
+128
+00:02:55,969 --> 00:02:57,539
+LinkedIn frameworks provided,
+
+129
+00:02:57,849 --> 00:02:58,259
+including a stronghold,
+
+130
+00:02:58,259 --> 00:02:59,289
+clear structure, and engaging
+
+131
+00:02:59,449 --> 00:02:59,789
+conclusion.
+
+132
+00:02:59,789 --> 00:03:00,610
+It's supposed to be purely
+
+133
+00:03:00,610 --> 00:03:01,219
+text-based.
+
+134
+00:03:01,219 --> 00:03:02,150
+Write the copy in the voice and
+
+135
+00:03:02,400 --> 00:03:03,090
+character that myself, Lucas
+
+136
+00:03:03,150 --> 00:03:03,960
+Sennett would have when writing
+
+137
+00:03:04,180 --> 00:03:04,560
+content.
+
+138
+00:03:04,740 --> 00:03:05,710
+It sounds real, naturalized
+
+139
+00:03:05,930 --> 00:03:06,889
+without using a real to human,
+
+140
+00:03:06,889 --> 00:03:07,699
+human conversation,
+
+141
+00:03:07,699 --> 00:03:08,830
+as the owner of a marketing
+
+142
+00:03:08,889 --> 00:03:09,289
+agency.
+
+143
+00:03:09,289 --> 00:03:10,409
+In response to include any
+
+144
+00:03:10,409 --> 00:03:11,780
+formatting or odd characters,
+
+145
+00:03:11,780 --> 00:03:13,219
+be sure to only reply to the post
+
+146
+00:03:13,219 --> 00:03:14,520
+copy, don't include any other
+
+147
+00:03:14,750 --> 00:03:15,699
+texts or explanations.
+
+148
+00:03:15,719 --> 00:03:15,939
+Like here
+
+149
+00:03:15,939 --> 00:03:16,740
+we have message.
+
+150
+00:03:16,759 --> 00:03:18,090
+And the reason for that is that we
+
+151
+00:03:18,090 --> 00:03:19,439
+are going to send a message to the
+
+152
+00:03:19,639 --> 00:03:20,500
+Telegram bot.
+
+153
+00:03:20,500 --> 00:03:21,860
+And then we're going to, from over
+
+154
+00:03:21,860 --> 00:03:23,080
+here, you'll see the Telegram
+
+155
+00:03:23,080 --> 00:03:23,620
+trigger.
+
+156
+00:03:23,620 --> 00:03:24,740
+We're going to get the
+
+157
+00:03:24,740 --> 00:03:25,710
+message here and paste it in
+
+158
+00:03:25,930 --> 00:03:26,169
+there.
+
+159
+00:03:26,169 --> 00:03:27,449
+So it'll send the message to our
+
+160
+00:03:27,449 --> 00:03:27,860
+agent.
+
+161
+00:03:27,860 --> 00:03:29,210
+Let's look at the system
+
+162
+00:03:29,219 --> 00:03:30,240
+message first.
+
+163
+00:03:30,400 --> 00:03:31,960
+Tells it that you are a persuasive
+
+164
+00:03:32,120 --> 00:03:34,409
+LinkedIn content strategist.
+
+165
+00:03:34,409 --> 00:03:35,129
+Use the following
+
+166
+00:03:35,139 --> 00:03:36,710
+internal reference documents.
+
+167
+00:03:36,710 --> 00:03:38,419
+Then we have information about me.
+
+168
+00:03:38,419 --> 00:03:39,860
+This is just my background
+
+169
+00:03:39,860 --> 00:03:41,229
+and some information.
+
+170
+00:03:41,259 --> 00:03:43,090
+Then we have a reference document
+
+171
+00:03:43,090 --> 00:03:44,599
+on writing high converting
+
+172
+00:03:44,599 --> 00:03:45,699
+LinkedIn posts
+
+173
+00:03:45,699 --> 00:03:46,789
+and how to do that.
+
+174
+00:03:46,879 --> 00:03:48,419
+It's just information on what
+
+175
+00:03:48,419 --> 00:03:49,620
+makes a good post.
+
+176
+00:03:49,639 --> 00:03:51,300
+It's got some examples,
+
+177
+00:03:51,300 --> 00:03:53,770
+some frameworks overall, things
+
+178
+00:03:53,770 --> 00:03:54,629
+like that.
+
+179
+00:03:54,949 --> 00:03:55,770
+Also, we're going to add in
+
+180
+00:03:58,099 --> 00:04:01,669
+reference document one, you can
+
+181
+00:04:01,669 --> 00:04:03,289
+send it.
+
+182
+00:04:03,289 --> 00:04:04,020
+There we go.
+
+183
+00:04:04,020 --> 00:04:07,349
+And this is connected to the open
+
+184
+00:04:07,949 --> 00:04:09,099
+writer chat module, which is
+
+185
+00:04:09,099 --> 00:04:10,740
+connected to cloud 3.7 sonnet.
+
+186
+00:04:10,740 --> 00:04:13,960
+Then this one just writes the
+
+187
+00:04:13,960 --> 00:04:15,060
+title.
+
+188
+00:04:15,060 --> 00:04:16,420
+So turn the LinkedIn post below
+
+189
+00:04:16,420 --> 00:04:17,560
+into a 3-7 word title.
+
+190
+00:04:17,579 --> 00:04:17,699
+We can
+
+191
+00:04:17,699 --> 00:04:18,480
+insert as the title of the
+
+192
+00:04:18,629 --> 00:04:19,509
+document that has this LinkedIn
+
+193
+00:04:19,509 --> 00:04:20,259
+post inside of it.
+
+194
+00:04:20,259 --> 00:04:21,029
+Don't respond to anything
+
+195
+00:04:21,139 --> 00:04:22,740
+other than the completed 3-7 word
+
+196
+00:04:22,810 --> 00:04:23,149
+title.
+
+197
+00:04:23,149 --> 00:04:24,930
+That 3-7 word title should be the
+
+198
+00:04:25,079 --> 00:04:25,939
+only thing in your response.
+
+199
+00:04:25,939 --> 00:04:27,180
+The LinkedIn post, and then we're
+
+200
+00:04:27,180 --> 00:04:28,370
+going to have the LinkedIn post in
+
+201
+00:04:28,370 --> 00:04:28,660
+there.
+
+202
+00:04:28,660 --> 00:04:30,839
+And that is connected to the
+
+203
+00:04:30,990 --> 00:04:33,540
+DeepSeq R1 free model.
+
+204
+00:04:33,540 --> 00:04:34,500
+Again, because this is a very
+
+205
+00:04:34,500 --> 00:04:34,980
+lightweight,
+
+206
+00:04:34,980 --> 00:04:36,329
+small task, isn't super important.
+
+207
+00:04:36,329 --> 00:04:37,459
+So we're going to use DeepSeq,
+
+208
+00:04:37,459 --> 00:04:38,660
+which is a good free AI.
+
+209
+00:04:39,779 --> 00:04:41,089
+And then over here, we've got the
+
+210
+00:04:41,089 --> 00:04:41,860
+HTTP request.
+
+211
+00:04:41,860 --> 00:04:43,110
+And what this is doing is actually
+
+212
+00:04:43,680 --> 00:04:44,259
+sending our,
+
+213
+00:04:44,259 --> 00:04:47,000
+the text we output is what we call
+
+214
+00:04:47,220 --> 00:04:48,980
+markdown, which is, you probably
+
+215
+00:04:48,980 --> 00:04:50,819
+have seen it's like hashtags and
+
+216
+00:04:50,819 --> 00:04:51,779
+stuff and weird formatting.
+
+217
+00:04:51,920 --> 00:04:53,459
+So we're going to send that to
+
+218
+00:04:53,459 --> 00:04:57,160
+this service called md2doc.n8n.
+
+219
+00:04:57,170 --> 00:04:58,240
+And what this
+
+220
+00:04:58,339 --> 00:05:00,459
+does is it creates a very nice
+
+221
+00:05:00,459 --> 00:05:02,480
+Google Doc in our Google Doc
+
+222
+00:05:02,480 --> 00:05:03,459
+account.
+
+223
+00:05:03,459 --> 00:05:05,060
+So you can see there,
+
+224
+00:05:05,060 --> 00:05:05,990
+my Google Docs account is
+
+225
+00:05:06,250 --> 00:05:07,240
+connected, and it'll make the nice
+
+226
+00:05:07,389 --> 00:05:08,389
+post blah, blah, blah.
+
+227
+00:05:09,000 --> 00:05:10,259
+Then it's going to
+
+228
+00:05:10,259 --> 00:05:12,089
+move the file to the correct
+
+229
+00:05:12,089 --> 00:05:14,279
+folder called LinkedIn posts.
+
+230
+00:05:14,279 --> 00:05:16,430
+Then it will send us a message and
+
+231
+00:05:16,430 --> 00:05:17,060
+wait for
+
+232
+00:05:17,060 --> 00:05:17,720
+the response.
+
+233
+00:05:17,779 --> 00:05:18,790
+If you want to approve of the
+
+234
+00:05:18,790 --> 00:05:20,199
+posting, if that's true, you can
+
+235
+00:05:20,199 --> 00:05:20,899
+see here, it says,
+
+236
+00:05:20,899 --> 00:05:22,490
+here's the poster that's posted,
+
+237
+00:05:22,569 --> 00:05:24,089
+I'll have a link there, the child
+
+238
+00:05:24,089 --> 00:05:25,139
+ID we're going to get from our
+
+239
+00:05:25,860 --> 00:05:26,180
+trigger.
+
+240
+00:05:26,329 --> 00:05:29,250
+And it's also approval options.
+
+241
+00:05:29,250 --> 00:05:32,240
+So approve, and then approval,
+
+242
+00:05:32,240 --> 00:05:34,310
+approve and disprove.
+
+243
+00:05:34,420 --> 00:05:35,379
+So approve or
+
+244
+00:05:35,379 --> 00:05:36,180
+decline, right?
+
+245
+00:05:36,189 --> 00:05:36,819
+Very simple.
+
+246
+00:05:36,819 --> 00:05:39,910
+And then depending on that, this
+
+247
+00:05:39,910 --> 00:05:42,810
+will say, if the approved is true
+
+248
+00:05:43,160 --> 00:05:43,740
+or false,
+
+249
+00:05:43,779 --> 00:05:45,529
+will determine if it gets sent for
+
+250
+00:05:45,529 --> 00:05:46,420
+preparation.
+
+251
+00:05:46,420 --> 00:05:48,149
+Here, all this is going to do is
+
+252
+00:05:48,149 --> 00:05:48,819
+just give us some
+
+253
+00:05:48,819 --> 00:05:50,420
+of the it's going to just format
+
+254
+00:05:50,490 --> 00:05:52,149
+like the content type, text, the
+
+255
+00:05:52,449 --> 00:05:54,420
+doc URL, the credit day, just
+
+256
+00:05:54,420 --> 00:05:54,660
+giving
+
+257
+00:05:54,660 --> 00:05:56,430
+us some overall information that
+
+258
+00:05:56,430 --> 00:05:56,839
+we need.
+
+259
+00:05:56,990 --> 00:05:58,680
+And then it's going to create the
+
+260
+00:05:58,680 --> 00:06:00,019
+post and we have to connect
+
+261
+00:06:00,019 --> 00:06:01,720
+our LinkedIn as well.
+
+262
+00:06:01,720 --> 00:06:03,839
+So finally, it'll send a text
+
+263
+00:06:03,959 --> 00:06:05,970
+message back to us with saying
+
+264
+00:06:05,970 --> 00:06:07,139
+that it's been posted
+
+265
+00:06:07,139 --> 00:06:08,740
+and it's good to go.
+
+266
+00:06:08,810 --> 00:06:09,759
+All right.
+
+267
+00:06:09,759 --> 00:06:11,939
+So let us start with sending a
+
+268
+00:06:11,939 --> 00:06:14,420
+message to the Telegram bot.
+
+269
+00:06:14,420 --> 00:06:14,560
+So
+
+270
+00:06:14,660 --> 00:06:19,480
+a LinkedIn post about the power of
+
+271
+00:06:19,480 --> 00:06:22,579
+AI for agency owners, reducing
+
+272
+00:06:22,579 --> 00:06:27,050
+overhead and staff hiring costs
+
+273
+00:06:27,060 --> 00:06:27,459
+while
+
+274
+00:06:28,180 --> 00:06:29,459
+increasing efficiency.
+
+275
+00:06:29,459 --> 00:06:31,829
+So we're going to send that.
+
+276
+00:06:31,829 --> 00:06:34,579
+Now, when this is active and on,
+
+277
+00:06:34,579 --> 00:06:35,139
+this here currently
+
+278
+00:06:35,139 --> 00:06:36,399
+is inactive, that will run
+
+279
+00:06:36,439 --> 00:06:37,290
+automatically.
+
+280
+00:06:37,290 --> 00:06:38,480
+But for now, we can do is we can
+
+281
+00:06:38,860 --> 00:06:39,779
+just use this as a test
+
+282
+00:06:39,779 --> 00:06:40,220
+event.
+
+283
+00:06:40,220 --> 00:06:41,629
+So you can see here, it's got my
+
+284
+00:06:41,629 --> 00:06:43,110
+most recent message, right?
+
+285
+00:06:43,110 --> 00:06:44,250
+And we're doing this.
+
+286
+00:06:44,250 --> 00:06:44,500
+The reason
+
+287
+00:06:44,500 --> 00:06:45,470
+we have it's activated is we don't
+
+288
+00:06:45,629 --> 00:06:46,490
+want the whole thing to run yet.
+
+289
+00:06:46,490 --> 00:06:47,779
+We want to test this step by step.
+
+290
+00:06:48,339 --> 00:06:50,069
+And if you update a few things.
+
+291
+00:06:50,069 --> 00:06:51,829
+So as mentioned here, we need to
+
+292
+00:06:52,019 --> 00:06:53,699
+get the message in the user
+
+293
+00:06:53,699 --> 00:06:54,180
+prompt.
+
+294
+00:06:54,180 --> 00:06:55,920
+So we're going to drag text here,
+
+295
+00:06:55,920 --> 00:06:57,509
+as you can see there, that's what
+
+296
+00:06:57,860 --> 00:06:59,139
+the message is going to be.
+
+297
+00:06:59,839 --> 00:07:00,259
+Right.
+
+298
+00:07:00,329 --> 00:07:03,610
+So that we can now run this.
+
+299
+00:07:03,620 --> 00:07:06,500
+So like a second to do or so.
+
+300
+00:07:12,019 --> 00:07:12,740
+Good, we're done.
+
+301
+00:07:12,740 --> 00:07:16,100
+So now here, we've got a post.
+
+302
+00:07:16,100 --> 00:07:19,139
+And we have to tell this to, yeah,
+
+303
+00:07:19,139 --> 00:07:21,170
+it's going to write the title now
+
+304
+00:07:21,170 --> 00:07:22,420
+using Deep Seek.
+
+305
+00:07:23,600 --> 00:07:25,699
+There we go.
+
+306
+00:07:25,699 --> 00:07:26,980
+So we've got a nice title.
+
+307
+00:07:26,980 --> 00:07:28,980
+And finally, we have our Google
+
+308
+00:07:28,980 --> 00:07:30,569
+Docs creator here.
+
+309
+00:07:30,579 --> 00:07:32,079
+So what this is doing is it's
+
+310
+00:07:32,079 --> 00:07:33,920
+going to take the output from the
+
+311
+00:07:34,509 --> 00:07:35,990
+LinkedIn post agent, the text
+
+312
+00:07:36,040 --> 00:07:36,300
+output
+
+313
+00:07:36,339 --> 00:07:37,939
+from the LinkedIn post agent, and
+
+314
+00:07:38,009 --> 00:07:39,410
+that is going to be the contents
+
+315
+00:07:39,410 --> 00:07:40,079
+of the doc.
+
+316
+00:07:40,259 --> 00:07:41,220
+Then for the name,
+
+317
+00:07:41,220 --> 00:07:42,699
+we're going to get the output of
+
+318
+00:07:42,699 --> 00:07:44,259
+the LinkedIn post title doc.
+
+319
+00:07:44,259 --> 00:07:46,579
+So when we execute that now,
+
+320
+00:07:46,579 --> 00:07:52,709
+it's going to create our Google
+
+321
+00:07:52,709 --> 00:07:53,230
+doc.
+
+322
+00:07:53,230 --> 00:07:55,579
+I can actually open this and show
+
+323
+00:07:55,579 --> 00:07:56,259
+you guys.
+
+324
+00:07:56,980 --> 00:07:58,899
+There you go.
+
+325
+00:07:58,899 --> 00:07:59,000
+Right.
+
+326
+00:07:59,160 --> 00:08:00,819
+So that's our posts.
+
+327
+00:08:00,819 --> 00:08:02,339
+Okay.
+
+328
+00:08:02,339 --> 00:08:03,939
+So we're all good with that.
+
+329
+00:08:04,050 --> 00:08:06,610
+Let's go back to the
+
+330
+00:08:06,660 --> 00:08:07,540
+C A N N N.
+
+331
+00:08:07,779 --> 00:08:10,519
+So now we have it correctly set
+
+332
+00:08:10,600 --> 00:08:11,129
+up.
+
+333
+00:08:11,139 --> 00:08:12,019
+Then we're going to move it to the
+
+334
+00:08:12,019 --> 00:08:13,060
+correct folder.
+
+335
+00:08:13,060 --> 00:08:14,279
+So we're going to do is this is
+
+336
+00:08:14,279 --> 00:08:15,620
+the going to move the file.
+
+337
+00:08:15,620 --> 00:08:16,660
+So we're doing Google drive
+
+338
+00:08:16,959 --> 00:08:17,050
+account
+
+339
+00:08:17,060 --> 00:08:19,139
+resource file operation, move by
+
+340
+00:08:19,139 --> 00:08:19,459
+ID.
+
+341
+00:08:19,459 --> 00:08:21,279
+And we're getting the ID from our
+
+342
+00:08:21,279 --> 00:08:23,220
+HTTP request here from the
+
+343
+00:08:23,220 --> 00:08:24,250
+list, my drive.
+
+344
+00:08:24,399 --> 00:08:26,370
+Now for here, I need to refresh
+
+345
+00:08:26,370 --> 00:08:28,490
+this because this is from an old
+
+346
+00:08:28,490 --> 00:08:29,779
+automation,
+
+347
+00:08:29,779 --> 00:08:34,820
+we're going to move this to a new
+
+348
+00:08:34,820 --> 00:08:34,950
+folder here.
+
+349
+00:08:34,950 --> 00:08:35,379
+So we're going to move to the
+
+350
+00:08:35,379 --> 00:08:36,000
+client extension AI
+
+351
+00:08:36,019 --> 00:08:36,658
+folder for now.
+
+352
+00:08:37,190 --> 00:08:38,580
+Execute step.
+
+353
+00:08:38,580 --> 00:08:40,100
+So now it's moved appropriately.
+
+354
+00:08:40,100 --> 00:08:40,490
+Right.
+
+355
+00:08:40,500 --> 00:08:43,298
+So now we need to send a
+
+356
+00:08:43,298 --> 00:08:45,360
+message and get the response.
+
+357
+00:08:45,360 --> 00:08:47,330
+So let's look and see where our
+
+358
+00:08:47,330 --> 00:08:48,690
+chat ID is.
+
+359
+00:08:48,700 --> 00:08:51,299
+So chat ID is over here.
+
+360
+00:08:51,299 --> 00:08:52,450
+This is coming from our telegram
+
+361
+00:08:52,490 --> 00:08:52,879
+trigger.
+
+362
+00:08:52,879 --> 00:08:53,980
+So what this means is it's going
+
+363
+00:08:53,980 --> 00:08:55,139
+to send this message back
+
+364
+00:08:55,139 --> 00:08:56,740
+to our telegram.
+
+365
+00:08:56,740 --> 00:08:59,769
+So chat ID goes in there and it's
+
+366
+00:08:59,769 --> 00:09:02,340
+going to send, we want to say,
+
+367
+00:09:02,340 --> 00:09:02,740
+here's a link to
+
+368
+00:09:02,740 --> 00:09:04,600
+post you'd like to post it.
+
+369
+00:09:04,690 --> 00:09:06,070
+So how do we show the LinkedIn
+
+370
+00:09:06,679 --> 00:09:07,139
+post?
+
+371
+00:09:07,159 --> 00:09:08,899
+We want to send a link to the
+
+372
+00:09:08,899 --> 00:09:09,460
+Google
+
+373
+00:09:09,460 --> 00:09:09,779
+doc.
+
+374
+00:09:09,779 --> 00:09:11,029
+So we go to the HTTP request,
+
+375
+00:09:11,029 --> 00:09:12,519
+which is where it was creating our
+
+376
+00:09:12,519 --> 00:09:13,299
+Google doc.
+
+377
+00:09:13,389 --> 00:09:14,100
+You get the URL.
+
+378
+00:09:17,139 --> 00:09:18,220
+So now we go, here's the post.
+
+379
+00:09:18,320 --> 00:09:19,220
+You'd like to approve it.
+
+380
+00:09:19,220 --> 00:09:20,259
+And the link to the Google doc.
+
+381
+00:09:20,259 --> 00:09:21,860
+And then we get the approve and
+
+382
+00:09:21,860 --> 00:09:22,700
+disapprove.
+
+383
+00:09:22,700 --> 00:09:24,179
+So we execute this step now.
+
+384
+00:09:24,179 --> 00:09:28,340
+I've got it here, right?
+
+385
+00:09:28,340 --> 00:09:28,909
+So I've got a link.
+
+386
+00:09:28,909 --> 00:09:29,899
+Here's the post like to post it,
+
+387
+00:09:30,000 --> 00:09:30,980
+got a link to it.
+
+388
+00:09:30,980 --> 00:09:32,179
+And let's say let's approve it.
+
+389
+00:09:32,179 --> 00:09:32,580
+Right.
+
+390
+00:09:32,580 --> 00:09:35,169
+So when I do that, it's going to
+
+391
+00:09:35,169 --> 00:09:35,899
+open a webhook.
+
+392
+00:09:35,980 --> 00:09:36,340
+Got it.
+
+393
+00:09:36,340 --> 00:09:36,659
+Thanks.
+
+394
+00:09:36,659 --> 00:09:38,259
+Let's go back here.
+
+395
+00:09:38,330 --> 00:09:39,990
+Proved equals true.
+
+396
+00:09:40,279 --> 00:09:42,820
+So is the LinkedIn post approved?
+
+397
+00:09:42,820 --> 00:09:43,690
+Yes.
+
+398
+00:09:43,690 --> 00:09:45,460
+Data approved,
+
+399
+00:09:45,460 --> 00:09:45,889
+right.
+
+400
+00:09:45,889 --> 00:09:47,269
+So without scanning from is the
+
+401
+00:09:47,269 --> 00:09:48,789
+last step, the semester, we should
+
+402
+00:09:49,279 --> 00:09:50,179
+wait for response.
+
+403
+00:09:50,179 --> 00:09:52,149
+The data is approved is true.
+
+404
+00:09:52,149 --> 00:09:54,269
+So based on data approved is equal
+
+405
+00:09:54,269 --> 00:09:54,980
+to true.
+
+406
+00:09:54,980 --> 00:09:56,019
+Then it moves forward
+
+407
+00:09:56,019 --> 00:09:56,889
+with the automation.
+
+408
+00:09:56,919 --> 00:09:58,110
+If that was set to false, it would
+
+409
+00:09:58,110 --> 00:09:59,299
+stop the automation there.
+
+410
+00:09:59,299 --> 00:10:00,659
+If we go here,
+
+411
+00:10:01,370 --> 00:10:03,399
+execute the step here is we've got
+
+412
+00:10:03,629 --> 00:10:06,500
+the content texts, the text of our
+
+413
+00:10:06,500 --> 00:10:06,980
+thing.
+
+414
+00:10:06,980 --> 00:10:08,580
+We got the document URL,
+
+415
+00:10:09,200 --> 00:10:10,759
+schedule time for it, status, and
+
+416
+00:10:10,909 --> 00:10:12,259
+the created date.
+
+417
+00:10:12,259 --> 00:10:13,460
+So our content is prepared.
+
+418
+00:10:13,460 --> 00:10:14,259
+So what we're going to do now
+
+419
+00:10:14,259 --> 00:10:15,190
+is we're going to create the post.
+
+420
+00:10:15,190 --> 00:10:16,129
+As you can see, it's read it out.
+
+421
+00:10:16,210 --> 00:10:17,000
+So we have to get our credentials
+
+422
+00:10:17,220 --> 00:10:17,789
+connected.
+
+423
+00:10:17,879 --> 00:10:18,889
+So to do that, we're going to
+
+424
+00:10:18,899 --> 00:10:20,340
+create a new LinkedIn credential
+
+425
+00:10:20,340 --> 00:10:24,500
+and turn off the organization
+
+426
+00:10:24,500 --> 00:10:25,029
+support.
+
+427
+00:10:25,129 --> 00:10:26,360
+We're going to click connect my
+
+428
+00:10:26,419 --> 00:10:26,929
+account.
+
+429
+00:10:26,929 --> 00:10:30,100
+We're going to click allow, right?
+
+430
+00:10:30,100 --> 00:10:30,500
+As you can see,
+
+431
+00:10:30,500 --> 00:10:31,649
+connection successful.
+
+432
+00:10:31,690 --> 00:10:32,950
+It'll close in five seconds.
+
+433
+00:10:32,950 --> 00:10:34,259
+We'll close that ourselves.
+
+434
+00:10:34,440 --> 00:10:35,620
+Accounts connected.
+
+435
+00:10:43,379 --> 00:10:43,710
+Great.
+
+436
+00:10:43,710 --> 00:10:44,740
+So we had a little bit of a hiccup
+
+437
+00:10:44,779 --> 00:10:45,980
+there to refresh the list, but you
+
+438
+00:10:45,980 --> 00:10:46,340
+can see here,
+
+439
+00:10:46,340 --> 00:10:47,740
+we've got LinkedIn account
+
+440
+00:10:47,740 --> 00:10:49,529
+resource post operation, create
+
+441
+00:10:49,529 --> 00:10:50,429
+post as person.
+
+442
+00:10:50,429 --> 00:10:51,539
+And then person is obviously
+
+443
+00:10:51,539 --> 00:10:53,970
+me and the text of the posts we're
+
+444
+00:10:53,970 --> 00:10:56,710
+going to get from here.
+
+445
+00:10:56,710 --> 00:11:01,059
+You can see, that's what it's
+
+446
+00:11:01,059 --> 00:11:01,460
+going to look
+
+447
+00:11:01,460 --> 00:11:04,200
+like in a category, none.
+
+448
+00:11:04,440 --> 00:11:06,509
+So we're going to execute the
+
+449
+00:11:06,509 --> 00:11:07,120
+step.
+
+450
+00:11:07,120 --> 00:11:09,990
+It's going to make the posts.
+
+451
+00:11:09,990 --> 00:11:10,580
+I go to
+
+452
+00:11:11,240 --> 00:11:12,759
+LinkedIn and go to my account.
+
+453
+00:11:12,909 --> 00:11:13,929
+Here it is.
+
+454
+00:11:14,500 --> 00:11:16,580
+Now let's take a quick look at the
+
+455
+00:11:16,580 --> 00:11:17,299
+URL for this.
+
+456
+00:11:17,299 --> 00:11:17,700
+As you can see,
+
+457
+00:11:17,700 --> 00:11:19,460
+here's the URL we're looking at.
+
+458
+00:11:19,460 --> 00:11:21,779
+LinkedIn.com/feed/urlactivity.
+
+459
+00:11:21,779 --> 00:11:22,580
+Now we're going to want to copy
+
+460
+00:11:22,580 --> 00:11:22,820
+this,
+
+461
+00:11:22,820 --> 00:11:23,460
+right?
+
+462
+00:11:23,539 --> 00:11:24,620
+For the next part of our
+
+463
+00:11:24,620 --> 00:11:25,460
+automation.
+
+464
+00:11:25,460 --> 00:11:27,940
+So that's done successfully.
+
+465
+00:11:27,940 --> 00:11:29,379
+If I want to send a text message,
+
+466
+00:11:29,379 --> 00:11:30,820
+we're going to get the chat ID
+
+467
+00:11:30,820 --> 00:11:32,340
+from our telegram trigger.
+
+468
+00:11:32,360 --> 00:11:33,539
+Again, we're just going to drag
+
+469
+00:11:33,539 --> 00:11:33,940
+over
+
+470
+00:11:33,940 --> 00:11:34,889
+ID from the chat.
+
+471
+00:11:35,120 --> 00:11:36,679
+Post created successfully, find it
+
+472
+00:11:36,840 --> 00:11:37,129
+here.
+
+473
+00:11:37,129 --> 00:11:38,820
+And we're going to paste in this,
+
+474
+00:11:39,990 --> 00:11:40,899
+followed by this.
+
+475
+00:11:40,899 --> 00:11:43,139
+We're just going to go right after
+
+476
+00:11:43,139 --> 00:11:43,620
+it.
+
+477
+00:11:43,620 --> 00:11:45,850
+So this will now give us the
+
+478
+00:11:45,850 --> 00:11:47,179
+proper
+
+479
+00:11:47,220 --> 00:11:48,590
+URL that we need.
+
+480
+00:11:48,620 --> 00:11:50,929
+So if I execute the step now, we
+
+481
+00:11:51,120 --> 00:11:52,940
+go back to telegram.
+
+482
+00:11:53,039 --> 00:11:54,019
+Here it is.
+
+483
+00:11:54,899 --> 00:11:55,620
+Here's the link.
+
+484
+00:11:56,080 --> 00:11:57,080
+There's the post.
+
+485
+00:11:57,230 --> 00:11:58,240
+So there we go.
+
+486
+00:11:58,820 --> 00:12:00,580
+Just delete this because I don't
+
+487
+00:12:00,580 --> 00:12:00,980
+really want to post
+
+488
+00:12:00,980 --> 00:12:01,460
+this right now.
+
+489
+00:12:01,700 --> 00:12:03,559
+That's how that automation works.
+
+490
+00:12:03,559 --> 00:12:05,379
+And hopefully that'll explain a
+
+491
+00:12:05,399 --> 00:12:06,340
+bit about you to
+
+492
+00:12:06,340 --> 00:12:07,929
+you about how to set up these,
+
+493
+00:12:08,009 --> 00:12:11,409
+these, you know, authentication on
+
+494
+00:12:11,409 --> 00:12:13,769
+these, how these different agents
+
+495
+00:12:14,100 --> 00:12:14,580
+work.
+
+496
+00:12:14,820 --> 00:12:16,840
+How, what this node is doing here
+
+497
+00:12:16,870 --> 00:12:19,019
+is creating our nice Google docs
+
+498
+00:12:19,100 --> 00:12:21,220
+and how to make approval
+
+499
+00:12:21,220 --> 00:12:21,779
+workflows.
+
+500
+00:12:21,779 --> 00:12:22,919
+That will, you know, you can
+
+501
+00:12:22,970 --> 00:12:23,960
+approve things we post or not
+
+502
+00:12:24,110 --> 00:12:25,340
+depending on the message sent to
+
+503
+00:12:25,679 --> 00:12:25,769
+you
+
+504
+00:12:25,779 --> 00:12:26,899
+by whatever platform you like.
+
+505
+00:12:26,970 --> 00:12:28,480
+You can also do this in Slack.
+
+506
+00:12:28,480 --> 00:12:29,539
+I do this in Slack primarily,
+
+507
+00:12:29,539 --> 00:12:30,320
+because that's where most of my
+
+508
+00:12:30,320 --> 00:12:30,740
+work goes on.
+
+509
+00:12:30,740 --> 00:12:32,100
+So instead of using telegram as
+
+510
+00:12:32,100 --> 00:12:33,379
+the main, you know,
+
+511
+00:12:34,100 --> 00:12:34,980
+conversation point or approval
+
+512
+00:12:35,049 --> 00:12:36,120
+point, I use Slack.
+
+513
+00:12:36,279 --> 00:12:38,980
+But that's basically ideas behind
+
+514
+00:12:38,980 --> 00:12:39,539
+some of the kind of
+
+515
+00:12:39,539 --> 00:12:40,269
+key things you're going to be
+
+516
+00:12:40,269 --> 00:12:41,059
+doing as part of this, mainly a
+
+517
+00:12:41,059 --> 00:12:41,860
+lot of what you're going to be
+
+518
+00:12:41,870 --> 00:12:42,100
+doing,
+
+519
+00:12:42,100 --> 00:12:43,250
+because we're giving you these
+
+520
+00:12:43,289 --> 00:12:44,250
+workflows is going to be
+
+521
+00:12:44,250 --> 00:12:45,429
+customizing them and
+
+522
+00:12:46,000 --> 00:12:46,570
+authenticating your own
+
+523
+00:12:46,580 --> 00:12:47,129
+accounts.
+
+524
+00:12:47,230 --> 00:12:48,129
+So that's one of the most
+
+525
+00:12:48,129 --> 00:12:49,320
+important things that you can
+
+526
+00:12:49,539 --> 00:12:50,570
+learn is just how to quickly
+
+527
+00:12:50,580 --> 00:12:51,539
+authenticate things.
+
+528
+00:12:51,700 --> 00:12:53,110
+And again, I really think the best
+
+529
+00:12:53,110 --> 00:12:54,570
+way to do that is always going to
+
+530
+00:12:54,600 --> 00:12:55,139
+be just
+
+531
+00:12:55,139 --> 00:12:56,940
+create a new credential and read
+
+532
+00:12:56,940 --> 00:12:58,799
+the docs, the NADN documents for
+
+533
+00:12:59,059 --> 00:13:00,019
+every document for every single
+
+534
+00:13:00,019 --> 00:13:00,649
+account.
+
+535
+00:13:00,740 --> 00:13:02,190
+And they're step by step walking
+
+536
+00:13:02,350 --> 00:13:03,220
+through them.
+
+537
+00:13:03,220 --> 00:13:04,820
+Very, very easy to set up.
+
+538
+00:13:04,820 --> 00:13:06,899
+And again,
+
+539
+00:13:06,899 --> 00:13:07,769
+we're gonna be talking a bit more
+
+540
+00:13:07,769 --> 00:13:08,340
+about AI agents.
+
+541
+00:13:08,340 --> 00:13:10,039
+But as you can see here, it's
+
+542
+00:13:10,039 --> 00:13:10,889
+really just a user
+
+543
+00:13:10,899 --> 00:13:12,080
+message and a system message.
+
+544
+00:13:12,090 --> 00:13:13,350
+The system message tells the agent
+
+545
+00:13:13,350 --> 00:13:14,460
+all the information it needs to
+
+546
+00:13:14,500 --> 00:13:16,659
+know before it receives your user
+
+547
+00:13:16,659 --> 00:13:17,409
+message.
+
+548
+00:13:17,470 --> 00:13:19,399
+So it needs to know that it is a,
+
+549
+00:13:19,399 --> 00:13:20,500
+you know, LinkedIn
+
+550
+00:13:20,500 --> 00:13:21,929
+content strategist, it needs some
+
+551
+00:13:21,929 --> 00:13:23,240
+information on headwrite LinkedIn
+
+552
+00:13:23,470 --> 00:13:25,299
+posts, some information about me
+
+553
+00:13:25,299 --> 00:13:26,649
+or you specifically to personalize
+
+554
+00:13:26,649 --> 00:13:27,139
+it to you.
+
+555
+00:13:27,139 --> 00:13:29,330
+And it's overall provided the
+
+556
+00:13:29,330 --> 00:13:30,710
+structure it needs to create
+
+557
+00:13:30,740 --> 00:13:31,710
+the best output possible.
+
+558
+00:13:31,840 --> 00:13:32,690
+And then your user message is
+
+559
+00:13:32,690 --> 00:13:33,940
+going to give it the instructions
+
+560
+00:13:33,940 --> 00:13:34,259
+on what you
+
+561
+00:13:34,259 --> 00:13:35,299
+want it to do with the information
+
+562
+00:13:35,409 --> 00:13:35,850
+you're giving it.
+
+563
+00:13:35,929 --> 00:13:36,850
+So we're telling it to create a
+
+564
+00:13:36,850 --> 00:13:37,779
+LinkedIn post,
+
+565
+00:13:37,779 --> 00:13:38,730
+we're going to do some information
+
+566
+00:13:38,899 --> 00:13:39,529
+about the formatting, some
+
+567
+00:13:39,529 --> 00:13:41,299
+warnings, and then giving it
+
+568
+00:13:41,299 --> 00:13:43,480
+the actual text of our, you know,
+
+569
+00:13:43,629 --> 00:13:45,309
+and what we want the post to be
+
+570
+00:13:45,320 --> 00:13:46,629
+about.
+
+571
+00:13:46,629 --> 00:13:48,980
+I'll provide a link in the
+
+572
+00:13:49,620 --> 00:13:50,570
+description to the information on
+
+573
+00:13:50,649 --> 00:13:52,309
+this particular tool, because this
+
+574
+00:13:52,549 --> 00:13:53,899
+is a custom tool someone made
+
+575
+00:13:53,940 --> 00:13:54,539
+that I love.
+
+576
+00:13:54,659 --> 00:13:55,960
+Because just sending you can, of
+
+577
+00:13:55,960 --> 00:13:57,269
+course, to send something to be
+
+578
+00:13:57,700 --> 00:13:59,779
+create a Google Drive
+
+579
+00:13:59,779 --> 00:14:01,029
+document directly.
+
+580
+00:14:01,029 --> 00:14:02,519
+But often you get that annoying
+
+581
+00:14:02,759 --> 00:14:04,700
+markdown formatting, this creates
+
+582
+00:14:04,779 --> 00:14:05,299
+really nicely
+
+583
+00:14:05,299 --> 00:14:06,269
+forming a Google Docs for you.
+
+584
+00:14:06,269 --> 00:14:07,159
+So you don't have to do that.
+
+585
+00:14:07,230 --> 00:14:09,860
+So I think that's a very useful
+
+586
+00:14:09,860 --> 00:14:10,179
+tool to
+
+587
+00:14:10,179 --> 00:14:10,610
+have.
+
+588
+00:14:10,789 --> 00:14:12,330
+And yeah, you know, I think that
+
+589
+00:14:12,330 --> 00:14:14,000
+hopefully kind of cleared up and
+
+590
+00:14:14,120 --> 00:14:15,379
+maybe some questions you had
+
+591
+00:14:15,379 --> 00:14:16,330
+about kind of editing these
+
+592
+00:14:16,570 --> 00:14:16,830
+workflows.
+
+593
+00:14:16,830 --> 00:14:17,889
+In the next video, I'm going to
+
+594
+00:14:17,889 --> 00:14:18,720
+take one of the existing workflows
+
+595
+00:14:19,059 --> 00:14:20,259
+you guys are going to get access
+
+596
+00:14:20,259 --> 00:14:21,450
+to you, or you guys are going to
+
+597
+00:14:21,450 --> 00:14:22,820
+get access to break it down,
+
+598
+00:14:22,820 --> 00:14:23,789
+and show you how to edit it for
+
+599
+00:14:24,009 --> 00:14:24,419
+yourself.
+
+600
+00:14:24,419 --> 00:14:26,149
+And make sure that it's all set up
+
+601
+00:14:26,500 --> 00:14:27,139
+for you to use.
+
+602
+00:14:27,700 --> 00:14:29,120
+So I hope this was helpful and I
+
+603
+00:14:29,120 --> 00:14:30,139
+will see you in the next one.
+
+604
+00:14:30,139 --> 00:14:30,659
+Peace.

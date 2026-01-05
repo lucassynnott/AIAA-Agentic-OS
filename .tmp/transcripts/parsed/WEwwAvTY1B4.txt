@@ -1,0 +1,279 @@
+CallFunnel best practices. We're going to be going through what you need to do on the funnel ad strategy, follow-up ad strategy, email marketing best practices, confirmation page best practices, even some salespeople best practices in this video in order to maximize ROI and revenue that can come from call funnels. If you're new to the channel, welcome in. My name is Jeremy
+
+Haynes. Out of the 41 different businesses that we've helped scale up to million-dollar months, CallFunnels have been a very core funnel. in some instances the only funnel that's been used to scale those businesses up. And I love talking about call funnels. They're one of my absolute favorite things. They just make so much money, you know?
+
+They're just so good. So anyway, without further ado, we're going to dive right in. Again, if you're new to the channel, all we talk about around here is hitting million-dollar months. Uh it's very exciting and uh hopefully you can ideally punch up yourself when you learn some of the lessons from the people who have already gotten there. We don't make income claims here. we just hand down
+
+the best practices from all these different businesses that we've worked with to you. Uh again, if you're already a subscriber, welcome back. This one should be a banger. Okay, so CallFunnels, let's get started with the ads themselves. So, one thing that we've noticed is talking head ads, which is just like what you're experiencing right now. Somebody sitting down talking to
+
+the camera and walking through a very standard set of direct response ads can work phenomenal at getting people to book calls. The issue is is you don't want the wrong types of people coming through the funnels. We have an entire video on this channel dedicated to what we call pixel conditioning best practices, which I would absolutely encourage that you watch thoroughly.
+
+Don't skip around in it. Watch the entirety of that video because it talks about the importance of sending back the right people and never allowing the wrong people to come through. And there's many different ways you can go about doing that. This specific video has all of the current best practices that we are implementing literally right now into CallFunnels to get them to
+
+work. So, let's talk about the funnel itself. They are still as simple as what we've historically ran them. We do a headline, we do a video, and we do an application. We still today have not found any replacement for the Type Form Cowanly combo. Type form and Calendarly integrate with each other. I know some of you guys pay a exorbitant amount of money for HubSpot. Uh, I know
+
+some of you obviously use go high level and then some of you use like some other random Um, I don't care, okay? I don't care at all when a client tells me like, "Hey, uh, I want to maximize like using literally every single thing that we can in HubSpot that's available to us." Or like when somebody that's paying low couple hundred bucks for go high levels like, "Oh, well, they have
+
+applications and calendars. Like, why wouldn't we use theirs?" Look, I will always test it, okay? I don't want to be right. I just want to make money. There are occasional clients that we still scale at a million- dollar months that don't use this exact combination that use like type form and schedule once or go high level and you know whatever. The uh the point
+
+I'm trying to make though is the clients that have the lowest cost per qualified call they use type form and countly. So whenever I get my way in the deal and I can tell them like hey do this it's going to get us the cheapest cost per qualified call. That's what I'm doing.
+
+And obviously when we're running a call funnel and we're looking at our financial models that we've created for it, the lower the cost per qualified call, the more profit that we make.
+
+Okay. So, you know, we want to start there, right? Okay. Anyway, um generally from there, we'll end up having two different outcomes for where people can go. We will have a qualified confirmation page where we will send people who are obviously qualified and then we will have an unqualified uh page for typically like a drop cell. We still want to capture people. Most
+
+organizations that we work with in terms of a best practice on call funnels. They'll have setters that dial the unqualified people and they'll have setters and or closers that dial the most qualified people that schedule straight into their calendars. There are certain instances where we will actually withhold the data from firing back from the pixel automatically completely.
+
+That's not the majority of the time that we'll do this. It's a minority, but still when we got to do it, we do it. So what we'll typically do for the qualified standard event that we'll optimize for we'll use schedule and or we'll use complete registration.
+
+Generally at scale we'll use both as we will implement the best practices of cyclic campaigns which I talk about inside of courses like my master internet marketing community and course which you can find a link for down in the description. So, long story short, on the qualified confirmation page, schedule and complete registration will fire off back to the ads manager and
+
+signal that somebody was qualified. However, there are instances where we'll get unqualified people to hit that pixel. And when we get that kind of feedback from the sales team, what we'll do instead is we will not send back any standard event through the pixel itself.
+
+What we'll do instead is we'll use the conversion API and we'll link the CRM with those different deal stages that exist. So, usually in a CRM, you have a bunch of different stages in your pipeline that your salespeople drag and drop people between. As an example, you might have applied and didn't schedule, scheduled, no show, you know, etc. These kind of things for the pipeline stages.
+
+Now, what we ideally want is for the sales rep to just simply move somebody in to this magic little deal stage right here, which is they scheduled a call or they applied, don't care, they were qualified. Okay? So, if a salesperson can signal after talking to somebody, this individual was actually qualified, that's obviously the highest qualifications like metric that we can
+
+possibly get a salesperson feedback. So then what we'll do is we'll take this person who is in that qualified bucket and we'll push them back to the ads manager through the conversion API. So we have a slight delay in the signal that gets sent back to that results column. We don't want to have too much time in between this because if you understand how advertising works, you'll
+
+know already that when that results column in the ads manager remains empty, that algorithm, that AI is going to rotate to a different audience until it starts to get data back into the results column. Once data officially starts rolling back in, and it doesn't even take a lot of data. If you have a marketer that says, "Oh, it takes like 50 or 100 people to come back before it
+
+starts to do what?" Jeremy says they're operating like a barbarian. They have historic hindsight bias for how things used to be, how things are literally right now. It takes a couple people, that's it. A couple people to come into that results column, signal to that AI and that ads account who it needs to go after next to start heavily biasing towards people that have data
+
+points most similar to those individuals that are converting. So again, we're either sending back people from here that are qualified or we're sending back the people from the CRM that were qualified and marked qualified by the salesperson. This up here is done through the pixel. Okay, this here is done through the conversion API. And some of you are going to ask, oh, do I
+
+do one or the other or do I do both? You could technically do both. However, in most instances, the only reason we're going to do this is because we are getting feedback from the salespeople that we are having people that were marked qualified that are actually unqualified. So, we'll let the sales people manually attribute it back, ideally in a tight time frame, push the
+
+data back to the results column, help the ad account go after people who are actually qualified. It all starts with pixel conditioning. That's the moral of the story. This is an initial best practice you must follow. Now, back to my point. The direct response ads are pretty standard. you don't we don't have to do a lot of fancy things to get the calls booked. Okay, we're still seeing a
+
+large quantity across almost all markets and offer types for high ticket products and services that are still wanting to just jump on calls with people. Okay, so this funnel is still very strong as a conversion mechanism and and like I said, it's still used extremely frequently across almost every deal that we do that hits million-dollar months.
+
+Okay, here's the thing, though. Most people make pretty shitty direct response ads that have awful messaging inside of it that attract a lower quality person. So, the biggest thing that you're going to consistently see as a theme throughout this video and hear as a theme throughout this video is that you're dealing with unqualified people.
+
+And that obviously holds back to rorowaz and the potential of scaling up this funnel to the big million-doll months. You have to handle quality. Okay? So messaging ends up being one of those massive levers in terms of this is going to get more qualified people through the door if executed successfully. So one of the most common ways that I get exposed to unqualified or bad messaging direct
+
+response ads is through the people who initially join into my inner circle offer. So in the inner circle we do twice a month one-on-one calls, weekly group calls, quarterly inerson masterminds in the group chat full of rich people trying to get richer. And we also do this thing in the inner circle where typically every Tuesday I'll sit down and I do this thing called the
+
+marketing funnel marketing automation and ads review where all the inner circle members have the ability to submit their information into a document which I will then review on a Tuesday and I'll sit down right here and I'll film a video just going through their funnel, going through their ads and going through their marketing automation. And it's always the people
+
+who just join that don't implement these best practices we're talking about yet that make these mistakes the most. A great example of this, there was a guy recently doing around 300k a month that joins in. He has an offer that's $10,000. And I won't again, I won't sit here and tell you about the offer itself, right? But just a $10,000 offer.
+
+And the guy is in the service niche, okay? High ticket service. And you know, in the headline, I mean, dude, this this funnel this guy had was so And the ads that were paired with it were also so It was awful. Uh, it was all income claims. So, and they were audacious income claims at that. They were like, "Hey, we'll help you get to 10K a month in 90 days guaranteed or
+
+we'll give you a,000 bucks." Uh, we had people that that same exact guy and like many people like him that initially just joined in are are just again making like horrid income claims. Income claims guarantees. These are two examples of really really low-level sophistication tactics that attract absolute dumpster diving turds into your funnel and onto your calendars for your salespeople to
+
+talk to. Uh, everybody that's rich, like you sitting here right now is a perfect example of that, rich and trying to get a fuckload richer than you are right now. You know, guarantees are frivolous Why? Because a business can just go bankrupt, right? The person doesn't have to follow through on the guarantee if they declare bankruptcy and are legally voided of that
+
+responsibility. They don't even have to offer the guarantee to just you, of course. But that's not my point. It's like rich people know when you're trying to sell to somebody who's going to buy a $10,000 offer. It's like a guarantee does not create certainty. A guarantee does not create confidence. A guarantee essentially signals to the people that are the most skeptical that they can
+
+have safety. So, what you're actually getting as a buyer type is a highly skeptical individual that feels safe in the fact that you have a guarantee. The people who are actually sophisticated buyers that are typically more financially welloff, they look at guarantees and they just think, "I've been by so many people who have offered guarantees before and still
+
+haven't gotten the outcome or my money back." Like, you know, that can't be true. They actually look at it as like it creates an objection. Okay, income claims are another great example of that. Super low, sophisticated tactic.
+
+No serious person is going to be highly responsive to income claims. Take this exact channel as a perfect example of that. Okay? I constantly say in every single video that I create, the US Bureau of Labor Statistics says that you have a.1% probability of hitting $10 million a year, let alone the even smaller probability to get to $12 million a year, aka a million dollar a
+
+month. And I constantly reiterate, I say I don't make income claims on this channel. I'm just handing down the lessons from people who have hit million-dollar months to just give you different things that you could think with and things you could do that just yeah, they should improve your business, but I make an income claim associated with it. I don't sit here and tell you,
+
+"Hey, watch my channel and you'll hit a million dollars a month." I do the exact opposite of that. Okay? Why does that attract a higher quality person? We get people all the time routinely that come through our funnels already. our exact buyer demographic that we seek, doing a couple hundred grand a month, meeting our minimum thresholds to buy our different offers. We have guys that come
+
+through our funnels that already do a million a month that are trying to tack on the next million a month. Why? Cuz I'm actually honest with them. I set a realistic expectation. I tell you the truth, okay? Does that negate the fact that you likely still with the utmost certainty believe it to be possible for you to hit million-dollar months? You see what I'm saying? I don't need to
+
+tell you, oh dude, we're going to offer a guarantee to do something that has a 0.1% probability less than that. It's like, no, dude. I tell you the realistic expectation. I can't guarantee the work you need to do with the I tell you to go do. I can't guarantee your consumption to go through the fuckload of material that I can provide to you.
+
+But what I can do is provide it to you. That's what I can guarantee. I can guarantee you I'll give you the sauce, but I can't guarantee you'll do with it. You get what I'm saying? that creates an opportunity for more sophisticated buyer who's much more financially well off to be responsive to it. So anyway, the point I'm trying to make, messaging, okay, messaging is one
+
+of the number one things that creates huge discrepancies right off the bat. And that exact example I was providing to you prior to talking about my inner circle example where I'm talking about the guy saying, "Oh, dude, we can get you to 10K a month in 90 days. We guarantee it. We'll give you $1,000 if we don't." It's like the guy then follows up by saying, "Oh, and I've sold
+
+$100 million in product." How much of a skeptic do you want to make people before they even touch the funnel? All of what I just said was said in the ads and then reiterated in the funnel. It was It was insane. It was insane. And thank God they actually listen to what I'm saying. They immediately started seeing better quality people come through their funnel
+
+implementing everything we're going to talk about in this video. But like one of the things that they bitched about when they first joined in was, "Oh, they have like a 30 something% show rate and they're getting nothing but turds on their calendar." And then they're shocked. Why? You see? So again, point being messaging changes. Okay? Things like saying, "Oh, I've done $100
+
+million." Nobody believes that, you know, and if they do believe it, they're asking themselves a question right after. Well, why are you trying to help me hit $10,000 a month then? You see, don't create objections for people, you know, in your messaging. Generally, the best practices for direct response is is very simple. It's hooked. You have your body and then obviously you have
+
+your CTA. And one thing that we actually just recently created, it's actually one of my favorite documents. I had a client, very high level client that was asking this question. They wanted to have a direct response ad creation framework. So, I made a 56page document going through all of those best practices. And then, listen, like I said, we sell to rich people. You know,
+
+we're not naive to what y'all want. So we made a too long didn't read version of it that came out to six pages in comparison to 56. Okay? And we give all of our inner circle members, clients, consulting deals, all of those best practices. But again, the simplest like framework for direct response ads, hook, body, call to action, right? And you can work in messaging strategically
+
+throughout that. I gave a perfect example to one of my clients that wanted to attract people who were stuck at somewhere around seven figures a year. The lowest qualified person they wanted was like high six figures a year in income. And you know even greater than that they wanted to ideally take those high six low seven figure earners to eight figures a year. Okay? And they had
+
+this scaling workshop that they implemented to do so. And I told them in their ads is a perfect example of messaging. I used one of my own offers where I say, "Hey, if you're stuck around low couple thousand dollar a day in ad spend and every time you try to scale up to go bigger, things fail. Your costs climb dramatically. Your rorowaz drops. Pay attention." That'd be a great
+
+example of me calling out people who are likely around a couple hundred grand a month and want to hit million-dollar months without just saying in an extremely direct way, hey, are you around six figures a month and you want to hit seven figures a month? Pay attention. describing the conditions of our ideal customers, okay, is a far greater tactic comparatively to just
+
+saying some of the extremely direct ways of calling them out, okay? But again, without going and just turning this entire video into a messaging best practices class, I want to stick to the callunnel best practices, but I can't glaze over the fact that messaging matters so much so much to the type of person you're going to bring in, both in the direct response ads and in the
+
+actual funnel itself. Okay. One thing that we've also recently tested and that I'd love to share with you in this updated CallFunnel best practices video is the length of time that we're actually seeing people consume VSSLs has gone up dramatically. So, one of the inner circle members, Mr. Daniel Fazio, you may know him on Twitter as u like like black co email wizard I think is
+
+his Twitter name. You can also find him on a secondary profile under his actual name himself there. Um good long-term inner circle member at this point. He had done a speaking gig here at one of our recent inner circle masterminds. He was awarded a million dollar a month trophy after hitting it in late Q4.
+
+Anytime somebody hits a million dollars a month in the inner circle, we give them a big trophy and we let him do a talk sharing how they got there and some of the best lessons. In that talk, he shared adding chapters to a VSSL just like what you see here on this YouTube video below. You'll find that as you can just drag your mouse over it or if you're on mobile device, you can just
+
+click the video and see all the little chapters there and do the same thing where you kind of scrub your finger along the little uh you know control the time bar and you'll see what is talked about and when it is talked about. He implemented that in his BSLs and he saw a huge lift in overall retention and people coming through more qualified as a result. That was in Q4 at that inter
+
+no I'm sorry that was at Q1. So very early January of this year that he did that talk. We've since immediately implemented it across everybody that's running a call funnel. We encourage it as one of our best practices. So, so shout out to Daniel for that specific tip. But to be clear, that increased retention dramatically cuz typically what you saw if you actually use a
+
+platform like Wistia or Vidalytics that gives you insight into the behavior of your users on your videos and your VSSLs, you'll notice that people typically jump around or people watch the first part and then they leave. The chapter titles being implemented obviously caused people to still jump around, but it also enabled them to go back and watch very specific parts or
+
+skip parts that they deemed they didn't need. Typically, lower IQ dumb people like to argue, "Oh, well, I don't want to have a chapter title on my video because then people are going to jump around. I don't even want the control to be on the video. I want everybody to watch it exactly how I've presented it." Okay. Anyway, I won't sit here and call you dumb, but uh that is a stupid
+
+argument. Okay? Cuz in reality, that's just not how humans behave. Okay? When somebody thinks that something's for them, they're going to just go apply and go through the funnel. When somebody thinks it's not for them, they're going to leave. If they get bored in the middle of watching your VSSL that you likely got them to through direct response advertising, again, they're
+
+going to leave because they don't give a about you yet. When you give them the opportunity to scrub through it with the different chapter titles of when you're talking about what in the video, you give an opportunity for them to scrub past the that you think they need to consume that they don't care about to get them to the point of what they actually think they need to
+
+know, which ultimately leads them to have a higher probability to take the action, which is applying and then scheduling a call and coming through better framed. If you struggle with thinking that people need to consume the VSSL in its entirety to get them to show up qualified, pay very close attention to the rest of this video and ultimately combine all these best practices that
+
+we're now going to speak on to help overcome that troublesome thought that you have. So, the next thing that we found works extremely well currently is confirmation page best practices. So, we've called these the uh due diligence best practices recently where we've really stepped up helping people do their research prior to getting onto a call. So, typically on a confirmation
+
+page, okay, if we just treat this like a giant confirmation page here, we'll typically have some type of like confirmationbased headline like just demonstrating to them like, hey, you know, your call's booked. And once we get past that part, we generally have a few things on the page. So, we have a video here. This video typically has a video thumbnail as every single VSSL you
+
+ever have should. This will also have those chapter titles that we discussed from that tip that Daniel provided. And then from there, there's two main sections that we're going to create.
+
+Okay? So, one of these sections is what we call breakout videos. So, look at it like this. Everything that happens on your sales call that your sales people don't like having to talk about or that they notice is a pattern of people showing up and wanting to talk about and just asking like common questions that consistently come up. Those should be individual breakout videos. All the
+
+things that you want to have made clear in your VSSL that you're consistently pissed and upset about saying, "Oh, people aren't watching my VSSL, so they don't show up qualified." Great. Take those specific things that you want people to know before a call that are from your VSSL, make breakout videos for them. You might end up having anywhere from four to upwards of 12 plus of these
+
+types of videos. Okay? They end up being anywhere from like 30 seconds to all the way up to maybe 5 minutes long. Okay? In addition to the things that the salespeople have coming up and the things you want made clear before they show up to the call from the VSSL, you also typically want to handle things like objections, expectations, and some of those four quadrants that we've
+
+talked about routinely from my hammer them content strategy. We have entire videos on this channel dedicated to the hammer them sequence, and we'll also talk about it lightly here in a moment.
+
+However, they also make for great breakout videos right here on the confirmation page. Okay, these videos help people do their research. That's the intention of them. They help people understand the things that your salespeople are otherwise having to talk to them about. They also help improve the show rate dramatically. Because here's the thing, you'd think that,
+
+okay, well, people are booking a call. Obviously, they want to show up and they want to talk to us. That couldn't be further than the truth for most of these people and that's why your show rate is so bad. You aren't actually addressing the things that come up between them booking the call and the actual call time itself. So that ultimately leads them to have an
+
+extremely low priority on showing up and doing other things. Instead, we have to after they book the call, sell them on why they need to show up and overcome the questions that they have before they actually show up. Okay, I use this great example of a company. I've talked about this many times on this channel where I I have a lovehate relationship with taxes. I love them because I spend so
+
+much on taxes that consistently drives me to make more money and I like to think that, you know, okay, I'm contributing to the country that I live in and you know, I like I said, I love them from that perspective. I don't love them at all because it costs me so much money and a lot of the things that have recently come out that my country spends money on really pisses me off. Okay, I
+
+digress though. I saw an ad. company from Dubai said, "Hey, we can create a corporation for you here in Dubai. You can flow all of your income through that corporation and establish residency here and have a bank account here. We'll set it all up for you. Done for you service and that'll offshore your profits. So therefore, you'll zero out your income and therefore you'll zero out your taxes
+
+owed in the good old country you're from." I saw that ad and I was like, "Yeah, that's for me. yeah." I book a call. It was 9 days out from the time I booked the call, which is extreme anyway. that has a dramatically high probability of getting a really low show rate just based on how far they booked me out. But whatever. Okay. Once I booked a call, it opens a cycle. Okay?
+
+It opens a cycle of like something I'm now anticipating I have to talk about in the future, which makes me want to do research on it to see if it's worth my time or not. Okay? Or if I don't do any research on it, by the time the call comes around, I just think to myself, well, do I got more important things to do that day? Yeah. Okay, great. I'm going to do those instead. So, it's
+
+really one of those two situations. either a lack of research was presented before the call or they did research on their own and they determine what whatever you're going to talk to them about just isn't for them or something else comes up on that day and they deem about as a much lower probability and priority comparatively to everything else that they'd otherwise do in that
+
+day. Okay, those are the main two situations that cause low rates. Okay, the Dubai company that says they can offshore my profits and zero out my taxes. They don't send me a lick of information, like nothing in the nine days, just super basic reminder emails which almost all of you fall victim to.
+
+you think, "Oh, I've got some pre-all email sequence." It probably sucks, okay? And that's why your show rate sucks. So, even if you have one and you have a terrible show rate, don't sit there and gaslight yourself into thinking that it's good when your show rate sucks ass. Okay? If you have a good show rate, just skip this part and go to the next part. Okay? Anyway, back
+
+anyway, back to the point I'm trying to make. Okay? What we noticed is is when we help people do their research and like do due diligence on what they're trying to talk to you about prior to the call, they show up. They show up.
+
+They're further along in the sales process and we can answer those questions right here on the confirmation page. We can answer them in the email sequences that follow them up and we can answer them in the content remarketing that we're going to do through the hammer them strategy. This Dubai company didn't do anything. Literally nothing.
+
+They just sent the generic like, "Hey, here's a reminder to your call coming up." So, guess what I did? I did the research and I found that that claim was utter I'd have to renounce my US citizenship and move somewhere else, get citizenship or residency in that other place in order to avoid the taxes.
+
+Okay? If I offshore my profits, I still owe tax dollars on those is the moral of the story. Okay? As a US citizen, that's the case for me. Might be different for you. I know I have a relatively large international audience, so I'm not projecting that that's your use case.
+
+I'm not trying to give you tax advice either. I'm just more so saying what I researched ultimately helped me conclude that call would be a total waste of my time. And because the company didn't help me in any way, shape, or form do research, I deemed it as this isn't worth my time. They didn't even try to reach out to me. I didn't get a single selfie video from the sales rep.
+
+I didn't get any communication from the sales rep. Nothing. Not even an automated text to try to engage me before the call. Literally nothing. So obviously, I didn't show up and I did the research on my own. Okay. So, for the people who are going to do research, okay, why not help them do their research? And that all starts right on the confirmation page with those
+
+breakout videos. The main confirmation page video should be relatively short. It's like, hey, congratulations. You booked your call. Really excited to talk with you. We view it from here forward between now and your call to help you understand this whole thing as much as we can to get you as much information as we can that's actually beneficial to your buying process. By the time you get
+
+to the call, we ideally want you to be in or out. That's our objective. It's okay. We're not trying to press you and say like you have to buy on the call. That's not the case. We just want to do our best effort to get you as informed as we can between now and then. So, from here forward, you're going to see a bunch of emails from us. You're going to see some content that answers those
+
+types of questions. And right here on this very page you're on below this video, you'll see a bunch of those. We provide plenty of examples of confirmation pages like this, of email sequences like that, and of content examples inside of our inner circle offer where we do twice a month one-on-one calls, weekly group calls, quarterly in-person masterminds, and a
+
+Telegram chat, our community platform full of rich people trying to get a hell of a lot richer. We audit the ones that you create. We even watch the videos that you have. I watch them and a few other people will watch them, too, and give you some added perspective. That way, you can make sure you execute this right. whether you're going to take action on this kind of stuff just from
+
+watching the YouTube video or not. Need I not say that you obviously have a much higher probability of getting the results you're after when you actually pay us money because we'll give you a lot more information here. We withhold a tremendous amount of stuff just like examples and a few more best practices that we obviously only talk about once you actually pay us money. We're very
+
+good at understanding the game. You give us money, we need to make you more money than what you give us and make sure you're satisfied. That way, the time that next charge comes, you're going to have a smile on your face when you see that receipt email. Okay, back to my point. The other thing that you want to have on this page is obviously testimonials. Testimonials need to be
+
+believable. They need to be the average, okay, of your actual result that you're going to help people get. And they should ideally be below the breakout videos because the breakout videos, what we've noticed, have a far greater impact comparatively to just testimonial videos. Okay? Don't be afraid, by the way, to make some long- form content to pepper in there for your breakout
+
+videos. But ideally, you answer the questions that the breakout video is about or the research portion of the video is about right at the front of the video if they're going to be longer form. Try to make like a too long didn't read version of it first and then try to expand on it a little bit after. That always helps a lot. Okay. So in addition to the confirmation pages as I mentioned
+
+we have a very aggressive researchoriented email sequence that we're going to send out to people and that's a part of that hammer them strategy that we are going to encourage everybody to implement. Okay. So this email sequence can be as high give or take your audience of about six emails a day. Keep in mind that would be 18 total emails assuming that you have a 72-hour
+
+duration of time between the person booking and the person showing up. One thing I want to comment on that is a current callfunnel best practice is potentially intentionally spacing out the amount of time between a call booking and the time of the call itself. Instead of just allowing people to book within a day, sometimes allowing them to book 2 days
+
+or 3 days out can be the most ideal booking window. That way you can get a lot of this information off prior to the call. If you consistently get salespeople that say things like, "Oh, the leads are unqualified." First of all, try to get a lot more articulate feedback from your sales team. End of day reports, true articulate feedback can be extremely powerful for what it
+
+enables you to do as an organization. Implementing call funnels and trying to scale them up. Okay. Some good feedback that we've typically gotten from sales people when we don't implement all these best practices is that people just feel too early in the sales process on certain offers. If you're targeting like a really inmarket demographic and those people are already very far along and
+
+just ready to buy, that's tremendous. You don't have to do a lot of these best practices. You can get away with that. If you're targeting people and you find yourself having to, you know, convince them or just like work them to the point where they're further along in the sales process, then you want to follow every single best practice that I'm laying out here for you. In order to get people
+
+further along in that sales process, okay? You have to follow these kinds of things, the research, the testimonials, the hammer them content remarketing with the right type of content that people actually want, the types of questions that they have answered, not the types of questions you think they need to know, but the real questions they actually have. These things work
+
+phenomenal for that kind of stuff. So anyway, an aggressive research email sequence. I know six emails a day might sound like a ton, okay? But remember, when people actually want the information, we see open rates on this upwards of 60 to 70% for every single email that goes out. When you combine that with what we call these like research SOPs, these like FAQ
+
+documents and these breakout videos that you also work into your email sequences and your content remarketing campaigns. Okay, these become incredibly valuable that also ultimately get consumed a lot prior to the call. Same exact logic I provided for the confirmation page breakout videos just repurposed here inside of your actual email sequence.
+
+Okay. Now, in addition to all of that, we have the hammer them strategy. So, the hammer them strategy is incredible when it comes to helping people show up a lot better framed and further along in the sales process than they otherwise would be without all this information.
+
+Um, to be clear and just very light on it, since we already have entire videos on this channel dedicated to the hammer them strategy, we typically do 30 to 50 pieces of short form. We try to do about 20 to 30 pieces of long form content and we try to retarget people within the key window anywhere as low as about 15 times as high as about 20 plus times in terms of the ideal frequency. And one thing
+
+that I notice, and this is typically from the people who try to implement things from my YouTube channel and then eventually buy my stuff where I get to see this scenario play out. Like you'll try to do what I'm articulating, but you'll do it extremely halfass. Um, I just want to be really clear when I say this, right? I have not gotten to these numbers by accident or by just making
+
+them up. Okay? I've tried it with far less content. I work with busy, rich people for a living. Okay? The last thing I ever try to do for that demographic is overwhelm them with a ton of that I need them to go and film.
+
+I don't have that luxury with almost every person that we work with. So, what I've noticed is is that people try to execute this in a really halfass way. Like, I've come into an account where, as an example, they have like 23 pieces of long form content and they're not really getting the outcome of the hammer them strategy. They only have short form. They don't have long form. They're
+
+not hitting the minimum frequency target within that time frame. They're just again, they're just halfassing the strategy. So, you don't get the outcome as a result of that. You get the outcome of people showing up much further along in the sales process with all the common questions answered and being a lot better framed when you actually execute the strategy to the fullest extent of
+
+how I articulate it. Okay. I also want to be really clear, although yes, I try to articulate it to you as best I can here in a very light way to try to put you on game and help you make more money and just get better results in your business. That way, when you do eventually spend money with us, it's house money. You know, like you already went and profited, you're just using
+
+some of the profit dollars to spend money with us eventually. I want to be clear when I say this, the hammer them strategy SOP is tremendously long, okay? and it's full of examples and how-tos and like all the technicals and it also has all of these links to tons of content examples. The other thing that I see is without me or somebody else within the community actually giving you
+
+perspective on whether you're making the right hammer them videos and you're you're proactively creating and using the right content that actually answers the questions. you executed in the dark is what we call it and just on your own.
+
+Um, you typically get results because you're making very poorly executed content with questions, objections, and expectations that people just don't actually give a to know.
+
+You have to use content in all of these steps I've talked about. The emails, the the research FAQs and the SOPs, okay, the hammer them content, the breakout videos on the confirmation page. All of these have to be things that people going through your buying process genuinely give a to know. If you just use random that you poorly come up with, okay, just truly I've seen
+
+so many awful like so far off from what your buyer would actually want to know kind of stuff. And then you wonder, you're like, "Oh, I'm not my show rate's still shit." It's like, "Well, yeah, no You did an awful job at executing it." You know what I mean? So anyway, execute it right. Do all these things.
+
+It's like it's damn near impossible not to have at least 60 to 70% show rates. When you do all of it the right way and not just some of it that you feel like halfass doing. You get what I'm saying? So anyway, the outcome of this specific part of callunnel best practices is improving show rate and making people show up further along in the sales process.
+
+Okay. The other big thing that we also use here is what we refer to as trust assets and sales assets. Okay, so these two things, same thing. I have entire videos on this channel dedicated to just these two topics. And in the video, I talk at length about a capital raise client that we have where they had plenty of very financially qualified, accredited investors showing up to their
+
+sales calls, that just had a lot of very honest and real questions that needed answered. And every time these types of questions would come up, this specific organization, this client, they would proactively make new trust assets. Like as an example of one of the sophisticated questions that that demographic would have, people would show up and they'd be like, "Hey, can
+
+you show me of the last like two years worth of deals you've done, what the amount in invested has been, what the time has has been that has gone by, what the amount of cash uh whether it's cash on cash return, whether it's like equity that they rolled into the next deal, whether it's like month-on-month cash flow they've generated. Like how much is an average investor put in? How long did
+
+it take? How much did they get out of it? What do they on average do with it? What's like your reinvestment rate of your average investor? You know, what's the average amount that people are putting into your projects? Can you talk to me about your failed deals that you've done? Can you talk to me about the worst deal you've done, the best deal you've done, the average deal
+
+you've done? Can you introduce me to like all the people on your team? Can I fly out and like meet you guys? Can I do a walkthrough of one of your project sites? You know, there's just like all these really highlevel questions that when you turn them into trust assets, these are like very wellexecuted videos.
+
+They don't have to be super high production. They don't even have to be this good. They just have to be like a loom going through the actual data of what people want to know. When people are saying like, "Oh, I want to go visit visit a project site." It's like, "Well, guess what? this specific business.
+
+Every time they would visit a project site, they would just do a walkthrough video and they would show people all kinds of different stages of projects because they constantly go around to the different projects they have, both completed ones, both the in development ones and the ones where they just have a plot of land and are going through the permitting process.
+
+this specific organization started putting on little microphones and walking into the local municipalities for the permits that they needed approved and would have like GC's and all the subcontractors on the property doing walkthroughs and you know articulating like walking through blueprint plans with architects and and designers and things like this
+
+uh going through the materials that they'd purchase, where they'd buy them from, whether those things were going to be impacted by things like tariffs now that we're in this current economy. You know, it's like there's all kinds of that they made and we call those trust assets and sales assets. Okay? And for different organizations, obviously those look completely different. But my
+
+point being is like this combination, okay? This set of trust assets and sales assets, all these videos like the research SOPs, the FAQ documents, those videos, the confirmation pages, all the emails, these also all become things by the way that the salespeople can manually be sending out to people as well. So the other main thing that we've seen drive a ton of lift, okay, and this
+
+is very important to understand, lift in show rate, people being further along in the sales process, shorter sales cycles, okay, manual followup from the closer with information like this. Okay, I constantly tell clients, I constantly tell inner circle members, I constantly tell students in our course community, one of the number one influences of show rate and people being further along in
+
+the sales process is a salesperson successfully establishing communication pre-all. Okay, that doesn't mean an hour before the call. That means as soon as the call gets assigned to them, ideally within those first few hours max, there's a real human being, not a automated bot from a green text, not one of those new blue text softwares that's still using a notreal
+
+person's phone number. A salesperson from an iPhone texting the lead before the call has the highest delivery rate straight to where the person pays attention to the most, their text message inbox. And even greater than that, they send a selfie video. Okay, huge impacts on show rate and how far along people are in the sales process by a salesperson establishing communication
+
+prior to the call. These people should obviously look trustworthy. They should look good. They should be presentable. They should sound professional, but more importantly than anything else, they are helpful. They are researchoriented.
+
+They're just trying to solicit communication prior to that call. Okay? Just like everything else that I consistently talk to you guys about, I have entire best practice SOPs dedicated exclusively to show rate best practices, okay? Four sales teams to use. And I can't stress it enough. Buy one of our products. Okay? The link is in the description in this video. You have
+
+offers like our inner circle offer which are for rich people trying to get a hell of a lot richer and for master internet marketing members who would like to join in as either training their staff or training themselves on all the best practices from a digital marketing perspective that we've learned over the years. both have extensive libraries, dense amounts of information, access to
+
+all the SOPs we've created, and in addition to that, access to Jeremy AI, the ability to ask and get answers whenever you want in either video calls, voice calls, or written with you messaging it. People have used it for ad ideas, writing ad copy, writing landing page copy, creating webinars, creating VSSL scripts, just talking to it about understanding the course material. It is
+
+not one of those frivolous surface level AI offers. It is extremely valuable. Trained on a decade of every single It is trained on over 4 million data points just to put it in perspective for how much information and training material exclusively from me we've uploaded into it. It's not some chat GPT rapper or claude rapper. It is Jeremy AI. The
+
+development, the function, the benefit, the outcomes it's helped with are wide. It is very very beneficial to organizations from what we've seen at all income ranges and we include those in all of our offers. Again, there's links in the description for both of these opportunities and I would actively encourage you jump into them. They'll be a lot more helpful than the YouTube
+
+videos that you're currently consuming. And think about it like this. The YouTube videos have been extremely helpful. I'm not one of those people that says, "Oh, I don't have anything to sell you." I've got a ton of to sell you. I would love for you to spend money with us. That's why I like to make these YouTube videos. And here's the craziest part. You won't even understand
+
+this until you're eventually in the paid product of your choice. I withhold damn near 90%. I could talk about this exact same video in length to the inner circle members or in the master internet marketing group and I add 90% more to it with examples and all kinds of additional insight that I'll never provide for you here on YouTube. But you'll still obviously get a ton of
+
+perspective here on this channel that you don't get from anywhere else. other people charge you for this level of information I'm giving you. I'm telling you as transparent as I can that this is 10% of the that I can teach and talk to you about. Think about that. Go down into the description, pick a link of your choice and check out my offers and opportunities that might be best for
+
+you because you need them. You need them. So anyway, callunnel best practices. Okay, we have this combination of all of these things we've talked about so far. Okay, and you must do all of them, not some of them, all of them in order to really maximize show rate. people showing up on the calls much further along comparatively to what they will be without these best
+
+practices. And you have to understand it continues on from here, my friend. We have all the post call best practices. In addition to that, we have sales training for the calls itself. But hey, I got to do and you got to do, too. Pick a link in the description for which product's going to be best for you. I look forward to helping you a lot more than I've done here just in this
+
+video. I hope if you've gotten value that you're going to subscribe to the channel and check out some of my other videos. Again, everything that we talk about on the channel is passing down lessons from the million-doll a month earners that we've worked with and helped get there and just passing them down in little bite-size lessons like this to you. Looking forward to helping
+
+you get richer and uh talk

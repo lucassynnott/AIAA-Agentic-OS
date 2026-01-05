@@ -1,0 +1,839 @@
+1
+00:00:00,060 --> 00:00:01,000
+What's up guys?
+
+2
+00:00:01,000 --> 00:00:02,089
+Lucas here.
+
+3
+00:00:02,229 --> 00:00:03,500
+So I'm going to be breaking down
+
+4
+00:00:03,500 --> 00:00:04,950
+for you the funnel outline and
+
+5
+00:00:05,059 --> 00:00:06,299
+strategy builder workflow.
+
+6
+00:00:06,299 --> 00:00:07,700
+As usual in these videos, I'll be
+
+7
+00:00:07,700 --> 00:00:09,080
+going over the different nodes
+
+8
+00:00:09,140 --> 00:00:11,150
+that we're using, how they work,
+
+9
+00:00:11,310 --> 00:00:13,199
+the end result we're going to get,
+
+10
+00:00:13,199 --> 00:00:14,699
+and we'll go into a bit of
+
+11
+00:00:14,759 --> 00:00:15,839
+detail in the preview because
+
+12
+00:00:15,839 --> 00:00:17,019
+you're going to need to run this
+
+13
+00:00:17,019 --> 00:00:17,519
+workflow.
+
+14
+00:00:17,519 --> 00:00:18,620
+Luckily, there's not too
+
+15
+00:00:18,679 --> 00:00:19,850
+many for this one.
+
+16
+00:00:19,850 --> 00:00:21,589
+You need open writer setup as
+
+17
+00:00:21,589 --> 00:00:23,820
+usual as with the other workflows.
+
+18
+00:00:23,820 --> 00:00:24,679
+You will need
+
+19
+00:00:24,820 --> 00:00:26,199
+your Google Drive set up with a
+
+20
+00:00:26,199 --> 00:00:27,420
+folder named clients.
+
+21
+00:00:27,420 --> 00:00:28,809
+You will always need a folder
+
+22
+00:00:28,809 --> 00:00:29,239
+named
+
+23
+00:00:29,300 --> 00:00:30,730
+clients as we're storing all of
+
+24
+00:00:30,730 --> 00:00:32,320
+our information on our clients,
+
+25
+00:00:32,350 --> 00:00:34,030
+and you will need Slack connected
+
+26
+00:00:34,030 --> 00:00:34,479
+to do
+
+27
+00:00:34,539 --> 00:00:34,829
+that.
+
+28
+00:00:35,039 --> 00:00:36,200
+Again, you will just connect with
+
+29
+00:00:36,409 --> 00:00:37,820
+Slack normally, and that's to send
+
+30
+00:00:37,820 --> 00:00:38,659
+you a notification
+
+31
+00:00:38,829 --> 00:00:41,520
+about the workflow completion.
+
+32
+00:00:41,520 --> 00:00:43,969
+So let's see how this starts.
+
+33
+00:00:43,969 --> 00:00:45,090
+It's a form.
+
+34
+00:00:45,100 --> 00:00:46,829
+Very simply, it's a
+
+35
+00:00:46,909 --> 00:00:48,460
+detailed form that goes over the
+
+36
+00:00:48,460 --> 00:00:49,950
+client's details about their
+
+37
+00:00:49,990 --> 00:00:50,500
+funnel.
+
+38
+00:00:50,500 --> 00:00:51,869
+So the business and product
+
+39
+00:00:51,960 --> 00:00:53,170
+name, what type of business they
+
+40
+00:00:53,170 --> 00:00:54,509
+are, the industry and niche, the
+
+41
+00:00:54,509 --> 00:00:56,060
+ideal customer, the primary funnel
+
+42
+00:00:56,570 --> 00:00:57,740
+objective, the core offer price,
+
+43
+00:00:57,740 --> 00:00:59,250
+the stage their business is at,
+
+44
+00:00:59,250 --> 00:01:00,600
+their top three to five customer
+
+45
+00:01:00,659 --> 00:01:01,850
+pain points, what makes them
+
+46
+00:01:01,850 --> 00:01:03,090
+different, primary traffic
+
+47
+00:01:03,130 --> 00:01:04,540
+sources, what funnel elements do
+
+48
+00:01:04,549 --> 00:01:04,780
+they
+
+49
+00:01:04,859 --> 00:01:05,549
+already have?
+
+50
+00:01:05,549 --> 00:01:07,000
+If they have none, that's fine,
+
+51
+00:01:07,060 --> 00:01:08,329
+but if they have any, put them in
+
+52
+00:01:08,420 --> 00:01:08,980
+there.
+
+53
+00:01:09,129 --> 00:01:10,239
+Successful
+
+54
+00:01:10,840 --> 00:01:11,609
+competitors, their preferred
+
+55
+00:01:11,609 --> 00:01:12,870
+funnel type, if known, when do
+
+56
+00:01:12,870 --> 00:01:14,340
+they need the funnel live by,
+
+57
+00:01:14,340 --> 00:01:14,480
+their
+
+58
+00:01:15,140 --> 00:01:15,879
+implementation budget, how have we
+
+59
+00:01:15,909 --> 00:01:16,680
+built a funnel for them
+
+60
+00:01:16,840 --> 00:01:18,099
+previously, and anything else we
+
+61
+00:01:18,159 --> 00:01:18,540
+should know.
+
+62
+00:01:18,689 --> 00:01:20,590
+After that's done, we send it to a
+
+63
+00:01:20,629 --> 00:01:22,219
+research agent that uses
+
+64
+00:01:22,219 --> 00:01:23,480
+perplexity to perform
+
+65
+00:01:23,540 --> 00:01:25,969
+deep, deep research on the client
+
+66
+00:01:25,969 --> 00:01:28,019
+and the funnel based on this
+
+67
+00:01:28,019 --> 00:01:28,760
+outline here.
+
+68
+00:01:28,760 --> 00:01:30,180
+So we look for their
+
+69
+00:01:30,239 --> 00:01:31,079
+funnel architecture
+
+70
+00:01:31,140 --> 00:01:32,670
+recommendation, the competitor and
+
+71
+00:01:32,709 --> 00:01:34,129
+market analysis, psychological
+
+72
+00:01:34,189 --> 00:01:34,769
+triggers and
+
+73
+00:01:34,840 --> 00:01:36,280
+persuasion tactics, detailed
+
+74
+00:01:36,349 --> 00:01:37,739
+funnel stages, the content
+
+75
+00:01:37,739 --> 00:01:39,560
+strategy by funnel stage, pricing
+
+76
+00:01:39,560 --> 00:01:39,819
+and offer
+
+77
+00:01:40,420 --> 00:01:41,519
+architecture, technology stack and
+
+78
+00:01:41,519 --> 00:01:43,010
+tools, conversion benchmark and
+
+79
+00:01:43,019 --> 00:01:44,260
+KPIs, quick wins and advanced
+
+80
+00:01:44,319 --> 00:01:45,290
+tactics, and a 90-day
+
+81
+00:01:45,349 --> 00:01:46,500
+implementation roadmap.
+
+82
+00:01:46,519 --> 00:01:48,609
+Now, again, this is not actually
+
+83
+00:01:48,609 --> 00:01:49,560
+going to write
+
+84
+00:01:49,620 --> 00:01:51,269
+every single piece of the funnel.
+
+85
+00:01:51,269 --> 00:01:53,040
+We have other workflows for that.
+
+86
+00:01:53,040 --> 00:01:55,099
+What this is doing is it's
+
+87
+00:01:55,159 --> 00:01:56,349
+creating a detailed strategy
+
+88
+00:01:56,349 --> 00:01:57,750
+document, and I'll show you what
+
+89
+00:01:57,750 --> 00:01:59,000
+that looks like near the end of
+
+90
+00:01:59,000 --> 00:01:59,049
+the
+
+91
+00:01:59,140 --> 00:01:59,500
+video.
+
+92
+00:01:59,640 --> 00:02:00,760
+Next thing we have the funnel
+
+93
+00:02:00,760 --> 00:02:01,650
+outline builder.
+
+94
+00:02:01,650 --> 00:02:02,870
+So this actually builds the
+
+95
+00:02:02,870 --> 00:02:03,480
+outline.
+
+96
+00:02:03,480 --> 00:02:03,939
+What we do
+
+97
+00:02:04,000 --> 00:02:05,400
+here is we take the research along
+
+98
+00:02:05,400 --> 00:02:06,819
+with the other information about
+
+99
+00:02:06,890 --> 00:02:08,280
+the client, and we create a funnel
+
+100
+00:02:08,340 --> 00:02:09,560
+strategy overview, funnel
+
+101
+00:02:09,560 --> 00:02:10,900
+architecture map, audience
+
+102
+00:02:10,900 --> 00:02:12,680
+psychology profile, offer strategy
+
+103
+00:02:12,680 --> 00:02:13,539
+framework, content
+
+104
+00:02:13,599 --> 00:02:14,710
+strategy matrix, conversion
+
+105
+00:02:14,710 --> 00:02:16,139
+optimization strategy, traffic and
+
+106
+00:02:16,139 --> 00:02:18,039
+scaling roadmap, metrics and KPI
+
+107
+00:02:18,099 --> 00:02:19,180
+framework, implementation roadmap,
+
+108
+00:02:19,180 --> 00:02:20,240
+and strategic recommendations.
+
+109
+00:02:20,319 --> 00:02:23,780
+From there, we simply convert the
+
+110
+00:02:23,840 --> 00:02:25,259
+output from our funnel builder to
+
+111
+00:02:25,259 --> 00:02:26,419
+markdown formatting.
+
+112
+00:02:26,419 --> 00:02:27,960
+That's just a very simple markdown
+
+113
+00:02:27,960 --> 00:02:28,349
+formatter.
+
+114
+00:02:28,349 --> 00:02:28,500
+It just
+
+115
+00:02:28,560 --> 00:02:30,710
+tells it to turn that text into a
+
+116
+00:02:30,759 --> 00:02:32,930
+markdown format so that then we
+
+117
+00:02:32,930 --> 00:02:34,870
+can use MD2 docs, which as
+
+118
+00:02:34,939 --> 00:02:35,219
+mentioned
+
+119
+00:02:35,280 --> 00:02:36,650
+before, you will need to use your
+
+120
+00:02:36,650 --> 00:02:38,900
+Google Docs OAuth 2 API setup for
+
+121
+00:02:38,900 --> 00:02:39,400
+this.
+
+122
+00:02:39,550 --> 00:02:41,460
+It just creates way nicer
+
+123
+00:02:41,520 --> 00:02:43,180
+looking Google Docs than using the
+
+124
+00:02:43,689 --> 00:02:44,979
+Google Docs node directly.
+
+125
+00:02:45,080 --> 00:02:46,500
+Then we check to see if they're a
+
+126
+00:02:46,569 --> 00:02:46,900
+returning
+
+127
+00:02:46,960 --> 00:02:48,280
+client, which we are getting that
+
+128
+00:02:48,280 --> 00:02:49,469
+information from our form.
+
+129
+00:02:49,469 --> 00:02:50,599
+Simply we said if they were or
+
+130
+00:02:50,599 --> 00:02:51,620
+they were not.
+
+131
+00:02:51,680 --> 00:02:53,340
+And if they are, then we look for
+
+132
+00:02:53,639 --> 00:02:54,909
+their existing client folder and
+
+133
+00:02:54,930 --> 00:02:56,659
+we move it to the Google Doc to
+
+134
+00:02:56,659 --> 00:02:56,659
+the
+
+135
+00:02:56,800 --> 00:02:57,379
+correct folder.
+
+136
+00:02:57,379 --> 00:02:58,979
+If they're not, we create a new
+
+137
+00:02:59,020 --> 00:03:00,599
+client folder and then move the
+
+138
+00:03:00,599 --> 00:03:01,610
+doc to that folder
+
+139
+00:03:01,680 --> 00:03:03,129
+before finally sending you a nice
+
+140
+00:03:03,129 --> 00:03:04,699
+notification telling you that the
+
+141
+00:03:04,729 --> 00:03:06,020
+funnel has been created with
+
+142
+00:03:06,069 --> 00:03:07,300
+a link to the document.
+
+143
+00:03:07,300 --> 00:03:08,590
+Now let's take a look at that
+
+144
+00:03:08,590 --> 00:03:10,150
+document and see what the actual
+
+145
+00:03:10,150 --> 00:03:10,810
+output of this
+
+146
+00:03:10,879 --> 00:03:11,219
+looks like.
+
+147
+00:03:11,310 --> 00:03:13,349
+I made up a company for this
+
+148
+00:03:13,349 --> 00:03:15,849
+called Scale with Confidence
+
+149
+00:03:15,849 --> 00:03:16,490
+Coaching.
+
+150
+00:03:16,509 --> 00:03:17,060
+As you can see here,
+
+151
+00:03:17,120 --> 00:03:18,560
+we get the full funnel strategy
+
+152
+00:03:18,560 --> 00:03:19,159
+overview.
+
+153
+00:03:19,289 --> 00:03:20,879
+We go through the different stages
+
+154
+00:03:20,879 --> 00:03:22,180
+of the customer journey.
+
+155
+00:03:22,240 --> 00:03:23,610
+Then we go into competitive
+
+156
+00:03:23,610 --> 00:03:25,469
+positioning strategy, the funnel
+
+157
+00:03:25,469 --> 00:03:26,500
+architecture map.
+
+158
+00:03:26,509 --> 00:03:28,090
+The page types are going
+
+159
+00:03:28,159 --> 00:03:29,460
+to be required for this, the
+
+160
+00:03:29,460 --> 00:03:31,280
+conversion mechanisms, technology
+
+161
+00:03:31,280 --> 00:03:32,969
+stack requirements, integration
+
+162
+00:03:33,039 --> 00:03:34,580
+points and automation triggers,
+
+163
+00:03:34,580 --> 00:03:36,090
+the core emotional drivers, the
+
+164
+00:03:36,129 --> 00:03:37,849
+sophistication level analysis.
+
+165
+00:03:37,919 --> 00:03:38,889
+It's super detailed.
+
+166
+00:03:38,949 --> 00:03:40,349
+This is 15 pages straight of
+
+167
+00:03:40,349 --> 00:03:41,699
+funnel strategies, everything you
+
+168
+00:03:41,699 --> 00:03:42,259
+possibly need,
+
+169
+00:03:42,319 --> 00:03:43,610
+including an outline of what the
+
+170
+00:03:43,610 --> 00:03:45,139
+email sequence should look like,
+
+171
+00:03:45,210 --> 00:03:46,740
+the story arc development,
+
+172
+00:03:46,800 --> 00:03:47,849
+authority building elements,
+
+173
+00:03:47,849 --> 00:03:49,219
+conversion optimization strategy,
+
+174
+00:03:49,219 --> 00:03:51,300
+the traffic and scaling roadmap.
+
+175
+00:03:51,360 --> 00:03:53,020
+Super, super detailed.
+
+176
+00:03:53,229 --> 00:03:54,340
+And the real benefit of this is
+
+177
+00:03:54,340 --> 00:03:55,250
+going to be feeding this to some
+
+178
+00:03:55,289 --> 00:03:55,490
+of our
+
+179
+00:03:55,599 --> 00:03:57,159
+other funnel builders later on.
+
+180
+00:03:57,159 --> 00:03:58,650
+So for the funnel copywriter and
+
+181
+00:03:58,689 --> 00:04:01,539
+for the webinar generator funnel,
+
+182
+00:04:01,599 --> 00:04:02,740
+this is super useful.
+
+183
+00:04:02,740 --> 00:04:04,240
+And there's a way to add this to
+
+184
+00:04:04,240 --> 00:04:06,889
+there with that workflow.
+
+185
+00:04:06,900 --> 00:04:08,969
+So hopefully this is
+
+186
+00:04:09,039 --> 00:04:10,120
+going to be one of the first
+
+187
+00:04:10,120 --> 00:04:10,900
+things you use.
+
+188
+00:04:10,900 --> 00:04:12,289
+If you're creating a funnel for a
+
+189
+00:04:12,289 --> 00:04:13,460
+client, it gives you
+
+190
+00:04:13,509 --> 00:04:14,969
+a great output that you can then
+
+191
+00:04:15,030 --> 00:04:16,519
+use as the basis for your other
+
+192
+00:04:16,519 --> 00:04:17,220
+elements.
+
+193
+00:04:17,220 --> 00:04:18,500
+And also you can give it to
+
+194
+00:04:18,560 --> 00:04:19,389
+the client directly to show them
+
+195
+00:04:19,420 --> 00:04:20,220
+kind of what the strategy is going
+
+196
+00:04:20,370 --> 00:04:21,139
+to look like and what's going to
+
+197
+00:04:21,139 --> 00:04:21,300
+be
+
+198
+00:04:21,360 --> 00:04:21,819
+involved.
+
+199
+00:04:21,860 --> 00:04:22,980
+It's super detailed as you've
+
+200
+00:04:22,980 --> 00:04:23,279
+seen.
+
+201
+00:04:23,310 --> 00:04:24,379
+It's very impressive and is
+
+202
+00:04:24,379 --> 00:04:25,699
+actually super useful for
+
+203
+00:04:25,759 --> 00:04:26,949
+you later on when you're writing
+
+204
+00:04:26,949 --> 00:04:28,230
+the rest of your copy and creating
+
+205
+00:04:28,230 --> 00:04:30,180
+the other elements of the funnel.
+
+206
+00:04:30,240 --> 00:04:32,579
+So I hope this was helpful.
+
+207
+00:04:32,579 --> 00:04:34,899
+Any issues, feel free to hit me up
+
+208
+00:04:34,899 --> 00:04:35,800
+and I will see you guys in the
+
+209
+00:04:35,800 --> 00:04:36,420
+next one.
+
+210
+00:04:36,420 --> 00:04:37,139
+Peace.

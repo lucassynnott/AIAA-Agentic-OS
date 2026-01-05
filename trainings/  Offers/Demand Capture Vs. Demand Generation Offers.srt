@@ -1,0 +1,2983 @@
+1
+00:00:00,320 --> 00:00:01,409
+All right, so let's talk about
+
+2
+00:00:01,540 --> 00:00:02,730
+demand capture versus demand
+
+3
+00:00:02,839 --> 00:00:03,439
+generation.
+
+4
+00:00:03,450 --> 00:00:05,080
+So you've got a spectrum here.
+
+5
+00:00:05,089 --> 00:00:06,169
+So every offer sits on a sliding
+
+6
+00:00:06,280 --> 00:00:07,480
+scale of demand capture versus
+
+7
+00:00:07,480 --> 00:00:08,439
+demand generation.
+
+8
+00:00:08,449 --> 00:00:10,519
+A demand capture offer is an offer
+
+9
+00:00:10,519 --> 00:00:12,339
+that somebody will only buy if
+
+10
+00:00:12,349 --> 00:00:13,439
+they're already looking for it.
+
+11
+00:00:13,449 --> 00:00:14,859
+And a demand generation offer is
+
+12
+00:00:14,859 --> 00:00:16,120
+an offer where you can create
+
+13
+00:00:16,120 --> 00:00:16,820
+demand for.
+
+14
+00:00:16,829 --> 00:00:17,780
+So like, let me give you some
+
+15
+00:00:17,780 --> 00:00:19,100
+examples of demand capture offers.
+
+16
+00:00:19,109 --> 00:00:22,120
+Website, you need to rent a bounce
+
+17
+00:00:22,120 --> 00:00:23,899
+house for a party.
+
+18
+00:00:23,949 --> 00:00:25,609
+In what situation are you, is
+
+19
+00:00:25,609 --> 00:00:27,429
+someone going to convince you to
+
+20
+00:00:27,429 --> 00:00:29,859
+rent a bounce house when you don't
+
+21
+00:00:29,879 --> 00:00:30,969
+have an immediate need for a
+
+22
+00:00:30,969 --> 00:00:32,079
+bounce house already?
+
+23
+00:00:32,090 --> 00:00:34,039
+Like, you can't like convince me
+
+24
+00:00:34,039 --> 00:00:35,929
+to fucking get a bounce house if I
+
+25
+00:00:35,929 --> 00:00:38,030
+wasn't already having a children's
+
+26
+00:00:38,030 --> 00:00:39,039
+house party.
+
+27
+00:00:39,049 --> 00:00:39,579
+You get what I'm saying?
+
+28
+00:00:39,590 --> 00:00:41,200
+Like, so IT services, you're a
+
+29
+00:00:41,200 --> 00:00:42,880
+real estate agent and want people
+
+30
+00:00:42,880 --> 00:00:44,500
+to get their home, to list their
+
+31
+00:00:44,500 --> 00:00:45,420
+homes with you.
+
+32
+00:00:45,429 --> 00:00:46,840
+Like, you're not going to convince
+
+33
+00:00:46,840 --> 00:00:48,210
+people to sell their fucking house
+
+34
+00:00:48,250 --> 00:00:49,509
+if they weren't already going to
+
+35
+00:00:49,509 --> 00:00:50,530
+sell their house.
+
+36
+00:00:50,549 --> 00:00:51,380
+You get what I'm saying?
+
+37
+00:00:51,469 --> 00:00:53,119
+Like, insurance, like you don't
+
+38
+00:00:53,119 --> 00:00:54,939
+buy car insurance unless you have,
+
+39
+00:00:54,939 --> 00:00:56,320
+unless you just purchased a car
+
+40
+00:00:56,320 --> 00:00:57,520
+and you're in immediate need for a
+
+41
+00:00:57,520 --> 00:00:57,929
+new car.
+
+42
+00:00:57,950 --> 00:00:59,590
+Recruiting, automations, build
+
+43
+00:00:59,590 --> 00:01:01,140
+outs, bookkeeping, inventory
+
+44
+00:01:01,140 --> 00:01:02,789
+management, code base, security
+
+45
+00:01:02,789 --> 00:01:04,439
+auditing, task management, data
+
+46
+00:01:04,459 --> 00:01:06,060
+entry, data extraction, credit
+
+47
+00:01:06,060 --> 00:01:06,959
+card process.
+
+48
+00:01:06,969 --> 00:01:07,640
+You get what I'm saying?
+
+49
+00:01:07,650 --> 00:01:09,189
+I'm just spewing random shit here
+
+50
+00:01:09,189 --> 00:01:10,650
+so you get the premise of like,
+
+51
+00:01:10,650 --> 00:01:12,230
+you can't just fucking create the
+
+52
+00:01:12,230 --> 00:01:13,519
+demand for it, right?
+
+53
+00:01:13,549 --> 00:01:15,400
+So examples of demand generation
+
+54
+00:01:15,400 --> 00:01:17,109
+offers where you can just spawn
+
+55
+00:01:17,200 --> 00:01:18,870
+demand for it is getting people
+
+56
+00:01:18,870 --> 00:01:20,420
+more leads to Facebook ads,
+
+57
+00:01:20,530 --> 00:01:21,760
+building funnels, converting more
+
+58
+00:01:21,760 --> 00:01:22,680
+free trial users with email
+
+59
+00:01:22,680 --> 00:01:23,799
+marketing, helping people get
+
+60
+00:01:23,799 --> 00:01:25,000
+leads and clients from Twitter,
+
+61
+00:01:25,010 --> 00:01:26,480
+LinkedIn automated outreach to
+
+62
+00:01:26,480 --> 00:01:28,019
+generate leads to clients, UGC ad
+
+63
+00:01:28,019 --> 00:01:29,370
+creatives, influencer marketing,
+
+64
+00:01:29,400 --> 00:01:30,420
+content production offers,
+
+65
+00:01:30,430 --> 00:01:31,670
+cold calling lead gen, cold email
+
+66
+00:01:31,769 --> 00:01:33,209
+lead gen, Facebook, Google, TikTok
+
+67
+00:01:33,250 --> 00:01:34,000
+ads, webinars.
+
+68
+00:01:34,030 --> 00:01:34,760
+You get what I'm saying?
+
+69
+00:01:35,329 --> 00:01:37,950
+So you can like convince people to
+
+70
+00:01:37,950 --> 00:01:39,500
+do this, right?
+
+71
+00:01:39,510 --> 00:01:40,780
+People only buy this if they have
+
+72
+00:01:40,849 --> 00:01:42,349
+already personally decided that's
+
+73
+00:01:42,349 --> 00:01:43,859
+what they're going to purchase.
+
+74
+00:01:43,890 --> 00:01:45,920
+So your offer falls on a scale.
+
+75
+00:01:45,930 --> 00:01:47,420
+It can exist at any point.
+
+76
+00:01:47,430 --> 00:01:48,780
+It can be like, it can be in the
+
+77
+00:01:48,780 --> 00:01:49,700
+center, right?
+
+78
+00:01:49,709 --> 00:01:51,120
+So like, I've seen some random
+
+79
+00:01:51,120 --> 00:01:52,299
+shit like this before.
+
+80
+00:01:52,310 --> 00:01:53,340
+Discord community creation.
+
+81
+00:01:53,349 --> 00:01:54,439
+I hope you grow your business by
+
+82
+00:01:54,560 --> 00:01:55,739
+creating a Discord community for
+
+83
+00:01:55,739 --> 00:01:56,060
+you.
+
+84
+00:01:56,069 --> 00:01:56,719
+That would be like somewhere in
+
+85
+00:01:56,739 --> 00:01:57,060
+the center.
+
+86
+00:01:57,069 --> 00:01:58,120
+Conversion rate optimization is
+
+87
+00:01:58,120 --> 00:01:59,019
+somewhere in the center.
+
+88
+00:01:59,510 --> 00:02:01,049
+Organic YouTube management would
+
+89
+00:02:01,049 --> 00:02:02,420
+be somewhere in the center.
+
+90
+00:02:02,430 --> 00:02:04,379
+But if you like, if you took this
+
+91
+00:02:04,379 --> 00:02:05,799
+and turn it into like a content
+
+92
+00:02:05,799 --> 00:02:07,200
+production offer with like a
+
+93
+00:02:07,200 --> 00:02:08,000
+quantifiable claim,
+
+94
+00:02:08,008 --> 00:02:09,280
+you're shifting it towards the
+
+95
+00:02:09,349 --> 00:02:10,860
+left to, I'm sorry, you're
+
+96
+00:02:10,860 --> 00:02:11,780
+shifting it towards the right in
+
+97
+00:02:11,780 --> 00:02:12,479
+demand generation.
+
+98
+00:02:13,250 --> 00:02:15,199
+SEO, public relations, ad writing,
+
+99
+00:02:15,250 --> 00:02:16,810
+and designing video production
+
+100
+00:02:16,909 --> 00:02:18,530
+without it being among a content
+
+101
+00:02:18,530 --> 00:02:19,620
+production system
+
+102
+00:02:19,629 --> 00:02:20,680
+intended to produce new clients.
+
+103
+00:02:20,689 --> 00:02:22,610
+So like when you start slapping
+
+104
+00:02:22,610 --> 00:02:24,539
+like quantifiable results and
+
+105
+00:02:24,539 --> 00:02:26,180
+guarantees, you're shifting it
+
+106
+00:02:26,180 --> 00:02:27,020
+towards demand gen.
+
+107
+00:02:27,030 --> 00:02:28,490
+So now let's talk about this real
+
+108
+00:02:28,490 --> 00:02:29,639
+quick is mechanisms.
+
+109
+00:02:29,650 --> 00:02:31,300
+So a demand capture mechanism is
+
+110
+00:02:31,300 --> 00:02:32,879
+something like Google ads.
+
+111
+00:02:32,889 --> 00:02:34,520
+So if you know, like Google search
+
+112
+00:02:34,520 --> 00:02:35,289
+ads, right?
+
+113
+00:02:35,310 --> 00:02:36,150
+So you get in front of people
+
+114
+00:02:36,210 --> 00:02:37,259
+actively searching for it.
+
+115
+00:02:37,289 --> 00:02:39,020
+It means you're quite literally
+
+116
+00:02:39,020 --> 00:02:40,240
+capturing demand.
+
+117
+00:02:40,250 --> 00:02:42,199
+Where it's like, if I have an AC
+
+118
+00:02:42,250 --> 00:02:44,159
+unit and my AC unit goes out and I
+
+119
+00:02:44,240 --> 00:02:46,699
+search up like HVAC repair Tampa,
+
+120
+00:02:46,710 --> 00:02:48,389
+what does that mean?
+
+121
+00:02:48,409 --> 00:02:49,659
+It means that like the people
+
+122
+00:02:49,750 --> 00:02:51,259
+buying Google ads on that search
+
+123
+00:02:51,259 --> 00:02:52,719
+term are capturing demand as it
+
+124
+00:02:52,719 --> 00:02:53,680
+flows, right?
+
+125
+00:02:53,689 --> 00:02:55,400
+Demand generation mechanism is
+
+126
+00:02:55,400 --> 00:02:56,919
+something like cold email or
+
+127
+00:02:56,919 --> 00:02:58,919
+Facebook ads or cold email or DMs.
+
+128
+00:02:58,930 --> 00:03:00,800
+You're interrupting somebody.
+
+129
+00:03:00,810 --> 00:03:02,060
+So you're quite literally trying
+
+130
+00:03:02,150 --> 00:03:03,210
+to generate the demand, not
+
+131
+00:03:03,210 --> 00:03:03,800
+capture it.
+
+132
+00:03:03,810 --> 00:03:05,330
+So if I get a cold email or a cold
+
+133
+00:03:05,330 --> 00:03:06,849
+DM from somebody, I've been
+
+134
+00:03:06,849 --> 00:03:07,699
+interrupted.
+
+135
+00:03:08,270 --> 00:03:09,719
+If I get a Facebook ad, I've been
+
+136
+00:03:09,719 --> 00:03:10,539
+interrupted.
+
+137
+00:03:10,550 --> 00:03:12,120
+Now, Facebook ads are a little
+
+138
+00:03:12,120 --> 00:03:13,719
+different nowadays because of
+
+139
+00:03:13,719 --> 00:03:15,250
+what's called advantage plus
+
+140
+00:03:15,250 --> 00:03:16,500
+targeting or just like AI
+
+141
+00:03:16,500 --> 00:03:18,840
+targeting where you can have a
+
+142
+00:03:18,840 --> 00:03:21,180
+demand capture offer and use
+
+143
+00:03:21,180 --> 00:03:22,500
+Facebook ads.
+
+144
+00:03:22,509 --> 00:03:24,590
+And it just like reads the ad and
+
+145
+00:03:24,590 --> 00:03:26,949
+finds people who are interested in
+
+146
+00:03:26,949 --> 00:03:28,229
+that right now.
+
+147
+00:03:28,270 --> 00:03:29,870
+It just does that automatically
+
+148
+00:03:29,870 --> 00:03:30,219
+now.
+
+149
+00:03:30,610 --> 00:03:32,050
+So it's kind of a demand
+
+150
+00:03:32,050 --> 00:03:34,189
+generation mechanism, kind of a
+
+151
+00:03:34,270 --> 00:03:36,229
+demand capture mechanism.
+
+152
+00:03:36,270 --> 00:03:37,870
+Facebook ads could be used as
+
+153
+00:03:37,870 --> 00:03:39,469
+demand gen or demand capture
+
+154
+00:03:39,469 --> 00:03:41,439
+because of their AI targeting.
+
+155
+00:03:41,449 --> 00:03:43,240
+No, don't get confused when I put
+
+156
+00:03:43,240 --> 00:03:45,009
+something like Google ads in here
+
+157
+00:03:45,099 --> 00:03:46,810
+as a mechanism when I already put
+
+158
+00:03:46,810 --> 00:03:47,840
+it as an offer.
+
+159
+00:03:47,849 --> 00:03:49,460
+So like when that was listed as an
+
+160
+00:03:49,460 --> 00:03:50,900
+offer, I mean Google ads as a
+
+161
+00:03:50,900 --> 00:03:51,509
+service.
+
+162
+00:03:51,530 --> 00:03:52,780
+In this mechanism section, it's
+
+163
+00:03:52,870 --> 00:03:53,930
+categorized as meaning like a
+
+164
+00:03:53,930 --> 00:03:55,229
+means of acquiring traffic.
+
+165
+00:03:55,250 --> 00:03:57,030
+So now sometimes you're selling a
+
+166
+00:03:57,030 --> 00:03:58,629
+demand capture offer with the
+
+167
+00:03:58,629 --> 00:04:00,340
+demand generation mechanism,
+
+168
+00:04:00,379 --> 00:04:00,949
+right?
+
+169
+00:04:00,969 --> 00:04:02,569
+So if you want to sell a demand
+
+170
+00:04:02,569 --> 00:04:04,530
+capture offer like web design with
+
+171
+00:04:04,620 --> 00:04:06,460
+the demand generation mechanism
+
+172
+00:04:06,460 --> 00:04:08,479
+like cold email, you can only do
+
+173
+00:04:08,479 --> 00:04:09,500
+three things.
+
+174
+00:04:09,550 --> 00:04:10,650
+And these three things only,
+
+175
+00:04:10,740 --> 00:04:11,949
+there's no other way to do this,
+
+176
+00:04:12,060 --> 00:04:12,500
+right?
+
+177
+00:04:13,349 --> 00:04:15,159
+So extremely high volume and in an
+
+178
+00:04:15,159 --> 00:04:16,910
+attempt to just by happenstance
+
+179
+00:04:17,000 --> 00:04:18,680
+find somebody who already needs
+
+180
+00:04:18,680 --> 00:04:19,620
+one, right?
+
+181
+00:04:19,629 --> 00:04:21,529
+So if you're trying to sell web
+
+182
+00:04:21,529 --> 00:04:23,699
+design with cold email, but web
+
+183
+00:04:23,699 --> 00:04:26,089
+design is a demand capture offer.
+
+184
+00:04:26,110 --> 00:04:27,720
+So you would just need to send a
+
+185
+00:04:27,720 --> 00:04:29,339
+fuck ton of cold email, like a
+
+186
+00:04:29,339 --> 00:04:30,970
+fucking insane amount of it,
+
+187
+00:04:30,970 --> 00:04:31,620
+right?
+
+188
+00:04:31,629 --> 00:04:32,870
+So second is positioning your
+
+189
+00:04:32,870 --> 00:04:34,220
+offer to be unique and therefore
+
+190
+00:04:34,220 --> 00:04:35,470
+more on the demand generation
+
+191
+00:04:35,470 --> 00:04:35,860
+side.
+
+192
+00:04:35,870 --> 00:04:36,959
+So it's just morphing it to demand
+
+193
+00:04:37,060 --> 00:04:37,519
+gen side.
+
+194
+00:04:38,889 --> 00:04:40,459
+Outreaching to prospects based off
+
+195
+00:04:40,459 --> 00:04:41,899
+demand capture indicators.
+
+196
+00:04:41,910 --> 00:04:43,860
+So like an example would be you're
+
+197
+00:04:43,899 --> 00:04:45,709
+trying to sell IT services and
+
+198
+00:04:45,709 --> 00:04:47,170
+you're somehow able to scrape data
+
+199
+00:04:47,170 --> 00:04:48,589
+that somebody just had a security
+
+200
+00:04:48,589 --> 00:04:49,120
+breach.
+
+201
+00:04:49,129 --> 00:04:52,500
+That would be like an indicator.
+
+202
+00:04:52,509 --> 00:04:53,060
+You get what I'm saying?
+
+203
+00:04:53,069 --> 00:04:54,170
+So if you're trying to sell a
+
+204
+00:04:54,279 --> 00:04:55,410
+demand capture offer using a
+
+205
+00:04:55,410 --> 00:04:56,819
+demand generation mechanism,
+
+206
+00:04:56,829 --> 00:04:58,300
+what you need to be doing in your
+
+207
+00:04:58,300 --> 00:04:59,810
+marketing is selling first the
+
+208
+00:04:59,810 --> 00:05:01,250
+concept of why they would want
+
+209
+00:05:01,250 --> 00:05:03,040
+your offer in the first place.
+
+210
+00:05:03,050 --> 00:05:04,129
+So like for instance, every
+
+211
+00:05:04,259 --> 00:05:05,449
+business owner on the planet wants
+
+212
+00:05:05,560 --> 00:05:06,180
+more clients.
+
+213
+00:05:06,269 --> 00:05:07,629
+If you're selling lead generation
+
+214
+00:05:07,629 --> 00:05:08,939
+services, you don't need to make
+
+215
+00:05:08,939 --> 00:05:10,110
+an ad that's trying to convince
+
+216
+00:05:10,110 --> 00:05:11,209
+somebody why they need to get more
+
+217
+00:05:11,209 --> 00:05:12,220
+clients for their business.
+
+218
+00:05:12,230 --> 00:05:13,139
+Like it's fucking
+
+219
+00:05:13,149 --> 00:05:14,360
+self-explanatory.
+
+220
+00:05:14,370 --> 00:05:15,319
+They already want that, right?
+
+221
+00:05:15,329 --> 00:05:16,430
+So if you're selling life
+
+222
+00:05:16,540 --> 00:05:18,000
+insurance and you're trying to do
+
+223
+00:05:18,000 --> 00:05:19,490
+it with a mechanism like content
+
+224
+00:05:19,490 --> 00:05:20,910
+marketing or Facebook ads,
+
+225
+00:05:20,930 --> 00:05:22,170
+which are demand generation
+
+226
+00:05:22,269 --> 00:05:22,879
+mechanisms,
+
+227
+00:05:22,930 --> 00:05:25,089
+you have to start by convincing
+
+228
+00:05:25,170 --> 00:05:26,959
+people why they need life
+
+229
+00:05:26,959 --> 00:05:29,079
+insurance in the first place
+
+230
+00:05:29,120 --> 00:05:31,300
+before selling them your life
+
+231
+00:05:31,300 --> 00:05:32,329
+insurance.
+
+232
+00:05:32,370 --> 00:05:32,759
+You get what I'm saying?
+
+233
+00:05:32,769 --> 00:05:33,870
+So this is often why you hear
+
+234
+00:05:33,959 --> 00:05:35,379
+about the difference between like
+
+235
+00:05:35,379 --> 00:05:36,899
+first mover's advantage and second
+
+236
+00:05:36,899 --> 00:05:38,000
+mover's advantage.
+
+237
+00:05:38,009 --> 00:05:39,959
+The first mover must convince the
+
+238
+00:05:39,970 --> 00:05:41,810
+market why they should buy into
+
+239
+00:05:41,810 --> 00:05:43,980
+the idea and why they should use
+
+240
+00:05:43,980 --> 00:05:45,790
+their solution for it.
+
+241
+00:05:45,810 --> 00:05:46,860
+The second mover only has to
+
+242
+00:05:46,860 --> 00:05:48,209
+convince the market their solution
+
+243
+00:05:48,319 --> 00:05:49,620
+is better than the first mover.
+
+244
+00:05:49,629 --> 00:05:50,730
+You get what I'm saying?
+
+245
+00:05:51,290 --> 00:05:53,019
+So earlier, like one of these
+
+246
+00:05:53,019 --> 00:05:54,850
+things that said extremely high
+
+247
+00:05:54,939 --> 00:05:56,230
+volume, what does that mean,
+
+248
+00:05:56,230 --> 00:05:56,560
+right?
+
+249
+00:05:56,569 --> 00:05:57,569
+So if you're selling a demand
+
+250
+00:05:57,569 --> 00:05:58,420
+generation offer with a
+
+251
+00:05:58,420 --> 00:05:59,750
+quantifiable promise and guarantee
+
+252
+00:05:59,750 --> 00:06:00,420
+in social work,
+
+253
+00:06:00,430 --> 00:06:01,699
+you can typically get around one
+
+254
+00:06:01,769 --> 00:06:03,569
+client for your 1,000 prospects
+
+255
+00:06:03,569 --> 00:06:04,839
+contacted via cold email.
+
+256
+00:06:04,850 --> 00:06:07,470
+Well, maybe like depending on some
+
+257
+00:06:07,470 --> 00:06:11,589
+other things like 1,000 to 3,000,
+
+258
+00:06:11,589 --> 00:06:12,420
+right?
+
+259
+00:06:12,730 --> 00:06:17,389
+Maybe like in probably every 50 or
+
+260
+00:06:17,389 --> 00:06:22,339
+so Dream 100 outreaches if your
+
+261
+00:06:22,350 --> 00:06:25,079
+scripts are good.
+
+262
+00:06:29,089 --> 00:06:33,449
+So if you're doing Dream 100 and
+
+263
+00:06:33,480 --> 00:06:36,990
+you do like 50 of them, it's like
+
+264
+00:06:37,000 --> 00:06:38,029
+there's a considerable bottom of a
+
+265
+00:06:38,149 --> 00:06:38,490
+follow-up.
+
+266
+00:06:38,529 --> 00:06:39,560
+It's not like, oh, I hit number
+
+267
+00:06:39,560 --> 00:06:39,959
+50.
+
+268
+00:06:39,970 --> 00:06:40,939
+Number 50 converts.
+
+269
+00:06:40,949 --> 00:06:42,629
+Like it's like some random person
+
+270
+00:06:42,639 --> 00:06:44,160
+within the 50 who you have
+
+271
+00:06:44,160 --> 00:06:46,100
+executed sufficient follow-up over
+
+272
+00:06:46,100 --> 00:06:47,680
+sufficient quantities of time will
+
+273
+00:06:47,680 --> 00:06:49,720
+probably convert, right?
+
+274
+00:06:49,829 --> 00:06:51,079
+So now if you're selling demand
+
+275
+00:06:51,170 --> 00:06:52,449
+capture, the numbers will hang
+
+276
+00:06:52,449 --> 00:06:53,899
+somewhere between like one client
+
+277
+00:06:53,899 --> 00:06:55,910
+for every 5,000 to 20,000
+
+278
+00:06:55,910 --> 00:06:56,579
+prospects.
+
+279
+00:06:56,589 --> 00:06:58,649
+So like here's just an example of
+
+280
+00:06:58,649 --> 00:06:59,240
+this.
+
+281
+00:06:59,250 --> 00:07:00,519
+So like Cameron Tarbell, yeah, it
+
+282
+00:07:00,589 --> 00:07:02,079
+looks like every 20K prospects was
+
+283
+00:07:02,079 --> 00:07:03,180
+a new client more or less.
+
+284
+00:07:03,209 --> 00:07:04,009
+I haven't ran cold in like four
+
+285
+00:07:04,009 --> 00:07:04,310
+months.
+
+286
+00:07:04,389 --> 00:07:05,480
+So I have deals closing from the
+
+287
+00:07:05,600 --> 00:07:06,730
+campaigns I ran from November to
+
+288
+00:07:06,730 --> 00:07:07,139
+March.
+
+289
+00:07:07,149 --> 00:07:09,689
+So like Cameron sells web design,
+
+290
+00:07:09,689 --> 00:07:10,459
+right?
+
+291
+00:07:10,470 --> 00:07:13,560
+So for every 20,000 people that
+
+292
+00:07:13,560 --> 00:07:16,000
+Cameron contacts is able to sell,
+
+293
+00:07:16,000 --> 00:07:18,620
+just a standard website, right?
+
+294
+00:07:19,829 --> 00:07:21,019
+Aaron Price or demand capture, and
+
+295
+00:07:21,029 --> 00:07:22,170
+I've been incorrectly stressing
+
+296
+00:07:22,170 --> 00:07:23,240
+we're not hitting one client per
+
+297
+00:07:23,250 --> 00:07:24,300
+1,000 emails.
+
+298
+00:07:24,310 --> 00:07:26,470
+We're around one client per 5,000
+
+299
+00:07:26,569 --> 00:07:28,839
+contacts, 20,000 emails, which
+
+300
+00:07:28,839 --> 00:07:29,699
+makes sense.
+
+301
+00:07:29,709 --> 00:07:30,720
+Just need to send more emails,
+
+302
+00:07:30,720 --> 00:07:31,060
+right?
+
+303
+00:07:31,069 --> 00:07:32,949
+So how do you position your demand
+
+304
+00:07:32,949 --> 00:07:34,620
+capture offer to be unique?
+
+305
+00:07:34,730 --> 00:07:35,829
+So this is point number two.
+
+306
+00:07:35,910 --> 00:07:36,879
+How do you position your demand
+
+307
+00:07:36,879 --> 00:07:37,819
+capture offer to be unique and
+
+308
+00:07:37,819 --> 00:07:39,240
+morphed towards demand generation?
+
+309
+00:07:39,250 --> 00:07:40,079
+Let's go to two examples.
+
+310
+00:07:40,170 --> 00:07:41,000
+So like web design as a for
+
+311
+00:07:41,000 --> 00:07:41,439
+instance.
+
+312
+00:07:41,470 --> 00:07:43,279
+One is like, I'll make you a
+
+313
+00:07:43,279 --> 00:07:44,100
+website.
+
+314
+00:07:44,110 --> 00:07:44,899
+All right, cool.
+
+315
+00:07:44,910 --> 00:07:46,519
+Well, something better would be,
+
+316
+00:07:46,519 --> 00:07:47,310
+I'll make you a website with
+
+317
+00:07:47,420 --> 00:07:48,459
+internal fraud monitoring software
+
+318
+00:07:48,470 --> 00:07:49,259
+to stop chargebacks.
+
+319
+00:07:49,370 --> 00:07:49,779
+That's one.
+
+320
+00:07:49,790 --> 00:07:50,860
+Even better would be, I guarantee
+
+321
+00:07:50,860 --> 00:07:51,810
+you'll increase your website
+
+322
+00:07:51,810 --> 00:07:52,699
+conversion rates or you get a
+
+323
+00:07:52,699 --> 00:07:53,160
+refund.
+
+324
+00:07:53,170 --> 00:07:53,819
+That's even better.
+
+325
+00:07:53,829 --> 00:07:55,470
+Best would be like, I'll build you
+
+326
+00:07:55,470 --> 00:07:56,860
+a VSL opt-in funnel, run cold
+
+327
+00:07:56,860 --> 00:07:58,329
+traffic to it, and guarantee you
+
+328
+00:07:58,329 --> 00:07:59,899
+may get your next $30,000 in sales
+
+329
+00:07:59,899 --> 00:08:00,610
+or you don't pay.
+
+330
+00:08:00,930 --> 00:08:01,860
+Right?
+
+331
+00:08:01,870 --> 00:08:03,259
+So this is like, this turns into a
+
+332
+00:08:03,259 --> 00:08:04,699
+completely different offer.
+
+333
+00:08:04,709 --> 00:08:05,699
+You're not a web design business
+
+334
+00:08:05,699 --> 00:08:06,120
+anymore.
+
+335
+00:08:06,129 --> 00:08:07,319
+You're a funnels business, right?
+
+336
+00:08:07,350 --> 00:08:09,250
+So recruiting is, I can recruit
+
+337
+00:08:09,250 --> 00:08:10,910
+software engineers for your
+
+338
+00:08:11,000 --> 00:08:11,800
+business.
+
+339
+00:08:11,810 --> 00:08:12,800
+Better would be, I can recruit a
+
+340
+00:08:12,800 --> 00:08:13,680
+software engineer for your
+
+341
+00:08:13,680 --> 00:08:14,579
+business who can create an AI
+
+342
+00:08:14,579 --> 00:08:15,839
+model based on your data, meaning
+
+343
+00:08:15,839 --> 00:08:16,879
+you can create internal tech that
+
+344
+00:08:16,879 --> 00:08:17,959
+can automate customer service.
+
+345
+00:08:18,910 --> 00:08:20,129
+Best would be, I'll create an AI
+
+346
+00:08:20,129 --> 00:08:21,310
+model based on all your customer
+
+347
+00:08:21,420 --> 00:08:22,600
+data that automates your entire
+
+348
+00:08:22,600 --> 00:08:23,920
+customer service division.
+
+349
+00:08:23,930 --> 00:08:25,629
+So it turns into, it's an entirely
+
+350
+00:08:25,629 --> 00:08:26,800
+different product.
+
+351
+00:08:26,810 --> 00:08:27,899
+It's not even recruiting anymore.
+
+352
+00:08:27,930 --> 00:08:29,399
+You get what I'm saying?
+
+353
+00:08:30,410 --> 00:08:31,680
+This would just work better on
+
+354
+00:08:31,750 --> 00:08:32,538
+cold traffic.
+
+355
+00:08:32,548 --> 00:08:33,480
+This would work better on cold
+
+356
+00:08:33,480 --> 00:08:33,899
+traffic.
+
+357
+00:08:33,908 --> 00:08:35,720
+You know what I'm saying?
+
+358
+00:08:35,730 --> 00:08:39,288
+Like, you have the ability to just
+
+359
+00:08:39,389 --> 00:08:42,679
+turn your offer into something
+
+360
+00:08:42,679 --> 00:08:46,779
+that is designed for cold traffic.
+
+361
+00:08:46,789 --> 00:08:48,590
+You don't have a business unless
+
+362
+00:08:48,590 --> 00:08:50,059
+you're able to sell to cold
+
+363
+00:08:50,059 --> 00:08:51,309
+traffic, right?
+
+364
+00:08:51,470 --> 00:08:53,860
+It's almost like being a guy and
+
+365
+00:08:53,860 --> 00:08:56,250
+like having the ability to just
+
+366
+00:08:56,309 --> 00:08:58,830
+become six foot four, right?
+
+367
+00:08:58,850 --> 00:09:00,789
+It's completely fucking retarded
+
+368
+00:09:00,850 --> 00:09:02,759
+for you to just, and like, I'm not
+
+369
+00:09:02,860 --> 00:09:04,360
+six foot four, right?
+
+370
+00:09:04,370 --> 00:09:06,220
+Like, I'm fucking five foot eight,
+
+371
+00:09:06,220 --> 00:09:06,720
+right?
+
+372
+00:09:06,730 --> 00:09:09,059
+There's, there's, it's completely
+
+373
+00:09:09,059 --> 00:09:11,759
+fucking retarded to like have this
+
+374
+00:09:11,759 --> 00:09:15,330
+ability to just morph your offer
+
+375
+00:09:15,740 --> 00:09:16,830
+into something that is better for
+
+376
+00:09:16,830 --> 00:09:17,539
+cold traffic.
+
+377
+00:09:17,549 --> 00:09:19,269
+And then actively choosing to not
+
+378
+00:09:19,269 --> 00:09:19,710
+do it.
+
+379
+00:09:19,750 --> 00:09:22,100
+It's just, it's just an advantage.
+
+380
+00:09:22,110 --> 00:09:24,399
+Like, yeah, you can get by without
+
+381
+00:09:24,399 --> 00:09:26,549
+doing it, but you're not getting
+
+382
+00:09:26,549 --> 00:09:28,519
+profoundly fucking rich.
+
+383
+00:09:28,529 --> 00:09:31,190
+It's just like completely fucking
+
+384
+00:09:31,190 --> 00:09:33,059
+stupid to not do that.
+
+385
+00:09:33,090 --> 00:09:34,809
+You get like, like, why are you
+
+386
+00:09:34,809 --> 00:09:36,649
+actively choosing to make things
+
+387
+00:09:36,740 --> 00:09:38,519
+more difficult for yourself?
+
+388
+00:09:38,529 --> 00:09:40,370
+It's kind of like, it's kind of
+
+389
+00:09:40,370 --> 00:09:42,370
+like where it's like, you always
+
+390
+00:09:42,370 --> 00:09:44,659
+want to use what you have, right?
+
+391
+00:09:44,669 --> 00:09:46,129
+So I'll give you, for instance,
+
+392
+00:09:46,129 --> 00:09:47,379
+like, um, there's this one
+
+393
+00:09:47,379 --> 00:09:48,950
+interview with Donald Trump where
+
+394
+00:09:48,970 --> 00:09:50,149
+it's like, oh yeah, my dad gave me
+
+395
+00:09:50,149 --> 00:09:51,700
+a small loan of a million dollars.
+
+396
+00:09:51,710 --> 00:09:53,370
+And like people started clowning
+
+397
+00:09:53,389 --> 00:09:55,070
+on him for like, oh, a small loan
+
+398
+00:09:55,070 --> 00:09:56,440
+for a million dollars.
+
+399
+00:09:56,450 --> 00:09:57,059
+You know what I mean?
+
+400
+00:09:57,070 --> 00:09:58,730
+Like, yeah, like I get it where
+
+401
+00:09:58,750 --> 00:10:00,600
+it's like, yeah, Donald, you had
+
+402
+00:10:00,600 --> 00:10:02,259
+this fucking privilege and you
+
+403
+00:10:02,259 --> 00:10:03,539
+could just do that.
+
+404
+00:10:03,590 --> 00:10:04,639
+Like people can't just do that.
+
+405
+00:10:04,649 --> 00:10:06,960
+Like, yes, which is true, but he
+
+406
+00:10:06,960 --> 00:10:09,240
+would be a complete fucking retard
+
+407
+00:10:09,320 --> 00:10:11,169
+to not take the small loan of a
+
+408
+00:10:11,250 --> 00:10:12,620
+million dollars.
+
+409
+00:10:12,629 --> 00:10:14,580
+Like, why would he not do that?
+
+410
+00:10:14,610 --> 00:10:17,190
+Like, use all of the advantages
+
+411
+00:10:17,190 --> 00:10:19,970
+that you could possibly muster for
+
+412
+00:10:19,970 --> 00:10:22,950
+yourself, regardless of how unfair
+
+413
+00:10:22,950 --> 00:10:25,639
+that is to the general public.
+
+414
+00:10:25,789 --> 00:10:27,919
+Who gives a fuck about the general
+
+415
+00:10:27,919 --> 00:10:28,659
+public?
+
+416
+00:10:28,669 --> 00:10:29,659
+They didn't go fuck themselves.
+
+417
+00:10:29,669 --> 00:10:31,830
+Like, you're the main character of
+
+418
+00:10:31,929 --> 00:10:33,039
+your business.
+
+419
+00:10:33,049 --> 00:10:35,830
+Like, use every advantage you can
+
+420
+00:10:35,870 --> 00:10:38,419
+possibly muster for yourself to
+
+421
+00:10:38,419 --> 00:10:41,179
+make your life as easy as possible
+
+422
+00:10:41,179 --> 00:10:42,809
+and increase your probability of
+
+423
+00:10:42,809 --> 00:10:44,259
+success to the highest degree
+
+424
+00:10:44,259 --> 00:10:45,179
+conceivable.
+
+425
+00:10:45,190 --> 00:10:45,779
+You get what I'm saying?
+
+426
+00:10:46,049 --> 00:10:46,879
+So, all right, cool.
+
+427
+00:10:46,929 --> 00:10:48,429
+So, next, that third point is how
+
+428
+00:10:48,440 --> 00:10:49,879
+do you outreach prospects based
+
+429
+00:10:49,879 --> 00:10:51,620
+off of demand capture indicators?
+
+430
+00:10:51,629 --> 00:10:53,100
+One would be like they're hiring
+
+431
+00:10:53,100 --> 00:10:54,690
+for a specific role, in which case
+
+432
+00:10:54,690 --> 00:10:56,129
+it might look something like an
+
+433
+00:10:56,129 --> 00:10:57,240
+outreach message.
+
+434
+00:10:57,250 --> 00:10:58,080
+It might say something like, I saw
+
+435
+00:10:58,169 --> 00:10:58,860
+you were hiring for customer
+
+436
+00:10:58,860 --> 00:10:59,399
+service roles.
+
+437
+00:10:59,409 --> 00:11:00,500
+Given that, I can create an AI
+
+438
+00:11:00,600 --> 00:11:01,809
+model based on every conversation
+
+439
+00:11:01,919 --> 00:11:02,860
+your CS team has ever had and
+
+440
+00:11:02,870 --> 00:11:04,000
+automate your entire customer
+
+441
+00:11:04,080 --> 00:11:05,019
+service division.
+
+442
+00:11:05,029 --> 00:11:06,639
+One, for instance, might be they
+
+443
+00:11:06,639 --> 00:11:07,870
+just installed a specific
+
+444
+00:11:07,870 --> 00:11:08,590
+technology.
+
+445
+00:11:08,669 --> 00:11:09,860
+So, you could say something like,
+
+446
+00:11:09,870 --> 00:11:10,830
+saw you guys were using Webflow
+
+447
+00:11:10,929 --> 00:11:11,559
+for your site.
+
+448
+00:11:11,570 --> 00:11:13,019
+Have you considered building out
+
+449
+00:11:13,019 --> 00:11:14,480
+VSL webinar funnels instead?
+
+450
+00:11:14,490 --> 00:11:15,879
+And then you could interject that
+
+451
+00:11:15,879 --> 00:11:17,379
+same claim right here, that same,
+
+452
+00:11:17,379 --> 00:11:18,049
+that thing.
+
+453
+00:11:18,070 --> 00:11:19,450
+Now, you might have another one
+
+454
+00:11:19,450 --> 00:11:20,679
+where it's like, if they're
+
+455
+00:11:20,679 --> 00:11:21,980
+following or interacting with
+
+456
+00:11:22,080 --> 00:11:23,279
+another company or person or
+
+457
+00:11:23,289 --> 00:11:24,159
+social media.
+
+458
+00:11:24,169 --> 00:11:25,720
+So, you might have something like,
+
+459
+00:11:25,720 --> 00:11:26,940
+saw you were interacting with
+
+460
+00:11:26,990 --> 00:11:28,230
+Hermosi's post, went to your
+
+461
+00:11:28,230 --> 00:11:29,529
+profile and figured this would
+
+462
+00:11:29,529 --> 00:11:30,279
+make sense.
+
+463
+00:11:30,289 --> 00:11:31,340
+I can build you a full VSL opt-in
+
+464
+00:11:31,340 --> 00:11:32,450
+funnel and guarantee you make your
+
+465
+00:11:32,549 --> 00:11:34,080
+next $30,000 in sales or you pay
+
+466
+00:11:34,080 --> 00:11:34,639
+nothing.
+
+467
+00:11:34,669 --> 00:11:36,299
+So, let's talk about traffic
+
+468
+00:11:36,299 --> 00:11:37,820
+generation versus traffic
+
+469
+00:11:37,820 --> 00:11:39,139
+conversion offers.
+
+470
+00:11:39,149 --> 00:11:40,970
+This kind of applies to marketing
+
+471
+00:11:40,970 --> 00:11:41,860
+offers only.
+
+472
+00:11:41,870 --> 00:11:43,789
+So, traffic generation is like
+
+473
+00:11:43,789 --> 00:11:45,779
+getting them traffic and traffic
+
+474
+00:11:45,860 --> 00:11:47,570
+conversion is converting the
+
+475
+00:11:47,570 --> 00:11:48,370
+traffic.
+
+476
+00:11:48,389 --> 00:11:49,220
+So, it's traffic generation.
+
+477
+00:11:49,309 --> 00:11:50,039
+It's everything to do with getting
+
+478
+00:11:50,039 --> 00:11:50,840
+you traffic in the first place.
+
+479
+00:11:50,850 --> 00:11:52,070
+So, that's like Facebook ads,
+
+480
+00:11:52,070 --> 00:11:53,409
+Google ads, YouTube ads, TikTok
+
+481
+00:11:53,409 --> 00:11:54,409
+ads, cold email, content
+
+482
+00:11:54,500 --> 00:11:55,570
+marketing, direct message
+
+483
+00:11:55,570 --> 00:11:56,200
+outreach.
+
+484
+00:11:56,210 --> 00:12:00,039
+So, just ads, content, outreach.
+
+485
+00:12:00,049 --> 00:12:00,820
+Those are the only ways to
+
+486
+00:12:00,820 --> 00:12:01,539
+generate traffic.
+
+487
+00:12:01,549 --> 00:12:01,879
+That's it.
+
+488
+00:12:01,929 --> 00:12:03,870
+There's no other way to do this,
+
+489
+00:12:03,870 --> 00:12:05,659
+like in existence at all.
+
+490
+00:12:05,669 --> 00:12:08,679
+It's ads, outreach, and content.
+
+491
+00:12:08,690 --> 00:12:09,159
+That's it.
+
+492
+00:12:09,169 --> 00:12:09,799
+Nothing else exists.
+
+493
+00:12:09,809 --> 00:12:11,490
+Traffic conversion is everything
+
+494
+00:12:11,500 --> 00:12:13,120
+to do with converting the traffic
+
+495
+00:12:13,120 --> 00:12:14,820
+you or your client already has.
+
+496
+00:12:14,830 --> 00:12:15,919
+So, that's like email marketing.
+
+497
+00:12:15,950 --> 00:12:18,039
+Like, okay, you got someone to opt
+
+498
+00:12:18,039 --> 00:12:19,789
+in to a VSL, book a call funnel
+
+499
+00:12:19,789 --> 00:12:21,360
+with your Facebook ads.
+
+500
+00:12:21,429 --> 00:12:22,159
+So, now you need to use email
+
+501
+00:12:22,159 --> 00:12:22,960
+marketing to convert a higher
+
+502
+00:12:22,960 --> 00:12:23,830
+percentage of them, right?
+
+503
+00:12:23,909 --> 00:12:24,340
+It's sales.
+
+504
+00:12:24,350 --> 00:12:25,179
+It's the actual sales call.
+
+505
+00:12:25,269 --> 00:12:27,330
+It's follow-up, conversion rate
+
+506
+00:12:27,330 --> 00:12:28,830
+optimization on pages,
+
+507
+00:12:28,919 --> 00:12:30,779
+copywriting, sales pages.
+
+508
+00:12:30,789 --> 00:12:33,460
+So, like I'm color coding this.
+
+509
+00:12:33,470 --> 00:12:34,720
+So, like traffic generation is
+
+510
+00:12:34,809 --> 00:12:35,200
+orange.
+
+511
+00:12:35,210 --> 00:12:36,620
+So, in order for your YouTube ads
+
+512
+00:12:36,620 --> 00:12:37,759
+to work, it's orange.
+
+513
+00:12:37,769 --> 00:12:38,600
+It's traffic generation.
+
+514
+00:12:39,149 --> 00:12:39,919
+In order for your traffic
+
+515
+00:12:39,919 --> 00:12:40,929
+generation slash YouTube ads to
+
+516
+00:12:40,929 --> 00:12:42,019
+work, you need your email
+
+517
+00:12:42,019 --> 00:12:43,480
+marketing, sales, follow-up, CRO,
+
+518
+00:12:43,480 --> 00:12:45,309
+and copywriting also to be, right?
+
+519
+00:12:45,330 --> 00:12:46,950
+So, your YouTube ads traffic won't
+
+520
+00:12:46,950 --> 00:12:48,590
+convert unless you have sufficient
+
+521
+00:12:48,590 --> 00:12:50,429
+email marketing, sales, follow-up,
+
+522
+00:12:50,450 --> 00:12:51,720
+CRO, and copywriting.
+
+523
+00:12:52,029 --> 00:12:52,970
+Okay.
+
+524
+00:12:53,009 --> 00:12:54,039
+But in order for your email
+
+525
+00:12:54,039 --> 00:12:55,169
+marketing to work, which is
+
+526
+00:12:55,269 --> 00:12:56,879
+traffic conversion, in order for
+
+527
+00:12:56,879 --> 00:12:58,440
+this to work, to be able to do
+
+528
+00:12:58,440 --> 00:12:59,120
+anything,
+
+529
+00:12:59,129 --> 00:13:00,350
+you need to be getting traffic
+
+530
+00:13:00,350 --> 00:13:01,669
+from your Facebook ads, Google
+
+531
+00:13:01,669 --> 00:13:03,220
+ads, YouTube ads, TikTok ads, cold
+
+532
+00:13:03,220 --> 00:13:04,820
+emails, and content marketing.
+
+533
+00:13:05,490 --> 00:13:07,009
+Like, your email marketing can't
+
+534
+00:13:07,009 --> 00:13:08,549
+do anything if there isn't traffic
+
+535
+00:13:08,549 --> 00:13:09,559
+being generated.
+
+536
+00:13:09,570 --> 00:13:11,399
+You get what I'm saying?
+
+537
+00:13:11,409 --> 00:13:12,759
+So, in order to take somebody from
+
+538
+00:13:12,759 --> 00:13:14,269
+zero to paying money, they must be
+
+539
+00:13:14,269 --> 00:13:15,850
+generated via traffic generation
+
+540
+00:13:15,850 --> 00:13:17,029
+and converted via traffic
+
+541
+00:13:17,029 --> 00:13:17,820
+conversion.
+
+542
+00:13:17,830 --> 00:13:19,620
+So, it's typically easier to sell
+
+543
+00:13:19,620 --> 00:13:21,379
+a traffic generation offer than a
+
+544
+00:13:21,379 --> 00:13:23,330
+traffic conversion offer because
+
+545
+00:13:23,330 --> 00:13:25,200
+most people don't have traffic.
+
+546
+00:13:25,250 --> 00:13:26,700
+You know what I'm saying?
+
+547
+00:13:26,710 --> 00:13:28,500
+Like, I've kind of said this and
+
+548
+00:13:28,500 --> 00:13:30,220
+you'll hear me say it a lot, but
+
+549
+00:13:30,220 --> 00:13:32,230
+most people running businesses are
+
+550
+00:13:32,230 --> 00:13:33,519
+fucking retarded.
+
+551
+00:13:33,529 --> 00:13:34,799
+Like, they don't have traffic,
+
+552
+00:13:34,870 --> 00:13:35,279
+right?
+
+553
+00:13:35,370 --> 00:13:37,529
+So, however, traffic conversion
+
+554
+00:13:37,629 --> 00:13:39,720
+offers typically see clients that
+
+555
+00:13:39,759 --> 00:13:42,059
+stay longer and have a higher LTV.
+
+556
+00:13:42,070 --> 00:13:42,559
+Why?
+
+557
+00:13:42,570 --> 00:13:44,519
+Because the only people who buy it
+
+558
+00:13:44,519 --> 00:13:46,269
+are people who have their shit
+
+559
+00:13:46,269 --> 00:13:47,059
+together.
+
+560
+00:13:47,370 --> 00:13:48,299
+Right?
+
+561
+00:13:48,309 --> 00:13:50,200
+And there exist less people on the
+
+562
+00:13:50,200 --> 00:13:51,690
+planet who have their shit
+
+563
+00:13:51,690 --> 00:13:53,539
+together versus who don't.
+
+564
+00:13:53,549 --> 00:13:55,710
+So, like, in exchange for it being
+
+565
+00:13:55,809 --> 00:13:57,730
+more, in exchange for it, for
+
+566
+00:13:57,730 --> 00:13:59,820
+this, in exchange for the client
+
+567
+00:13:59,820 --> 00:14:01,549
+LTV being higher on traffic
+
+568
+00:14:01,549 --> 00:14:03,649
+conversion offers, they're more
+
+569
+00:14:03,700 --> 00:14:05,409
+likely, they're more difficult to
+
+570
+00:14:05,409 --> 00:14:06,860
+come across because less of them
+
+571
+00:14:07,230 --> 00:14:08,470
+exist and they require a higher
+
+572
+00:14:08,470 --> 00:14:10,009
+level of authority to sell as the
+
+573
+00:14:10,009 --> 00:14:11,559
+nature of what you need access to
+
+574
+00:14:11,559 --> 00:14:12,649
+is more intimate.
+
+575
+00:14:12,750 --> 00:14:12,940
+Right?
+
+576
+00:14:12,950 --> 00:14:16,740
+So, like, it's not new money.
+
+577
+00:14:16,750 --> 00:14:17,419
+You get what I'm saying?
+
+578
+00:14:17,429 --> 00:14:18,980
+Like, I've talked about this
+
+579
+00:14:18,980 --> 00:14:20,600
+before, but, like, selling
+
+580
+00:14:20,600 --> 00:14:22,409
+somebody email list management is
+
+581
+00:14:22,409 --> 00:14:23,399
+not new money.
+
+582
+00:14:23,409 --> 00:14:24,759
+It's more difficult to sell the
+
+583
+00:14:24,759 --> 00:14:25,539
+cold traffic.
+
+584
+00:14:25,549 --> 00:14:26,970
+Selling someone's CRO is not new
+
+585
+00:14:26,970 --> 00:14:27,460
+money.
+
+586
+00:14:27,470 --> 00:14:29,210
+Selling them just copywriting
+
+587
+00:14:29,210 --> 00:14:31,139
+without, like, the creation of a
+
+588
+00:14:31,149 --> 00:14:33,019
+funnel, it's not new money.
+
+589
+00:14:33,830 --> 00:14:34,379
+Right?
+
+590
+00:14:34,389 --> 00:14:37,740
+You really, really, really want to
+
+591
+00:14:37,740 --> 00:14:39,440
+sell new money.
+
+592
+00:14:39,450 --> 00:14:42,639
+Like, it's fucking severely
+
+593
+00:14:42,649 --> 00:14:46,139
+advantageous for you to sell new
+
+594
+00:14:46,139 --> 00:14:47,230
+money.
+
+595
+00:14:47,250 --> 00:14:49,629
+And then traffic conversion
+
+596
+00:14:49,759 --> 00:14:52,659
+offers, where it's all this shit,
+
+597
+00:14:52,659 --> 00:14:55,370
+is better, it's substantially
+
+598
+00:14:55,370 --> 00:14:57,769
+better to sell as an upsell to
+
+599
+00:14:57,840 --> 00:15:00,480
+people who have already paid you
+
+600
+00:15:00,480 --> 00:15:02,259
+something else.
+
+601
+00:15:02,269 --> 00:15:02,879
+You get what I'm saying?
+
+602
+00:15:03,830 --> 00:15:05,360
+So, for offers within the
+
+603
+00:15:05,360 --> 00:15:07,389
+marketing arena, this is just kind
+
+604
+00:15:07,480 --> 00:15:09,450
+of, like, visualizing this.
+
+605
+00:15:09,470 --> 00:15:10,659
+So, like, a demand capture offer
+
+606
+00:15:10,669 --> 00:15:11,860
+that's traffic conversion would
+
+607
+00:15:11,870 --> 00:15:13,159
+be, like, websites, or I'll write
+
+608
+00:15:13,159 --> 00:15:13,820
+your emails.
+
+609
+00:15:13,870 --> 00:15:15,100
+A demand generation offer that's
+
+610
+00:15:15,100 --> 00:15:16,389
+traffic generation would be ads as
+
+611
+00:15:16,389 --> 00:15:17,440
+a service, cold email as a
+
+612
+00:15:17,519 --> 00:15:18,750
+service, cold DMs as a service,
+
+613
+00:15:18,750 --> 00:15:20,019
+cold calling as a service.
+
+614
+00:15:20,029 --> 00:15:21,100
+Demand generation offer that's
+
+615
+00:15:21,100 --> 00:15:22,379
+traffic conversion would be, like,
+
+616
+00:15:22,379 --> 00:15:23,440
+converting pretrial users with
+
+617
+00:15:23,450 --> 00:15:24,220
+email marketing.
+
+618
+00:15:24,230 --> 00:15:26,179
+When a market becomes sufficiently
+
+619
+00:15:26,179 --> 00:15:28,279
+sophisticated, so, like, means,
+
+620
+00:15:28,279 --> 00:15:30,220
+like, you get hella competitors or
+
+621
+00:15:30,220 --> 00:15:31,039
+saturated,
+
+622
+00:15:31,669 --> 00:15:33,279
+all demand generation offers
+
+623
+00:15:33,279 --> 00:15:35,139
+become demand capture offers.
+
+624
+00:15:35,149 --> 00:15:36,240
+So, like, for instance, I'll make
+
+625
+00:15:36,340 --> 00:15:37,259
+you a website.
+
+626
+00:15:37,389 --> 00:15:38,629
+In 2001, it was a demand
+
+627
+00:15:38,629 --> 00:15:39,480
+generation offer.
+
+628
+00:15:39,490 --> 00:15:41,620
+Now, it's a demand capture offer.
+
+629
+00:15:41,629 --> 00:15:43,000
+So, it's called offer decay.
+
+630
+00:15:43,009 --> 00:15:44,110
+It's what I call it.
+
+631
+00:15:44,190 --> 00:15:46,009
+It's, like, just as you get more
+
+632
+00:15:46,009 --> 00:15:48,009
+competitors and time elapses, all
+
+633
+00:15:48,009 --> 00:15:49,269
+demand generation offers become
+
+634
+00:15:49,269 --> 00:15:50,620
+demand capture offers, right?
+
+635
+00:15:51,149 --> 00:15:52,230
+So, this is effectively a battle
+
+636
+00:15:52,340 --> 00:15:53,309
+that will exist throughout your
+
+637
+00:15:53,409 --> 00:15:53,919
+entire life.
+
+638
+00:15:53,970 --> 00:15:55,059
+At any point in time, your offer
+
+639
+00:15:55,070 --> 00:15:56,289
+is always decaying towards demand
+
+640
+00:15:56,289 --> 00:15:56,940
+generation.
+
+641
+00:15:56,950 --> 00:15:58,779
+This is exactly what will happen
+
+642
+00:15:58,779 --> 00:16:00,889
+to AI automation, for instance.
+
+643
+00:16:00,929 --> 00:16:03,629
+So, like, right now, AI automation
+
+644
+00:16:03,629 --> 00:16:06,169
+is technically a demand generation
+
+645
+00:16:06,169 --> 00:16:06,899
+offer.
+
+646
+00:16:06,909 --> 00:16:09,259
+But as time goes on, it will be a
+
+647
+00:16:09,259 --> 00:16:11,019
+demand capture offer that is
+
+648
+00:16:11,019 --> 00:16:13,059
+profoundly fucking difficult to
+
+649
+00:16:13,100 --> 00:16:13,690
+sell.
+
+650
+00:16:13,710 --> 00:16:15,870
+So, this is why, this is literally
+
+651
+00:16:15,970 --> 00:16:18,059
+why I instruct everybody running
+
+652
+00:16:18,059 --> 00:16:19,950
+that business to instead sell
+
+653
+00:16:19,950 --> 00:16:21,909
+specific builds, not AI
+
+654
+00:16:21,909 --> 00:16:24,580
+automation, right?
+
+655
+00:16:24,590 --> 00:16:26,179
+Because specific builds can be
+
+656
+00:16:26,179 --> 00:16:27,909
+pitched with specific results,
+
+657
+00:16:27,909 --> 00:16:29,379
+therefore morphing it into a
+
+658
+00:16:29,429 --> 00:16:31,419
+demand generation offer, right?
+
+659
+00:16:31,429 --> 00:16:33,379
+So, like, expansion of service.
+
+660
+00:16:33,429 --> 00:16:34,269
+Say you're selling a traffic
+
+661
+00:16:34,330 --> 00:16:35,000
+generation offer.
+
+662
+00:16:35,009 --> 00:16:36,250
+So, it's, most people are only
+
+663
+00:16:36,350 --> 00:16:37,860
+selling one half of this equation.
+
+664
+00:16:37,990 --> 00:16:39,080
+I, like, and again, I'm
+
+665
+00:16:39,090 --> 00:16:40,659
+reiterating this is, like, kind of
+
+666
+00:16:40,659 --> 00:16:42,059
+for marketing offers only.
+
+667
+00:16:42,070 --> 00:16:44,830
+Demand, they're selling demand
+
+668
+00:16:44,899 --> 00:16:47,809
+generation, or they're selling,
+
+669
+00:16:47,860 --> 00:16:49,779
+I'm sorry, they're selling traffic
+
+670
+00:16:49,779 --> 00:16:50,710
+generation, or they're selling
+
+671
+00:16:50,710 --> 00:16:51,620
+traffic conversion, right?
+
+672
+00:16:51,629 --> 00:16:52,710
+So, most of the time, it's because
+
+673
+00:16:52,710 --> 00:16:53,580
+it's easier to get started,
+
+674
+00:16:53,629 --> 00:16:54,610
+simpler to sell, it's easier to
+
+675
+00:16:54,610 --> 00:16:55,789
+get results quickly, requires less
+
+676
+00:16:55,789 --> 00:16:56,820
+expertise in your own.
+
+677
+00:16:56,830 --> 00:16:57,779
+However, when selling one of the
+
+678
+00:16:57,779 --> 00:16:58,850
+equation, you're creating your own
+
+679
+00:16:58,850 --> 00:16:59,789
+customers to sell the other half
+
+680
+00:16:59,789 --> 00:17:00,389
+of the equation.
+
+681
+00:17:00,470 --> 00:17:02,419
+So, in this slinging deals video,
+
+682
+00:17:02,419 --> 00:17:04,240
+what I talked about was an example
+
+683
+00:17:04,240 --> 00:17:05,930
+of selling a webinar build-out
+
+684
+00:17:05,930 --> 00:17:06,380
+offer,
+
+685
+00:17:06,390 --> 00:17:07,799
+and how a component of that offer
+
+686
+00:17:07,799 --> 00:17:09,500
+could be email marketing, right?
+
+687
+00:17:09,509 --> 00:17:11,630
+Now, so, like, you sold the client
+
+688
+00:17:11,630 --> 00:17:13,700
+a webinar funnel build with ads.
+
+689
+00:17:13,710 --> 00:17:15,259
+So, that would be, like, a demand
+
+690
+00:17:15,259 --> 00:17:16,430
+generation slash traffic
+
+691
+00:17:16,430 --> 00:17:17,480
+generation offer.
+
+692
+00:17:17,490 --> 00:17:19,109
+And then, a recurring upsell to
+
+693
+00:17:19,109 --> 00:17:20,259
+that offer is email list
+
+694
+00:17:20,318 --> 00:17:21,150
+management.
+
+695
+00:17:21,170 --> 00:17:22,210
+So, email list management is a
+
+696
+00:17:22,210 --> 00:17:23,299
+traffic conversion offer.
+
+697
+00:17:23,309 --> 00:17:24,140
+It's not new money, so it's
+
+698
+00:17:24,210 --> 00:17:25,420
+difficult to sell to cold traffic,
+
+699
+00:17:25,420 --> 00:17:26,180
+but it's difficult to,
+
+700
+00:17:26,190 --> 00:17:27,269
+but it's not difficult to sell to
+
+701
+00:17:27,380 --> 00:17:28,589
+warm traffic, because people have
+
+702
+00:17:28,700 --> 00:17:29,420
+already paid you.
+
+703
+00:17:29,430 --> 00:17:31,259
+So, like, again, I kind of walked
+
+704
+00:17:31,259 --> 00:17:33,480
+you through, like, if you sold
+
+705
+00:17:33,480 --> 00:17:35,579
+them a webinar funnel,
+
+706
+00:17:36,390 --> 00:17:37,829
+but now there's, like, a shit ton
+
+707
+00:17:37,829 --> 00:17:39,140
+of people who registered to the
+
+708
+00:17:39,140 --> 00:17:39,720
+webinar.
+
+709
+00:17:39,730 --> 00:17:40,829
+You got, like, fucking 500 people
+
+710
+00:17:40,920 --> 00:17:42,299
+who registered the webinar, and
+
+711
+00:17:42,299 --> 00:17:45,259
+now, like, you got those emails,
+
+712
+00:17:45,269 --> 00:17:46,519
+and you could sell email list
+
+713
+00:17:46,609 --> 00:17:48,109
+management where you send sales
+
+714
+00:17:48,109 --> 00:17:49,619
+emails three to five times per
+
+715
+00:17:49,619 --> 00:17:49,980
+week for them.
+
+716
+00:17:49,990 --> 00:17:50,819
+And now, let's say the client
+
+717
+00:17:50,890 --> 00:17:52,099
+wants to run another webinar back,
+
+718
+00:17:52,099 --> 00:17:53,180
+and now it goes from the next
+
+719
+00:17:53,190 --> 00:17:53,650
+webinar,
+
+720
+00:17:53,670 --> 00:17:54,750
+it gets a fucking another 500
+
+721
+00:17:54,859 --> 00:17:55,200
+people.
+
+722
+00:17:55,210 --> 00:17:56,210
+Now, there's 1,000 people on the
+
+723
+00:17:56,210 --> 00:17:57,160
+list, and the list keeps growing.
+
+724
+00:17:57,210 --> 00:17:57,539
+You know what I'm saying?
+
+725
+00:17:57,809 --> 00:17:59,359
+And then, maybe, you upsell the
+
+726
+00:17:59,359 --> 00:18:00,750
+client of ESL opt-in funnel as
+
+727
+00:18:00,750 --> 00:18:01,230
+well.
+
+728
+00:18:01,250 --> 00:18:02,500
+So, like, now that opt-in funnel
+
+729
+00:18:02,589 --> 00:18:03,599
+is also building emails.
+
+730
+00:18:03,609 --> 00:18:05,049
+So, now the email list is, like,
+
+731
+00:18:05,049 --> 00:18:06,259
+progressively fucking more
+
+732
+00:18:06,259 --> 00:18:06,779
+massive,
+
+733
+00:18:06,789 --> 00:18:09,109
+and, like, it makes progressively
+
+734
+00:18:09,109 --> 00:18:11,059
+more sense for them to purchase
+
+735
+00:18:11,059 --> 00:18:12,660
+email marketing as a recurring
+
+736
+00:18:12,720 --> 00:18:13,519
+service from you.
+
+737
+00:18:13,529 --> 00:18:14,140
+You get what I'm saying?
+
+738
+00:18:14,150 --> 00:18:15,690
+Like, it's, like, you're
+
+739
+00:18:15,690 --> 00:18:16,519
+expanding.
+
+740
+00:18:16,529 --> 00:18:18,140
+It's expansion of service.
+
+741
+00:18:18,150 --> 00:18:19,880
+It's just, it's called expansion
+
+742
+00:18:19,880 --> 00:18:20,500
+revenue.
+
+743
+00:18:20,509 --> 00:18:21,339
+You get what I'm saying?
+
+744
+00:18:21,430 --> 00:18:22,269
+All right, cool.
+
+745
+00:18:22,289 --> 00:18:23,079
+That's it for this video.
+
+746
+00:18:23,089 --> 00:18:23,519
+Peace.

@@ -1,0 +1,367 @@
+1
+00:00:00,160 --> 00:00:01,720
+What is segmentation so segments
+
+2
+00:00:01,760 --> 00:00:03,240
+are very very very similar to
+
+3
+00:00:03,250 --> 00:00:05,929
+lists but in one key way so lists
+
+4
+00:00:06,120 --> 00:00:07,089
+are stagnant so this is probably
+
+5
+00:00:07,099 --> 00:00:08,199
+what you're thinking about with
+
+6
+00:00:08,199 --> 00:00:09,599
+email marketing are your lists
+
+7
+00:00:09,730 --> 00:00:11,259
+as the name suggests just a flat
+
+8
+00:00:11,279 --> 00:00:13,029
+list of people whereas segments
+
+9
+00:00:13,029 --> 00:00:14,679
+are dynamic they can change at
+
+10
+00:00:14,890 --> 00:00:16,000
+any second based on the
+
+11
+00:00:16,000 --> 00:00:17,809
+requirements that you set on the
+
+12
+00:00:17,809 --> 00:00:19,539
+segment and as the name suggests
+
+13
+00:00:19,620 --> 00:00:20,079
+it is just
+
+14
+00:00:20,199 --> 00:00:21,859
+a segment of your full email list
+
+15
+00:00:21,899 --> 00:00:23,260
+a subset of people who meet
+
+16
+00:00:23,339 --> 00:00:25,160
+certain characteristics that you
+
+17
+00:00:25,320 --> 00:00:26,559
+provide so inside of Klaviyo it's
+
+18
+00:00:26,559 --> 00:00:27,859
+just right under here lists and
+
+19
+00:00:27,859 --> 00:00:29,019
+segments are under the same
+
+20
+00:00:29,179 --> 00:00:30,530
+apart you can see here are a bunch
+
+21
+00:00:30,530 --> 00:00:31,969
+of lists with different people
+
+22
+00:00:31,969 --> 00:00:33,380
+these are not segments just
+
+23
+00:00:33,530 --> 00:00:35,149
+because they don't say segment and
+
+24
+00:00:35,149 --> 00:00:36,619
+they're not dynamic they are
+
+25
+00:00:36,619 --> 00:00:38,679
+static so the possibilities are
+
+26
+00:00:38,829 --> 00:00:40,670
+literally endless for segments you
+
+27
+00:00:40,670 --> 00:00:42,579
+can do pretty much everything that
+
+28
+00:00:42,579 --> 00:00:44,020
+you could ever want so you
+
+29
+00:00:44,179 --> 00:00:45,600
+have everything from basics or
+
+30
+00:00:45,600 --> 00:00:47,359
+like segment based on like general
+
+31
+00:00:47,359 --> 00:00:48,960
+like email open behavior what
+
+32
+00:00:49,119 --> 00:00:50,049
+somebody's clicking how often
+
+33
+00:00:50,060 --> 00:00:51,189
+these people are doing that then
+
+34
+00:00:51,289 --> 00:00:52,070
+you have things that are
+
+35
+00:00:52,070 --> 00:00:52,640
+intermediate
+
+36
+00:00:52,840 --> 00:00:54,299
+where based on like recent store
+
+37
+00:00:54,299 --> 00:00:56,109
+activities such as like segmenting
+
+38
+00:00:56,109 --> 00:00:57,939
+based on if somebody abandoned a
+
+39
+00:00:58,200 --> 00:00:59,500
+start recently if somebody made a
+
+40
+00:00:59,500 --> 00:01:00,810
+purchase recently then you have
+
+41
+00:01:00,810 --> 00:01:02,399
+like pro which is segmenting based
+
+42
+00:01:02,399 --> 00:01:02,399
+on
+
+43
+00:01:02,560 --> 00:01:03,969
+like specific email or flow
+
+44
+00:01:03,969 --> 00:01:05,680
+engagement or like specific
+
+45
+00:01:05,680 --> 00:01:07,700
+product product category interest
+
+46
+00:01:07,700 --> 00:01:07,700
+all that good
+
+47
+00:01:07,859 --> 00:01:09,099
+stuff you can do all this the
+
+48
+00:01:09,099 --> 00:01:10,689
+possibilities are literally
+
+49
+00:01:10,689 --> 00:01:14,280
+they're literally endless but it's
+
+50
+00:01:14,280 --> 00:01:15,280
+just let's not get too
+
+51
+00:01:15,430 --> 00:01:16,760
+complicated is the main thing I
+
+52
+00:01:16,760 --> 00:01:17,680
+talk about with segmentation like
+
+53
+00:01:17,680 --> 00:01:19,280
+yes you could hyper segment your
+
+54
+00:01:19,280 --> 00:01:19,700
+list by their
+
+55
+00:01:19,859 --> 00:01:21,010
+favorite color and their belly
+
+56
+00:01:21,010 --> 00:01:22,420
+button whether it's an innie or an
+
+57
+00:01:22,420 --> 00:01:24,500
+outie and yes that would probably
+
+58
+00:01:24,579 --> 00:01:24,939
+increase your
+
+59
+00:01:25,090 --> 00:01:27,069
+conversion rate but at what cost
+
+60
+00:01:27,069 --> 00:01:29,000
+so I always like to ask like would
+
+61
+00:01:29,010 --> 00:01:30,450
+you rather send one to two
+
+62
+00:01:30,590 --> 00:01:31,019
+targeted
+
+63
+00:01:31,189 --> 00:01:32,409
+campaigns per week to different
+
+64
+00:01:32,409 --> 00:01:34,719
+groups of 10,000 people or three
+
+65
+00:01:34,829 --> 00:01:36,379
+to four broader email campaigns a
+
+66
+00:01:36,439 --> 00:01:37,430
+week to 50,000
+
+67
+00:01:37,590 --> 00:01:40,430
+people the latter will outperform
+
+68
+00:01:40,430 --> 00:01:42,780
+99 times out of 100 I always
+
+69
+00:01:43,090 --> 00:01:44,790
+prefer like our time is always
+
+70
+00:01:44,799 --> 00:01:46,680
+limited in the day and
+
+71
+00:01:46,829 --> 00:01:48,680
+what I've experienced is that
+
+72
+00:01:48,680 --> 00:01:51,049
+literally every single time just
+
+73
+00:01:51,049 --> 00:01:52,180
+by optimizing for sending more
+
+74
+00:01:52,329 --> 00:01:54,680
+emails to more people the revenue
+
+75
+00:01:54,680 --> 00:01:55,799
+is always way more
+
+76
+00:01:55,950 --> 00:01:57,280
+yes there's a time and place for
+
+77
+00:01:57,280 --> 00:01:58,900
+segmentation but optimize first
+
+78
+00:01:58,900 --> 00:02:00,840
+for getting like your core content
+
+79
+00:02:00,840 --> 00:02:02,060
+out to as many people as
+
+80
+00:02:02,209 --> 00:02:03,560
+possible and then from there once
+
+81
+00:02:03,560 --> 00:02:04,969
+you really have that down then you
+
+82
+00:02:04,969 --> 00:02:06,439
+can focus on the segmentation like
+
+83
+00:02:06,620 --> 00:02:07,530
+that's high leverage being
+
+84
+00:02:07,719 --> 00:02:09,169
+able to send good content to a lot
+
+85
+00:02:09,169 --> 00:02:10,639
+more people rather than hyper
+
+86
+00:02:10,639 --> 00:02:12,300
+specific content to a small group
+
+87
+00:02:12,300 --> 00:02:13,379
+of people who might not
+
+88
+00:02:13,530 --> 00:02:14,530
+even see your email because like
+
+89
+00:02:14,539 --> 00:02:16,770
+they're busy so I'll be sharing
+
+90
+00:02:16,770 --> 00:02:18,180
+with you the high leverage stuff
+
+91
+00:02:18,259 --> 00:02:19,960
+that you should be focusing on in
+
+92
+00:02:19,960 --> 00:02:20,500
+this guide

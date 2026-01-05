@@ -1,0 +1,1275 @@
+1
+00:00:00,240 --> 00:00:01,700
+Okay, I'm going to show you in
+
+2
+00:00:01,700 --> 00:00:03,470
+this video how to use AI to create
+
+3
+00:00:03,560 --> 00:00:05,530
+a three-step email sequence with a
+
+4
+00:00:05,589 --> 00:00:06,730
+few simple inputs
+
+5
+00:00:06,769 --> 00:00:09,750
+this AI is trained on hundreds of
+
+6
+00:00:09,750 --> 00:00:09,990
+my
+
+7
+00:00:10,000 --> 00:00:11,890
+Cold email scripts over the past
+
+8
+00:00:11,890 --> 00:00:13,939
+couple years and my screen is
+
+9
+00:00:13,939 --> 00:00:14,730
+frozen.
+
+10
+00:00:14,730 --> 00:00:16,149
+So I'm gonna fix that real quick
+
+11
+00:00:16,199 --> 00:00:17,920
+before we dive in so
+
+12
+00:00:18,429 --> 00:00:19,839
+Okay, great.
+
+13
+00:00:19,839 --> 00:00:22,079
+So basically this AI dashboard has
+
+14
+00:00:22,079 --> 00:00:23,570
+a bunch of really cool tools that
+
+15
+00:00:23,600 --> 00:00:25,679
+you can use to create cold emails
+
+16
+00:00:25,679 --> 00:00:26,949
+sales call reviews
+
+17
+00:00:27,000 --> 00:00:29,800
+Get offer creation input chat with
+
+18
+00:00:29,800 --> 00:00:32,140
+my CEO Andre on operations chat
+
+19
+00:00:32,140 --> 00:00:33,219
+with Daniel on offers
+
+20
+00:00:33,229 --> 00:00:34,450
+Basically a bunch of different
+
+21
+00:00:34,450 --> 00:00:35,579
+cool tools that you can use to
+
+22
+00:00:35,579 --> 00:00:36,759
+build your business with AI
+
+23
+00:00:36,759 --> 00:00:38,609
+But the focus of this video is
+
+24
+00:00:38,609 --> 00:00:40,380
+going to be on the cold email
+
+25
+00:00:40,380 --> 00:00:41,079
+creation
+
+26
+00:00:41,119 --> 00:00:43,530
+Chat or bot or whatever you want
+
+27
+00:00:43,530 --> 00:00:44,320
+to call it
+
+28
+00:00:44,320 --> 00:00:46,270
+So basically all you have to do is
+
+29
+00:00:46,270 --> 00:00:48,140
+tell it what you're selling what
+
+30
+00:00:48,219 --> 00:00:49,340
+your audience is
+
+31
+00:00:49,340 --> 00:00:51,100
+What's your background and what's
+
+32
+00:00:51,130 --> 00:00:52,990
+your campaign preferences and also
+
+33
+00:00:52,990 --> 00:00:54,399
+I'm gonna say is this I?
+
+34
+00:00:56,119 --> 00:00:57,689
+I noticed my box is actually in
+
+35
+00:00:57,689 --> 00:00:58,329
+the way.
+
+36
+00:00:58,340 --> 00:00:59,350
+Let me see if I can
+
+37
+00:00:59,909 --> 00:01:03,340
+Okay, there we go.
+
+38
+00:01:03,340 --> 00:01:05,640
+So I'll leave the bar down below.
+
+39
+00:01:05,640 --> 00:01:06,079
+That's fine
+
+40
+00:01:06,120 --> 00:01:07,569
+But basically what I'm gonna do is
+
+41
+00:01:07,569 --> 00:01:09,280
+let's start with the content
+
+42
+00:01:09,280 --> 00:01:10,040
+creation
+
+43
+00:01:10,549 --> 00:01:12,450
+Agency path.
+
+44
+00:01:12,450 --> 00:01:15,000
+I run a LinkedIn content
+
+45
+00:01:15,510 --> 00:01:18,060
+agency
+
+46
+00:01:18,140 --> 00:01:21,040
+Helping CEOs builds authority on
+
+47
+00:01:21,040 --> 00:01:24,459
+LinkedIn with long-form
+
+48
+00:01:24,989 --> 00:01:26,950
+posts
+
+49
+00:01:27,469 --> 00:01:28,959
+and
+
+50
+00:01:29,469 --> 00:01:30,359
+video
+
+51
+00:01:30,359 --> 00:01:33,090
+Contents I handle all of the
+
+52
+00:01:33,090 --> 00:01:35,790
+content creation and
+
+53
+00:01:36,310 --> 00:01:40,200
+Distribution for them I post
+
+54
+00:01:40,709 --> 00:01:45,200
+Everything on
+
+55
+00:01:47,280 --> 00:01:49,260
+There be half okay?
+
+56
+00:01:49,260 --> 00:01:49,260
+Okay
+
+57
+00:01:49,769 --> 00:01:56,340
+My best case study is helping
+
+58
+00:01:56,340 --> 00:01:59,260
+Andre from list kit close 10
+
+59
+00:01:59,260 --> 00:02:01,920
+clients in one month on LinkedIn
+
+60
+00:02:02,430 --> 00:02:06,900
+And I prefer to offer a video
+
+61
+00:02:06,900 --> 00:02:09,000
+going over a LinkedIn
+
+62
+00:02:09,508 --> 00:02:12,500
+Strategy I had in mind for them
+
+63
+00:02:12,500 --> 00:02:12,729
+and
+
+64
+00:02:13,990 --> 00:02:15,479
+Then this AI will
+
+65
+00:02:15,990 --> 00:02:18,939
+Create a three-step email sequence
+
+66
+00:02:18,939 --> 00:02:20,699
+for whatever you want to sell
+
+67
+00:02:21,210 --> 00:02:22,960
+Obviously, you're gonna have to
+
+68
+00:02:22,960 --> 00:02:23,750
+use your own
+
+69
+00:02:24,330 --> 00:02:25,879
+Critical thinking and input to
+
+70
+00:02:25,879 --> 00:02:27,460
+make this better, but this is
+
+71
+00:02:27,460 --> 00:02:28,469
+going to give you a really well
+
+72
+00:02:28,469 --> 00:02:29,969
+done email sequence
+
+73
+00:02:32,710 --> 00:02:34,620
+Or a lot of varieties of different
+
+74
+00:02:34,659 --> 00:02:35,419
+email sequences
+
+75
+00:02:35,969 --> 00:02:39,879
+That you can use so please make
+
+76
+00:02:39,879 --> 00:02:42,280
+this a three-step email sequence
+
+77
+00:02:42,800 --> 00:02:47,460
+With a be testing for each angle
+
+78
+00:02:53,469 --> 00:02:56,610
+Great one C 1d email 2 great.
+
+79
+00:02:56,610 --> 00:02:59,639
+So with any AI the outputs are
+
+80
+00:02:59,689 --> 00:03:00,599
+only as good as the inputs
+
+81
+00:03:00,599 --> 00:03:01,550
+So make sure that it's a
+
+82
+00:03:01,550 --> 00:03:03,050
+three-step email sequence because
+
+83
+00:03:03,050 --> 00:03:04,280
+I always prefer to do three-step
+
+84
+00:03:04,280 --> 00:03:05,759
+email sequences with my campaigns
+
+85
+00:03:05,759 --> 00:03:07,180
+You're free to do whatever you
+
+86
+00:03:07,180 --> 00:03:07,580
+want.
+
+87
+00:03:07,580 --> 00:03:08,599
+There are no rules to this game
+
+88
+00:03:08,599 --> 00:03:10,800
+But I like to do three steps.
+
+89
+00:03:10,819 --> 00:03:13,330
+So email 1a LinkedIn authority for
+
+90
+00:03:13,330 --> 00:03:13,710
+CEOs.
+
+91
+00:03:13,710 --> 00:03:14,650
+Are you getting enough qualified
+
+92
+00:03:14,650 --> 00:03:15,659
+leads from LinkedIn right now?
+
+93
+00:03:15,659 --> 00:03:17,259
+We help CEOs build authority with
+
+94
+00:03:17,270 --> 00:03:18,659
+long-form post and content
+
+95
+00:03:18,659 --> 00:03:20,330
+handling all content creation and
+
+96
+00:03:20,330 --> 00:03:21,479
+posting on your behalf
+
+97
+00:03:21,479 --> 00:03:23,479
+Andre from LinkedIn closed 10
+
+98
+00:03:23,479 --> 00:03:24,699
+clients in one month
+
+99
+00:03:24,699 --> 00:03:26,560
+Mind if I share a video going over
+
+100
+00:03:26,560 --> 00:03:28,280
+a LinkedIn strategy I had in mind
+
+101
+00:03:28,280 --> 00:03:28,530
+for you
+
+102
+00:03:29,110 --> 00:03:31,259
+Great CEO LinkedIn content done
+
+103
+00:03:31,259 --> 00:03:31,650
+for you
+
+104
+00:03:31,680 --> 00:03:33,099
+Most CEOs struggle to consistently
+
+105
+00:03:33,099 --> 00:03:34,330
+create LinkedIn content while
+
+106
+00:03:34,330 --> 00:03:35,889
+running their business want to see
+
+107
+00:03:35,889 --> 00:03:37,039
+a video outlining the LinkedIn
+
+108
+00:03:37,039 --> 00:03:38,560
+strategy 10 clients from LinkedIn
+
+109
+00:03:38,659 --> 00:03:40,689
+Right, so like this sequence is
+
+110
+00:03:40,689 --> 00:03:42,759
+very very good all from a simple
+
+111
+00:03:42,759 --> 00:03:44,409
+input that I gave it.
+
+112
+00:03:44,409 --> 00:03:44,979
+So now
+
+113
+00:03:45,000 --> 00:03:47,990
+All I'm gonna do is move it to a
+
+114
+00:03:47,990 --> 00:03:49,469
+Google Doc and
+
+115
+00:03:49,990 --> 00:03:52,539
+paste it in here
+
+116
+00:03:52,560 --> 00:03:53,770
+obviously clear up the formatting
+
+117
+00:03:53,770 --> 00:03:54,560
+because it looks like
+
+118
+00:03:55,069 --> 00:03:57,300
+Shit right now
+
+119
+00:03:57,810 --> 00:03:59,300
+Okay, cool
+
+120
+00:03:59,300 --> 00:04:00,900
+Now I'm gonna make some changes to
+
+121
+00:04:00,900 --> 00:04:02,580
+the subject lines LinkedIn content
+
+122
+00:04:02,689 --> 00:04:02,900
+for
+
+123
+00:04:03,409 --> 00:04:05,159
+First name this will make it say
+
+124
+00:04:05,159 --> 00:04:06,840
+LinkedIn content for Christian Tom
+
+125
+00:04:06,840 --> 00:04:07,330
+Steven.
+
+126
+00:04:07,330 --> 00:04:08,189
+It'll pull in the actual name
+
+127
+00:04:08,240 --> 00:04:09,860
+Hey, Tom, are you getting enough
+
+128
+00:04:09,930 --> 00:04:10,689
+qualified leads from LinkedIn
+
+129
+00:04:10,689 --> 00:04:11,060
+right now?
+
+130
+00:04:11,569 --> 00:04:14,740
+I prefer to say we can help you
+
+131
+00:04:14,740 --> 00:04:16,569
+instead of we can help CEOs we can
+
+132
+00:04:16,699 --> 00:04:17,550
+help you build authority on
+
+133
+00:04:17,550 --> 00:04:19,370
+LinkedIn with long-form posts and
+
+134
+00:04:19,370 --> 00:04:20,089
+video content
+
+135
+00:04:20,649 --> 00:04:22,610
+We handle
+
+136
+00:04:23,129 --> 00:04:26,620
+All content creation and posting
+
+137
+00:04:26,689 --> 00:04:27,100
+on your behalf
+
+138
+00:04:27,670 --> 00:04:33,290
+Fake I made up this case study my
+
+139
+00:04:33,290 --> 00:04:35,199
+business partners Andre Andre from
+
+140
+00:04:35,199 --> 00:04:37,000
+list kit close 10 clients in one
+
+141
+00:04:37,000 --> 00:04:37,819
+month after we started
+
+142
+00:04:37,819 --> 00:04:39,339
+Started managing his LinkedIn
+
+143
+00:04:39,339 --> 00:04:40,569
+presence mind if I share a video
+
+144
+00:04:40,569 --> 00:04:41,550
+going over a strategy ahead of
+
+145
+00:04:41,610 --> 00:04:42,000
+mine for you
+
+146
+00:04:42,000 --> 00:04:43,449
+That's a good angle, right?
+
+147
+00:04:43,449 --> 00:04:44,560
+Really good angle all from AI in
+
+148
+00:04:44,589 --> 00:04:45,279
+the click of a button
+
+149
+00:04:45,370 --> 00:04:50,000
+Df y LinkedIn content
+
+150
+00:04:50,000 --> 00:04:52,170
+Most CEOs struggle to consistently
+
+151
+00:04:52,170 --> 00:04:53,980
+create LinkedIn content we handle
+
+152
+00:04:53,980 --> 00:04:54,899
+all creation and distribution
+
+153
+00:04:54,899 --> 00:04:57,259
+For busy executives long-form
+
+154
+00:04:57,259 --> 00:04:57,899
+posts.
+
+155
+00:04:57,899 --> 00:04:58,720
+Okay, great.
+
+156
+00:04:58,800 --> 00:04:59,920
+Good, right?
+
+157
+00:04:59,990 --> 00:05:00,879
+So like you guys can see
+
+158
+00:05:01,389 --> 00:05:02,379
+that
+
+159
+00:05:02,379 --> 00:05:04,209
+The AI is going to output you a
+
+160
+00:05:04,209 --> 00:05:06,370
+script sequence that is so close
+
+161
+00:05:06,370 --> 00:05:07,829
+to being perfect that it's
+
+162
+00:05:07,829 --> 00:05:09,769
+actually insane not to toot my own
+
+163
+00:05:09,870 --> 00:05:09,879
+horn
+
+164
+00:05:09,879 --> 00:05:11,410
+It's trained on my writing.
+
+165
+00:05:11,410 --> 00:05:12,930
+So it comes out pretty damn good.
+
+166
+00:05:13,000 --> 00:05:14,800
+Um, but like
+
+167
+00:05:16,540 --> 00:05:17,740
+You don't really need to make too
+
+168
+00:05:17,740 --> 00:05:19,019
+many changes to what it gives you
+
+169
+00:05:19,120 --> 00:05:20,779
+if you have a good prompt LinkedIn
+
+170
+00:05:20,779 --> 00:05:22,259
+company name X list kit
+
+171
+00:05:22,769 --> 00:05:24,860
+intro I
+
+172
+00:05:24,860 --> 00:05:26,589
+Would actually change up this
+
+173
+00:05:26,589 --> 00:05:29,180
+angle completely we can help you
+
+174
+00:05:29,220 --> 00:05:31,740
+sign five clients from LinkedIn
+
+175
+00:05:32,430 --> 00:05:35,339
+fully guaranteed with
+
+176
+00:05:35,850 --> 00:05:39,480
+Authority LinkedIn content posted
+
+177
+00:05:39,490 --> 00:05:40,560
+for you I
+
+178
+00:05:42,560 --> 00:05:43,910
+I don't like these subject lines
+
+179
+00:05:43,910 --> 00:05:44,509
+to be fair.
+
+180
+00:05:44,509 --> 00:05:45,790
+So I would switch up the subject
+
+181
+00:05:45,839 --> 00:05:46,680
+lines in this case
+
+182
+00:05:47,189 --> 00:05:48,680
+I
+
+183
+00:05:49,189 --> 00:05:54,180
+Don't know why they're doing a dot
+
+184
+00:05:54,360 --> 00:05:58,649
+instead of a hyphen here, but I'm
+
+185
+00:05:58,649 --> 00:06:02,990
+just making sure that looks good
+
+186
+00:06:04,959 --> 00:06:05,810
+Okay.
+
+187
+00:06:05,810 --> 00:06:07,740
+I mean like if you're doing the
+
+188
+00:06:07,740 --> 00:06:09,420
+the lead generation path like this
+
+189
+00:06:09,480 --> 00:06:11,519
+AI will literally knock
+
+190
+00:06:11,529 --> 00:06:14,470
+The time of your work like when
+
+191
+00:06:14,470 --> 00:06:15,680
+you sign a client if you're
+
+192
+00:06:15,680 --> 00:06:16,660
+running a legion agency and you
+
+193
+00:06:16,660 --> 00:06:18,009
+have to write them a new email
+
+194
+00:06:18,050 --> 00:06:18,399
+sequence
+
+195
+00:06:18,560 --> 00:06:20,379
+This AI will cut that curve from
+
+196
+00:06:20,379 --> 00:06:22,290
+an hour to five minutes, right?
+
+197
+00:06:22,300 --> 00:06:23,699
+If you're in the other paths and
+
+198
+00:06:23,699 --> 00:06:25,220
+you're just looking to write your
+
+199
+00:06:25,220 --> 00:06:25,839
+own scripts
+
+200
+00:06:25,839 --> 00:06:27,959
+This AI will be helpful.
+
+201
+00:06:27,980 --> 00:06:29,069
+Um, but you're probably not gonna
+
+202
+00:06:29,120 --> 00:06:30,279
+have to rely on it super often
+
+203
+00:06:30,279 --> 00:06:31,959
+because you're only doing outreach
+
+204
+00:06:31,959 --> 00:06:33,339
+to sign your own clients
+
+205
+00:06:33,560 --> 00:06:35,529
+The legion path the whole business
+
+206
+00:06:35,540 --> 00:06:37,209
+model is running campaigns for
+
+207
+00:06:37,209 --> 00:06:38,740
+clients for the other paths
+
+208
+00:06:38,740 --> 00:06:40,319
+You're only doing outreach for
+
+209
+00:06:40,329 --> 00:06:41,360
+your own campaigns
+
+210
+00:06:41,870 --> 00:06:44,300
+So this bot is gonna be most
+
+211
+00:06:44,300 --> 00:06:45,839
+effective for people running a
+
+212
+00:06:45,899 --> 00:06:47,509
+legion agency cold email, but if
+
+213
+00:06:47,560 --> 00:06:48,180
+you're running other
+
+214
+00:06:48,689 --> 00:06:50,639
+Another agency path you can still
+
+215
+00:06:50,639 --> 00:06:53,089
+benefit from using this AI to test
+
+216
+00:06:53,089 --> 00:06:55,180
+different angles, right?
+
+217
+00:06:55,689 --> 00:07:00,100
+This looks great write me a
+
+218
+00:07:02,029 --> 00:07:03,519
+similar three-step email sequence
+
+219
+00:07:04,029 --> 00:07:07,250
+For a professional I want to try
+
+220
+00:07:07,310 --> 00:07:08,810
+to confuse the AI to see if it can
+
+221
+00:07:08,870 --> 00:07:09,670
+really overcome
+
+222
+00:07:09,699 --> 00:07:11,610
+Hurdles for a professional
+
+223
+00:07:11,610 --> 00:07:12,620
+tickler.
+
+224
+00:07:12,620 --> 00:07:13,519
+I show up
+
+225
+00:07:13,560 --> 00:07:17,009
+To corporate events and tickle
+
+226
+00:07:17,009 --> 00:07:19,709
+people as a funny way to make the
+
+227
+00:07:19,759 --> 00:07:21,160
+events more fun
+
+228
+00:07:21,670 --> 00:07:23,629
+Nike
+
+229
+00:07:24,149 --> 00:07:25,639
+got
+
+230
+00:07:25,639 --> 00:07:27,639
+rave feedback from
+
+231
+00:07:28,149 --> 00:07:32,079
+Their employees after I tickled
+
+232
+00:07:32,079 --> 00:07:32,399
+them
+
+233
+00:07:32,399 --> 00:07:35,680
+Pitch a tickle video in the call
+
+234
+00:07:35,790 --> 00:07:36,829
+to action.
+
+235
+00:07:36,829 --> 00:07:37,899
+I want to see if I can throw a
+
+236
+00:07:38,079 --> 00:07:39,449
+wrench in the AI is thinking and
+
+237
+00:07:39,459 --> 00:07:40,579
+make it mess up because
+
+238
+00:07:41,089 --> 00:07:43,720
+Are you?
+
+239
+00:07:44,230 --> 00:07:46,000
+Okay, so the AI actually is
+
+240
+00:07:46,000 --> 00:07:47,129
+writing some fire for a
+
+241
+00:07:47,129 --> 00:07:48,279
+professional tickler
+
+242
+00:07:48,480 --> 00:07:50,490
+Which proves that this AI is your
+
+243
+00:07:50,500 --> 00:07:52,480
+one-stop shop for creating?
+
+244
+00:07:52,990 --> 00:07:55,399
+really good email content
+
+245
+00:07:55,399 --> 00:07:58,040
+Even for the weirdest offers in
+
+246
+00:07:58,040 --> 00:07:59,860
+the world corporate event
+
+247
+00:07:59,860 --> 00:08:00,689
+entertainment are your corporate
+
+248
+00:08:00,750 --> 00:08:02,000
+events memorable enough to get
+
+249
+00:08:02,000 --> 00:08:03,139
+employees talking for weeks
+
+250
+00:08:03,139 --> 00:08:04,529
+We provide professional tickling
+
+251
+00:08:04,529 --> 00:08:06,079
+entertainment for corporate events
+
+252
+00:08:06,079 --> 00:08:07,300
+a unique way to break the ice and
+
+253
+00:08:07,300 --> 00:08:08,550
+get create unforgettable team
+
+254
+00:08:08,550 --> 00:08:09,360
+bonding moments
+
+255
+00:08:09,910 --> 00:08:12,000
+Nike got rave reviews mind if I
+
+256
+00:08:12,000 --> 00:08:12,360
+share a video of our tickling
+
+257
+00:08:12,360 --> 00:08:13,629
+entertainment unforgettable team
+
+258
+00:08:13,689 --> 00:08:14,100
+events
+
+259
+00:08:14,610 --> 00:08:18,800
+Please make the angles
+
+260
+00:08:18,800 --> 00:08:21,649
+Shorter more concise so like you
+
+261
+00:08:21,649 --> 00:08:22,879
+can sit here and prompt the AI
+
+262
+00:08:22,879 --> 00:08:24,209
+over and over again, and it'll
+
+263
+00:08:24,220 --> 00:08:24,939
+rewrite it for you
+
+264
+00:08:25,449 --> 00:08:28,949
+There we go the best emails are
+
+265
+00:08:29,009 --> 00:08:30,709
+short as I showed you in previous
+
+266
+00:08:30,709 --> 00:08:31,819
+videos, so let's make these as
+
+267
+00:08:31,819 --> 00:08:32,330
+short as possible
+
+268
+00:08:34,559 --> 00:08:35,679
+Corporate events don't have to be
+
+269
+00:08:35,679 --> 00:08:36,590
+stiff and formal we provide
+
+270
+00:08:36,600 --> 00:08:37,759
+tickling entertainment that gets
+
+271
+00:08:37,759 --> 00:08:39,320
+everyone laughing Nike got rave
+
+272
+00:08:39,320 --> 00:08:40,480
+reviews open to seeing a video
+
+273
+00:08:40,480 --> 00:08:42,350
+So as you can see this is like the
+
+274
+00:08:42,350 --> 00:08:44,100
+beginner mode of AI
+
+275
+00:08:44,100 --> 00:08:45,720
+Script writing if you're a lead
+
+276
+00:08:45,789 --> 00:08:47,049
+gen path cold email lead
+
+277
+00:08:47,049 --> 00:08:47,779
+generation
+
+278
+00:08:47,779 --> 00:08:49,500
+This is extremely valuable for you
+
+279
+00:08:49,500 --> 00:08:51,000
+because you're gonna live in this
+
+280
+00:08:51,000 --> 00:08:52,100
+bot because you're gonna have to
+
+281
+00:08:52,139 --> 00:08:53,279
+write new scripts for each of your
+
+282
+00:08:53,279 --> 00:08:54,899
+clients if you're following the
+
+283
+00:08:54,899 --> 00:08:55,940
+email marketing path or
+
+284
+00:08:55,940 --> 00:08:58,370
+The content path or something
+
+285
+00:08:58,389 --> 00:09:00,200
+similar this is gonna be you know
+
+286
+00:09:00,200 --> 00:09:01,250
+A little bit less relevant for you
+
+287
+00:09:01,250 --> 00:09:02,289
+because you're not going to use it
+
+288
+00:09:02,289 --> 00:09:03,740
+as much, but it will still help
+
+289
+00:09:03,740 --> 00:09:05,070
+you write really good outreach
+
+290
+00:09:05,070 --> 00:09:05,480
+messages
+
+291
+00:09:05,480 --> 00:09:07,240
+For when you're doing your own
+
+292
+00:09:07,269 --> 00:09:07,960
+outreach.
+
+293
+00:09:08,049 --> 00:09:09,210
+So hopefully this helped in the
+
+294
+00:09:09,210 --> 00:09:10,039
+next video
+
+295
+00:09:10,039 --> 00:09:11,340
+I'm gonna be going into a much
+
+296
+00:09:11,340 --> 00:09:12,039
+more advanced
+
+297
+00:09:12,039 --> 00:09:14,519
+AI workflow that can help you
+
+298
+00:09:14,629 --> 00:09:16,159
+write cold email scripts that are
+
+299
+00:09:16,159 --> 00:09:18,059
+personalized to every single
+
+300
+00:09:18,059 --> 00:09:19,960
+person in your list of leads
+
+301
+00:09:19,960 --> 00:09:22,059
+This AI is gonna be a lot more
+
+302
+00:09:22,059 --> 00:09:23,690
+in-depth and it's gonna take a big
+
+303
+00:09:23,750 --> 00:09:24,360
+learning curve
+
+304
+00:09:24,360 --> 00:09:25,980
+But once you master it you can
+
+305
+00:09:26,049 --> 00:09:26,360
+write
+
+306
+00:09:27,509 --> 00:09:28,710
+personalized emails to every
+
+307
+00:09:28,710 --> 00:09:30,580
+prospect because clearly these are
+
+308
+00:09:30,580 --> 00:09:32,149
+not personalized to everyone in
+
+309
+00:09:32,149 --> 00:09:32,649
+your list
+
+310
+00:09:32,679 --> 00:09:34,370
+They're just templated blanket
+
+311
+00:09:34,379 --> 00:09:36,279
+statements that will still work.
+
+312
+00:09:36,279 --> 00:09:37,559
+Well, but they're not
+
+313
+00:09:37,559 --> 00:09:40,029
+They're not personalized to every
+
+314
+00:09:40,149 --> 00:09:40,799
+person.
+
+315
+00:09:40,840 --> 00:09:41,559
+So in the next video
+
+316
+00:09:41,559 --> 00:09:42,919
+I'm gonna show you how to write
+
+317
+00:09:42,919 --> 00:09:44,720
+personalized ones for every single
+
+318
+00:09:44,720 --> 00:09:46,720
+prospect in the list.
+
+319
+00:09:46,720 --> 00:09:48,440
+See you in the next video

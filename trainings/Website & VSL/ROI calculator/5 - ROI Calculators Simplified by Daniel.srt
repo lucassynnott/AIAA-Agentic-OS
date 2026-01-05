@@ -1,0 +1,891 @@
+1
+00:00:00,500 --> 00:00:03,020
+Okay, so this is a simplified way
+
+2
+00:00:03,020 --> 00:00:04,620
+of doing an ROI calculator,
+
+3
+00:00:04,629 --> 00:00:06,209
+just using Claude without any kind
+
+4
+00:00:06,209 --> 00:00:07,669
+of like super complex stuff.
+
+5
+00:00:07,730 --> 00:00:08,880
+This is like a quick and dirty,
+
+6
+00:00:09,099 --> 00:00:10,109
+like make one real quick
+
+7
+00:00:10,150 --> 00:00:11,289
+and all the prompts and everything
+
+8
+00:00:11,330 --> 00:00:11,720
+in here.
+
+9
+00:00:11,730 --> 00:00:12,500
+I'm just going to throw in the
+
+10
+00:00:12,500 --> 00:00:13,519
+description so you can read it.
+
+11
+00:00:13,529 --> 00:00:15,759
+But basically just said, I want to
+
+12
+00:00:15,800 --> 00:00:16,960
+make an interactive ROI calculator
+
+13
+00:00:16,960 --> 00:00:17,579
+for my prospects
+
+14
+00:00:17,589 --> 00:00:19,379
+and be sharing the calculator on
+
+15
+00:00:19,379 --> 00:00:20,890
+my video sales letter and sales
+
+16
+00:00:20,890 --> 00:00:21,079
+calls
+
+17
+00:00:21,089 --> 00:00:22,109
+purpose of it to show what results
+
+18
+00:00:22,109 --> 00:00:23,179
+in terms of money are possible to
+
+19
+00:00:23,179 --> 00:00:24,339
+achieve working with me.
+
+20
+00:00:24,370 --> 00:00:25,839
+This is my service.
+
+21
+00:00:25,859 --> 00:00:26,989
+I do a VSL call funnel for these
+
+22
+00:00:26,989 --> 00:00:27,390
+people.
+
+23
+00:00:27,489 --> 00:00:28,140
+Here's the things I want to
+
+24
+00:00:28,160 --> 00:00:28,500
+consider.
+
+25
+00:00:30,010 --> 00:00:30,890
+Normal coaching pricing is
+
+26
+00:00:30,940 --> 00:00:32,630
+between, you can read it in the
+
+27
+00:00:32,630 --> 00:00:33,729
+description.
+
+28
+00:00:33,750 --> 00:00:36,079
+But then it came back and said, it
+
+29
+00:00:36,079 --> 00:00:37,549
+needed some clarifying questions
+
+30
+00:00:37,570 --> 00:00:38,450
+because I said, if there's
+
+31
+00:00:38,479 --> 00:00:39,659
+anything else you're unsure about
+
+32
+00:00:39,670 --> 00:00:40,659
+before you make the ROI calculator
+
+33
+00:00:40,659 --> 00:00:41,590
+in order to make it correctly,
+
+34
+00:00:41,710 --> 00:00:42,340
+please ask me how.
+
+35
+00:00:42,350 --> 00:00:43,229
+So it asked me a bunch of
+
+36
+00:00:43,280 --> 00:00:44,590
+questions, yada, yada.
+
+37
+00:00:44,609 --> 00:00:46,359
+And then what I did is I just
+
+38
+00:00:46,359 --> 00:00:48,219
+answered the questions.
+
+39
+00:00:48,229 --> 00:00:49,630
+So just one by one, I answered the
+
+40
+00:00:49,630 --> 00:00:50,140
+questions.
+
+41
+00:00:50,149 --> 00:00:51,820
+And then it created an ROI
+
+42
+00:00:51,820 --> 00:00:52,899
+calculator.
+
+43
+00:00:52,909 --> 00:00:53,579
+Okay, cool.
+
+44
+00:00:53,590 --> 00:00:55,490
+So now I started going through
+
+45
+00:00:55,490 --> 00:00:57,570
+this and like this was defaulted
+
+46
+00:00:57,570 --> 00:00:59,100
+to 10,000.
+
+47
+00:01:00,009 --> 00:01:02,820
+And this was defaulted to 5,000.
+
+48
+00:01:02,829 --> 00:01:04,750
+And what I'm going through here is
+
+49
+00:01:04,870 --> 00:01:06,799
+you've seen a month one, it's net
+
+50
+00:01:06,799 --> 00:01:08,420
+profit negative $500.
+
+51
+00:01:08,450 --> 00:01:09,560
+So I'm like, okay, well, if you
+
+52
+00:01:09,560 --> 00:01:10,500
+fucking presented that to a
+
+53
+00:01:10,519 --> 00:01:11,519
+client, like that's not going to
+
+54
+00:01:11,530 --> 00:01:11,760
+fly.
+
+55
+00:01:11,769 --> 00:01:12,180
+You know what I mean?
+
+56
+00:01:12,189 --> 00:01:14,109
+And then you go to month three and
+
+57
+00:01:14,230 --> 00:01:16,239
+they fucking have lost money.
+
+58
+00:01:16,250 --> 00:01:16,980
+You get what I'm saying?
+
+59
+00:01:16,989 --> 00:01:18,409
+So I'm like, okay, well, like, I'm
+
+60
+00:01:18,409 --> 00:01:19,769
+like, well, fucking that can't be
+
+61
+00:01:19,769 --> 00:01:20,359
+the case.
+
+62
+00:01:20,469 --> 00:01:22,170
+So what I'm doing as well is I'll
+
+63
+00:01:22,170 --> 00:01:23,969
+walk you through some of my logic
+
+64
+00:01:23,969 --> 00:01:25,510
+in the next prompt I'm going to
+
+65
+00:01:25,620 --> 00:01:26,340
+give it.
+
+66
+00:01:26,349 --> 00:01:28,650
+So under campaign settings, I want
+
+67
+00:01:28,650 --> 00:01:30,510
+you to remove the cost per lead
+
+68
+00:01:30,590 --> 00:01:32,540
+and lead to call booking rate.
+
+69
+00:01:32,549 --> 00:01:33,620
+And instead, just show cost per
+
+70
+00:01:33,620 --> 00:01:34,079
+book call.
+
+71
+00:01:34,090 --> 00:01:34,579
+Why?
+
+72
+00:01:34,609 --> 00:01:35,730
+Because even when I'm personally
+
+73
+00:01:35,959 --> 00:01:37,219
+doing media buying, I don't give a
+
+74
+00:01:37,219 --> 00:01:38,579
+fuck what the cost per lead is.
+
+75
+00:01:38,590 --> 00:01:39,739
+I'm only concerned.
+
+76
+00:01:39,870 --> 00:01:41,400
+What is the cost per call?
+
+77
+00:01:41,409 --> 00:01:41,680
+Right?
+
+78
+00:01:41,689 --> 00:01:42,799
+So it doesn't even matter what the
+
+79
+00:01:42,799 --> 00:01:43,420
+cost per lead.
+
+80
+00:01:43,430 --> 00:01:44,180
+It doesn't matter.
+
+81
+00:01:44,189 --> 00:01:45,280
+Like, what's the cost per call?
+
+82
+00:01:45,310 --> 00:01:45,879
+Right?
+
+83
+00:01:46,329 --> 00:01:47,409
+Then under call show up rates,
+
+84
+00:01:47,409 --> 00:01:48,569
+make a non-adjustable field that
+
+85
+00:01:48,599 --> 00:01:49,659
+just says call is booked.
+
+86
+00:01:49,670 --> 00:01:50,060
+Right?
+
+87
+00:01:50,069 --> 00:01:51,129
+So I just want to see how many
+
+88
+00:01:51,129 --> 00:01:52,439
+calls were booked right here.
+
+89
+00:01:52,489 --> 00:01:52,760
+Right?
+
+90
+00:01:52,769 --> 00:01:54,189
+Under sales and pricing, put a
+
+91
+00:01:54,189 --> 00:01:55,640
+field under package price that
+
+92
+00:01:55,640 --> 00:01:56,799
+says clients closed.
+
+93
+00:01:56,810 --> 00:01:57,829
+And another one says revenue
+
+94
+00:01:57,829 --> 00:01:58,379
+generated.
+
+95
+00:01:58,390 --> 00:02:00,269
+And they're calculated based on
+
+96
+00:02:00,280 --> 00:02:02,109
+the provided input fields.
+
+97
+00:02:02,150 --> 00:02:02,700
+Right?
+
+98
+00:02:02,709 --> 00:02:04,950
+And then again, going back to
+
+99
+00:02:04,980 --> 00:02:07,469
+this, like these numbers are not
+
+100
+00:02:07,469 --> 00:02:08,580
+big enough.
+
+101
+00:02:08,590 --> 00:02:10,830
+So now what else I'm going to do
+
+102
+00:02:10,860 --> 00:02:13,449
+in addition to this, make the
+
+103
+00:02:13,449 --> 00:02:15,379
+monthly ad spend
+
+104
+00:02:16,060 --> 00:02:20,979
+default to $30,000 and also make
+
+105
+00:02:21,030 --> 00:02:25,310
+the package price default to
+
+106
+00:02:25,360 --> 00:02:28,830
+$10,000.
+
+107
+00:02:29,250 --> 00:02:29,830
+Okay.
+
+108
+00:02:29,849 --> 00:02:30,990
+So, and all you do to make these
+
+109
+00:02:31,219 --> 00:02:32,659
+adjustments to the calculator is
+
+110
+00:02:32,659 --> 00:02:33,860
+you just explain in natural
+
+111
+00:02:33,870 --> 00:02:34,860
+English what you want to change.
+
+112
+00:02:34,870 --> 00:02:36,020
+So I'm going to do that.
+
+113
+00:02:36,050 --> 00:02:37,090
+And now it's just going to redo
+
+114
+00:02:37,090 --> 00:02:37,819
+the whole thing.
+
+115
+00:02:46,060 --> 00:02:53,819
+And like a lot of what you'll do
+
+116
+00:02:53,819 --> 00:03:02,699
+playing with AI tools is like,
+
+117
+00:03:02,699 --> 00:03:04,379
+it's like kind of just
+
+118
+00:03:04,389 --> 00:03:05,539
+like sitting here, like going back
+
+119
+00:03:05,699 --> 00:03:06,310
+and forth with it.
+
+120
+00:03:06,330 --> 00:03:07,469
+Like, ah, I want, I want to change
+
+121
+00:03:07,680 --> 00:03:07,830
+this.
+
+122
+00:03:07,849 --> 00:03:08,659
+Ah, I want to change this.
+
+123
+00:03:08,669 --> 00:03:09,479
+Ah, I want to change this.
+
+124
+00:03:09,569 --> 00:03:11,780
+Like what you kind of are is like,
+
+125
+00:03:11,780 --> 00:03:13,710
+you're kind of like a fucking
+
+126
+00:03:13,710 --> 00:03:15,340
+developer, but you just
+
+127
+00:03:15,370 --> 00:03:16,180
+use natural language.
+
+128
+00:03:16,189 --> 00:03:17,240
+Like you don't know code.
+
+129
+00:03:17,250 --> 00:03:19,080
+You're just a developer, but you
+
+130
+00:03:19,080 --> 00:03:20,969
+use like the English language.
+
+131
+00:03:20,990 --> 00:03:21,539
+You get what I'm saying?
+
+132
+00:03:21,550 --> 00:03:21,620
+Okay.
+
+133
+00:03:21,629 --> 00:03:21,699
+Okay.
+
+134
+00:03:22,379 --> 00:03:51,409
+Thank you.
+
+135
+00:03:52,379 --> 00:04:09,879
+Also, when you do this, you always
+
+136
+00:04:09,879 --> 00:04:10,740
+want to make sure you're using the
+
+137
+00:04:10,800 --> 00:04:11,319
+highest model.
+
+138
+00:04:11,330 --> 00:04:12,759
+So, like, right now, it's Opus
+
+139
+00:04:12,759 --> 00:04:13,479
+4.1.
+
+140
+00:04:14,159 --> 00:04:19,509
+Okay, cool.
+
+141
+00:04:19,529 --> 00:04:21,069
+Yeah, so this looks fucking much
+
+142
+00:04:21,069 --> 00:04:21,620
+better.
+
+143
+00:04:21,899 --> 00:04:22,360
+All right, so what?
+
+144
+00:04:22,370 --> 00:04:23,509
+Here's how you do this.
+
+145
+00:04:23,709 --> 00:04:25,100
+Here's how you publish this.
+
+146
+00:04:25,110 --> 00:04:26,060
+All you do, you go to Publish.
+
+147
+00:04:26,089 --> 00:04:27,680
+Publish and Copy Link.
+
+148
+00:04:28,360 --> 00:04:30,370
+Copy Link.
+
+149
+00:04:30,389 --> 00:04:32,310
+Go into a browser.
+
+150
+00:04:32,389 --> 00:04:34,839
+Here's your ROI calculator.
+
+151
+00:04:34,850 --> 00:04:36,769
+It's just on a published link,
+
+152
+00:04:36,889 --> 00:04:37,500
+right?
+
+153
+00:04:37,509 --> 00:04:38,519
+So you can just play with this
+
+154
+00:04:38,519 --> 00:04:38,660
+now.
+
+155
+00:04:38,850 --> 00:04:39,519
+So, like, you're talking to a
+
+156
+00:04:39,519 --> 00:04:39,839
+client.
+
+157
+00:04:39,850 --> 00:04:41,339
+It's like, okay, so what would the
+
+158
+00:04:41,379 --> 00:04:42,560
+three-month results be?
+
+159
+00:04:42,930 --> 00:04:44,350
+If you were spending $30,000 per
+
+160
+00:04:44,350 --> 00:04:45,769
+month, you had a $300 cost per
+
+161
+00:04:45,769 --> 00:04:47,970
+call, you'd net profit, after my
+
+162
+00:04:48,079 --> 00:04:50,800
+fees, $222,000.
+
+163
+00:04:50,810 --> 00:04:54,199
+So, and then you can adjust it.
+
+164
+00:04:54,209 --> 00:04:55,279
+Well, I assume, like, over time,
+
+165
+00:04:55,279 --> 00:04:56,110
+like, it's starting to work
+
+166
+00:04:56,129 --> 00:04:56,540
+better.
+
+167
+00:04:56,550 --> 00:04:57,540
+Like, you want to increase the ad
+
+168
+00:04:57,540 --> 00:04:59,149
+spend from $1,000 a day to $2,000
+
+169
+00:04:59,149 --> 00:04:59,519
+a day.
+
+170
+00:05:00,050 --> 00:05:01,829
+So then we go to $60,000, and
+
+171
+00:05:01,829 --> 00:05:03,980
+you'd be profiting $456,000.
+
+172
+00:05:03,990 --> 00:05:05,870
+You know what I'm saying?
+
+173
+00:05:05,889 --> 00:05:07,040
+And, like, your service fee on
+
+174
+00:05:07,259 --> 00:05:08,259
+that would have been, you would
+
+175
+00:05:08,339 --> 00:05:10,050
+have clicked $84,000 on that over
+
+176
+00:05:10,129 --> 00:05:10,930
+fucking three months.
+
+177
+00:05:11,050 --> 00:05:11,519
+You know what I'm saying?
+
+178
+00:05:11,529 --> 00:05:13,089
+You know, you can sit here and
+
+179
+00:05:13,089 --> 00:05:14,319
+adjust it with them.
+
+180
+00:05:14,350 --> 00:05:16,560
+Like, well, what if the cost per
+
+181
+00:05:16,560 --> 00:05:17,779
+call is higher?
+
+182
+00:05:17,790 --> 00:05:19,220
+Like, okay, well, then that.
+
+183
+00:05:19,230 --> 00:05:20,220
+You see what I mean?
+
+184
+00:05:20,230 --> 00:05:22,350
+Well, I actually charge $8,000.
+
+185
+00:05:22,389 --> 00:05:23,519
+Okay, that.
+
+186
+00:05:24,350 --> 00:05:26,250
+Well, what if you close less?
+
+187
+00:05:26,269 --> 00:05:27,379
+And you can, like, give, like,
+
+188
+00:05:27,379 --> 00:05:28,639
+conservative estimates and shit.
+
+189
+00:05:28,670 --> 00:05:30,470
+And it's like, yeah, even if you
+
+190
+00:05:30,470 --> 00:05:32,579
+had a $350 cost per call, and you
+
+191
+00:05:32,579 --> 00:05:33,839
+were only closing 18%, and you
+
+192
+00:05:33,839 --> 00:05:35,220
+were only charging $8,000, you're
+
+193
+00:05:35,339 --> 00:05:36,899
+still profiting $196,000.
+
+194
+00:05:36,910 --> 00:05:38,189
+But in reality, it's like, as we
+
+195
+00:05:38,279 --> 00:05:39,589
+optimize the sales process, it'll
+
+196
+00:05:39,600 --> 00:05:41,069
+just go to $23,000.
+
+197
+00:05:41,110 --> 00:05:42,660
+That could stay at $8,000.
+
+198
+00:05:42,670 --> 00:05:44,759
+Like, we constantly make new ads.
+
+199
+00:05:44,790 --> 00:05:46,339
+So this would be, like, $280,000.
+
+200
+00:05:46,350 --> 00:05:47,220
+You know what I'm saying?
+
+201
+00:05:47,230 --> 00:05:49,100
+You know, we have some cool stuff
+
+202
+00:05:49,100 --> 00:05:50,709
+that we do to increase show up
+
+203
+00:05:50,709 --> 00:05:51,379
+rates.
+
+204
+00:05:51,389 --> 00:05:52,540
+So this would go to $70,000.
+
+205
+00:05:52,649 --> 00:05:53,800
+So it's $540,000.
+
+206
+00:05:54,009 --> 00:05:54,680
+You know what I'm saying?
+
+207
+00:05:54,689 --> 00:05:57,680
+Like, oh, 12 months, $2.1 million.
+
+208
+00:05:57,689 --> 00:05:58,720
+You get what I'm saying?
+
+209
+00:05:58,730 --> 00:05:59,860
+Like, you just kind of fuck with
+
+210
+00:05:59,860 --> 00:06:00,500
+it like that.
+
+211
+00:06:00,509 --> 00:06:01,970
+And if you just want to make
+
+212
+00:06:01,970 --> 00:06:03,850
+changes to this calculator, you
+
+213
+00:06:03,850 --> 00:06:05,720
+just explain to Claude in natural
+
+214
+00:06:05,720 --> 00:06:06,579
+language.
+
+215
+00:06:06,589 --> 00:06:08,509
+Like, what do I want to change?
+
+216
+00:06:08,550 --> 00:06:09,040
+You get what I'm saying?
+
+217
+00:06:09,050 --> 00:06:09,720
+So I'm going to put all the
+
+218
+00:06:09,720 --> 00:06:10,819
+prompts in the description below.
+
+219
+00:06:10,829 --> 00:06:13,009
+I'll put a link to this artifact
+
+220
+00:06:13,009 --> 00:06:13,839
+as well.
+
+221
+00:06:13,850 --> 00:06:14,740
+But you can just, like, replicate
+
+222
+00:06:14,829 --> 00:06:15,620
+the whole thing just like that.
+
+223
+00:06:15,629 --> 00:06:16,180
+It's super easy.

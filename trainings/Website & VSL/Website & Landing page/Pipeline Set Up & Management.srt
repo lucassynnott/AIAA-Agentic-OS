@@ -1,0 +1,751 @@
+1
+00:00:00,100 --> 00:00:01,050
+All right, in this module, we're
+
+2
+00:00:01,050 --> 00:00:02,640
+going to cover pipeline setup and
+
+3
+00:00:02,640 --> 00:00:03,000
+management.
+
+4
+00:00:03,100 --> 00:00:04,639
+So I created a pipeline for you
+
+5
+00:00:04,809 --> 00:00:06,469
+guys already in this snapshot.
+
+6
+00:00:06,719 --> 00:00:08,460
+It includes the newly discovery
+
+7
+00:00:08,460 --> 00:00:10,060
+book, demo book, no show,
+
+8
+00:00:10,060 --> 00:00:10,730
+canceled,
+
+9
+00:00:10,960 --> 00:00:13,939
+follow up, deal closed, and deal
+
+10
+00:00:13,980 --> 00:00:14,750
+lost.
+
+11
+00:00:14,880 --> 00:00:17,579
+Now, you can edit this if you
+
+12
+00:00:17,579 --> 00:00:18,460
+want.
+
+13
+00:00:18,559 --> 00:00:19,960
+If you want to edit it, you can
+
+14
+00:00:19,960 --> 00:00:21,179
+click here in pipelines.
+
+15
+00:00:21,280 --> 00:00:22,600
+You can actually create as many
+
+16
+00:00:22,600 --> 00:00:23,899
+new pipelines as you want it
+
+17
+00:00:24,000 --> 00:00:25,370
+in case you have multiple products
+
+18
+00:00:25,370 --> 00:00:26,399
+or things like that.
+
+19
+00:00:26,920 --> 00:00:28,469
+But to edit this pipeline, you're
+
+20
+00:00:28,629 --> 00:00:30,179
+going to click here on the pencil
+
+21
+00:00:30,190 --> 00:00:30,500
+icon.
+
+22
+00:00:30,600 --> 00:00:33,000
+And here you can change the name,
+
+23
+00:00:33,000 --> 00:00:35,000
+new lead, new prospect,
+
+24
+00:00:35,100 --> 00:00:36,829
+whatever you want to call it, and
+
+25
+00:00:36,829 --> 00:00:38,700
+remove any sections
+
+26
+00:00:38,799 --> 00:00:40,320
+that you don't feel like you need
+
+27
+00:00:40,320 --> 00:00:41,280
+or add new ones.
+
+28
+00:00:41,359 --> 00:00:42,420
+So just click add stage, and you
+
+29
+00:00:42,420 --> 00:00:43,250
+can add a new stage.
+
+30
+00:00:43,359 --> 00:00:47,149
+Then you click save, and all the
+
+31
+00:00:47,590 --> 00:00:51,640
+changes you make will be added.
+
+32
+00:00:51,740 --> 00:00:53,750
+Now, when it comes to managing the
+
+33
+00:00:53,750 --> 00:00:55,420
+leads and moving around,
+
+34
+00:00:55,670 --> 00:00:57,000
+so they'll automatically be moved
+
+35
+00:00:57,000 --> 00:00:59,359
+based on what happens with a lead.
+
+36
+00:00:59,439 --> 00:01:00,439
+So, for example, if they book a
+
+37
+00:01:00,439 --> 00:01:01,200
+discovery or a demo,
+
+38
+00:01:01,299 --> 00:01:02,429
+they'll get moved to that stage.
+
+39
+00:01:02,539 --> 00:01:04,400
+But afterwards, you need to update
+
+40
+00:01:04,489 --> 00:01:05,909
+it based on what happens.
+
+41
+00:01:06,069 --> 00:01:07,230
+So if they no show, just move them
+
+42
+00:01:07,280 --> 00:01:07,599
+here.
+
+43
+00:01:07,700 --> 00:01:09,030
+If they book a follow-up, move
+
+44
+00:01:09,030 --> 00:01:09,700
+them here.
+
+45
+00:01:09,799 --> 00:01:11,620
+If they close, move them here.
+
+46
+00:01:11,709 --> 00:01:13,060
+If you lose them, move them here.
+
+47
+00:01:13,159 --> 00:01:14,439
+Okay, pretty simple.
+
+48
+00:01:14,540 --> 00:01:17,189
+And if you want to add any notes
+
+49
+00:01:17,189 --> 00:01:19,060
+to the opportunity,
+
+50
+00:01:19,280 --> 00:01:21,409
+you can just click here and add
+
+51
+00:01:21,459 --> 00:01:23,810
+any notes that you want to add.
+
+52
+00:01:23,959 --> 00:01:25,819
+Okay.
+
+53
+00:01:25,920 --> 00:01:28,579
+Save it, and it'll be right there.
+
+54
+00:01:28,680 --> 00:01:30,090
+And if you want to add tasks, you
+
+55
+00:01:30,090 --> 00:01:31,290
+could also add tasks for each
+
+56
+00:01:31,290 --> 00:01:31,659
+lead.
+
+57
+00:01:31,769 --> 00:01:37,959
+Save it.
+
+58
+00:01:39,200 --> 00:01:40,090
+That'll be right there.
+
+59
+00:01:40,200 --> 00:01:41,069
+Okay.
+
+60
+00:01:41,180 --> 00:01:42,390
+You can also book appointments,
+
+61
+00:01:42,450 --> 00:01:43,260
+manage payments.
+
+62
+00:01:43,359 --> 00:01:44,230
+Okay.
+
+63
+00:01:44,340 --> 00:01:45,549
+You can create an estimate or
+
+64
+00:01:45,609 --> 00:01:47,060
+create an invoice if you want,
+
+65
+00:01:47,159 --> 00:01:48,599
+once you have Stripe connected.
+
+66
+00:01:48,700 --> 00:01:50,250
+And add any other details like
+
+67
+00:01:50,409 --> 00:01:51,959
+tags and stuff like that.
+
+68
+00:01:52,060 --> 00:01:52,569
+Okay.
+
+69
+00:01:52,680 --> 00:01:53,640
+We just click update.
+
+70
+00:01:53,739 --> 00:01:54,840
+And it'll get updated.
+
+71
+00:01:55,159 --> 00:01:57,290
+Now, if you want to edit what
+
+72
+00:01:57,340 --> 00:01:59,680
+shows up in the card itself,
+
+73
+00:01:59,780 --> 00:02:02,760
+let's see where the card went.
+
+74
+00:02:02,810 --> 00:02:03,730
+I'll just refresh.
+
+75
+00:02:03,829 --> 00:02:18,139
+Okay.
+
+76
+00:02:18,240 --> 00:02:18,750
+Got moved here.
+
+77
+00:02:18,830 --> 00:02:20,860
+I'll just keep it here for now.
+
+78
+00:02:20,960 --> 00:02:22,680
+But if you want to make any
+
+79
+00:02:22,680 --> 00:02:24,750
+changes to the card itself,
+
+80
+00:02:25,080 --> 00:02:25,949
+you can open it up.
+
+81
+00:02:26,060 --> 00:02:28,610
+Or sorry, not open it up, but go
+
+82
+00:02:28,620 --> 00:02:30,590
+here to manage fields.
+
+83
+00:02:30,699 --> 00:02:32,250
+And here you could change how the
+
+84
+00:02:32,409 --> 00:02:33,520
+card looks itself.
+
+85
+00:02:33,659 --> 00:02:34,789
+So you can see we have all of
+
+86
+00:02:34,800 --> 00:02:37,449
+these fields added,
+
+87
+00:02:37,759 --> 00:02:39,509
+the source, the value, the last
+
+88
+00:02:39,509 --> 00:02:40,580
+reason, right?
+
+89
+00:02:40,699 --> 00:02:42,189
+So whenever, as you update those
+
+90
+00:02:42,189 --> 00:02:42,699
+fields,
+
+91
+00:02:42,800 --> 00:02:44,759
+it'll show up in the card itself.
+
+92
+00:02:44,860 --> 00:02:46,009
+But if you feel like you only need
+
+93
+00:02:46,060 --> 00:02:46,860
+the business name,
+
+94
+00:02:46,960 --> 00:02:49,860
+the source, and the owner, right?
+
+95
+00:02:49,919 --> 00:02:50,780
+Or the name of the opportunity,
+
+96
+00:02:50,879 --> 00:02:52,180
+you can just remove these things.
+
+97
+00:02:52,849 --> 00:02:54,030
+As you can see, the card changes
+
+98
+00:02:54,099 --> 00:02:55,280
+and gets smaller.
+
+99
+00:02:55,379 --> 00:02:55,819
+Okay.
+
+100
+00:02:55,900 --> 00:02:56,990
+If you want to add more details,
+
+101
+00:02:57,099 --> 00:02:59,479
+create it on last status change,
+
+102
+00:02:59,580 --> 00:03:01,300
+stuff like that, or contact
+
+103
+00:03:01,300 --> 00:03:02,120
+details,
+
+104
+00:03:02,219 --> 00:03:03,770
+you could add those here.
+
+105
+00:03:03,939 --> 00:03:05,939
+Just select, you know, what you
+
+106
+00:03:05,939 --> 00:03:06,520
+want to add.
+
+107
+00:03:07,139 --> 00:03:09,860
+And it'll update it for you.
+
+108
+00:03:09,960 --> 00:03:11,509
+You can make a compact card if you
+
+109
+00:03:11,669 --> 00:03:12,159
+prefer,
+
+110
+00:03:12,259 --> 00:03:14,129
+unlabeled, where you don't really
+
+111
+00:03:14,210 --> 00:03:14,919
+have any type of,
+
+112
+00:03:15,020 --> 00:03:17,740
+you know, what's the word?
+
+113
+00:03:17,840 --> 00:03:19,389
+These things right here.
+
+114
+00:03:21,060 --> 00:03:23,639
+And yeah, if you want to edit
+
+115
+00:03:23,669 --> 00:03:24,430
+these,
+
+116
+00:03:24,580 --> 00:03:25,259
+that's how you do it.
+
+117
+00:03:25,360 --> 00:03:26,900
+Now, another thing you could do
+
+118
+00:03:27,020 --> 00:03:28,879
+is add custom opportunity fields.
+
+119
+00:03:29,060 --> 00:03:30,919
+So to do that, you go to settings,
+
+120
+00:03:31,080 --> 00:03:34,020
+you go to custom fields, okay?
+
+121
+00:03:34,120 --> 00:03:35,439
+And you can create add field
+
+122
+00:03:35,539 --> 00:03:38,909
+where let's say, for example,
+
+123
+00:03:39,060 --> 00:03:40,379
+it's going to be a dropdown.
+
+124
+00:03:41,819 --> 00:03:43,949
+Okay, so here it could be a
+
+125
+00:03:44,000 --> 00:03:47,900
+product, right?
+
+126
+00:03:48,000 --> 00:03:49,199
+See what product you're interested
+
+127
+00:03:49,270 --> 00:03:49,340
+in.
+
+128
+00:03:49,439 --> 00:03:50,870
+If you have multiple products you
+
+129
+00:03:50,870 --> 00:03:51,219
+sell,
+
+130
+00:03:51,319 --> 00:03:52,719
+so it could be done for you.
+
+131
+00:03:55,639 --> 00:03:59,800
+It could be a one-time setup,
+
+132
+00:03:59,900 --> 00:04:01,979
+or it could be consulting.
+
+133
+00:04:02,080 --> 00:04:07,780
+So to do this
+
+134
+00:04:07,879 --> 00:04:10,169
+and turn this into an opportunity
+
+135
+00:04:10,180 --> 00:04:10,819
+field,
+
+136
+00:04:10,919 --> 00:04:12,050
+just click here in object
+
+137
+00:04:12,219 --> 00:04:13,520
+and change it to opportunity.
+
+138
+00:04:13,620 --> 00:04:15,479
+Okay, you save it.
+
+139
+00:04:15,620 --> 00:04:17,170
+Oh, you're going to group it,
+
+140
+00:04:17,379 --> 00:04:18,310
+so opportunity details.
+
+141
+00:04:18,420 --> 00:04:19,620
+You save it,
+
+142
+00:04:19,740 --> 00:04:21,290
+and then once you go back to the
+
+143
+00:04:21,449 --> 00:04:22,040
+pipeline,
+
+144
+00:04:25,139 --> 00:04:27,959
+okay, you'll be able to see that
+
+145
+00:04:27,959 --> 00:04:28,759
+field right here,
+
+146
+00:04:28,860 --> 00:04:31,199
+and you can select, you know,
+
+147
+00:04:31,300 --> 00:04:34,279
+what the product they're
+
+148
+00:04:34,319 --> 00:04:35,300
+interested in
+
+149
+00:04:35,399 --> 00:04:36,519
+or a prospect for.
+
+150
+00:04:36,620 --> 00:04:38,839
+All right, and then if you go
+
+151
+00:04:38,839 --> 00:04:39,279
+here,
+
+152
+00:04:39,379 --> 00:04:43,839
+you could make sure it shows up.
+
+153
+00:04:43,939 --> 00:04:46,620
+So let's just find here.
+
+154
+00:04:54,639 --> 00:04:58,259
+So it's not showing up,
+
+155
+00:04:58,360 --> 00:04:59,680
+but it should.
+
+156
+00:04:59,779 --> 00:05:02,040
+Let me just refresh the page
+
+157
+00:05:02,040 --> 00:05:02,879
+again.
+
+158
+00:05:02,980 --> 00:05:04,500
+Sometimes high-level can be a
+
+159
+00:05:04,500 --> 00:05:05,300
+little bit buggy.
+
+160
+00:05:14,060 --> 00:05:14,829
+It's in here.
+
+161
+00:05:14,939 --> 00:05:17,959
+So if we've managed the fields.
+
+162
+00:05:18,050 --> 00:05:22,500
+Product.
+
+163
+00:05:22,600 --> 00:05:23,939
+Okay, so we click save.
+
+164
+00:05:24,040 --> 00:05:27,829
+Now we can see the product is done
+
+165
+00:05:28,269 --> 00:05:29,660
+for you.
+
+166
+00:05:29,759 --> 00:05:30,970
+Okay, so now you can have your
+
+167
+00:05:31,029 --> 00:05:31,980
+custom product in there.
+
+168
+00:05:33,199 --> 00:05:34,069
+Okay, if you prefer to see it as a
+
+169
+00:05:34,079 --> 00:05:34,350
+list,
+
+170
+00:05:34,480 --> 00:05:35,040
+you can click here,
+
+171
+00:05:35,139 --> 00:05:36,029
+and it'll just show up as a list
+
+172
+00:05:36,139 --> 00:05:37,459
+if it's easier for you guys.
+
+173
+00:05:37,560 --> 00:05:39,319
+And yeah,
+
+174
+00:05:39,389 --> 00:05:40,050
+if you guys want to add an
+
+175
+00:05:40,050 --> 00:05:40,920
+opportunity manually,
+
+176
+00:05:41,019 --> 00:05:42,060
+just click add opportunity,
+
+177
+00:05:42,160 --> 00:05:42,860
+fill out the details,
+
+178
+00:05:42,959 --> 00:05:44,779
+and it'll be created.
+
+179
+00:05:44,879 --> 00:05:46,029
+Okay, so that's pretty much
+
+180
+00:05:46,180 --> 00:05:47,639
+how you manage the pipeline
+
+181
+00:05:47,740 --> 00:05:48,420
+and go high-level.
+
+182
+00:05:48,519 --> 00:05:50,360
+Very simple and intuitive,
+
+183
+00:05:50,439 --> 00:05:50,939
+in my opinion.
+
+184
+00:05:51,040 --> 00:05:52,879
+But yeah,
+
+185
+00:05:52,980 --> 00:05:54,110
+if you guys have any questions
+
+186
+00:05:54,250 --> 00:05:54,779
+about this,
+
+187
+00:05:54,879 --> 00:05:55,389
+just reach out.
+
+188
+00:05:55,540 --> 00:05:56,160
+Okay.

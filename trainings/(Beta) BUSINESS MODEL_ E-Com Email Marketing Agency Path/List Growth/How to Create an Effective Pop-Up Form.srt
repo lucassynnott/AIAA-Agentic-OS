@@ -1,0 +1,2191 @@
+1
+00:00:00,030 --> 00:00:01,310
+Okay, okay, that all makes sense
+
+2
+00:00:01,310 --> 00:00:01,840
+in theory.
+
+3
+00:00:01,870 --> 00:00:02,919
+Yes, we want a high-converting
+
+4
+00:00:03,029 --> 00:00:03,339
+pop-up,
+
+5
+00:00:03,370 --> 00:00:04,919
+but how exactly do you make an
+
+6
+00:00:04,940 --> 00:00:05,900
+effective pop-up form?
+
+7
+00:00:05,929 --> 00:00:07,240
+That is what we are going to be
+
+8
+00:00:07,290 --> 00:00:07,849
+going over
+
+9
+00:00:07,889 --> 00:00:09,179
+in this very, very, very, very,
+
+10
+00:00:09,179 --> 00:00:10,679
+very important doc here.
+
+11
+00:00:10,710 --> 00:00:12,080
+Lots of jam-packed information
+
+12
+00:00:12,080 --> 00:00:12,480
+here.
+
+13
+00:00:12,509 --> 00:00:14,830
+So these are the steps you want to
+
+14
+00:00:14,830 --> 00:00:15,039
+do
+
+15
+00:00:15,109 --> 00:00:16,539
+when creating a pop-up form.
+
+16
+00:00:16,649 --> 00:00:17,890
+First, we want to establish the
+
+17
+00:00:17,890 --> 00:00:18,320
+offer.
+
+18
+00:00:18,350 --> 00:00:19,679
+Choose what incentive you're going
+
+19
+00:00:19,699 --> 00:00:20,420
+to be giving the recipients.
+
+20
+00:00:20,449 --> 00:00:22,199
+The stronger your incentive, the
+
+21
+00:00:22,199 --> 00:00:23,399
+higher your opt-ins,
+
+22
+00:00:23,449 --> 00:00:24,899
+but again, you want to be able to
+
+23
+00:00:25,019 --> 00:00:25,460
+balance it
+
+24
+00:00:25,489 --> 00:00:26,940
+so that you're not giving like 90%
+
+25
+00:00:27,050 --> 00:00:27,719
+off your products
+
+26
+00:00:27,750 --> 00:00:29,019
+because obviously that's a bad
+
+27
+00:00:29,019 --> 00:00:29,839
+look for your brand
+
+28
+00:00:29,859 --> 00:00:30,600
+or you're giving somebody,
+
+29
+00:00:30,629 --> 00:00:32,070
+everybody who signs up gets a free
+
+30
+00:00:32,200 --> 00:00:33,060
+Tesla Cybertruck.
+
+31
+00:00:33,090 --> 00:00:33,320
+No.
+
+32
+00:00:33,350 --> 00:00:34,679
+So first, we want to establish our
+
+33
+00:00:34,700 --> 00:00:35,159
+offer.
+
+34
+00:00:35,189 --> 00:00:35,950
+What do we want to do?
+
+35
+00:00:35,990 --> 00:00:37,039
+And then we want to choose what
+
+36
+00:00:37,130 --> 00:00:38,060
+form type you want.
+
+37
+00:00:38,090 --> 00:00:39,799
+So I'm giving you five different
+
+38
+00:00:39,799 --> 00:00:40,420
+form types
+
+39
+00:00:40,450 --> 00:00:41,640
+and then pick a starting point.
+
+40
+00:00:41,659 --> 00:00:42,640
+I'll give you recommendations.
+
+41
+00:00:42,670 --> 00:00:44,920
+Three, we want to create our form
+
+42
+00:00:44,920 --> 00:00:46,250
+in Klaviyo or Amped.
+
+43
+00:00:46,549 --> 00:00:47,740
+Use my tutorial guides,
+
+44
+00:00:47,770 --> 00:00:48,759
+which I'm going to show you for
+
+45
+00:00:48,759 --> 00:00:49,140
+your form
+
+46
+00:00:49,170 --> 00:00:50,179
+and your desired platform.
+
+47
+00:00:50,210 --> 00:00:51,789
+Then four, run your form through
+
+48
+00:00:51,789 --> 00:00:52,619
+my checklist,
+
+49
+00:00:52,649 --> 00:00:53,700
+which I will show you,
+
+50
+00:00:53,750 --> 00:00:54,689
+the high-converting form
+
+51
+00:00:54,689 --> 00:00:55,119
+checklist,
+
+52
+00:00:55,149 --> 00:00:56,469
+and then set up your A-B test and
+
+53
+00:00:56,500 --> 00:00:57,420
+test from there.
+
+54
+00:00:57,450 --> 00:00:59,049
+So number one, establish your
+
+55
+00:00:59,049 --> 00:00:59,549
+offer.
+
+56
+00:00:59,710 --> 00:01:00,939
+Your offer is the most important
+
+57
+00:01:00,939 --> 00:01:01,149
+part
+
+58
+00:01:01,189 --> 00:01:02,960
+in terms of getting conversions.
+
+59
+00:01:02,990 --> 00:01:05,079
+So we want to really try off,
+
+60
+00:01:05,109 --> 00:01:06,510
+try different offers based on our
+
+61
+00:01:06,510 --> 00:01:06,900
+margins
+
+62
+00:01:06,930 --> 00:01:07,980
+and then what opt-in rates we're
+
+63
+00:01:08,040 --> 00:01:08,540
+getting.
+
+64
+00:01:08,569 --> 00:01:09,620
+Like obviously if you don't have
+
+65
+00:01:09,689 --> 00:01:10,280
+good margins,
+
+66
+00:01:10,310 --> 00:01:12,090
+don't be given like $500 off your
+
+67
+00:01:12,090 --> 00:01:12,840
+first order.
+
+68
+00:01:12,890 --> 00:01:15,140
+So a great test to ask yourself
+
+69
+00:01:15,140 --> 00:01:15,560
+is,
+
+70
+00:01:15,590 --> 00:01:16,640
+if I was given this offer,
+
+71
+00:01:16,689 --> 00:01:18,500
+would I exchange my email for it?
+
+72
+00:01:18,530 --> 00:01:19,739
+So make sure you're testing all
+
+73
+00:01:19,739 --> 00:01:20,640
+these different styles.
+
+74
+00:01:20,730 --> 00:01:22,840
+Do percent off versus dollar off.
+
+75
+00:01:22,930 --> 00:01:24,200
+So this is a great test to do.
+
+76
+00:01:24,569 --> 00:01:25,859
+Typically if your average order
+
+77
+00:01:25,930 --> 00:01:26,200
+value
+
+78
+00:01:26,230 --> 00:01:27,680
+is below $100, you want to do
+
+79
+00:01:27,799 --> 00:01:28,489
+percent off.
+
+80
+00:01:28,530 --> 00:01:29,439
+If your average order value is
+
+81
+00:01:29,439 --> 00:01:30,159
+above $100,
+
+82
+00:01:30,189 --> 00:01:31,200
+you want to do dollar off.
+
+83
+00:01:31,230 --> 00:01:33,299
+Because say your product sells
+
+84
+00:01:33,299 --> 00:01:33,739
+for,
+
+85
+00:01:33,769 --> 00:01:36,400
+say your product is $50,
+
+86
+00:01:36,430 --> 00:01:37,859
+that's your average order value.
+
+87
+00:01:37,890 --> 00:01:40,450
+You could either say, so 10%,
+
+88
+00:01:40,510 --> 00:01:41,510
+say you want your offer to be
+
+89
+00:01:41,510 --> 00:01:42,480
+around like 10%.
+
+90
+00:01:42,510 --> 00:01:45,069
+So 10% of $50 is $5.
+
+91
+00:01:45,439 --> 00:01:46,709
+So you're telling people, hey, $5
+
+92
+00:01:46,709 --> 00:01:47,140
+off.
+
+93
+00:01:47,170 --> 00:01:49,670
+That doesn't sound as good as 10%
+
+94
+00:01:49,670 --> 00:01:50,219
+off.
+
+95
+00:01:50,250 --> 00:01:51,689
+Would you rather have $5 off or
+
+96
+00:01:51,819 --> 00:01:52,480
+10% off?
+
+97
+00:01:52,510 --> 00:01:53,780
+Probably 5% off.
+
+98
+00:01:53,810 --> 00:01:55,099
+Meanwhile, if your average order
+
+99
+00:01:55,099 --> 00:01:55,920
+value is $500,
+
+100
+00:01:55,989 --> 00:01:57,980
+10% would be $50.
+
+101
+00:01:58,010 --> 00:01:59,680
+Would you rather say, hey, do you
+
+102
+00:01:59,680 --> 00:02:00,299
+want 10% off
+
+103
+00:02:00,329 --> 00:02:01,519
+or do you want $50 off?
+
+104
+00:02:01,549 --> 00:02:02,500
+Do you want a $50 bill?
+
+105
+00:02:02,530 --> 00:02:04,340
+That sounds a lot better.
+
+106
+00:02:04,370 --> 00:02:05,579
+So make sure you test those,
+
+107
+00:02:05,609 --> 00:02:07,459
+but that's just a way to start.
+
+108
+00:02:07,480 --> 00:02:09,099
+A mystery discount is a great way
+
+109
+00:02:09,099 --> 00:02:09,599
+as well.
+
+110
+00:02:09,710 --> 00:02:10,520
+Say no matter what,
+
+111
+00:02:10,550 --> 00:02:12,000
+you want to give somebody 10% off,
+
+112
+00:02:12,110 --> 00:02:12,960
+you could just frame it as a
+
+113
+00:02:12,960 --> 00:02:13,560
+mystery discount
+
+114
+00:02:13,629 --> 00:02:15,060
+and then be like, open your email
+
+115
+00:02:15,090 --> 00:02:15,919
+for your mystery discount.
+
+116
+00:02:15,949 --> 00:02:16,879
+That can work well.
+
+117
+00:02:16,909 --> 00:02:18,520
+You could do a free X with like
+
+118
+00:02:18,520 --> 00:02:19,400
+your order.
+
+119
+00:02:19,430 --> 00:02:21,020
+So get a free pair of socks with
+
+120
+00:02:21,020 --> 00:02:22,240
+an order of pants,
+
+121
+00:02:22,270 --> 00:02:23,319
+something like that.
+
+122
+00:02:23,409 --> 00:02:24,159
+You could do free shipping.
+
+123
+00:02:24,189 --> 00:02:25,469
+You could do like a giveaway
+
+124
+00:02:25,479 --> 00:02:26,000
+entry.
+
+125
+00:02:26,030 --> 00:02:27,460
+Like every month you do a giveaway
+
+126
+00:02:27,460 --> 00:02:28,860
+for Cybertruck.
+
+127
+00:02:28,889 --> 00:02:30,139
+It doesn't need to be that crazy.
+
+128
+00:02:30,169 --> 00:02:31,439
+You can do a giveaway, sign up for
+
+129
+00:02:31,439 --> 00:02:32,060
+a giveaway.
+
+130
+00:02:32,090 --> 00:02:33,379
+You can do a free guide,
+
+131
+00:02:33,409 --> 00:02:35,509
+like how to do XYZ in X amount of
+
+132
+00:02:35,520 --> 00:02:35,939
+days,
+
+133
+00:02:35,969 --> 00:02:37,409
+or you could do like early access.
+
+134
+00:02:37,449 --> 00:02:38,349
+That's something that you could
+
+135
+00:02:38,349 --> 00:02:38,439
+do.
+
+136
+00:02:38,469 --> 00:02:39,270
+If you don't want to offer any
+
+137
+00:02:39,270 --> 00:02:39,680
+discount,
+
+138
+00:02:39,710 --> 00:02:41,129
+you could just say, hey, sign up
+
+139
+00:02:41,129 --> 00:02:41,699
+to our email list
+
+140
+00:02:41,729 --> 00:02:43,120
+for like early access on all this
+
+141
+00:02:43,120 --> 00:02:43,419
+stuff
+
+142
+00:02:43,449 --> 00:02:44,090
+or something.
+
+143
+00:02:44,129 --> 00:02:44,960
+You just want to make sure that
+
+144
+00:02:44,960 --> 00:02:45,500
+it's enticing
+
+145
+00:02:45,530 --> 00:02:47,099
+because typically sign up to our
+
+146
+00:02:47,099 --> 00:02:47,629
+newsletter
+
+147
+00:02:47,750 --> 00:02:49,879
+for free tips and content.
+
+148
+00:02:49,909 --> 00:02:51,219
+That's not really enticing enough.
+
+149
+00:02:51,250 --> 00:02:52,280
+So you really want to make it,
+
+150
+00:02:52,310 --> 00:02:53,199
+you want to make sure there's a
+
+151
+00:02:53,199 --> 00:02:53,919
+value prop in there.
+
+152
+00:02:53,949 --> 00:02:55,800
+So make sure that you do that
+
+153
+00:02:55,819 --> 00:02:56,490
+if you're not doing a discount.
+
+154
+00:02:56,550 --> 00:02:58,240
+So now that you have your offer,
+
+155
+00:02:58,270 --> 00:02:59,719
+we want to choose what type of
+
+156
+00:02:59,840 --> 00:03:00,680
+form that we want.
+
+157
+00:03:00,710 --> 00:03:02,000
+So different forms are going to
+
+158
+00:03:02,020 --> 00:03:02,139
+have
+
+159
+00:03:02,169 --> 00:03:03,219
+different effectiveness based on
+
+160
+00:03:03,240 --> 00:03:03,840
+your audience.
+
+161
+00:03:03,870 --> 00:03:05,520
+Depends on like how the form loads
+
+162
+00:03:05,550 --> 00:03:06,300
+and all that good stuff.
+
+163
+00:03:06,330 --> 00:03:07,490
+It's important to give all of
+
+164
+00:03:07,490 --> 00:03:08,229
+these forms a shot
+
+165
+00:03:08,289 --> 00:03:09,719
+and see what resonates best
+
+166
+00:03:09,750 --> 00:03:10,979
+because truly you don't know.
+
+167
+00:03:11,639 --> 00:03:12,539
+It doesn't matter what you think.
+
+168
+00:03:12,569 --> 00:03:13,960
+What matters is the numbers.
+
+169
+00:03:13,990 --> 00:03:14,770
+What do the numbers say?
+
+170
+00:03:14,810 --> 00:03:15,860
+So start with one and then test
+
+171
+00:03:15,860 --> 00:03:16,199
+from there.
+
+172
+00:03:16,229 --> 00:03:17,280
+Your best bet is going to be the
+
+173
+00:03:17,340 --> 00:03:17,680
+classic
+
+174
+00:03:17,750 --> 00:03:18,409
+or the micro commit.
+
+175
+00:03:18,469 --> 00:03:19,520
+So here's what the classic looks
+
+176
+00:03:19,599 --> 00:03:19,919
+like.
+
+177
+00:03:19,990 --> 00:03:21,400
+It's literally just a simple,
+
+178
+00:03:21,430 --> 00:03:23,300
+hey, take this off your order
+
+179
+00:03:23,330 --> 00:03:24,039
+or whatever it is
+
+180
+00:03:24,069 --> 00:03:25,039
+and then they enter their email
+
+181
+00:03:25,069 --> 00:03:26,120
+and then you're good to go.
+
+182
+00:03:26,169 --> 00:03:27,400
+Then you also have the micro
+
+183
+00:03:27,400 --> 00:03:27,800
+commit,
+
+184
+00:03:27,830 --> 00:03:29,199
+which is just an extra step
+
+185
+00:03:29,229 --> 00:03:31,330
+before the enter your email.
+
+186
+00:03:31,389 --> 00:03:32,280
+So the micro commit,
+
+187
+00:03:32,310 --> 00:03:33,580
+just before the email,
+
+188
+00:03:33,610 --> 00:03:34,659
+you say, do you want this
+
+189
+00:03:34,750 --> 00:03:35,240
+discount?
+
+190
+00:03:35,270 --> 00:03:36,719
+And this works really well.
+
+191
+00:03:36,860 --> 00:03:37,860
+A lot of times this performs
+
+192
+00:03:37,860 --> 00:03:38,979
+better on mobile
+
+193
+00:03:39,030 --> 00:03:40,020
+for some reason.
+
+194
+00:03:40,050 --> 00:03:41,379
+It's just the commitment bias.
+
+195
+00:03:41,409 --> 00:03:42,360
+That is the reason.
+
+196
+00:03:42,389 --> 00:03:43,800
+It's a psychology trick,
+
+197
+00:03:43,830 --> 00:03:45,740
+which essentially this seems
+
+198
+00:03:45,759 --> 00:03:46,949
+a very low barrier to entry for
+
+199
+00:03:46,949 --> 00:03:47,219
+somebody.
+
+200
+00:03:47,330 --> 00:03:48,039
+It's just 10% off.
+
+201
+00:03:48,069 --> 00:03:49,080
+Yeah, I want 10% off.
+
+202
+00:03:49,110 --> 00:03:49,770
+So they click it
+
+203
+00:03:49,830 --> 00:03:51,219
+and then they've already committed
+
+204
+00:03:51,229 --> 00:03:51,840
+something.
+
+205
+00:03:51,870 --> 00:03:52,919
+So they're already like down the
+
+206
+00:03:52,939 --> 00:03:53,240
+funnel.
+
+207
+00:03:53,259 --> 00:03:53,590
+So they're like,
+
+208
+00:03:53,620 --> 00:03:54,680
+I might as well just enter my
+
+209
+00:03:54,680 --> 00:03:55,080
+email.
+
+210
+00:03:55,129 --> 00:03:56,840
+So that works a lot better.
+
+211
+00:03:56,870 --> 00:03:58,099
+In some cases,
+
+212
+00:03:58,129 --> 00:03:59,000
+depends on the audience.
+
+213
+00:03:59,030 --> 00:04:00,759
+You have the quiz here.
+
+214
+00:04:00,909 --> 00:04:01,759
+So you could be,
+
+215
+00:04:01,789 --> 00:04:02,979
+you could gamify it a little bit.
+
+216
+00:04:03,009 --> 00:04:03,330
+So you say,
+
+217
+00:04:03,409 --> 00:04:04,729
+hey, you've got this discount.
+
+218
+00:04:04,770 --> 00:04:06,020
+You just have to tell us this.
+
+219
+00:04:06,050 --> 00:04:07,099
+And then it really,
+
+220
+00:04:07,210 --> 00:04:08,650
+it's the same sort of thing.
+
+221
+00:04:08,689 --> 00:04:09,219
+They don't know
+
+222
+00:04:09,250 --> 00:04:09,990
+that they have to enter their
+
+223
+00:04:09,990 --> 00:04:10,199
+email
+
+224
+00:04:10,229 --> 00:04:11,030
+and they're much more likely to
+
+225
+00:04:11,030 --> 00:04:11,539
+enter it here.
+
+226
+00:04:11,569 --> 00:04:12,460
+Then also it feels like
+
+227
+00:04:12,490 --> 00:04:13,419
+they earned their discount.
+
+228
+00:04:13,439 --> 00:04:14,110
+It's like, oh, okay,
+
+229
+00:04:14,139 --> 00:04:15,159
+I gave them this information
+
+230
+00:04:15,180 --> 00:04:16,120
+in exchange for this discount.
+
+231
+00:04:16,139 --> 00:04:17,120
+I'll claim my discount
+
+232
+00:04:17,149 --> 00:04:17,779
+because I earned it.
+
+233
+00:04:17,810 --> 00:04:19,240
+So that works really well.
+
+234
+00:04:19,269 --> 00:04:20,310
+And you also get information
+
+235
+00:04:20,470 --> 00:04:21,480
+about the customer this way,
+
+236
+00:04:21,509 --> 00:04:22,420
+which is very, very good.
+
+237
+00:04:22,449 --> 00:04:24,180
+You also have the spin to win,
+
+238
+00:04:24,209 --> 00:04:24,870
+which is only available
+
+239
+00:04:24,930 --> 00:04:25,899
+on some platforms.
+
+240
+00:04:25,930 --> 00:04:26,899
+Just spin to win,
+
+241
+00:04:26,930 --> 00:04:27,939
+get this discount.
+
+242
+00:04:27,970 --> 00:04:29,019
+In most cases,
+
+243
+00:04:29,689 --> 00:04:30,279
+in all cases,
+
+244
+00:04:30,310 --> 00:04:31,519
+you just have it land
+
+245
+00:04:31,550 --> 00:04:33,000
+on like whatever the discount is.
+
+246
+00:04:33,069 --> 00:04:34,389
+Make it the highest offer though.
+
+247
+00:04:34,430 --> 00:04:35,480
+So spin to win,
+
+248
+00:04:35,529 --> 00:04:36,240
+win this,
+
+249
+00:04:36,269 --> 00:04:36,879
+congrats,
+
+250
+00:04:36,910 --> 00:04:37,230
+you won it,
+
+251
+00:04:37,329 --> 00:04:38,379
+enter your email to claim it.
+
+252
+00:04:38,410 --> 00:04:39,449
+Then you also have something
+
+253
+00:04:39,589 --> 00:04:40,639
+like the uncover your discount
+
+254
+00:04:40,709 --> 00:04:41,470
+where it's a little bit more
+
+255
+00:04:41,480 --> 00:04:41,920
+gamified.
+
+256
+00:04:41,949 --> 00:04:43,199
+This isn't going to work
+
+257
+00:04:43,230 --> 00:04:43,870
+for all brands
+
+258
+00:04:43,910 --> 00:04:44,759
+in terms of like branding,
+
+259
+00:04:44,790 --> 00:04:46,149
+but just like choose this
+
+260
+00:04:46,149 --> 00:04:46,519
+discount,
+
+261
+00:04:46,550 --> 00:04:47,180
+uncover your,
+
+262
+00:04:47,209 --> 00:04:48,639
+or choose a box,
+
+263
+00:04:48,670 --> 00:04:49,680
+uncover your discount
+
+264
+00:04:49,709 --> 00:04:51,379
+and it's a lot more engaging
+
+265
+00:04:51,410 --> 00:04:51,899
+for somebody.
+
+266
+00:04:51,930 --> 00:04:53,139
+So those are the different
+
+267
+00:04:53,139 --> 00:04:53,720
+options.
+
+268
+00:04:53,750 --> 00:04:54,069
+Typically,
+
+269
+00:04:54,149 --> 00:04:54,959
+you're going to go
+
+270
+00:04:54,990 --> 00:04:56,300
+with like one of these two
+
+271
+00:04:56,370 --> 00:04:58,120
+in 90% of cases,
+
+272
+00:04:58,149 --> 00:04:58,920
+that's just what you're going to
+
+273
+00:04:58,930 --> 00:04:59,139
+do.
+
+274
+00:04:59,689 --> 00:05:00,009
+Three,
+
+275
+00:05:00,050 --> 00:05:01,339
+we need to create your form
+
+276
+00:05:01,430 --> 00:05:02,379
+in Klaviyo or Amped.
+
+277
+00:05:02,399 --> 00:05:02,879
+Klaviyo and Amped
+
+278
+00:05:02,910 --> 00:05:04,829
+are different pop-ups platforms.
+
+279
+00:05:04,870 --> 00:05:05,800
+So Klaviyo is just,
+
+280
+00:05:05,829 --> 00:05:06,759
+hopefully you're using that
+
+281
+00:05:06,790 --> 00:05:07,540
+for your email marketing.
+
+282
+00:05:07,569 --> 00:05:09,160
+And then Amped
+
+283
+00:05:09,189 --> 00:05:10,300
+is a separate pop-up platform,
+
+284
+00:05:10,329 --> 00:05:11,379
+which is a different,
+
+285
+00:05:11,410 --> 00:05:13,310
+it's a separate cost for you,
+
+286
+00:05:13,350 --> 00:05:14,399
+but it's really,
+
+287
+00:05:14,470 --> 00:05:14,790
+really good.
+
+288
+00:05:14,829 --> 00:05:16,110
+I love Amped.
+
+289
+00:05:16,149 --> 00:05:17,860
+We see a lot better results
+
+290
+00:05:17,889 --> 00:05:19,079
+on Amped for our clients
+
+291
+00:05:19,110 --> 00:05:20,160
+and so I would highly recommend
+
+292
+00:05:20,250 --> 00:05:20,420
+it,
+
+293
+00:05:20,769 --> 00:05:21,819
+but it is an extra cost.
+
+294
+00:05:21,970 --> 00:05:23,779
+The ROI is like worth it always.
+
+295
+00:05:23,810 --> 00:05:25,379
+If you have a 10% form on Klaviyo,
+
+296
+00:05:25,399 --> 00:05:26,459
+a lot of times you can get it
+
+297
+00:05:26,550 --> 00:05:27,600
+to like 15% on Amped.
+
+298
+00:05:27,670 --> 00:05:29,720
+So tutorials will be provided
+
+299
+00:05:29,750 --> 00:05:30,800
+in a future module.
+
+300
+00:05:30,850 --> 00:05:32,300
+Four, you want to run your form
+
+301
+00:05:32,370 --> 00:05:33,639
+through this winning checklist
+
+302
+00:05:33,670 --> 00:05:35,339
+in terms of how it is laid out.
+
+303
+00:05:35,370 --> 00:05:36,420
+We only want to ask
+
+304
+00:05:36,509 --> 00:05:37,800
+for one input per step,
+
+305
+00:05:37,829 --> 00:05:38,800
+so we don't want to ask
+
+306
+00:05:38,829 --> 00:05:39,759
+what's your email,
+
+307
+00:05:39,790 --> 00:05:40,699
+what's your phone number,
+
+308
+00:05:40,730 --> 00:05:42,819
+what is your birth certificate,
+
+309
+00:05:42,839 --> 00:05:43,399
+I don't know.
+
+310
+00:05:43,430 --> 00:05:44,819
+You don't want to ask anything
+
+311
+00:05:44,850 --> 00:05:45,800
+besides just one thing.
+
+312
+00:05:45,910 --> 00:05:47,199
+If you want to get multiple things
+
+313
+00:05:47,250 --> 00:05:48,300
+like email and phone number,
+
+314
+00:05:48,370 --> 00:05:49,639
+ask for email first
+
+315
+00:05:49,670 --> 00:05:50,709
+and then phone number
+
+316
+00:05:50,829 --> 00:05:51,560
+in the next step.
+
+317
+00:05:51,589 --> 00:05:53,220
+So that's going to drastically
+
+318
+00:05:53,250 --> 00:05:54,160
+improve your conversions
+
+319
+00:05:54,189 --> 00:05:55,040
+because if somebody sees
+
+320
+00:05:55,069 --> 00:05:55,720
+so many inputs,
+
+321
+00:05:55,750 --> 00:05:56,500
+they're just going to X out.
+
+322
+00:05:56,529 --> 00:05:56,759
+They're like,
+
+323
+00:05:56,779 --> 00:05:57,519
+I don't want to do all that.
+
+324
+00:05:57,550 --> 00:05:58,990
+If you do it one by one,
+
+325
+00:05:59,029 --> 00:06:00,720
+you at least get some information.
+
+326
+00:06:00,750 --> 00:06:02,579
+So we also want to make sure
+
+327
+00:06:02,610 --> 00:06:04,319
+the time delay is 4 to 12 seconds
+
+328
+00:06:04,350 --> 00:06:05,060
+because we don't want
+
+329
+00:06:05,089 --> 00:06:05,839
+to fire it right away.
+
+330
+00:06:05,870 --> 00:06:06,459
+It's going to hurt
+
+331
+00:06:06,490 --> 00:06:07,240
+the customer experience.
+
+332
+00:06:07,259 --> 00:06:08,220
+We want to give it a little delay.
+
+333
+00:06:08,250 --> 00:06:10,339
+We also want the form
+
+334
+00:06:10,370 --> 00:06:11,240
+to load instantly
+
+335
+00:06:11,269 --> 00:06:12,480
+after the delay.
+
+336
+00:06:12,509 --> 00:06:13,500
+So say it's four seconds,
+
+337
+00:06:13,529 --> 00:06:14,100
+we want the form
+
+338
+00:06:14,129 --> 00:06:15,170
+to just pop up instantly
+
+339
+00:06:15,269 --> 00:06:16,519
+and not like load in.
+
+340
+00:06:16,550 --> 00:06:18,000
+Usually that's going to happen
+
+341
+00:06:18,089 --> 00:06:19,519
+like if your image files
+
+342
+00:06:19,569 --> 00:06:20,160
+are too big
+
+343
+00:06:20,189 --> 00:06:21,319
+so you'd want to compress it.
+
+344
+00:06:21,350 --> 00:06:22,220
+So you want to make sure
+
+345
+00:06:22,250 --> 00:06:23,279
+that it loads instantly
+
+346
+00:06:23,310 --> 00:06:23,959
+with no lag.
+
+347
+00:06:23,990 --> 00:06:24,860
+We want our form
+
+348
+00:06:24,889 --> 00:06:26,120
+to cover at least 75%
+
+349
+00:06:26,149 --> 00:06:26,639
+of the screen.
+
+350
+00:06:26,670 --> 00:06:27,420
+The bigger the form,
+
+351
+00:06:27,449 --> 00:06:28,500
+typically the better it performs.
+
+352
+00:06:28,610 --> 00:06:29,660
+We want it to have
+
+353
+00:06:29,689 --> 00:06:30,740
+under 10 words of copy.
+
+354
+00:06:30,790 --> 00:06:32,189
+Don't try to give somebody
+
+355
+00:06:32,220 --> 00:06:32,990
+a ton of information.
+
+356
+00:06:33,029 --> 00:06:34,000
+Just trust me.
+
+357
+00:06:34,029 --> 00:06:35,300
+You can test it yourself.
+
+358
+00:06:35,329 --> 00:06:36,370
+Put a bunch of information
+
+359
+00:06:36,490 --> 00:06:37,680
+on what somebody gets
+
+360
+00:06:37,709 --> 00:06:38,370
+in the email list
+
+361
+00:06:38,430 --> 00:06:39,060
+and then just have one
+
+362
+00:06:39,089 --> 00:06:39,560
+where it's just like,
+
+363
+00:06:39,589 --> 00:06:40,660
+you're 10% off.
+
+364
+00:06:40,689 --> 00:06:43,079
+And I can almost promise you
+
+365
+00:06:43,100 --> 00:06:43,839
+it's going to perform better.
+
+366
+00:06:44,370 --> 00:06:45,000
+We want to make sure
+
+367
+00:06:45,029 --> 00:06:45,920
+the offer is the largest
+
+368
+00:06:45,949 --> 00:06:47,000
+aspect of the form
+
+369
+00:06:47,050 --> 00:06:49,360
+so that like 10% off
+
+370
+00:06:49,389 --> 00:06:50,259
+isn't a small part of it.
+
+371
+00:06:50,290 --> 00:06:50,949
+We literally want it
+
+372
+00:06:50,990 --> 00:06:52,019
+to be 10% off
+
+373
+00:06:52,050 --> 00:06:52,810
+so somebody literally
+
+374
+00:06:52,850 --> 00:06:53,509
+can't miss it
+
+375
+00:06:53,550 --> 00:06:55,180
+so that even a blind person
+
+376
+00:06:55,209 --> 00:06:55,699
+could see it.
+
+377
+00:06:55,730 --> 00:06:56,680
+And then also,
+
+378
+00:06:56,709 --> 00:06:57,939
+this is a bonus,
+
+379
+00:06:57,970 --> 00:06:59,660
+but there's no X button,
+
+380
+00:06:59,689 --> 00:07:00,399
+but rather like a
+
+381
+00:07:00,430 --> 00:07:01,240
+closed form button
+
+382
+00:07:01,269 --> 00:07:02,319
+underneath the submit button.
+
+383
+00:07:02,449 --> 00:07:03,089
+So rather than putting
+
+384
+00:07:03,129 --> 00:07:03,600
+like an X
+
+385
+00:07:03,629 --> 00:07:04,360
+in the top right corner
+
+386
+00:07:04,389 --> 00:07:04,920
+of your pop-up,
+
+387
+00:07:04,949 --> 00:07:06,329
+everybody's conditioned
+
+388
+00:07:06,370 --> 00:07:06,939
+at this point
+
+389
+00:07:06,970 --> 00:07:08,220
+to just right when
+
+390
+00:07:08,250 --> 00:07:08,839
+they see a pop-up,
+
+391
+00:07:08,870 --> 00:07:09,600
+they just go to the top
+
+392
+00:07:09,629 --> 00:07:10,389
+right corner and click it
+
+393
+00:07:10,430 --> 00:07:11,069
+without even looking.
+
+394
+00:07:11,649 --> 00:07:13,939
+So if we can put the X
+
+395
+00:07:13,970 --> 00:07:14,680
+somewhere else
+
+396
+00:07:14,709 --> 00:07:16,139
+or just have a closed form button
+
+397
+00:07:16,170 --> 00:07:17,459
+underneath like the submit button,
+
+398
+00:07:17,509 --> 00:07:18,220
+it forces somebody
+
+399
+00:07:18,250 --> 00:07:18,959
+to look at the offer
+
+400
+00:07:18,990 --> 00:07:19,980
+and then close from there.
+
+401
+00:07:20,009 --> 00:07:21,459
+So highly recommend doing that.
+
+402
+00:07:21,490 --> 00:07:22,459
+Then five,
+
+403
+00:07:22,490 --> 00:07:23,120
+we want to set up
+
+404
+00:07:23,149 --> 00:07:24,139
+our A-B test.
+
+405
+00:07:24,170 --> 00:07:25,139
+So no form's going to be
+
+406
+00:07:25,170 --> 00:07:26,019
+perfect on the first go.
+
+407
+00:07:26,050 --> 00:07:27,339
+You must be setting up tests
+
+408
+00:07:27,389 --> 00:07:28,430
+at least weekly
+
+409
+00:07:28,470 --> 00:07:29,779
+to slowly inch up your form.
+
+410
+00:07:30,310 --> 00:07:32,279
+So just to really help you
+
+411
+00:07:32,310 --> 00:07:33,180
+understand this,
+
+412
+00:07:33,209 --> 00:07:34,490
+for every 1% increase
+
+413
+00:07:34,550 --> 00:07:35,019
+in conversions
+
+414
+00:07:35,050 --> 00:07:35,879
+that you're able to get,
+
+415
+00:07:35,910 --> 00:07:36,670
+which is very easy
+
+416
+00:07:36,709 --> 00:07:37,370
+on pop-up forms,
+
+417
+00:07:37,410 --> 00:07:38,540
+on 10,000 visitors,
+
+418
+00:07:38,569 --> 00:07:40,019
+that's an extra 100 subscribers.
+
+419
+00:07:40,110 --> 00:07:41,480
+Imagine 100 people
+
+420
+00:07:41,509 --> 00:07:42,160
+standing in a line.
+
+421
+00:07:42,189 --> 00:07:43,230
+Literally just from
+
+422
+00:07:43,300 --> 00:07:44,139
+a little A-B test,
+
+423
+00:07:44,170 --> 00:07:45,000
+that is what you can get.
+
+424
+00:07:45,029 --> 00:07:45,810
+So make sure that you're
+
+425
+00:07:45,850 --> 00:07:46,899
+setting up your A-B tests.
+
+426
+00:07:46,930 --> 00:07:49,399
+And these are the top 7 A-B tests
+
+427
+00:07:49,430 --> 00:07:50,259
+that you should be running
+
+428
+00:07:50,290 --> 00:07:50,720
+on your form.
+
+429
+00:07:50,750 --> 00:07:51,959
+We have the offer,
+
+430
+00:07:51,990 --> 00:07:53,360
+highest level that you can test,
+
+431
+00:07:53,389 --> 00:07:54,420
+try the different offers
+
+432
+00:07:54,449 --> 00:07:55,860
+outlined above that I showed,
+
+433
+00:07:55,889 --> 00:07:57,680
+and even try doing
+
+434
+00:07:57,709 --> 00:07:58,420
+the mystery offer,
+
+435
+00:07:58,649 --> 00:08:00,569
+even if you want to give $10 off,
+
+436
+00:08:00,610 --> 00:08:01,920
+have your pop-up be,
+
+437
+00:08:01,949 --> 00:08:03,379
+hey, sign up and get
+
+438
+00:08:03,480 --> 00:08:04,129
+a mystery offer.
+
+439
+00:08:04,170 --> 00:08:05,420
+Sometimes that can perform better.
+
+440
+00:08:05,449 --> 00:08:06,639
+Two, we want to test
+
+441
+00:08:06,670 --> 00:08:07,439
+different form types,
+
+442
+00:08:07,470 --> 00:08:08,740
+so it's another very large lever,
+
+443
+00:08:08,769 --> 00:08:10,000
+so try the different form types
+
+444
+00:08:10,029 --> 00:08:10,600
+that I went over.
+
+445
+00:08:10,629 --> 00:08:11,459
+Try micro commit,
+
+446
+00:08:11,490 --> 00:08:12,100
+try regular,
+
+447
+00:08:12,129 --> 00:08:13,000
+try doing a quiz,
+
+448
+00:08:13,029 --> 00:08:14,079
+try doing a spin to win.
+
+449
+00:08:14,230 --> 00:08:15,860
+You can even test out things
+
+450
+00:08:15,889 --> 00:08:16,740
+like doing a pop-up
+
+451
+00:08:16,769 --> 00:08:18,050
+versus like a full page
+
+452
+00:08:18,089 --> 00:08:19,990
+versus like a fly-out,
+
+453
+00:08:20,029 --> 00:08:20,839
+which are all settings
+
+454
+00:08:20,870 --> 00:08:21,620
+inside of Klaviyo.
+
+455
+00:08:21,649 --> 00:08:23,740
+Three, our closed form
+
+456
+00:08:23,740 --> 00:08:24,329
+functionality,
+
+457
+00:08:24,370 --> 00:08:26,100
+so try using the closed form
+
+458
+00:08:26,100 --> 00:08:26,379
+button
+
+459
+00:08:26,410 --> 00:08:27,459
+versus the X in the corner,
+
+460
+00:08:27,529 --> 00:08:28,540
+see if that performs better,
+
+461
+00:08:28,649 --> 00:08:29,660
+try an X in the other corner.
+
+462
+00:08:29,689 --> 00:08:31,339
+Try saying closed form,
+
+463
+00:08:31,370 --> 00:08:32,740
+try saying no thanks,
+
+464
+00:08:32,759 --> 00:08:33,639
+I don't want this discount.
+
+465
+00:08:33,668 --> 00:08:35,120
+That's something that you can do.
+
+466
+00:08:35,210 --> 00:08:36,500
+Time delay,
+
+467
+00:08:36,570 --> 00:08:38,240
+so we want to make sure,
+
+468
+00:08:38,269 --> 00:08:39,320
+so you can do four seconds
+
+469
+00:08:39,370 --> 00:08:40,029
+versus 12 seconds,
+
+470
+00:08:40,090 --> 00:08:40,980
+we just want to make sure
+
+471
+00:08:41,009 --> 00:08:41,820
+that we're maximizing
+
+472
+00:08:41,850 --> 00:08:42,580
+and choosing the winner
+
+473
+00:08:42,610 --> 00:08:43,600
+based on the total number
+
+474
+00:08:43,629 --> 00:08:44,080
+of submits,
+
+475
+00:08:44,110 --> 00:08:45,559
+because, for example,
+
+476
+00:08:45,649 --> 00:08:48,700
+if you have a 60-second delay
+
+477
+00:08:48,730 --> 00:08:50,000
+on your pop-up form
+
+478
+00:08:50,029 --> 00:08:50,620
+and you're running that
+
+479
+00:08:50,649 --> 00:08:51,679
+versus like a four-second delay,
+
+480
+00:08:51,710 --> 00:08:53,080
+usually if somebody's been
+
+481
+00:08:53,110 --> 00:08:54,159
+on your site for 60 seconds,
+
+482
+00:08:54,210 --> 00:08:55,019
+they're going to take a discount,
+
+483
+00:08:55,259 --> 00:08:55,590
+so you might have
+
+484
+00:08:55,700 --> 00:08:56,759
+a really high conversion rate
+
+485
+00:08:56,830 --> 00:08:57,490
+on that pop-up.
+
+486
+00:08:57,549 --> 00:08:58,379
+Somebody's been looking
+
+487
+00:08:58,409 --> 00:08:59,190
+at your website for a while
+
+488
+00:08:59,230 --> 00:09:00,519
+and so maybe you have
+
+489
+00:09:00,610 --> 00:09:02,529
+like a 10% conversion rate
+
+490
+00:09:02,570 --> 00:09:03,730
+on a 60-second delay.
+
+491
+00:09:03,769 --> 00:09:04,980
+The problem with that
+
+492
+00:09:05,009 --> 00:09:05,559
+is how many people
+
+493
+00:09:05,590 --> 00:09:06,919
+are on your site for 60 seconds?
+
+494
+00:09:06,970 --> 00:09:08,139
+Not a lot,
+
+495
+00:09:08,169 --> 00:09:09,220
+versus compared to
+
+496
+00:09:09,269 --> 00:09:09,740
+like how many people
+
+497
+00:09:09,769 --> 00:09:10,200
+are on your site
+
+498
+00:09:10,230 --> 00:09:11,279
+for four seconds.
+
+499
+00:09:11,850 --> 00:09:12,879
+So maybe you have
+
+500
+00:09:12,899 --> 00:09:14,139
+a 5% converting form
+
+501
+00:09:14,169 --> 00:09:14,899
+at four seconds
+
+502
+00:09:14,929 --> 00:09:17,029
+and a 10% converting form
+
+503
+00:09:17,169 --> 00:09:19,679
+at 60 seconds,
+
+504
+00:09:19,710 --> 00:09:20,960
+but the total submits
+
+505
+00:09:20,990 --> 00:09:21,500
+is going to go
+
+506
+00:09:21,529 --> 00:09:22,190
+to the four-second
+
+507
+00:09:22,230 --> 00:09:23,279
+because a lot more people
+
+508
+00:09:23,429 --> 00:09:23,940
+are seeing it
+
+509
+00:09:23,970 --> 00:09:24,820
+and so I'd rather have
+
+510
+00:09:24,850 --> 00:09:27,490
+5% of 10,000
+
+511
+00:09:27,529 --> 00:09:30,139
+rather than 10% of 1,000.
+
+512
+00:09:30,169 --> 00:09:31,210
+So make sure
+
+513
+00:09:31,289 --> 00:09:31,899
+that you're looking at that.
+
+514
+00:09:31,929 --> 00:09:33,179
+Five, you can test
+
+515
+00:09:33,210 --> 00:09:33,850
+different photos
+
+516
+00:09:33,889 --> 00:09:34,700
+and photo content,
+
+517
+00:09:34,730 --> 00:09:35,620
+kind of like the design
+
+518
+00:09:35,649 --> 00:09:37,080
+overall look of your pop-up.
+
+519
+00:09:38,029 --> 00:09:38,759
+You should test
+
+520
+00:09:38,789 --> 00:09:39,700
+the placement of your photos
+
+521
+00:09:39,730 --> 00:09:41,820
+also, either like in the form
+
+522
+00:09:41,850 --> 00:09:42,759
+or like as the backdrop
+
+523
+00:09:42,789 --> 00:09:43,740
+so test photo content.
+
+524
+00:09:43,769 --> 00:09:44,809
+You can test the copy
+
+525
+00:09:44,909 --> 00:09:46,139
+so you can try
+
+526
+00:09:46,169 --> 00:09:47,200
+unlock my offer
+
+527
+00:09:47,230 --> 00:09:48,620
+versus unlock this offer,
+
+528
+00:09:48,649 --> 00:09:49,480
+claim this offer
+
+529
+00:09:49,509 --> 00:09:50,419
+and then colors.
+
+530
+00:09:50,450 --> 00:09:51,299
+Not a massive lever
+
+531
+00:09:51,330 --> 00:09:52,340
+but it can make a difference.
+
+532
+00:09:52,370 --> 00:09:53,340
+Typically the less colors
+
+533
+00:09:53,370 --> 00:09:54,029
+you have the better.
+
+534
+00:09:54,090 --> 00:09:54,960
+Try different shades,
+
+535
+00:09:54,990 --> 00:09:55,480
+try white,
+
+536
+00:09:55,509 --> 00:09:56,039
+try black,
+
+537
+00:09:56,070 --> 00:09:56,779
+try different colors
+
+538
+00:09:56,809 --> 00:09:57,799
+and these are all
+
+539
+00:09:57,830 --> 00:09:58,840
+in order from
+
+540
+00:09:58,870 --> 00:09:59,799
+highest effectiveness,
+
+541
+00:09:59,830 --> 00:10:00,740
+highest levers
+
+542
+00:10:00,769 --> 00:10:01,960
+to lowest levers.
+
+543
+00:10:01,990 --> 00:10:02,860
+So make sure
+
+544
+00:10:02,889 --> 00:10:03,700
+that you test these out
+
+545
+00:10:03,730 --> 00:10:05,000
+and then you can have
+
+546
+00:10:05,029 --> 00:10:05,820
+some great form.
+
+547
+00:10:05,850 --> 00:10:07,139
+So that is the fifth step
+
+548
+00:10:07,190 --> 00:10:07,440
+is to test

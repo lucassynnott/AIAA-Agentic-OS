@@ -1,0 +1,599 @@
+1
+00:00:00,960 --> 00:00:02,200
+What's up guys, Lucas here.
+
+2
+00:00:02,319 --> 00:00:03,649
+So I'm going to be running you
+
+3
+00:00:03,649 --> 00:00:06,459
+through the Static Ad Generator
+
+4
+00:00:06,459 --> 00:00:07,219
+workflow.
+
+5
+00:00:07,259 --> 00:00:09,400
+So essentially what this one looks
+
+6
+00:00:09,400 --> 00:00:11,470
+like is we have, as usual, a form
+
+7
+00:00:11,560 --> 00:00:12,179
+input.
+
+8
+00:00:12,220 --> 00:00:13,859
+In here we put the client's
+
+9
+00:00:13,859 --> 00:00:15,480
+business name, service
+
+10
+00:00:15,480 --> 00:00:17,850
+description, the website, target
+
+11
+00:00:17,850 --> 00:00:19,410
+audience, key benefits, brand
+
+12
+00:00:19,410 --> 00:00:20,960
+style, primary brand colors.
+
+13
+00:00:21,000 --> 00:00:22,469
+They can do, you can actually do
+
+14
+00:00:22,469 --> 00:00:23,760
+like the hex codes for this or
+
+15
+00:00:23,870 --> 00:00:25,320
+just like the actual names of the
+
+16
+00:00:25,320 --> 00:00:25,920
+colors.
+
+17
+00:00:26,260 --> 00:00:28,449
+Returning client, yes or no.
+
+18
+00:00:28,710 --> 00:00:31,239
+And then we send that information
+
+19
+00:00:31,239 --> 00:00:33,429
+to an AI agent that creates ad
+
+20
+00:00:33,429 --> 00:00:34,539
+concepts.
+
+21
+00:00:34,600 --> 00:00:36,070
+So you can see here, we put the
+
+22
+00:00:36,070 --> 00:00:37,979
+information from the business, put
+
+23
+00:00:37,979 --> 00:00:39,719
+their website in here, their
+
+24
+00:00:39,820 --> 00:00:41,399
+target audience, all the
+
+25
+00:00:41,429 --> 00:00:42,659
+information we got from the form.
+
+26
+00:00:42,700 --> 00:00:44,799
+And we have given this agent
+
+27
+00:00:44,799 --> 00:00:47,469
+specifically access to SERP API,
+
+28
+00:00:47,570 --> 00:00:50,079
+which as we talked about before in
+
+29
+00:00:50,090 --> 00:00:51,539
+a previous one,
+
+30
+00:00:51,579 --> 00:00:54,619
+we go to SERP API.com is Google
+
+31
+00:00:54,619 --> 00:00:56,079
+search API.
+
+32
+00:00:56,119 --> 00:00:58,810
+So you register there and then add
+
+33
+00:00:58,810 --> 00:01:01,429
+your API key there and we're good
+
+34
+00:01:01,429 --> 00:01:02,259
+to go.
+
+35
+00:01:02,299 --> 00:01:04,079
+Then we split those prompts for
+
+36
+00:01:04,079 --> 00:01:05,060
+processing.
+
+37
+00:01:05,099 --> 00:01:06,799
+So we'll get out a basic JSON with
+
+38
+00:01:06,799 --> 00:01:08,620
+a ton of information in here about
+
+39
+00:01:08,620 --> 00:01:10,359
+all the different prompts.
+
+40
+00:01:10,400 --> 00:01:11,599
+And if you go to here, you can see
+
+41
+00:01:11,689 --> 00:01:11,879
+it.
+
+42
+00:01:11,920 --> 00:01:13,390
+These are all three different
+
+43
+00:01:13,390 --> 00:01:15,140
+prompts and the information we've
+
+44
+00:01:15,140 --> 00:01:16,420
+got from the AI agent.
+
+45
+00:01:16,760 --> 00:01:18,459
+So over here, we split these out.
+
+46
+00:01:18,500 --> 00:01:19,379
+As you can see, there's three
+
+47
+00:01:19,379 --> 00:01:19,730
+items.
+
+48
+00:01:19,780 --> 00:01:20,959
+What we've got for each of them,
+
+49
+00:01:21,049 --> 00:01:21,959
+we'll have the psychology
+
+50
+00:01:22,230 --> 00:01:23,049
+framework, the headline,
+
+51
+00:01:23,060 --> 00:01:24,450
+subheadline, body copy, CTA, all
+
+52
+00:01:24,510 --> 00:01:25,340
+that stuff there.
+
+53
+00:01:25,420 --> 00:01:26,849
+We aggregate that and then we send
+
+54
+00:01:26,849 --> 00:01:28,150
+it to, we want to create three
+
+55
+00:01:28,150 --> 00:01:29,069
+different ads.
+
+56
+00:01:29,120 --> 00:01:30,390
+So we just have three different
+
+57
+00:01:30,439 --> 00:01:31,719
+ones here that I'll create.
+
+58
+00:01:31,760 --> 00:01:33,950
+This one creates from JSON image
+
+59
+00:01:34,209 --> 00:01:35,219
+prompt zero.
+
+60
+00:01:35,799 --> 00:01:37,150
+Then this one creates one from
+
+61
+00:01:37,150 --> 00:01:38,500
+image prompt one and this one
+
+62
+00:01:38,500 --> 00:01:40,010
+creates from image prompt two,
+
+63
+00:01:40,010 --> 00:01:41,359
+just to make variations.
+
+64
+00:01:41,439 --> 00:01:42,629
+So if you look here, I've actually
+
+65
+00:01:42,760 --> 00:01:43,599
+done this one already.
+
+66
+00:01:43,640 --> 00:01:45,760
+And you see if the output, if you
+
+67
+00:01:45,760 --> 00:01:47,680
+go to the binary node and go to
+
+68
+00:01:47,680 --> 00:01:49,680
+view, here is what we see.
+
+69
+00:01:49,719 --> 00:01:51,209
+So this is what the ad we've
+
+70
+00:01:51,250 --> 00:01:53,370
+created for my company Innovative.
+
+71
+00:01:54,299 --> 00:01:56,049
+And then we run through the usual
+
+72
+00:01:56,060 --> 00:01:57,780
+final setup, check, are they
+
+73
+00:01:57,780 --> 00:01:59,079
+returning client?
+
+74
+00:01:59,120 --> 00:02:00,230
+This information comes from the
+
+75
+00:02:00,230 --> 00:02:01,159
+form at the beginning.
+
+76
+00:02:01,200 --> 00:02:02,579
+You'll have selected yes or no.
+
+77
+00:02:02,620 --> 00:02:03,730
+And then we search the client
+
+78
+00:02:03,939 --> 00:02:05,120
+folder, upload to Google Drive,
+
+79
+00:02:05,120 --> 00:02:06,340
+not create the client folder,
+
+80
+00:02:06,489 --> 00:02:07,620
+upload to Google Drive.
+
+81
+00:02:07,659 --> 00:02:09,849
+And then success response.
+
+82
+00:02:10,379 --> 00:02:12,319
+And then we can throw at the end a
+
+83
+00:02:12,400 --> 00:02:14,580
+Slack message or, you know, we can
+
+84
+00:02:14,680 --> 00:02:16,729
+just have that set to create that
+
+85
+00:02:16,729 --> 00:02:18,750
+and put that in the Google Drive
+
+86
+00:02:18,750 --> 00:02:19,659
+for us.
+
+87
+00:02:19,699 --> 00:02:21,090
+So that's what we're looking at
+
+88
+00:02:21,090 --> 00:02:22,860
+there for the static ad generator.
+
+89
+00:02:22,900 --> 00:02:24,719
+This is obviously super useful if
+
+90
+00:02:24,719 --> 00:02:26,520
+you are making ads for clients at
+
+91
+00:02:26,520 --> 00:02:28,449
+scale, if you're running funnels
+
+92
+00:02:28,449 --> 00:02:29,909
+for them, if you want to just
+
+93
+00:02:29,909 --> 00:02:31,300
+create a bunch of ad concepts.
+
+94
+00:02:31,340 --> 00:02:32,500
+You can do a few different things.
+
+95
+00:02:32,539 --> 00:02:34,669
+Like, for instance, in here, you
+
+96
+00:02:34,669 --> 00:02:36,650
+can change the resolution of the
+
+97
+00:02:36,650 --> 00:02:37,539
+ad itself.
+
+98
+00:02:37,580 --> 00:02:39,020
+So you can do kind of horizontal
+
+99
+00:02:39,020 --> 00:02:40,280
+or vertical or square.
+
+100
+00:02:40,319 --> 00:02:43,000
+We're using the GPT Image 1 model
+
+101
+00:02:43,000 --> 00:02:43,969
+for this.
+
+102
+00:02:44,060 --> 00:02:45,060
+So far, this does seem to be the
+
+103
+00:02:45,060 --> 00:02:45,520
+best one.
+
+104
+00:02:45,560 --> 00:02:46,979
+It may be a case that the new
+
+105
+00:02:46,979 --> 00:02:48,539
+Google Nano Banana might be
+
+106
+00:02:48,539 --> 00:02:49,210
+better.
+
+107
+00:02:49,259 --> 00:02:50,919
+But for now, GPT Image 1 is kind
+
+108
+00:02:50,919 --> 00:02:52,639
+of best of following, you know,
+
+109
+00:02:52,639 --> 00:02:54,560
+prompted variants, it seems, with
+
+110
+00:02:54,560 --> 00:02:56,180
+text and things like that.
+
+111
+00:02:56,219 --> 00:02:57,150
+So it's probably what we're going
+
+112
+00:02:57,150 --> 00:02:57,879
+to stick with for now.
+
+113
+00:02:59,000 --> 00:03:00,840
+But, yeah, super useful one for
+
+114
+00:03:00,879 --> 00:03:02,650
+just making ads, static ads at
+
+115
+00:03:02,870 --> 00:03:03,199
+scale.
+
+116
+00:03:03,340 --> 00:03:04,520
+As you can see, this is a much
+
+117
+00:03:04,669 --> 00:03:05,759
+shorter flow than some of the
+
+118
+00:03:05,789 --> 00:03:07,250
+other ones we've done because it's
+
+119
+00:03:07,250 --> 00:03:08,460
+a very simple process.
+
+120
+00:03:08,520 --> 00:03:10,620
+But this is pretty much ready to
+
+121
+00:03:10,620 --> 00:03:12,860
+go and should get you some really
+
+122
+00:03:12,860 --> 00:03:15,009
+good results for your first few
+
+123
+00:03:15,009 --> 00:03:16,110
+static ads.
+
+124
+00:03:16,159 --> 00:03:17,960
+And you can always modify, you
+
+125
+00:03:17,960 --> 00:03:19,810
+know, kind of the prompt and kind
+
+126
+00:03:20,030 --> 00:03:22,080
+of what you're looking for by just
+
+127
+00:03:22,080 --> 00:03:24,159
+messing around with the, you know,
+
+128
+00:03:24,199 --> 00:03:26,199
+information we have here in the AI
+
+129
+00:03:26,199 --> 00:03:26,819
+agent.
+
+130
+00:03:26,860 --> 00:03:28,240
+All this is pretty detailed as it
+
+131
+00:03:28,240 --> 00:03:29,039
+currently is.
+
+132
+00:03:29,080 --> 00:03:31,180
+But feel free to, you know, modify
+
+133
+00:03:31,180 --> 00:03:33,090
+this and see if you can, maybe if
+
+134
+00:03:33,090 --> 00:03:34,639
+you want to change up how it
+
+135
+00:03:34,680 --> 00:03:36,500
+operates or what it does or kind
+
+136
+00:03:36,500 --> 00:03:38,360
+of the type of ads you're looking
+
+137
+00:03:38,430 --> 00:03:39,080
+for.
+
+138
+00:03:39,120 --> 00:03:40,050
+But a lot of that should be
+
+139
+00:03:40,120 --> 00:03:41,050
+affected by simply just the
+
+140
+00:03:41,139 --> 00:03:42,430
+different things like the target
+
+141
+00:03:42,439 --> 00:03:43,740
+audience, the brand style, the
+
+142
+00:03:43,740 --> 00:03:45,139
+primary brand colors, things like
+
+143
+00:03:45,139 --> 00:03:45,599
+that.
+
+144
+00:03:45,639 --> 00:03:47,810
+So, yeah, that's the static ad
+
+145
+00:03:47,810 --> 00:03:48,879
+generator.
+
+146
+00:03:48,919 --> 00:03:50,460
+And let me know if you have any
+
+147
+00:03:50,460 --> 00:03:51,080
+issues.
+
+148
+00:03:51,120 --> 00:03:51,909
+And I will see you guys in the
+
+149
+00:03:51,919 --> 00:03:52,300
+next one.
+
+150
+00:03:52,419 --> 00:03:52,800
+Peace.

@@ -1,0 +1,3163 @@
+1
+00:00:00,960 --> 00:00:02,169
+Okay, so before we really get into
+
+2
+00:00:02,169 --> 00:00:03,779
+what makes good copy, you're
+
+3
+00:00:03,799 --> 00:00:04,940
+probably already writing copy,
+
+4
+00:00:05,000 --> 00:00:06,139
+and you could be making these
+
+5
+00:00:06,139 --> 00:00:06,719
+mistakes.
+
+6
+00:00:06,719 --> 00:00:08,179
+So I want to first talk about what
+
+7
+00:00:08,240 --> 00:00:09,400
+to avoid in your copy
+
+8
+00:00:09,460 --> 00:00:11,250
+so that we can be clear on what we
+
+9
+00:00:11,250 --> 00:00:12,169
+need to have.
+
+10
+00:00:12,179 --> 00:00:14,179
+Sometimes it can be better to just
+
+11
+00:00:14,179 --> 00:00:15,000
+go over what
+
+12
+00:00:15,060 --> 00:00:16,640
+not to do, and that tells you what
+
+13
+00:00:16,730 --> 00:00:17,109
+to do.
+
+14
+00:00:17,109 --> 00:00:18,750
+So let's talk about what to avoid
+
+15
+00:00:18,750 --> 00:00:19,629
+in your copy.
+
+16
+00:00:19,660 --> 00:00:20,199
+So as we
+
+17
+00:00:20,260 --> 00:00:22,390
+went over, 2024, 2025 customer is
+
+18
+00:00:22,390 --> 00:00:23,440
+different than the past.
+
+19
+00:00:23,500 --> 00:00:24,829
+Their attention spans are shorter
+
+20
+00:00:24,829 --> 00:00:25,160
+than
+
+21
+00:00:25,219 --> 00:00:25,679
+ever.
+
+22
+00:00:25,679 --> 00:00:27,980
+We really need to understand that.
+
+23
+00:00:28,000 --> 00:00:29,589
+If you look at tracking on
+
+24
+00:00:29,589 --> 00:00:31,300
+websites and on ads and whatnot,
+
+25
+00:00:31,359 --> 00:00:32,560
+it just keeps on shrinking.
+
+26
+00:00:32,560 --> 00:00:33,969
+The average watch time just keeps
+
+27
+00:00:33,969 --> 00:00:34,670
+on going down.
+
+28
+00:00:34,670 --> 00:00:35,929
+Same thing applies to
+
+29
+00:00:36,000 --> 00:00:36,509
+emails.
+
+30
+00:00:36,509 --> 00:00:38,189
+So we need to understand that.
+
+31
+00:00:38,189 --> 00:00:39,929
+Our time, we're on the clock with
+
+32
+00:00:39,929 --> 00:00:41,200
+having people's attention.
+
+33
+00:00:41,259 --> 00:00:42,560
+So we really need to make the most
+
+34
+00:00:42,560 --> 00:00:42,850
+of it.
+
+35
+00:00:42,929 --> 00:00:44,100
+So we need to make sure that we
+
+36
+00:00:44,240 --> 00:00:45,179
+are avoiding this.
+
+37
+00:00:45,179 --> 00:00:45,520
+So
+
+38
+00:00:45,579 --> 00:00:47,140
+first thing to avoid, unnecessary
+
+39
+00:00:47,140 --> 00:00:47,899
+information.
+
+40
+00:00:47,899 --> 00:00:49,429
+You always hear it, copy, keep it
+
+41
+00:00:49,429 --> 00:00:50,460
+nice and concise.
+
+42
+00:00:51,500 --> 00:00:53,079
+We really, really, really, really
+
+43
+00:00:53,170 --> 00:00:54,340
+need to live up to that with our
+
+44
+00:00:54,479 --> 00:00:54,899
+emails.
+
+45
+00:00:54,899 --> 00:00:55,960
+A lot of the copy that I
+
+46
+00:00:56,020 --> 00:00:57,770
+see in emails is literally just
+
+47
+00:00:57,770 --> 00:00:58,320
+fluff.
+
+48
+00:00:58,320 --> 00:00:59,700
+That is unnecessary.
+
+49
+00:00:59,700 --> 00:01:00,630
+Unnecessary.
+
+50
+00:01:00,640 --> 00:01:02,119
+For example, when somebody
+
+51
+00:01:02,179 --> 00:01:03,759
+joins a newsletter, they know that
+
+52
+00:01:03,850 --> 00:01:05,329
+when they join, they enter their
+
+53
+00:01:05,329 --> 00:01:06,939
+email for like a discount, they
+
+54
+00:01:06,989 --> 00:01:07,140
+know
+
+55
+00:01:07,200 --> 00:01:08,340
+they're going to get like
+
+56
+00:01:08,340 --> 00:01:10,000
+exclusive access, sneak peeks,
+
+57
+00:01:10,000 --> 00:01:11,769
+insights, community, and they kind
+
+58
+00:01:11,819 --> 00:01:12,420
+of know that
+
+59
+00:01:12,480 --> 00:01:14,379
+those are fluff words and you kind
+
+60
+00:01:14,379 --> 00:01:15,780
+of just like say that.
+
+61
+00:01:15,780 --> 00:01:17,799
+So there's no need to waste space
+
+62
+00:01:17,799 --> 00:01:18,840
+talking about
+
+63
+00:01:18,900 --> 00:01:19,519
+that.
+
+64
+00:01:19,659 --> 00:01:21,739
+Because every, every extra
+
+65
+00:01:21,879 --> 00:01:24,579
+sentence that you add increases
+
+66
+00:01:24,579 --> 00:01:26,500
+the barrier of entry for a
+
+67
+00:01:26,500 --> 00:01:27,019
+customer to like
+
+68
+00:01:27,079 --> 00:01:28,280
+read that and they get more scared
+
+69
+00:01:28,299 --> 00:01:29,659
+with the more words somebody sees,
+
+70
+00:01:29,659 --> 00:01:30,829
+the more scared they get and the
+
+71
+00:01:30,920 --> 00:01:30,980
+more
+
+72
+00:01:31,040 --> 00:01:32,390
+likely they are to leave.
+
+73
+00:01:32,390 --> 00:01:33,760
+And so we really just want to
+
+74
+00:01:33,799 --> 00:01:35,120
+focus our time on useful
+
+75
+00:01:35,120 --> 00:01:36,920
+information that can be used by
+
+76
+00:01:36,980 --> 00:01:38,480
+the customer, such as your brand
+
+77
+00:01:38,480 --> 00:01:40,159
+unique selling propositions, your
+
+78
+00:01:40,219 --> 00:01:41,439
+social proof, all that.
+
+79
+00:01:41,439 --> 00:01:42,920
+A lot of the
+
+80
+00:01:42,980 --> 00:01:44,819
+branded stuff that you might want
+
+81
+00:01:44,819 --> 00:01:46,719
+to include, a lot of the exclusive
+
+82
+00:01:46,819 --> 00:01:48,379
+access stuff that you want to
+
+83
+00:01:48,379 --> 00:01:48,609
+include
+
+84
+00:01:48,680 --> 00:01:50,209
+just isn't necessary and you
+
+85
+00:01:50,209 --> 00:01:51,340
+shouldn't use it.
+
+86
+00:01:51,340 --> 00:01:52,780
+I always find that it hurts
+
+87
+00:01:52,780 --> 00:01:54,200
+conversions to include
+
+88
+00:01:54,260 --> 00:01:54,640
+that stuff.
+
+89
+00:01:54,640 --> 00:01:55,680
+So every sentence that you're
+
+90
+00:01:55,719 --> 00:01:56,980
+adding, literally every sentence
+
+91
+00:01:56,989 --> 00:01:57,950
+that you're adding to your
+
+92
+00:01:58,019 --> 00:02:00,150
+copy, just ask yourself, does this
+
+93
+00:02:00,180 --> 00:02:01,909
+push the customer closer to a
+
+94
+00:02:01,909 --> 00:02:02,400
+sale?
+
+95
+00:02:02,400 --> 00:02:03,959
+That's all you need to know.
+
+96
+00:02:04,019 --> 00:02:05,519
+So like look at this example.
+
+97
+00:02:05,519 --> 00:02:07,079
+This whole section is complete
+
+98
+00:02:07,079 --> 00:02:08,000
+wasted space.
+
+99
+00:02:08,000 --> 00:02:08,900
+At this brand,
+
+100
+00:02:09,038 --> 00:02:10,038
+we're all about elevating your
+
+101
+00:02:10,150 --> 00:02:11,110
+driving experience one mod at a
+
+102
+00:02:11,110 --> 00:02:11,389
+time.
+
+103
+00:02:11,389 --> 00:02:12,759
+As a subscriber, you're now part
+
+104
+00:02:12,819 --> 00:02:13,849
+of an exclusive community of car
+
+105
+00:02:13,930 --> 00:02:14,419
+enthusiasts.
+
+106
+00:02:14,490 --> 00:02:15,770
+We appreciate style, performance,
+
+107
+00:02:15,800 --> 00:02:16,379
+and quality.
+
+108
+00:02:16,379 --> 00:02:16,569
+Here's
+
+109
+00:02:16,719 --> 00:02:17,780
+what you can look forward to.
+
+110
+00:02:17,830 --> 00:02:19,289
+Exclusive offers, expert insights,
+
+111
+00:02:19,289 --> 00:02:20,840
+products, sneak peeks, yada yada.
+
+112
+00:02:20,840 --> 00:02:21,289
+To kick
+
+113
+00:02:21,379 --> 00:02:22,189
+things off, here's a 10% off
+
+114
+00:02:22,379 --> 00:02:22,539
+discount.
+
+115
+00:02:22,539 --> 00:02:23,259
+This is all the person cares
+
+116
+00:02:23,259 --> 00:02:23,639
+about.
+
+117
+00:02:23,639 --> 00:02:26,110
+All of this stuff is just
+
+118
+00:02:26,199 --> 00:02:27,919
+masking and hiding the discount
+
+119
+00:02:27,919 --> 00:02:29,039
+code that they want.
+
+120
+00:02:29,180 --> 00:02:31,129
+The discount code, which was right
+
+121
+00:02:31,129 --> 00:02:31,740
+under.
+
+122
+00:02:31,800 --> 00:02:33,150
+That's, you could delete all this
+
+123
+00:02:33,150 --> 00:02:34,509
+and just say, welcome to this.
+
+124
+00:02:34,520 --> 00:02:35,810
+We're excited to have you.
+
+125
+00:02:35,810 --> 00:02:36,099
+To kick
+
+126
+00:02:36,159 --> 00:02:37,430
+things off, here's 10% off.
+
+127
+00:02:37,430 --> 00:02:38,490
+That's going to convert a lot
+
+128
+00:02:38,490 --> 00:02:38,870
+better.
+
+129
+00:02:38,889 --> 00:02:39,560
+I guarantee it.
+
+130
+00:02:39,560 --> 00:02:40,439
+All this stuff is just
+
+131
+00:02:40,500 --> 00:02:40,919
+fluff.
+
+132
+00:02:40,919 --> 00:02:42,060
+Don't need all of it.
+
+133
+00:02:42,060 --> 00:02:43,490
+People are just there for the
+
+134
+00:02:43,500 --> 00:02:44,159
+discount.
+
+135
+00:02:44,159 --> 00:02:44,819
+I'm sorry.
+
+136
+00:02:44,819 --> 00:02:46,020
+People don't care as much
+
+137
+00:02:46,080 --> 00:02:46,469
+about you.
+
+138
+00:02:46,469 --> 00:02:47,400
+They care more about their
+
+139
+00:02:47,400 --> 00:02:47,810
+wallets.
+
+140
+00:02:47,810 --> 00:02:48,889
+And so that's just what they're
+
+141
+00:02:48,889 --> 00:02:49,340
+doing.
+
+142
+00:02:49,340 --> 00:02:50,240
+So that's just
+
+143
+00:02:50,300 --> 00:02:51,680
+completely unnecessary.
+
+144
+00:02:51,699 --> 00:02:52,909
+And then another one.
+
+145
+00:02:52,909 --> 00:02:54,419
+So I tie in design and copy very
+
+146
+00:02:54,419 --> 00:02:55,030
+closely.
+
+147
+00:02:55,030 --> 00:02:55,639
+I think they
+
+148
+00:02:55,699 --> 00:02:56,729
+should be hand in hand.
+
+149
+00:02:56,810 --> 00:02:58,219
+And we're going to talk about that
+
+150
+00:02:58,219 --> 00:02:58,539
+close.
+
+151
+00:02:58,680 --> 00:03:00,080
+We're going to talk about that
+
+152
+00:03:00,139 --> 00:03:00,930
+in the future.
+
+153
+00:03:00,930 --> 00:03:02,490
+But another thing on top of like
+
+154
+00:03:02,509 --> 00:03:04,479
+unnecessary information, maybe you
+
+155
+00:03:04,479 --> 00:03:05,039
+have good
+
+156
+00:03:05,099 --> 00:03:07,000
+information, but you can't have
+
+157
+00:03:07,000 --> 00:03:08,539
+too much in your emails.
+
+158
+00:03:08,539 --> 00:03:10,219
+Too much copy just increases
+
+159
+00:03:10,219 --> 00:03:10,860
+churn.
+
+160
+00:03:10,860 --> 00:03:11,460
+Even
+
+161
+00:03:11,520 --> 00:03:13,479
+if you have the helpful info, just
+
+162
+00:03:13,479 --> 00:03:15,139
+nobody's going to read it.
+
+163
+00:03:15,139 --> 00:03:17,039
+The shorter your copy is, the more
+
+164
+00:03:17,039 --> 00:03:17,300
+likely
+
+165
+00:03:17,360 --> 00:03:18,729
+someone will actually take the
+
+166
+00:03:18,729 --> 00:03:19,550
+time to read it.
+
+167
+00:03:19,550 --> 00:03:20,530
+This is an example.
+
+168
+00:03:20,599 --> 00:03:21,599
+This copy is actually
+
+169
+00:03:21,659 --> 00:03:22,689
+good copy.
+
+170
+00:03:22,770 --> 00:03:24,479
+It's talking about like what
+
+171
+00:03:24,479 --> 00:03:26,780
+everybody, what they changed about
+
+172
+00:03:26,840 --> 00:03:28,180
+like these new bars or
+
+173
+00:03:28,240 --> 00:03:28,669
+whatever.
+
+174
+00:03:28,669 --> 00:03:29,830
+It's not letting me zoom in, but
+
+175
+00:03:29,909 --> 00:03:30,819
+it's talking about it.
+
+176
+00:03:30,819 --> 00:03:32,219
+You can, this doc will be attached
+
+177
+00:03:32,280 --> 00:03:33,659
+for you and so you can read it.
+
+178
+00:03:33,689 --> 00:03:35,120
+It's a great copy, but nobody's
+
+179
+00:03:35,259 --> 00:03:35,909
+reading it.
+
+180
+00:03:35,909 --> 00:03:37,180
+If they just did like this
+
+181
+00:03:37,240 --> 00:03:38,270
+line and this line, then people
+
+182
+00:03:38,349 --> 00:03:38,819
+would read it.
+
+183
+00:03:38,909 --> 00:03:39,879
+But when somebody sees all this
+
+184
+00:03:39,879 --> 00:03:40,659
+copy, they're just going to
+
+185
+00:03:40,719 --> 00:03:41,650
+skip over it, go down here.
+
+186
+00:03:41,830 --> 00:03:44,960
+These little icons did 10x more
+
+187
+00:03:44,960 --> 00:03:47,009
+the effectiveness and readability
+
+188
+00:03:47,039 --> 00:03:47,539
+for someone.
+
+189
+00:03:47,599 --> 00:03:48,960
+It's just these icons.
+
+190
+00:03:48,960 --> 00:03:50,740
+People prefer that sort of stuff.
+
+191
+00:03:50,740 --> 00:03:51,349
+And that's what we're going to
+
+192
+00:03:51,439 --> 00:03:52,340
+talk about and what we need to be
+
+193
+00:03:52,400 --> 00:03:53,129
+doing with our copy.
+
+194
+00:03:53,139 --> 00:03:54,879
+We can't just list blocks and we
+
+195
+00:03:54,879 --> 00:03:56,780
+can't have information too long.
+
+196
+00:03:56,780 --> 00:03:57,960
+People aren't going to read that.
+
+197
+00:03:58,020 --> 00:03:58,750
+They're going to see that and get
+
+198
+00:03:58,750 --> 00:03:59,030
+scared.
+
+199
+00:03:59,129 --> 00:04:02,719
+Another thing is too many points.
+
+200
+00:04:02,719 --> 00:04:04,259
+So the customer is very,
+
+201
+00:04:04,319 --> 00:04:05,659
+very, very, very, very easy to get
+
+202
+00:04:05,659 --> 00:04:06,360
+overwhelmed.
+
+203
+00:04:06,360 --> 00:04:08,319
+So if you try to give your
+
+204
+00:04:08,319 --> 00:04:09,409
+customer five different
+
+205
+00:04:09,479 --> 00:04:10,889
+takeaways, like we are the best,
+
+206
+00:04:10,939 --> 00:04:12,319
+we have this, we also do this, and
+
+207
+00:04:12,460 --> 00:04:13,840
+you can also get this, and you can
+
+208
+00:04:13,900 --> 00:04:15,310
+also get this, they're not going
+
+209
+00:04:15,319 --> 00:04:16,480
+to remember any of them.
+
+210
+00:04:16,480 --> 00:04:18,180
+Each takeaway would get 20% of
+
+211
+00:04:18,180 --> 00:04:18,300
+their
+
+212
+00:04:18,360 --> 00:04:19,110
+attention.
+
+213
+00:04:19,110 --> 00:04:21,449
+If you split 100% divided by five,
+
+214
+00:04:21,449 --> 00:04:22,100
+20%.
+
+215
+00:04:22,199 --> 00:04:23,860
+Whereas if you try to just point
+
+216
+00:04:23,860 --> 00:04:24,579
+on one thing,
+
+217
+00:04:24,639 --> 00:04:26,139
+such as our product does this
+
+218
+00:04:26,139 --> 00:04:28,240
+specific benefit, in one takeaway,
+
+219
+00:04:28,240 --> 00:04:29,959
+much more likely that they're
+
+220
+00:04:29,959 --> 00:04:30,060
+going
+
+221
+00:04:30,120 --> 00:04:31,660
+to be able to remember it because
+
+222
+00:04:31,660 --> 00:04:33,709
+that's 100% of their attention.
+
+223
+00:04:33,709 --> 00:04:35,540
+This below example is great in
+
+224
+00:04:35,540 --> 00:04:35,819
+terms
+
+225
+00:04:35,879 --> 00:04:37,259
+of like talking about benefits for
+
+226
+00:04:37,300 --> 00:04:38,720
+the customer, but there are just
+
+227
+00:04:38,720 --> 00:04:40,100
+too many benefits to the point
+
+228
+00:04:40,160 --> 00:04:41,439
+that the customer isn't really
+
+229
+00:04:41,439 --> 00:04:42,829
+going to take any of them away.
+
+230
+00:04:42,829 --> 00:04:44,319
+It seems kind of productive to
+
+231
+00:04:44,319 --> 00:04:44,459
+leave
+
+232
+00:04:44,519 --> 00:04:45,930
+out benefits, but we found it
+
+233
+00:04:45,980 --> 00:04:47,879
+immensely to increase conversions.
+
+234
+00:04:47,879 --> 00:04:49,560
+Like right here, they're talking,
+
+235
+00:04:49,560 --> 00:04:49,740
+so
+
+236
+00:04:49,800 --> 00:04:50,839
+they're talking about the meter
+
+237
+00:04:50,910 --> 00:04:51,930
+block right here, and they're
+
+238
+00:04:51,949 --> 00:04:53,339
+saying perfect results, no strings
+
+239
+00:04:53,399 --> 00:04:54,629
+attached, durable construction.
+
+240
+00:04:54,639 --> 00:04:55,629
+It has a cook estimator, cook
+
+241
+00:04:55,629 --> 00:04:57,329
+graphs, cooking alerts, multi view
+
+242
+00:04:57,339 --> 00:04:57,839
+cook, all
+
+243
+00:04:57,899 --> 00:04:58,560
+this stuff.
+
+244
+00:04:58,560 --> 00:05:00,079
+We kind of just want to focus on
+
+245
+00:05:00,079 --> 00:05:01,639
+one and then meter two plus meter
+
+246
+00:05:01,740 --> 00:05:02,879
+and then meter block.
+
+247
+00:05:02,939 --> 00:05:04,519
+Like this is all way too much that
+
+248
+00:05:04,610 --> 00:05:06,120
+all this information is on the
+
+249
+00:05:06,180 --> 00:05:07,000
+landing page.
+
+250
+00:05:07,000 --> 00:05:07,910
+We want to get people
+
+251
+00:05:07,980 --> 00:05:08,589
+to click.
+
+252
+00:05:08,589 --> 00:05:10,329
+So we want to tease some stuff,
+
+253
+00:05:10,329 --> 00:05:12,220
+give them one of the benefits such
+
+254
+00:05:12,220 --> 00:05:13,819
+as you have, you get
+
+255
+00:05:13,879 --> 00:05:16,000
+perfect results because you remove
+
+256
+00:05:16,000 --> 00:05:17,730
+guest work, because you're
+
+257
+00:05:17,730 --> 00:05:19,220
+tracking like on your phone,
+
+258
+00:05:19,279 --> 00:05:20,120
+whatever it may be.
+
+259
+00:05:20,279 --> 00:05:21,509
+Then you could have one that's all
+
+260
+00:05:21,509 --> 00:05:22,819
+about no strings attached.
+
+261
+00:05:22,819 --> 00:05:23,560
+There are no strings.
+
+262
+00:05:23,620 --> 00:05:24,649
+It's all mobile and wireless so
+
+263
+00:05:24,730 --> 00:05:25,829
+that you can take it anywhere.
+
+264
+00:05:25,829 --> 00:05:27,240
+This could be split into like six
+
+265
+00:05:27,300 --> 00:05:28,680
+different emails and it would just
+
+266
+00:05:28,759 --> 00:05:30,139
+be way better for the customer to
+
+267
+00:05:30,279 --> 00:05:31,240
+take everything in.
+
+268
+00:05:31,240 --> 00:05:32,600
+So that's kind
+
+269
+00:05:32,660 --> 00:05:33,889
+of the philosophy there.
+
+270
+00:05:33,899 --> 00:05:35,639
+And then also boring.
+
+271
+00:05:35,649 --> 00:05:38,189
+Avoid being boring in your copy.
+
+272
+00:05:38,189 --> 00:05:39,350
+No one wants to buy
+
+273
+00:05:39,420 --> 00:05:40,310
+from a lame brand.
+
+274
+00:05:40,420 --> 00:05:41,850
+They want to buy from brands they
+
+275
+00:05:41,860 --> 00:05:42,259
+like.
+
+276
+00:05:42,399 --> 00:05:44,100
+So that seems obvious.
+
+277
+00:05:44,100 --> 00:05:44,939
+If a copy is lame
+
+278
+00:05:45,000 --> 00:05:46,350
+and they're not, you're not giving
+
+279
+00:05:46,350 --> 00:05:47,720
+them dopamine, they're not going
+
+280
+00:05:47,730 --> 00:05:48,470
+to come back.
+
+281
+00:05:48,509 --> 00:05:49,339
+And so include
+
+282
+00:05:49,399 --> 00:05:51,699
+powerful words, include puns and
+
+283
+00:05:51,699 --> 00:05:54,149
+cute humor and then information.
+
+284
+00:05:54,149 --> 00:05:56,139
+Also, if you can give valuable
+
+285
+00:05:56,220 --> 00:05:57,949
+information, then people will
+
+286
+00:05:57,949 --> 00:05:58,740
+enjoy that.
+
+287
+00:05:58,740 --> 00:05:59,959
+People like to learn.
+
+288
+00:06:00,060 --> 00:06:01,769
+People like to see that sort of
+
+289
+00:06:01,829 --> 00:06:02,100
+stuff.
+
+290
+00:06:02,160 --> 00:06:03,220
+And so this is an example of just
+
+291
+00:06:03,269 --> 00:06:03,750
+lame copy.
+
+292
+00:06:03,829 --> 00:06:05,019
+Maximum coverage and comfort in a
+
+293
+00:06:05,139 --> 00:06:05,620
+lightweight
+
+294
+00:06:05,680 --> 00:06:08,060
+performance fabric that blocks UV
+
+295
+00:06:08,079 --> 00:06:10,009
+rays and dries in a flash.
+
+296
+00:06:10,009 --> 00:06:11,230
+Like, come on.
+
+297
+00:06:11,290 --> 00:06:12,519
+We can make that better.
+
+298
+00:06:12,579 --> 00:06:13,959
+The finest con tees on earth.
+
+299
+00:06:13,959 --> 00:06:15,569
+Cool comfort for trail and town.
+
+300
+00:06:15,579 --> 00:06:18,720
+Like, it's not the end of the
+
+301
+00:06:18,720 --> 00:06:19,160
+world,
+
+302
+00:06:19,620 --> 00:06:20,750
+but you just get higher on
+
+303
+00:06:20,750 --> 00:06:22,050
+subscribes when you're not
+
+304
+00:06:22,060 --> 00:06:23,720
+entertaining people rather than
+
+305
+00:06:23,720 --> 00:06:24,120
+like,
+
+306
+00:06:24,180 --> 00:06:27,870
+um, rather than like sun's out,
+
+307
+00:06:27,879 --> 00:06:30,120
+sun's out, surf screen.
+
+308
+00:06:30,120 --> 00:06:30,970
+I don't know.
+
+309
+00:06:30,970 --> 00:06:32,300
+So something that can be a
+
+310
+00:06:32,360 --> 00:06:33,060
+little bit more fun.
+
+311
+00:06:33,060 --> 00:06:34,259
+Just put, put it in a chat.gbt and
+
+312
+00:06:34,259 --> 00:06:35,180
+say, make this more fun.
+
+313
+00:06:35,180 --> 00:06:35,959
+And that'll give you
+
+314
+00:06:36,019 --> 00:06:36,860
+everything that you need.
+
+315
+00:06:36,860 --> 00:06:37,839
+You can't be lame, uh, with the
+
+316
+00:06:37,839 --> 00:06:38,430
+customer today.
+
+317
+00:06:38,439 --> 00:06:39,490
+They need to be entertained.
+
+318
+00:06:39,560 --> 00:06:41,360
+And then lastly, no value for the
+
+319
+00:06:41,360 --> 00:06:42,089
+customer.
+
+320
+00:06:42,089 --> 00:06:43,750
+You want to avoid providing no
+
+321
+00:06:43,750 --> 00:06:44,319
+value.
+
+322
+00:06:44,370 --> 00:06:45,420
+You need to provide
+
+323
+00:06:45,480 --> 00:06:46,839
+value in some way, whatever it is
+
+324
+00:06:46,839 --> 00:06:48,050
+for the customer, such as an
+
+325
+00:06:48,050 --> 00:06:49,779
+exclusive offer, some useful
+
+326
+00:06:49,779 --> 00:06:50,259
+information,
+
+327
+00:06:50,319 --> 00:06:51,379
+or an engaging story that
+
+328
+00:06:51,430 --> 00:06:52,319
+entertains them.
+
+329
+00:06:52,319 --> 00:06:53,660
+If you don't have a clear value
+
+330
+00:06:53,660 --> 00:06:54,439
+proposition,
+
+331
+00:06:54,500 --> 00:06:55,779
+value you can bring the customer,
+
+332
+00:06:55,779 --> 00:06:56,949
+you're going to fail to capture
+
+333
+00:06:56,959 --> 00:06:58,180
+and retain their interest.
+
+334
+00:06:58,180 --> 00:06:58,420
+So
+
+335
+00:06:58,480 --> 00:07:00,209
+the below copy doesn't explain the
+
+336
+00:07:00,209 --> 00:07:01,670
+value of having travel sized
+
+337
+00:07:01,720 --> 00:07:03,439
+products, which makes it very
+
+338
+00:07:03,439 --> 00:07:03,800
+unclear
+
+339
+00:07:03,860 --> 00:07:04,870
+and not effective.
+
+340
+00:07:04,879 --> 00:07:06,500
+It's just saying, elevate your
+
+341
+00:07:06,500 --> 00:07:08,389
+journey, indulge in, uh, Darfin's
+
+342
+00:07:08,410 --> 00:07:09,120
+travel bag,
+
+343
+00:07:09,180 --> 00:07:09,899
+skincare essentials.
+
+344
+00:07:09,899 --> 00:07:10,480
+Why?
+
+345
+00:07:10,480 --> 00:07:13,199
+Like that doesn't, that doesn't
+
+346
+00:07:13,199 --> 00:07:15,399
+tell me anything rather than
+
+347
+00:07:15,459 --> 00:07:18,439
+like, um, um, get, uh, airline
+
+348
+00:07:18,459 --> 00:07:19,589
+approved.
+
+349
+00:07:19,589 --> 00:07:22,589
+Never worry about never get your,
+
+350
+00:07:22,589 --> 00:07:24,759
+uh, never get your
+
+351
+00:07:24,819 --> 00:07:26,800
+skincare lotion confiscated at the
+
+352
+00:07:26,800 --> 00:07:28,949
+airline ever again, or what, what,
+
+353
+00:07:28,949 --> 00:07:30,540
+something along those lines
+
+354
+00:07:30,600 --> 00:07:31,600
+where it's talking about the
+
+355
+00:07:31,709 --> 00:07:32,980
+benefit, uh, take these on the go,
+
+356
+00:07:32,980 --> 00:07:34,259
+never have to worry about picking
+
+357
+00:07:34,259 --> 00:07:34,540
+up
+
+358
+00:07:34,600 --> 00:07:36,009
+whatever your skincare stuff at
+
+359
+00:07:36,019 --> 00:07:37,439
+the store on, on your vacation
+
+360
+00:07:37,439 --> 00:07:37,779
+spot.
+
+361
+00:07:37,839 --> 00:07:39,040
+That could be worded a lot
+
+362
+00:07:39,100 --> 00:07:40,360
+better, but you get the point.
+
+363
+00:07:40,360 --> 00:07:41,350
+Elevate your journey.
+
+364
+00:07:41,350 --> 00:07:42,819
+That isn't, that isn't telling me
+
+365
+00:07:42,819 --> 00:07:43,120
+anything.
+
+366
+00:07:43,379 --> 00:07:44,370
+indulge in our travel bag
+
+367
+00:07:44,490 --> 00:07:44,970
+essentials.
+
+368
+00:07:45,050 --> 00:07:46,470
+That isn't telling me anything.
+
+369
+00:07:46,470 --> 00:07:47,040
+I need to know
+
+370
+00:07:47,100 --> 00:07:49,110
+what is the benefit for me, such
+
+371
+00:07:49,110 --> 00:07:51,089
+as never, such as being able to
+
+372
+00:07:51,089 --> 00:07:54,699
+take this on the go, um, and not
+
+373
+00:07:54,759 --> 00:07:56,680
+get it confiscated.
+
+374
+00:07:56,689 --> 00:07:59,490
+So that's like the, that's like
+
+375
+00:07:59,490 --> 00:08:01,709
+the value that we need.
+
+376
+00:08:01,709 --> 00:08:03,379
+Um, so that I just
+
+377
+00:08:03,439 --> 00:08:05,790
+accidentally, um, clicked off, but
+
+378
+00:08:05,810 --> 00:08:06,279
+okay.
+
+379
+00:08:06,420 --> 00:08:08,180
+So that is what to avoid in your
+
+380
+00:08:08,180 --> 00:08:08,709
+copy.
+
+381
+00:08:08,709 --> 00:08:10,149
+You want to make sure that
+
+382
+00:08:10,220 --> 00:08:11,149
+you're giving value.
+
+383
+00:08:11,220 --> 00:08:12,560
+You have to avoid being boring.
+
+384
+00:08:12,560 --> 00:08:14,079
+You have to avoid too many points
+
+385
+00:08:14,079 --> 00:08:14,240
+and
+
+386
+00:08:14,300 --> 00:08:15,310
+sharing too many points.
+
+387
+00:08:15,310 --> 00:08:16,500
+You have to avoid being too long
+
+388
+00:08:16,500 --> 00:08:17,420
+with your messaging.
+
+389
+00:08:17,420 --> 00:08:18,250
+You need to avoid
+
+390
+00:08:18,319 --> 00:08:19,569
+unnecessary information.
+
+391
+00:08:19,569 --> 00:08:20,750
+So that is it for this one.
+
+392
+00:08:20,759 --> 00:08:22,259
+Now let's get into what we want to
+
+393
+00:08:22,259 --> 00:08:22,439
+do.
+
+394
+00:08:22,500 --> 00:08:22,870
+Okay.
+
+395
+00:08:22,870 --> 00:08:24,560
+So before we really get into what
+
+396
+00:08:24,560 --> 00:08:26,360
+makes good copy, you're probably
+
+397
+00:08:26,360 --> 00:08:27,579
+already writing copy
+
+398
+00:08:27,639 --> 00:08:28,810
+and you could be making these
+
+399
+00:08:28,810 --> 00:08:29,379
+mistakes.
+
+400
+00:08:29,379 --> 00:08:30,779
+So I want to first talk about what
+
+401
+00:08:30,779 --> 00:08:32,019
+to avoid in your copy
+
+402
+00:08:32,080 --> 00:08:34,000
+so that we can be clear on what we
+
+403
+00:08:34,000 --> 00:08:34,918
+need to have.
+
+404
+00:08:35,059 --> 00:08:37,000
+Sometimes it can be better to just
+
+405
+00:08:37,000 --> 00:08:38,399
+go over what not to do.
+
+406
+00:08:38,460 --> 00:08:39,840
+And that tells you what to do.
+
+407
+00:08:39,879 --> 00:08:41,298
+So let's talk about what to avoid
+
+408
+00:08:41,440 --> 00:08:42,320
+in your copy.
+
+409
+00:08:42,320 --> 00:08:43,200
+So as we went over
+
+410
+00:08:43,259 --> 00:08:45,450
+2024, 2025 customer is different
+
+411
+00:08:45,450 --> 00:08:46,100
+than the past.
+
+412
+00:08:46,240 --> 00:08:47,639
+Their attention spans shorter than
+
+413
+00:08:47,639 --> 00:08:48,029
+ever.
+
+414
+00:08:48,070 --> 00:08:48,779
+We really
+
+415
+00:08:48,840 --> 00:08:50,340
+need to understand that.
+
+416
+00:08:50,340 --> 00:08:51,679
+If you look at tracking on
+
+417
+00:08:51,820 --> 00:08:53,610
+websites and on ads and whatnot,
+
+418
+00:08:53,649 --> 00:08:54,659
+it just keeps on
+
+419
+00:08:54,720 --> 00:08:55,350
+shrinking.
+
+420
+00:08:55,350 --> 00:08:56,940
+The average watch time just keeps
+
+421
+00:08:56,940 --> 00:08:57,730
+on going down.
+
+422
+00:08:57,730 --> 00:08:59,250
+Same thing applies to emails.
+
+423
+00:08:59,259 --> 00:09:00,149
+So we need to
+
+424
+00:09:00,220 --> 00:09:01,769
+understand that our time we're on
+
+425
+00:09:01,769 --> 00:09:03,269
+the clock with having people's
+
+426
+00:09:03,269 --> 00:09:03,970
+attention.
+
+427
+00:09:03,970 --> 00:09:05,299
+So we really need to make the
+
+428
+00:09:05,360 --> 00:09:05,899
+most of it.
+
+429
+00:09:05,899 --> 00:09:07,220
+So we need to make sure that we
+
+430
+00:09:07,220 --> 00:09:08,200
+are avoiding this.
+
+431
+00:09:08,200 --> 00:09:09,320
+So first thing to avoid
+
+432
+00:09:09,320 --> 00:09:10,090
+unnecessary
+
+433
+00:09:10,159 --> 00:09:10,809
+information.
+
+434
+00:09:10,809 --> 00:09:12,169
+You always hear it copy, keep it
+
+435
+00:09:12,169 --> 00:09:13,000
+nice and concise.
+
+436
+00:09:13,139 --> 00:09:16,120
+We really, really, really, really
+
+437
+00:09:16,120 --> 00:09:16,570
+need to
+
+438
+00:09:16,639 --> 00:09:17,889
+live up to that with our emails.
+
+439
+00:09:17,889 --> 00:09:18,950
+A lot of the copy that I see in
+
+440
+00:09:18,950 --> 00:09:20,490
+emails is literally just fluff.
+
+441
+00:09:20,490 --> 00:09:20,879
+That is
+
+442
+00:09:20,940 --> 00:09:22,100
+unnecessary.
+
+443
+00:09:22,100 --> 00:09:23,070
+Unnecessary.
+
+444
+00:09:23,090 --> 00:09:25,350
+For example, when somebody joins a
+
+445
+00:09:25,350 --> 00:09:27,549
+newsletter, they know that when
+
+446
+00:09:27,559 --> 00:09:27,950
+they join,
+
+447
+00:09:28,059 --> 00:09:29,139
+they enter their email for like a
+
+448
+00:09:29,169 --> 00:09:29,620
+discount.
+
+449
+00:09:29,620 --> 00:09:30,679
+They know they're going to get
+
+450
+00:09:30,679 --> 00:09:31,679
+like exclusive access,
+
+451
+00:09:32,100 --> 00:09:33,919
+sneak peeks, insights, community,
+
+452
+00:09:33,919 --> 00:09:35,409
+and they kind of know that those
+
+453
+00:09:35,409 --> 00:09:36,820
+are fluff words and you kind of
+
+454
+00:09:36,879 --> 00:09:38,460
+just like say that.
+
+455
+00:09:38,549 --> 00:09:41,059
+So there's no need to waste space
+
+456
+00:09:41,059 --> 00:09:43,759
+talking about that because every
+
+457
+00:09:43,759 --> 00:09:45,789
+extra sentence
+
+458
+00:09:45,860 --> 00:09:47,559
+that you add increases the barrier
+
+459
+00:09:47,559 --> 00:09:49,049
+of entry for a customer to like
+
+460
+00:09:49,100 --> 00:09:50,940
+read that and they get more scared
+
+461
+00:09:51,000 --> 00:09:52,200
+with the more words somebody sees,
+
+462
+00:09:52,220 --> 00:09:53,269
+the more scared they get and the
+
+463
+00:09:53,269 --> 00:09:54,519
+more likely they are to leave.
+
+464
+00:09:54,580 --> 00:09:56,139
+And so we really just want to
+
+465
+00:09:56,139 --> 00:09:57,409
+focus our time on useful
+
+466
+00:09:57,559 --> 00:09:59,389
+information that can be used by
+
+467
+00:09:59,389 --> 00:10:00,080
+the customer,
+
+468
+00:10:00,139 --> 00:10:01,570
+such as your brand unique selling
+
+469
+00:10:01,600 --> 00:10:03,309
+propositions, your social proof,
+
+470
+00:10:03,379 --> 00:10:04,059
+all that.
+
+471
+00:10:04,059 --> 00:10:06,139
+A lot of the branded
+
+472
+00:10:06,259 --> 00:10:07,600
+stuff that you might want to
+
+473
+00:10:07,600 --> 00:10:09,100
+include, a lot of the exclusive
+
+474
+00:10:09,240 --> 00:10:10,700
+access stuff that you want to
+
+475
+00:10:10,700 --> 00:10:11,220
+include
+
+476
+00:10:11,299 --> 00:10:12,840
+just isn't necessary and you
+
+477
+00:10:12,840 --> 00:10:13,970
+shouldn't use it.
+
+478
+00:10:13,970 --> 00:10:15,429
+I always find that it hurts
+
+479
+00:10:15,429 --> 00:10:16,840
+conversions to include
+
+480
+00:10:16,899 --> 00:10:17,340
+that stuff.
+
+481
+00:10:17,340 --> 00:10:18,379
+So every sentence that you're
+
+482
+00:10:18,379 --> 00:10:19,620
+adding, literally every sentence
+
+483
+00:10:19,629 --> 00:10:20,590
+that you're adding to your
+
+484
+00:10:20,659 --> 00:10:22,679
+copy, just ask yourself, does this
+
+485
+00:10:22,679 --> 00:10:24,289
+push the customer closer to a
+
+486
+00:10:24,289 --> 00:10:24,759
+sale?
+
+487
+00:10:24,759 --> 00:10:26,580
+That's all you need to know.
+
+488
+00:10:26,639 --> 00:10:28,149
+So like look at this example.
+
+489
+00:10:28,149 --> 00:10:29,730
+This whole section is complete
+
+490
+00:10:29,730 --> 00:10:30,659
+wasted space.
+
+491
+00:10:30,659 --> 00:10:31,789
+At this brand, we're all
+
+492
+00:10:31,860 --> 00:10:32,899
+about elevating your driving
+
+493
+00:10:32,970 --> 00:10:34,059
+experience one mod at a time.
+
+494
+00:10:34,059 --> 00:10:35,299
+As a subscriber, you're now part
+
+495
+00:10:35,299 --> 00:10:35,549
+of an
+
+496
+00:10:35,620 --> 00:10:36,529
+exclusive community of car
+
+497
+00:10:36,730 --> 00:10:37,850
+enthusiasts who appreciate style,
+
+498
+00:10:37,850 --> 00:10:39,019
+performance, and quality.
+
+499
+00:10:39,019 --> 00:10:39,580
+Here's what you can
+
+500
+00:10:39,639 --> 00:10:40,370
+look forward to.
+
+501
+00:10:40,379 --> 00:10:42,019
+Exclusive offers, expert insights,
+
+502
+00:10:42,039 --> 00:10:43,539
+product sneak peeks, yada yada.
+
+503
+00:10:43,539 --> 00:10:44,320
+To kick things off,
+
+504
+00:10:44,379 --> 00:10:45,200
+here's a 10% off discount.
+
+505
+00:10:45,200 --> 00:10:45,919
+This is all the person cares
+
+506
+00:10:45,919 --> 00:10:46,259
+about.
+
+507
+00:10:46,259 --> 00:10:49,620
+All of this stuff is just masking
+
+508
+00:10:49,620 --> 00:10:49,899
+and
+
+509
+00:10:49,960 --> 00:10:51,639
+hiding the discount code that they
+
+510
+00:10:51,639 --> 00:10:52,059
+want.
+
+511
+00:10:52,059 --> 00:10:53,860
+The discount code, which was right
+
+512
+00:10:53,860 --> 00:10:54,360
+under.
+
+513
+00:10:54,360 --> 00:10:55,519
+You could
+
+514
+00:10:55,580 --> 00:10:56,590
+delete all this and just say,
+
+515
+00:10:56,690 --> 00:10:57,269
+welcome to this.
+
+516
+00:10:57,269 --> 00:10:58,289
+We're excited to have you.
+
+517
+00:10:58,289 --> 00:10:59,049
+To kick things off,
+
+518
+00:10:59,159 --> 00:10:59,980
+you're 10% off.
+
+519
+00:10:59,980 --> 00:11:01,070
+That's going to convert a lot
+
+520
+00:11:01,070 --> 00:11:01,490
+better.
+
+521
+00:11:01,490 --> 00:11:02,179
+I guarantee it.
+
+522
+00:11:02,179 --> 00:11:03,360
+All this stuff is just fluff.
+
+523
+00:11:03,419 --> 00:11:04,580
+Don't need all of it.
+
+524
+00:11:04,580 --> 00:11:06,129
+People are just there for the
+
+525
+00:11:06,129 --> 00:11:06,850
+discount.
+
+526
+00:11:06,850 --> 00:11:07,679
+I'm sorry.
+
+527
+00:11:07,679 --> 00:11:08,639
+People don't care as much
+
+528
+00:11:08,700 --> 00:11:09,159
+about you.
+
+529
+00:11:09,159 --> 00:11:10,210
+They care more about their
+
+530
+00:11:10,210 --> 00:11:10,679
+wallets.
+
+531
+00:11:10,679 --> 00:11:11,879
+And so that's just what they're
+
+532
+00:11:11,940 --> 00:11:12,279
+doing.
+
+533
+00:11:12,279 --> 00:11:12,879
+So that's just
+
+534
+00:11:12,940 --> 00:11:14,320
+completely unnecessary.
+
+535
+00:11:14,340 --> 00:11:15,549
+And then another one.
+
+536
+00:11:15,549 --> 00:11:17,059
+So I tie in design and copy very
+
+537
+00:11:17,059 --> 00:11:17,669
+closely.
+
+538
+00:11:17,669 --> 00:11:18,279
+I think they
+
+539
+00:11:18,340 --> 00:11:19,370
+should be hand in hand.
+
+540
+00:11:19,450 --> 00:11:20,860
+And we're going to talk about that
+
+541
+00:11:20,860 --> 00:11:21,179
+close.
+
+542
+00:11:21,320 --> 00:11:22,720
+We're going to talk about that
+
+543
+00:11:22,779 --> 00:11:23,570
+in the future.
+
+544
+00:11:23,570 --> 00:11:25,129
+But another thing on top of like
+
+545
+00:11:25,149 --> 00:11:27,120
+unnecessary information, maybe you
+
+546
+00:11:27,120 --> 00:11:27,679
+have good
+
+547
+00:11:27,740 --> 00:11:29,639
+information, but you can't have
+
+548
+00:11:29,639 --> 00:11:31,179
+too much in your emails.
+
+549
+00:11:31,179 --> 00:11:32,860
+Too much copy just increases
+
+550
+00:11:32,860 --> 00:11:33,500
+churn.
+
+551
+00:11:33,500 --> 00:11:34,100
+Even
+
+552
+00:11:34,159 --> 00:11:36,120
+if you have the helpful info, just
+
+553
+00:11:36,120 --> 00:11:37,779
+nobody's going to read it.
+
+554
+00:11:37,779 --> 00:11:39,679
+The shorter your copy is, the more
+
+555
+00:11:39,679 --> 00:11:39,940
+likely
+
+556
+00:11:40,000 --> 00:11:41,370
+someone will actually take the
+
+557
+00:11:41,370 --> 00:11:42,190
+time to read it.
+
+558
+00:11:42,190 --> 00:11:43,169
+This is an example.
+
+559
+00:11:43,240 --> 00:11:44,240
+This copy is actually
+
+560
+00:11:44,299 --> 00:11:45,090
+good copy.
+
+561
+00:11:45,090 --> 00:11:46,940
+It's talking about like what
+
+562
+00:11:46,940 --> 00:11:49,330
+everybody, what they changed about
+
+563
+00:11:49,340 --> 00:11:50,820
+like these new bars or
+
+564
+00:11:50,879 --> 00:11:51,309
+whatever.
+
+565
+00:11:51,309 --> 00:11:52,470
+It's not letting me zoom in, but
+
+566
+00:11:52,549 --> 00:11:53,460
+it's talking about it.
+
+567
+00:11:53,460 --> 00:11:54,860
+You can, this doc will be attached
+
+568
+00:11:54,919 --> 00:11:56,299
+for you and so you can read it.
+
+569
+00:11:56,330 --> 00:11:57,759
+It's a great copy, but nobody's
+
+570
+00:11:57,899 --> 00:11:58,519
+reading it.
+
+571
+00:11:58,519 --> 00:11:59,799
+If they just did like this
+
+572
+00:11:59,860 --> 00:12:00,870
+line and this line, then people
+
+573
+00:12:00,970 --> 00:12:01,440
+would read it.
+
+574
+00:12:01,440 --> 00:12:02,480
+But when somebody sees all this
+
+575
+00:12:02,480 --> 00:12:03,139
+copy, they're just
+
+576
+00:12:03,200 --> 00:12:04,779
+going to skip over it, go down
+
+577
+00:12:04,870 --> 00:12:05,279
+here.
+
+578
+00:12:05,279 --> 00:12:07,309
+These little icons did 10x more
+
+579
+00:12:07,309 --> 00:12:09,710
+the effectiveness and readability
+
+580
+00:12:09,779 --> 00:12:10,200
+for someone.
+
+581
+00:12:10,200 --> 00:12:11,009
+It's just these icons.
+
+582
+00:12:11,019 --> 00:12:12,899
+People prefer that sort of stuff.
+
+583
+00:12:12,899 --> 00:12:14,019
+And that's what we're going
+
+584
+00:12:14,080 --> 00:12:15,309
+to talk about and what we need to
+
+585
+00:12:15,320 --> 00:12:16,370
+be doing with our copy.
+
+586
+00:12:16,370 --> 00:12:17,669
+We can't just list blocks and we
+
+587
+00:12:17,669 --> 00:12:18,279
+can't have
+
+588
+00:12:18,340 --> 00:12:19,070
+information too long.
+
+589
+00:12:19,070 --> 00:12:20,190
+People aren't going to read that.
+
+590
+00:12:20,190 --> 00:12:21,179
+They're going to see that and get
+
+591
+00:12:21,320 --> 00:12:21,659
+scared.
+
+592
+00:12:21,720 --> 00:12:24,169
+Another thing is too many points.
+
+593
+00:12:24,169 --> 00:12:26,409
+So the customer is very, very,
+
+594
+00:12:26,409 --> 00:12:28,519
+very, very, very easy to get
+
+595
+00:12:28,580 --> 00:12:29,330
+overwhelmed.
+
+596
+00:12:29,330 --> 00:12:30,460
+So if you try to give your
+
+597
+00:12:30,460 --> 00:12:32,299
+customer five different takeaways,
+
+598
+00:12:32,299 --> 00:12:33,429
+like we are the best,
+
+599
+00:12:33,500 --> 00:12:34,879
+we have this, we also do this, and
+
+600
+00:12:34,879 --> 00:12:36,259
+you can also get this, and you can
+
+601
+00:12:36,279 --> 00:12:37,059
+also get this,
+
+602
+00:12:37,179 --> 00:12:38,460
+they're not going to remember any
+
+603
+00:12:38,460 --> 00:12:38,889
+of them.
+
+604
+00:12:38,889 --> 00:12:40,279
+Each takeaway would get 20% of
+
+605
+00:12:40,279 --> 00:12:41,259
+their attention.
+
+606
+00:12:41,320 --> 00:12:43,730
+If you split 100% divided by five,
+
+607
+00:12:43,730 --> 00:12:44,429
+20%.
+
+608
+00:12:44,429 --> 00:12:46,250
+Whereas if you try to just point
+
+609
+00:12:46,250 --> 00:12:47,700
+on one thing, such as
+
+610
+00:12:47,759 --> 00:12:49,279
+our product does this specific
+
+611
+00:12:49,279 --> 00:12:50,950
+benefit, in one takeaway, much
+
+612
+00:12:51,000 --> 00:12:52,679
+more likely that they're going
+
+613
+00:12:52,740 --> 00:12:53,690
+to be able to remember it because
+
+614
+00:12:53,740 --> 00:12:55,120
+that's 100% of their attention.
+
+615
+00:12:55,120 --> 00:12:57,769
+This below example is great
+
+616
+00:12:57,840 --> 00:12:59,169
+in terms of like talking about
+
+617
+00:12:59,169 --> 00:13:00,679
+benefits for the customer, but
+
+618
+00:13:00,820 --> 00:13:02,279
+there are just too many benefits
+
+619
+00:13:02,340 --> 00:13:03,529
+to the point that the customer
+
+620
+00:13:03,529 --> 00:13:04,879
+isn't really going to take any of
+
+621
+00:13:04,879 --> 00:13:05,460
+them away.
+
+622
+00:13:05,460 --> 00:13:06,490
+It seems kind of
+
+623
+00:13:06,559 --> 00:13:08,039
+productive to leave out benefits,
+
+624
+00:13:08,039 --> 00:13:09,210
+but we found it immensely to
+
+625
+00:13:09,210 --> 00:13:10,299
+increase conversions.
+
+626
+00:13:10,399 --> 00:13:11,480
+Like right here,
+
+627
+00:13:11,539 --> 00:13:12,509
+they're talking, so they're
+
+628
+00:13:12,649 --> 00:13:13,570
+talking about the meter block
+
+629
+00:13:13,570 --> 00:13:14,799
+right here, and they're saying
+
+630
+00:13:14,799 --> 00:13:15,120
+perfect
+
+631
+00:13:15,179 --> 00:13:16,210
+results, no strings attached,
+
+632
+00:13:16,289 --> 00:13:17,179
+durable construction.
+
+633
+00:13:17,179 --> 00:13:18,190
+It has a cook estimator, cook
+
+634
+00:13:18,190 --> 00:13:19,159
+graphs, cooking alerts,
+
+635
+00:13:19,220 --> 00:13:20,929
+multi-view cook, all this stuff.
+
+636
+00:13:20,929 --> 00:13:22,350
+We kind of just want to focus on
+
+637
+00:13:22,350 --> 00:13:24,350
+one, and then meter two plus
+
+638
+00:13:24,399 --> 00:13:24,759
+meter,
+
+639
+00:13:24,919 --> 00:13:25,850
+and then meter block.
+
+640
+00:13:25,919 --> 00:13:27,149
+Like this is all way too much.
+
+641
+00:13:27,149 --> 00:13:28,500
+All this information is on the
+
+642
+00:13:28,500 --> 00:13:29,419
+landing page.
+
+643
+00:13:29,480 --> 00:13:31,080
+We want to get people to click, so
+
+644
+00:13:31,149 --> 00:13:32,600
+we want to tease some stuff.
+
+645
+00:13:32,600 --> 00:13:34,100
+Give them one of the benefits,
+
+646
+00:13:34,100 --> 00:13:34,620
+such as
+
+647
+00:13:34,679 --> 00:13:37,059
+you have, you get perfect results
+
+648
+00:13:37,080 --> 00:13:39,379
+because you remove guest work,
+
+649
+00:13:39,379 --> 00:13:41,620
+because you're tracking like on
+
+650
+00:13:41,620 --> 00:13:41,690
+your
+
+651
+00:13:41,799 --> 00:13:42,840
+phone, whatever it may be.
+
+652
+00:13:42,909 --> 00:13:44,090
+Then you could have one that's all
+
+653
+00:13:44,090 --> 00:13:45,210
+about no strings attached.
+
+654
+00:13:45,210 --> 00:13:45,840
+There are no
+
+655
+00:13:45,899 --> 00:13:46,259
+strings.
+
+656
+00:13:46,259 --> 00:13:47,279
+It's all mobile and wireless so
+
+657
+00:13:47,330 --> 00:13:48,450
+that you can take it anywhere.
+
+658
+00:13:48,450 --> 00:13:49,879
+This could be split into like six
+
+659
+00:13:49,940 --> 00:13:51,250
+different emails, and it would
+
+660
+00:13:51,250 --> 00:13:52,289
+just be way better for the
+
+661
+00:13:52,309 --> 00:13:53,879
+customer to take everything in.
+
+662
+00:13:53,879 --> 00:13:55,080
+So that's
+
+663
+00:13:55,139 --> 00:13:57,139
+kind of the philosophy there.
+
+664
+00:13:57,139 --> 00:13:58,659
+And then also boring.
+
+665
+00:13:58,659 --> 00:14:00,860
+Avoid being boring in your copy.
+
+666
+00:14:00,860 --> 00:14:01,879
+No one wants to
+
+667
+00:14:01,940 --> 00:14:03,110
+buy from a lame brand.
+
+668
+00:14:03,110 --> 00:14:04,779
+They want to buy from brands they
+
+669
+00:14:04,779 --> 00:14:05,200
+like.
+
+670
+00:14:05,210 --> 00:14:06,470
+So that seems obvious.
+
+671
+00:14:06,490 --> 00:14:07,340
+If your copy is
+
+672
+00:14:07,399 --> 00:14:08,899
+lame and you're not giving them
+
+673
+00:14:08,899 --> 00:14:10,519
+dopamine, they're not going to
+
+674
+00:14:10,519 --> 00:14:11,149
+come back.
+
+675
+00:14:11,240 --> 00:14:12,429
+And so include powerful
+
+676
+00:14:12,500 --> 00:14:14,470
+words, include puns and cute
+
+677
+00:14:14,470 --> 00:14:17,070
+humor, and then information also.
+
+678
+00:14:17,070 --> 00:14:18,789
+If you can give valuable
+
+679
+00:14:18,820 --> 00:14:19,320
+information,
+
+680
+00:14:19,379 --> 00:14:21,090
+then people will enjoy that.
+
+681
+00:14:21,090 --> 00:14:22,429
+People like to learn.
+
+682
+00:14:22,429 --> 00:14:24,129
+People like to see that sort of
+
+683
+00:14:24,129 --> 00:14:24,679
+stuff.
+
+684
+00:14:24,679 --> 00:14:25,080
+And so
+
+685
+00:14:25,139 --> 00:14:26,169
+this is an example of just lame
+
+686
+00:14:26,250 --> 00:14:26,470
+copy.
+
+687
+00:14:26,470 --> 00:14:27,690
+Maximum coverage and comfort in a
+
+688
+00:14:27,690 --> 00:14:28,759
+lightweight performance
+
+689
+00:14:28,820 --> 00:14:30,779
+fabric that blocks UV rays and
+
+690
+00:14:30,779 --> 00:14:32,080
+dries in a flash.
+
+691
+00:14:32,080 --> 00:14:33,279
+Like, come on.
+
+692
+00:14:33,279 --> 00:14:35,159
+We can make that better.
+
+693
+00:14:35,159 --> 00:14:35,830
+The finest
+
+694
+00:14:35,960 --> 00:14:37,340
+quantities on earth.
+
+695
+00:14:37,340 --> 00:14:39,429
+Cool comfort for trail and town.
+
+696
+00:14:39,470 --> 00:14:41,190
+Like, it's not the end of the
+
+697
+00:14:41,190 --> 00:14:43,769
+world, but you just get
+
+698
+00:14:43,840 --> 00:14:45,019
+higher on subscribes when you're
+
+699
+00:14:45,019 --> 00:14:46,220
+not entertaining people rather
+
+700
+00:14:46,240 --> 00:14:46,659
+than like,
+
+701
+00:14:48,820 --> 00:14:51,169
+rather than like sun's out, sun's
+
+702
+00:14:51,190 --> 00:14:52,759
+out, surf screen.
+
+703
+00:14:52,759 --> 00:14:53,720
+I don't know.
+
+704
+00:14:53,720 --> 00:14:54,519
+So something that can be a little
+
+705
+00:14:54,519 --> 00:14:54,519
+bit
+
+706
+00:14:54,580 --> 00:14:55,059
+more fun.
+
+707
+00:14:55,059 --> 00:14:56,509
+Just put it in a chat GPT and say,
+
+708
+00:14:56,509 --> 00:14:57,419
+make this more fun.
+
+709
+00:14:57,559 --> 00:14:58,840
+And that'll give you everything
+
+710
+00:14:58,840 --> 00:14:58,990
+that
+
+711
+00:14:59,059 --> 00:14:59,409
+you need.
+
+712
+00:14:59,409 --> 00:15:00,259
+You can't be lame with the
+
+713
+00:15:00,279 --> 00:15:00,940
+customer today.
+
+714
+00:15:00,940 --> 00:15:02,120
+They need to be entertained.
+
+715
+00:15:02,120 --> 00:15:03,720
+And then lastly,
+
+716
+00:15:03,779 --> 00:15:05,159
+no value for the customer.
+
+717
+00:15:05,159 --> 00:15:06,620
+You want to avoid providing no
+
+718
+00:15:06,759 --> 00:15:07,139
+value.
+
+719
+00:15:07,139 --> 00:15:09,080
+You need to provide value in some
+
+720
+00:15:09,080 --> 00:15:09,279
+way,
+
+721
+00:15:09,340 --> 00:15:10,700
+whatever it is for the customer,
+
+722
+00:15:10,700 --> 00:15:12,100
+such as an exclusive offer, some
+
+723
+00:15:12,120 --> 00:15:13,620
+useful information or an engaging
+
+724
+00:15:13,620 --> 00:15:14,039
+story
+
+725
+00:15:14,100 --> 00:15:15,100
+that entertains them.
+
+726
+00:15:15,100 --> 00:15:16,350
+If you don't have a clear value
+
+727
+00:15:16,350 --> 00:15:18,500
+proposition, value you can bring
+
+728
+00:15:18,500 --> 00:15:18,950
+the customer,
+
+729
+00:15:19,019 --> 00:15:20,169
+you're going to fail to capture
+
+730
+00:15:20,169 --> 00:15:21,340
+and retain their interest.
+
+731
+00:15:21,340 --> 00:15:22,639
+So the below copy doesn't explain
+
+732
+00:15:22,639 --> 00:15:22,759
+the
+
+733
+00:15:22,919 --> 00:15:24,250
+value of having travel sized
+
+734
+00:15:24,250 --> 00:15:25,750
+products, which makes it very
+
+735
+00:15:25,750 --> 00:15:27,279
+unclear and not effective.
+
+736
+00:15:27,279 --> 00:15:27,850
+It's just saying
+
+737
+00:15:27,919 --> 00:15:29,299
+elevate your journey.
+
+738
+00:15:29,379 --> 00:15:31,169
+Indulge in Darfin's travel bag,
+
+739
+00:15:31,169 --> 00:15:32,490
+skincare essentials.
+
+740
+00:15:35,220 --> 00:15:35,440
+Why?
+
+741
+00:15:35,440 --> 00:15:36,759
+Like that doesn't, that doesn't
+
+742
+00:15:36,759 --> 00:15:38,279
+tell me anything rather than like,
+
+743
+00:15:38,279 --> 00:15:41,700
+um, get, uh, airline
+
+744
+00:15:41,799 --> 00:15:42,809
+approved.
+
+745
+00:15:42,909 --> 00:15:45,539
+Never worry about never get your,
+
+746
+00:15:45,639 --> 00:15:48,529
+uh, never get your skincare lotion
+
+747
+00:15:48,570 --> 00:15:49,990
+confiscated at the
+
+748
+00:15:50,120 --> 00:15:50,950
+airline ever again.
+
+749
+00:15:50,950 --> 00:15:52,240
+Or what, what, something along
+
+750
+00:15:52,240 --> 00:15:53,450
+those lines where it's talking
+
+751
+00:15:53,450 --> 00:15:54,340
+about the benefit,
+
+752
+00:15:54,399 --> 00:15:55,629
+uh, take these on the go.
+
+753
+00:15:55,639 --> 00:15:57,240
+Never have to worry about picking
+
+754
+00:15:57,370 --> 00:15:59,120
+up whatever your skincare stuff at
+
+755
+00:15:59,120 --> 00:15:59,240
+the
+
+756
+00:15:59,299 --> 00:16:00,450
+store on, on your vacation.
+
+757
+00:16:00,450 --> 00:16:01,789
+That could be worded a lot better,
+
+758
+00:16:01,789 --> 00:16:02,820
+but you get the point.
+
+759
+00:16:02,820 --> 00:16:03,820
+Elevate your
+
+760
+00:16:03,879 --> 00:16:04,259
+journey.
+
+761
+00:16:04,259 --> 00:16:05,480
+That isn't, that isn't telling me
+
+762
+00:16:05,549 --> 00:16:05,970
+anything.
+
+763
+00:16:05,970 --> 00:16:06,860
+Indulge in our travel bag
+
+764
+00:16:06,860 --> 00:16:07,570
+essentials.
+
+765
+00:16:07,580 --> 00:16:08,080
+That isn't
+
+766
+00:16:08,139 --> 00:16:09,509
+telling me anything.
+
+767
+00:16:09,509 --> 00:16:11,440
+I need to know what is the benefit
+
+768
+00:16:11,440 --> 00:16:13,279
+for me, such as never, such as
+
+769
+00:16:13,320 --> 00:16:13,940
+being able
+
+770
+00:16:14,000 --> 00:16:16,320
+to take this on the go, um, and
+
+771
+00:16:16,320 --> 00:16:18,370
+not get it confiscated.
+
+772
+00:16:18,370 --> 00:16:20,850
+So that's like the, that's like
+
+773
+00:16:20,850 --> 00:16:21,620
+the value
+
+774
+00:16:21,679 --> 00:16:23,009
+that we need.
+
+775
+00:16:23,009 --> 00:16:26,090
+Um, so that I just accidentally,
+
+776
+00:16:26,100 --> 00:16:28,879
+um, clicked off, but okay.
+
+777
+00:16:28,879 --> 00:16:30,870
+So that is what to avoid in
+
+778
+00:16:30,940 --> 00:16:31,399
+your copy.
+
+779
+00:16:31,399 --> 00:16:32,669
+You want to make sure that you're
+
+780
+00:16:32,669 --> 00:16:33,320
+giving value.
+
+781
+00:16:33,340 --> 00:16:34,840
+You have to avoid being boring.
+
+782
+00:16:34,899 --> 00:16:36,370
+You have to avoid too many points
+
+783
+00:16:36,370 --> 00:16:37,889
+and sharing too many points.
+
+784
+00:16:37,899 --> 00:16:39,279
+You have to avoid being too
+
+785
+00:16:39,340 --> 00:16:40,289
+long with your messaging.
+
+786
+00:16:40,340 --> 00:16:41,340
+You need to avoid unnecessary
+
+787
+00:16:41,340 --> 00:16:42,000
+information.
+
+788
+00:16:42,000 --> 00:16:43,379
+So that is it for this
+
+789
+00:16:43,440 --> 00:16:43,639
+one.
+
+790
+00:16:43,639 --> 00:16:44,779
+Now let's get into what we want to
+
+791
+00:16:44,779 --> 00:16:45,019
+do.

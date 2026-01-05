@@ -1,0 +1,759 @@
+1
+00:00:00,070 --> 00:00:02,930
+What's up guys Lucas here again.
+
+2
+00:00:03,049 --> 00:00:04,379
+So today I'm going to be showing
+
+3
+00:00:04,379 --> 00:00:05,440
+you what I think is actually
+
+4
+00:00:05,509 --> 00:00:07,379
+a super interesting and useful
+
+5
+00:00:07,440 --> 00:00:09,419
+flow for basically every agency
+
+6
+00:00:09,419 --> 00:00:10,000
+type.
+
+7
+00:00:10,000 --> 00:00:11,279
+It doesn't matter if you're
+
+8
+00:00:11,349 --> 00:00:13,109
+running a funnel agency, an
+
+9
+00:00:13,109 --> 00:00:15,220
+e-commerce email agency, a lead
+
+10
+00:00:15,220 --> 00:00:17,339
+gen agency, any sort of agency,
+
+11
+00:00:17,410 --> 00:00:18,730
+this is going to work both for you
+
+12
+00:00:18,730 --> 00:00:20,149
+personally and for your clients on
+
+13
+00:00:20,390 --> 00:00:20,809
+outreach.
+
+14
+00:00:20,870 --> 00:00:22,640
+So let's take a look
+
+15
+00:00:22,789 --> 00:00:23,420
+at what it does.
+
+16
+00:00:23,829 --> 00:00:24,789
+Essentially I'm going to start off
+
+17
+00:00:24,789 --> 00:00:26,010
+by as usual by breaking down the
+
+18
+00:00:26,010 --> 00:00:26,739
+prerequisites
+
+19
+00:00:26,809 --> 00:00:28,149
+you're going to need, what each
+
+20
+00:00:28,149 --> 00:00:29,519
+node does and how the flow works
+
+21
+00:00:29,789 --> 00:00:30,070
+overall.
+
+22
+00:00:30,179 --> 00:00:32,219
+So what it does is it
+
+23
+00:00:32,289 --> 00:00:33,770
+essentially takes a list of
+
+24
+00:00:33,770 --> 00:00:35,020
+Instagram accounts.
+
+25
+00:00:35,270 --> 00:00:36,859
+Now this is why it's perfect for
+
+26
+00:00:36,859 --> 00:00:38,320
+Dream 100 outreach
+
+27
+00:00:38,390 --> 00:00:39,079
+specifically.
+
+28
+00:00:39,250 --> 00:00:40,670
+You're going to input a list of a
+
+29
+00:00:40,670 --> 00:00:42,409
+hundred creators that you directly
+
+30
+00:00:42,500 --> 00:00:43,070
+want to work
+
+31
+00:00:43,189 --> 00:00:43,469
+with.
+
+32
+00:00:43,469 --> 00:00:44,710
+Then what it does is after these
+
+33
+00:00:44,840 --> 00:00:46,219
+are added to a Google sheet, which
+
+34
+00:00:46,219 --> 00:00:47,340
+I'll show you in a moment,
+
+35
+00:00:47,409 --> 00:00:49,509
+it gets the Instagram account
+
+36
+00:00:49,509 --> 00:00:50,119
+data.
+
+37
+00:00:50,280 --> 00:00:52,369
+It gets the recent post data.
+
+38
+00:00:52,380 --> 00:00:54,079
+If it is an image post,
+
+39
+00:00:54,149 --> 00:00:55,829
+it sends it to ChatGPT to analyze
+
+40
+00:00:55,829 --> 00:00:57,420
+the image, to make a comment on
+
+41
+00:00:57,520 --> 00:00:57,920
+it.
+
+42
+00:00:57,920 --> 00:00:59,369
+And if it's not an image
+
+43
+00:00:59,530 --> 00:01:01,399
+post, if it's a video, it simply
+
+44
+00:01:01,460 --> 00:01:03,100
+takes the caption and makes a
+
+45
+00:01:03,100 --> 00:01:04,980
+personalized DM based on the
+
+46
+00:01:04,980 --> 00:01:05,299
+caption.
+
+47
+00:01:05,370 --> 00:01:06,799
+Then it stores that message back
+
+48
+00:01:06,799 --> 00:01:08,030
+in the sheet for you to send
+
+49
+00:01:08,349 --> 00:01:08,629
+manually.
+
+50
+00:01:08,790 --> 00:01:10,780
+So starting off, we're going to
+
+51
+00:01:10,780 --> 00:01:12,390
+need the Google sheet.
+
+52
+00:01:12,390 --> 00:01:13,840
+Now over here, you'll see I've got
+
+53
+00:01:13,840 --> 00:01:14,019
+a little
+
+54
+00:01:14,629 --> 00:01:15,510
+explaining a lot of this and
+
+55
+00:01:15,680 --> 00:01:16,730
+there's actually a link here, make
+
+56
+00:01:16,769 --> 00:01:18,319
+a copy of this Google sheet and
+
+57
+00:01:18,319 --> 00:01:19,040
+I've made this available.
+
+58
+00:01:19,109 --> 00:01:20,290
+So this is what the sheet looks
+
+59
+00:01:20,290 --> 00:01:20,629
+like.
+
+60
+00:01:20,760 --> 00:01:23,450
+It has just the account, the full
+
+61
+00:01:23,450 --> 00:01:25,280
+name, the biography, and the
+
+62
+00:01:25,280 --> 00:01:25,780
+message.
+
+63
+00:01:25,849 --> 00:01:27,519
+So you're going to want to do
+
+64
+00:01:27,519 --> 00:01:29,620
+file, make a copy and copy this to
+
+65
+00:01:29,620 --> 00:01:31,349
+your own Google Drive.
+
+66
+00:01:31,590 --> 00:01:34,159
+And then you will set that in
+
+67
+00:01:34,159 --> 00:01:34,159
+here.
+
+68
+00:01:34,230 --> 00:01:35,659
+If you double click on this node,
+
+69
+00:01:35,659 --> 00:01:37,629
+just connect your Google sheets
+
+70
+00:01:37,689 --> 00:01:39,640
+account and set up your, make sure
+
+71
+00:01:39,640 --> 00:01:41,090
+the document is selected with the
+
+72
+00:01:41,150 --> 00:01:42,260
+right sheet name.
+
+73
+00:01:42,329 --> 00:01:44,400
+Then what it does is either when
+
+74
+00:01:44,400 --> 00:01:46,799
+you click execute workflow or on a
+
+75
+00:01:46,799 --> 00:01:48,319
+schedule, which currently we've
+
+76
+00:01:48,319 --> 00:01:50,000
+got set to every 24 hours, but you
+
+77
+00:01:50,000 --> 00:01:50,840
+can change that to wherever you
+
+78
+00:01:50,840 --> 00:01:51,180
+want.
+
+79
+00:01:51,390 --> 00:01:52,599
+Or as I said, just do it manually,
+
+80
+00:01:52,659 --> 00:01:53,680
+just disconnect that schedule
+
+81
+00:01:53,930 --> 00:01:54,250
+trigger.
+
+82
+00:01:54,329 --> 00:01:56,280
+It will fetch the Instagram
+
+83
+00:01:56,280 --> 00:01:57,560
+account data.
+
+84
+00:01:57,560 --> 00:01:58,670
+Now, as I said, you have to fill
+
+85
+00:01:58,670 --> 00:01:59,700
+this sheet out manually.
+
+86
+00:01:59,700 --> 00:02:00,390
+This is on purpose.
+
+87
+00:02:00,510 --> 00:02:01,409
+This is for Dream 100.
+
+88
+00:02:01,560 --> 00:02:02,799
+This should all be people that you
+
+89
+00:02:02,799 --> 00:02:04,159
+specifically want to work with,
+
+90
+00:02:04,159 --> 00:02:05,609
+you've already created
+
+91
+00:02:05,650 --> 00:02:06,739
+deliverables for, et cetera.
+
+92
+00:02:06,810 --> 00:02:08,819
+So we'll get that account data.
+
+93
+00:02:08,819 --> 00:02:11,099
+All this does is it runs the Apify
+
+94
+00:02:11,099 --> 00:02:12,310
+actor, you're going to have to set
+
+95
+00:02:12,370 --> 00:02:13,330
+up Apify with this, as we talked
+
+96
+00:02:13,409 --> 00:02:14,490
+about in previous ones before.
+
+97
+00:02:14,629 --> 00:02:16,400
+Just connect your Apify account.
+
+98
+00:02:16,400 --> 00:02:17,569
+All these settings will be the
+
+99
+00:02:17,610 --> 00:02:17,780
+same.
+
+100
+00:02:18,509 --> 00:02:20,379
+And then it will get the Instagram
+
+101
+00:02:20,439 --> 00:02:22,169
+profile of get the data of that
+
+102
+00:02:22,169 --> 00:02:23,400
+Apify actor run.
+
+103
+00:02:23,469 --> 00:02:25,340
+Then we will get there was recent
+
+104
+00:02:25,400 --> 00:02:27,409
+post data and we'll get that post
+
+105
+00:02:27,409 --> 00:02:28,150
+data run.
+
+106
+00:02:28,270 --> 00:02:29,759
+Then we'll aggregate all of it
+
+107
+00:02:29,759 --> 00:02:30,500
+together.
+
+108
+00:02:30,569 --> 00:02:32,669
+Now, if it is an image post, we
+
+109
+00:02:32,689 --> 00:02:35,060
+will fetch the latest image post.
+
+110
+00:02:35,129 --> 00:02:36,199
+We'll get download the actual
+
+111
+00:02:36,199 --> 00:02:37,860
+photo itself and we will send it
+
+112
+00:02:38,000 --> 00:02:39,650
+to ChatGPT, which will create an
+
+113
+00:02:39,650 --> 00:02:40,879
+analysis of that image.
+
+114
+00:02:40,949 --> 00:02:42,770
+As you can see here, I used a
+
+115
+00:02:42,770 --> 00:02:46,860
+photo of a one of my own, my own
+
+116
+00:02:46,860 --> 00:02:47,719
+Instagram photo of me and my
+
+117
+00:02:47,719 --> 00:02:48,289
+girlfriend.
+
+118
+00:02:48,509 --> 00:02:49,919
+And it explains in detail what is
+
+119
+00:02:49,919 --> 00:02:50,680
+in the photo.
+
+120
+00:02:50,750 --> 00:02:52,479
+Then it sends that to our
+
+121
+00:02:52,479 --> 00:02:54,599
+personalized DM writer.
+
+122
+00:02:54,669 --> 00:02:55,719
+There's some things you're going
+
+123
+00:02:55,719 --> 00:02:56,680
+to have to edit in here ever so
+
+124
+00:02:56,680 --> 00:02:57,180
+slightly.
+
+125
+00:02:57,250 --> 00:03:00,430
+So this is done in JSON format for
+
+126
+00:03:00,430 --> 00:03:02,439
+the best output.
+
+127
+00:03:03,110 --> 00:03:04,270
+If you scroll down, the things
+
+128
+00:03:04,270 --> 00:03:05,400
+you're going to have to change
+
+129
+00:03:05,639 --> 00:03:07,500
+here are going to be your booking
+
+130
+00:03:07,500 --> 00:03:09,500
+link, your primary service.
+
+131
+00:03:09,569 --> 00:03:10,930
+So change that to whatever your
+
+132
+00:03:10,930 --> 00:03:12,469
+primary service is, your booking
+
+133
+00:03:12,550 --> 00:03:14,199
+link, which you will change here,
+
+134
+00:03:14,199 --> 00:03:16,020
+just your calendar in there.
+
+135
+00:03:16,090 --> 00:03:17,360
+Obviously, it's a basic cal.com
+
+136
+00:03:17,360 --> 00:03:18,060
+placeholder.
+
+137
+00:03:18,610 --> 00:03:20,479
+And then your sign-off name.
+
+138
+00:03:20,590 --> 00:03:21,629
+Everything else here you can go
+
+139
+00:03:21,650 --> 00:03:22,879
+through and see yourself, you can
+
+140
+00:03:22,879 --> 00:03:23,979
+change it to true or false.
+
+141
+00:03:24,050 --> 00:03:25,509
+But I would suggest keeping
+
+142
+00:03:25,509 --> 00:03:27,580
+everything pretty much the same.
+
+143
+00:03:27,650 --> 00:03:29,949
+Then if we go down to the system
+
+144
+00:03:30,620 --> 00:03:32,699
+message here, you will see it
+
+145
+00:03:32,699 --> 00:03:35,490
+explains how this works and what
+
+146
+00:03:35,490 --> 00:03:36,560
+it does.
+
+147
+00:03:36,629 --> 00:03:38,120
+Just give it rules for exactly how
+
+148
+00:03:38,120 --> 00:03:39,610
+it should operate when writing a
+
+149
+00:03:39,610 --> 00:03:39,889
+DM.
+
+150
+00:03:41,270 --> 00:03:42,969
+So once that is done, you've got
+
+151
+00:03:42,969 --> 00:03:44,960
+to change actually here as well.
+
+152
+00:03:45,030 --> 00:03:46,409
+Just change your, in sentence
+
+153
+00:03:46,409 --> 00:03:47,969
+five, you're going to change the
+
+154
+00:03:48,009 --> 00:03:49,050
+sign-off name here.
+
+155
+00:03:49,169 --> 00:03:50,099
+Mine's set to Lucas, obviously.
+
+156
+00:03:50,189 --> 00:03:51,099
+Change that to your name.
+
+157
+00:03:51,229 --> 00:03:53,310
+So then when you run that, it will
+
+158
+00:03:53,310 --> 00:03:55,250
+create a personalized DM and it
+
+159
+00:03:55,340 --> 00:03:57,069
+will add that message to the
+
+160
+00:03:57,110 --> 00:03:57,939
+account.
+
+161
+00:03:58,009 --> 00:03:59,300
+If we go back here, you'll see
+
+162
+00:03:59,300 --> 00:04:00,909
+it's added to this message here.
+
+163
+00:04:01,009 --> 00:04:02,379
+Let me make this a little bit
+
+164
+00:04:02,379 --> 00:04:02,879
+wider.
+
+165
+00:04:03,009 --> 00:04:07,159
+So it gives us a perfect kind of
+
+166
+00:04:07,159 --> 00:04:08,039
+DM.
+
+167
+00:04:09,159 --> 00:04:23,509
+So that's what it does.
+
+168
+00:04:23,649 --> 00:04:25,899
+It creates personalized DMs for
+
+169
+00:04:25,899 --> 00:04:28,540
+your Dream 100 prospects.
+
+170
+00:04:28,610 --> 00:04:30,079
+So again, you're going to need to
+
+171
+00:04:30,079 --> 00:04:31,699
+set up Apify, as we've had to set
+
+172
+00:04:31,699 --> 00:04:33,439
+up in a bunch of other workflows.
+
+173
+00:04:33,509 --> 00:04:34,800
+You will need to connect your,
+
+174
+00:04:34,800 --> 00:04:36,050
+copy the Google Sheet and make
+
+175
+00:04:36,110 --> 00:04:37,459
+sure it's connected up in the
+
+176
+00:04:37,459 --> 00:04:37,980
+Google Sheet.
+
+177
+00:04:38,110 --> 00:04:40,410
+And you will need to modify the AI
+
+178
+00:04:41,000 --> 00:04:43,160
+agent with your name and booking
+
+179
+00:04:43,160 --> 00:04:45,680
+link and business type in order to
+
+180
+00:04:45,680 --> 00:04:47,500
+get the output that you want.
+
+181
+00:04:47,569 --> 00:04:50,600
+So that's how the flow works.
+
+182
+00:04:50,670 --> 00:04:52,139
+Super useful, again, for any type
+
+183
+00:04:52,139 --> 00:04:52,759
+of agency.
+
+184
+00:04:52,829 --> 00:04:53,959
+You could use this without doing
+
+185
+00:04:53,959 --> 00:04:55,129
+lead gen for your own clients.
+
+186
+00:04:55,310 --> 00:04:56,829
+And I think it's going to be very,
+
+187
+00:04:56,959 --> 00:04:58,560
+very useful for all you guys.
+
+188
+00:04:58,629 --> 00:04:59,540
+So I hope you enjoy this one and
+
+189
+00:04:59,680 --> 00:05:00,500
+see you in the next one.
+
+190
+00:05:00,629 --> 00:05:01,060
+Peace.

@@ -1,0 +1,2459 @@
+1
+00:00:00,010 --> 00:00:02,000
+Okay, I could sit in a Google Doc
+
+2
+00:00:02,000 --> 00:00:03,540
+all day and show you different
+
+3
+00:00:03,549 --> 00:00:04,740
+examples of what could work
+
+4
+00:00:04,750 --> 00:00:06,809
+in a campaign, or I could pull up
+
+5
+00:00:06,900 --> 00:00:09,060
+an example of each offer path and
+
+6
+00:00:09,099 --> 00:00:10,919
+show you winning campaigns
+
+7
+00:00:10,929 --> 00:00:12,099
+that already exist and are
+
+8
+00:00:12,099 --> 00:00:13,599
+generating real results for real
+
+9
+00:00:13,599 --> 00:00:14,380
+businesses.
+
+10
+00:00:14,380 --> 00:00:16,050
+So starting with
+
+11
+00:00:16,109 --> 00:00:17,829
+email marketing, a client of ours,
+
+12
+00:00:17,870 --> 00:00:19,320
+who the guy is also a good friend
+
+13
+00:00:19,329 --> 00:00:20,579
+of ours, he's been in our
+
+14
+00:00:20,589 --> 00:00:22,230
+program for a while, he basically
+
+15
+00:00:22,230 --> 00:00:23,440
+does email marketing for
+
+16
+00:00:23,440 --> 00:00:24,510
+e-commerce brands.
+
+17
+00:00:24,510 --> 00:00:25,219
+And if you're
+
+18
+00:00:25,230 --> 00:00:26,780
+following the email marketing
+
+19
+00:00:26,780 --> 00:00:28,449
+path, this is almost exactly the
+
+20
+00:00:28,449 --> 00:00:29,879
+same service model that you
+
+21
+00:00:29,890 --> 00:00:31,660
+will be running with your
+
+22
+00:00:31,660 --> 00:00:32,590
+business.
+
+23
+00:00:32,590 --> 00:00:34,869
+So this interface is the sending
+
+24
+00:00:34,869 --> 00:00:36,579
+tool that we use to
+
+25
+00:00:36,590 --> 00:00:38,619
+reach out to thousands of people a
+
+26
+00:00:38,619 --> 00:00:40,009
+month on autopilot.
+
+27
+00:00:40,009 --> 00:00:41,829
+And this is what the dashboard
+
+28
+00:00:41,829 --> 00:00:42,280
+looks
+
+29
+00:00:42,289 --> 00:00:42,630
+like.
+
+30
+00:00:42,630 --> 00:00:43,780
+It shows you how many people
+
+31
+00:00:43,780 --> 00:00:45,329
+you've contacted, how many replies
+
+32
+00:00:45,329 --> 00:00:46,609
+you have, and how many total
+
+33
+00:00:46,630 --> 00:00:47,679
+replies you have.
+
+34
+00:00:47,679 --> 00:00:49,840
+So reaching out to 8100 people,
+
+35
+00:00:49,850 --> 00:00:51,700
+they've generated 33 positive
+
+36
+00:00:51,710 --> 00:00:52,920
+replies, which is a
+
+37
+00:00:52,950 --> 00:00:54,640
+very good output.
+
+38
+00:00:54,640 --> 00:00:56,929
+Um, I like to say that anything
+
+39
+00:00:57,000 --> 00:00:59,890
+over one positive reply per 500
+
+40
+00:00:59,890 --> 00:01:01,289
+emails is good.
+
+41
+00:01:01,359 --> 00:01:01,770
+And this
+
+42
+00:01:01,890 --> 00:01:04,969
+guy has one positive reply per 247
+
+43
+00:01:04,969 --> 00:01:06,620
+people contacted.
+
+44
+00:01:06,620 --> 00:01:09,400
+So, you know, crushing it, this is
+
+45
+00:01:09,510 --> 00:01:10,560
+a really good
+
+46
+00:01:11,209 --> 00:01:12,640
+metric to shoot for.
+
+47
+00:01:12,640 --> 00:01:15,689
+Um, and if we look here, you can
+
+48
+00:01:15,750 --> 00:01:18,049
+even see based on the AB testing
+
+49
+00:01:18,049 --> 00:01:19,060
+that he's running,
+
+50
+00:01:19,069 --> 00:01:20,299
+which of these angles is
+
+51
+00:01:20,420 --> 00:01:21,590
+performing the best.
+
+52
+00:01:21,590 --> 00:01:23,019
+So let's just go through the
+
+53
+00:01:23,030 --> 00:01:24,459
+actual messaging and see
+
+54
+00:01:24,469 --> 00:01:25,530
+what's working.
+
+55
+00:01:25,530 --> 00:01:27,450
+So, you know, if you, in the last
+
+56
+00:01:27,450 --> 00:01:29,040
+video, I was just going over
+
+57
+00:01:29,040 --> 00:01:30,500
+basics and examples of
+
+58
+00:01:30,510 --> 00:01:32,200
+what a good campaign looks like in
+
+59
+00:01:32,200 --> 00:01:33,709
+this video, I want to show you
+
+60
+00:01:33,709 --> 00:01:35,480
+from a to Z, what is a successful
+
+61
+00:01:35,489 --> 00:01:37,069
+campaign looks like with subject
+
+62
+00:01:37,120 --> 00:01:38,829
+lines, follow-ups, AB testing the
+
+63
+00:01:38,900 --> 00:01:40,579
+whole nine yards, right?
+
+64
+00:01:40,579 --> 00:01:42,359
+So here is
+
+65
+00:01:42,370 --> 00:01:44,549
+variant a of their campaign.
+
+66
+00:01:44,549 --> 00:01:46,829
+So half of the prospects will get
+
+67
+00:01:46,829 --> 00:01:48,760
+variant a, the other half
+
+68
+00:01:48,769 --> 00:01:50,180
+will get variant B, right?
+
+69
+00:01:50,180 --> 00:01:51,900
+Very simple AB testing, different
+
+70
+00:01:51,900 --> 00:01:53,599
+emails go out to different people
+
+71
+00:01:53,599 --> 00:01:54,060
+to
+
+72
+00:01:54,069 --> 00:01:55,629
+see which one performs the best.
+
+73
+00:01:55,629 --> 00:01:57,260
+Here's the entire email, right?
+
+74
+00:01:57,260 --> 00:01:58,450
+Hope you're having a solid
+
+75
+00:01:58,450 --> 00:01:59,079
+Wednesday
+
+76
+00:01:59,090 --> 00:02:00,859
+reaching out because we can help
+
+77
+00:02:00,859 --> 00:02:03,040
+you add 40 to 50 can revenue per
+
+78
+00:02:03,049 --> 00:02:05,390
+month for your brand offer with
+
+79
+00:02:05,409 --> 00:02:07,180
+email marketing that actually
+
+80
+00:02:07,180 --> 00:02:09,340
+maximizes sale and profit, right?
+
+81
+00:02:09,340 --> 00:02:11,280
+So direct offer that Daniel talks
+
+82
+00:02:11,389 --> 00:02:12,900
+about plus if you don't see 40 K
+
+83
+00:02:12,900 --> 00:02:14,520
+in 90 days in revenue, you don't
+
+84
+00:02:14,520 --> 00:02:16,849
+pay that simple offer and look
+
+85
+00:02:16,909 --> 00:02:18,330
+at what these guys did the way
+
+86
+00:02:18,330 --> 00:02:19,860
+that they built their puzzle or
+
+87
+00:02:19,860 --> 00:02:21,580
+their fishing line or whatever you
+
+88
+00:02:21,620 --> 00:02:21,740
+want
+
+89
+00:02:21,750 --> 00:02:23,330
+to call it is they did direct
+
+90
+00:02:23,379 --> 00:02:24,569
+offer guarantee.
+
+91
+00:02:24,569 --> 00:02:26,330
+And then they still used a lead
+
+92
+00:02:26,330 --> 00:02:26,969
+magnet.
+
+93
+00:02:26,969 --> 00:02:27,800
+So they used
+
+94
+00:02:27,810 --> 00:02:28,740
+a direct offer.
+
+95
+00:02:28,740 --> 00:02:30,310
+And then instead of pitching a
+
+96
+00:02:30,310 --> 00:02:31,969
+video, they just pitched a lead
+
+97
+00:02:32,159 --> 00:02:32,659
+magnet.
+
+98
+00:02:32,669 --> 00:02:34,289
+I even went ahead and revamped
+
+99
+00:02:34,300 --> 00:02:35,870
+your welcome series email to
+
+100
+00:02:35,870 --> 00:02:37,900
+optimize it for more revenue.
+
+101
+00:02:37,900 --> 00:02:38,780
+Mind if I shoot
+
+102
+00:02:38,789 --> 00:02:40,639
+over the design here, right?
+
+103
+00:02:40,689 --> 00:02:42,889
+So that's a pretty clever way of,
+
+104
+00:02:42,889 --> 00:02:46,180
+um, framing their offer.
+
+105
+00:02:46,180 --> 00:02:47,020
+They pitched
+
+106
+00:02:47,030 --> 00:02:49,400
+a guarantee 40 to 50 K in sales,
+
+107
+00:02:49,400 --> 00:02:51,349
+um, lead magnet, redesign your
+
+108
+00:02:51,379 --> 00:02:53,069
+welcome series email.
+
+109
+00:02:53,069 --> 00:02:55,620
+Variant one B is
+
+110
+00:02:55,629 --> 00:02:57,159
+very similar, but it's a little
+
+111
+00:02:57,159 --> 00:02:58,409
+bit different, right?
+
+112
+00:02:58,439 --> 00:03:00,000
+Actually, I don't know if this is
+
+113
+00:03:00,000 --> 00:03:01,020
+any different.
+
+114
+00:03:01,430 --> 00:03:01,819
+Hold on.
+
+115
+00:03:01,819 --> 00:03:04,139
+We can help you add plus.
+
+116
+00:03:04,139 --> 00:03:04,560
+Okay.
+
+117
+00:03:04,560 --> 00:03:06,460
+So these, these are very similar.
+
+118
+00:03:06,460 --> 00:03:07,819
+Let's go into one C.
+
+119
+00:03:08,449 --> 00:03:16,259
+Um, and also really switching up
+
+120
+00:03:16,259 --> 00:03:18,879
+is some of the, the filler as in
+
+121
+00:03:18,879 --> 00:03:20,689
+no generic AI copywriting or
+
+122
+00:03:20,710 --> 00:03:21,960
+inexperienced designers.
+
+123
+00:03:22,060 --> 00:03:23,530
+We even redesigned your welcome
+
+124
+00:03:23,530 --> 00:03:24,669
+flow to show you what we do
+
+125
+00:03:24,680 --> 00:03:25,340
+differently.
+
+126
+00:03:25,349 --> 00:03:25,639
+Cool.
+
+127
+00:03:25,639 --> 00:03:26,719
+If I share the design with you
+
+128
+00:03:26,719 --> 00:03:27,080
+here.
+
+129
+00:03:27,110 --> 00:03:29,020
+So when all of these variants,
+
+130
+00:03:29,020 --> 00:03:30,219
+they're saying the same
+
+131
+00:03:30,310 --> 00:03:32,159
+thing, you know, I, all they want
+
+132
+00:03:32,159 --> 00:03:33,460
+to do is get a welcome flow
+
+133
+00:03:33,460 --> 00:03:35,340
+redesign over to the prospect.
+
+134
+00:03:35,340 --> 00:03:35,979
+And they're
+
+135
+00:03:35,990 --> 00:03:37,689
+just mixing and matching puzzle
+
+136
+00:03:37,689 --> 00:03:39,520
+pieces to see which angle performs
+
+137
+00:03:39,530 --> 00:03:40,150
+the best.
+
+138
+00:03:40,250 --> 00:03:40,659
+They're literally
+
+139
+00:03:40,710 --> 00:03:42,349
+following the exact thing I was
+
+140
+00:03:42,349 --> 00:03:44,300
+preaching in the previous video.
+
+141
+00:03:44,300 --> 00:03:47,900
+Email two is similar.
+
+142
+00:03:47,900 --> 00:03:48,620
+Um,
+
+143
+00:03:49,750 --> 00:03:51,469
+so in their followup email,
+
+144
+00:03:51,509 --> 00:03:53,659
+basically all this is, is the
+
+145
+00:03:53,659 --> 00:03:55,819
+first email in the sequence goes
+
+146
+00:03:55,819 --> 00:03:56,379
+out to
+
+147
+00:03:56,389 --> 00:03:57,340
+Jennifer, right?
+
+148
+00:03:57,340 --> 00:03:58,460
+Hope you're having a great
+
+149
+00:03:58,539 --> 00:04:00,020
+Wednesday subject line question
+
+150
+00:04:00,020 --> 00:04:00,699
+for Jennifer
+
+151
+00:04:01,419 --> 00:04:04,580
+offer guarantee lead magnet, very
+
+152
+00:04:04,580 --> 00:04:07,090
+simple email signature, first and
+
+153
+00:04:07,090 --> 00:04:08,460
+last name, co-founder at
+
+154
+00:04:08,469 --> 00:04:09,550
+the business.
+
+155
+00:04:09,590 --> 00:04:11,629
+Um, if this email doesn't get
+
+156
+00:04:11,629 --> 00:04:14,020
+responded to, they send out a
+
+157
+00:04:14,129 --> 00:04:15,340
+followup email,
+
+158
+00:04:15,349 --> 00:04:16,920
+which is automated by this
+
+159
+00:04:16,920 --> 00:04:19,019
+software four days later that goes
+
+160
+00:04:19,019 --> 00:04:21,180
+out and all's the followup email
+
+161
+00:04:21,180 --> 00:04:21,420
+says
+
+162
+00:04:21,430 --> 00:04:22,939
+is Jennifer.
+
+163
+00:04:22,939 --> 00:04:24,459
+We redesigned your welcome floats
+
+164
+00:04:24,459 --> 00:04:25,699
+email to optimize it for more
+
+165
+00:04:25,720 --> 00:04:26,379
+conversions.
+
+166
+00:04:26,389 --> 00:04:28,379
+Mind if I share it with you here
+
+167
+00:04:28,379 --> 00:04:29,899
+so you can see what we do
+
+168
+00:04:29,899 --> 00:04:31,060
+differently.
+
+169
+00:04:31,100 --> 00:04:32,680
+Um, and that's the entire
+
+170
+00:04:32,709 --> 00:04:34,379
+followup email variant a and
+
+171
+00:04:34,379 --> 00:04:36,199
+variant B read it revamped your
+
+172
+00:04:36,199 --> 00:04:38,139
+welcome flow email to optimize it
+
+173
+00:04:38,139 --> 00:04:38,459
+for more
+
+174
+00:04:38,470 --> 00:04:38,939
+revenue.
+
+175
+00:04:39,129 --> 00:04:40,110
+Mind if I share it with you here
+
+176
+00:04:40,110 --> 00:04:41,500
+to see what we do differently.
+
+177
+00:04:41,500 --> 00:04:42,860
+It's funny how basic
+
+178
+00:04:45,350 --> 00:04:47,259
+I said that in the previous video.
+
+179
+00:04:47,259 --> 00:04:50,810
+So we do three email sequences,
+
+180
+00:04:50,990 --> 00:04:53,100
+email one, email two, email three.
+
+181
+00:04:53,110 --> 00:04:54,829
+Um, after email three, we just cut
+
+182
+00:04:54,829 --> 00:04:56,180
+it off and move on because people
+
+183
+00:04:56,180 --> 00:04:57,259
+aren't going to answer if they
+
+184
+00:04:57,269 --> 00:04:58,699
+don't answer in three emails.
+
+185
+00:04:58,750 --> 00:05:00,269
+The third email, I saw a couple of
+
+186
+00:05:00,269 --> 00:05:01,899
+things with your welcome series
+
+187
+00:05:01,899 --> 00:05:02,060
+email
+
+188
+00:05:02,069 --> 00:05:03,000
+that are damaging your
+
+189
+00:05:03,000 --> 00:05:03,649
+conversions.
+
+190
+00:05:03,699 --> 00:05:04,910
+So I revamped it to optimize it
+
+191
+00:05:04,910 --> 00:05:05,959
+for more revenue.
+
+192
+00:05:05,959 --> 00:05:06,860
+Mind if I share
+
+193
+00:05:06,870 --> 00:05:08,939
+the email design with you here and
+
+194
+00:05:09,019 --> 00:05:10,959
+three B is almost the same exact
+
+195
+00:05:10,959 --> 00:05:11,660
+thing.
+
+196
+00:05:11,660 --> 00:05:13,019
+So if you're in the email
+
+197
+00:05:13,029 --> 00:05:14,610
+marketing path, pause the video
+
+198
+00:05:14,660 --> 00:05:16,370
+throughout this, um, and just look
+
+199
+00:05:16,439 --> 00:05:18,459
+at the copy that they're using
+
+200
+00:05:18,470 --> 00:05:20,459
+for emails one, two, and three
+
+201
+00:05:20,459 --> 00:05:22,300
+along with the subject lines
+
+202
+00:05:22,300 --> 00:05:24,300
+question for Jennifer question
+
+203
+00:05:24,300 --> 00:05:24,920
+for.
+
+204
+00:05:24,920 --> 00:05:25,220
+So it's the
+
+205
+00:05:25,269 --> 00:05:26,470
+same subject line.
+
+206
+00:05:26,480 --> 00:05:28,360
+Um, pause the video, write down
+
+207
+00:05:28,360 --> 00:05:30,310
+the copy, add your own tweaks into
+
+208
+00:05:30,310 --> 00:05:31,339
+it and use these
+
+209
+00:05:31,350 --> 00:05:33,370
+messages in your outreach because
+
+210
+00:05:33,370 --> 00:05:34,839
+it's working for an email
+
+211
+00:05:34,839 --> 00:05:36,540
+marketing client of mine.
+
+212
+00:05:36,540 --> 00:05:38,779
+Now let's get into the
+
+213
+00:05:38,790 --> 00:05:40,860
+content side of things because
+
+214
+00:05:40,860 --> 00:05:42,980
+this client of ours sells, um,
+
+215
+00:05:43,050 --> 00:05:44,860
+LinkedIn content and ghost
+
+216
+00:05:44,860 --> 00:05:45,100
+writing,
+
+217
+00:05:45,110 --> 00:05:46,100
+which is very similar to what
+
+218
+00:05:46,100 --> 00:05:46,829
+you'll be selling.
+
+219
+00:05:46,829 --> 00:05:47,939
+If you're following the content
+
+220
+00:05:47,939 --> 00:05:48,300
+path,
+
+221
+00:05:48,310 --> 00:05:51,850
+I actually want to see which of
+
+222
+00:05:51,850 --> 00:05:54,610
+their email ones got positive
+
+223
+00:05:54,680 --> 00:05:55,420
+replies.
+
+224
+00:05:55,430 --> 00:05:57,220
+It looks like email one D is the
+
+225
+00:05:57,220 --> 00:05:57,860
+winner.
+
+226
+00:05:57,860 --> 00:05:59,519
+So let's see what email one D
+
+227
+00:05:59,519 --> 00:06:00,699
+actually says.
+
+228
+00:06:01,420 --> 00:06:04,259
+Um, okay.
+
+229
+00:06:04,290 --> 00:06:06,379
+Your competitors are getting leads
+
+230
+00:06:06,379 --> 00:06:07,470
+from LinkedIn and they're probably
+
+231
+00:06:07,550 --> 00:06:08,209
+not as qualified
+
+232
+00:06:08,230 --> 00:06:08,910
+as you are.
+
+233
+00:06:08,939 --> 00:06:10,600
+We write content that positions
+
+234
+00:06:10,600 --> 00:06:12,540
+coaches and consultants as the
+
+235
+00:06:12,579 --> 00:06:14,459
+go-to expert in their niche.
+
+236
+00:06:14,470 --> 00:06:17,250
+One client got 63 leads in 30 days
+
+237
+00:06:17,279 --> 00:06:18,060
+offer.
+
+238
+00:06:18,060 --> 00:06:19,579
+We write content that does X, Y,
+
+239
+00:06:19,579 --> 00:06:19,819
+and Z.
+
+240
+00:06:19,819 --> 00:06:20,459
+One of our clients
+
+241
+00:06:20,470 --> 00:06:21,180
+got this result.
+
+242
+00:06:21,180 --> 00:06:22,639
+Want me to send over a video
+
+243
+00:06:22,639 --> 00:06:24,449
+outlining how we would do this for
+
+244
+00:06:24,519 --> 00:06:25,500
+your company.
+
+245
+00:06:26,149 --> 00:06:26,850
+That's it.
+
+246
+00:06:26,860 --> 00:06:28,389
+Direct offer video pitch.
+
+247
+00:06:28,389 --> 00:06:29,660
+One of the puzzle piece
+
+248
+00:06:29,660 --> 00:06:30,819
+combinations that I showed you in
+
+249
+00:06:30,860 --> 00:06:30,939
+the
+
+250
+00:06:30,949 --> 00:06:32,019
+previous video.
+
+251
+00:06:32,019 --> 00:06:34,240
+Once again, cause it works, right?
+
+252
+00:06:34,240 --> 00:06:36,220
+So pause this, take a note of what
+
+253
+00:06:36,220 --> 00:06:36,819
+this person is
+
+254
+00:06:36,870 --> 00:06:38,720
+saying in the email.
+
+255
+00:06:38,769 --> 00:06:41,540
+Um, and we'll move on to email two
+
+256
+00:06:41,579 --> 00:06:42,699
+and three.
+
+257
+00:06:42,699 --> 00:06:44,379
+So two B and three B are each
+
+258
+00:06:44,540 --> 00:06:44,779
+doing
+
+259
+00:06:45,500 --> 00:06:47,490
+very well.
+
+260
+00:06:47,490 --> 00:06:49,800
+Email two B we help business
+
+261
+00:06:49,800 --> 00:06:52,800
+consultants eliminate the content
+
+262
+00:06:52,800 --> 00:06:54,290
+creation bottleneck.
+
+263
+00:06:54,439 --> 00:06:54,540
+That's
+
+264
+00:06:54,550 --> 00:06:56,029
+keeping them from scaling with
+
+265
+00:06:56,029 --> 00:06:56,939
+social content.
+
+266
+00:06:56,939 --> 00:06:58,709
+One client went from 12 to 50 K
+
+267
+00:06:58,899 --> 00:06:59,980
+months because LinkedIn
+
+268
+00:06:59,990 --> 00:07:01,709
+content brought him qualified
+
+269
+00:07:01,740 --> 00:07:02,250
+leads.
+
+270
+00:07:02,250 --> 00:07:03,680
+Want me to send over a video
+
+271
+00:07:03,680 --> 00:07:05,449
+outlining how we would do it for
+
+272
+00:07:05,490 --> 00:07:05,660
+you.
+
+273
+00:07:05,670 --> 00:07:07,629
+Same concept, pitching a video.
+
+274
+00:07:07,629 --> 00:07:09,389
+And I'm sure three B is similar as
+
+275
+00:07:09,389 --> 00:07:09,740
+well.
+
+276
+00:07:11,350 --> 00:07:12,430
+Who handles business development
+
+277
+00:07:12,430 --> 00:07:13,079
+for your company?
+
+278
+00:07:13,110 --> 00:07:14,689
+We help business consultants get
+
+279
+00:07:14,759 --> 00:07:15,420
+qualified LinkedIn
+
+280
+00:07:15,430 --> 00:07:16,370
+leads with content.
+
+281
+00:07:16,370 --> 00:07:17,259
+I recorded a video.
+
+282
+00:07:17,269 --> 00:07:18,750
+Mind if I send it over puzzle
+
+283
+00:07:18,750 --> 00:07:21,019
+pieces, once again, hook offer,
+
+284
+00:07:21,029 --> 00:07:23,069
+how are you, are you pitching a
+
+285
+00:07:23,069 --> 00:07:24,259
+lead magnet or a video?
+
+286
+00:07:24,300 --> 00:07:25,660
+And it works over and over again
+
+287
+00:07:25,660 --> 00:07:26,139
+for all of
+
+288
+00:07:26,149 --> 00:07:27,350
+the business paths that we offer
+
+289
+00:07:27,500 --> 00:07:28,220
+in this program.
+
+290
+00:07:28,220 --> 00:07:31,009
+Um, the signature, once again,
+
+291
+00:07:31,009 --> 00:07:31,660
+very simple.
+
+292
+00:07:31,660 --> 00:07:31,899
+First and
+
+293
+00:07:31,910 --> 00:07:33,279
+last name, company name, please
+
+294
+00:07:33,279 --> 00:07:34,600
+reply, apply no thanks if you're
+
+295
+00:07:34,600 --> 00:07:35,500
+not interested.
+
+296
+00:07:35,500 --> 00:07:36,939
+And the subject
+
+297
+00:07:37,600 --> 00:07:40,699
+line is, um, so in the email
+
+298
+00:07:40,750 --> 00:07:43,509
+marketing path, they used question
+
+299
+00:07:43,509 --> 00:07:45,180
+for first name as a subject line
+
+300
+00:07:45,189 --> 00:07:46,959
+in the ghost writing path and the
+
+301
+00:07:46,959 --> 00:07:47,870
+content path.
+
+302
+00:07:47,870 --> 00:07:49,769
+They they're using LinkedIn leads
+
+303
+00:07:49,769 --> 00:07:50,779
+for consultants.
+
+304
+00:07:50,790 --> 00:07:52,939
+They're using two things about
+
+305
+00:07:52,949 --> 00:07:55,649
+LinkedIn, um, company name, X
+
+306
+00:07:55,649 --> 00:07:57,980
+company, new pipeline, very simple
+
+307
+00:07:57,980 --> 00:07:58,300
+subject
+
+308
+00:07:58,389 --> 00:07:59,600
+lines that you don't really need
+
+309
+00:07:59,639 --> 00:08:00,329
+to worry about.
+
+310
+00:08:00,329 --> 00:08:01,720
+I'll throw a list of subject lines
+
+311
+00:08:01,800 --> 00:08:02,540
+down below in the
+
+312
+00:08:03,250 --> 00:08:03,509
+comments.
+
+313
+00:08:03,509 --> 00:08:05,750
+Um, okay, ads and funnels.
+
+314
+00:08:05,750 --> 00:08:07,600
+So this client sells lead
+
+315
+00:08:07,600 --> 00:08:09,980
+generation to real estate and the
+
+316
+00:08:09,980 --> 00:08:10,060
+way
+
+317
+00:08:10,149 --> 00:08:12,220
+that they're pitching their ads
+
+318
+00:08:12,300 --> 00:08:14,660
+are with, um, are with just
+
+319
+00:08:14,660 --> 00:08:17,579
+benefit based messaging.
+
+320
+00:08:17,579 --> 00:08:18,459
+So let's see which
+
+321
+00:08:18,470 --> 00:08:20,120
+angle is working here.
+
+322
+00:08:20,120 --> 00:08:22,560
+Um, first name X, your agency
+
+323
+00:08:22,560 --> 00:08:23,230
+name.
+
+324
+00:08:23,230 --> 00:08:25,420
+So if you're watching this and you
+
+325
+00:08:25,420 --> 00:08:25,579
+want to
+
+326
+00:08:25,589 --> 00:08:28,519
+make a good subject line, just do
+
+327
+00:08:28,519 --> 00:08:31,339
+Christian X email agency intro
+
+328
+00:08:31,339 --> 00:08:34,570
+seller leads, um, new pipeline,
+
+329
+00:08:34,710 --> 00:08:35,070
+right?
+
+330
+00:08:35,070 --> 00:08:36,480
+That's a really good subject line.
+
+331
+00:08:36,480 --> 00:08:37,750
+Another really good subject line
+
+332
+00:08:37,750 --> 00:08:39,418
+is just need seller leads,
+
+333
+00:08:39,429 --> 00:08:41,389
+need content, need email marketing
+
+334
+00:08:41,389 --> 00:08:42,759
+help, stuff like that.
+
+335
+00:08:42,759 --> 00:08:43,980
+Um, but let's see what the actual
+
+336
+00:08:43,980 --> 00:08:44,700
+message says.
+
+337
+00:08:45,909 --> 00:08:47,120
+We've helped hundreds of real
+
+338
+00:08:47,259 --> 00:08:48,539
+estate agents or investors find
+
+339
+00:08:48,559 --> 00:08:50,059
+sellers over the past five years.
+
+340
+00:08:50,070 --> 00:08:51,230
+Our leads come from people
+
+341
+00:08:51,230 --> 00:08:52,610
+actively looking to sell their
+
+342
+00:08:52,610 --> 00:08:53,980
+properties, giving you higher
+
+343
+00:08:53,980 --> 00:08:54,379
+conversion
+
+344
+00:08:54,389 --> 00:08:55,600
+rates than cold prospects.
+
+345
+00:08:55,740 --> 00:08:57,820
+We compete on price and volume.
+
+346
+00:08:57,820 --> 00:08:59,179
+So you get more leads for less
+
+347
+00:08:59,179 --> 00:08:59,659
+money.
+
+348
+00:08:59,669 --> 00:09:01,690
+Interested in seeing what leads we
+
+349
+00:09:01,690 --> 00:09:02,889
+have in your area.
+
+350
+00:09:02,940 --> 00:09:04,539
+This is a good call to action that
+
+351
+00:09:04,539 --> 00:09:05,129
+I haven't talked
+
+352
+00:09:05,190 --> 00:09:05,919
+about yet.
+
+353
+00:09:05,919 --> 00:09:07,789
+Instead of pitching a lead magnet
+
+354
+00:09:07,789 --> 00:09:09,639
+or a video, I mean, this is a lead
+
+355
+00:09:09,639 --> 00:09:10,940
+magnet, but interested
+
+356
+00:09:10,950 --> 00:09:12,379
+in seeing what leads we have
+
+357
+00:09:12,440 --> 00:09:14,169
+available in your area that create
+
+358
+00:09:14,220 --> 00:09:15,820
+that intrigue is getting people
+
+359
+00:09:15,830 --> 00:09:16,980
+to say, yeah, I want to learn
+
+360
+00:09:16,980 --> 00:09:17,309
+more.
+
+361
+00:09:17,320 --> 00:09:18,539
+Cause what leads do you have?
+
+362
+00:09:18,539 --> 00:09:19,659
+I'm very interested.
+
+363
+00:09:19,659 --> 00:09:19,899
+Right?
+
+364
+00:09:19,899 --> 00:09:20,700
+So
+
+365
+00:09:21,350 --> 00:09:22,220
+direct offer.
+
+366
+00:09:22,220 --> 00:09:25,379
+We help investors find sellers.
+
+367
+00:09:25,419 --> 00:09:27,340
+Good call to action.
+
+368
+00:09:27,340 --> 00:09:28,220
+Do you want to see what leads
+
+369
+00:09:28,309 --> 00:09:30,110
+we have available in your area?
+
+370
+00:09:30,110 --> 00:09:30,600
+Right?
+
+371
+00:09:30,639 --> 00:09:32,220
+Same thing with email too.
+
+372
+00:09:32,220 --> 00:09:33,980
+Most companies charge premium
+
+373
+00:09:33,990 --> 00:09:35,629
+prices for low quality prospects,
+
+374
+00:09:35,629 --> 00:09:36,840
+but we compete on price and
+
+375
+00:09:36,840 --> 00:09:37,320
+volume.
+
+376
+00:09:37,320 --> 00:09:39,100
+Our leads are motivated homeowners
+
+377
+00:09:39,110 --> 00:09:40,629
+looking to sell, giving you better
+
+378
+00:09:40,629 --> 00:09:42,110
+conversions and cold outreach.
+
+379
+00:09:42,110 --> 00:09:43,419
+Mind if I send over our current
+
+380
+00:09:43,429 --> 00:09:44,620
+pricing and inventory?
+
+381
+00:09:44,620 --> 00:09:46,860
+Thanks name of the business or
+
+382
+00:09:46,860 --> 00:09:48,889
+first and last name, name of the
+
+383
+00:09:49,090 --> 00:09:49,879
+business.
+
+384
+00:09:49,980 --> 00:09:50,179
+Right?
+
+385
+00:09:51,669 --> 00:09:54,100
+Um, once again, the puzzle pieces
+
+386
+00:09:54,100 --> 00:09:56,220
+are the same, no matter which
+
+387
+00:09:56,220 --> 00:09:57,500
+service you're selling,
+
+388
+00:09:57,509 --> 00:09:58,299
+right?
+
+389
+00:09:58,299 --> 00:09:59,559
+Email three who handles lead
+
+390
+00:09:59,559 --> 00:10:01,029
+acquisition for your real estate
+
+391
+00:10:01,029 --> 00:10:01,490
+deals.
+
+392
+00:10:01,500 --> 00:10:02,620
+We provide high quality
+
+393
+00:10:02,629 --> 00:10:04,919
+seller leads to investors.
+
+394
+00:10:04,960 --> 00:10:06,789
+Um, we're helping several
+
+395
+00:10:06,889 --> 00:10:08,879
+investors get motivated seller
+
+396
+00:10:08,879 --> 00:10:09,820
+leads this month.
+
+397
+00:10:09,830 --> 00:10:11,039
+I've put together our current lead
+
+398
+00:10:11,179 --> 00:10:12,120
+selection and rates for your
+
+399
+00:10:12,159 --> 00:10:12,610
+market.
+
+400
+00:10:12,639 --> 00:10:13,740
+Would it be valuable if I share
+
+401
+00:10:13,750 --> 00:10:14,950
+that with you here?
+
+402
+00:10:15,000 --> 00:10:17,039
+So if you're running, um, ads and
+
+403
+00:10:17,039 --> 00:10:19,820
+funnels as a, uh, you know, agency
+
+404
+00:10:19,820 --> 00:10:20,200
+path,
+
+405
+00:10:20,230 --> 00:10:21,710
+pause this and check out what's
+
+406
+00:10:21,720 --> 00:10:22,960
+working for this specific
+
+407
+00:10:22,960 --> 00:10:23,659
+business.
+
+408
+00:10:23,659 --> 00:10:24,779
+Because in this case,
+
+409
+00:10:24,789 --> 00:10:25,789
+they're not even mentioning the
+
+410
+00:10:25,789 --> 00:10:26,799
+fact that they're running ads or
+
+411
+00:10:26,799 --> 00:10:28,220
+just saying what they can get for
+
+412
+00:10:28,230 --> 00:10:30,139
+the business motivated seller
+
+413
+00:10:30,139 --> 00:10:32,389
+leads, dental leads, um, whatever
+
+414
+00:10:32,490 --> 00:10:34,100
+type of business model you're
+
+415
+00:10:34,210 --> 00:10:34,460
+reaching
+
+416
+00:10:34,470 --> 00:10:34,860
+out to.
+
+417
+00:10:34,860 --> 00:10:35,870
+It could be an agency.
+
+418
+00:10:35,870 --> 00:10:37,080
+You could be reaching out the
+
+419
+00:10:37,080 --> 00:10:37,639
+software.
+
+420
+00:10:37,639 --> 00:10:38,620
+You could be working
+
+421
+00:10:38,629 --> 00:10:39,789
+with consultants.
+
+422
+00:10:39,789 --> 00:10:41,539
+Just take this, you know, keep
+
+423
+00:10:41,539 --> 00:10:43,279
+this in mind when you're writing
+
+424
+00:10:43,279 --> 00:10:44,090
+your emails,
+
+425
+00:10:44,149 --> 00:10:45,220
+you can still do a lead magnet
+
+426
+00:10:45,269 --> 00:10:46,710
+approach and say, Hey, I put
+
+427
+00:10:46,710 --> 00:10:49,419
+together a list of five ad scripts
+
+428
+00:10:49,419 --> 00:10:49,899
+or a list
+
+429
+00:10:49,909 --> 00:10:51,110
+of five templates or a funnel
+
+430
+00:10:51,259 --> 00:10:51,889
+build out.
+
+431
+00:10:51,889 --> 00:10:53,789
+That's still going to work, but
+
+432
+00:10:53,789 --> 00:10:55,740
+you can also go benefit
+
+433
+00:10:55,750 --> 00:10:57,370
+heavy and say, Hey, we can get you
+
+434
+00:10:57,379 --> 00:10:59,059
+25 seller leads in your market
+
+435
+00:10:59,059 --> 00:11:00,620
+this month, fully guaranteed,
+
+436
+00:11:00,629 --> 00:11:01,799
+or you don't pay.
+
+437
+00:11:01,799 --> 00:11:03,860
+Um, you know, do you want to see a
+
+438
+00:11:03,899 --> 00:11:04,539
+video?
+
+439
+00:11:04,539 --> 00:11:07,259
+So I'm just giving you examples of
+
+440
+00:11:07,269 --> 00:11:08,080
+campaigns that are actively
+
+441
+00:11:08,110 --> 00:11:08,460
+working.
+
+442
+00:11:08,460 --> 00:11:10,350
+So you see real world applications
+
+443
+00:11:10,350 --> 00:11:11,820
+of what I just taught you on the
+
+444
+00:11:11,830 --> 00:11:12,899
+previous video.
+
+445
+00:11:12,899 --> 00:11:14,570
+If you want to go off on your own
+
+446
+00:11:14,570 --> 00:11:16,460
+and try new stuff by all means,
+
+447
+00:11:16,460 --> 00:11:17,289
+please do.
+
+448
+00:11:17,429 --> 00:11:18,580
+But I'm just showing you what's
+
+449
+00:11:18,580 --> 00:11:20,269
+worked for actual business owners,
+
+450
+00:11:20,269 --> 00:11:22,539
+um, in our client base.
+
+451
+00:11:22,539 --> 00:11:22,889
+So
+
+452
+00:11:22,950 --> 00:11:27,019
+AI automations, a lot of you, you
+
+453
+00:11:27,019 --> 00:11:28,820
+know, chose the AI automations
+
+454
+00:11:28,929 --> 00:11:30,299
+path probably, and you want to see
+
+455
+00:11:30,309 --> 00:11:32,029
+what's working for that, um,
+
+456
+00:11:32,029 --> 00:11:33,769
+agency path over cold email.
+
+457
+00:11:33,769 --> 00:11:34,620
+Here you go.
+
+458
+00:11:34,659 --> 00:11:36,940
+We can guarantee you five new
+
+459
+00:11:36,950 --> 00:11:38,379
+clients a month with our AI sales
+
+460
+00:11:38,429 --> 00:11:38,940
+system.
+
+461
+00:11:38,940 --> 00:11:42,259
+We use N8N chat GPT and make to
+
+462
+00:11:42,259 --> 00:11:43,340
+automate nurturing,
+
+463
+00:11:43,350 --> 00:11:45,259
+follow-ups and meeting scheduling.
+
+464
+00:11:45,259 --> 00:11:46,940
+So your team can focus on closing
+
+465
+00:11:46,940 --> 00:11:47,330
+deals.
+
+466
+00:11:47,340 --> 00:11:49,580
+I created a quick video
+
+467
+00:11:49,590 --> 00:11:50,669
+showing you exactly how this
+
+468
+00:11:50,730 --> 00:11:51,110
+works.
+
+469
+00:11:51,110 --> 00:11:52,059
+Do you want to see it?
+
+470
+00:11:52,059 --> 00:11:54,460
+Same principle that I've been
+
+471
+00:11:54,539 --> 00:11:55,049
+showing you the
+
+472
+00:11:55,110 --> 00:11:58,110
+whole time, direct offer video
+
+473
+00:11:58,110 --> 00:12:00,870
+pitch, go for the, the, the
+
+474
+00:12:00,870 --> 00:12:02,940
+response, right?
+
+475
+00:12:05,590 --> 00:12:07,169
+Here's a different way to, to
+
+476
+00:12:07,220 --> 00:12:09,019
+structure the same thing.
+
+477
+00:12:09,019 --> 00:12:10,860
+I created a video demonstrating
+
+478
+00:12:10,860 --> 00:12:11,580
+how our AI
+
+479
+00:12:11,590 --> 00:12:13,639
+sales system helps companies sign
+
+480
+00:12:13,639 --> 00:12:15,279
+five extra clients every month.
+
+481
+00:12:15,279 --> 00:12:16,220
+Guaranteed.
+
+482
+00:12:16,220 --> 00:12:17,340
+The video shows
+
+483
+00:12:17,350 --> 00:12:18,559
+how we use N8N chat GPT and make
+
+484
+00:12:18,700 --> 00:12:20,190
+to automate your qualification and
+
+485
+00:12:20,190 --> 00:12:20,860
+follow-ups.
+
+486
+00:12:20,860 --> 00:12:21,419
+Do you want to see
+
+487
+00:12:21,429 --> 00:12:21,820
+the demo?
+
+488
+00:12:21,820 --> 00:12:23,710
+So here, I mean, hopefully this
+
+489
+00:12:23,720 --> 00:12:25,279
+video gives you context.
+
+490
+00:12:25,279 --> 00:12:27,299
+Like the video that I did
+
+491
+00:12:27,409 --> 00:12:27,879
+previously
+
+492
+00:12:27,909 --> 00:12:29,870
+showed you the templates of how to
+
+493
+00:12:29,870 --> 00:12:31,409
+write good cold emails.
+
+494
+00:12:31,409 --> 00:12:33,259
+This video shows you the actual
+
+495
+00:12:33,259 --> 00:12:33,980
+cold emails
+
+496
+00:12:33,990 --> 00:12:34,570
+in action.
+
+497
+00:12:34,700 --> 00:12:36,000
+Like here's a good, I want to go
+
+498
+00:12:36,000 --> 00:12:37,659
+through the inbox here real quick
+
+499
+00:12:37,659 --> 00:12:39,110
+to show you what prospects
+
+500
+00:12:39,190 --> 00:12:41,610
+will actually respond with when
+
+501
+00:12:41,610 --> 00:12:43,740
+you use these templates.
+
+502
+00:12:43,740 --> 00:12:47,100
+So this is the campaign.
+
+503
+00:12:47,100 --> 00:12:48,059
+Let's go to interested.
+
+504
+00:12:50,870 --> 00:12:51,210
+Okay.
+
+505
+00:12:51,220 --> 00:12:52,600
+Here's the email marketing path
+
+506
+00:12:52,629 --> 00:12:53,970
+with actual responses in their
+
+507
+00:12:53,970 --> 00:12:55,029
+inbox.
+
+508
+00:12:55,129 --> 00:12:55,659
+Um,
+
+509
+00:12:55,669 --> 00:12:57,210
+I read it just now.
+
+510
+00:12:57,210 --> 00:12:59,309
+My week is usually short.
+
+511
+00:12:59,309 --> 00:13:01,419
+I'm making this for review
+
+512
+00:13:01,429 --> 00:13:03,279
+next week when I have more time.
+
+513
+00:13:03,330 --> 00:13:04,139
+Okay, great.
+
+514
+00:13:04,149 --> 00:13:08,820
+Um, this guy said, would love to
+
+515
+00:13:08,860 --> 00:13:10,019
+have a call about this.
+
+516
+00:13:10,129 --> 00:13:10,860
+Let me know.
+
+517
+00:13:10,860 --> 00:13:11,580
+Good response.
+
+518
+00:13:11,580 --> 00:13:13,580
+Daniel said,
+
+519
+00:13:13,590 --> 00:13:14,789
+can you give me a ballpark pricing
+
+520
+00:13:14,940 --> 00:13:15,500
+structure?
+
+521
+00:13:15,500 --> 00:13:16,769
+Um, it looks great.
+
+522
+00:13:16,769 --> 00:13:17,659
+Stuff like that.
+
+523
+00:13:18,470 --> 00:13:20,139
+Jay said, we will contact you
+
+524
+00:13:20,139 --> 00:13:22,519
+after they've had time to review.
+
+525
+00:13:22,529 --> 00:13:26,509
+Amy said, okay, yes, please.
+
+526
+00:13:26,549 --> 00:13:28,100
+So like you can see when you have
+
+527
+00:13:28,100 --> 00:13:29,759
+a really good pitch with a lead
+
+528
+00:13:29,759 --> 00:13:31,659
+magnet or a video or a redesign
+
+529
+00:13:31,669 --> 00:13:33,690
+of an email template, people will
+
+530
+00:13:33,690 --> 00:13:35,500
+respond with interest and they
+
+531
+00:13:35,509 --> 00:13:36,940
+want to learn more from you.
+
+532
+00:13:36,950 --> 00:13:37,799
+And they're actually excited to
+
+533
+00:13:37,830 --> 00:13:39,129
+hear from you, even though you're
+
+534
+00:13:39,129 --> 00:13:39,980
+a complete stranger.
+
+535
+00:13:39,990 --> 00:13:40,259
+Sure.
+
+536
+00:13:40,259 --> 00:13:40,700
+Go ahead.
+
+537
+00:13:40,700 --> 00:13:41,059
+Thanks.
+
+538
+00:13:41,110 --> 00:13:42,059
+Exclamation point.
+
+539
+00:13:42,139 --> 00:13:42,769
+They're excited.
+
+540
+00:13:42,799 --> 00:13:43,659
+Sure.
+
+541
+00:13:43,659 --> 00:13:45,340
+Good answer.
+
+542
+00:13:45,340 --> 00:13:46,460
+Linda said,
+
+543
+00:13:46,470 --> 00:13:47,210
+okay, I'll bite.
+
+544
+00:13:47,210 --> 00:13:48,470
+I'd love to see your improvements
+
+545
+00:13:48,470 --> 00:13:49,419
+to my welcome email.
+
+546
+00:13:49,429 --> 00:13:50,950
+Corey said, sure.
+
+547
+00:13:50,950 --> 00:13:52,620
+Would love to see it.
+
+548
+00:13:52,620 --> 00:13:56,409
+Janice said, um, okay, they can't
+
+549
+00:13:56,409 --> 00:13:56,779
+afford it.
+
+550
+00:13:56,779 --> 00:13:57,340
+That's not our
+
+551
+00:13:57,350 --> 00:13:57,820
+fault.
+
+552
+00:13:58,059 --> 00:13:59,379
+Adam said, feel free to send it
+
+553
+00:13:59,379 --> 00:13:59,799
+over.
+
+554
+00:13:59,799 --> 00:14:00,279
+Right.
+
+555
+00:14:00,279 --> 00:14:01,980
+So you guys, like I'm giving you a
+
+556
+00:14:01,980 --> 00:14:02,460
+behind the
+
+557
+00:14:02,470 --> 00:14:03,669
+scenes look of successful cold
+
+558
+00:14:03,679 --> 00:14:05,100
+outreach campaigns that my clients
+
+559
+00:14:05,100 --> 00:14:06,450
+are running with the exact
+
+560
+00:14:06,519 --> 00:14:06,940
+services
+
+561
+00:14:06,950 --> 00:14:07,980
+that you are selling.
+
+562
+00:14:07,980 --> 00:14:09,399
+All you have to do is replicate
+
+563
+00:14:09,399 --> 00:14:10,539
+what they're doing.
+
+564
+00:14:10,539 --> 00:14:11,980
+Go back in the video,
+
+565
+00:14:11,990 --> 00:14:13,419
+pause it, see what they're using
+
+566
+00:14:13,419 --> 00:14:15,110
+in their scripts, model your
+
+567
+00:14:15,110 --> 00:14:16,779
+scripts after their scripts.
+
+568
+00:14:16,789 --> 00:14:17,980
+Don't copy them word for word.
+
+569
+00:14:17,980 --> 00:14:19,190
+Think on your feet and you will be
+
+570
+00:14:19,190 --> 00:14:20,299
+able to get responses in your
+
+571
+00:14:20,299 --> 00:14:20,940
+inbox
+
+572
+00:14:20,950 --> 00:14:21,899
+that look like this.
+
+573
+00:14:21,899 --> 00:14:23,580
+I'll make a video going over the
+
+574
+00:14:23,600 --> 00:14:24,620
+technology stack.
+
+575
+00:14:24,620 --> 00:14:25,580
+So you actually,
+
+576
+00:14:25,590 --> 00:14:26,799
+you know, understand what the
+
+577
+00:14:26,809 --> 00:14:27,820
+hell's going on here.
+
+578
+00:14:27,820 --> 00:14:28,769
+Like, what are all these
+
+579
+00:14:28,769 --> 00:14:29,419
+responses?
+
+580
+00:14:29,429 --> 00:14:30,009
+What do I do?
+
+581
+00:14:30,139 --> 00:14:31,500
+How do I get people on the phone?
+
+582
+00:14:31,580 --> 00:14:32,379
+We will dive into that.
+
+583
+00:14:32,379 --> 00:14:33,580
+I'm just trying to build
+
+584
+00:14:33,590 --> 00:14:34,950
+the foundation for you of how to
+
+585
+00:14:34,950 --> 00:14:36,159
+write really good outreach
+
+586
+00:14:36,169 --> 00:14:37,399
+messages that actually get
+
+587
+00:14:37,399 --> 00:14:38,059
+answered.
+
+588
+00:14:38,070 --> 00:14:39,779
+So in the next video, I'm going to
+
+589
+00:14:39,779 --> 00:14:43,039
+go over, um, how to use AI to
+
+590
+00:14:43,039 --> 00:14:44,519
+write your scripts, because if
+
+591
+00:14:44,620 --> 00:14:44,779
+you're
+
+592
+00:14:45,409 --> 00:14:46,830
+watching this, like I said, I
+
+593
+00:14:46,830 --> 00:14:49,250
+wanted to give you, um, the, the
+
+594
+00:14:49,250 --> 00:14:51,899
+understanding of the actual skill.
+
+595
+00:14:51,909 --> 00:14:52,980
+I wanted to teach you how to
+
+596
+00:14:53,029 --> 00:14:54,299
+actually write cold outreach
+
+597
+00:14:54,299 --> 00:14:55,820
+messages before I show you how to
+
+598
+00:14:55,820 --> 00:14:56,539
+use AI,
+
+599
+00:14:56,549 --> 00:14:58,409
+because if you're using AI without
+
+600
+00:14:58,450 --> 00:15:00,379
+the actual skill underneath,
+
+601
+00:15:00,379 --> 00:15:01,419
+you're not going to know if the AI
+
+602
+00:15:01,500 --> 00:15:01,659
+is
+
+603
+00:15:01,669 --> 00:15:03,149
+giving you good or bad outputs and
+
+604
+00:15:03,159 --> 00:15:04,539
+it's going to be pointless.
+
+605
+00:15:04,539 --> 00:15:06,220
+So let's dive into the actual AI.
+
+606
+00:15:06,230 --> 00:15:08,299
+So you can basically supercharge
+
+607
+00:15:08,379 --> 00:15:10,539
+your messaging and create it in
+
+608
+00:15:10,580 --> 00:15:13,340
+seconds, um, with automation,
+
+609
+00:15:13,350 --> 00:15:14,539
+even though I just gave you
+
+610
+00:15:14,539 --> 00:15:15,419
+winning scripts.
+
+611
+00:15:15,500 --> 00:15:16,940
+Um, if you want to test new stuff,
+
+612
+00:15:16,940 --> 00:15:17,809
+this AI will show you
+
+613
+00:15:17,830 --> 00:15:19,230
+exactly how to do it.
+
+614
+00:15:19,230 --> 00:15:20,720
+So let's dive into the AI
+
+615
+00:15:20,720 --> 00:15:23,100
+copywriting video coming up next.

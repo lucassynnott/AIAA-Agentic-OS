@@ -1,0 +1,971 @@
+1
+00:00:00,160 --> 00:00:02,209
+All right hey guys so i just
+
+2
+00:00:02,220 --> 00:00:05,309
+wanted to go over a quick video on
+
+3
+00:00:05,490 --> 00:00:07,450
+like how we actually build up the
+
+4
+00:00:07,679 --> 00:00:09,029
+campaigns got some of you guys
+
+5
+00:00:09,029 --> 00:00:10,589
+asking me about this um so let's
+
+6
+00:00:10,589 --> 00:00:12,560
+go we're going to be building
+
+7
+00:00:12,720 --> 00:00:14,539
+this campaign for one of our
+
+8
+00:00:14,779 --> 00:00:17,210
+clients here and right now um it's
+
+9
+00:00:17,260 --> 00:00:20,550
+august 9th or august 8th 2025
+
+10
+00:00:20,719 --> 00:00:24,289
+and we are defaulting to our
+
+11
+00:00:24,289 --> 00:00:28,699
+typical cbo uh setup but we might
+
+12
+00:00:28,789 --> 00:00:32,000
+be changing this up um but anyways
+
+13
+00:00:32,109 --> 00:00:33,460
+we're going to build it up now and
+
+14
+00:00:33,460 --> 00:00:34,880
+it's just going to be like minor
+
+15
+00:00:34,979 --> 00:00:35,770
+tweaks like an abo with
+
+16
+00:00:36,159 --> 00:00:37,750
+individual ads potentially later
+
+17
+00:00:37,920 --> 00:00:39,299
+versus the cbo especially for
+
+18
+00:00:39,299 --> 00:00:40,770
+statics we're running statics
+
+19
+00:00:40,990 --> 00:00:41,039
+we're
+
+20
+00:00:41,200 --> 00:00:42,679
+probably going to be doing that
+
+21
+00:00:42,719 --> 00:00:44,380
+but anyways uh i'm just going to
+
+22
+00:00:44,380 --> 00:00:45,759
+start one from i'm not going to
+
+23
+00:00:45,759 --> 00:00:45,810
+start
+
+24
+00:00:46,039 --> 00:00:47,049
+one from like complete scratch i'm
+
+25
+00:00:47,049 --> 00:00:48,149
+just going to duplicate one out so
+
+26
+00:00:48,149 --> 00:00:49,119
+i'm going to duplicate this
+
+27
+00:00:49,280 --> 00:00:50,710
+one out here but i'll show you
+
+28
+00:00:50,710 --> 00:00:52,390
+guys what to do whenever we're
+
+29
+00:00:52,390 --> 00:00:54,799
+essentially making one so what we
+
+30
+00:00:54,929 --> 00:00:56,390
+do is if we're stepping into a
+
+31
+00:00:56,390 --> 00:00:58,070
+agency relationship with the
+
+32
+00:00:58,070 --> 00:00:59,880
+client we're going to do smo so we
+
+33
+00:01:00,049 --> 00:01:00,079
+just
+
+34
+00:01:00,240 --> 00:01:02,090
+want to tag our campaigns the
+
+35
+00:01:02,299 --> 00:01:04,290
+actual um campaign strategy so
+
+36
+00:01:04,290 --> 00:01:06,000
+we're doing cbo the event we're
+
+37
+00:01:06,159 --> 00:01:08,680
+optimizing around and then dct103
+
+38
+00:01:08,680 --> 00:01:10,430
+so what we do is we have these
+
+39
+00:01:10,430 --> 00:01:12,319
+tracking spreadsheets it's called
+
+40
+00:01:12,319 --> 00:01:12,400
+a
+
+41
+00:01:12,560 --> 00:01:14,319
+creative roadmap that basically
+
+42
+00:01:14,590 --> 00:01:16,129
+says okay cool this is going to be
+
+43
+00:01:16,129 --> 00:01:17,920
+the these set of ads inside of
+
+44
+00:01:17,920 --> 00:01:18,239
+this
+
+45
+00:01:18,299 --> 00:01:19,969
+dct this dynamic creative test so
+
+46
+00:01:20,459 --> 00:01:21,980
+essentially we're on test 103 so
+
+47
+00:01:22,030 --> 00:01:24,000
+batch 103 of ads for them
+
+48
+00:01:24,090 --> 00:01:25,219
+if you're just starting out it's
+
+49
+00:01:25,489 --> 00:01:27,200
+going to be batch 101 right and i
+
+50
+00:01:27,200 --> 00:01:29,579
+don't do batch number one two
+
+51
+00:01:29,640 --> 00:01:29,760
+three
+
+52
+00:01:29,920 --> 00:01:31,489
+because it doesn't like look as
+
+53
+00:01:31,489 --> 00:01:33,340
+clean so uh anyways we're going to
+
+54
+00:01:33,340 --> 00:01:35,120
+set the budget on their campaigns
+
+55
+00:01:35,200 --> 00:01:36,209
+so for these guys we're going to
+
+56
+00:01:36,209 --> 00:01:37,579
+launch this one at 500 bucks for
+
+57
+00:01:37,579 --> 00:01:40,560
+the day or per day and then we're
+
+58
+00:01:40,719 --> 00:01:41,819
+going to split between on interest
+
+59
+00:01:42,310 --> 00:01:43,930
+stack and broad for these guys in
+
+60
+00:01:43,930 --> 00:01:46,079
+particular we might do a lookalike
+
+61
+00:01:46,239 --> 00:01:47,299
+audience as well um i actually
+
+62
+00:01:47,700 --> 00:01:49,090
+might duplicate one of these out
+
+63
+00:01:49,090 --> 00:01:50,680
+and do a lookalike but anyways
+
+64
+00:01:50,780 --> 00:01:50,849
+we're
+
+65
+00:01:51,040 --> 00:01:52,099
+going to do interest stack website
+
+66
+00:01:52,379 --> 00:01:54,500
+max conversions we're going to
+
+67
+00:01:54,500 --> 00:01:56,959
+pick their pixel and we're going
+
+68
+00:01:56,959 --> 00:01:57,040
+to
+
+69
+00:01:57,200 --> 00:01:58,620
+choose the conversion event we're
+
+70
+00:01:58,620 --> 00:02:00,189
+doing schedule we're not doing any
+
+71
+00:02:00,189 --> 00:02:01,590
+cost per goal or anything we're
+
+72
+00:02:01,640 --> 00:02:01,760
+not
+
+73
+00:02:01,920 --> 00:02:03,680
+touching any of these down here
+
+74
+00:02:03,680 --> 00:02:06,980
+we're toggling dynamic creative on
+
+75
+00:02:07,250 --> 00:02:09,490
+right now and then in the audience
+
+76
+00:02:09,680 --> 00:02:10,719
+level we have our interest stack
+
+77
+00:02:10,719 --> 00:02:11,969
+here so this is the interest stack
+
+78
+00:02:11,969 --> 00:02:13,250
+we're using for them i actually
+
+79
+00:02:13,270 --> 00:02:13,300
+wanted
+
+80
+00:02:13,759 --> 00:02:16,680
+to domestic roof i think there's
+
+81
+00:02:16,680 --> 00:02:19,300
+like roof there's one other
+
+82
+00:02:19,300 --> 00:02:22,610
+targeting options that i wanted to
+
+83
+00:02:22,620 --> 00:02:23,080
+get on
+
+84
+00:02:23,439 --> 00:02:28,050
+here actually we already had it
+
+85
+00:02:28,770 --> 00:02:31,680
+domestic roof construction um on
+
+86
+00:02:31,699 --> 00:02:32,710
+this page
+
+87
+00:02:32,879 --> 00:02:36,330
+with interest stacks um i don't
+
+88
+00:02:36,330 --> 00:02:40,000
+really like to get too granular
+
+89
+00:02:40,000 --> 00:02:41,439
+with it all i literally do is just
+
+90
+00:02:41,439 --> 00:02:41,750
+slap
+
+91
+00:02:41,889 --> 00:02:43,580
+on as many different interests as
+
+92
+00:02:43,669 --> 00:02:45,439
+i can think of that will fit their
+
+93
+00:02:45,439 --> 00:02:47,599
+um essentially demographic
+
+94
+00:02:47,759 --> 00:02:48,710
+right i'm just like slapping
+
+95
+00:02:48,710 --> 00:02:50,159
+roofer building contractor general
+
+96
+00:02:50,159 --> 00:02:51,340
+contractor roofing domestic
+
+97
+00:02:51,599 --> 00:02:52,599
+roof construction roofing
+
+98
+00:02:52,599 --> 00:02:54,039
+contractor website business page
+
+99
+00:02:54,110 --> 00:02:55,840
+admins all right stuff like that
+
+100
+00:02:55,960 --> 00:02:59,199
+i'll be like small business owner
+
+101
+00:02:59,360 --> 00:03:08,669
+right there you go nice little
+
+102
+00:03:09,530 --> 00:03:10,560
+healthy size i usually like to get
+
+103
+00:03:10,560 --> 00:03:11,419
+this up towards like the seven
+
+104
+00:03:11,680 --> 00:03:12,740
+million 70 million plus but these
+
+105
+00:03:12,740 --> 00:03:14,090
+guys are only targeting roofing
+
+106
+00:03:14,090 --> 00:03:15,520
+contractors so you know 19 mil
+
+107
+00:03:15,620 --> 00:03:16,750
+is okay for the lower end and then
+
+108
+00:03:16,939 --> 00:03:18,310
+placements i'm going to go here
+
+109
+00:03:18,310 --> 00:03:19,759
+i'm going to turn off this piece
+
+110
+00:03:19,879 --> 00:03:21,009
+of shit audience network thing
+
+111
+00:03:21,289 --> 00:03:22,770
+because it just never gets any
+
+112
+00:03:22,770 --> 00:03:24,530
+good placements and then what i'm
+
+113
+00:03:24,719 --> 00:03:24,719
+going
+
+114
+00:03:24,860 --> 00:03:26,300
+to do here for these guys in
+
+115
+00:03:26,930 --> 00:03:28,250
+particular is we're going to add
+
+116
+00:03:28,250 --> 00:03:30,030
+in some of their new ads that we
+
+117
+00:03:30,210 --> 00:03:30,479
+have
+
+118
+00:03:32,719 --> 00:03:35,039
+for them so i'm actually going to
+
+119
+00:03:35,039 --> 00:03:37,030
+edit these and label them
+
+120
+00:03:37,169 --> 00:03:40,560
+i want to we basically change the
+
+121
+00:03:40,560 --> 00:03:43,590
+messaging in their ads to say
+
+122
+00:03:43,759 --> 00:03:45,560
+specifically like if you're using
+
+123
+00:03:45,810 --> 00:03:47,340
+this software called exactimate
+
+124
+00:03:47,669 --> 00:03:49,490
+so that's why i'm labeling them
+
+125
+00:03:49,740 --> 00:03:51,490
+just so in the actual library of
+
+126
+00:03:51,490 --> 00:03:52,289
+the ad account
+
+127
+00:03:52,639 --> 00:03:54,819
+and all the media i can see like
+
+128
+00:03:54,819 --> 00:03:56,889
+exactly what these are it just
+
+129
+00:03:56,889 --> 00:03:58,400
+keeps us very very uh
+
+130
+00:03:59,759 --> 00:04:00,819
+organized and then actually what
+
+131
+00:04:00,969 --> 00:04:03,330
+i'm going to do too is i'm going
+
+132
+00:04:03,680 --> 00:04:06,319
+to do dct one two three
+
+133
+00:04:06,479 --> 00:04:12,479
+all right keeps us super organized
+
+134
+00:04:12,479 --> 00:04:14,800
+it's the biggest thing when you're
+
+135
+00:04:14,800 --> 00:04:15,599
+launching ads to stay
+
+136
+00:04:15,759 --> 00:04:16,610
+organized because then you know
+
+137
+00:04:16,610 --> 00:04:18,050
+what's working you know it's not
+
+138
+00:04:18,050 --> 00:04:19,339
+working all that fun stuff
+
+139
+00:04:19,600 --> 00:04:21,040
+especially when you go in to
+
+140
+00:04:21,040 --> 00:04:22,240
+analyze the account
+
+141
+00:04:22,399 --> 00:04:24,009
+at later dates i've made the
+
+142
+00:04:24,459 --> 00:04:25,720
+mistake in the past of just
+
+143
+00:04:25,720 --> 00:04:26,839
+launching ads and not labeling
+
+144
+00:04:26,939 --> 00:04:27,439
+stuff you're like
+
+145
+00:04:27,600 --> 00:04:28,810
+like did i launch that one did i
+
+146
+00:04:28,810 --> 00:04:30,709
+not launch that one right let's be
+
+147
+00:04:30,709 --> 00:04:32,399
+able to let these upload and
+
+148
+00:04:32,560 --> 00:04:33,509
+then i'm going to show you guys
+
+149
+00:04:33,509 --> 00:04:34,709
+what we're doing on the copy side
+
+150
+00:04:34,709 --> 00:04:35,759
+so always make sure this is
+
+151
+00:04:35,759 --> 00:04:36,079
+checked
+
+152
+00:04:36,240 --> 00:04:38,050
+on optimize creative for each
+
+153
+00:04:38,300 --> 00:04:40,029
+person we have three pieces of
+
+154
+00:04:40,029 --> 00:04:43,759
+body copy we're not maxing it out
+
+155
+00:04:43,759 --> 00:04:44,000
+even
+
+156
+00:04:44,160 --> 00:04:45,470
+though these guys are at 500 a day
+
+157
+00:04:45,470 --> 00:04:46,540
+and spend on this respective
+
+158
+00:04:46,540 --> 00:04:47,769
+campaign we're not maxing out the
+
+159
+00:04:48,079 --> 00:04:50,399
+sets here we have five headlines
+
+160
+00:04:50,399 --> 00:04:52,509
+which honestly we could trim this
+
+161
+00:04:52,519 --> 00:04:54,319
+down i'm actually going to do some
+
+162
+00:04:54,319 --> 00:04:54,470
+right
+
+163
+00:04:54,720 --> 00:04:56,759
+so if we are going to do some
+
+164
+00:04:56,779 --> 00:05:00,000
+right now on using exact admit
+
+165
+00:05:00,160 --> 00:05:04,720
+we can get you paid more
+
+166
+00:05:04,879 --> 00:05:21,279
+for roofers who use exact admit
+
+167
+00:05:21,439 --> 00:05:38,120
+and of course we have our url
+
+168
+00:05:38,360 --> 00:05:40,850
+there we turned all these browser
+
+169
+00:05:40,850 --> 00:05:42,319
+add-ons on sometimes you're gonna
+
+170
+00:05:42,480 --> 00:05:43,540
+have like call and all this crap
+
+171
+00:05:43,750 --> 00:05:45,509
+added we usually just do learn
+
+172
+00:05:45,509 --> 00:05:47,839
+more this is our hyros code right
+
+173
+00:05:47,839 --> 00:05:48,000
+there
+
+174
+00:05:48,160 --> 00:05:50,920
+and some utms to pass through into
+
+175
+00:05:50,980 --> 00:05:51,600
+the crm
+
+176
+00:05:51,759 --> 00:05:55,339
+and yeah usually what we do here
+
+177
+00:05:55,589 --> 00:05:58,889
+is we have dct102 actually this
+
+178
+00:05:58,889 --> 00:06:00,480
+will be 103 because this is test
+
+179
+00:06:00,639 --> 00:06:02,790
+number three and then what i'm
+
+180
+00:06:02,790 --> 00:06:06,279
+going to do here once these upload
+
+181
+00:06:06,279 --> 00:06:08,959
+and all the copy is the same
+
+182
+00:06:09,750 --> 00:06:10,500
+what i'm going to do is what i'm
+
+183
+00:06:10,500 --> 00:06:11,410
+going to do is what i'm going to
+
+184
+00:06:11,410 --> 00:06:12,399
+do is just go into here
+
+185
+00:06:12,560 --> 00:06:14,720
+and once these are uploaded i'll
+
+186
+00:06:14,720 --> 00:06:16,709
+have those in there but what i'm
+
+187
+00:06:16,720 --> 00:06:17,439
+going to do is i'm going to
+
+188
+00:06:17,600 --> 00:06:19,009
+quick duplicate out this whole ad
+
+189
+00:06:19,009 --> 00:06:22,519
+set as well and we're going to do
+
+190
+00:06:22,910 --> 00:06:24,980
+the lookalike audience
+
+191
+00:06:27,519 --> 00:06:29,300
+that has performed relatively okay
+
+192
+00:06:29,579 --> 00:06:30,160
+in the account
+
+193
+00:06:30,319 --> 00:06:38,899
+it's the uh hubspot lookalike us
+
+194
+00:06:48,319 --> 00:06:58,459
+whoops so i don't want to layer on
+
+195
+00:06:58,550 --> 00:07:01,829
+the interest stack with it so i'm
+
+196
+00:07:01,829 --> 00:07:03,680
+just going to delete all these
+
+197
+00:07:03,810 --> 00:07:04,920
+so i only want to target the
+
+198
+00:07:05,110 --> 00:07:07,040
+lookalike audience with this one
+
+199
+00:07:09,920 --> 00:07:10,980
+there we go and in the interest
+
+200
+00:07:11,370 --> 00:07:13,360
+stack too we have advantage plus
+
+201
+00:07:13,360 --> 00:07:14,800
+on so we're using these as
+
+202
+00:07:14,959 --> 00:07:17,410
+suggestions right suggestions
+
+203
+00:07:17,470 --> 00:07:20,079
+because we want it to go beyond
+
+204
+00:07:20,290 --> 00:07:22,230
+these targeting options if we
+
+205
+00:07:22,230 --> 00:07:22,339
+choose
+
+206
+00:07:22,490 --> 00:07:23,620
+to do so you actually can't really
+
+207
+00:07:23,829 --> 00:07:24,779
+turn this on in most account or
+
+208
+00:07:24,779 --> 00:07:26,079
+turn this off in most accounts by
+
+209
+00:07:26,079 --> 00:07:26,139
+the
+
+210
+00:07:26,319 --> 00:07:27,970
+way anymore they're trying to push
+
+211
+00:07:27,980 --> 00:07:29,600
+you to more of a broad targeting
+
+212
+00:07:29,600 --> 00:07:29,899
+approach
+
+213
+00:07:30,319 --> 00:07:34,930
+we'll let that upload and then we
+
+214
+00:07:35,370 --> 00:07:37,100
+will launch these campaigns
+
+215
+00:07:37,360 --> 00:07:40,199
+so i'm going to pause it until we
+
+216
+00:07:40,199 --> 00:07:43,129
+launch all right cool now these
+
+217
+00:07:43,129 --> 00:07:44,170
+are in there we're just going to
+
+218
+00:07:44,329 --> 00:07:44,560
+select
+
+219
+00:07:44,720 --> 00:07:45,279
+these videos
+
+220
+00:07:53,160 --> 00:07:54,259
+if you want to edit the thumbnail
+
+221
+00:07:54,639 --> 00:07:56,470
+you can uh we don't really do that
+
+222
+00:07:56,470 --> 00:07:57,279
+too too much but if
+
+223
+00:07:57,360 --> 00:07:58,220
+it's something like this is a
+
+224
+00:07:58,220 --> 00:07:59,269
+thumbnail like obviously we're
+
+225
+00:07:59,459 --> 00:08:00,160
+going to probably want to switch
+
+226
+00:08:00,259 --> 00:08:00,480
+it to
+
+227
+00:08:00,639 --> 00:08:02,689
+something to where you know it's
+
+228
+00:08:02,699 --> 00:08:03,910
+like a human face
+
+229
+00:08:04,079 --> 00:08:10,850
+cool can i publish
+
+230
+00:08:23,199 --> 00:08:26,029
+and sometimes when you're on the
+
+231
+00:08:26,029 --> 00:08:27,589
+ad set or the ad level and you hit
+
+232
+00:08:27,589 --> 00:08:28,480
+publish it's only going to
+
+233
+00:08:28,639 --> 00:08:30,069
+publish like one of the actual ad
+
+234
+00:08:30,069 --> 00:08:31,540
+sets so you're going to want to go
+
+235
+00:08:31,540 --> 00:08:31,910
+to here
+
+236
+00:08:32,080 --> 00:08:35,038
+and i need to only do
+
+237
+00:08:35,200 --> 00:08:41,590
+publish a bunch of these but
+
+238
+00:08:41,840 --> 00:08:48,309
+it's bugging out a ton
+
+239
+00:08:51,759 --> 00:08:52,779
+these are all some old ads in
+
+240
+00:08:52,779 --> 00:08:54,159
+their account just trying to
+
+241
+00:08:54,159 --> 00:08:55,120
+unselect so
+
+242
+00:08:55,279 --> 00:08:58,860
+publish all those and we're going
+
+243
+00:08:59,139 --> 00:08:59,360
+to go

@@ -1,0 +1,1267 @@
+1
+00:00:00,240 --> 00:00:01,260
+What's up guys, Lucas here.
+
+2
+00:00:01,260 --> 00:00:01,980
+So today we're going to be looking
+
+3
+00:00:01,980 --> 00:00:03,169
+at the Facebook ad analysis
+
+4
+00:00:03,220 --> 00:00:03,819
+workflow.
+
+5
+00:00:04,240 --> 00:00:05,650
+Essentially what this does is it
+
+6
+00:00:05,650 --> 00:00:08,699
+lets you input a keyword for an ad
+
+7
+00:00:08,779 --> 00:00:09,509
+that you're creating
+
+8
+00:00:09,769 --> 00:00:10,960
+and it will then search the
+
+9
+00:00:10,990 --> 00:00:12,689
+Facebook ads library for any ads
+
+10
+00:00:12,689 --> 00:00:14,380
+that match those keywords.
+
+11
+00:00:14,589 --> 00:00:17,320
+It will analyze them and then help
+
+12
+00:00:17,320 --> 00:00:20,199
+you rewrite the copy to what kind
+
+13
+00:00:20,199 --> 00:00:21,089
+of personalize it for
+
+14
+00:00:21,390 --> 00:00:22,829
+your product or for your funnel
+
+15
+00:00:22,829 --> 00:00:24,250
+and then it will save it to a
+
+16
+00:00:24,250 --> 00:00:25,640
+Google Sheet for you.
+
+17
+00:00:26,469 --> 00:00:28,089
+This is very helpful for getting
+
+18
+00:00:28,140 --> 00:00:29,980
+ads in bulk and rewriting a bulk
+
+19
+00:00:30,019 --> 00:00:30,760
+and, you know, kind
+
+20
+00:00:30,879 --> 00:00:32,390
+of modifying it for your own sort
+
+21
+00:00:32,390 --> 00:00:34,009
+of use case for your, either for
+
+22
+00:00:34,009 --> 00:00:35,240
+your clients or for your
+
+23
+00:00:35,640 --> 00:00:38,079
+own ads and content.
+
+24
+00:00:38,210 --> 00:00:39,670
+So let's take a look at what we
+
+25
+00:00:39,670 --> 00:00:40,439
+have here.
+
+26
+00:00:40,460 --> 00:00:41,670
+As usual, I'm going to run through
+
+27
+00:00:41,670 --> 00:00:42,899
+the prerequisites you're going to
+
+28
+00:00:42,899 --> 00:00:43,570
+need for this.
+
+29
+00:00:43,619 --> 00:00:45,140
+I'm going to run through what each
+
+30
+00:00:45,170 --> 00:00:46,539
+node does and how it works.
+
+31
+00:00:46,659 --> 00:00:48,130
+So first of all, very simply,
+
+32
+00:00:48,130 --> 00:00:49,840
+you're going to need an account on
+
+33
+00:00:49,840 --> 00:00:51,600
+apify.com, apify.com.
+
+34
+00:00:51,810 --> 00:00:53,030
+This is the scraper we're going to
+
+35
+00:00:53,030 --> 00:00:54,340
+be using and I'll be giving you a
+
+36
+00:00:54,350 --> 00:00:55,119
+link to this.
+
+37
+00:00:55,119 --> 00:00:56,530
+I'll explain a little bit later
+
+38
+00:00:56,530 --> 00:00:58,109
+why you should take a look at this
+
+39
+00:00:58,109 --> 00:00:58,950
+page, but you will need
+
+40
+00:00:59,320 --> 00:01:01,649
+an apify account to sign up and
+
+41
+00:01:01,670 --> 00:01:05,060
+you are, it's connected over here
+
+42
+00:01:05,060 --> 00:01:06,879
+by just using apify account.
+
+43
+00:01:07,019 --> 00:01:08,739
+It's just a quick single sign in
+
+44
+00:01:08,739 --> 00:01:10,709
+button and you'll be good to go.
+
+45
+00:01:10,930 --> 00:01:11,879
+The next thing you're going to
+
+46
+00:01:11,900 --> 00:01:12,879
+need is a Google Sheet.
+
+47
+00:01:13,010 --> 00:01:14,040
+And I would suggest that again,
+
+48
+00:01:14,040 --> 00:01:15,030
+I'll be sharing this sheet as
+
+49
+00:01:15,129 --> 00:01:15,780
+well, but it's just
+
+50
+00:01:15,969 --> 00:01:17,530
+you just name it the exact same or
+
+51
+00:01:17,530 --> 00:01:19,019
+just copy this Facebook ads
+
+52
+00:01:19,019 --> 00:01:20,599
+library analyzer db.
+
+53
+00:01:21,069 --> 00:01:22,129
+And we're going to need all these
+
+54
+00:01:22,129 --> 00:01:22,819
+headers here.
+
+55
+00:01:22,819 --> 00:01:24,700
+I'll go through these later on and
+
+56
+00:01:24,700 --> 00:01:27,079
+explain why, but, uh, probably
+
+57
+00:01:27,209 --> 00:01:27,780
+just, I will make the
+
+58
+00:01:28,030 --> 00:01:29,069
+sheet available for copy and you
+
+59
+00:01:29,140 --> 00:01:30,480
+can just copy it to yours and then
+
+60
+00:01:30,480 --> 00:01:31,280
+just modify it.
+
+61
+00:01:31,280 --> 00:01:32,959
+Uh, I mean, you need to, so let's
+
+62
+00:01:32,959 --> 00:01:34,480
+start by going through each of the
+
+63
+00:01:34,480 --> 00:01:34,819
+nodes.
+
+64
+00:01:34,959 --> 00:01:36,500
+As usual, we have an on-form
+
+65
+00:01:36,500 --> 00:01:37,439
+submission.
+
+66
+00:01:37,579 --> 00:01:38,319
+This is a pretty basic one.
+
+67
+00:01:38,319 --> 00:01:39,609
+We're just using it for keywords.
+
+68
+00:01:39,780 --> 00:01:41,099
+Uh, that's all we need at the
+
+69
+00:01:41,099 --> 00:01:41,700
+moment.
+
+70
+00:01:42,040 --> 00:01:43,409
+So as you can see here, I already
+
+71
+00:01:43,420 --> 00:01:44,569
+have some data pinned.
+
+72
+00:01:44,579 --> 00:01:46,060
+I just searched athletic greens.
+
+73
+00:01:46,310 --> 00:01:47,519
+Cause I know that it's a popular,
+
+74
+00:01:47,519 --> 00:01:49,040
+uh, brand that runs many ads.
+
+75
+00:01:49,250 --> 00:01:51,400
+So then our apify ad library
+
+76
+00:01:51,469 --> 00:01:54,099
+scraper is going to search the
+
+77
+00:01:54,099 --> 00:01:55,840
+Facebook ad library for athletic
+
+78
+00:01:56,200 --> 00:01:56,359
+greens.
+
+79
+00:01:56,609 --> 00:01:58,719
+Now, if we go here, we've got, we
+
+80
+00:01:58,719 --> 00:02:00,189
+call the input J S O N.
+
+81
+00:02:00,540 --> 00:02:01,790
+And this is why I'm going to give
+
+82
+00:02:01,790 --> 00:02:03,250
+you a link to the apify ad scraper
+
+83
+00:02:03,250 --> 00:02:03,700
+page.
+
+84
+00:02:03,819 --> 00:02:05,260
+If you go back here, you can see
+
+85
+00:02:05,260 --> 00:02:07,239
+all these different, uh, settings
+
+86
+00:02:07,239 --> 00:02:07,359
+here.
+
+87
+00:02:07,489 --> 00:02:09,270
+So keywords, uh, the max results
+
+88
+00:02:09,270 --> 00:02:10,860
+per page, you can choose the
+
+89
+00:02:10,860 --> 00:02:12,710
+target countries, the language,
+
+90
+00:02:12,919 --> 00:02:14,319
+the publisher platforms, the
+
+91
+00:02:14,319 --> 00:02:16,060
+status filter, like active ads or
+
+92
+00:02:16,060 --> 00:02:18,599
+inactive ads, uh, the category
+
+93
+00:02:18,849 --> 00:02:20,210
+media, media type, the from date,
+
+94
+00:02:20,210 --> 00:02:21,699
+a ton of different stuff here.
+
+95
+00:02:21,870 --> 00:02:23,849
+So what I would suggest that you
+
+96
+00:02:23,949 --> 00:02:25,949
+do here is modify this for your
+
+97
+00:02:26,090 --> 00:02:27,139
+own use case.
+
+98
+00:02:27,370 --> 00:02:29,189
+The moment you have it just set to
+
+99
+00:02:29,189 --> 00:02:30,819
+look in all countries for a
+
+100
+00:02:30,819 --> 00:02:33,080
+maximum number of 100 ads
+
+101
+00:02:33,379 --> 00:02:35,050
+and just our search query.
+
+102
+00:02:35,240 --> 00:02:36,340
+So our keyword.
+
+103
+00:02:36,990 --> 00:02:38,379
+So maybe you want to set it to
+
+104
+00:02:38,409 --> 00:02:39,740
+only United States.
+
+105
+00:02:39,740 --> 00:02:41,550
+So maybe you want to get 500 ads,
+
+106
+00:02:41,550 --> 00:02:42,439
+not 100.
+
+107
+00:02:42,689 --> 00:02:44,590
+And, uh, maybe you want only
+
+108
+00:02:44,689 --> 00:02:46,250
+active ads or in specific
+
+109
+00:02:46,830 --> 00:02:47,180
+category.
+
+110
+00:02:47,430 --> 00:02:49,330
+Once you've set all these in here.
+
+111
+00:02:49,560 --> 00:02:52,310
+So let's say you do, uh, United
+
+112
+00:02:52,310 --> 00:02:53,169
+States.
+
+113
+00:02:53,590 --> 00:02:55,360
+And then let's say you only want
+
+114
+00:02:55,360 --> 00:02:57,900
+active ads, uh, say media types.
+
+115
+00:02:58,219 --> 00:03:00,900
+You only want, uh, video ads.
+
+116
+00:03:01,300 --> 00:03:03,509
+Once you do that, if you go up
+
+117
+00:03:03,509 --> 00:03:05,159
+here to this manual at J S O N,
+
+118
+00:03:05,289 --> 00:03:06,360
+click J S O N.
+
+119
+00:03:06,650 --> 00:03:08,860
+You can copy and paste this into
+
+120
+00:03:08,909 --> 00:03:11,939
+our API input JSON here like this.
+
+121
+00:03:12,090 --> 00:03:13,189
+Now, one thing we're going to
+
+122
+00:03:13,189 --> 00:03:14,729
+change here is after you do that.
+
+123
+00:03:14,860 --> 00:03:16,289
+So as you see, we drew over the
+
+124
+00:03:16,289 --> 00:03:18,240
+active status ads, the country,
+
+125
+00:03:18,240 --> 00:03:19,919
+the Microsoft is still a hundred
+
+126
+00:03:19,969 --> 00:03:22,259
+videos, but let's just under
+
+127
+00:03:22,259 --> 00:03:23,740
+search queries, remove this
+
+128
+00:03:23,740 --> 00:03:26,599
+keyword here and drag and drop
+
+129
+00:03:26,599 --> 00:03:28,180
+over our Facebook ad library
+
+130
+00:03:28,259 --> 00:03:28,620
+keyword.
+
+131
+00:03:28,789 --> 00:03:29,909
+And now you can see we're on a
+
+132
+00:03:29,909 --> 00:03:31,500
+search for athletic greens.
+
+133
+00:03:31,639 --> 00:03:33,319
+So I would consider making that
+
+134
+00:03:33,319 --> 00:03:34,830
+change or just using this to
+
+135
+00:03:34,930 --> 00:03:37,199
+basically, you know, determine the
+
+136
+00:03:37,199 --> 00:03:38,740
+different, uh, kind of, uh,
+
+137
+00:03:38,889 --> 00:03:40,400
+filters you want to set when
+
+138
+00:03:40,400 --> 00:03:41,500
+you're searching the ad library.
+
+139
+00:03:41,689 --> 00:03:44,490
+So with that done, then, uh, you,
+
+140
+00:03:44,490 --> 00:03:46,900
+we run this and it will scrape a
+
+141
+00:03:46,900 --> 00:03:48,740
+number of ads for us.
+
+142
+00:03:49,129 --> 00:03:50,560
+Then very simply, this is a wait
+
+143
+00:03:50,560 --> 00:03:51,030
+node.
+
+144
+00:03:51,080 --> 00:03:52,569
+It waits for about 10 seconds,
+
+145
+00:03:52,629 --> 00:03:53,819
+just to make sure that the data
+
+146
+00:03:53,830 --> 00:03:54,909
+set has been saved to API.
+
+147
+00:03:55,280 --> 00:03:56,819
+And then we get the data set just
+
+148
+00:03:56,819 --> 00:03:58,639
+there and you can see we got 50
+
+149
+00:03:58,699 --> 00:04:00,080
+items in, in total.
+
+150
+00:04:00,310 --> 00:04:02,090
+Now these are a ton of different
+
+151
+00:04:02,090 --> 00:04:04,169
+ads, including the ad URL, the
+
+152
+00:04:04,259 --> 00:04:06,560
+text, uh, the image, uh, of the
+
+153
+00:04:06,560 --> 00:04:07,319
+ads, stuff like that.
+
+154
+00:04:07,770 --> 00:04:09,569
+Then we filter it for likes.
+
+155
+00:04:09,780 --> 00:04:11,400
+We don't want to pull in every ad.
+
+156
+00:04:11,560 --> 00:04:12,860
+You know, there's a lot of ads by
+
+157
+00:04:12,860 --> 00:04:14,419
+many smaller Facebook pages.
+
+158
+00:04:14,539 --> 00:04:16,040
+It's very simply we just filter
+
+159
+00:04:16,040 --> 00:04:17,910
+that if the Facebook page has, uh,
+
+160
+00:04:17,910 --> 00:04:19,759
+more than a thousand likes on the
+
+161
+00:04:19,759 --> 00:04:21,839
+page, then we send those ads
+
+162
+00:04:21,839 --> 00:04:22,160
+through.
+
+163
+00:04:22,350 --> 00:04:24,480
+And then we go down from 50 to 13.
+
+164
+00:04:24,699 --> 00:04:26,279
+Now here's where it decides if
+
+165
+00:04:26,279 --> 00:04:28,000
+it's video image or text.
+
+166
+00:04:28,639 --> 00:04:29,560
+Let's start by going through
+
+167
+00:04:29,600 --> 00:04:29,990
+image.
+
+168
+00:04:30,000 --> 00:04:30,990
+So if it is in, actually I'll
+
+169
+00:04:31,000 --> 00:04:31,800
+start with video.
+
+170
+00:04:31,800 --> 00:04:32,680
+So we go through video.
+
+171
+00:04:32,850 --> 00:04:34,680
+If it's a video ad, it will send
+
+172
+00:04:34,680 --> 00:04:36,420
+it up here where we will download
+
+173
+00:04:36,420 --> 00:04:38,000
+the video from Facebook and upload
+
+174
+00:04:38,000 --> 00:04:39,720
+that video to Google drive.
+
+175
+00:04:40,120 --> 00:04:41,819
+After that, we will begin our
+
+176
+00:04:41,819 --> 00:04:43,550
+Gemini upload session.
+
+177
+00:04:43,879 --> 00:04:45,089
+Now, essentially the way this
+
+178
+00:04:45,100 --> 00:04:46,670
+works is that with Google Gemini,
+
+179
+00:04:46,670 --> 00:04:47,839
+you don't directly upload the
+
+180
+00:04:47,899 --> 00:04:48,120
+video.
+
+181
+00:04:48,360 --> 00:04:50,269
+You start a upload session to tell
+
+182
+00:04:50,370 --> 00:04:52,360
+the AI to prepare for something
+
+183
+00:04:52,509 --> 00:04:53,720
+being uploaded.
+
+184
+00:04:53,720 --> 00:04:54,959
+So one thing you're going to need
+
+185
+00:04:54,959 --> 00:04:56,220
+to set in here is your API key.
+
+186
+00:04:56,660 --> 00:04:57,920
+So by clicking here, you'll see
+
+187
+00:04:57,920 --> 00:04:59,019
+right here, the first query
+
+188
+00:04:59,089 --> 00:05:00,490
+parameter we have is key and your
+
+189
+00:05:00,720 --> 00:05:02,759
+API key goes here to get that.
+
+190
+00:05:02,949 --> 00:05:04,629
+You're going to go to just Google,
+
+191
+00:05:04,629 --> 00:05:05,759
+Google AI studio.
+
+192
+00:05:06,009 --> 00:05:07,629
+Once you find the Google AI studio
+
+193
+00:05:07,629 --> 00:05:09,319
+page, you will log in with your
+
+194
+00:05:09,370 --> 00:05:10,540
+Google account.
+
+195
+00:05:11,240 --> 00:05:12,850
+Then you'll go to dashboard API
+
+196
+00:05:12,910 --> 00:05:15,100
+keys, click create API key, and it
+
+197
+00:05:15,329 --> 00:05:17,040
+will ask you to either create or
+
+198
+00:05:17,040 --> 00:05:18,980
+choose from a previous project
+
+199
+00:05:18,980 --> 00:05:20,040
+that you had.
+
+200
+00:05:20,040 --> 00:05:21,509
+So you just do it there and create
+
+201
+00:05:21,509 --> 00:05:23,079
+an API key in existing project.
+
+202
+00:05:23,300 --> 00:05:25,160
+You'll get your API key, paste it
+
+203
+00:05:25,160 --> 00:05:26,910
+in here, and then this node will
+
+204
+00:05:27,139 --> 00:05:28,220
+work perfectly.
+
+205
+00:05:28,610 --> 00:05:30,259
+It will simply start a Gemini
+
+206
+00:05:30,259 --> 00:05:32,269
+upload session after the session
+
+207
+00:05:32,519 --> 00:05:33,439
+is uploaded.
+
+208
+00:05:33,439 --> 00:05:34,589
+It's now waiting for us to upload
+
+209
+00:05:34,589 --> 00:05:35,139
+the video.
+
+210
+00:05:35,259 --> 00:05:36,819
+So we're going to re-download the
+
+211
+00:05:36,819 --> 00:05:38,470
+video from Google drive and then
+
+212
+00:05:38,569 --> 00:05:40,319
+upload the video to Gemini for
+
+213
+00:05:40,410 --> 00:05:41,339
+processing.
+
+214
+00:05:41,720 --> 00:05:43,490
+Again, you'll need to put your API
+
+215
+00:05:43,589 --> 00:05:44,240
+key in here.
+
+216
+00:05:45,600 --> 00:05:47,089
+Then we wait till that's done, and
+
+217
+00:05:47,089 --> 00:05:49,209
+then we analyze the video with
+
+218
+00:05:49,430 --> 00:05:51,610
+Gemini, also need to put your API
+
+219
+00:05:51,769 --> 00:05:52,620
+key in here.
+
+220
+00:05:52,800 --> 00:05:54,250
+Gemini will analyze the video,
+
+221
+00:05:54,250 --> 00:05:55,149
+break it down.
+
+222
+00:05:55,160 --> 00:05:56,540
+We've got a prompt in here telling
+
+223
+00:05:56,569 --> 00:05:57,819
+it what we're looking for.
+
+224
+00:05:57,819 --> 00:05:58,980
+It's just going to describe the
+
+225
+00:05:58,980 --> 00:05:59,720
+video in detail.
+
+226
+00:06:00,810 --> 00:06:02,360
+Then when that's done, we output
+
+227
+00:06:02,360 --> 00:06:04,689
+the video summary to our AI over
+
+228
+00:06:04,949 --> 00:06:05,600
+here.
+
+229
+00:06:06,000 --> 00:06:08,509
+Now, this is the, uh, the
+
+230
+00:06:08,509 --> 00:06:10,300
+parenting about what it modifies.
+
+231
+00:06:10,449 --> 00:06:12,300
+So this is the one that says your
+
+232
+00:06:12,300 --> 00:06:14,029
+task is take an input as a script
+
+233
+00:06:14,029 --> 00:06:14,970
+JavaScript object from an
+
+234
+00:06:14,970 --> 00:06:16,000
+advertisement of the Facebook ad
+
+235
+00:06:16,089 --> 00:06:17,540
+library and then summarize it and
+
+236
+00:06:17,689 --> 00:06:19,459
+spin, repurpose, re-write the ad
+
+237
+00:06:19,459 --> 00:06:19,720
+copy.
+
+238
+00:06:19,850 --> 00:06:20,699
+You're doing this for Siege
+
+239
+00:06:20,699 --> 00:06:22,079
+Intelligence, we're always looking
+
+240
+00:06:22,149 --> 00:06:23,279
+at what our competitor advertisers
+
+241
+00:06:23,399 --> 00:06:23,879
+are doing.
+
+242
+00:06:24,100 --> 00:06:25,250
+Then we have some rules that we
+
+243
+00:06:25,259 --> 00:06:26,779
+tell it to follow, but we might
+
+244
+00:06:26,779 --> 00:06:28,410
+want to modify this or add more to
+
+245
+00:06:28,410 --> 00:06:29,819
+this to, you know, give details
+
+246
+00:06:29,910 --> 00:06:30,420
+about your, your,
+
+247
+00:06:30,689 --> 00:06:32,259
+uh, product or your service,
+
+248
+00:06:32,259 --> 00:06:34,069
+whatever it is that you're trying
+
+249
+00:06:34,069 --> 00:06:35,699
+to advertise in order for it to
+
+250
+00:06:35,699 --> 00:06:37,449
+rewrite the winning ads for your
+
+251
+00:06:37,449 --> 00:06:39,079
+brand or, uh, service.
+
+252
+00:06:39,389 --> 00:06:40,990
+Then after that is added to our
+
+253
+00:06:41,040 --> 00:06:43,269
+Google sheet and then simply waits
+
+254
+00:06:43,470 --> 00:06:45,019
+and then does this again for
+
+255
+00:06:45,110 --> 00:06:47,310
+however many videos have been sent
+
+256
+00:06:47,310 --> 00:06:49,519
+through image works very
+
+257
+00:06:49,589 --> 00:06:50,600
+similarly, but it's a bit more
+
+258
+00:06:50,600 --> 00:06:51,199
+straightforward.
+
+259
+00:06:51,360 --> 00:06:53,350
+If it's an image ad, then it will
+
+260
+00:06:53,449 --> 00:06:55,879
+download the image from Facebook,
+
+261
+00:06:55,879 --> 00:06:57,879
+then it will send that image
+
+262
+00:06:57,879 --> 00:06:59,660
+directly to chat GPT.
+
+263
+00:07:00,740 --> 00:07:02,129
+And while we'll ask it is what is
+
+264
+00:07:02,129 --> 00:07:03,889
+in the image be comprehensive.
+
+265
+00:07:04,129 --> 00:07:05,829
+And then here is where we again,
+
+266
+00:07:05,889 --> 00:07:07,649
+have a similar prompt where we
+
+267
+00:07:07,649 --> 00:07:09,379
+break down, uh, tell it to break
+
+268
+00:07:09,379 --> 00:07:09,620
+it down.
+
+269
+00:07:09,870 --> 00:07:11,560
+And rewrite the, uh, copy for what
+
+270
+00:07:11,560 --> 00:07:13,509
+we're, uh, uh, our own products.
+
+271
+00:07:14,620 --> 00:07:17,199
+And then we output this to our,
+
+272
+00:07:17,199 --> 00:07:19,779
+uh, Google sheet here.
+
+273
+00:07:19,779 --> 00:07:20,740
+You can see we have the page type
+
+274
+00:07:20,740 --> 00:07:21,060
+and ID.
+
+275
+00:07:21,220 --> 00:07:23,379
+We've got the page name, the URL,
+
+276
+00:07:23,379 --> 00:07:24,910
+the summary of the ad, the
+
+277
+00:07:25,139 --> 00:07:26,680
+rewritten ad copy.
+
+278
+00:07:27,189 --> 00:07:28,870
+Uh, the image prompt time is what
+
+279
+00:07:28,870 --> 00:07:30,389
+it was in the image, then the
+
+280
+00:07:30,500 --> 00:07:31,199
+image URL.
+
+281
+00:07:31,449 --> 00:07:33,560
+And then finally, if it's just a
+
+282
+00:07:33,629 --> 00:07:36,240
+text ad, uh, which is unlikely,
+
+283
+00:07:36,240 --> 00:07:38,160
+but possible, then it just does
+
+284
+00:07:38,160 --> 00:07:38,720
+the same thing.
+
+285
+00:07:38,899 --> 00:07:41,170
+We just send it to the, uh, AI to
+
+286
+00:07:41,170 --> 00:07:43,720
+analyze the copy, uh, to, uh,
+
+287
+00:07:43,720 --> 00:07:46,180
+output it into the ad library,
+
+288
+00:07:46,180 --> 00:07:47,839
+along with all of the other, uh,
+
+289
+00:07:47,839 --> 00:07:49,560
+details of page ID, type, added
+
+290
+00:07:49,560 --> 00:07:50,629
+page name, all sorts of stuff.
+
+291
+00:07:51,410 --> 00:07:52,870
+So, uh, yeah, this is super
+
+292
+00:07:52,870 --> 00:07:54,399
+useful, you know, if you're
+
+293
+00:07:54,430 --> 00:07:56,160
+looking to write ads at scale and
+
+294
+00:07:56,240 --> 00:07:57,509
+you want to kind of copy your
+
+295
+00:07:57,660 --> 00:07:58,819
+competitors' ads or people in the
+
+296
+00:07:58,819 --> 00:08:00,480
+industry who are doing well, uh,
+
+297
+00:08:00,600 --> 00:08:01,439
+basically you can see, you know,
+
+298
+00:08:01,439 --> 00:08:02,449
+if an ad has been running for a
+
+299
+00:08:02,519 --> 00:08:03,819
+long period of time and it is
+
+300
+00:08:03,819 --> 00:08:05,279
+still active, it's likely a
+
+301
+00:08:05,279 --> 00:08:07,319
+winning ad in that keyword search.
+
+302
+00:08:07,319 --> 00:08:08,620
+So it's probably going to get to
+
+303
+00:08:08,670 --> 00:08:09,800
+try a variation of it or some
+
+304
+00:08:09,800 --> 00:08:11,120
+similar sort of copy to it.
+
+305
+00:08:11,240 --> 00:08:12,680
+So this is an easy way to get that
+
+306
+00:08:12,680 --> 00:08:13,269
+in bulk.
+
+307
+00:08:13,430 --> 00:08:14,529
+You should end up with a Google
+
+308
+00:08:14,529 --> 00:08:16,019
+sheet that is filled with, uh, you
+
+309
+00:08:16,029 --> 00:08:17,480
+know, ad information that you can
+
+310
+00:08:17,670 --> 00:08:18,980
+analyze yourself or just review.
+
+311
+00:08:19,139 --> 00:08:20,500
+As long with rewritten, uh, copy
+
+312
+00:08:20,500 --> 00:08:21,759
+that, you know, you can use for
+
+313
+00:08:21,759 --> 00:08:22,970
+your, your own ads and your own
+
+314
+00:08:22,980 --> 00:08:23,720
+content.
+
+315
+00:08:23,839 --> 00:08:25,410
+So hope this one is useful and see
+
+316
+00:08:25,410 --> 00:08:26,579
+you in the next one.
+
+317
+00:08:26,959 --> 00:08:27,180
+Peace.

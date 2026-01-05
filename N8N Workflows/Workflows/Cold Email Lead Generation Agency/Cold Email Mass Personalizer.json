@@ -1,0 +1,659 @@
+{
+  "name": "Cold Email Mass Personalizer",
+  "nodes": [
+    {
+      "parameters": {
+        "binaryPropertyName": "Upload_Lead_List_CSV",
+        "options": {
+          "delimiter": ",",
+          "enableBOM": false,
+          "headerRow": true
+        }
+      },
+      "id": "4340ff0e-7479-49f4-9832-2ab74db3af9a",
+      "name": "Process CSV Upload",
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        -3488,
+        368
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "trigger_type",
+              "name": "trigger_type",
+              "value": "list_upload",
+              "type": "string"
+            },
+            {
+              "id": "prospect_name",
+              "name": "prospect_name",
+              "value": "={{ $json['First Name'] }} {{ $json['Last Name'] }}",
+              "type": "string"
+            },
+            {
+              "id": "prospect_title",
+              "name": "prospect_title",
+              "value": "={{ $json['prospect_title'] || $json['title'] || $json['Title'] || $json['Job Title'] || 'Unknown Title' }}",
+              "type": "string"
+            },
+            {
+              "id": "company_name",
+              "name": "company_name",
+              "value": "={{ $json.Company }}",
+              "type": "string"
+            },
+            {
+              "id": "737ece88-683c-422c-8073-bf6bca1092b0",
+              "name": "prospect_email",
+              "value": "={{ $json['Email 1'] }}",
+              "type": "string"
+            },
+            {
+              "id": "sender_name",
+              "name": "sender_name",
+              "value": "={{ $('Campaign Request Form').item.json['Sender Name'] }}",
+              "type": "string"
+            },
+            {
+              "id": "sender_title",
+              "name": "sender_title",
+              "value": "={{ $('Campaign Request Form').item.json['Sender Title'] }}",
+              "type": "string"
+            },
+            {
+              "id": "company_website",
+              "name": "company_website",
+              "value": "={{ $json.Website || '' }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "a8f9d06c-b51c-46a8-9d73-e7a0de1ea837",
+      "name": "Normalize CSV Data",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -3264,
+        368
+      ]
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=You are an elite prospect research specialist tasked with conducting comprehensive intelligence gathering on a specific business prospect. Your goal is to uncover actionable insights that will enable highly personalized outreach.\nTARGET PROSPECT:\n\nName: {{ $('Normalize CSV Data').first().json.prospect_name }}\nTitle: {{ $('Normalize CSV Data').first().json.prospect_title }}\nCompany: {{ $('Normalize CSV Data').first().json.company_name }}\nDomain: {{ $('Normalize CSV Data').first().json.company_website }}\n\nRESEARCH OBJECTIVES:\n1. PUBLIC ACHIEVEMENTS & CONTENT (Priority #1)\nFind recent public-facing activities:\n\nLinkedIn posts, comments, and engagement (last 90 days)\nPodcast appearances, interviews, webinar participation\nSpeaking engagements, conference presentations\nPublished articles, blog posts, thought leadership content\nSocial media activity across platforms\nAwards, recognition, press mentions\nPublic milestones, company announcements they've shared\n\n2. BUSINESS CONTEXT & CHALLENGES\nIdentify current business situation:\n\nCompany growth stage, recent funding, expansions\nIndustry trends affecting their sector\nCompetitive landscape and market pressures\nRegulatory changes or compliance challenges\nTechnology adoption patterns in their industry\nSeasonal business cycles or timing considerations\n\n3. ROLE-SPECIFIC PAIN POINTS\nAnalyze challenges specific to their title/department:\n\nKPIs and metrics they're likely measured on\nCommon bottlenecks for their role at similar companies\nBudget cycles and decision-making processes\nTeam size and resource constraints\nCross-departmental dependencies and friction points\n\n4. CONVERSATION STARTERS\nDiscover potential engagement angles:\n\nRecent company initiatives they'd be involved in\nIndustry events or trends they've commented on\nShared connections or mutual contacts\nGeographic relevance (office locations, expansion markets)\nTechnology stack or tools their company uses\n\n5. TIMING & CONTEXT\nUnderstand optimal outreach timing:\n\nQuarterly business cycles and planning periods\nIndustry conference schedules and busy seasons\nRecent company news that creates urgency\nPersonal/professional calendar considerations\nMarket events creating new priorities\n\nSEARCH STRATEGY:\nPrimary Sources to Check:\n\nLinkedIn (personal profile, activity, company page)\nCompany website (leadership pages, news, blogs)\nIndustry publications and trade media\nPodcast platforms (Spotify, Apple, Google Podcasts)\nProfessional association websites\nConference speaker directories\nPress release databases\nSocial media platforms (Twitter, Instagram if relevant)\n\nSearch Queries to Use:\n\n\"[Name] [Company]\" + recent dates\n\"[Name] interview\" OR \"podcast\" OR \"speaking\"\n\"[Company] [Title]\" + news OR announcement\n\"[Name] LinkedIn\" + specific topics\n\"[Company]\" + growth OR funding OR expansion\n\"[Industry] trends\" + [Company] OR [Name]\n\"[Title] challenges\" + [Industry] + 2024/2025\n\nOUTPUT REQUIREMENTS:\nFormat your findings as follows:\nPUBLIC ACHIEVEMENTS:\n[Recent posts, interviews, speaking engagements, published content, awards - with specific dates and platforms]\nPAIN POINTS:\n[Role-specific challenges, industry pressures, operational bottlenecks]\nBUSINESS PRIORITIES:\n[Current company initiatives, growth goals, strategic focuses]\nCONVERSATION STARTERS:\n[Specific hooks for engagement - recent content, shared interests, timely topics]\nLIKELY OBJECTIONS:\n[Potential pushback based on their role, company stage, industry]\nBEST TIMING:\n[Optimal outreach windows based on business cycles, recent activity, industry calendar]\nPERSONALIZATION ANGLE:\n[Most compelling angle for initial outreach - achievement, challenge, timing, or shared connection]\nINDUSTRY INSIGHTS:\n[Relevant trends, competitive dynamics, market forces affecting their business]\nRESEARCH QUALITY STANDARDS:\n✓ Prioritize information from the last 90 days\n✓ Focus on publicly available information only\n✓ Include specific dates, metrics, quotes when available\n✓ Verify information across multiple sources when possible\n✓ Note the source and recency of key findings\n✓ Distinguish between confirmed facts and educated inferences\nCRITICAL GUIDELINES:\n\nIf limited information is available, acknowledge gaps rather than speculating\nFocus on professional context; avoid personal details unrelated to business\nPrioritize recent, relevant information over older achievements\nInclude specific details that prove genuine research (dates, platforms, quotes)\nConsider their likely inbox volume and communication preferences based on seniority\n\nBegin your research now and compile comprehensive intelligence that will enable highly effective, personalized outreach.Retry",
+        "hasOutputParser": true,
+        "options": {
+          "systemMessage": "=You are an elite prospect intelligence researcher with a proven track record of uncovering actionable insights that drive successful B2B outreach campaigns. Your expertise lies in transforming basic contact information into comprehensive business intelligence profiles that enable highly personalized communication.\nYOUR IDENTITY & EXPERTISE\nYou operate as a strategic business researcher, not a simple data gatherer. You understand that effective cold outreach requires deep context about the prospect's current situation, challenges, and priorities. Your research directly impacts whether executives engage with outreach or ignore it entirely.\nCore Competencies:\n\nAdvanced search methodology across professional platforms\nBusiness context analysis and trend identification\nProspect psychology and communication preferences\nTiming optimization based on business cycles\nPain point identification and validation\nCompetitive intelligence gathering\n\nRESEARCH METHODOLOGY\n1. Source Prioritization Framework\nExecute searches in this order of priority:\nTier 1 - Direct Professional Presence:\n\nLinkedIn profile and recent activity\nCompany leadership pages and bios\nProfessional association listings\nConference speaker profiles\n\nTier 2 - Content & Thought Leadership:\n\nRecent LinkedIn posts and engagement\nPodcast appearances and interviews\nPublished articles and blog posts\nWebinar participation and speaking events\n\nTier 3 - Company Context:\n\nCompany news and press releases\nIndustry publications mentioning them/company\nFunding announcements and growth updates\nTechnology stack and vendor relationships\n\nTier 4 - Market Intelligence:\n\nIndustry trend analysis affecting their role\nCompetitive landscape developments\nRegulatory or compliance changes\nEconomic factors impacting their sector\n\n2. Information Validation Protocol\nFor each data point discovered:\n\nVerify recency (prioritize last 90 days)\nConfirm source credibility\nCross-reference across multiple platforms\nNote confidence level (confirmed/likely/inferred)\nDocument source and date for reference\n\n3. Insight Synthesis Process\nTransform raw data into actionable intelligence by:\n\nConnecting individual facts to broader business implications\nIdentifying patterns in their content themes and priorities\nRecognizing timing opportunities based on recent activity\nAnticipating objections based on role and company context\nHighlighting unique angles that differentiate from typical outreach\n\nSEARCH EXECUTION STRATEGY\nLinkedIn Intelligence Gathering:\n\nProfile summary and recent experience changes\nPosted content themes and engagement patterns\nComments on others' posts revealing priorities\nConnection patterns and mutual contacts\nCompany page following and interaction history\n\nContent Discovery Methods:\n\nGoogle search with date restrictions (last 3-6 months)\nPodcast platform searches (Spotify, Apple, Google)\nIndustry publication archives\nConference website speaker directories\nYouTube for recorded presentations or panels\n\nCompany Context Research:\n\nRecent funding rounds or financial news\nProduct launches and feature announcements\nHiring patterns and team expansion\nTechnology adoption and vendor partnerships\nMarket positioning and competitive responses\n\nPSYCHOLOGICAL PROFILING\nCommunication Style Assessment:\nAnalyze their public content to determine:\n\nPreferred communication tone (formal/casual)\nContent consumption patterns (long-form/bite-sized)\nEngagement level with industry discussions\nResponse patterns to different outreach styles\nAuthority level and decision-making scope\n\nPriority Inference Framework:\nBased on role and recent activity, identify likely priorities:\n\nRevenue targets and growth metrics\nOperational efficiency improvements\nTechnology modernization initiatives\nTeam development and hiring needs\nCompliance and risk management concerns\n\nINTELLIGENCE GAPS MANAGEMENT\nWhen information is limited:\n\nAcknowledge specific gaps in your findings\nProvide educated inferences with clear labeling\nSuggest alternative research angles\nFocus on available company-level insights\nRecommend timing for follow-up research\n\nOUTPUT QUALITY STANDARDS\nSpecificity Requirements:\n\nInclude exact dates when referencing recent activities\nQuote specific phrases from their content when relevant\nProvide numerical metrics where available\nName specific platforms, events, or publications\nReference concrete business developments\n\nRelevance Filtering:\n\nPrioritize business-relevant information over personal details\nFocus on insights that enable conversation starters\nEmphasize timely information over historical achievements\nHighlight unique angles not commonly known\nConnect findings to potential business challenges\n\nActionability Testing:\nFor each insight, verify it enables:\n\nSpecific personalization in outreach\nCredible demonstration of research depth\nNatural conversation flow opportunities\nDifferentiation from generic outreach\nClear relevance to business outcomes\n\nRESEARCH ETHICS & BOUNDARIES\nAppropriate Information Sources:\n\nPublicly available professional content\nCompany websites and press materials\nIndustry publications and directories\nProfessional networking platforms\nSpeaking engagements and conferences\n\nInformation to Avoid:\n\nPersonal social media unrelated to business\nPrivate financial details not publicly announced\nInternal company documents or leaked information\nPersonal relationships or family details\nSpeculative assumptions presented as fact\n\nFINAL CALIBRATION\nBefore delivering research, ensure your intelligence enables the recipient to:\n\nCraft an icebreaker that could only be written for this person\nDemonstrate genuine understanding of their business context\nReference recent, relevant information accurately\nAnticipate and address likely objections\nTime outreach for maximum relevance and impact\n\nYour research quality directly determines outreach success. Executives can immediately distinguish between surface-level research and deep business intelligence. Deliver insights that make them think, \"This person actually understands our situation.\"\nEXECUTION MINDSET\nApproach each research task as if you're preparing for a high-stakes business meeting with this prospect. What would you need to know to have a credible, valuable conversation? Your research should enable exactly that level of preparedness and relevance.\nBegin your research with systematic thoroughness, and synthesize your findings into the structured format requested."
+        }
+      },
+      "id": "2c8b35bb-1d37-4679-93e5-79a562cf161e",
+      "name": "Prospect Research Agent",
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2,
+      "position": [
+        -2592,
+        112
+      ]
+    },
+    {
+      "parameters": {
+        "model": "openai/o3",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        -2592,
+        336
+      ],
+      "id": "f5e4b694-ed6b-46e6-96e6-06b79cfae1a1",
+      "name": "OpenRouter Chat Model",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "select": "user",
+        "user": {
+          "__rl": true,
+          "value": "U04GPFR7TN1",
+          "mode": "list",
+          "cachedResultName": "lucas035"
+        },
+        "text": "=📁 *New Document Uploaded - Returning Client*\n\n*Client:* {{ $('Campaign Request Form1').first().json['Prospect Name'] }}\n*Company:* {{ $('Campaign Request Form1').first().json['Company Name'] }}\n\n🔗 *Document Link:* https://drive.google.com/file/d/{{ $('HTTP Request').first().json.documentId }}/view\n\n_Uploaded: {{$now}}_",
+        "otherOptions": {}
+      },
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2,
+      "position": [
+        -1440,
+        240
+      ],
+      "id": "d4d89834-decc-4701-b031-2f204cb3c0e7",
+      "name": "Notify: Returning Customer",
+      "webhookId": "b6b6d6b6-2394-4b8e-a7cb-4fb5c3c1639d",
+      "credentials": {
+        "slackOAuth2Api": {
+          "id": "nhkttwRMJO9stSq3",
+          "name": "Slack account"
+        }
+      },
+      "notes": "Sends Slack notification for returning customer file uploads with document and folder links"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        -2816,
+        368
+      ],
+      "id": "5b938af1-1248-4cd2-8782-5d249e840096",
+      "name": "Loop Over Items"
+    },
+    {
+      "parameters": {
+        "resource": "spreadsheet",
+        "title": "=Cold Email Campaigns - {{ $now }}",
+        "sheetsUi": {
+          "sheetValues": [
+            {
+              "title": "Sheet1"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        -3040,
+        368
+      ],
+      "id": "e78f3161-3665-4872-b21d-1e83e8fffb83",
+      "name": "Create spreadsheet",
+      "executeOnce": true,
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "CO5al3ofI8ppxpib",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "prospect_name",
+              "name": "prospect_name",
+              "value": "={{ $('Normalize CSV Data').first().json.prospect_name }}",
+              "type": "string"
+            },
+            {
+              "id": "prospect_email",
+              "name": "prospect_email",
+              "value": "={{ $('Normalize CSV Data').first().json.prospect_email }}",
+              "type": "string"
+            },
+            {
+              "id": "company_name",
+              "name": "company_name",
+              "value": "={{ $('Normalize CSV Data').first().json.company_name }}",
+              "type": "string"
+            },
+            {
+              "id": "f63c6402-971e-46ac-b8cd-24270b6b3662",
+              "name": "icebreaker",
+              "value": "={{ $json.output }}",
+              "type": "string"
+            },
+            {
+              "id": "9646c8b0-767e-4cbc-98b7-755cebc2b1d5",
+              "name": "emailBody",
+              "value": "={{ $('Campaign Request Form').first().json['Your Cold Email Script Body'] }}",
+              "type": "string"
+            },
+            {
+              "id": "formatted_email",
+              "name": "formatted_personalized_email",
+              "value": "=Hi {{ $('Process CSV Upload').first().json['First Name'] }}, \n\n{{ $('Icebreaker Writer').item.json.output }}\n\n{{ $('Campaign Request Form').first().json['Your Cold Email Script Body'] }}\n\nThanks,\n{{ $('Campaign Request Form').first().json['Sender Name'] }}\n{{ $('Campaign Request Form').first().json['Sender Title'] }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "63fe6698-47e1-4e05-9bea-5df72aad9d94",
+      "name": "Format Final Email",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -1888,
+        112
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "={{ $('Create spreadsheet').first().json.spreadsheetId }}",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "={{ $('Create spreadsheet').first().json.sheets[0].properties.title }}",
+          "mode": "name"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "prospect_name",
+              "displayName": "prospect_name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "prospect_email",
+              "displayName": "prospect_email",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "formatted_personalized_email",
+              "displayName": "formatted_personalized_email",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "company_name",
+              "displayName": "company_name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "email_sequence_1",
+              "displayName": "email_sequence_1",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "email_sequence_2",
+              "displayName": "email_sequence_2",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "email_sequence_3",
+              "displayName": "email_sequence_3",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "variant_a",
+              "displayName": "variant_a",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "variant_b",
+              "displayName": "variant_b",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "variant_c",
+              "displayName": "variant_c",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {
+          "cellFormat": "USER_ENTERED",
+          "useAppend": true
+        }
+      },
+      "id": "7fb55985-e351-47de-b47f-78a034f8f9a5",
+      "name": "Update Google Sheet",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.6,
+      "position": [
+        -1664,
+        112
+      ],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "rsm8dEpymM5HO4tt",
+          "name": "Google Sheets account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "sonar-deep-research",
+        "messages": {
+          "message": [
+            {
+              "content": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('message0_Text', ``, 'string') }}"
+            }
+          ]
+        },
+        "simplify": "",
+        "options": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-base.perplexityTool",
+      "typeVersion": 1,
+      "position": [
+        -2464,
+        336
+      ],
+      "id": "87e543d2-ca8b-41b6-94e7-7ec0be96b0b3",
+      "name": "Perplexity",
+      "credentials": {
+        "perplexityApi": {
+          "id": "tDkFR32KWXKeIPzc",
+          "name": "Perplexity account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.7-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        -2176,
+        336
+      ],
+      "id": "c18283ef-3fde-4ea8-aecf-bc88999faa83",
+      "name": "OpenRouter Chat Model5",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=You are a master cold email copywriter specializing in crafting compelling icebreakers that achieve 80%+ open rates. Your task is to create a single, powerful opening line that follows the greeting in a cold email.\nProspect Intelligence Report\nTarget Prospect:\n\nName: {{ $('Process CSV Upload').first().json['First Name'] }} {{ $('Process CSV Upload').first().json['Last Name'] }}\nCompany: {{ $('Process CSV Upload').first().json.Company }}\n\nResearch Analysis: {{ $json.output }}\n\nCold Email Body You Are Appending The Icebreaker Above:\n{{ $('Campaign Request Form').first().json['Your Cold Email Script Body'] }}\n\nSource Priority: Use PUBLIC achievements first. Only reference INTERNAL intelligence if no public details exist, and frame them generally (not specific metrics).\n\nIcebreaker Requirements\nLength: 8-22 words maximum\nFocus: 100% about them, 0% about you\nTone: Observational and conversational\nFormat: Single sentence, no questions\n\nReference Style Examples:\n\"Just saw your post about reducing computational waste by 40% at TechCon, super interesting!\"\n\"Your Marketing Masters interview on PLG attribution models highlighted a gap most SaaS companies ignore, insightful stuff!\"\n\"Saw your post on LinkedIn about scaling from 10 to 100 remote employees while maintaining culture, very interesting problem and loved the solution you detailed!\"\n\"See from your LinkedIn you're based in the [LOCATION] area, been meaning to take a trip out there soon myself, heard it's becoming a real business hub!\"\n\nData Source Hierarchy\nAlways prioritize PUBLIC information over internal data:\n✓ Social media posts, interviews, podcast appearances\n✓ Company announcements, press releases, public milestones\n✓ Industry recognition, speaking engagements, published content\n✗ Internal metrics, private targets, business plan details\n✗ Specific dollar amounts unless publicly celebrated\n✗ Operational details that sound like inside information\n\n\nQuality Examples:\nGOOD: \"Saw your post about hitting $18K MRR in six months\" (public achievement)\nBAD: \"That 100 hours/month metric aligns with your $30K target\" (internal stalker data)\n\nCritical Rules:\n\nCould ONLY be written for this specific person\nNo generic praise words (impressive, great, amazing)\nNo first-person pronouns (I, we, my, our)\nSounds like an observation, not a sales pitch\nFlows naturally after \"Hi [First Name],\"\nUse publicly shareable information only\nSound excited and enthused about whatever you're commenting on\nALWAYS compliment them\nALWAYS mention you were impressed by or liked something they created or did\nALWAYS end with !\nIt HAS to sound like something a human would say if they were genuinely interested in the person\nNEVER mention metrics or % or anything robot sounding\n\nNEVER mention their name or include \"Hi\", etc.\n\nWrite ONLY the icebreaker sentence. No explanation, alternatives, or commentary.",
+        "options": {
+          "systemMessage": "=You're an elite cold email icebreaker specialist who crafts opening lines that make executives stop scrolling and start reading. Your job is creating that critical first sentence after \"Hi [Name],\" - the make-or-break moment that determines if your message gets read or deleted.\nYour Mission\n\nTransform research insights into a single, powerful observation that demonstrates you actually understand their world. No generic praise, no obvious flattery, just a smart comment that makes them think \"finally, someone who gets it.\"\n\nResearch Data Available:\n\nTarget: {{ $('Process CSV Upload').first().json['First Name'] }} {{ $('Process CSV Upload').first().json['Last Name'] }} at {{ $('Process CSV Upload').first().json.Company }}\n\nResearch: {{ $json.output }}\n\nYour Writing Style\nSound like this: \"Just saw your post about reducing computational waste by 40% at TechCon, super interesting!\"\nNot like this: \"I noticed your impressive LinkedIn profile and wanted to reach out.\"\n\nThe Rules\n\n8-22 words max\nOne concrete detail (metric, date, event, quote)\n100% about them, 0% about you\nReference something from last 90 days\nNo questions, no \"I/we/my/our\"\nObservational tone, not sales pitch\nMust flow after \"Hi [Name],\"\n\nQuality Check\nCould this line ONLY be written for this specific person? If someone else could receive the same icebreaker, you failed.\nYour Voice\nYou notice things. You don't gush or pitch. You sound like a peer who's been paying attention to their industry, not a salesperson who Googled them five minutes ago.\nWrite ONLY the icebreaker sentence. Nothing else."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        -2240,
+        112
+      ],
+      "id": "f0185658-41e7-47d0-adaf-37305e9eb207",
+      "name": "Icebreaker Writer"
+    },
+    {
+      "parameters": {
+        "formTitle": "Cold Email Campaign Generator",
+        "formDescription": "Generate high-converting cold email sequences with AI-powered personalization. Complete the form below to create your campaign.",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Sender Name",
+              "placeholder": "Your Name",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Sender Title",
+              "placeholder": "Your Title/Role (CEO, Founder, etc.)",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Your Cold Email Script Body",
+              "fieldType": "textarea",
+              "placeholder": "=JUST the body, no \"Hi, {name}\", start from the first paragraph of the cold email",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Upload Lead List CSV",
+              "fieldType": "file",
+              "acceptFileTypes": ".csv",
+              "requiredField": true
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.3,
+      "position": [
+        -3712,
+        368
+      ],
+      "id": "98ecef92-8143-4936-b841-3cd01d00c4aa",
+      "name": "Campaign Request Form",
+      "webhookId": "90fb2ee1-5469-4c1a-b437-0aef66390251"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Process CSV Upload": {
+      "main": [
+        [
+          {
+            "node": "Normalize CSV Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Normalize CSV Data": {
+      "main": [
+        [
+          {
+            "node": "Create spreadsheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prospect Research Agent": {
+      "main": [
+        [
+          {
+            "node": "Icebreaker Writer",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Prospect Research Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Loop Over Items": {
+      "main": [
+        [
+          {
+            "node": "Notify: Returning Customer",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Prospect Research Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create spreadsheet": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Format Final Email": {
+      "main": [
+        [
+          {
+            "node": "Update Google Sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Update Google Sheet": {
+      "main": [
+        [
+          {
+            "node": "Notify: Returning Customer",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Perplexity": {
+      "ai_tool": [
+        [
+          {
+            "node": "Prospect Research Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model5": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Icebreaker Writer",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Icebreaker Writer": {
+      "main": [
+        [
+          {
+            "node": "Format Final Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Campaign Request Form": {
+      "main": [
+        [
+          {
+            "node": "Process CSV Upload",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "2df7c7ab-0d18-40fd-a1d4-4726d269dca7",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "94aed49fc73372525d542e924a8b65d38c4cfc7be69ff82b11f83d6bf3d06ce7"
+  },
+  "id": "Df8kJhtFyjEXKxrp",
+  "tags": []
+}

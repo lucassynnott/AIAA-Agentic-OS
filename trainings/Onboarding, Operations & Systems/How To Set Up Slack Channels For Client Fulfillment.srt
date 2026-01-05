@@ -1,0 +1,2695 @@
+1
+00:00:00,300 --> 00:00:01,280
+What's up, guys?
+
+2
+00:00:01,370 --> 00:00:03,299
+Welcome back to another video.
+
+3
+00:00:03,299 --> 00:00:04,549
+And in this video, I want to talk
+
+4
+00:00:04,669 --> 00:00:05,370
+about setting
+
+5
+00:00:05,419 --> 00:00:07,889
+up proper communication channels
+
+6
+00:00:07,889 --> 00:00:10,359
+between you, your team, and your
+
+7
+00:00:10,550 --> 00:00:12,259
+client and their team.
+
+8
+00:00:12,300 --> 00:00:13,660
+So this is key.
+
+9
+00:00:13,660 --> 00:00:16,359
+It's so, so important to do this
+
+10
+00:00:16,359 --> 00:00:18,949
+right away early on because as a
+
+11
+00:00:19,050 --> 00:00:19,780
+client,
+
+12
+00:00:20,050 --> 00:00:23,160
+the biggest frustration is low
+
+13
+00:00:23,160 --> 00:00:27,059
+turnaround time or long turnaround
+
+14
+00:00:27,059 --> 00:00:29,140
+times when it comes
+
+15
+00:00:29,239 --> 00:00:31,829
+to communication or like slow time
+
+16
+00:00:31,829 --> 00:00:34,090
+to response and also not being
+
+17
+00:00:34,090 --> 00:00:36,039
+organized, like not knowing
+
+18
+00:00:36,320 --> 00:00:38,439
+where to actually communicate with
+
+19
+00:00:38,439 --> 00:00:40,219
+your service provider.
+
+20
+00:00:40,219 --> 00:00:41,460
+So you want it right from the get
+
+21
+00:00:41,500 --> 00:00:41,770
+go.
+
+22
+00:00:41,859 --> 00:00:43,530
+You want to be really transparent
+
+23
+00:00:43,530 --> 00:00:45,109
+and clear with your client about
+
+24
+00:00:45,240 --> 00:00:46,429
+where they can reach
+
+25
+00:00:46,490 --> 00:00:47,000
+you.
+
+26
+00:00:47,000 --> 00:00:49,649
+So traditional ways to do this can
+
+27
+00:00:49,649 --> 00:00:51,250
+be through email.
+
+28
+00:00:51,250 --> 00:00:53,649
+But the reason Slack has blown
+
+29
+00:00:53,700 --> 00:00:55,880
+up as much as it has in recent
+
+30
+00:00:55,880 --> 00:00:58,609
+months and just the past few years
+
+31
+00:00:58,609 --> 00:01:01,219
+is because it truly is the best
+
+32
+00:01:01,479 --> 00:01:03,740
+tool for client services business
+
+33
+00:01:03,750 --> 00:01:06,010
+and for tons of other different
+
+34
+00:01:06,010 --> 00:01:06,760
+stuff.
+
+35
+00:01:06,760 --> 00:01:07,900
+Like obviously, we use it
+
+36
+00:01:07,939 --> 00:01:09,359
+for the client ascension program
+
+37
+00:01:09,439 --> 00:01:10,790
+and it serves that purpose.
+
+38
+00:01:10,799 --> 00:01:13,469
+But anytime you want to centralize
+
+39
+00:01:13,980 --> 00:01:16,239
+communications and organize it and
+
+40
+00:01:16,239 --> 00:01:18,219
+do it in a way that's fun.
+
+41
+00:01:18,219 --> 00:01:20,500
+Because one thing that I'm not
+
+42
+00:01:20,500 --> 00:01:20,879
+sure how
+
+43
+00:01:20,920 --> 00:01:22,310
+much I talked about it in previous
+
+44
+00:01:22,310 --> 00:01:23,769
+videos in this module, but when it
+
+45
+00:01:23,790 --> 00:01:24,920
+comes to onboarding and
+
+46
+00:01:25,349 --> 00:01:27,150
+fulfillment, it always comes back
+
+47
+00:01:27,150 --> 00:01:28,299
+to experience.
+
+48
+00:01:28,299 --> 00:01:31,019
+You want to create the ultimate
+
+49
+00:01:31,019 --> 00:01:32,569
+experience for your
+
+50
+00:01:33,079 --> 00:01:33,340
+clients.
+
+51
+00:01:33,340 --> 00:01:34,969
+Like you want them to enjoy the
+
+52
+00:01:35,000 --> 00:01:36,310
+experience, right?
+
+53
+00:01:36,310 --> 00:01:37,769
+It has to be enjoyable.
+
+54
+00:01:37,780 --> 00:01:38,540
+It has to be easy
+
+55
+00:01:38,579 --> 00:01:39,140
+to access.
+
+56
+00:01:39,140 --> 00:01:40,769
+It has to be fun, new, exciting.
+
+57
+00:01:40,769 --> 00:01:42,189
+Like you don't want to bore them
+
+58
+00:01:42,189 --> 00:01:43,359
+with just back and forth
+
+59
+00:01:43,629 --> 00:01:43,930
+emails.
+
+60
+00:01:43,930 --> 00:01:45,900
+And emails are super unorganized.
+
+61
+00:01:45,900 --> 00:01:47,540
+You know, you might start a new
+
+62
+00:01:47,540 --> 00:01:49,620
+email thread and you might
+
+63
+00:01:49,719 --> 00:01:51,140
+want to refer back to something in
+
+64
+00:01:51,219 --> 00:01:52,280
+another email thread.
+
+65
+00:01:52,290 --> 00:01:53,780
+And you might not have included
+
+66
+00:01:53,780 --> 00:01:54,159
+everyone
+
+67
+00:01:54,200 --> 00:01:55,549
+on your team and their team in the
+
+68
+00:01:55,549 --> 00:01:56,379
+original email.
+
+69
+00:01:56,379 --> 00:01:57,500
+So you got to forward it.
+
+70
+00:01:57,500 --> 00:01:58,750
+So email is super messy.
+
+71
+00:01:58,819 --> 00:02:00,939
+But Slack is super organized.
+
+72
+00:02:00,939 --> 00:02:03,049
+So right from the get go, like you
+
+73
+00:02:03,180 --> 00:02:05,040
+saw in some of our onboarding
+
+74
+00:02:05,540 --> 00:02:07,620
+materials, we include Slack, like
+
+75
+00:02:07,629 --> 00:02:09,150
+a link to join the Slack
+
+76
+00:02:09,150 --> 00:02:11,389
+workspace, or maybe we just send
+
+77
+00:02:11,389 --> 00:02:12,199
+them an invite
+
+78
+00:02:12,599 --> 00:02:13,189
+through email.
+
+79
+00:02:13,289 --> 00:02:14,759
+But it's really simple.
+
+80
+00:02:14,759 --> 00:02:16,469
+You just want to use Slack to set
+
+81
+00:02:16,590 --> 00:02:18,180
+up communications with your
+
+82
+00:02:18,580 --> 00:02:18,840
+client.
+
+83
+00:02:18,840 --> 00:02:20,860
+And in the beginning, I'd keep it
+
+84
+00:02:20,860 --> 00:02:21,840
+really simple.
+
+85
+00:02:21,960 --> 00:02:23,400
+Like all you do is set up a
+
+86
+00:02:23,400 --> 00:02:24,300
+workspace,
+
+87
+00:02:24,379 --> 00:02:24,780
+right?
+
+88
+00:02:24,780 --> 00:02:26,340
+So you go to slack.com and you
+
+89
+00:02:26,340 --> 00:02:28,099
+create a new workspace, right?
+
+90
+00:02:28,099 --> 00:02:29,500
+And you just log in with your
+
+91
+00:02:29,780 --> 00:02:30,650
+account or whatever.
+
+92
+00:02:30,650 --> 00:02:31,909
+And when you create a Slack
+
+93
+00:02:31,909 --> 00:02:33,509
+workspace, you just name it like
+
+94
+00:02:33,509 --> 00:02:34,340
+whatever your
+
+95
+00:02:34,610 --> 00:02:35,340
+agency's name is.
+
+96
+00:02:35,430 --> 00:02:37,259
+So like for us, it's knowledge X.
+
+97
+00:02:37,270 --> 00:02:38,770
+So we just name it knowledge X
+
+98
+00:02:38,770 --> 00:02:39,909
+client workspace,
+
+99
+00:02:40,080 --> 00:02:40,819
+and that's it.
+
+100
+00:02:40,930 --> 00:02:42,330
+And then you could throw, you
+
+101
+00:02:42,379 --> 00:02:44,000
+know, your your company logo in
+
+102
+00:02:44,000 --> 00:02:44,520
+there.
+
+103
+00:02:44,520 --> 00:02:45,879
+And you're pretty
+
+104
+00:02:45,919 --> 00:02:47,159
+much all set up at that point.
+
+105
+00:02:47,210 --> 00:02:48,590
+So once you're in the knowledge X
+
+106
+00:02:48,590 --> 00:02:50,300
+client workspace, you're going to
+
+107
+00:02:50,340 --> 00:02:52,150
+have, I believe, three channels
+
+108
+00:02:52,319 --> 00:02:53,919
+that are default to any new Slack
+
+109
+00:02:53,919 --> 00:02:54,569
+workspace.
+
+110
+00:02:54,699 --> 00:02:57,740
+And that is a general chat,
+
+111
+00:02:58,060 --> 00:02:59,650
+a random chat and then an
+
+112
+00:02:59,650 --> 00:03:02,020
+announcements chat, I think, or
+
+113
+00:03:02,020 --> 00:03:04,479
+maybe as general and then chat and
+
+114
+00:03:04,479 --> 00:03:04,629
+then
+
+115
+00:03:04,900 --> 00:03:05,180
+random.
+
+116
+00:03:05,180 --> 00:03:06,909
+I forgot because I haven't started
+
+117
+00:03:06,919 --> 00:03:08,780
+a Slack group in the longest time.
+
+118
+00:03:08,780 --> 00:03:10,900
+But basically in real
+
+119
+00:03:10,990 --> 00:03:12,719
+quick, just for people who are not
+
+120
+00:03:12,719 --> 00:03:14,340
+too familiar with Slack and the
+
+121
+00:03:14,349 --> 00:03:15,650
+terminology, right?
+
+122
+00:03:15,669 --> 00:03:16,759
+So there are Slack
+
+123
+00:03:17,020 --> 00:03:18,810
+workspaces, which is what we have
+
+124
+00:03:18,810 --> 00:03:20,800
+here within client ascension.
+
+125
+00:03:20,800 --> 00:03:23,020
+This is a workspace here, right?
+
+126
+00:03:23,150 --> 00:03:23,319
+This,
+
+127
+00:03:23,479 --> 00:03:24,189
+this whole thing.
+
+128
+00:03:24,189 --> 00:03:25,199
+And then you see, I have two
+
+129
+00:03:25,199 --> 00:03:26,680
+different workspaces on the side.
+
+130
+00:03:26,680 --> 00:03:27,259
+So I have a
+
+131
+00:03:27,530 --> 00:03:28,830
+regular knowledge X workspace and
+
+132
+00:03:28,830 --> 00:03:30,139
+that's for me and my internal
+
+133
+00:03:30,139 --> 00:03:30,520
+team.
+
+134
+00:03:30,520 --> 00:03:31,979
+And then I have a knowledge X
+
+135
+00:03:32,020 --> 00:03:32,770
+client workspace.
+
+136
+00:03:32,879 --> 00:03:34,080
+So that's for all of our clients.
+
+137
+00:03:34,080 --> 00:03:35,009
+And then I have the client
+
+138
+00:03:35,009 --> 00:03:36,419
+ascension workspace, which
+
+139
+00:03:36,460 --> 00:03:38,270
+is for our coaching program.
+
+140
+00:03:38,439 --> 00:03:40,569
+And then within the workspace are
+
+141
+00:03:40,569 --> 00:03:41,400
+channels.
+
+142
+00:03:41,509 --> 00:03:43,219
+So all these things you see on
+
+143
+00:03:43,259 --> 00:03:44,360
+the left-hand side, like
+
+144
+00:03:44,360 --> 00:03:45,969
+announcements, chat, weekly call
+
+145
+00:03:45,969 --> 00:03:47,409
+links, wins, and then all these
+
+146
+00:03:47,409 --> 00:03:47,810
+private
+
+147
+00:03:48,259 --> 00:03:49,729
+channels are channels within a
+
+148
+00:03:49,879 --> 00:03:50,629
+workspace.
+
+149
+00:03:50,629 --> 00:03:52,520
+So you have a workspace and then
+
+150
+00:03:52,520 --> 00:03:54,080
+you have channels, right?
+
+151
+00:03:54,120 --> 00:03:55,699
+So you want to create a workspace
+
+152
+00:03:55,699 --> 00:03:56,719
+for your clients.
+
+153
+00:03:56,719 --> 00:03:58,039
+And then within the client
+
+154
+00:03:58,039 --> 00:03:59,360
+workspace, you want to
+
+155
+00:03:59,759 --> 00:04:01,210
+create a new channel for every
+
+156
+00:04:01,379 --> 00:04:02,530
+client you sign.
+
+157
+00:04:02,530 --> 00:04:04,750
+And then, so you'll have, so like
+
+158
+00:04:04,750 --> 00:04:05,620
+in our client
+
+159
+00:04:05,759 --> 00:04:06,719
+ascension, right, we have
+
+160
+00:04:06,810 --> 00:04:07,969
+announcements and then we have
+
+161
+00:04:07,969 --> 00:04:09,379
+chat, weekly call links, wins, and
+
+162
+00:04:09,500 --> 00:04:09,860
+then all
+
+163
+00:04:09,900 --> 00:04:10,849
+these private channels.
+
+164
+00:04:10,949 --> 00:04:12,789
+So when you sign on a client, I'd
+
+165
+00:04:12,860 --> 00:04:14,319
+keep announcements.
+
+166
+00:04:14,319 --> 00:04:16,319
+And basically announcements,
+
+167
+00:04:16,360 --> 00:04:17,980
+the way I look at that is like an
+
+168
+00:04:17,990 --> 00:04:19,209
+email newsletter.
+
+169
+00:04:19,220 --> 00:04:21,300
+So every client will be in the
+
+170
+00:04:21,490 --> 00:04:22,180
+workspace, meaning
+
+171
+00:04:22,220 --> 00:04:23,639
+they'll also have access to the
+
+172
+00:04:23,720 --> 00:04:24,980
+announcements channel.
+
+173
+00:04:24,980 --> 00:04:26,110
+And you could tailor the
+
+174
+00:04:26,110 --> 00:04:26,910
+announcements
+
+175
+00:04:27,319 --> 00:04:29,040
+channel, like the settings to, so
+
+176
+00:04:29,040 --> 00:04:31,000
+that like only you or other admins
+
+177
+00:04:31,000 --> 00:04:32,509
+from your team can post in
+
+178
+00:04:32,910 --> 00:04:33,259
+there.
+
+179
+00:04:33,259 --> 00:04:35,259
+So it's like a read only chat.
+
+180
+00:04:35,259 --> 00:04:37,180
+And then you could also do it so
+
+181
+00:04:37,180 --> 00:04:38,889
+that everyone is in it,
+
+182
+00:04:39,170 --> 00:04:39,449
+right?
+
+183
+00:04:39,449 --> 00:04:41,209
+So like every one of your clients
+
+184
+00:04:41,240 --> 00:04:42,750
+that are anyone in the Slack
+
+185
+00:04:42,750 --> 00:04:43,889
+workspace is in the
+
+186
+00:04:44,300 --> 00:04:44,680
+announcements channel.
+
+187
+00:04:44,790 --> 00:04:47,000
+So you could, you could treat it
+
+188
+00:04:47,000 --> 00:04:49,160
+like an email list because it's
+
+189
+00:04:49,160 --> 00:04:49,459
+just
+
+190
+00:04:49,500 --> 00:04:50,899
+like sending to the entire list,
+
+191
+00:04:50,899 --> 00:04:52,180
+the entire list of clients.
+
+192
+00:04:52,180 --> 00:04:53,639
+And then they can't like respond
+
+193
+00:04:53,639 --> 00:04:54,000
+back.
+
+194
+00:04:54,040 --> 00:04:55,850
+So like you won't really see, you
+
+195
+00:04:56,019 --> 00:04:57,990
+know, David can't respond or Abdi
+
+196
+00:04:57,990 --> 00:04:59,779
+can't respond to these messages.
+
+197
+00:04:59,819 --> 00:05:01,629
+So it's not like just another chat
+
+198
+00:05:01,800 --> 00:05:03,759
+area that's going to blow up.
+
+199
+00:05:03,759 --> 00:05:04,750
+It's just going to be like
+
+200
+00:05:05,160 --> 00:05:06,470
+strictly important messages, like
+
+201
+00:05:06,470 --> 00:05:08,160
+how we use it in client ascension.
+
+202
+00:05:08,160 --> 00:05:09,300
+Just pay attention because
+
+203
+00:05:09,339 --> 00:05:10,300
+that's how you'd use the
+
+204
+00:05:10,389 --> 00:05:11,779
+announcements channel in your
+
+205
+00:05:11,779 --> 00:05:12,740
+client workspace.
+
+206
+00:05:12,750 --> 00:05:14,399
+It's just anytime there's a
+
+207
+00:05:14,709 --> 00:05:16,290
+really important announcement that
+
+208
+00:05:16,459 --> 00:05:17,800
+applies to every one of your
+
+209
+00:05:17,800 --> 00:05:18,420
+clients.
+
+210
+00:05:18,420 --> 00:05:19,879
+Like, you know, right now
+
+211
+00:05:19,920 --> 00:05:21,649
+it's almost Christmas.
+
+212
+00:05:21,649 --> 00:05:23,819
+So I might send a Merry Christmas
+
+213
+00:05:23,819 --> 00:05:25,750
+update in the announcements
+
+214
+00:05:25,750 --> 00:05:26,569
+channel for
+
+215
+00:05:26,660 --> 00:05:28,079
+all of our clients and wish them a
+
+216
+00:05:28,160 --> 00:05:29,689
+happy new year and let them know,
+
+217
+00:05:29,689 --> 00:05:31,279
+you know, what our plans are in
+
+218
+00:05:31,319 --> 00:05:31,980
+the new year.
+
+219
+00:05:31,980 --> 00:05:32,410
+Right.
+
+220
+00:05:32,410 --> 00:05:33,730
+So that's the announcements
+
+221
+00:05:33,730 --> 00:05:34,339
+channel.
+
+222
+00:05:34,339 --> 00:05:36,740
+You don't need a chat or a weekly
+
+223
+00:05:36,740 --> 00:05:37,160
+call
+
+224
+00:05:37,220 --> 00:05:38,420
+links or a wins channel.
+
+225
+00:05:38,420 --> 00:05:40,110
+Like this is just for our program.
+
+226
+00:05:40,149 --> 00:05:42,139
+So the only general channel that
+
+227
+00:05:42,319 --> 00:05:42,699
+you
+
+228
+00:05:42,790 --> 00:05:43,980
+should consider having in your
+
+229
+00:05:44,029 --> 00:05:44,990
+client workspace is an
+
+230
+00:05:45,019 --> 00:05:46,540
+announcements channel because all
+
+231
+00:05:46,540 --> 00:05:47,290
+of your clients
+
+232
+00:05:47,360 --> 00:05:49,170
+will be in that channel, including
+
+233
+00:05:49,339 --> 00:05:50,949
+you and all your, the guys from
+
+234
+00:05:50,949 --> 00:05:51,589
+your team.
+
+235
+00:05:51,660 --> 00:05:52,660
+And then the only
+
+236
+00:05:52,740 --> 00:05:53,910
+people that could post in that
+
+237
+00:05:53,910 --> 00:05:55,110
+channel are the admins of the
+
+238
+00:05:55,110 --> 00:05:56,699
+Slack workspace, which is going to
+
+239
+00:05:56,699 --> 00:05:57,120
+be you
+
+240
+00:05:57,160 --> 00:05:58,949
+and most likely others from your
+
+241
+00:05:58,949 --> 00:05:59,410
+team.
+
+242
+00:05:59,439 --> 00:06:01,160
+Then in addition, what you're
+
+243
+00:06:01,160 --> 00:06:02,660
+going to do is have private
+
+244
+00:06:02,930 --> 00:06:03,189
+channels.
+
+245
+00:06:03,189 --> 00:06:04,269
+So if you look at the private
+
+246
+00:06:04,269 --> 00:06:05,709
+channels, every single student in
+
+247
+00:06:05,709 --> 00:06:07,240
+the client ascension program
+
+248
+00:06:07,279 --> 00:06:09,420
+has a private channel set up for
+
+249
+00:06:09,420 --> 00:06:10,009
+them.
+
+250
+00:06:10,009 --> 00:06:12,199
+So you do the same thing for your
+
+251
+00:06:12,199 --> 00:06:13,360
+clients, right?
+
+252
+00:06:13,360 --> 00:06:13,899
+And the way we
+
+253
+00:06:13,939 --> 00:06:15,529
+set it up was we just named these
+
+254
+00:06:15,529 --> 00:06:17,420
+channels, like the person's first
+
+255
+00:06:17,420 --> 00:06:19,079
+name, dash last name, dash
+
+256
+00:06:19,360 --> 00:06:19,649
+private.
+
+257
+00:06:19,649 --> 00:06:20,930
+So you could do like the same
+
+258
+00:06:21,100 --> 00:06:21,370
+thing.
+
+259
+00:06:21,420 --> 00:06:22,759
+So if you sign knowledge X as a
+
+260
+00:06:22,860 --> 00:06:24,069
+client, you could just do
+
+261
+00:06:24,540 --> 00:06:25,600
+knowledge X and you don't have to
+
+262
+00:06:25,680 --> 00:06:26,319
+put private.
+
+263
+00:06:26,319 --> 00:06:27,689
+You could use whatever naming
+
+264
+00:06:27,689 --> 00:06:28,939
+convention you'd like.
+
+265
+00:06:28,980 --> 00:06:31,209
+And all you do is you, instead of
+
+266
+00:06:31,209 --> 00:06:33,199
+leaving it open, so like open
+
+267
+00:06:33,329 --> 00:06:35,629
+channels have like this hashtag
+
+268
+00:06:35,740 --> 00:06:37,500
+next to it, meaning like anyone in
+
+269
+00:06:37,500 --> 00:06:38,889
+the workspace can join.
+
+270
+00:06:38,889 --> 00:06:40,379
+You just want to create it as a
+
+271
+00:06:40,379 --> 00:06:40,959
+private
+
+272
+00:06:41,230 --> 00:06:41,509
+channel.
+
+273
+00:06:41,509 --> 00:06:43,050
+So there's like a lock next to it,
+
+274
+00:06:43,050 --> 00:06:44,319
+which is super easy to do.
+
+275
+00:06:44,319 --> 00:06:45,720
+Like when you create a channel
+
+276
+00:06:45,759 --> 00:06:46,980
+in Slack, you hit add channel,
+
+277
+00:06:46,980 --> 00:06:48,220
+create new, and then you could
+
+278
+00:06:48,220 --> 00:06:49,339
+just set it to private.
+
+279
+00:06:49,339 --> 00:06:50,560
+And then you could
+
+280
+00:06:50,600 --> 00:06:51,699
+name the channel, right?
+
+281
+00:06:51,699 --> 00:06:52,850
+Like a knowledge X channel.
+
+282
+00:06:52,899 --> 00:06:54,220
+You could put a description if you
+
+283
+00:06:54,339 --> 00:06:54,600
+want
+
+284
+00:06:54,639 --> 00:06:55,879
+to like explain to your client
+
+285
+00:06:55,930 --> 00:06:57,279
+what it's used for, and then you
+
+286
+00:06:57,279 --> 00:06:58,259
+can make it private.
+
+287
+00:06:58,379 --> 00:06:59,980
+And then once you
+
+288
+00:07:00,240 --> 00:07:01,540
+create the channel, you could
+
+289
+00:07:01,540 --> 00:07:03,160
+decide who you want to invite.
+
+290
+00:07:03,160 --> 00:07:04,569
+And obviously when you first
+
+291
+00:07:04,629 --> 00:07:05,180
+onboard a
+
+292
+00:07:05,269 --> 00:07:06,639
+client, the client's not going to
+
+293
+00:07:06,720 --> 00:07:07,949
+be in your Slack right away.
+
+294
+00:07:07,949 --> 00:07:09,439
+So you'll first send them like the
+
+295
+00:07:09,579 --> 00:07:10,019
+general
+
+296
+00:07:10,060 --> 00:07:11,000
+invite link to join the Slack
+
+297
+00:07:11,110 --> 00:07:11,649
+workspace.
+
+298
+00:07:11,649 --> 00:07:12,910
+And then once you see that they've
+
+299
+00:07:12,930 --> 00:07:13,939
+joined the workspace,
+
+300
+00:07:13,980 --> 00:07:15,790
+you just go into, you know, like
+
+301
+00:07:15,959 --> 00:07:18,139
+the specific channel, and then you
+
+302
+00:07:18,139 --> 00:07:19,509
+could add them as a member
+
+303
+00:07:19,779 --> 00:07:21,019
+now that they're in your
+
+304
+00:07:21,050 --> 00:07:21,800
+workspace.
+
+305
+00:07:21,800 --> 00:07:23,319
+So that's, that's Slack.
+
+306
+00:07:23,319 --> 00:07:24,939
+So you could set it up however
+
+307
+00:07:24,939 --> 00:07:25,310
+you'd
+
+308
+00:07:25,360 --> 00:07:25,769
+like.
+
+309
+00:07:25,769 --> 00:07:27,399
+But like I said, you'd set up a
+
+310
+00:07:27,399 --> 00:07:29,250
+workspace specifically for your
+
+311
+00:07:29,250 --> 00:07:29,839
+agency.
+
+312
+00:07:29,839 --> 00:07:31,519
+So set up a agency
+
+313
+00:07:31,560 --> 00:07:33,329
+name and then dash, like I have it
+
+314
+00:07:33,329 --> 00:07:33,779
+here.
+
+315
+00:07:33,779 --> 00:07:35,449
+So you'll see like clock, like
+
+316
+00:07:35,449 --> 00:07:36,620
+knowledge X, right?
+
+317
+00:07:36,680 --> 00:07:37,379
+And then
+
+318
+00:07:37,420 --> 00:07:38,290
+there's that line.
+
+319
+00:07:38,290 --> 00:07:39,860
+And then it says client workspace.
+
+320
+00:07:39,860 --> 00:07:41,360
+So you just do, you know, your
+
+321
+00:07:41,360 --> 00:07:42,220
+agency's name,
+
+322
+00:07:42,939 --> 00:07:43,879
+client workspace.
+
+323
+00:07:43,889 --> 00:07:46,060
+And then within that workspace,
+
+324
+00:07:46,060 --> 00:07:48,110
+you'd have an announcements
+
+325
+00:07:48,360 --> 00:07:49,860
+channel, like I have
+
+326
+00:07:49,899 --> 00:07:50,459
+set up here.
+
+327
+00:07:50,459 --> 00:07:51,709
+And again, the announcements
+
+328
+00:07:51,879 --> 00:07:53,060
+channel is basically like your
+
+329
+00:07:53,060 --> 00:07:54,139
+email list that has all of
+
+330
+00:07:54,199 --> 00:07:55,069
+your clients on it.
+
+331
+00:07:55,069 --> 00:07:56,240
+So you could send important
+
+332
+00:07:56,240 --> 00:07:57,680
+information and updates through
+
+333
+00:07:57,680 --> 00:07:58,579
+the announcements
+
+334
+00:07:58,980 --> 00:07:59,230
+channel.
+
+335
+00:07:59,230 --> 00:08:00,899
+You could even call the channel
+
+336
+00:08:00,920 --> 00:08:02,660
+like important or company-wide
+
+337
+00:08:02,660 --> 00:08:03,310
+updates.
+
+338
+00:08:03,319 --> 00:08:04,149
+Like you don't
+
+339
+00:08:04,220 --> 00:08:05,410
+have to use the same naming
+
+340
+00:08:05,410 --> 00:08:06,740
+convention that we use, but
+
+341
+00:08:06,750 --> 00:08:08,620
+that's, you know, a standard one.
+
+342
+00:08:08,620 --> 00:08:09,699
+So you'll use
+
+343
+00:08:09,740 --> 00:08:10,689
+the announcements channel for
+
+344
+00:08:10,790 --> 00:08:11,040
+that.
+
+345
+00:08:11,040 --> 00:08:12,060
+And then anytime you sign a new
+
+346
+00:08:12,060 --> 00:08:13,600
+client, you'll just add a channel
+
+347
+00:08:13,639 --> 00:08:15,430
+and the channel would just be that
+
+348
+00:08:15,439 --> 00:08:17,019
+client's specific name.
+
+349
+00:08:17,019 --> 00:08:19,170
+And here's the thing, like
+
+350
+00:08:19,420 --> 00:08:20,939
+sometimes people
+
+351
+00:08:20,980 --> 00:08:22,790
+like to get super like complicated
+
+352
+00:08:22,810 --> 00:08:24,600
+with Slack and they'll set up like
+
+353
+00:08:24,720 --> 00:08:26,300
+multiple different channels
+
+354
+00:08:26,339 --> 00:08:27,259
+for one client.
+
+355
+00:08:27,259 --> 00:08:29,060
+We've done that in the past too.
+
+356
+00:08:29,060 --> 00:08:30,540
+But what we found is like the
+
+357
+00:08:30,540 --> 00:08:31,870
+client is looking for
+
+358
+00:08:32,059 --> 00:08:33,298
+the most straightforward way to
+
+359
+00:08:33,350 --> 00:08:34,740
+communicate with you as a service
+
+360
+00:08:34,740 --> 00:08:35,320
+provider.
+
+361
+00:08:35,320 --> 00:08:38,220
+So just set up one channel for
+
+362
+00:08:38,259 --> 00:08:38,710
+the client.
+
+363
+00:08:38,710 --> 00:08:39,679
+That's really all you need.
+
+364
+00:08:39,759 --> 00:08:40,779
+If you really need like another
+
+365
+00:08:40,779 --> 00:08:42,798
+channel, like for example,
+
+366
+00:08:42,899 --> 00:08:45,240
+we actually, for our clients, we
+
+367
+00:08:45,240 --> 00:08:47,129
+have a client name chat and a
+
+368
+00:08:47,259 --> 00:08:48,700
+client name calls.
+
+369
+00:08:48,700 --> 00:08:50,000
+So like the chat
+
+370
+00:08:50,039 --> 00:08:52,159
+is like where, you know, we would
+
+371
+00:08:52,159 --> 00:08:53,500
+discuss anything.
+
+372
+00:08:53,500 --> 00:08:55,429
+And then the calls is only for an
+
+373
+00:08:55,429 --> 00:08:56,639
+automation that we
+
+374
+00:08:56,679 --> 00:08:58,100
+have set up through Calendly.
+
+375
+00:08:58,179 --> 00:08:59,799
+So anytime a call is booked, since
+
+376
+00:08:59,799 --> 00:09:01,360
+we're doing a lead gen and we're
+
+377
+00:09:01,629 --> 00:09:02,360
+scheduling appointments for our
+
+378
+00:09:02,450 --> 00:09:03,539
+client, that's like the service we
+
+379
+00:09:03,539 --> 00:09:05,539
+provide, a notification will be
+
+380
+00:09:05,539 --> 00:09:05,940
+sent in the
+
+381
+00:09:06,000 --> 00:09:06,720
+calls channel.
+
+382
+00:09:06,830 --> 00:09:08,179
+And that's just for tracking
+
+383
+00:09:08,179 --> 00:09:08,809
+purposes.
+
+384
+00:09:08,809 --> 00:09:10,529
+And it's, it's nice for the client
+
+385
+00:09:10,590 --> 00:09:11,240
+to be able to go
+
+386
+00:09:11,279 --> 00:09:12,809
+to that channel and see all the
+
+387
+00:09:12,809 --> 00:09:14,440
+calls we've booked for them.
+
+388
+00:09:14,440 --> 00:09:16,070
+But that's really like the only
+
+389
+00:09:16,070 --> 00:09:16,580
+use case
+
+390
+00:09:16,620 --> 00:09:18,200
+I could think of to have multiple
+
+391
+00:09:18,200 --> 00:09:19,759
+channels set up is if you need to
+
+392
+00:09:19,759 --> 00:09:21,919
+like use automations in aggregate
+
+393
+00:09:22,169 --> 00:09:23,769
+data in real time to another
+
+394
+00:09:23,940 --> 00:09:24,720
+channel.
+
+395
+00:09:24,720 --> 00:09:27,269
+So the calls channel is only used
+
+396
+00:09:27,269 --> 00:09:29,240
+to keep track of all the calls
+
+397
+00:09:29,279 --> 00:09:30,659
+that we're booking from our
+
+398
+00:09:30,659 --> 00:09:31,340
+services.
+
+399
+00:09:31,340 --> 00:09:32,899
+And it's just easy for them to see
+
+400
+00:09:33,019 --> 00:09:34,100
+that in real time.
+
+401
+00:09:34,139 --> 00:09:35,519
+But the chat channel is where all
+
+402
+00:09:35,519 --> 00:09:36,899
+the activity is happening.
+
+403
+00:09:36,899 --> 00:09:39,029
+So that's how I would set up
+
+404
+00:09:39,029 --> 00:09:39,669
+Slack.
+
+405
+00:09:39,919 --> 00:09:41,950
+And it's so, so important, again,
+
+406
+00:09:41,950 --> 00:09:42,950
+to have this set up
+
+407
+00:09:42,950 --> 00:09:44,580
+professionally, right?
+
+408
+00:09:44,590 --> 00:09:46,120
+As soon as you onboard a
+
+409
+00:09:46,399 --> 00:09:47,970
+client, you want to get them into
+
+410
+00:09:48,139 --> 00:09:49,990
+your professional workspaces so
+
+411
+00:09:49,990 --> 00:09:52,120
+that they're not confused on like,
+
+412
+00:09:52,279 --> 00:09:53,419
+where do I reach out to their
+
+413
+00:09:53,419 --> 00:09:53,700
+team?
+
+414
+00:09:53,779 --> 00:09:55,259
+How do I know what's happening?
+
+415
+00:09:55,259 --> 00:09:57,120
+I haven't heard any updates.
+
+416
+00:09:57,120 --> 00:09:57,220
+Are
+
+417
+00:09:57,379 --> 00:09:58,129
+they working yet?
+
+418
+00:09:58,230 --> 00:09:59,210
+Have they gotten started?
+
+419
+00:09:59,360 --> 00:10:00,070
+Where are they at?
+
+420
+00:10:00,070 --> 00:10:01,340
+How long is it going to take?
+
+421
+00:10:01,340 --> 00:10:02,000
+What did
+
+422
+00:10:02,039 --> 00:10:03,460
+they need for me, if anything,
+
+423
+00:10:03,539 --> 00:10:03,850
+right?
+
+424
+00:10:04,019 --> 00:10:05,340
+So you want to make sure you're
+
+425
+00:10:05,340 --> 00:10:06,820
+super organized and set up on
+
+426
+00:10:06,820 --> 00:10:06,980
+Slack
+
+427
+00:10:07,399 --> 00:10:07,929
+right away.
+
+428
+00:10:08,039 --> 00:10:09,730
+And you can include a link, an
+
+429
+00:10:09,730 --> 00:10:11,399
+invite link to join your Slack
+
+430
+00:10:11,480 --> 00:10:12,730
+workspace right in that
+
+431
+00:10:13,220 --> 00:10:14,850
+onboarding email that you'll send
+
+432
+00:10:14,850 --> 00:10:16,120
+out to new clients.
+
+433
+00:10:16,120 --> 00:10:17,730
+So if you have any questions on
+
+434
+00:10:17,730 --> 00:10:18,139
+this,
+
+435
+00:10:18,179 --> 00:10:18,929
+let me know.
+
+436
+00:10:19,039 --> 00:10:20,940
+There's tons of videos and tons of
+
+437
+00:10:20,940 --> 00:10:22,730
+education around Slack and how
+
+438
+00:10:22,789 --> 00:10:23,559
+it's used.
+
+439
+00:10:23,559 --> 00:10:23,710
+And
+
+440
+00:10:23,840 --> 00:10:25,840
+that you could get super into it,
+
+441
+00:10:25,840 --> 00:10:28,000
+like with the private channels and
+
+442
+00:10:28,000 --> 00:10:29,330
+the automations and the
+
+443
+00:10:29,980 --> 00:10:30,370
+workflows.
+
+444
+00:10:30,480 --> 00:10:32,330
+But really, like Slack is such a
+
+445
+00:10:32,330 --> 00:10:33,240
+simple tool.
+
+446
+00:10:33,360 --> 00:10:35,000
+And the best way to learn how to
+
+447
+00:10:35,000 --> 00:10:35,580
+use it is
+
+448
+00:10:36,019 --> 00:10:37,470
+through actually using it.
+
+449
+00:10:37,639 --> 00:10:39,700
+So that's part of the reason why
+
+450
+00:10:39,700 --> 00:10:41,610
+we use Slack for our coaching
+
+451
+00:10:41,610 --> 00:10:42,240
+program,
+
+452
+00:10:42,519 --> 00:10:44,399
+where most other people use like
+
+453
+00:10:44,399 --> 00:10:46,409
+Telegram, or like a Facebook
+
+454
+00:10:46,409 --> 00:10:47,120
+group.
+
+455
+00:10:47,120 --> 00:10:47,809
+The reason
+
+456
+00:10:48,100 --> 00:10:49,840
+we use Slack is because as agency
+
+457
+00:10:49,840 --> 00:10:51,720
+owners, it's like necessary to use
+
+458
+00:10:51,840 --> 00:10:52,860
+Slack at this point.
+
+459
+00:10:52,860 --> 00:10:52,940
+Like,
+
+460
+00:10:52,980 --> 00:10:54,710
+I don't know any agency owners
+
+461
+00:10:54,710 --> 00:10:56,759
+that manage clients that don't use
+
+462
+00:10:56,759 --> 00:10:57,419
+Slack.
+
+463
+00:10:57,419 --> 00:10:59,820
+So with that in mind, I want
+
+464
+00:10:59,860 --> 00:11:01,690
+you guys to be comfortable using
+
+465
+00:11:01,840 --> 00:11:02,320
+Slack.
+
+466
+00:11:02,320 --> 00:11:04,240
+So now, you know, being part of
+
+467
+00:11:04,240 --> 00:11:06,379
+our Client Ascension Slack
+
+468
+00:11:06,779 --> 00:11:08,230
+workspace, you're learning how
+
+469
+00:11:08,399 --> 00:11:09,460
+Slack is to be used.
+
+470
+00:11:09,460 --> 00:11:10,970
+So you're watching me in the
+
+471
+00:11:11,029 --> 00:11:12,299
+announcements channel,
+
+472
+00:11:12,389 --> 00:11:13,470
+sending, you know, important
+
+473
+00:11:13,470 --> 00:11:14,940
+announcements, and you're watching
+
+474
+00:11:14,940 --> 00:11:16,889
+how people are communicating in
+
+475
+00:11:16,950 --> 00:11:17,419
+the chat,
+
+476
+00:11:17,460 --> 00:11:18,879
+and you're seeing how you could
+
+477
+00:11:18,960 --> 00:11:20,299
+like react to messages.
+
+478
+00:11:20,299 --> 00:11:21,419
+And you're seeing like the
+
+479
+00:11:21,419 --> 00:11:21,679
+difference
+
+480
+00:11:22,220 --> 00:11:23,440
+between a public channel and a
+
+481
+00:11:23,440 --> 00:11:24,549
+private channel.
+
+482
+00:11:24,549 --> 00:11:26,080
+And you're seeing how you could
+
+483
+00:11:26,220 --> 00:11:27,259
+send like direct
+
+484
+00:11:27,659 --> 00:11:28,179
+messages and DMs.
+
+485
+00:11:28,179 --> 00:11:29,580
+And you're seeing how you could
+
+486
+00:11:29,590 --> 00:11:31,470
+add all these different apps to
+
+487
+00:11:31,470 --> 00:11:33,259
+speed things up and
+
+488
+00:11:33,590 --> 00:11:34,299
+automate things, right?
+
+489
+00:11:34,299 --> 00:11:36,289
+So there's so much going on here.
+
+490
+00:11:36,330 --> 00:11:37,500
+And you'll even notice like in the
+
+491
+00:11:37,500 --> 00:11:37,820
+weekly
+
+492
+00:11:37,860 --> 00:11:39,690
+call links, like obviously, these
+
+493
+00:11:39,840 --> 00:11:41,460
+are all automated messages, I'm
+
+494
+00:11:41,460 --> 00:11:43,179
+not sending, you know, manual
+
+495
+00:11:43,179 --> 00:11:43,659
+messages
+
+496
+00:11:43,700 --> 00:11:45,480
+at the same time, twice every
+
+497
+00:11:45,480 --> 00:11:46,429
+single week.
+
+498
+00:11:46,429 --> 00:11:48,539
+So that happens through Zapier.
+
+499
+00:11:48,539 --> 00:11:49,919
+So Zapier works really
+
+500
+00:11:50,250 --> 00:11:51,360
+nicely with Slack to set up
+
+501
+00:11:51,360 --> 00:11:52,860
+different automations.
+
+502
+00:11:52,860 --> 00:11:54,960
+But really, just to keep it simple
+
+503
+00:11:55,080 --> 00:11:56,379
+is, as soon as you
+
+504
+00:11:56,419 --> 00:11:57,940
+sign on a client, the standard
+
+505
+00:11:57,940 --> 00:11:59,529
+workflow should be that you
+
+506
+00:11:59,529 --> 00:12:01,360
+already have a client workspace
+
+507
+00:12:01,549 --> 00:12:01,950
+set up for
+
+508
+00:12:02,019 --> 00:12:02,759
+your agency.
+
+509
+00:12:02,870 --> 00:12:04,460
+So that once you have signed a
+
+510
+00:12:04,470 --> 00:12:06,559
+client, you invite them to Slack.
+
+511
+00:12:06,559 --> 00:12:08,240
+And then in Slack, you have
+
+512
+00:12:08,340 --> 00:12:09,870
+the private channel set up for
+
+513
+00:12:09,870 --> 00:12:10,690
+your client.
+
+514
+00:12:10,690 --> 00:12:11,960
+And then you also have the
+
+515
+00:12:12,080 --> 00:12:13,269
+announcements channel
+
+516
+00:12:13,379 --> 00:12:15,190
+that everyone new to the workspace
+
+517
+00:12:15,210 --> 00:12:16,139
+gets added to.
+
+518
+00:12:16,139 --> 00:12:18,000
+So if I'm a client, the way I see
+
+519
+00:12:18,000 --> 00:12:18,909
+it is that I signed
+
+520
+00:12:18,980 --> 00:12:20,809
+on, and then I got an email that's
+
+521
+00:12:20,960 --> 00:12:22,309
+inviting me to Slack.
+
+522
+00:12:22,309 --> 00:12:24,460
+And in Slack, I'm being invited to
+
+523
+00:12:24,460 --> 00:12:24,940
+this Slack
+
+524
+00:12:24,980 --> 00:12:26,549
+that gives me two channels, the
+
+525
+00:12:26,549 --> 00:12:28,240
+announcements channel, where I see
+
+526
+00:12:28,240 --> 00:12:29,740
+like company wide announcements,
+
+527
+00:12:29,740 --> 00:12:30,509
+and then my
+
+528
+00:12:31,100 --> 00:12:32,830
+company's name, as a channel
+
+529
+00:12:32,830 --> 00:12:35,389
+that's private, where it's just me
+
+530
+00:12:35,389 --> 00:12:37,740
+and the service provider, or the
+
+531
+00:12:37,740 --> 00:12:39,009
+agency, and I just
+
+532
+00:12:39,419 --> 00:12:40,379
+communicate with them that way.
+
+533
+00:12:40,379 --> 00:12:41,419
+So set the standard and the
+
+534
+00:12:41,419 --> 00:12:42,860
+precedent with your clients on
+
+535
+00:12:42,860 --> 00:12:44,220
+where and how to
+
+536
+00:12:44,620 --> 00:12:45,350
+communicate with you.
+
+537
+00:12:45,350 --> 00:12:46,850
+And the nice and everything can be
+
+538
+00:12:46,850 --> 00:12:48,379
+done through Slack, literally
+
+539
+00:12:48,379 --> 00:12:48,919
+everything.
+
+540
+00:12:48,919 --> 00:12:50,210
+It's so, it's so
+
+541
+00:12:50,340 --> 00:12:50,759
+dope.
+
+542
+00:12:50,759 --> 00:12:52,860
+And like, for example, right, like
+
+543
+00:12:52,860 --> 00:12:54,769
+you could send files in Slack, you
+
+544
+00:12:54,769 --> 00:12:57,100
+could attach literal files, like
+
+545
+00:12:57,100 --> 00:12:57,820
+PDFs,
+
+546
+00:12:58,080 --> 00:12:59,200
+pictures, screenshots, right?
+
+547
+00:12:59,200 --> 00:13:00,269
+Like you're seeing in here,
+
+548
+00:13:00,269 --> 00:13:01,659
+there's nothing like you can't do
+
+549
+00:13:01,659 --> 00:13:02,080
+in Slack
+
+550
+00:13:02,179 --> 00:13:03,419
+that you can do an email, from
+
+551
+00:13:03,460 --> 00:13:04,549
+what I found, at least.
+
+552
+00:13:04,549 --> 00:13:05,740
+And the other nice thing that you
+
+553
+00:13:05,740 --> 00:13:06,139
+can do in
+
+554
+00:13:06,389 --> 00:13:07,889
+Slack is you could record audio
+
+555
+00:13:07,889 --> 00:13:08,899
+notes, right?
+
+556
+00:13:08,899 --> 00:13:10,649
+You can literally record audio
+
+557
+00:13:10,649 --> 00:13:12,379
+clips, which is a nice feature,
+
+558
+00:13:12,779 --> 00:13:13,980
+because sometimes it's a lot
+
+559
+00:13:13,980 --> 00:13:15,740
+easier to communicate through
+
+560
+00:13:15,740 --> 00:13:17,659
+audio, whether that be for you or
+
+561
+00:13:17,659 --> 00:13:17,899
+for your
+
+562
+00:13:17,940 --> 00:13:18,200
+client.
+
+563
+00:13:18,299 --> 00:13:19,769
+You could also record video clips.
+
+564
+00:13:19,919 --> 00:13:21,200
+So you could send video clips
+
+565
+00:13:21,200 --> 00:13:22,620
+right through Slack.
+
+566
+00:13:22,659 --> 00:13:24,429
+And then another nice thing is if
+
+567
+00:13:24,429 --> 00:13:26,240
+you're on like the premium trial
+
+568
+00:13:26,240 --> 00:13:27,820
+or the premium plan or whatever,
+
+569
+00:13:28,220 --> 00:13:30,539
+which is like $8 a month per user,
+
+570
+00:13:30,539 --> 00:13:32,090
+which is nothing, just add that to
+
+571
+00:13:32,210 --> 00:13:33,820
+your, you know, monthly cost per
+
+572
+00:13:34,080 --> 00:13:35,059
+clients, like eight bucks a
+
+573
+00:13:35,059 --> 00:13:37,070
+person, which I highly, I
+
+574
+00:13:37,070 --> 00:13:38,379
+recommend.
+
+575
+00:13:38,379 --> 00:13:40,220
+You could do this thing in the
+
+576
+00:13:40,220 --> 00:13:40,779
+bottom left,
+
+577
+00:13:41,039 --> 00:13:41,980
+which is a huddle.
+
+578
+00:13:41,980 --> 00:13:43,429
+So when you're in, like, say, I
+
+579
+00:13:43,429 --> 00:13:45,259
+want to huddle with Abdi or say,
+
+580
+00:13:45,259 --> 00:13:46,059
+this is like my
+
+581
+00:13:46,330 --> 00:13:47,860
+client A, I'll navigate to their
+
+582
+00:13:47,860 --> 00:13:49,460
+private channel and I'll just
+
+583
+00:13:49,460 --> 00:13:50,330
+flick this on.
+
+584
+00:13:50,460 --> 00:13:51,500
+And I could actually
+
+585
+00:13:51,539 --> 00:13:52,899
+do calls right through Slack,
+
+586
+00:13:52,899 --> 00:13:54,370
+instead of having to set up a zoom
+
+587
+00:13:54,370 --> 00:13:55,779
+and having to be on camera on my
+
+588
+00:13:55,840 --> 00:13:56,460
+client,
+
+589
+00:13:56,500 --> 00:13:58,070
+when, you know, 90% of the time
+
+590
+00:13:58,070 --> 00:13:59,340
+when we have client calls,
+
+591
+00:13:59,340 --> 00:14:00,620
+they're, they're really just
+
+592
+00:14:00,870 --> 00:14:02,279
+quick catch up calls that don't
+
+593
+00:14:02,289 --> 00:14:04,269
+require us to have our cameras on.
+
+594
+00:14:04,399 --> 00:14:04,539
+Right.
+
+595
+00:14:04,539 --> 00:14:06,059
+And you even on the huddles,
+
+596
+00:14:06,100 --> 00:14:07,759
+you can share your screen and you
+
+597
+00:14:07,759 --> 00:14:08,879
+could record them.
+
+598
+00:14:08,879 --> 00:14:10,610
+So it's like, you're getting the
+
+599
+00:14:10,610 --> 00:14:11,039
+same thing
+
+600
+00:14:11,220 --> 00:14:12,360
+as you are through zoom.
+
+601
+00:14:12,360 --> 00:14:13,860
+You're just not getting the video
+
+602
+00:14:13,860 --> 00:14:15,250
+right now, which is, is ideal
+
+603
+00:14:15,250 --> 00:14:15,980
+because when
+
+604
+00:14:16,019 --> 00:14:17,789
+we're meeting with clients, like
+
+605
+00:14:17,789 --> 00:14:19,340
+why put on video, if you don't
+
+606
+00:14:19,340 --> 00:14:20,960
+need it, like just hop on an
+
+607
+00:14:21,149 --> 00:14:21,500
+audio,
+
+608
+00:14:21,539 --> 00:14:23,250
+it's like a conference call, talk
+
+609
+00:14:23,250 --> 00:14:24,870
+about stuff and then hop off once
+
+610
+00:14:24,870 --> 00:14:25,740
+you're done.
+
+611
+00:14:25,740 --> 00:14:26,460
+And if you need to
+
+612
+00:14:26,500 --> 00:14:27,460
+share your screen, you can do that
+
+613
+00:14:27,549 --> 00:14:28,289
+right through Slack.
+
+614
+00:14:28,299 --> 00:14:29,980
+So why use multiple tools like
+
+615
+00:14:29,980 --> 00:14:30,299
+zoom
+
+616
+00:14:30,340 --> 00:14:31,730
+and Slack, when you could use
+
+617
+00:14:31,730 --> 00:14:33,570
+everything all within Slack, it's,
+
+618
+00:14:33,570 --> 00:14:34,889
+it's just a no brainer.
+
+619
+00:14:34,980 --> 00:14:36,399
+So I'm not a salesman or anything
+
+620
+00:14:36,480 --> 00:14:37,179
+for Slack.
+
+621
+00:14:37,179 --> 00:14:39,500
+Um, but I know that if you're an
+
+622
+00:14:39,500 --> 00:14:40,139
+agency owner,
+
+623
+00:14:40,179 --> 00:14:41,129
+you're going to need to be using
+
+624
+00:14:41,230 --> 00:14:42,259
+Slack and you're going to need to
+
+625
+00:14:42,259 --> 00:14:43,970
+get really good at using Slack
+
+626
+00:14:44,379 --> 00:14:45,620
+because most of your clients are
+
+627
+00:14:45,620 --> 00:14:47,029
+probably not going to have
+
+628
+00:14:47,029 --> 00:14:48,220
+experience using Slack.
+
+629
+00:14:48,259 --> 00:14:50,039
+So you have to guide them through
+
+630
+00:14:50,039 --> 00:14:51,320
+it and be able to answer their
+
+631
+00:14:51,320 --> 00:14:53,179
+questions and, and, you know,
+
+632
+00:14:53,230 --> 00:14:54,740
+build their comfort level with,
+
+633
+00:14:54,740 --> 00:14:57,000
+with Slack, but it's, it's
+
+634
+00:14:57,000 --> 00:14:58,379
+required communication with
+
+635
+00:14:58,379 --> 00:14:59,169
+clients is key.
+
+636
+00:15:00,019 --> 00:15:01,830
+It's probably the number one
+
+637
+00:15:02,000 --> 00:15:04,559
+thing, uh, that, that retention
+
+638
+00:15:04,629 --> 00:15:07,019
+relies on is, is communication.
+
+639
+00:15:07,059 --> 00:15:08,480
+You have to properly communicate
+
+640
+00:15:08,559 --> 00:15:09,580
+with your clients.
+
+641
+00:15:09,580 --> 00:15:11,740
+Um, and just using a tool like
+
+642
+00:15:11,740 --> 00:15:12,120
+Slack
+
+643
+00:15:12,190 --> 00:15:14,009
+will, will put you already at an
+
+644
+00:15:14,159 --> 00:15:16,620
+advantage, um, as opposed to using
+
+645
+00:15:16,620 --> 00:15:17,710
+email and just not having
+
+646
+00:15:17,940 --> 00:15:20,220
+any organization on, uh, how
+
+647
+00:15:20,240 --> 00:15:22,620
+things are communicated between
+
+648
+00:15:22,620 --> 00:15:24,539
+you and your clients.
+
+649
+00:15:24,580 --> 00:15:26,389
+So, uh, look into Slack, get
+
+650
+00:15:26,559 --> 00:15:28,720
+comfortable, uh, and really your
+
+651
+00:15:28,720 --> 00:15:30,110
+action item after this video
+
+652
+00:15:30,340 --> 00:15:31,990
+is to set up a client workspace
+
+653
+00:15:31,990 --> 00:15:33,019
+within Slack.
+
+654
+00:15:33,019 --> 00:15:34,860
+If you don't already have one set
+
+655
+00:15:34,860 --> 00:15:35,659
+up an announcements
+
+656
+00:15:36,059 --> 00:15:37,490
+channel, delete all the other
+
+657
+00:15:37,500 --> 00:15:39,500
+channels, uh, you know, write
+
+658
+00:15:39,500 --> 00:15:41,230
+descriptions for, for the
+
+659
+00:15:41,480 --> 00:15:41,659
+announcements
+
+660
+00:15:42,000 --> 00:15:42,250
+channel.
+
+661
+00:15:42,250 --> 00:15:43,309
+If you want to write a mock
+
+662
+00:15:43,309 --> 00:15:44,590
+description for what a client
+
+663
+00:15:44,590 --> 00:15:46,620
+channel will look like, uh, if you
+
+664
+00:15:46,659 --> 00:15:48,360
+want, and then if you have clients
+
+665
+00:15:48,360 --> 00:15:50,100
+already start setting up channels
+
+666
+00:15:50,100 --> 00:15:51,899
+for them within Slack so you
+
+667
+00:15:51,940 --> 00:15:54,169
+can invite them to it, uh, and,
+
+668
+00:15:54,169 --> 00:15:56,490
+and just basically migrate all of
+
+669
+00:15:56,490 --> 00:15:59,419
+your communications over to Slack.
+
+670
+00:15:59,460 --> 00:16:01,620
+Uh, and this is going to be like
+
+671
+00:16:01,620 --> 00:16:04,389
+key for making an impression early
+
+672
+00:16:04,509 --> 00:16:06,700
+on, uh, creating an enjoyable
+
+673
+00:16:07,110 --> 00:16:08,330
+experience early on and just
+
+674
+00:16:08,330 --> 00:16:09,919
+retaining clients long term.

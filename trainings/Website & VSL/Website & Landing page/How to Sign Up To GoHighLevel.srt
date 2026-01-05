@@ -1,0 +1,215 @@
+1
+00:00:00,960 --> 00:00:02,060
+All right, in this video we're
+
+2
+00:00:02,169 --> 00:00:04,209
+going to go over how to sign up
+
+3
+00:00:04,549 --> 00:00:06,480
+for Google High Level.
+
+4
+00:00:06,509 --> 00:00:07,389
+So obviously the first thing
+
+5
+00:00:07,500 --> 00:00:08,410
+you're going to do is you're going
+
+6
+00:00:08,419 --> 00:00:09,720
+to click the link below this
+
+7
+00:00:10,070 --> 00:00:10,279
+video.
+
+8
+00:00:10,310 --> 00:00:11,289
+It's going to take you to this
+
+9
+00:00:11,320 --> 00:00:12,050
+page right here.
+
+10
+00:00:12,089 --> 00:00:14,380
+So all you have to do is click the
+
+11
+00:00:14,390 --> 00:00:16,210
+14-day free trial.
+
+12
+00:00:16,410 --> 00:00:17,660
+You're going to put your name,
+
+13
+00:00:17,660 --> 00:00:19,260
+email, phone number, and then your
+
+14
+00:00:19,260 --> 00:00:20,530
+card information for the trial
+
+15
+00:00:20,739 --> 00:00:21,199
+details.
+
+16
+00:00:21,230 --> 00:00:23,059
+So if we put our company name.
+
+17
+00:00:31,210 --> 00:00:38,740
+Okay, we go to step two.
+
+18
+00:00:38,770 --> 00:00:41,560
+Oh, let me just put a real email.
+
+19
+00:00:41,649 --> 00:00:50,340
+We go to step two.
+
+20
+00:00:50,369 --> 00:00:52,609
+And then you're just going to
+
+21
+00:00:52,609 --> 00:00:55,549
+select the 97 starter plan or the
+
+22
+00:00:55,570 --> 00:00:56,789
+297.
+
+23
+00:00:56,829 --> 00:00:58,210
+So the difference between these
+
+24
+00:00:58,210 --> 00:00:59,649
+two is the 97 starter plans is
+
+25
+00:00:59,649 --> 00:01:00,630
+going to give you three
+
+26
+00:01:00,630 --> 00:01:01,479
+subaccounts.
+
+27
+00:01:01,520 --> 00:01:03,240
+Okay, so a subaccount essentially
+
+28
+00:01:03,240 --> 00:01:04,959
+means that you have one account,
+
+29
+00:01:05,069 --> 00:01:06,849
+which is the main Go High Level
+
+30
+00:01:06,849 --> 00:01:07,650
+license.
+
+31
+00:01:07,700 --> 00:01:09,819
+And then under your Go High Level
+
+32
+00:01:09,819 --> 00:01:12,230
+account, you can have subaccounts
+
+33
+00:01:12,230 --> 00:01:14,010
+for yourself or clients or
+
+34
+00:01:14,010 --> 00:01:15,659
+anything like that.
+
+35
+00:01:15,689 --> 00:01:17,590
+So for starting out, I recommend
+
+36
+00:01:17,689 --> 00:01:19,810
+the $97 starter plan just because
+
+37
+00:01:20,019 --> 00:01:21,680
+you don't need really more than
+
+38
+00:01:21,680 --> 00:01:23,079
+three subaccounts.
+
+39
+00:01:23,430 --> 00:01:25,019
+And if you start using High Level
+
+40
+00:01:25,019 --> 00:01:26,400
+for your clients and you're
+
+41
+00:01:26,400 --> 00:01:28,260
+providing them with subaccounts,
+
+42
+00:01:28,260 --> 00:01:30,150
+then you can go ahead and go into
+
+43
+00:01:30,150 --> 00:01:32,439
+the 297 unlimited plan, which
+
+44
+00:01:32,439 --> 00:01:33,939
+gives you unlimited subaccounts.
+
+45
+00:01:33,969 --> 00:01:35,590
+Okay, so just put your card
+
+46
+00:01:35,590 --> 00:01:37,890
+information, accept these things,
+
+47
+00:01:37,890 --> 00:01:39,920
+and then just start the trial.
+
+48
+00:01:42,069 --> 00:01:44,530
+So in the next video, we're going
+
+49
+00:01:44,579 --> 00:01:46,540
+to go over how to import our
+
+50
+00:01:46,579 --> 00:01:48,280
+agency snapshots.
+
+51
+00:01:48,310 --> 00:01:49,989
+You can start using Go High Level
+
+52
+00:01:49,989 --> 00:01:51,450
+with a website landing page
+
+53
+00:01:51,450 --> 00:01:53,099
+automations already set up for
+
+54
+00:01:53,099 --> 00:01:53,560
+you.

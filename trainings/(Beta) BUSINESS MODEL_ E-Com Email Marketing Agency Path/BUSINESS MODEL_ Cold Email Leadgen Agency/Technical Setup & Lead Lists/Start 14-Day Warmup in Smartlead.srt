@@ -1,0 +1,651 @@
+1
+00:00:00,440 --> 00:00:02,040
+What's going on guys, in this
+
+2
+00:00:02,040 --> 00:00:03,540
+video, we're going to finish off
+
+3
+00:00:03,649 --> 00:00:04,980
+the deliverability section
+
+4
+00:00:05,019 --> 00:00:06,750
+of the cold email setup guide
+
+5
+00:00:06,750 --> 00:00:09,410
+updated for 2023 and SmartLead by
+
+6
+00:00:09,410 --> 00:00:11,380
+starting the warmup process
+
+7
+00:00:11,419 --> 00:00:13,400
+in SmartLead for each of the new
+
+8
+00:00:13,539 --> 00:00:15,859
+email accounts we've now connected
+
+9
+00:00:15,859 --> 00:00:18,079
+to our new SmartLead account.
+
+10
+00:00:18,120 --> 00:00:20,000
+And so right within SmartLead in
+
+11
+00:00:20,000 --> 00:00:21,969
+the email account section, you
+
+12
+00:00:21,969 --> 00:00:23,160
+should have 10 email
+
+13
+00:00:23,519 --> 00:00:25,039
+accounts added here and you're
+
+14
+00:00:25,039 --> 00:00:26,989
+going to go into each individual
+
+15
+00:00:26,989 --> 00:00:28,739
+one, take note of what
+
+16
+00:00:28,780 --> 00:00:30,649
+the domain or email account it is,
+
+17
+00:00:30,649 --> 00:00:32,170
+and you're going to start in
+
+18
+00:00:32,170 --> 00:00:32,899
+general.
+
+19
+00:00:32,939 --> 00:00:34,429
+The first thing we want to do is
+
+20
+00:00:34,429 --> 00:00:36,280
+set up a custom tracking domain.
+
+21
+00:00:36,420 --> 00:00:38,890
+And so turn this on and then we're
+
+22
+00:00:38,890 --> 00:00:40,869
+going to have to go back to
+
+23
+00:00:40,920 --> 00:00:43,869
+domains.google, back to
+
+24
+00:00:43,939 --> 00:00:45,200
+the registrar, and then we're
+
+25
+00:00:45,200 --> 00:00:46,250
+going to have to go to this
+
+26
+00:00:46,250 --> 00:00:47,109
+specific domain.
+
+27
+00:00:47,200 --> 00:00:49,020
+So this is clientascend.com right
+
+28
+00:00:49,020 --> 00:00:49,479
+here.
+
+29
+00:00:49,520 --> 00:00:50,850
+We're going to go back into
+
+30
+00:00:50,850 --> 00:00:51,479
+manage.
+
+31
+00:00:51,520 --> 00:00:53,219
+We're going to go into DNS and
+
+32
+00:00:53,219 --> 00:00:55,259
+then we're going to manage custom
+
+33
+00:00:55,259 --> 00:00:56,960
+records and we're going to
+
+34
+00:00:57,320 --> 00:00:58,990
+create a new record after DMARC.
+
+35
+00:00:59,340 --> 00:01:01,600
+And the value here is just the
+
+36
+00:01:01,600 --> 00:01:04,209
+host is email tracking, just
+
+37
+00:01:04,209 --> 00:01:05,299
+spelled that way.
+
+38
+00:01:05,439 --> 00:01:07,819
+The type is going to be CNAME.
+
+39
+00:01:07,870 --> 00:01:09,319
+This can stay the same.
+
+40
+00:01:09,359 --> 00:01:10,959
+And then the domain name is
+
+41
+00:01:10,959 --> 00:01:14,739
+open.sleadtrack.com.
+
+42
+00:01:14,780 --> 00:01:17,180
+So email tracking, CNAME, this
+
+43
+00:01:17,180 --> 00:01:18,390
+stays the same,
+
+44
+00:01:18,400 --> 00:01:20,819
+open.sleadtrack.com.
+
+45
+00:01:20,859 --> 00:01:22,420
+You're going to save that.
+
+46
+00:01:22,459 --> 00:01:24,329
+So it should show up exactly like
+
+47
+00:01:24,329 --> 00:01:25,170
+you see here.
+
+48
+00:01:25,349 --> 00:01:27,769
+And then back in Smart Lead, the
+
+49
+00:01:27,769 --> 00:01:30,120
+way you're going to set this up is
+
+50
+00:01:30,219 --> 00:01:31,890
+like it says here.
+
+51
+00:01:33,620 --> 00:01:34,739
+Or where does it say?
+
+52
+00:01:34,780 --> 00:01:38,140
+So it's basically just going to be
+
+53
+00:01:38,140 --> 00:01:41,769
+HTTP, right, like this, slash,
+
+54
+00:01:41,780 --> 00:01:44,939
+slash, and then email tracking
+
+55
+00:01:44,939 --> 00:01:47,359
+dot.
+
+56
+00:01:47,680 --> 00:01:48,760
+And then it's going to be your
+
+57
+00:01:48,760 --> 00:01:49,280
+domain.
+
+58
+00:01:49,319 --> 00:01:52,379
+So clientascend.com like this.
+
+59
+00:01:52,760 --> 00:01:54,370
+And then you can verify CNAME.
+
+60
+00:01:54,480 --> 00:01:56,420
+And then it should be verified
+
+61
+00:01:56,420 --> 00:01:57,629
+successfully.
+
+62
+00:01:58,000 --> 00:01:58,280
+Okay.
+
+63
+00:01:58,319 --> 00:01:59,480
+And then click save in the bottom
+
+64
+00:01:59,480 --> 00:01:59,859
+right.
+
+65
+00:01:59,900 --> 00:02:02,239
+And it'll be saved successfully.
+
+66
+00:02:02,280 --> 00:02:03,370
+And you could go off the email
+
+67
+00:02:03,370 --> 00:02:04,709
+account and back into the general
+
+68
+00:02:04,709 --> 00:02:05,329
+settings.
+
+69
+00:02:05,700 --> 00:02:10,740
+Let's see if it wants to load.
+
+70
+00:02:10,780 --> 00:02:13,770
+I think we might have crashed the
+
+71
+00:02:13,770 --> 00:02:14,819
+system.
+
+72
+00:02:14,860 --> 00:02:15,740
+No, we're good.
+
+73
+00:02:16,159 --> 00:02:17,750
+So go into general settings and
+
+74
+00:02:17,750 --> 00:02:19,460
+this should show up this way.
+
+75
+00:02:19,500 --> 00:02:21,479
+So HTTP, dash, dash, email
+
+76
+00:02:21,620 --> 00:02:23,830
+tracking, and then the domain
+
+77
+00:02:23,830 --> 00:02:26,819
+name, dot, the domain name, right?
+
+78
+00:02:26,900 --> 00:02:28,669
+So that's all set up exactly like
+
+79
+00:02:28,669 --> 00:02:29,610
+we just showed.
+
+80
+00:02:29,939 --> 00:02:32,050
+And then now for the actual
+
+81
+00:02:32,050 --> 00:02:34,349
+warmup, first, we want to actually
+
+82
+00:02:34,400 --> 00:02:36,259
+enable warmup in the bottom right.
+
+83
+00:02:36,639 --> 00:02:37,400
+Okay.
+
+84
+00:02:37,439 --> 00:02:39,050
+And then, so this should be
+
+85
+00:02:39,120 --> 00:02:39,879
+enabled.
+
+86
+00:02:39,919 --> 00:02:41,270
+And then the total number of
+
+87
+00:02:41,280 --> 00:02:42,860
+warmup emails per day should be
+
+88
+00:02:42,860 --> 00:02:43,500
+40.
+
+89
+00:02:44,219 --> 00:02:46,539
+The ramp up should be four.
+
+90
+00:02:46,580 --> 00:02:48,830
+And then the randomized number
+
+91
+00:02:48,830 --> 00:02:52,500
+should be 25 to 40.
+
+92
+00:02:52,539 --> 00:02:54,520
+And then the reply rate should be
+
+93
+00:02:54,659 --> 00:02:55,240
+45.
+
+94
+00:02:55,740 --> 00:02:56,740
+Okay.
+
+95
+00:02:57,120 --> 00:02:58,719
+Everything else can say the same.
+
+96
+00:02:58,759 --> 00:03:01,129
+And then we can enable auto adjust
+
+97
+00:03:01,129 --> 00:03:03,270
+warmup setting ratio and then
+
+98
+00:03:03,270 --> 00:03:04,099
+update.
+
+99
+00:03:04,139 --> 00:03:06,099
+So these are the warmup settings.
+
+100
+00:03:06,139 --> 00:03:07,009
+It should be enabled.
+
+101
+00:03:07,159 --> 00:03:08,599
+This number should be 40.
+
+102
+00:03:08,639 --> 00:03:10,139
+Ramp up should be four.
+
+103
+00:03:10,500 --> 00:03:12,539
+Randomizer should be 25 to 40.
+
+104
+00:03:13,020 --> 00:03:14,199
+Reply rate percentage should be
+
+105
+00:03:14,199 --> 00:03:14,629
+45.
+
+106
+00:03:14,979 --> 00:03:16,460
+This can stay the same.
+
+107
+00:03:16,500 --> 00:03:18,479
+And then this should be toggled on
+
+108
+00:03:18,620 --> 00:03:19,669
+and enabled.
+
+109
+00:03:19,740 --> 00:03:20,919
+And that's it.
+
+110
+00:03:20,960 --> 00:03:22,939
+So you want to just go back to all
+
+111
+00:03:23,080 --> 00:03:25,319
+the email accounts and that should
+
+112
+00:03:25,319 --> 00:03:26,879
+be enabled for each of them.
+
+113
+00:03:26,919 --> 00:03:28,409
+So when it says warmup enabled,
+
+114
+00:03:28,409 --> 00:03:29,819
+all of them should say yes.
+
+115
+00:03:30,240 --> 00:03:32,150
+And we're going to leave that on
+
+116
+00:03:32,150 --> 00:03:33,389
+for 14 days.
+
+117
+00:03:33,439 --> 00:03:35,000
+So from the moment you complete
+
+118
+00:03:35,000 --> 00:03:36,719
+this step, which brings us to the
+
+119
+00:03:36,719 --> 00:03:38,629
+end of the deliverability section,
+
+120
+00:03:38,770 --> 00:03:40,879
+you're going to be able to launch
+
+121
+00:03:40,879 --> 00:03:43,669
+your campaign 14 days from today.
+
+122
+00:03:43,719 --> 00:03:45,419
+So that gives you 14 days to go
+
+123
+00:03:45,419 --> 00:03:47,150
+and complete the targeting and the
+
+124
+00:03:47,280 --> 00:03:49,360
+messaging sections of the program.
+
+125
+00:03:49,400 --> 00:03:51,009
+It also gives you 14 days to do
+
+126
+00:03:51,080 --> 00:03:52,830
+your landing page and your VSL.
+
+127
+00:03:52,919 --> 00:03:54,900
+And so make sure to use these 14
+
+128
+00:03:55,039 --> 00:03:56,939
+days very strategically so you're
+
+129
+00:03:56,939 --> 00:03:58,379
+not wasting any time.
+
+130
+00:03:58,419 --> 00:04:00,219
+On day 14, you want to come in
+
+131
+00:04:00,219 --> 00:04:02,129
+here, follow the rest of the steps
+
+132
+00:04:02,129 --> 00:04:04,039
+in the launch campaign videos,
+
+133
+00:04:04,039 --> 00:04:05,229
+which are at the end of this
+
+134
+00:04:05,229 --> 00:04:06,530
+section after targeting and
+
+135
+00:04:06,530 --> 00:04:08,240
+messaging, which we'll do next.
+
+136
+00:04:08,719 --> 00:04:09,889
+And follow those steps to actually
+
+137
+00:04:09,889 --> 00:04:10,680
+launch campaigns.
+
+138
+00:04:10,719 --> 00:04:12,150
+But for now, where you should be
+
+139
+00:04:12,150 --> 00:04:13,680
+at is you should have all 10 of
+
+140
+00:04:13,680 --> 00:04:14,889
+your new domains and email
+
+141
+00:04:14,889 --> 00:04:16,389
+accounts registered via Google
+
+142
+00:04:16,389 --> 00:04:17,079
+domains.
+
+143
+00:04:17,139 --> 00:04:18,420
+You should have your smart lead
+
+144
+00:04:18,420 --> 00:04:19,120
+account set up.
+
+145
+00:04:19,279 --> 00:04:20,610
+You should have all your email
+
+146
+00:04:20,610 --> 00:04:22,170
+accounts connected in your smart
+
+147
+00:04:22,170 --> 00:04:23,019
+lead account.
+
+148
+00:04:23,060 --> 00:04:24,949
+And you should have the warmup
+
+149
+00:04:24,949 --> 00:04:27,040
+process enabled for each of your
+
+150
+00:04:27,069 --> 00:04:29,069
+email accounts with the custom
+
+151
+00:04:29,069 --> 00:04:31,240
+tracking domain set up with these
+
+152
+00:04:31,240 --> 00:04:32,000
+settings.
+
+153
+00:04:32,800 --> 00:04:34,439
+40 is the total number with a wrap
+
+154
+00:04:34,439 --> 00:04:36,379
+up of four, with the randomization
+
+155
+00:04:36,379 --> 00:04:38,579
+of 25 to 40, with the reply rate
+
+156
+00:04:38,629 --> 00:04:40,899
+of 45% with this setting enabled.
+
+157
+00:04:40,939 --> 00:04:42,310
+And from there, we're going to be
+
+158
+00:04:42,310 --> 00:04:43,629
+able to jump into the targeting
+
+159
+00:04:43,629 --> 00:04:44,699
+section next and then the
+
+160
+00:04:44,699 --> 00:04:45,720
+messaging section.
+
+161
+00:04:45,860 --> 00:04:47,620
+And then we're going to be able to
+
+162
+00:04:47,620 --> 00:04:49,600
+launch campaigns 14 days from
+
+163
+00:04:49,600 --> 00:04:50,259
+today.

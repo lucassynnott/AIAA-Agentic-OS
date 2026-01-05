@@ -1,0 +1,1491 @@
+1
+00:00:00,000 --> 00:00:02,859
+So guys, so in this module, we're
+
+2
+00:00:02,870 --> 00:00:03,879
+just going to be talking a little
+
+3
+00:00:03,879 --> 00:00:05,139
+bit about Poppy AI.
+
+4
+00:00:05,429 --> 00:00:07,019
+This module is going to explain
+
+5
+00:00:07,019 --> 00:00:08,890
+what it is, what it can do, and
+
+6
+00:00:08,890 --> 00:00:09,630
+then some of the later
+
+7
+00:00:09,679 --> 00:00:10,800
+ones, we're going to show you how
+
+8
+00:00:10,919 --> 00:00:11,919
+you can use this specifically for
+
+9
+00:00:11,919 --> 00:00:12,759
+your agency journey.
+
+10
+00:00:12,759 --> 00:00:15,869
+So Poppy AI is very simply an AI
+
+11
+00:00:15,949 --> 00:00:17,469
+whiteboard.
+
+12
+00:00:17,519 --> 00:00:19,350
+It is a digital whiteboard where
+
+13
+00:00:19,350 --> 00:00:21,019
+you can add any sort of media or
+
+14
+00:00:21,019 --> 00:00:22,010
+content, everything
+
+15
+00:00:22,399 --> 00:00:24,300
+from YouTube videos to ads, to
+
+16
+00:00:24,300 --> 00:00:26,550
+documents, to images, text,
+
+17
+00:00:26,640 --> 00:00:28,609
+whatever you want, and you
+
+18
+00:00:28,699 --> 00:00:30,440
+can connect it up to an AI chat.
+
+19
+00:00:30,440 --> 00:00:32,380
+Now, the reason this is so useful
+
+20
+00:00:32,509 --> 00:00:34,390
+is because you can essentially
+
+21
+00:00:34,390 --> 00:00:35,759
+speed up your process of
+
+22
+00:00:35,780 --> 00:00:37,369
+say, writing your VSL or creating
+
+23
+00:00:37,479 --> 00:00:39,070
+social media content or writing
+
+24
+00:00:39,070 --> 00:00:41,100
+your YouTube videos by using
+
+25
+00:00:41,509 --> 00:00:42,689
+Poppy and using pre-trained
+
+26
+00:00:42,689 --> 00:00:43,479
+materials.
+
+27
+00:00:43,479 --> 00:00:45,420
+So what I mean by this, if you
+
+28
+00:00:45,549 --> 00:00:47,679
+look at the page here, this is our
+
+29
+00:00:47,799 --> 00:00:49,500
+digital whiteboard.
+
+30
+00:00:49,500 --> 00:00:52,219
+So let's start off by very simply
+
+31
+00:00:52,219 --> 00:00:53,880
+adding the chat.
+
+32
+00:00:53,899 --> 00:00:55,229
+If I press C on the keyboard,
+
+33
+00:00:55,229 --> 00:00:56,420
+we've got a chat here.
+
+34
+00:00:56,880 --> 00:00:57,509
+You can just talk to this
+
+35
+00:00:57,509 --> 00:00:58,429
+normally, like you would chat GPT
+
+36
+00:00:58,429 --> 00:00:58,960
+or something.
+
+37
+00:00:58,960 --> 00:01:00,259
+You see down here, we've got
+
+38
+00:01:00,259 --> 00:01:01,770
+different AI models we can choose
+
+39
+00:01:01,820 --> 00:01:02,240
+from.
+
+40
+00:01:02,240 --> 00:01:05,200
+ForSonna, 3.7, O3 mini, all the
+
+41
+00:01:05,200 --> 00:01:06,060
+way down.
+
+42
+00:01:06,060 --> 00:01:06,829
+You know, we've got a bunch in
+
+43
+00:01:06,829 --> 00:01:07,120
+here.
+
+44
+00:01:07,120 --> 00:01:08,709
+Let's make this a little bigger.
+
+45
+00:01:09,700 --> 00:01:11,290
+But the key part that comes into
+
+46
+00:01:11,400 --> 00:01:12,989
+this is when we start actually
+
+47
+00:01:12,989 --> 00:01:14,409
+connecting things to it.
+
+48
+00:01:14,480 --> 00:01:16,579
+So let's say we want to add a
+
+49
+00:01:16,579 --> 00:01:18,079
+YouTube video.
+
+50
+00:01:18,390 --> 00:01:20,629
+Say we want to know how to write
+
+51
+00:01:20,629 --> 00:01:22,540
+an email sequence.
+
+52
+00:01:22,810 --> 00:01:24,980
+Let's go over here to YouTube and
+
+53
+00:01:24,980 --> 00:01:27,250
+let's look up Jeremy Haynes and
+
+54
+00:01:27,359 --> 00:01:29,920
+his Hammer Them Strategy videos.
+
+55
+00:01:30,939 --> 00:01:33,189
+So this is a really good one,
+
+56
+00:01:33,189 --> 00:01:33,980
+right?
+
+57
+00:01:33,980 --> 00:01:35,239
+So this is where he kind of
+
+58
+00:01:35,269 --> 00:01:36,870
+explains this a little bit and he
+
+59
+00:01:36,870 --> 00:01:38,599
+goes into the email sequence kind
+
+60
+00:01:38,599 --> 00:01:39,200
+of process.
+
+61
+00:01:39,200 --> 00:01:40,459
+So we're going to copy this.
+
+62
+00:01:40,459 --> 00:01:41,879
+I just right clicked and copy the
+
+63
+00:01:41,879 --> 00:01:42,659
+link address.
+
+64
+00:01:42,659 --> 00:01:44,000
+We're going to go back to Poppy.
+
+65
+00:01:44,000 --> 00:01:45,939
+We're going to paste this in here.
+
+66
+00:01:46,060 --> 00:01:47,299
+I just did paste.
+
+67
+00:01:47,439 --> 00:01:48,379
+You can also add this by just
+
+68
+00:01:48,599 --> 00:01:49,439
+going over here and choosing a
+
+69
+00:01:49,510 --> 00:01:50,549
+social media and putting the link
+
+70
+00:01:50,629 --> 00:01:51,099
+in here.
+
+71
+00:01:51,099 --> 00:01:53,340
+But for now, let's put that there.
+
+72
+00:01:53,340 --> 00:01:54,730
+Now, the other key thing about
+
+73
+00:01:54,739 --> 00:01:56,299
+Poppy is the grouping system.
+
+74
+00:01:56,590 --> 00:01:57,849
+Groups help the AI to understand
+
+75
+00:01:57,849 --> 00:01:59,290
+what the content inside is and
+
+76
+00:01:59,290 --> 00:02:00,159
+what it does.
+
+77
+00:02:00,159 --> 00:02:02,099
+So if I go over here and click
+
+78
+00:02:02,230 --> 00:02:04,120
+group, we're just going to drag
+
+79
+00:02:04,120 --> 00:02:05,739
+this here and we're going to name
+
+80
+00:02:05,739 --> 00:02:06,060
+it.
+
+81
+00:02:06,439 --> 00:02:11,340
+Email sequence writing training.
+
+82
+00:02:11,340 --> 00:02:13,189
+And then we can drag Jeremy's
+
+83
+00:02:13,189 --> 00:02:14,360
+video in here.
+
+84
+00:02:14,360 --> 00:02:15,330
+Now, Jeremy, I actually have a few
+
+85
+00:02:15,539 --> 00:02:15,919
+videos on this.
+
+86
+00:02:15,979 --> 00:02:18,319
+So if I go back here, let's do is
+
+87
+00:02:18,319 --> 00:02:20,139
+a follow-up one here.
+
+88
+00:02:20,520 --> 00:02:22,780
+Paste this in here.
+
+89
+00:02:23,159 --> 00:02:27,150
+And let's grab this one as well.
+
+90
+00:02:27,180 --> 00:02:28,250
+This is a good video.
+
+91
+00:02:28,259 --> 00:02:30,099
+So grab here and paste this in
+
+92
+00:02:30,099 --> 00:02:31,139
+here as well.
+
+93
+00:02:31,139 --> 00:02:32,240
+So there we go.
+
+94
+00:02:32,240 --> 00:02:33,120
+So these are all in a group now.
+
+95
+00:02:33,120 --> 00:02:35,060
+Now, the whiteboard element comes
+
+96
+00:02:35,189 --> 00:02:36,740
+in similar to, as you may have
+
+97
+00:02:36,740 --> 00:02:37,979
+seen in the N8N videos,
+
+98
+00:02:37,979 --> 00:02:39,550
+when we're connecting things, just
+
+99
+00:02:39,550 --> 00:02:40,719
+click and drag to connect it
+
+100
+00:02:40,719 --> 00:02:41,330
+together.
+
+101
+00:02:41,360 --> 00:02:42,610
+Now, the next thing we need to
+
+102
+00:02:42,650 --> 00:02:43,960
+know is the AI needs to know about
+
+103
+00:02:43,960 --> 00:02:44,300
+you.
+
+104
+00:02:44,580 --> 00:02:45,830
+What does it need to know about
+
+105
+00:02:45,870 --> 00:02:46,830
+you to write these email
+
+106
+00:02:46,830 --> 00:02:47,449
+sequences?
+
+107
+00:02:47,460 --> 00:02:48,370
+It needs to know, like, you know,
+
+108
+00:02:48,650 --> 00:02:49,199
+obviously like your name.
+
+109
+00:02:49,199 --> 00:02:50,650
+It needs to know your, about your
+
+110
+00:02:50,650 --> 00:02:51,300
+business.
+
+111
+00:02:51,300 --> 00:02:52,550
+So we're going to use obviously me
+
+112
+00:02:52,590 --> 00:02:53,219
+as an example.
+
+113
+00:02:53,840 --> 00:02:56,620
+So if I do a group and I name it
+
+114
+00:02:56,620 --> 00:03:02,060
+details about Lucas Senate, put
+
+115
+00:03:02,060 --> 00:03:06,900
+that there and let's grab my
+
+116
+00:03:06,900 --> 00:03:07,189
+website.
+
+117
+00:03:07,319 --> 00:03:08,129
+That's the only thing you can do.
+
+118
+00:03:08,139 --> 00:03:09,460
+So if I go over here to the
+
+119
+00:03:09,460 --> 00:03:11,759
+website icon, I type in my
+
+120
+00:03:11,759 --> 00:03:14,560
+agency's website.
+
+121
+00:03:15,900 --> 00:03:17,699
+Paste that there, put that in
+
+122
+00:03:17,699 --> 00:03:18,599
+here.
+
+123
+00:03:18,599 --> 00:03:19,560
+It's like a second for it to load.
+
+124
+00:03:19,560 --> 00:03:20,810
+You can also add notes for the AI
+
+125
+00:03:20,849 --> 00:03:22,039
+to kind of understand what's in,
+
+126
+00:03:22,039 --> 00:03:23,150
+what the, you know, the item is a
+
+127
+00:03:23,150 --> 00:03:23,520
+bit better.
+
+128
+00:03:23,870 --> 00:03:24,870
+Usually not really needed once I
+
+129
+00:03:24,870 --> 00:03:26,270
+think it's in a group, but yeah,
+
+130
+00:03:26,270 --> 00:03:27,000
+it can be helpful.
+
+131
+00:03:28,199 --> 00:03:31,189
+And let's also add some stuff from
+
+132
+00:03:31,189 --> 00:03:33,550
+my YouTube channel.
+
+133
+00:03:33,560 --> 00:03:36,069
+So if I go here and I search like
+
+134
+00:03:36,069 --> 00:03:38,840
+killer, let's grab this one.
+
+135
+00:03:38,860 --> 00:03:40,120
+Let's copy this.
+
+136
+00:03:40,120 --> 00:03:41,879
+I took my background in this one.
+
+137
+00:03:41,879 --> 00:03:44,030
+So if I go back to poppy paste
+
+138
+00:03:44,030 --> 00:03:48,879
+this in here, up there, uh, I also
+
+139
+00:03:48,879 --> 00:03:50,310
+could go to like chat GBT and use
+
+140
+00:03:50,370 --> 00:03:51,419
+this memory to like write stuff
+
+141
+00:03:51,419 --> 00:03:51,719
+about me.
+
+142
+00:03:51,719 --> 00:03:52,830
+But for now, this is probably
+
+143
+00:03:52,969 --> 00:03:53,280
+enough.
+
+144
+00:03:53,280 --> 00:03:54,150
+I give enough information
+
+145
+00:03:54,520 --> 00:03:55,120
+throughout these videos.
+
+146
+00:03:55,120 --> 00:03:56,639
+So let's connect that up there
+
+147
+00:03:56,639 --> 00:03:59,610
+and, uh, let's see, we're going to
+
+148
+00:03:59,610 --> 00:04:03,120
+add a third group, but we're not
+
+149
+00:04:03,169 --> 00:04:04,159
+going to put anything in here yet.
+
+150
+00:04:04,159 --> 00:04:06,969
+We're just going to name this, uh,
+
+151
+00:04:07,009 --> 00:04:09,039
+output instructions.
+
+152
+00:04:09,039 --> 00:04:09,810
+I'm going to show you how we're
+
+153
+00:04:09,810 --> 00:04:10,620
+going to use this in a second for
+
+154
+00:04:10,620 --> 00:04:10,919
+now.
+
+155
+00:04:10,919 --> 00:04:11,639
+We'll keep that blank.
+
+156
+00:04:11,639 --> 00:04:14,990
+So here we're going to say, uh,
+
+157
+00:04:15,020 --> 00:04:19,170
+using the, let's see better using
+
+158
+00:04:19,689 --> 00:04:22,439
+the information in your knowledge
+
+159
+00:04:22,439 --> 00:04:27,790
+base, write a high converting
+
+160
+00:04:27,790 --> 00:04:33,199
+email sequence following Jeremy
+
+161
+00:04:33,199 --> 00:04:39,360
+Haynes strategy for, uh, Lucas
+
+162
+00:04:39,360 --> 00:04:40,759
+Senate from.
+
+163
+00:04:41,300 --> 00:04:42,800
+Innovative.
+
+164
+00:04:42,800 --> 00:04:44,259
+We'll hit enter.
+
+165
+00:04:44,610 --> 00:04:47,240
+It's a bit bigger.
+
+166
+00:04:47,620 --> 00:04:53,220
+So it'll think.
+
+167
+00:04:53,490 --> 00:04:54,600
+Based on Jeremy Haynes, value
+
+168
+00:04:54,600 --> 00:04:55,730
+dense email strategy and
+
+169
+00:04:55,730 --> 00:04:57,259
+information at Lucas Senate.
+
+170
+00:04:57,259 --> 00:04:58,019
+Innovative business.
+
+171
+00:04:58,019 --> 00:04:58,850
+Here's a high converting email
+
+172
+00:04:58,850 --> 00:04:59,240
+sequence.
+
+173
+00:04:59,540 --> 00:05:00,949
+Just put calls to boost your
+
+174
+00:05:00,949 --> 00:05:02,500
+e-commerce revenue.
+
+175
+00:05:02,759 --> 00:05:03,509
+Uh, before we talk, I want to
+
+176
+00:05:03,509 --> 00:05:04,350
+share something that happened the
+
+177
+00:05:04,459 --> 00:05:04,699
+last week.
+
+178
+00:05:04,740 --> 00:05:05,100
+Homer Brown.
+
+179
+00:05:05,100 --> 00:05:06,360
+And I kept us doing 30 K a month
+
+180
+00:05:06,389 --> 00:05:07,689
+frustrated stocks and familiar in
+
+181
+00:05:07,689 --> 00:05:09,290
+three days, 95 K a month, it's 57
+
+182
+00:05:09,399 --> 00:05:10,379
+K extra per month, but here's what
+
+183
+00:05:10,379 --> 00:05:11,160
+most people miss.
+
+184
+00:05:11,160 --> 00:05:11,879
+It wasn't about changing our
+
+185
+00:05:11,879 --> 00:05:12,230
+products.
+
+186
+00:05:12,240 --> 00:05:13,310
+It wasn't running their ads.
+
+187
+00:05:13,319 --> 00:05:14,910
+It was about fixing three things.
+
+188
+00:05:14,980 --> 00:05:16,160
+I control a conversion rate.
+
+189
+00:05:16,160 --> 00:05:16,970
+You're both the fall, your side
+
+190
+00:05:16,970 --> 00:05:17,980
+speed, your offer positioning.
+
+191
+00:05:17,980 --> 00:05:20,250
+So these are all right.
+
+192
+00:05:20,259 --> 00:05:21,329
+It's going to run a whole sequence
+
+193
+00:05:21,500 --> 00:05:21,819
+from here.
+
+194
+00:05:21,819 --> 00:05:23,199
+It's doing a great job on this.
+
+195
+00:05:23,199 --> 00:05:25,139
+So far, uh, you can get it to, you
+
+196
+00:05:25,269 --> 00:05:27,329
+know, uh, follow your, your kind
+
+197
+00:05:27,329 --> 00:05:28,959
+of brand voice a little bit more.
+
+198
+00:05:28,959 --> 00:05:29,850
+Uh, there's a ton of stuff you can
+
+199
+00:05:29,850 --> 00:05:30,519
+do, but it's adding more
+
+200
+00:05:30,519 --> 00:05:31,079
+information.
+
+201
+00:05:31,339 --> 00:05:32,930
+Now the third group I put in here
+
+202
+00:05:33,040 --> 00:05:34,689
+is the output instructions.
+
+203
+00:05:34,699 --> 00:05:36,069
+And the way it reads, I did that
+
+204
+00:05:36,069 --> 00:05:37,430
+is because we sometimes want to
+
+205
+00:05:37,430 --> 00:05:38,779
+get the same kind of similar
+
+206
+00:05:38,779 --> 00:05:39,189
+output each time.
+
+207
+00:05:39,259 --> 00:05:39,860
+We have rules.
+
+208
+00:05:39,860 --> 00:05:41,250
+We want it to follow, uh, for
+
+209
+00:05:41,259 --> 00:05:42,970
+instance, with most stuff that you
+
+210
+00:05:43,050 --> 00:05:44,300
+write online, you want it to be
+
+211
+00:05:44,300 --> 00:05:45,740
+written at like a, you know,
+
+212
+00:05:45,740 --> 00:05:47,180
+fourth grade reading level or
+
+213
+00:05:47,180 --> 00:05:47,379
+something.
+
+214
+00:05:47,420 --> 00:05:47,639
+Right.
+
+215
+00:05:47,639 --> 00:05:50,639
+So you hit T here to create text,
+
+216
+00:05:50,639 --> 00:05:53,639
+double click or clickers say, I
+
+217
+00:05:53,639 --> 00:05:57,470
+just write, write all content at
+
+218
+00:05:57,470 --> 00:06:00,230
+a, say an eighth grade reading
+
+219
+00:06:00,230 --> 00:06:00,819
+level.
+
+220
+00:06:01,199 --> 00:06:05,279
+That's one instruction.
+
+221
+00:06:05,279 --> 00:06:07,500
+We're going to put this over here,
+
+222
+00:06:07,500 --> 00:06:12,639
+smaller, and then we'll do another
+
+223
+00:06:12,639 --> 00:06:14,699
+and say, uh, you know,
+
+224
+00:06:16,620 --> 00:06:20,000
+always sign off any emails, uh,
+
+225
+00:06:20,000 --> 00:06:24,920
+Lucas Senate from innovative and
+
+226
+00:06:24,920 --> 00:06:28,180
+remind the prospect to book a
+
+227
+00:06:28,180 --> 00:06:28,720
+call.
+
+228
+00:06:28,720 --> 00:06:30,470
+If they have not yet, this is a
+
+229
+00:06:30,470 --> 00:06:31,829
+follow-up sequence.
+
+230
+00:06:31,879 --> 00:06:33,000
+So it's really, you know, make a
+
+231
+00:06:33,120 --> 00:06:33,470
+ton of sense.
+
+232
+00:06:33,540 --> 00:06:34,930
+But, uh, for now, I just want to
+
+233
+00:06:34,939 --> 00:06:36,139
+show you guys that it follows
+
+234
+00:06:36,139 --> 00:06:38,800
+these instructions and let's start
+
+235
+00:06:38,800 --> 00:06:43,050
+with, uh, start every email with a
+
+236
+00:06:43,050 --> 00:06:45,339
+Lucas here.
+
+237
+00:06:46,579 --> 00:06:49,720
+And put that in there too, small.
+
+238
+00:06:50,100 --> 00:06:54,550
+So now when I connect this up,
+
+239
+00:06:54,550 --> 00:07:00,170
+we're going to say, uh, let's just
+
+240
+00:07:00,170 --> 00:07:03,279
+do same thing again.
+
+241
+00:07:03,660 --> 00:07:05,670
+Copy this prompts, new
+
+242
+00:07:05,670 --> 00:07:07,470
+conversation.
+
+243
+00:07:10,060 --> 00:07:12,220
+And we're going to add follow all
+
+244
+00:07:12,220 --> 00:07:14,399
+instructions in your knowledge
+
+245
+00:07:14,399 --> 00:07:15,040
+base.
+
+246
+00:07:15,300 --> 00:07:16,000
+Hit enter.
+
+247
+00:07:16,379 --> 00:07:21,329
+So you go now starting with, Hey
+
+248
+00:07:21,519 --> 00:07:23,540
+Lucas here.
+
+249
+00:07:23,860 --> 00:07:27,300
+It should end with, uh, the, uh,
+
+250
+00:07:27,300 --> 00:07:29,180
+watch out the ending.
+
+251
+00:07:29,379 --> 00:07:30,279
+We gave it as well.
+
+252
+00:07:31,420 --> 00:07:34,149
+You can see like how this would
+
+253
+00:07:34,230 --> 00:07:37,509
+take you, if you're writing an
+
+254
+00:07:37,529 --> 00:07:40,000
+email sequence, it might take you,
+
+255
+00:07:40,000 --> 00:07:41,000
+if you're to watch each of
+
+256
+00:07:41,000 --> 00:07:42,019
+Jeremy's videos, these are, you
+
+257
+00:07:42,019 --> 00:07:43,389
+know, pretty long videos.
+
+258
+00:07:43,399 --> 00:07:45,279
+Uh, it could take a few hours.
+
+259
+00:07:45,279 --> 00:07:46,139
+You've got to kind of, you know,
+
+260
+00:07:46,139 --> 00:07:46,959
+write and test to make sure it's
+
+261
+00:07:46,980 --> 00:07:47,220
+okay.
+
+262
+00:07:47,480 --> 00:07:48,579
+We did this in literally like
+
+263
+00:07:48,720 --> 00:07:49,899
+what, like we're eight minutes in
+
+264
+00:07:49,899 --> 00:07:50,540
+this video.
+
+265
+00:07:50,540 --> 00:07:51,379
+I think they're actually writing.
+
+266
+00:07:51,379 --> 00:07:52,970
+It took like maybe a total of
+
+267
+00:07:53,079 --> 00:07:55,170
+four, five minutes, uh, to write a
+
+268
+00:07:55,170 --> 00:07:57,259
+ton of emails for our sequence.
+
+269
+00:07:57,639 --> 00:07:59,970
+Um, so that's just a quick example
+
+270
+00:07:59,970 --> 00:08:01,160
+of what we can do.
+
+271
+00:08:01,160 --> 00:08:02,259
+As you can see, you can import any
+
+272
+00:08:02,399 --> 00:08:03,439
+type of content you want into it.
+
+273
+00:08:03,439 --> 00:08:04,759
+You can even do voice notes.
+
+274
+00:08:04,759 --> 00:08:06,139
+So you can put in images and
+
+275
+00:08:06,139 --> 00:08:08,079
+texts, uh, websites, and you want
+
+276
+00:08:08,079 --> 00:08:09,800
+and connect it all up together
+
+277
+00:08:09,800 --> 00:08:11,709
+and, uh, you can write, uh, you
+
+278
+00:08:11,709 --> 00:08:13,550
+know, content way quicker than you
+
+279
+00:08:13,709 --> 00:08:14,699
+could if you were trying to do it
+
+280
+00:08:14,699 --> 00:08:15,240
+manually.
+
+281
+00:08:15,240 --> 00:08:16,829
+And another cool thing is poppy is
+
+282
+00:08:16,889 --> 00:08:17,959
+a ton of templates.
+
+283
+00:08:17,959 --> 00:08:19,579
+So if you go to the template
+
+284
+00:08:19,660 --> 00:08:21,810
+section here, uh, here's a ton of
+
+285
+00:08:21,810 --> 00:08:23,720
+items they offer for free.
+
+286
+00:08:23,720 --> 00:08:25,920
+So, uh, if we look at like, let's
+
+287
+00:08:25,920 --> 00:08:27,920
+see what's a really cool one that
+
+288
+00:08:28,040 --> 00:08:30,120
+I like, uh, the second brain is
+
+289
+00:08:30,120 --> 00:08:30,899
+pretty cool.
+
+290
+00:08:31,000 --> 00:08:32,509
+So the second brain is made for,
+
+291
+00:08:32,509 --> 00:08:34,070
+uh, people that want to use poppy
+
+292
+00:08:34,070 --> 00:08:35,490
+just to, uh, organize their
+
+293
+00:08:35,580 --> 00:08:36,639
+general life and thoughts.
+
+294
+00:08:36,639 --> 00:08:37,840
+They've got details here and how
+
+295
+00:08:37,889 --> 00:08:38,580
+to use the board.
+
+296
+00:08:38,620 --> 00:08:40,139
+Um, basically you put ideas you
+
+297
+00:08:40,139 --> 00:08:40,899
+have in here.
+
+298
+00:08:40,899 --> 00:08:41,740
+It's gonna be voice notes, it's
+
+299
+00:08:41,740 --> 00:08:42,399
+gonna be texts, it can be
+
+300
+00:08:42,399 --> 00:08:42,840
+whatever.
+
+301
+00:08:42,879 --> 00:08:44,470
+And then you just tell the AI to
+
+302
+00:08:44,580 --> 00:08:45,990
+run prompt five and it will
+
+303
+00:08:46,070 --> 00:08:47,919
+actually run through this prompt
+
+304
+00:08:47,919 --> 00:08:49,899
+here and help you categorize your
+
+305
+00:08:49,899 --> 00:08:51,580
+thoughts, uh, give you like, uh,
+
+306
+00:08:51,580 --> 00:08:52,799
+workflow suggestions, give you
+
+307
+00:08:52,799 --> 00:08:55,220
+action plans, uh, super, super
+
+308
+00:08:55,299 --> 00:08:55,629
+useful.
+
+309
+00:08:56,480 --> 00:08:58,019
+And then if we go back to
+
+310
+00:08:58,019 --> 00:09:00,539
+templates again, uh, the few other
+
+311
+00:09:00,539 --> 00:09:03,429
+really good ones on here, Brian's
+
+312
+00:09:03,429 --> 00:09:04,840
+YouTube script writing template is
+
+313
+00:09:04,840 --> 00:09:05,480
+phenomenal.
+
+314
+00:09:05,809 --> 00:09:07,330
+Brian's got all of his training on
+
+315
+00:09:07,330 --> 00:09:09,169
+writing YouTube scripts, a ton of
+
+316
+00:09:09,169 --> 00:09:10,360
+documents of writing YouTube
+
+317
+00:09:10,360 --> 00:09:10,809
+scripts.
+
+318
+00:09:10,860 --> 00:09:12,379
+Uh, actually this is all the
+
+319
+00:09:12,379 --> 00:09:13,519
+content on Brian.
+
+320
+00:09:13,519 --> 00:09:14,779
+So you just replace this with your
+
+321
+00:09:14,809 --> 00:09:16,090
+information about who you are.
+
+322
+00:09:16,399 --> 00:09:17,809
+And then down here, he's got all
+
+323
+00:09:17,809 --> 00:09:19,299
+his training on how to write viral
+
+324
+00:09:19,299 --> 00:09:20,730
+videos and then a prompt chain,
+
+325
+00:09:20,730 --> 00:09:22,159
+uh, then it will automatically
+
+326
+00:09:22,159 --> 00:09:23,789
+write your YouTube scripts for
+
+327
+00:09:23,789 --> 00:09:23,990
+you.
+
+328
+00:09:24,139 --> 00:09:25,700
+Uh, really, really good.
+
+329
+00:09:25,700 --> 00:09:27,070
+Brian's super successful with, uh,
+
+330
+00:09:27,070 --> 00:09:28,210
+running his content agency and
+
+331
+00:09:28,210 --> 00:09:29,360
+writing YouTube scripts for
+
+332
+00:09:29,360 --> 00:09:29,600
+people.
+
+333
+00:09:29,600 --> 00:09:30,960
+So, you know, the output is going
+
+334
+00:09:30,960 --> 00:09:32,250
+to be good and, uh, you know, it
+
+335
+00:09:32,250 --> 00:09:33,659
+makes it really easy for you just
+
+336
+00:09:33,659 --> 00:09:34,629
+to spin up new YouTube videos
+
+337
+00:09:34,629 --> 00:09:35,419
+whenever you want.
+
+338
+00:09:35,419 --> 00:09:37,009
+Uh, so I think poppy is a super
+
+339
+00:09:37,120 --> 00:09:38,120
+powerful tool.
+
+340
+00:09:38,120 --> 00:09:39,330
+Uh, the guys are poppy are also
+
+341
+00:09:39,409 --> 00:09:40,600
+great to work with, really nice
+
+342
+00:09:40,600 --> 00:09:42,019
+guys, and they are creating some
+
+343
+00:09:42,019 --> 00:09:43,850
+exclusive content for us here in,
+
+344
+00:09:43,850 --> 00:09:45,059
+uh, in the course.
+
+345
+00:09:45,059 --> 00:09:46,539
+So you guys get to hear directly
+
+346
+00:09:46,539 --> 00:09:48,169
+from them, the most powerful ways
+
+347
+00:09:48,250 --> 00:09:48,970
+to use poppy.
+
+348
+00:09:48,980 --> 00:09:50,080
+Uh, but I'm going to show you a
+
+349
+00:09:50,220 --> 00:09:51,240
+few other ways I've been using it
+
+350
+00:09:51,309 --> 00:09:52,220
+in the next videos.
+
+351
+00:09:52,220 --> 00:09:53,789
+So check those out and, uh, would
+
+352
+00:09:53,789 --> 00:09:55,330
+highly suggest using this for your
+
+353
+00:09:55,409 --> 00:09:56,240
+agency set up.
+
+354
+00:09:56,240 --> 00:09:57,480
+This will speed up your VSL
+
+355
+00:09:57,529 --> 00:09:59,190
+writing, your landing page, copy
+
+356
+00:09:59,190 --> 00:10:00,730
+creation, your, um, uh, email
+
+357
+00:10:00,820 --> 00:10:02,899
+sequence writing, your cold email
+
+358
+00:10:02,899 --> 00:10:04,559
+writing, anything to do with
+
+359
+00:10:04,559 --> 00:10:06,000
+creating content is going to be 10
+
+360
+00:10:06,000 --> 00:10:07,039
+times easier using poppy.
+
+361
+00:10:07,039 --> 00:10:09,419
+Um, so, uh, yeah, that's a bit
+
+362
+00:10:09,419 --> 00:10:10,360
+about it.
+
+363
+00:10:10,360 --> 00:10:11,610
+And, uh, let's go to the next
+
+364
+00:10:11,649 --> 00:10:11,950
+video.
+
+365
+00:10:12,059 --> 00:10:13,450
+We're going to show you guys some
+
+366
+00:10:13,460 --> 00:10:14,850
+of the kind of other systems that
+
+367
+00:10:14,850 --> 00:10:16,169
+I use inside of poppy in order to
+
+368
+00:10:16,169 --> 00:10:17,710
+always get solid outputs and, uh,
+
+369
+00:10:17,710 --> 00:10:19,169
+make this an integral part of your
+
+370
+00:10:19,169 --> 00:10:19,659
+workflow.
+
+371
+00:10:19,980 --> 00:10:21,139
+See you next one.
+
+372
+00:10:21,519 --> 00:10:21,679
+Peace.
+
+373
+00:10:22,600 --> 00:10:23,240
+Thank you.

@@ -1,0 +1,4019 @@
+1
+00:00:00,720 --> 00:00:02,620
+What is up, my beautiful email
+
+2
+00:00:02,720 --> 00:00:04,599
+marketing people?
+
+3
+00:00:04,599 --> 00:00:05,740
+Today we are going over email
+
+4
+00:00:05,740 --> 00:00:07,009
+marketing agency operations and
+
+5
+00:00:07,009 --> 00:00:07,400
+fulfillment.
+
+6
+00:00:07,400 --> 00:00:09,230
+So hopefully you have watched my
+
+7
+00:00:09,230 --> 00:00:12,140
+other video or videos, whatever,
+
+8
+00:00:12,279 --> 00:00:14,179
+on what the fuck an e-commerce
+
+9
+00:00:14,289 --> 00:00:16,239
+email marketing agency is.
+
+10
+00:00:16,239 --> 00:00:17,359
+Now let's go over a little bit
+
+11
+00:00:17,359 --> 00:00:18,579
+more in depth on operations and
+
+12
+00:00:18,579 --> 00:00:19,190
+fulfillment
+
+13
+00:00:19,199 --> 00:00:20,500
+because, you know, it sounds great
+
+14
+00:00:20,500 --> 00:00:21,019
+in theory.
+
+15
+00:00:21,019 --> 00:00:22,079
+Let's send email for brands.
+
+16
+00:00:22,079 --> 00:00:23,309
+It's a little bit more complicated
+
+17
+00:00:23,309 --> 00:00:23,780
+than that,
+
+18
+00:00:23,780 --> 00:00:25,530
+and so we need to go over that in
+
+19
+00:00:25,530 --> 00:00:26,449
+this video.
+
+20
+00:00:26,460 --> 00:00:27,530
+We're going to go over the
+
+21
+00:00:27,530 --> 00:00:29,129
+different levels of fulfillment,
+
+22
+00:00:29,140 --> 00:00:30,710
+how to do this, what offers you
+
+23
+00:00:30,710 --> 00:00:32,479
+can run, and everything here.
+
+24
+00:00:32,479 --> 00:00:34,890
+So first let's go over the core
+
+25
+00:00:34,890 --> 00:00:37,039
+offers of what the fuck are you
+
+26
+00:00:37,039 --> 00:00:38,020
+doing for these brands?
+
+27
+00:00:38,020 --> 00:00:39,320
+Like when it's like, okay, I can
+
+28
+00:00:39,320 --> 00:00:40,539
+do your email marketing.
+
+29
+00:00:40,539 --> 00:00:41,729
+Okay, well, what exactly are you
+
+30
+00:00:41,759 --> 00:00:42,140
+doing?
+
+31
+00:00:42,149 --> 00:00:43,700
+These are the two offers.
+
+32
+00:00:43,700 --> 00:00:45,049
+These are the core offers that we
+
+33
+00:00:45,049 --> 00:00:46,100
+run and the core offers that I've
+
+34
+00:00:46,100 --> 00:00:47,079
+always done since I started.
+
+35
+00:00:47,079 --> 00:00:49,179
+So offer number one is you have a
+
+36
+00:00:49,179 --> 00:00:51,039
+flow rebuild or a flow setup
+
+37
+00:00:51,039 --> 00:00:51,679
+project
+
+38
+00:00:51,679 --> 00:00:52,740
+where we talked about those
+
+39
+00:00:52,740 --> 00:00:53,579
+automated emails.
+
+40
+00:00:53,619 --> 00:00:54,969
+That's exactly what we're doing.
+
+41
+00:00:54,979 --> 00:00:56,729
+So we do a one-time setup of all
+
+42
+00:00:56,729 --> 00:00:58,140
+of a brand's emails because a lot
+
+43
+00:00:58,140 --> 00:00:58,409
+of brands,
+
+44
+00:00:58,420 --> 00:00:59,049
+when they're started with email
+
+45
+00:00:59,049 --> 00:01:00,109
+marketing, you need all these
+
+46
+00:01:00,109 --> 00:01:00,829
+automations.
+
+47
+00:01:00,840 --> 00:01:02,439
+You need these, you just need all
+
+48
+00:01:02,439 --> 00:01:03,640
+these automations.
+
+49
+00:01:03,640 --> 00:01:04,819
+And so this is going to be a
+
+50
+00:01:04,819 --> 00:01:06,829
+one-time setup of 30 to 40 emails
+
+51
+00:01:06,829 --> 00:01:07,790
+within the flows.
+
+52
+00:01:07,930 --> 00:01:08,769
+Sometimes it can be more.
+
+53
+00:01:08,819 --> 00:01:09,959
+Maybe you can do less.
+
+54
+00:01:09,959 --> 00:01:11,670
+But things like your welcome flow,
+
+55
+00:01:11,670 --> 00:01:13,150
+your abandonment flows, your
+
+56
+00:01:13,150 --> 00:01:14,109
+post-purchase flows,
+
+57
+00:01:14,140 --> 00:01:15,420
+your win-back flows, how do you
+
+58
+00:01:15,420 --> 00:01:16,609
+get somebody who bought six months
+
+59
+00:01:16,609 --> 00:01:17,739
+ago to come back and buy again,
+
+60
+00:01:17,739 --> 00:01:18,879
+all that stuff.
+
+61
+00:01:18,879 --> 00:01:20,230
+This is usually lower barrier to
+
+62
+00:01:20,230 --> 00:01:21,120
+entry for brands.
+
+63
+00:01:21,299 --> 00:01:22,650
+They kind of want to start with a
+
+64
+00:01:22,659 --> 00:01:24,250
+project rather than before working
+
+65
+00:01:24,349 --> 00:01:25,719
+like long-term with somebody.
+
+66
+00:01:25,719 --> 00:01:26,599
+But it all depends on what a
+
+67
+00:01:26,739 --> 00:01:27,609
+brand's looking for and what they
+
+68
+00:01:27,730 --> 00:01:28,060
+want.
+
+69
+00:01:28,060 --> 00:01:30,069
+And so these are great for quick
+
+70
+00:01:30,069 --> 00:01:31,760
+wins and case studies.
+
+71
+00:01:31,760 --> 00:01:33,430
+So this is a quick little project
+
+72
+00:01:33,430 --> 00:01:35,620
+that you can do, 30 to 60 days,
+
+73
+00:01:35,620 --> 00:01:37,200
+lower barrier to entry to close.
+
+74
+00:01:37,200 --> 00:01:38,469
+You have to be like, yeah, we're
+
+75
+00:01:38,469 --> 00:01:39,519
+going to be working ongoing
+
+76
+00:01:39,519 --> 00:01:40,099
+together.
+
+77
+00:01:40,219 --> 00:01:41,569
+It's like, I'll just do this
+
+78
+00:01:41,659 --> 00:01:43,290
+one-time project and it'll make
+
+79
+00:01:43,290 --> 00:01:44,920
+you money because you set it up
+
+80
+00:01:44,920 --> 00:01:45,560
+once for brands
+
+81
+00:01:45,560 --> 00:01:47,310
+and they can run these flows for
+
+82
+00:01:47,310 --> 00:01:48,620
+years if they want.
+
+83
+00:01:48,620 --> 00:01:50,120
+And it'll continue to make the
+
+84
+00:01:50,120 --> 00:01:51,579
+money every single month.
+
+85
+00:01:51,620 --> 00:01:52,959
+And so that's just like the flow
+
+86
+00:01:52,959 --> 00:01:54,189
+rebuild where you just set up
+
+87
+00:01:54,189 --> 00:01:55,769
+these automations and then you say
+
+88
+00:01:55,890 --> 00:01:56,239
+adios.
+
+89
+00:01:56,239 --> 00:01:57,780
+And then number two is we have the
+
+90
+00:01:57,780 --> 00:01:59,400
+full email management where it's
+
+91
+00:01:59,400 --> 00:02:00,739
+we own your email channel
+
+92
+00:02:00,760 --> 00:02:01,769
+and we're sending everything for
+
+93
+00:02:01,780 --> 00:02:02,019
+you.
+
+94
+00:02:02,019 --> 00:02:03,560
+So we're doing this flow rebuild.
+
+95
+00:02:03,560 --> 00:02:05,329
+We're doing this setup, but we're
+
+96
+00:02:05,329 --> 00:02:06,719
+also doing campaigns.
+
+97
+00:02:06,719 --> 00:02:08,490
+And so we're doing the ongoing
+
+98
+00:02:08,490 --> 00:02:10,409
+campaigns, the 3x or so email
+
+99
+00:02:10,409 --> 00:02:11,639
+campaigns per week,
+
+100
+00:02:11,639 --> 00:02:13,009
+and then the ongoing testing, the
+
+101
+00:02:13,080 --> 00:02:14,539
+reporting, all that good stuff.
+
+102
+00:02:14,539 --> 00:02:15,550
+This is going to be a higher
+
+103
+00:02:15,560 --> 00:02:17,060
+retainer, so a monthly retainer.
+
+104
+00:02:17,060 --> 00:02:18,219
+This is recurring revenue.
+
+105
+00:02:18,219 --> 00:02:19,969
+So it's $3,000 a month and we're
+
+106
+00:02:19,969 --> 00:02:21,169
+your email team and this is what
+
+107
+00:02:21,270 --> 00:02:21,669
+we do.
+
+108
+00:02:22,060 --> 00:02:23,229
+Whereas like a flow rebuild, maybe
+
+109
+00:02:23,229 --> 00:02:25,009
+you charge like $5,000 for this
+
+110
+00:02:25,009 --> 00:02:25,830
+flow rebuild.
+
+111
+00:02:25,840 --> 00:02:26,930
+And then this, you get stronger
+
+112
+00:02:26,930 --> 00:02:28,000
+client relationships because
+
+113
+00:02:28,000 --> 00:02:29,009
+you're working with them over
+
+114
+00:02:29,009 --> 00:02:29,289
+time.
+
+115
+00:02:29,379 --> 00:02:30,879
+So these are the two offers.
+
+116
+00:02:30,879 --> 00:02:32,460
+There's like some smaller offers.
+
+117
+00:02:32,460 --> 00:02:33,750
+Like you could just do campaigns
+
+118
+00:02:33,750 --> 00:02:34,870
+if a brand's happy with their
+
+119
+00:02:34,870 --> 00:02:35,360
+flows.
+
+120
+00:02:35,360 --> 00:02:36,550
+You could do that as well.
+
+121
+00:02:37,199 --> 00:02:38,460
+I've never done that personally.
+
+122
+00:02:38,460 --> 00:02:39,960
+I've always been like, hey, we're
+
+123
+00:02:39,960 --> 00:02:41,039
+your full email team.
+
+124
+00:02:41,039 --> 00:02:42,360
+We don't work with brands where we
+
+125
+00:02:42,360 --> 00:02:43,939
+can't own the whole email channel.
+
+126
+00:02:43,939 --> 00:02:46,349
+And that's just what we do.
+
+127
+00:02:46,360 --> 00:02:47,460
+I know a lot of people who do
+
+128
+00:02:47,460 --> 00:02:48,259
+campaigns only.
+
+129
+00:02:48,280 --> 00:02:49,740
+I've just always chosen to do the
+
+130
+00:02:49,740 --> 00:02:51,229
+full management because I want to
+
+131
+00:02:51,330 --> 00:02:52,280
+be able to be like,
+
+132
+00:02:52,280 --> 00:02:53,520
+we own this channel, we've set up
+
+133
+00:02:53,520 --> 00:02:54,849
+everything, and these results are
+
+134
+00:02:54,849 --> 00:02:55,520
+purely ours.
+
+135
+00:02:55,520 --> 00:02:57,539
+And so it helps prove that.
+
+136
+00:02:57,539 --> 00:02:58,180
+And then we have the flow
+
+137
+00:02:58,219 --> 00:02:58,639
+rebuilds.
+
+138
+00:02:58,639 --> 00:03:00,979
+So for example, context right now,
+
+139
+00:03:00,979 --> 00:03:03,030
+I very much prefer the full email
+
+140
+00:03:03,030 --> 00:03:04,689
+management because
+
+141
+00:03:04,699 --> 00:03:05,509
+it's recurring revenue.
+
+142
+00:03:05,520 --> 00:03:07,270
+And so typically if we sign 10
+
+143
+00:03:07,270 --> 00:03:09,069
+brands in a month, we'll have like
+
+144
+00:03:09,080 --> 00:03:10,620
+eight brands on the full email
+
+145
+00:03:11,060 --> 00:03:11,969
+management and then like two on a
+
+146
+00:03:11,969 --> 00:03:12,699
+flow rebuild.
+
+147
+00:03:13,199 --> 00:03:14,500
+So that's like typically how it
+
+148
+00:03:14,500 --> 00:03:15,460
+will split up for us.
+
+149
+00:03:15,460 --> 00:03:16,479
+But we have some months where it's
+
+150
+00:03:16,479 --> 00:03:17,199
+like five and five.
+
+151
+00:03:17,199 --> 00:03:18,340
+It just depends on the month.
+
+152
+00:03:18,340 --> 00:03:20,240
+We have some where it's 10 ongoing
+
+153
+00:03:20,349 --> 00:03:21,740
+and zero flow rebuilds.
+
+154
+00:03:21,740 --> 00:03:23,110
+But these are like the typical
+
+155
+00:03:23,169 --> 00:03:24,699
+core offers that we want to do.
+
+156
+00:03:25,680 --> 00:03:26,759
+And so the first thing that I
+
+157
+00:03:26,759 --> 00:03:28,169
+really wanted to hit on, like yes,
+
+158
+00:03:28,169 --> 00:03:29,129
+we agree on this and we
+
+159
+00:03:29,180 --> 00:03:30,919
+do this project, we're doing this
+
+160
+00:03:30,919 --> 00:03:32,289
+fulfillment, but the most
+
+161
+00:03:32,289 --> 00:03:33,819
+important part of your agency
+
+162
+00:03:33,819 --> 00:03:35,370
+and your performance as an agency
+
+163
+00:03:35,370 --> 00:03:36,969
+is the client communication is the
+
+164
+00:03:36,969 --> 00:03:38,099
+most important part of
+
+165
+00:03:38,099 --> 00:03:38,710
+your service delivery.
+
+166
+00:03:38,719 --> 00:03:40,319
+You could have mediocre results.
+
+167
+00:03:40,319 --> 00:03:41,289
+You could be a beginner who
+
+168
+00:03:41,340 --> 00:03:42,599
+doesn't know shit about email.
+
+169
+00:03:42,599 --> 00:03:43,800
+But if you have excellent
+
+170
+00:03:43,800 --> 00:03:45,460
+communication and you're letting
+
+171
+00:03:45,460 --> 00:03:46,750
+the client know of every little
+
+172
+00:03:46,800 --> 00:03:48,150
+thing that you're doing, your
+
+173
+00:03:48,229 --> 00:03:49,750
+clients will stay with you because
+
+174
+00:03:49,849 --> 00:03:50,719
+they just like to be
+
+175
+00:03:50,719 --> 00:03:50,960
+updated.
+
+176
+00:03:50,960 --> 00:03:52,509
+They like to know that somebody is
+
+177
+00:03:52,509 --> 00:03:54,030
+proactive in managing the email
+
+178
+00:03:54,030 --> 00:03:55,560
+account, constantly reviewing
+
+179
+00:03:55,560 --> 00:03:56,909
+things and they give a shit about
+
+180
+00:03:56,990 --> 00:03:57,659
+the account.
+
+181
+00:03:57,659 --> 00:03:58,289
+That's all they want.
+
+182
+00:03:58,300 --> 00:03:59,620
+They just want somebody who gives
+
+183
+00:03:59,620 --> 00:04:00,669
+a shit and is looking at it so
+
+184
+00:04:00,669 --> 00:04:01,750
+that the client, they don't
+
+185
+00:04:01,800 --> 00:04:02,560
+need to look at the email.
+
+186
+00:04:02,599 --> 00:04:04,120
+So we use Slack.
+
+187
+00:04:04,120 --> 00:04:05,319
+I don't recommend any other
+
+188
+00:04:05,340 --> 00:04:05,960
+platform.
+
+189
+00:04:05,960 --> 00:04:06,699
+Just use Slack.
+
+190
+00:04:06,780 --> 00:04:08,039
+That's what most businesses
+
+191
+00:04:08,039 --> 00:04:09,280
+already communicate in.
+
+192
+00:04:09,280 --> 00:04:10,900
+And so we just use Slack.
+
+193
+00:04:10,939 --> 00:04:12,259
+We go to their platform and that's
+
+194
+00:04:12,259 --> 00:04:13,349
+where we communicate.
+
+195
+00:04:13,360 --> 00:04:15,110
+And if we just simply respond fast
+
+196
+00:04:15,110 --> 00:04:16,990
+and we're proactive with updates,
+
+197
+00:04:16,990 --> 00:04:18,399
+the client's going to be happy.
+
+198
+00:04:18,399 --> 00:04:19,579
+That's all that we want.
+
+199
+00:04:19,579 --> 00:04:21,110
+So this is like our communication
+
+200
+00:04:21,110 --> 00:04:21,680
+cadence.
+
+201
+00:04:22,120 --> 00:04:23,740
+So daily, all client emails and
+
+202
+00:04:23,740 --> 00:04:25,550
+Slack messages are answered within
+
+203
+00:04:25,560 --> 00:04:26,829
+one hour during working
+
+204
+00:04:26,839 --> 00:04:27,139
+hours.
+
+205
+00:04:27,139 --> 00:04:27,779
+We work 9 a.m.
+
+206
+00:04:27,779 --> 00:04:28,240
+to 5 p.m.
+
+207
+00:04:28,240 --> 00:04:28,490
+Eastern.
+
+208
+00:04:28,500 --> 00:04:30,120
+But everybody on our team, you're
+
+209
+00:04:30,170 --> 00:04:31,730
+expected to respond ASAP or at the
+
+210
+00:04:31,730 --> 00:04:32,649
+latest within one
+
+211
+00:04:32,720 --> 00:04:33,910
+hour for anything client has a
+
+212
+00:04:33,939 --> 00:04:35,269
+question or they share anything
+
+213
+00:04:35,269 --> 00:04:36,379
+with us, whatever it is.
+
+214
+00:04:36,379 --> 00:04:37,639
+So daily response times.
+
+215
+00:04:37,639 --> 00:04:39,310
+We just need to be communicating
+
+216
+00:04:39,310 --> 00:04:40,720
+daily on email revisions,
+
+217
+00:04:40,720 --> 00:04:41,459
+whatever.
+
+218
+00:04:41,459 --> 00:04:42,490
+We need to be communicating all
+
+219
+00:04:42,490 --> 00:04:43,259
+throughout the day.
+
+220
+00:04:43,259 --> 00:04:44,699
+It's not like, hey, we'll pop in
+
+221
+00:04:44,699 --> 00:04:46,009
+once a month or once a week with
+
+222
+00:04:46,019 --> 00:04:46,709
+an update.
+
+223
+00:04:46,879 --> 00:04:48,230
+No, all throughout the day, we
+
+224
+00:04:48,230 --> 00:04:49,250
+need to be available.
+
+225
+00:04:49,259 --> 00:04:50,879
+And then on a weekly level, we
+
+226
+00:04:50,920 --> 00:04:52,670
+want to have some structure with
+
+227
+00:04:52,670 --> 00:04:54,000
+our communication and our
+
+228
+00:04:54,199 --> 00:04:54,560
+reporting.
+
+229
+00:04:54,560 --> 00:04:56,180
+So we always do, for us, we do
+
+230
+00:04:56,220 --> 00:04:58,009
+weekly updates on Mondays.
+
+231
+00:04:58,019 --> 00:04:59,519
+And so every single account that
+
+232
+00:04:59,519 --> 00:05:00,980
+we're working with, we are going
+
+233
+00:05:01,069 --> 00:05:02,439
+to show you some numbers.
+
+234
+00:05:02,439 --> 00:05:03,629
+What did we do last week?
+
+235
+00:05:03,660 --> 00:05:04,850
+How much revenue did we make you
+
+236
+00:05:04,879 --> 00:05:06,310
+to reinforce, like, keep working
+
+237
+00:05:06,319 --> 00:05:06,899
+with us.
+
+238
+00:05:06,899 --> 00:05:07,509
+We're making you money.
+
+239
+00:05:07,560 --> 00:05:09,139
+So we're going to break down what,
+
+240
+00:05:09,139 --> 00:05:10,720
+how much money did we generate?
+
+241
+00:05:10,720 --> 00:05:11,800
+What did we learn?
+
+242
+00:05:12,259 --> 00:05:13,860
+Did we, one campaign, absolutely
+
+243
+00:05:13,860 --> 00:05:14,459
+crush it?
+
+244
+00:05:14,459 --> 00:05:15,939
+Did one, did not, didn't perform
+
+245
+00:05:15,939 --> 00:05:17,129
+as well as we thought that we
+
+246
+00:05:17,129 --> 00:05:18,439
+learned something from.
+
+247
+00:05:18,439 --> 00:05:19,759
+So we want to break down the
+
+248
+00:05:19,759 --> 00:05:21,550
+numbers, give a, give kind of like
+
+249
+00:05:21,560 --> 00:05:22,899
+a synopsis of the week.
+
+250
+00:05:22,899 --> 00:05:23,339
+What do we do?
+
+251
+00:05:23,339 --> 00:05:24,350
+We want to give a status.
+
+252
+00:05:24,360 --> 00:05:25,920
+What did we complete last week?
+
+253
+00:05:25,920 --> 00:05:27,360
+Show them that, like, yeah, we've
+
+254
+00:05:27,360 --> 00:05:28,589
+been fucking doing shit.
+
+255
+00:05:28,600 --> 00:05:30,060
+Hey, we just finished this draft
+
+256
+00:05:30,060 --> 00:05:31,560
+for the Browse Abandoned Flow.
+
+257
+00:05:31,620 --> 00:05:33,779
+Last week, we set live two flows.
+
+258
+00:05:33,779 --> 00:05:34,860
+And so it just shows to them that
+
+259
+00:05:34,860 --> 00:05:35,670
+we're moving forward.
+
+260
+00:05:35,779 --> 00:05:36,889
+And then also, like, campaigns,
+
+261
+00:05:36,899 --> 00:05:37,910
+like, how many campaigns did we
+
+262
+00:05:37,910 --> 00:05:38,300
+send?
+
+263
+00:05:38,300 --> 00:05:39,600
+And then, super important, since
+
+264
+00:05:39,600 --> 00:05:40,839
+the Monday, we need to outline the
+
+265
+00:05:40,839 --> 00:05:41,600
+upcoming week.
+
+266
+00:05:41,819 --> 00:05:42,810
+So now we tell them, this is what
+
+267
+00:05:42,839 --> 00:05:43,439
+we did last week.
+
+268
+00:05:43,480 --> 00:05:44,399
+This is what happened last week.
+
+269
+00:05:44,399 --> 00:05:45,519
+Now here's what we're doing going
+
+270
+00:05:45,519 --> 00:05:45,980
+forward.
+
+271
+00:05:45,980 --> 00:05:47,220
+Here's what we're doing this week.
+
+272
+00:05:47,220 --> 00:05:47,870
+This is our plan.
+
+273
+00:05:47,920 --> 00:05:48,779
+This is our action item.
+
+274
+00:05:48,819 --> 00:05:50,139
+We have these three campaigns that
+
+275
+00:05:50,139 --> 00:05:51,310
+we're going to be launching for
+
+276
+00:05:51,310 --> 00:05:51,660
+you.
+
+277
+00:05:51,660 --> 00:05:53,560
+And we're finishing up this
+
+278
+00:05:53,670 --> 00:05:55,399
+post-purchase flow.
+
+279
+00:05:55,399 --> 00:05:56,329
+You can expect that to be
+
+280
+00:05:56,420 --> 00:05:57,629
+delivered to you around middle of
+
+281
+00:05:57,629 --> 00:05:58,149
+the week.
+
+282
+00:05:58,540 --> 00:05:58,819
+Boom.
+
+283
+00:05:58,839 --> 00:05:59,529
+Now they have something to look
+
+284
+00:05:59,529 --> 00:05:59,899
+forward to.
+
+285
+00:05:59,899 --> 00:06:01,069
+They know that we're working on
+
+286
+00:06:01,069 --> 00:06:01,439
+shit.
+
+287
+00:06:01,439 --> 00:06:02,439
+And they don't got to worry about,
+
+288
+00:06:02,459 --> 00:06:03,810
+are these people just taking my
+
+289
+00:06:03,810 --> 00:06:04,699
+money and they're not doing
+
+290
+00:06:04,699 --> 00:06:04,889
+anything?
+
+291
+00:06:04,939 --> 00:06:05,790
+No, this is exactly what we're
+
+292
+00:06:05,959 --> 00:06:06,129
+doing.
+
+293
+00:06:06,160 --> 00:06:07,620
+So that's the weekly updates.
+
+294
+00:06:07,620 --> 00:06:09,430
+And then, every month as well, we
+
+295
+00:06:09,430 --> 00:06:11,050
+want to do a broader overview of
+
+296
+00:06:11,060 --> 00:06:11,720
+the stats.
+
+297
+00:06:11,819 --> 00:06:13,569
+Do a performance deep dive of the
+
+298
+00:06:13,569 --> 00:06:15,120
+revenue attribution, your
+
+299
+00:06:15,120 --> 00:06:17,259
+deliverability, your list growth,
+
+300
+00:06:17,259 --> 00:06:18,670
+your A-B tests, everything.
+
+301
+00:06:18,680 --> 00:06:20,389
+We want to put together a set
+
+302
+00:06:20,389 --> 00:06:22,480
+little slide deck of just broader
+
+303
+00:06:22,480 --> 00:06:23,860
+overview numbers.
+
+304
+00:06:23,860 --> 00:06:25,379
+How is the channel progressing?
+
+305
+00:06:25,379 --> 00:06:26,139
+What have we learned?
+
+306
+00:06:26,180 --> 00:06:27,910
+Are things trending downwards or
+
+307
+00:06:27,910 --> 00:06:28,579
+upwards?
+
+308
+00:06:28,579 --> 00:06:29,839
+What suggestions do we have?
+
+309
+00:06:29,839 --> 00:06:30,470
+Anything like that.
+
+310
+00:06:30,860 --> 00:06:31,949
+And also, you want to have at
+
+311
+00:06:31,949 --> 00:06:33,459
+least monthly check-in meetings.
+
+312
+00:06:33,459 --> 00:06:34,970
+Some people will meet every single
+
+313
+00:06:34,970 --> 00:06:35,360
+week.
+
+314
+00:06:35,379 --> 00:06:36,720
+Some do bi-weekly.
+
+315
+00:06:36,720 --> 00:06:39,279
+We've typically found that monthly
+
+316
+00:06:39,279 --> 00:06:41,459
+is kind of a good place to go.
+
+317
+00:06:41,480 --> 00:06:43,379
+You can do like bi-weekly for the
+
+318
+00:06:43,490 --> 00:06:45,620
+first couple weeks, first couple
+
+319
+00:06:45,759 --> 00:06:47,420
+months with a client, maybe like
+
+320
+00:06:47,420 --> 00:06:48,329
+the first two months, and then go
+
+321
+00:06:48,329 --> 00:06:48,779
+to monthly.
+
+322
+00:06:48,959 --> 00:06:50,860
+But I definitely recommend forcing
+
+323
+00:06:50,970 --> 00:06:52,959
+clients to meet with you monthly.
+
+324
+00:06:52,959 --> 00:06:54,579
+There are some clients who won't
+
+325
+00:06:54,620 --> 00:06:56,279
+want to talk to you, but it's good
+
+326
+00:06:56,279 --> 00:06:57,699
+for relationships to be meeting
+
+327
+00:06:58,029 --> 00:06:59,490
+with them face-to-face so that
+
+328
+00:06:59,490 --> 00:07:01,149
+you're not just another profile on
+
+329
+00:07:01,279 --> 00:07:02,079
+a screen.
+
+330
+00:07:02,100 --> 00:07:03,449
+It's like, this is a real person
+
+331
+00:07:03,449 --> 00:07:04,699
+working on my account, and it
+
+332
+00:07:04,699 --> 00:07:06,000
+makes it harder for them to want
+
+333
+00:07:06,000 --> 00:07:06,720
+to drop you.
+
+334
+00:07:07,300 --> 00:07:07,939
+Especially if you have fun with
+
+335
+00:07:07,939 --> 00:07:08,910
+the client and you have a good
+
+336
+00:07:08,910 --> 00:07:10,089
+relationship, they don't want to
+
+337
+00:07:10,089 --> 00:07:11,220
+drop people that they're friends
+
+338
+00:07:11,250 --> 00:07:12,230
+with, and so make sure that we
+
+339
+00:07:12,230 --> 00:07:12,939
+have these.
+
+340
+00:07:12,939 --> 00:07:14,040
+But this is really all you need
+
+341
+00:07:14,040 --> 00:07:14,839
+for communication.
+
+342
+00:07:14,920 --> 00:07:16,449
+Now, let's actually go into the
+
+343
+00:07:16,449 --> 00:07:18,060
+fulfillment for these different
+
+344
+00:07:18,060 --> 00:07:19,470
+offers that I showed you, and
+
+345
+00:07:19,470 --> 00:07:21,069
+like, what do the timelines look
+
+346
+00:07:21,069 --> 00:07:21,589
+like?
+
+347
+00:07:21,959 --> 00:07:22,800
+What do we do?
+
+348
+00:07:22,800 --> 00:07:24,470
+So this is an example of when we
+
+349
+00:07:24,470 --> 00:07:26,420
+were a little bit smaller, this is
+
+350
+00:07:26,420 --> 00:07:28,250
+like what our fulfillment would
+
+351
+00:07:28,250 --> 00:07:29,120
+look like.
+
+352
+00:07:29,120 --> 00:07:30,560
+So again, we have the flows, so we
+
+353
+00:07:30,560 --> 00:07:31,920
+need to map out the strategy.
+
+354
+00:07:31,920 --> 00:07:32,930
+We need to write the emails,
+
+355
+00:07:32,939 --> 00:07:33,759
+design the emails.
+
+356
+00:07:33,759 --> 00:07:34,779
+We need to build the emails in
+
+357
+00:07:34,779 --> 00:07:35,860
+Klaviyo, test them, get them
+
+358
+00:07:35,860 --> 00:07:37,399
+reviewed by clients, everything.
+
+359
+00:07:37,399 --> 00:07:38,459
+We have the campaigns, we have
+
+360
+00:07:38,459 --> 00:07:39,600
+pop-ups, and then reporting and
+
+361
+00:07:39,600 --> 00:07:40,360
+communication.
+
+362
+00:07:40,360 --> 00:07:42,209
+So those are really the only parts
+
+363
+00:07:42,209 --> 00:07:43,639
+of the email strategy.
+
+364
+00:07:43,639 --> 00:07:46,110
+And so this is like a flow rebuild
+
+365
+00:07:46,110 --> 00:07:48,379
+right here, and then this is what
+
+366
+00:07:48,709 --> 00:07:51,050
+an ongoing project where we're
+
+367
+00:07:51,050 --> 00:07:53,620
+doing absolutely everything would
+
+368
+00:07:53,930 --> 00:07:54,689
+look like.
+
+369
+00:07:54,939 --> 00:07:56,120
+And so this is just what we do.
+
+370
+00:07:56,120 --> 00:07:57,639
+Take it if you want or do
+
+371
+00:07:57,639 --> 00:07:59,360
+something different.
+
+372
+00:07:59,360 --> 00:08:00,600
+So this is like where we start
+
+373
+00:08:00,600 --> 00:08:01,480
+with the client.
+
+374
+00:08:02,639 --> 00:08:03,959
+Really, we're bigger, and so we
+
+375
+00:08:03,959 --> 00:08:05,579
+move a little bit slower because
+
+376
+00:08:05,579 --> 00:08:07,339
+we have a lot more moving parts.
+
+377
+00:08:07,339 --> 00:08:08,529
+But if you're a small team, you're
+
+378
+00:08:08,560 --> 00:08:09,519
+definitely going to want to
+
+379
+00:08:09,519 --> 00:08:10,240
+condense this.
+
+380
+00:08:10,240 --> 00:08:12,060
+When you're small, you have to
+
+381
+00:08:12,060 --> 00:08:13,199
+move with speed.
+
+382
+00:08:13,220 --> 00:08:14,759
+You have to move with speed.
+
+383
+00:08:14,759 --> 00:08:16,370
+That's what you can leverage
+
+384
+00:08:16,420 --> 00:08:18,209
+against the bigger agencies like
+
+385
+00:08:18,300 --> 00:08:18,910
+myself.
+
+386
+00:08:19,180 --> 00:08:20,480
+So we have a kickoff call, and
+
+387
+00:08:20,480 --> 00:08:21,879
+then we're going to build out the
+
+388
+00:08:21,879 --> 00:08:23,180
+core segments, so the list,
+
+389
+00:08:23,189 --> 00:08:24,339
+analyzing the list.
+
+390
+00:08:24,339 --> 00:08:25,449
+And then on the fourth, we're
+
+391
+00:08:25,449 --> 00:08:26,790
+going to have a flow map diagram.
+
+392
+00:08:26,800 --> 00:08:27,930
+So we're going to be mapping every
+
+393
+00:08:27,930 --> 00:08:28,939
+single automated email.
+
+394
+00:08:28,939 --> 00:08:30,290
+What email, what do we do for
+
+395
+00:08:30,379 --> 00:08:32,048
+email three on the card abandoned
+
+396
+00:08:32,048 --> 00:08:32,538
+flow?
+
+397
+00:08:32,538 --> 00:08:33,559
+Oh, we're doing, we're going to
+
+398
+00:08:33,559 --> 00:08:34,340
+remind you the card.
+
+399
+00:08:34,340 --> 00:08:35,509
+So we want to map this out and
+
+400
+00:08:35,509 --> 00:08:36,710
+show them the strategy.
+
+401
+00:08:36,720 --> 00:08:38,788
+And we like to have a call to go
+
+402
+00:08:38,788 --> 00:08:41,220
+over to this strategy with brands
+
+403
+00:08:41,250 --> 00:08:43,048
+to get them to see it and let us
+
+404
+00:08:43,048 --> 00:08:44,090
+know if they want to change
+
+405
+00:08:44,090 --> 00:08:45,379
+anything with the emails and the
+
+406
+00:08:45,379 --> 00:08:46,690
+strategy that we're doing.
+
+407
+00:08:46,700 --> 00:08:47,950
+Then we'll send a campaign
+
+408
+00:08:47,950 --> 00:08:49,549
+planning form being like, hey,
+
+409
+00:08:49,549 --> 00:08:51,149
+we're about to build our campaign
+
+410
+00:08:51,149 --> 00:08:51,879
+calendar.
+
+411
+00:08:53,320 --> 00:08:54,179
+Do you have any events?
+
+412
+00:08:54,200 --> 00:08:55,240
+Do you have any sales coming up?
+
+413
+00:08:55,240 --> 00:08:55,899
+Do you have any new product
+
+414
+00:08:56,250 --> 00:08:56,399
+release?
+
+415
+00:08:56,399 --> 00:08:57,700
+And so we'll send like a form
+
+416
+00:08:57,700 --> 00:08:59,159
+being like, hey, what are the
+
+417
+00:08:59,159 --> 00:09:00,549
+dates that we need to know?
+
+418
+00:09:00,620 --> 00:09:02,129
+And then right here, the 10th, we
+
+419
+00:09:02,129 --> 00:09:03,580
+have pop-up forms ready to launch.
+
+420
+00:09:03,620 --> 00:09:04,929
+And then we have an unsubscribe
+
+421
+00:09:04,929 --> 00:09:06,210
+preferences page, which is a
+
+422
+00:09:06,210 --> 00:09:07,340
+little bit advanced.
+
+423
+00:09:07,340 --> 00:09:08,059
+You probably don't need to do
+
+424
+00:09:08,059 --> 00:09:08,759
+this, but it's just like if
+
+425
+00:09:08,769 --> 00:09:09,600
+somebody clicks to unsubscribe
+
+426
+00:09:09,600 --> 00:09:10,710
+from an email, we have a page
+
+427
+00:09:10,710 --> 00:09:12,080
+where it's like, hey, would you
+
+428
+00:09:12,409 --> 00:09:14,120
+like to stay subscribed and get,
+
+429
+00:09:14,120 --> 00:09:16,000
+but only receive emails like once
+
+430
+00:09:16,000 --> 00:09:17,899
+a month, something like that.
+
+431
+00:09:17,899 --> 00:09:19,090
+And then on this date, we'll do
+
+432
+00:09:19,120 --> 00:09:20,250
+the campaign calendar.
+
+433
+00:09:20,259 --> 00:09:21,610
+But all throughout this, we are
+
+434
+00:09:21,620 --> 00:09:22,909
+doing the copy and the design on
+
+435
+00:09:22,919 --> 00:09:23,710
+all the flows.
+
+436
+00:09:23,720 --> 00:09:24,909
+And then on the 13th, we'll
+
+437
+00:09:24,940 --> 00:09:26,299
+deliver the campaign calendar.
+
+438
+00:09:26,299 --> 00:09:27,620
+This is every single email that we
+
+439
+00:09:27,620 --> 00:09:28,200
+want to send.
+
+440
+00:09:28,279 --> 00:09:29,629
+This is the topic of this email
+
+441
+00:09:29,639 --> 00:09:31,230
+and this email and this campaign.
+
+442
+00:09:31,320 --> 00:09:32,370
+We send the topics and our
+
+443
+00:09:32,370 --> 00:09:33,720
+strategy of what we want to do for
+
+444
+00:09:33,720 --> 00:09:35,080
+review and then see if the client
+
+445
+00:09:35,080 --> 00:09:36,710
+has anything they want to change.
+
+446
+00:09:36,720 --> 00:09:38,590
+And then by day 15, the 15th here
+
+447
+00:09:38,590 --> 00:09:40,009
+is when we have the welcome flow
+
+448
+00:09:40,009 --> 00:09:41,210
+and we send that over to the
+
+449
+00:09:41,210 --> 00:09:42,220
+client to review.
+
+450
+00:09:42,220 --> 00:09:43,429
+And then card abandon, checkout
+
+451
+00:09:43,440 --> 00:09:44,620
+abandon, kind of just like two to
+
+452
+00:09:44,620 --> 00:09:45,840
+three email flows per week.
+
+453
+00:09:45,840 --> 00:09:47,210
+And then all the flows are kind of
+
+454
+00:09:47,269 --> 00:09:48,649
+built out by the middle of month
+
+455
+00:09:48,649 --> 00:09:49,059
+two.
+
+456
+00:09:49,440 --> 00:09:50,720
+We're just working on making sure
+
+457
+00:09:50,720 --> 00:09:52,009
+they're all approved and whatnot
+
+458
+00:09:52,009 --> 00:09:53,299
+and getting them uploaded inside
+
+459
+00:09:53,299 --> 00:09:54,460
+of Klaviyo and turned on.
+
+460
+00:09:54,460 --> 00:09:55,769
+And then we can just focus on
+
+461
+00:09:55,769 --> 00:09:56,500
+campaigns.
+
+462
+00:09:56,500 --> 00:09:57,690
+So that's like what a kickoff
+
+463
+00:09:57,700 --> 00:09:59,279
+schedule would look like there.
+
+464
+00:09:59,279 --> 00:10:00,860
+And for flow rebuild, this is what
+
+465
+00:10:00,870 --> 00:10:02,419
+it would look like with just doing
+
+466
+00:10:02,419 --> 00:10:03,100
+the flows.
+
+467
+00:10:03,100 --> 00:10:04,419
+Same sort of thing, but no
+
+468
+00:10:04,419 --> 00:10:05,179
+campaigns.
+
+469
+00:10:05,179 --> 00:10:06,779
+And so this is like what a
+
+470
+00:10:06,779 --> 00:10:08,759
+calendar would look like.
+
+471
+00:10:09,480 --> 00:10:11,879
+So that is how that timeline would
+
+472
+00:10:11,879 --> 00:10:12,440
+look.
+
+473
+00:10:12,519 --> 00:10:13,840
+Let me take a drink of my water.
+
+474
+00:10:13,850 --> 00:10:15,950
+Now we need to build our
+
+475
+00:10:15,950 --> 00:10:18,340
+fulfillment machine.
+
+476
+00:10:18,340 --> 00:10:19,889
+And I'm going to go over, I'm
+
+477
+00:10:19,889 --> 00:10:21,440
+actually going to skip to the
+
+478
+00:10:21,440 --> 00:10:23,080
+scaling fulfillment and how to
+
+479
+00:10:23,409 --> 00:10:24,899
+handle more clients just to show
+
+480
+00:10:24,899 --> 00:10:26,529
+you like the different phases of
+
+481
+00:10:26,659 --> 00:10:28,440
+growing your company to be able to
+
+482
+00:10:28,629 --> 00:10:30,240
+then operate without you.
+
+483
+00:10:30,620 --> 00:10:32,440
+So stage one is the solo operator.
+
+484
+00:10:32,440 --> 00:10:33,600
+This is going to be you from kind
+
+485
+00:10:33,600 --> 00:10:34,940
+of like one to four-ish clients.
+
+486
+00:10:34,940 --> 00:10:35,649
+For some people, it might be
+
+487
+00:10:35,649 --> 00:10:35,940
+higher.
+
+488
+00:10:35,940 --> 00:10:36,629
+For some people, it might be
+
+489
+00:10:36,629 --> 00:10:36,899
+lower.
+
+490
+00:10:36,899 --> 00:10:37,980
+It just depends on the brands
+
+491
+00:10:37,980 --> 00:10:38,960
+you're working on and your
+
+492
+00:10:38,960 --> 00:10:40,139
+fulfillment, whatever.
+
+493
+00:10:41,080 --> 00:10:42,320
+Typically one to four-ish clients,
+
+494
+00:10:42,320 --> 00:10:43,590
+and this is what I was doing,
+
+495
+00:10:43,690 --> 00:10:45,039
+where it was kind of like at four
+
+496
+00:10:45,039 --> 00:10:46,500
+clients, I was kind of maxed out
+
+497
+00:10:46,500 --> 00:10:48,100
+on time, four to five clients, and
+
+498
+00:10:48,129 --> 00:10:49,450
+I needed to start hiring some
+
+499
+00:10:49,450 --> 00:10:50,419
+people to help.
+
+500
+00:10:50,419 --> 00:10:51,610
+So this is where you're wearing
+
+501
+00:10:51,610 --> 00:10:52,440
+every single hat.
+
+502
+00:10:52,440 --> 00:10:53,250
+You're doing all the strategy.
+
+503
+00:10:53,259 --> 00:10:54,110
+You're doing all the copy.
+
+504
+00:10:54,120 --> 00:10:55,240
+You're doing the design.
+
+505
+00:10:55,240 --> 00:10:56,929
+You're doing the Klaviyo uploading
+
+506
+00:10:56,929 --> 00:10:58,200
+and building the emails and
+
+507
+00:10:58,289 --> 00:10:59,840
+sending them live and scheduling
+
+508
+00:10:59,840 --> 00:11:01,299
+them, and you're doing all the
+
+509
+00:11:01,309 --> 00:11:03,179
+client communication yourself.
+
+510
+00:11:03,179 --> 00:11:04,330
+This is great for learning the
+
+511
+00:11:04,330 --> 00:11:05,549
+entire process end-to-end.
+
+512
+00:11:05,559 --> 00:11:06,570
+You need to have this phase to
+
+513
+00:11:06,580 --> 00:11:07,710
+where you learn it because as the
+
+514
+00:11:07,710 --> 00:11:08,799
+owner of a company, you need to
+
+515
+00:11:08,799 --> 00:11:10,019
+know how everything works.
+
+516
+00:11:10,419 --> 00:11:11,070
+But there is a limit.
+
+517
+00:11:11,139 --> 00:11:12,750
+You'll cap out around maybe three
+
+518
+00:11:12,750 --> 00:11:14,370
+to five clients before quality,
+
+519
+00:11:14,370 --> 00:11:15,870
+your response times, and your
+
+520
+00:11:15,870 --> 00:11:17,570
+sanity will start to suffer.
+
+521
+00:11:17,580 --> 00:11:19,639
+And so there's that, where you're
+
+522
+00:11:19,639 --> 00:11:21,009
+doing everything.
+
+523
+00:11:21,019 --> 00:11:22,120
+And so this is just what you want
+
+524
+00:11:22,120 --> 00:11:22,700
+to focus on.
+
+525
+00:11:22,700 --> 00:11:24,049
+Don't fucking worry about your
+
+526
+00:11:24,139 --> 00:11:25,610
+team until you've maxed out your
+
+527
+00:11:25,610 --> 00:11:26,250
+own time.
+
+528
+00:11:26,259 --> 00:11:27,879
+A lot of people just think way too
+
+529
+00:11:27,919 --> 00:11:29,039
+far ahead before.
+
+530
+00:11:29,039 --> 00:11:30,389
+It's like, brother, get your own
+
+531
+00:11:30,399 --> 00:11:31,710
+clients until you're maxed out on
+
+532
+00:11:31,720 --> 00:11:32,149
+time.
+
+533
+00:11:32,159 --> 00:11:33,049
+Then you can figure out how to
+
+534
+00:11:33,179 --> 00:11:34,059
+hire and everything there.
+
+535
+00:11:34,080 --> 00:11:35,340
+So that's where we go to the stage
+
+536
+00:11:35,340 --> 00:11:36,620
+two, where you're working with
+
+537
+00:11:36,620 --> 00:11:38,149
+freelancers and contractors, where
+
+538
+00:11:38,149 --> 00:11:38,820
+you're at five.
+
+539
+00:11:39,139 --> 00:11:40,509
+This will take you from five to
+
+540
+00:11:40,570 --> 00:11:42,440
+10-ish, 15-ish clients.
+
+541
+00:11:42,440 --> 00:11:44,120
+And this is where you get some
+
+542
+00:11:44,120 --> 00:11:46,279
+help from some part-time people.
+
+543
+00:11:46,279 --> 00:11:48,289
+You don't quite have enough cash
+
+544
+00:11:48,289 --> 00:11:50,429
+flow to hire full-time people, but
+
+545
+00:11:50,559 --> 00:11:52,340
+you can hire part-time and sort of
+
+546
+00:11:52,389 --> 00:11:53,129
+like contractors.
+
+547
+00:11:53,139 --> 00:11:54,740
+And so first hires are typically
+
+548
+00:11:54,809 --> 00:11:56,340
+designers to design emails,
+
+549
+00:11:56,340 --> 00:11:58,269
+copywriters to write emails, and
+
+550
+00:11:58,269 --> 00:11:59,200
+Klaviyo VAs.
+
+551
+00:11:59,220 --> 00:12:00,570
+So people who will actually build
+
+552
+00:12:00,659 --> 00:12:02,039
+the emails inside of Klaviyo and
+
+553
+00:12:02,039 --> 00:12:03,269
+schedule the emails for you a
+
+554
+00:12:03,269 --> 00:12:04,889
+little bit more of the busy work.
+
+555
+00:12:04,899 --> 00:12:06,450
+These are typically the easiest
+
+556
+00:12:06,450 --> 00:12:08,100
+work to – this is the easiest work
+
+557
+00:12:08,100 --> 00:12:09,570
+to offload, and it's just like
+
+558
+00:12:09,570 --> 00:12:10,820
+whatever you prefer.
+
+559
+00:12:11,240 --> 00:12:12,320
+Whatever takes you the most time,
+
+560
+00:12:12,320 --> 00:12:13,620
+I'd recommend doing that.
+
+561
+00:12:13,860 --> 00:12:15,649
+You should still hold control of
+
+562
+00:12:15,649 --> 00:12:17,639
+most of the strategy communication
+
+563
+00:12:17,639 --> 00:12:19,779
+in the execution, the management,
+
+564
+00:12:19,779 --> 00:12:21,940
+and the strategy, building out the
+
+565
+00:12:22,000 --> 00:12:23,169
+calendars and building out the
+
+566
+00:12:23,169 --> 00:12:24,450
+flow maps and the strategies and
+
+567
+00:12:24,450 --> 00:12:25,779
+then client communication.
+
+568
+00:12:26,440 --> 00:12:28,960
+But whatever's taking up the most
+
+569
+00:12:28,960 --> 00:12:31,120
+time for you or you just don't
+
+570
+00:12:31,120 --> 00:12:32,500
+like, do that.
+
+571
+00:12:32,500 --> 00:12:33,559
+And so the first thing that I
+
+572
+00:12:33,559 --> 00:12:34,559
+hired was a designer.
+
+573
+00:12:34,570 --> 00:12:35,559
+Fucking hate design.
+
+574
+00:12:35,559 --> 00:12:36,639
+Suck at design.
+
+575
+00:12:36,639 --> 00:12:37,950
+I hired a part-time designer to
+
+576
+00:12:37,950 --> 00:12:39,169
+design the emails, and I was
+
+577
+00:12:39,169 --> 00:12:40,490
+writing the emails, and then I
+
+578
+00:12:40,490 --> 00:12:42,200
+would upload into Klaviyo as well.
+
+579
+00:12:42,919 --> 00:12:44,789
+And then we got more clients, and
+
+580
+00:12:44,789 --> 00:12:46,899
+then I, again, got way too busy.
+
+581
+00:12:46,899 --> 00:12:48,450
+So then I hired a Klaviyo VA,
+
+582
+00:12:48,450 --> 00:12:50,299
+somebody who would actually take
+
+583
+00:12:50,299 --> 00:12:51,649
+those designs and build them
+
+584
+00:12:51,970 --> 00:12:53,860
+inside of Klaviyo, add the links,
+
+585
+00:12:53,860 --> 00:12:55,590
+quality check the emails, and
+
+586
+00:12:55,590 --> 00:12:57,429
+schedule them to be sent inside of
+
+587
+00:12:57,429 --> 00:12:58,360
+Klaviyo.
+
+588
+00:12:58,360 --> 00:12:59,730
+And then once I maxed out on that,
+
+589
+00:12:59,789 --> 00:13:01,129
+then I brought in a copywriter,
+
+590
+00:13:01,129 --> 00:13:02,450
+and then I had somebody writing
+
+591
+00:13:02,450 --> 00:13:03,100
+the copy.
+
+592
+00:13:03,120 --> 00:13:04,309
+This gives you breathing room
+
+593
+00:13:04,309 --> 00:13:05,429
+unless you take on five to ten
+
+594
+00:13:05,429 --> 00:13:06,000
+clients.
+
+595
+00:13:06,000 --> 00:13:06,960
+You can scale this even.
+
+596
+00:13:06,960 --> 00:13:08,860
+I see people who scale this to 20,
+
+597
+00:13:08,970 --> 00:13:10,899
+30 clients just doing this sort of
+
+598
+00:13:10,899 --> 00:13:11,460
+thing.
+
+599
+00:13:12,320 --> 00:13:13,929
+But that's typically what I would
+
+600
+00:13:13,990 --> 00:13:15,570
+recommend before you really want
+
+601
+00:13:15,570 --> 00:13:17,059
+to start bringing some people as
+
+602
+00:13:17,360 --> 00:13:18,750
+full-time employees because the
+
+603
+00:13:18,750 --> 00:13:20,250
+challenge is freelancers aren't
+
+604
+00:13:20,460 --> 00:13:21,629
+always reliable.
+
+605
+00:13:21,639 --> 00:13:22,889
+They're not as bought in to you
+
+606
+00:13:22,889 --> 00:13:24,240
+because they're doing their own
+
+607
+00:13:24,240 --> 00:13:24,590
+thing.
+
+608
+00:13:24,679 --> 00:13:25,539
+They have their own clients.
+
+609
+00:13:25,580 --> 00:13:27,039
+They're not as bought in.
+
+610
+00:13:27,039 --> 00:13:28,850
+It's just a different frame when
+
+611
+00:13:28,850 --> 00:13:30,720
+it's like, hey, they have other
+
+612
+00:13:30,720 --> 00:13:32,269
+shit, and they are usually
+
+613
+00:13:32,269 --> 00:13:33,889
+entrepreneurial, and it's
+
+614
+00:13:33,889 --> 00:13:35,789
+different when you hire somebody
+
+615
+00:13:35,789 --> 00:13:37,330
+off of a job platform versus
+
+616
+00:13:37,340 --> 00:13:38,950
+somebody that you got off of a
+
+617
+00:13:38,950 --> 00:13:40,460
+LinkedIn job post.
+
+618
+00:13:40,460 --> 00:13:41,419
+It's just a different vibe.
+
+619
+00:13:41,720 --> 00:13:43,519
+So they're not always reliable, so
+
+620
+00:13:43,519 --> 00:13:45,169
+what you'll need is clear briefs,
+
+621
+00:13:45,259 --> 00:13:46,840
+QC, and training systems.
+
+622
+00:13:46,840 --> 00:13:48,460
+And so that's that stage two.
+
+623
+00:13:48,480 --> 00:13:50,009
+And then once you have enough cash
+
+624
+00:13:50,009 --> 00:13:51,440
+flow, then you can start really
+
+625
+00:13:51,529 --> 00:13:53,059
+building out pods and teams within
+
+626
+00:13:53,059 --> 00:13:53,940
+your company.
+
+627
+00:13:54,480 --> 00:13:57,149
+So then we can build structured
+
+628
+00:13:57,159 --> 00:13:58,860
+pods of each pod.
+
+629
+00:13:58,860 --> 00:14:00,210
+It's just a clump of people that
+
+630
+00:14:00,210 --> 00:14:01,509
+can manage, like, six to ten
+
+631
+00:14:01,519 --> 00:14:02,659
+clients in each pod.
+
+632
+00:14:02,659 --> 00:14:03,889
+So there's going to be an account
+
+633
+00:14:03,889 --> 00:14:04,399
+manager.
+
+634
+00:14:04,399 --> 00:14:05,879
+So this is somebody who does the
+
+635
+00:14:05,879 --> 00:14:06,960
+strategy in the client
+
+636
+00:14:06,960 --> 00:14:08,720
+communication, and they manage the
+
+637
+00:14:08,769 --> 00:14:09,139
+team.
+
+638
+00:14:09,200 --> 00:14:10,690
+And then you'll have a designer, a
+
+639
+00:14:10,690 --> 00:14:11,850
+copywriter, and a Klaviyo
+
+640
+00:14:11,860 --> 00:14:13,350
+technician to upload into Klaviyo
+
+641
+00:14:13,350 --> 00:14:13,940
+and all that.
+
+642
+00:14:14,220 --> 00:14:15,309
+And that's going to be one pod,
+
+643
+00:14:15,309 --> 00:14:16,379
+and these can manage six to ten
+
+644
+00:14:16,379 --> 00:14:16,889
+clients.
+
+645
+00:14:16,899 --> 00:14:18,799
+And so that's what we will build
+
+646
+00:14:18,909 --> 00:14:19,379
+out.
+
+647
+00:14:19,379 --> 00:14:20,500
+And then you can build out
+
+648
+00:14:20,500 --> 00:14:22,029
+multiple, multiple pods, and so
+
+649
+00:14:22,029 --> 00:14:23,389
+then with each one having six to
+
+650
+00:14:23,389 --> 00:14:24,120
+ten clients.
+
+651
+00:14:24,620 --> 00:14:25,600
+Account manager is kind of like
+
+652
+00:14:25,600 --> 00:14:26,879
+the new position where this is
+
+653
+00:14:26,889 --> 00:14:28,190
+what I would recommend as your
+
+654
+00:14:28,190 --> 00:14:29,730
+first full-time hire is get an
+
+655
+00:14:29,730 --> 00:14:30,940
+account manager,
+
+656
+00:14:30,980 --> 00:14:32,419
+and then they'll manage, like, the
+
+657
+00:14:32,419 --> 00:14:33,929
+other freelancers, the designers,
+
+658
+00:14:34,029 --> 00:14:35,419
+copywriters, and Klaviyo VAs.
+
+659
+00:14:35,419 --> 00:14:37,590
+And they are dealing with the
+
+660
+00:14:37,590 --> 00:14:38,559
+clients.
+
+661
+00:14:38,559 --> 00:14:40,100
+And so this allows you to scale to
+
+662
+00:14:40,100 --> 00:14:43,120
+20 to 30, 40, 50 clients, and your
+
+663
+00:14:43,120 --> 00:14:45,730
+role kind of shifts to training,
+
+664
+00:14:45,740 --> 00:14:47,490
+hiring, and overseeing the pod
+
+665
+00:14:47,490 --> 00:14:48,820
+performance at this level.
+
+666
+00:14:48,820 --> 00:14:50,370
+So I ran this all the way to
+
+667
+00:14:50,370 --> 00:14:52,539
+around 30-ish clients until I
+
+668
+00:14:52,539 --> 00:14:54,179
+needed to get a director of
+
+669
+00:14:54,179 --> 00:14:55,289
+operations.
+
+670
+00:14:56,059 --> 00:14:57,230
+Because then my whole day was
+
+671
+00:14:57,230 --> 00:14:59,379
+just, like, reviewing everybody's
+
+672
+00:14:59,379 --> 00:15:00,990
+work and being like, is shit
+
+673
+00:15:00,990 --> 00:15:02,389
+getting done, checking in on the
+
+674
+00:15:02,389 --> 00:15:03,809
+client channels, making sure
+
+675
+00:15:03,940 --> 00:15:05,980
+people are actually active.
+
+676
+00:15:05,980 --> 00:15:07,460
+And that's when I was just maxed
+
+677
+00:15:07,460 --> 00:15:08,840
+out on time because I was also
+
+678
+00:15:08,840 --> 00:15:10,639
+doing sales and marketing, getting
+
+679
+00:15:10,639 --> 00:15:11,519
+us clients.
+
+680
+00:15:11,519 --> 00:15:12,720
+So that's when you need to bring
+
+681
+00:15:12,750 --> 00:15:14,100
+in the management layer, which is
+
+682
+00:15:14,100 --> 00:15:15,610
+when we're above 30 clients where
+
+683
+00:15:15,610 --> 00:15:16,830
+you can potentially add senior
+
+684
+00:15:16,830 --> 00:15:17,960
+account managers to oversee
+
+685
+00:15:17,960 --> 00:15:19,669
+account managers or directors to
+
+686
+00:15:19,669 --> 00:15:21,120
+oversee multiple pods.
+
+687
+00:15:21,200 --> 00:15:22,779
+So, like, a director of operations
+
+688
+00:15:22,779 --> 00:15:24,139
+to make sure that shit is running
+
+689
+00:15:24,139 --> 00:15:25,629
+smoothly, to ensure consistency
+
+690
+00:15:25,629 --> 00:15:26,909
+across the accounts, handle
+
+691
+00:15:26,909 --> 00:15:28,450
+escalations, and maintain client
+
+692
+00:15:28,450 --> 00:15:29,950
+relationships so that you can
+
+693
+00:15:29,950 --> 00:15:31,620
+focus on whatever you're good at,
+
+694
+00:15:31,620 --> 00:15:32,960
+which, for me, was marketing and
+
+695
+00:15:32,960 --> 00:15:33,360
+sales.
+
+696
+00:15:33,360 --> 00:15:34,960
+And then you're just stepped into
+
+697
+00:15:34,960 --> 00:15:35,710
+the CEO role.
+
+698
+00:15:35,720 --> 00:15:36,909
+You're focused on growth, sales,
+
+699
+00:15:36,940 --> 00:15:37,809
+and vision instead of the
+
+700
+00:15:37,809 --> 00:15:38,879
+day-to-day client work.
+
+701
+00:15:38,879 --> 00:15:39,889
+This is where you get out of the
+
+702
+00:15:39,899 --> 00:15:41,169
+day-to-day operations, and you can
+
+703
+00:15:41,169 --> 00:15:42,500
+focus on growing the business.
+
+704
+00:15:42,500 --> 00:15:44,190
+This will get you to 50-plus
+
+705
+00:15:44,190 --> 00:15:45,879
+clients in stable systems, and
+
+706
+00:15:45,879 --> 00:15:47,610
+this is still what we operate at,
+
+707
+00:15:47,610 --> 00:15:49,840
+around, like, 100 clients.
+
+708
+00:15:50,320 --> 00:15:51,629
+So this is, like, for example,
+
+709
+00:15:51,629 --> 00:15:52,870
+what our team structure kind of
+
+710
+00:15:52,870 --> 00:15:53,580
+looks like.
+
+711
+00:15:53,580 --> 00:15:54,700
+It's a little bit different than
+
+712
+00:15:54,700 --> 00:15:55,779
+this, and we have a couple more
+
+713
+00:15:55,779 --> 00:15:56,860
+divisions, but this is what it
+
+714
+00:15:56,860 --> 00:15:57,480
+looks like.
+
+715
+00:15:57,480 --> 00:15:59,149
+Like, for me, I'm the CEO, and
+
+716
+00:15:59,149 --> 00:16:00,639
+then sales closer, so I have
+
+717
+00:16:00,639 --> 00:16:02,220
+somebody now who takes my sales
+
+718
+00:16:02,549 --> 00:16:02,870
+calls.
+
+719
+00:16:02,879 --> 00:16:04,379
+And then we have a director of
+
+720
+00:16:04,379 --> 00:16:06,070
+operations, and so he's the one
+
+721
+00:16:06,070 --> 00:16:07,620
+who is kind of managing everything
+
+722
+00:16:07,950 --> 00:16:09,539
+on the internal, training
+
+723
+00:16:09,539 --> 00:16:11,330
+everybody, and double-checking
+
+724
+00:16:11,330 --> 00:16:12,860
+that shit is getting done, and
+
+725
+00:16:12,879 --> 00:16:14,330
+just being the support for
+
+726
+00:16:14,370 --> 00:16:15,159
+everybody.
+
+727
+00:16:15,159 --> 00:16:16,509
+And so you can see here we have
+
+728
+00:16:16,519 --> 00:16:18,110
+this division, so where we have a
+
+729
+00:16:18,210 --> 00:16:19,889
+senior account manager, and then
+
+730
+00:16:19,940 --> 00:16:21,379
+we have four different pods.
+
+731
+00:16:21,379 --> 00:16:22,399
+And so you can see one pod,
+
+732
+00:16:22,399 --> 00:16:23,649
+account manager, designer,
+
+733
+00:16:23,649 --> 00:16:25,110
+copywriter, Klaviyo technician,
+
+734
+00:16:25,110 --> 00:16:26,279
+and then each pod will handle six
+
+735
+00:16:26,450 --> 00:16:27,440
+to eight clients.
+
+736
+00:16:27,460 --> 00:16:28,620
+So we have that pod, we have this
+
+737
+00:16:28,620 --> 00:16:29,799
+pod, we have this pod, then this
+
+738
+00:16:29,799 --> 00:16:31,059
+pod, then we have a senior account
+
+739
+00:16:31,059 --> 00:16:32,409
+manager to kind of, like, oversee,
+
+740
+00:16:32,529 --> 00:16:33,679
+help with the strategy, help deal
+
+741
+00:16:33,679 --> 00:16:35,409
+with clients and everything there.
+
+742
+00:16:35,419 --> 00:16:36,470
+And then we have that division
+
+743
+00:16:36,470 --> 00:16:37,179
+multiple times.
+
+744
+00:16:37,179 --> 00:16:38,529
+So, like, at its full scale, this
+
+745
+00:16:38,620 --> 00:16:39,620
+is what it looks like.
+
+746
+00:16:39,860 --> 00:16:41,129
+At first, maybe it's literally
+
+747
+00:16:41,129 --> 00:16:42,539
+just you managing everything right
+
+748
+00:16:42,559 --> 00:16:43,789
+here for clients, and then you
+
+749
+00:16:43,789 --> 00:16:45,220
+turn into the account manager, and
+
+750
+00:16:45,220 --> 00:16:46,299
+you have a hired designer,
+
+751
+00:16:46,299 --> 00:16:47,860
+copywriter, Klaviyo technician,
+
+752
+00:16:48,000 --> 00:16:49,509
+and you're doing that for, like,
+
+753
+00:16:49,519 --> 00:16:49,889
+two pods.
+
+754
+00:16:50,100 --> 00:16:51,080
+But then eventually you have to
+
+755
+00:16:51,120 --> 00:16:52,169
+hire an account manager, and then
+
+756
+00:16:52,169 --> 00:16:53,519
+they help, and yada, yada, yada.
+
+757
+00:16:53,519 --> 00:16:54,710
+And that's typically how it all
+
+758
+00:16:54,740 --> 00:16:55,120
+goes.
+
+759
+00:16:55,120 --> 00:16:56,950
+It never happens that smooth or
+
+760
+00:16:56,950 --> 00:16:57,700
+cleanly.
+
+761
+00:16:58,840 --> 00:17:00,210
+You kind of just got to, like, go
+
+762
+00:17:00,269 --> 00:17:01,580
+over time and adapt, and you're
+
+763
+00:17:01,590 --> 00:17:02,990
+going to have some weird setups.
+
+764
+00:17:03,120 --> 00:17:03,860
+That's okay.
+
+765
+00:17:04,039 --> 00:17:05,730
+And ours is definitely not as
+
+766
+00:17:05,730 --> 00:17:06,740
+clean as this.
+
+767
+00:17:06,759 --> 00:17:08,200
+We have some shits that's, like,
+
+768
+00:17:08,200 --> 00:17:08,799
+over here.
+
+769
+00:17:08,799 --> 00:17:09,828
+We have some Klaviyo technicians
+
+770
+00:17:09,828 --> 00:17:10,818
+working in multiple pods.
+
+771
+00:17:10,818 --> 00:17:11,799
+We have an account manager over
+
+772
+00:17:11,838 --> 00:17:12,720
+here who also manages a client
+
+773
+00:17:12,818 --> 00:17:13,220
+over here.
+
+774
+00:17:13,220 --> 00:17:14,180
+It's never this perfect, but,
+
+775
+00:17:14,240 --> 00:17:15,200
+like, in general, this is what it
+
+776
+00:17:15,230 --> 00:17:15,740
+looks like.
+
+777
+00:17:15,740 --> 00:17:17,640
+So common pitfalls that beginners
+
+778
+00:17:17,750 --> 00:17:19,630
+make when they're building their
+
+779
+00:17:19,630 --> 00:17:21,700
+operations and planning things and
+
+780
+00:17:21,700 --> 00:17:22,519
+growing.
+
+781
+00:17:22,519 --> 00:17:23,480
+First thing is going to be
+
+782
+00:17:23,539 --> 00:17:24,789
+overpromising deliverables and
+
+783
+00:17:24,789 --> 00:17:26,140
+then can't fulfill, saying yes to
+
+784
+00:17:26,140 --> 00:17:27,259
+absolutely everything.
+
+785
+00:17:27,500 --> 00:17:29,240
+Daily campaigns, dozens of flows,
+
+786
+00:17:29,240 --> 00:17:31,190
+24-7 communication just to close a
+
+787
+00:17:31,190 --> 00:17:31,650
+client.
+
+788
+00:17:31,759 --> 00:17:33,349
+But then you can't actually do
+
+789
+00:17:33,349 --> 00:17:33,839
+that.
+
+790
+00:17:33,839 --> 00:17:35,380
+That's not going to be good
+
+791
+00:17:35,380 --> 00:17:37,200
+because then the client's just
+
+792
+00:17:37,200 --> 00:17:38,759
+going to leave, and it's going to
+
+793
+00:17:38,759 --> 00:17:39,890
+be super stressful for you and the
+
+794
+00:17:39,890 --> 00:17:40,240
+team.
+
+795
+00:17:40,240 --> 00:17:41,049
+It's going to lead to missed
+
+796
+00:17:41,259 --> 00:17:42,140
+deadlines, rush to working on
+
+797
+00:17:42,240 --> 00:17:42,799
+happy clients.
+
+798
+00:17:42,799 --> 00:17:44,130
+The solution, just make sure you
+
+799
+00:17:44,130 --> 00:17:45,390
+set realistic expectations up
+
+800
+00:17:45,390 --> 00:17:46,690
+front and surprise your clients
+
+801
+00:17:46,690 --> 00:17:47,539
+with overdelivery.
+
+802
+00:17:47,779 --> 00:17:49,289
+It's okay to push back a little
+
+803
+00:17:49,289 --> 00:17:51,079
+bit on some clients as you grow.
+
+804
+00:17:51,079 --> 00:17:53,109
+At the beginning, fucking take
+
+805
+00:17:53,109 --> 00:17:54,339
+what you can get.
+
+806
+00:17:54,339 --> 00:17:55,490
+Do what you've got to do to close
+
+807
+00:17:55,490 --> 00:17:56,220
+these clients.
+
+808
+00:17:56,220 --> 00:17:57,480
+Get a case study out of them.
+
+809
+00:17:57,480 --> 00:17:59,079
+Get a positive testimonial.
+
+810
+00:17:59,079 --> 00:18:00,640
+And then figure it out later.
+
+811
+00:18:00,640 --> 00:18:01,799
+But really, we need to be sure
+
+812
+00:18:01,799 --> 00:18:03,099
+that as we're growing, we need to
+
+813
+00:18:03,099 --> 00:18:04,400
+make sure we're super clear and we
+
+814
+00:18:04,400 --> 00:18:05,380
+have these boundaries.
+
+815
+00:18:05,970 --> 00:18:07,720
+Underestimating setup time.
+
+816
+00:18:07,720 --> 00:18:08,980
+So beginners think a full flow
+
+817
+00:18:08,980 --> 00:18:10,420
+rebuild can take just, like, one
+
+818
+00:18:10,450 --> 00:18:12,170
+week to create, like, 30, 40
+
+819
+00:18:12,170 --> 00:18:12,740
+emails.
+
+820
+00:18:12,920 --> 00:18:14,480
+But we have copy design.
+
+821
+00:18:14,480 --> 00:18:15,670
+We have client revisions that
+
+822
+00:18:15,670 --> 00:18:16,960
+they're going to leave comments
+
+823
+00:18:16,960 --> 00:18:18,490
+like, hey, change this, change
+
+824
+00:18:18,490 --> 00:18:18,640
+this.
+
+825
+00:18:18,660 --> 00:18:19,259
+You've got to make those
+
+826
+00:18:19,259 --> 00:18:19,660
+revisions.
+
+827
+00:18:19,660 --> 00:18:20,990
+And then uploading it and testing
+
+828
+00:18:20,990 --> 00:18:22,119
+it can take a minimum three to
+
+829
+00:18:22,119 --> 00:18:22,769
+four weeks.
+
+830
+00:18:22,779 --> 00:18:24,819
+And so try not to rush too much.
+
+831
+00:18:24,819 --> 00:18:25,940
+It'll lead to sloppy execution,
+
+832
+00:18:25,950 --> 00:18:26,829
+broken automations, and
+
+833
+00:18:26,829 --> 00:18:27,440
+everything.
+
+834
+00:18:27,440 --> 00:18:28,940
+So build in buffer time and use
+
+835
+00:18:28,940 --> 00:18:30,390
+SOPs to keep your projects on
+
+836
+00:18:30,390 --> 00:18:30,890
+track.
+
+837
+00:18:31,019 --> 00:18:32,339
+So just make sure you're tracking
+
+838
+00:18:32,339 --> 00:18:33,609
+everything and make sure you're
+
+839
+00:18:33,609 --> 00:18:34,680
+not trying to do way too much
+
+840
+00:18:34,680 --> 00:18:35,579
+right off the bat.
+
+841
+00:18:35,579 --> 00:18:37,069
+And use that kind of, like,
+
+842
+00:18:37,069 --> 00:18:38,450
+calendar that I gave you as
+
+843
+00:18:38,450 --> 00:18:39,730
+something to go off.
+
+844
+00:18:39,740 --> 00:18:41,420
+Poor client communication is the
+
+845
+00:18:41,420 --> 00:18:42,700
+most important thing.
+
+846
+00:18:42,700 --> 00:18:44,049
+You can't go quiet while working
+
+847
+00:18:44,059 --> 00:18:45,240
+hard behind the scenes.
+
+848
+00:18:45,240 --> 00:18:46,430
+It just makes them feel ignored.
+
+849
+00:18:46,859 --> 00:18:48,029
+And the client literally only sees
+
+850
+00:18:48,029 --> 00:18:48,400
+Slack.
+
+851
+00:18:48,400 --> 00:18:51,269
+You could be fucking working 24
+
+852
+00:18:51,269 --> 00:18:53,920
+hours a day in a fucking sweatshop
+
+853
+00:18:53,920 --> 00:18:56,400
+and bending over backwards,
+
+854
+00:18:56,539 --> 00:18:58,380
+calling Klaviyo, and doing all
+
+855
+00:18:58,690 --> 00:19:01,279
+this, like, crazy shit for them.
+
+856
+00:19:01,279 --> 00:19:02,210
+But if you don't tell them that,
+
+857
+00:19:02,299 --> 00:19:03,160
+they just see an empty Slack.
+
+858
+00:19:03,160 --> 00:19:04,779
+They just see an empty Slack chat.
+
+859
+00:19:04,819 --> 00:19:05,680
+So you need to be telling them
+
+860
+00:19:05,839 --> 00:19:06,650
+about this stuff that, like,
+
+861
+00:19:06,650 --> 00:19:07,720
+you're working on your stuff.
+
+862
+00:19:07,720 --> 00:19:09,339
+So that'll often lead to churn as
+
+863
+00:19:09,380 --> 00:19:11,069
+if you're not giving these clients
+
+864
+00:19:11,069 --> 00:19:11,700
+updates.
+
+865
+00:19:11,700 --> 00:19:12,809
+Because the clients assume nothing
+
+866
+00:19:12,809 --> 00:19:13,849
+is happening, and they'll start
+
+867
+00:19:13,849 --> 00:19:14,900
+looking for other agencies.
+
+868
+00:19:15,220 --> 00:19:16,319
+Make sure you do daily response
+
+869
+00:19:16,319 --> 00:19:17,380
+times under one hour, weekly
+
+870
+00:19:17,380 --> 00:19:18,539
+communication, and proactive
+
+871
+00:19:18,539 --> 00:19:19,559
+communication, even if the
+
+872
+00:19:19,589 --> 00:19:20,420
+progress is slow.
+
+873
+00:19:20,420 --> 00:19:21,109
+Make sure you're doing this.
+
+874
+00:19:21,119 --> 00:19:22,180
+No clear scope.
+
+875
+00:19:22,180 --> 00:19:23,990
+So lead to scope creep kind of
+
+876
+00:19:23,990 --> 00:19:25,730
+ties into the first one.
+
+877
+00:19:25,740 --> 00:19:27,289
+But without a defined scope of,
+
+878
+00:19:27,289 --> 00:19:28,660
+hey, we're just doing email
+
+879
+00:19:28,660 --> 00:19:29,460
+marketing.
+
+880
+00:19:29,460 --> 00:19:30,809
+We're just going to do your email
+
+881
+00:19:30,890 --> 00:19:32,420
+campaigns and your email flows.
+
+882
+00:19:32,440 --> 00:19:33,769
+This is how many we're going to be
+
+883
+00:19:33,769 --> 00:19:35,039
+doing roughly every month.
+
+884
+00:19:35,039 --> 00:19:36,160
+Then they're going to start asking
+
+885
+00:19:36,160 --> 00:19:37,210
+you for other stuff, and you end
+
+886
+00:19:37,210 --> 00:19:38,190
+up working double for the same
+
+887
+00:19:38,190 --> 00:19:38,490
+pay.
+
+888
+00:19:38,519 --> 00:19:39,789
+So make sure that your contracts
+
+889
+00:19:39,789 --> 00:19:41,009
+and your deliverables outline
+
+890
+00:19:41,009 --> 00:19:42,670
+clearly, like, hey, this goes up
+
+891
+00:19:42,799 --> 00:19:44,980
+to 12 email campaigns a month.
+
+892
+00:19:44,980 --> 00:19:46,220
+They're up to four flows a month.
+
+893
+00:19:46,220 --> 00:19:48,150
+And then enforce them politely but
+
+894
+00:19:48,230 --> 00:19:48,799
+firmly.
+
+895
+00:19:48,799 --> 00:19:50,259
+Often what I'll do is if a client
+
+896
+00:19:50,259 --> 00:19:52,049
+requests something, I'll be like,
+
+897
+00:19:52,049 --> 00:19:53,509
+yes, for sure, we can get this
+
+898
+00:19:53,519 --> 00:19:55,000
+taken care of this time.
+
+899
+00:19:55,000 --> 00:19:56,900
+But please note that, again, we
+
+900
+00:19:57,009 --> 00:19:58,849
+just do this service, or this is
+
+901
+00:19:58,849 --> 00:19:59,740
+just what we do.
+
+902
+00:19:59,920 --> 00:20:01,180
+And so that's something to do.
+
+903
+00:20:01,180 --> 00:20:02,240
+Then neglecting reporting and
+
+904
+00:20:02,240 --> 00:20:02,700
+results.
+
+905
+00:20:02,700 --> 00:20:04,160
+Some beginners just think that,
+
+906
+00:20:04,160 --> 00:20:05,809
+hey, we're sending these emails.
+
+907
+00:20:05,819 --> 00:20:07,079
+We're all good, without showing
+
+908
+00:20:07,079 --> 00:20:08,250
+the value in how much money that
+
+909
+00:20:08,250 --> 00:20:09,440
+you're making the client.
+
+910
+00:20:09,740 --> 00:20:10,549
+If they don't see the ROI, they
+
+911
+00:20:10,680 --> 00:20:11,359
+don't know how much money that
+
+912
+00:20:11,400 --> 00:20:12,390
+you're making them, they're going
+
+913
+00:20:12,390 --> 00:20:12,880
+to leave.
+
+914
+00:20:12,880 --> 00:20:14,400
+So provide clear monthly reports
+
+915
+00:20:14,400 --> 00:20:15,759
+and your weekly reports to tie
+
+916
+00:20:15,759 --> 00:20:17,230
+your actual work into revenue so
+
+917
+00:20:17,250 --> 00:20:18,880
+that they can justify the price.
+
+918
+00:20:18,880 --> 00:20:20,710
+And I want to end this by saying
+
+919
+00:20:20,710 --> 00:20:22,480
+just do not overthink it.
+
+920
+00:20:22,480 --> 00:20:23,829
+Most beginners stress about
+
+921
+00:20:23,920 --> 00:20:25,680
+systems, processes, and problems
+
+922
+00:20:25,680 --> 00:20:26,980
+that don't even exist.
+
+923
+00:20:27,000 --> 00:20:28,519
+They don't even exist for you yet.
+
+924
+00:20:28,519 --> 00:20:30,279
+They will, but don't worry about
+
+925
+00:20:30,279 --> 00:20:30,970
+them now.
+
+926
+00:20:30,980 --> 00:20:32,150
+Your number one priority is to
+
+927
+00:20:32,150 --> 00:20:32,839
+sign clients.
+
+928
+00:20:32,980 --> 00:20:34,099
+Nothing matters until revenue is
+
+929
+00:20:34,099 --> 00:20:34,559
+coming in.
+
+930
+00:20:34,559 --> 00:20:36,099
+Worry about the operation second.
+
+931
+00:20:36,099 --> 00:20:37,289
+You will naturally figure out
+
+932
+00:20:37,319 --> 00:20:38,400
+operations over time.
+
+933
+00:20:38,400 --> 00:20:39,589
+Sales is one thing that you don't
+
+934
+00:20:39,619 --> 00:20:40,839
+naturally figure out over time
+
+935
+00:20:40,839 --> 00:20:42,549
+because you have to put in so much
+
+936
+00:20:42,680 --> 00:20:44,369
+work to get these clients in the
+
+937
+00:20:44,369 --> 00:20:44,890
+door.
+
+938
+00:20:44,900 --> 00:20:46,019
+I started with absolutely no
+
+939
+00:20:46,019 --> 00:20:47,410
+knowledge on email marketing, and
+
+940
+00:20:47,410 --> 00:20:48,839
+I was advertising to everybody.
+
+941
+00:20:48,839 --> 00:20:50,440
+I'm an email marketing expert.
+
+942
+00:20:50,440 --> 00:20:51,170
+Come work with me.
+
+943
+00:20:51,220 --> 00:20:52,539
+I generate amazing results.
+
+944
+00:20:52,539 --> 00:20:54,140
+I'm an email marketing expert.
+
+945
+00:20:54,140 --> 00:20:55,130
+And then I just figure it the fuck
+
+946
+00:20:55,160 --> 00:20:55,509
+out later.
+
+947
+00:20:55,579 --> 00:20:56,950
+I sign, like, five clients.
+
+948
+00:20:57,000 --> 00:20:58,299
+Then it's like, fuck, what do I do
+
+949
+00:20:58,299 --> 00:20:58,579
+now?
+
+950
+00:20:58,579 --> 00:20:59,930
+It's so over.
+
+951
+00:21:00,019 --> 00:21:01,019
+How am I doing this?
+
+952
+00:21:01,019 --> 00:21:02,200
+And then you always figure it out.
+
+953
+00:21:02,319 --> 00:21:03,690
+And the operations just naturally,
+
+954
+00:21:03,759 --> 00:21:04,809
+you're forced to figure it the
+
+955
+00:21:04,809 --> 00:21:05,279
+fuck out.
+
+956
+00:21:05,319 --> 00:21:06,660
+And that's how everything that
+
+957
+00:21:06,660 --> 00:21:07,940
+I've shared with you just come
+
+958
+00:21:07,950 --> 00:21:09,470
+from me figuring it the fuck out.
+
+959
+00:21:09,519 --> 00:21:10,640
+Just focus on sales, and then
+
+960
+00:21:10,650 --> 00:21:11,829
+you'll figure it out later.
+
+961
+00:21:11,839 --> 00:21:12,900
+A simple-based system is good
+
+962
+00:21:12,900 --> 00:21:14,150
+enough to get started, and your
+
+963
+00:21:14,150 --> 00:21:15,519
+growth will just naturally expose
+
+964
+00:21:15,519 --> 00:21:17,039
+the weaknesses in your operations,
+
+965
+00:21:17,039 --> 00:21:17,960
+and then you can just pivot and
+
+966
+00:21:18,059 --> 00:21:18,319
+adjust.
+
+967
+00:21:18,319 --> 00:21:19,920
+When something breaks, just fix
+
+968
+00:21:19,920 --> 00:21:21,500
+it, update the system, and then
+
+969
+00:21:21,500 --> 00:21:22,319
+keep moving.
+
+970
+00:21:22,319 --> 00:21:23,690
+It's going to be a system of you
+
+971
+00:21:23,750 --> 00:21:25,660
+grow, grow, grow, grow, grow, and
+
+972
+00:21:25,660 --> 00:21:26,809
+then your operations kind of break
+
+973
+00:21:26,849 --> 00:21:27,440
+a little bit.
+
+974
+00:21:27,440 --> 00:21:28,630
+And then you kind of go down, and
+
+975
+00:21:28,670 --> 00:21:29,890
+then you kind of figure it out,
+
+976
+00:21:29,890 --> 00:21:31,589
+and then you grow, grow, grow,
+
+977
+00:21:31,660 --> 00:21:31,660
+grow, grow,
+
+978
+00:21:31,660 --> 00:21:33,420
+and then you meet another point
+
+979
+00:21:33,420 --> 00:21:35,339
+where you go down a little bit.
+
+980
+00:21:35,339 --> 00:21:36,500
+And you've got to figure it out
+
+981
+00:21:36,500 --> 00:21:37,650
+because some stuff breaks and
+
+982
+00:21:37,660 --> 00:21:38,599
+yada, yada, yada.
+
+983
+00:21:38,599 --> 00:21:39,670
+You need to make a new hire,
+
+984
+00:21:39,670 --> 00:21:40,700
+everything like that.
+
+985
+00:21:40,700 --> 00:21:41,660
+That's typically how it goes.
+
+986
+00:21:41,660 --> 00:21:42,779
+So just repeat this cycle.
+
+987
+00:21:42,779 --> 00:21:44,380
+It's an ongoing cycle.
+
+988
+00:21:44,380 --> 00:21:45,730
+I'm still going through this.
+
+989
+00:21:45,740 --> 00:21:46,549
+It's an ongoing cycle all
+
+990
+00:21:46,759 --> 00:21:47,420
+throughout business.
+
+991
+00:21:47,420 --> 00:21:48,769
+Find your system that works.
+
+992
+00:21:48,829 --> 00:21:50,380
+Scale it until it breaks.
+
+993
+00:21:50,380 --> 00:21:51,500
+Figure something new out.
+
+994
+00:21:51,500 --> 00:21:52,480
+Scale it until it breaks.
+
+995
+00:21:52,480 --> 00:21:53,130
+Boom, boom, boom, boom, boom,
+
+996
+00:21:53,130 --> 00:21:53,329
+boom.
+
+997
+00:21:53,539 --> 00:21:54,789
+And then your operations will
+
+998
+00:21:54,789 --> 00:21:56,440
+evolve alongside your client base.
+
+999
+00:21:56,440 --> 00:21:57,740
+So that's it for the operations
+
+1000
+00:21:57,740 --> 00:21:58,940
+and everything, mindset,
+
+1001
+00:21:58,940 --> 00:22:00,559
+everything, some base knowledge.
+
+1002
+00:22:00,559 --> 00:22:01,380
+Let me know if you have any
+
+1003
+00:22:01,579 --> 00:22:01,910
+questions.
+
+1004
+00:22:01,960 --> 00:22:03,079
+And, yeah, let's get to the next
+
+1005
+00:22:03,079 --> 00:22:03,329
+one.

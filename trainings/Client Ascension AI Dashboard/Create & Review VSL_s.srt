@@ -1,0 +1,747 @@
+1
+00:00:00,120 --> 00:00:00,920
+What's up guys so in this one
+
+2
+00:00:00,920 --> 00:00:02,080
+we're going to be going over the
+
+3
+00:00:02,080 --> 00:00:04,830
+vsl script creator and reviewer
+
+4
+00:00:05,000 --> 00:00:06,459
+uh to do this we're going to be
+
+5
+00:00:06,459 --> 00:00:08,320
+taking our previous offer that we
+
+6
+00:00:08,320 --> 00:00:09,710
+created using the offer
+
+7
+00:00:09,859 --> 00:00:11,359
+creation and offer review module
+
+8
+00:00:11,369 --> 00:00:12,789
+and we're going to add a little
+
+9
+00:00:12,789 --> 00:00:14,300
+bit more information in order to
+
+10
+00:00:14,419 --> 00:00:16,530
+get a decent vsl script so we're
+
+11
+00:00:16,530 --> 00:00:18,670
+going to do a new chat and we are
+
+12
+00:00:18,670 --> 00:00:20,460
+going to paste in the previous
+
+13
+00:00:20,579 --> 00:00:22,250
+offer that we got from our offer
+
+14
+00:00:22,300 --> 00:00:24,129
+creator but let's add a bit more
+
+15
+00:00:24,129 --> 00:00:25,960
+information so the promises
+
+16
+00:00:26,079 --> 00:00:28,589
+in there the problems in there uh
+
+17
+00:00:28,589 --> 00:00:30,789
+the desired situation uh say
+
+18
+00:00:31,269 --> 00:00:33,960
+desired situation is uh increased
+
+19
+00:00:34,079 --> 00:00:39,409
+revenue uh from uh let's see let's
+
+20
+00:00:39,409 --> 00:00:42,320
+just say from email plus
+
+21
+00:00:42,320 --> 00:00:46,119
+conversion rates uh what is the
+
+22
+00:00:46,119 --> 00:00:47,020
+usp and usp
+
+23
+00:00:47,140 --> 00:00:51,820
+details usp is uh our retention
+
+24
+00:00:52,340 --> 00:00:57,560
+revenue system usp details uh 90
+
+25
+00:00:57,560 --> 00:01:02,100
+day uh fast track to generating
+
+26
+00:01:02,820 --> 00:01:05,519
+more revenue from email lists
+
+27
+00:01:05,750 --> 00:01:12,200
+reasons to believe so strong case
+
+28
+00:01:12,200 --> 00:01:15,739
+studies last brand generated we'll
+
+29
+00:01:15,859 --> 00:01:20,109
+just say 150k extra revenue from
+
+30
+00:01:20,109 --> 00:01:24,540
+existing email list within 30 days
+
+31
+00:01:29,540 --> 00:01:33,810
+30 days and sales argument is just
+
+32
+00:01:33,810 --> 00:01:39,700
+uh we generate uh more money from
+
+33
+00:01:39,700 --> 00:01:44,790
+existing uh contacts without
+
+34
+00:01:44,980 --> 00:01:47,890
+any added effort on brand owners
+
+35
+00:01:47,909 --> 00:01:50,810
+part so i was going to hit send on
+
+36
+00:01:50,900 --> 00:01:52,219
+this and this is now going to
+
+37
+00:01:52,219 --> 00:01:52,459
+start
+
+38
+00:01:52,579 --> 00:01:54,700
+writing our vsl so it's going to
+
+39
+00:01:54,700 --> 00:01:56,849
+go to the whole vsl i will uh let
+
+40
+00:01:56,849 --> 00:01:58,700
+it run for a little bit and then
+
+41
+00:01:58,700 --> 00:01:58,780
+we're
+
+42
+00:01:58,900 --> 00:02:00,739
+going to go back and i will uh
+
+43
+00:02:00,739 --> 00:02:03,049
+just quickly run through what we
+
+44
+00:02:03,049 --> 00:02:04,739
+got out of it and then we'll
+
+45
+00:02:04,900 --> 00:02:06,659
+send it to our reviewer so scroll
+
+46
+00:02:06,659 --> 00:02:09,610
+up here it's actually a pretty
+
+47
+00:02:10,090 --> 00:02:11,800
+long vsl but if we take a look
+
+48
+00:02:11,939 --> 00:02:13,110
+and say uh if you're an e-commerce
+
+49
+00:02:13,110 --> 00:02:14,280
+brand owner sitting on an email
+
+50
+00:02:14,349 --> 00:02:16,139
+list of 10 000 subscribers or
+
+51
+00:02:16,259 --> 00:02:17,169
+more and you're not generating at
+
+52
+00:02:17,180 --> 00:02:18,259
+least 30 percent of your total
+
+53
+00:02:18,259 --> 00:02:19,169
+revenue from email you're
+
+54
+00:02:19,189 --> 00:02:19,580
+literally
+
+55
+00:02:19,699 --> 00:02:20,729
+leaving hundreds of thousand
+
+56
+00:02:20,729 --> 00:02:21,960
+dollars at the table every single
+
+57
+00:02:22,000 --> 00:02:23,020
+month listen i know you didn't
+
+58
+00:02:23,020 --> 00:02:23,180
+build
+
+59
+00:02:23,300 --> 00:02:24,050
+your business to watch money slip
+
+60
+00:02:24,050 --> 00:02:24,949
+through your fingers you're going
+
+61
+00:02:24,949 --> 00:02:25,900
+to create freedom security
+
+62
+00:02:26,020 --> 00:02:27,280
+the life you actually want there's
+
+63
+00:02:27,280 --> 00:02:28,280
+a brutal truth most email
+
+64
+00:02:28,280 --> 00:02:29,900
+marketing agencies won't tell you
+
+65
+00:02:30,020 --> 00:02:30,939
+your current email setup is
+
+66
+00:02:30,949 --> 00:02:32,180
+probably costing you more money
+
+67
+00:02:32,180 --> 00:02:33,419
+than it's making you i'm talking
+
+68
+00:02:33,419 --> 00:02:33,580
+to the
+
+69
+00:02:33,699 --> 00:02:34,699
+ambitious e-commerce owners who
+
+70
+00:02:34,699 --> 00:02:35,780
+are tired of being slaves of paid
+
+71
+00:02:35,780 --> 00:02:36,939
+traffic the ones who know there's
+
+72
+00:02:36,939 --> 00:02:36,939
+a
+
+73
+00:02:37,060 --> 00:02:37,729
+goal on seeing their emails
+
+74
+00:02:37,800 --> 00:02:38,699
+because i've figured out how to
+
+75
+00:02:38,699 --> 00:02:39,659
+extract it if you've got all these
+
+76
+00:02:39,659 --> 00:02:39,780
+10
+
+77
+00:02:39,939 --> 00:02:40,699
+subscribers you're ready to stop
+
+78
+00:02:40,699 --> 00:02:41,530
+throwing money at facebook and
+
+79
+00:02:41,530 --> 00:02:42,620
+google just to break even then
+
+80
+00:02:42,620 --> 00:02:42,849
+what
+
+81
+00:02:42,900 --> 00:02:43,819
+i'm about to share could be the
+
+82
+00:02:43,819 --> 00:02:44,909
+most profitable evidence you'll
+
+83
+00:02:44,909 --> 00:02:45,319
+ever spend
+
+84
+00:02:46,099 --> 00:02:47,590
+so that's beginning let's take
+
+85
+00:02:47,599 --> 00:02:49,219
+this now and we're just going to
+
+86
+00:02:49,289 --> 00:02:51,500
+copy and paste this to our
+
+87
+00:02:51,500 --> 00:02:52,060
+reviewer
+
+88
+00:02:52,180 --> 00:02:53,939
+so let's go over to vsl script
+
+89
+00:02:53,939 --> 00:02:56,889
+review chat we're going to paste
+
+90
+00:02:57,370 --> 00:02:59,659
+this in we're going to hit enter
+
+91
+00:02:59,659 --> 00:02:59,740
+and
+
+92
+00:02:59,860 --> 00:03:01,620
+we're going to see what uh we get
+
+93
+00:03:01,620 --> 00:03:03,669
+overall assessment the script is
+
+94
+00:03:03,669 --> 00:03:05,340
+strong bones with excellent pain
+
+95
+00:03:05,460 --> 00:03:06,840
+point identification a compelling
+
+96
+00:03:06,840 --> 00:03:08,139
+case study but it cuts off worth
+
+97
+00:03:08,139 --> 00:03:09,340
+crucial call to action and lacks
+
+98
+00:03:09,340 --> 00:03:09,569
+clear
+
+99
+00:03:09,699 --> 00:03:10,870
+pricing details script search for
+
+100
+00:03:10,870 --> 00:03:12,039
+review book analysis the opening
+
+101
+00:03:12,120 --> 00:03:13,259
+line if you're an e-commerce brand
+
+102
+00:03:13,259 --> 00:03:13,500
+owner
+
+103
+00:03:13,620 --> 00:03:15,650
+senior email list uh so it gives a
+
+104
+00:03:15,659 --> 00:03:17,830
+full analysis of each section of
+
+105
+00:03:17,830 --> 00:03:18,060
+it
+
+106
+00:03:18,180 --> 00:03:20,520
+and improvements to what we can do
+
+107
+00:03:20,590 --> 00:03:22,599
+give us an implementation
+
+108
+00:03:22,599 --> 00:03:24,439
+checklist conversion optimization
+
+109
+00:03:24,580 --> 00:03:26,610
+recommendations um and uh then
+
+110
+00:03:26,610 --> 00:03:28,610
+what we can do to make it better
+
+111
+00:03:28,669 --> 00:03:30,139
+next so it says conversion
+
+112
+00:03:30,259 --> 00:03:31,150
+optimization recommendation add
+
+113
+00:03:31,150 --> 00:03:32,050
+scarcity and urgency elements
+
+114
+00:03:32,050 --> 00:03:32,990
+throughout your screen reads like
+
+115
+00:03:33,050 --> 00:03:33,090
+the
+
+116
+00:03:33,219 --> 00:03:34,270
+offers always available which
+
+117
+00:03:34,270 --> 00:03:35,430
+reduces motivation doc now add
+
+118
+00:03:35,430 --> 00:03:36,780
+limited spots time set of bonuses
+
+119
+00:03:36,780 --> 00:03:36,800
+or
+
+120
+00:03:36,979 --> 00:03:38,740
+seasonal urgency specific pricing
+
+121
+00:03:38,740 --> 00:03:40,430
+and package details uh strength
+
+122
+00:03:40,430 --> 00:03:42,379
+unique mechanism add more social
+
+123
+00:03:42,379 --> 00:03:42,560
+proof
+
+124
+00:03:42,740 --> 00:03:44,159
+variety create stronger bridge to
+
+125
+00:03:44,159 --> 00:03:45,319
+the call to action and then
+
+126
+00:03:45,319 --> 00:03:46,620
+complete the call to action
+
+127
+00:03:46,620 --> 00:03:46,939
+section with
+
+128
+00:03:47,060 --> 00:03:48,099
+clear next steps application
+
+129
+00:03:48,099 --> 00:03:49,490
+process and booking instructions
+
+130
+00:03:49,490 --> 00:03:50,620
+actually three more brief case
+
+131
+00:03:50,740 --> 00:03:52,330
+studies insert pricing investment
+
+132
+00:03:52,330 --> 00:03:53,560
+uh information before the
+
+133
+00:03:53,669 --> 00:03:54,939
+guarantee section strengthen the
+
+134
+00:03:54,939 --> 00:03:55,180
+unique
+
+135
+00:03:55,300 --> 00:03:57,060
+mechanism name and explanation add
+
+136
+00:03:57,060 --> 00:03:58,810
+urgency almost throughout and as
+
+137
+00:03:58,810 --> 00:03:59,819
+finally as with the financial
+
+138
+00:03:59,939 --> 00:04:00,729
+script is solid with excellent
+
+139
+00:04:00,729 --> 00:04:01,800
+problem identification emotional
+
+140
+00:04:01,800 --> 00:04:02,620
+hooks focusing completing the
+
+141
+00:04:02,620 --> 00:04:02,939
+closed
+
+142
+00:04:03,060 --> 00:04:04,340
+adding this conversion almost to
+
+143
+00:04:04,340 --> 00:04:05,879
+trends to a high converting vsl so
+
+144
+00:04:05,960 --> 00:04:07,330
+you can see we've got the basis
+
+145
+00:04:07,460 --> 00:04:09,069
+or vsl written within seconds you
+
+146
+00:04:09,069 --> 00:04:10,750
+know that took us like literally
+
+147
+00:04:10,750 --> 00:04:12,240
+just pacing in our offer and we
+
+148
+00:04:12,240 --> 00:04:12,439
+got
+
+149
+00:04:12,580 --> 00:04:13,960
+out something really really solid
+
+150
+00:04:13,960 --> 00:04:15,169
+and uh now we can use this to go
+
+151
+00:04:15,169 --> 00:04:16,540
+forward and kind of actually
+
+152
+00:04:16,540 --> 00:04:16,850
+develop
+
+153
+00:04:16,980 --> 00:04:18,360
+this and add our own kind of you
+
+154
+00:04:18,360 --> 00:04:19,620
+know twists and our own uh
+
+155
+00:04:19,620 --> 00:04:21,250
+personalization to it based on
+
+156
+00:04:21,259 --> 00:04:21,759
+also the
+
+157
+00:04:21,939 --> 00:04:24,199
+the suggestions we're getting uh
+
+158
+00:04:24,240 --> 00:04:26,139
+here in the uh uh vsl script
+
+159
+00:04:26,139 --> 00:04:28,939
+reviewer so again this takes what
+
+160
+00:04:28,939 --> 00:04:29,100
+would you
+
+161
+00:04:29,220 --> 00:04:30,860
+you know usually be if a minimum a
+
+162
+00:04:30,860 --> 00:04:32,620
+two-hour process of writing vsl
+
+163
+00:04:32,620 --> 00:04:34,269
+down to literally about like you
+
+164
+00:04:34,420 --> 00:04:34,459
+know
+
+165
+00:04:34,579 --> 00:04:36,670
+15 minutes maybe max and you have
+
+166
+00:04:36,670 --> 00:04:38,449
+a vsl script ready to go uh this
+
+167
+00:04:38,449 --> 00:04:40,620
+is also trained off of nick verges
+
+168
+00:04:40,740 --> 00:04:42,310
+incredible training uh that he
+
+169
+00:04:42,310 --> 00:04:44,189
+provides inside client ascension
+
+170
+00:04:44,189 --> 00:04:45,519
+so you know it works nick has
+
+171
+00:04:45,519 --> 00:04:45,790
+written
+
+172
+00:04:45,889 --> 00:04:47,519
+vsl for some of the biggest uh
+
+173
+00:04:47,519 --> 00:04:49,519
+names out there in business and is
+
+174
+00:04:49,519 --> 00:04:51,420
+extremely good at what he does
+
+175
+00:04:51,509 --> 00:04:52,589
+so uh you know that the results
+
+176
+00:04:52,589 --> 00:04:53,800
+you're going to get from this are
+
+177
+00:04:53,860 --> 00:04:55,120
+going to be really really solid
+
+178
+00:04:55,300 --> 00:04:56,600
+so also nick will be happy to
+
+179
+00:04:56,600 --> 00:04:58,329
+review your vsl script on your vsl
+
+180
+00:04:58,410 --> 00:04:59,899
+on his vsl calls inside client
+
+181
+00:05:00,019 --> 00:05:01,850
+ascension so uh if you want to get
+
+182
+00:05:01,850 --> 00:05:03,600
+started asap definitely the
+
+183
+00:05:03,610 --> 00:05:05,610
+dashboard is the quickest way to
+
+184
+00:05:05,670 --> 00:05:05,819
+do
+
+185
+00:05:05,939 --> 00:05:07,529
+that hope you enjoyed this video
+
+186
+00:05:07,529 --> 00:05:09,160
+and i will see you in the next one
+
+187
+00:05:09,160 --> 00:05:09,519
+peace

@@ -1,0 +1,3107 @@
+1
+00:00:00,080 --> 00:00:01,080
+Hello, hello, and welcome.
+
+2
+00:00:01,080 --> 00:00:02,359
+In this module, we're talking
+
+3
+00:00:02,379 --> 00:00:04,040
+about the profitable e-commerce
+
+4
+00:00:04,040 --> 00:00:04,620
+funnel.
+
+5
+00:00:04,700 --> 00:00:06,059
+And you have my cool Airbnb
+
+6
+00:00:06,120 --> 00:00:08,019
+kitchen situation behind me.
+
+7
+00:00:08,019 --> 00:00:09,099
+You can just ignore that.
+
+8
+00:00:09,179 --> 00:00:10,919
+But today we're talking about the
+
+9
+00:00:10,919 --> 00:00:11,560
+funnel.
+
+10
+00:00:11,560 --> 00:00:13,039
+So you can see the funnel here,
+
+11
+00:00:13,039 --> 00:00:14,080
+why exactly we are doing
+
+12
+00:00:14,160 --> 00:00:14,419
+this.
+
+13
+00:00:14,480 --> 00:00:15,779
+And at the end of the day, we want
+
+14
+00:00:15,779 --> 00:00:16,640
+to be profitable.
+
+15
+00:00:16,640 --> 00:00:18,179
+That's the only thing that really
+
+16
+00:00:18,260 --> 00:00:19,170
+matters with e-commerce.
+
+17
+00:00:19,219 --> 00:00:20,350
+And we're talking about how that
+
+18
+00:00:20,350 --> 00:00:21,170
+funnel has changed.
+
+19
+00:00:21,170 --> 00:00:22,339
+And so today we're
+
+20
+00:00:22,480 --> 00:00:23,839
+talking about one, the evolution
+
+21
+00:00:23,899 --> 00:00:25,350
+of the e-commerce market, just so
+
+22
+00:00:25,350 --> 00:00:27,019
+we can understand the context of
+
+23
+00:00:27,100 --> 00:00:27,699
+where we are at.
+
+24
+00:00:27,820 --> 00:00:29,199
+We're talking about the top three
+
+25
+00:00:29,199 --> 00:00:31,839
+e-commerce problems in 2024, 2025.
+
+26
+00:00:31,839 --> 00:00:32,840
+And then we're
+
+27
+00:00:32,920 --> 00:00:34,289
+talking about the old e-com
+
+28
+00:00:34,340 --> 00:00:37,420
+funnel, used to work 2020, 21, 22,
+
+29
+00:00:37,420 --> 00:00:39,200
+versus the new one, the only way
+
+30
+00:00:39,429 --> 00:00:39,460
+to
+
+31
+00:00:39,539 --> 00:00:40,780
+survive in today's market.
+
+32
+00:00:40,789 --> 00:00:42,210
+And then we're talking about how
+
+33
+00:00:42,329 --> 00:00:43,619
+to convert and retain customers
+
+34
+00:00:43,909 --> 00:00:44,000
+with
+
+35
+00:00:44,079 --> 00:00:45,710
+email, because that's the point of
+
+36
+00:00:45,710 --> 00:00:47,320
+this whole thing is with email for
+
+37
+00:00:47,320 --> 00:00:48,740
+maximum profitability.
+
+38
+00:00:48,740 --> 00:00:50,100
+So that is
+
+39
+00:00:50,179 --> 00:00:51,829
+what we will be covering in this
+
+40
+00:00:51,829 --> 00:00:52,369
+video.
+
+41
+00:00:52,369 --> 00:00:54,259
+So sit back, pay attention, take
+
+42
+00:00:54,549 --> 00:00:54,829
+notes.
+
+43
+00:00:54,829 --> 00:00:55,899
+This is very, very
+
+44
+00:00:55,979 --> 00:00:57,130
+important, very important to
+
+45
+00:00:57,130 --> 00:00:58,469
+understand the context of where we
+
+46
+00:00:58,479 --> 00:00:58,920
+are at.
+
+47
+00:00:58,920 --> 00:01:00,719
+So evolution of the e-commerce
+
+48
+00:01:00,799 --> 00:01:01,030
+market.
+
+49
+00:01:01,030 --> 00:01:01,710
+Let's talk about it.
+
+50
+00:01:01,759 --> 00:01:02,090
+Okay.
+
+51
+00:01:02,090 --> 00:01:04,709
+So 2020 to 2023, which is 2024
+
+52
+00:01:04,709 --> 00:01:05,049
+plus.
+
+53
+00:01:05,170 --> 00:01:05,450
+Okay.
+
+54
+00:01:05,450 --> 00:01:07,420
+2020, we were in the
+
+55
+00:01:07,500 --> 00:01:07,939
+pandemic.
+
+56
+00:01:07,939 --> 00:01:09,310
+We had some crazy stuff going on.
+
+57
+00:01:09,310 --> 00:01:10,739
+Government was just printing money
+
+58
+00:01:10,739 --> 00:01:11,579
+out of their butt cheeks
+
+59
+00:01:11,920 --> 00:01:13,219
+and there were stimulus checks
+
+60
+00:01:13,219 --> 00:01:14,799
+everywhere, just getting sent.
+
+61
+00:01:14,799 --> 00:01:16,319
+You were just, money was coming
+
+62
+00:01:16,319 --> 00:01:16,459
+out
+
+63
+00:01:16,540 --> 00:01:17,709
+of thin air and people had a lot
+
+64
+00:01:17,709 --> 00:01:18,170
+of money.
+
+65
+00:01:18,200 --> 00:01:19,609
+They had stimulus checks and they
+
+66
+00:01:19,609 --> 00:01:20,500
+also were probably
+
+67
+00:01:20,579 --> 00:01:21,650
+getting paid from their job.
+
+68
+00:01:21,650 --> 00:01:22,890
+Still, a lot of people were still
+
+69
+00:01:22,890 --> 00:01:23,579
+getting paid.
+
+70
+00:01:23,579 --> 00:01:25,319
+And so consumers just
+
+71
+00:01:25,400 --> 00:01:26,219
+had a ton of money.
+
+72
+00:01:26,219 --> 00:01:27,650
+And so they were buying anything
+
+73
+00:01:27,650 --> 00:01:29,200
+and they had nothing better to do
+
+74
+00:01:29,200 --> 00:01:30,239
+all day, but to
+
+75
+00:01:30,319 --> 00:01:30,890
+buy anything.
+
+76
+00:01:30,909 --> 00:01:31,950
+They were just scrolling,
+
+77
+00:01:31,969 --> 00:01:33,489
+scrolling, scrolling and buying.
+
+78
+00:01:33,500 --> 00:01:34,620
+That's at least what I was
+
+79
+00:01:34,700 --> 00:01:35,079
+doing.
+
+80
+00:01:35,079 --> 00:01:36,810
+Literally nothing but scrolling.
+
+81
+00:01:36,879 --> 00:01:38,209
+And so e-com brands just felt
+
+82
+00:01:38,209 --> 00:01:38,609
+rich.
+
+83
+00:01:38,609 --> 00:01:39,620
+E-com exploded.
+
+84
+00:01:39,620 --> 00:01:40,900
+And so what
+
+85
+00:01:40,980 --> 00:01:41,890
+happened, people saw this
+
+86
+00:01:41,950 --> 00:01:42,609
+opportunity.
+
+87
+00:01:42,620 --> 00:01:43,590
+New e-com brands started
+
+88
+00:01:43,590 --> 00:01:44,780
+absolutely multiplying.
+
+89
+00:01:44,780 --> 00:01:45,780
+And thanks to
+
+90
+00:01:45,859 --> 00:01:47,489
+Shopify for making it super easy
+
+91
+00:01:47,489 --> 00:01:49,239
+for people to set up e-com stores,
+
+92
+00:01:49,319 --> 00:01:50,569
+just made it so easy for
+
+93
+00:01:50,659 --> 00:01:51,980
+new e-com brands to come up.
+
+94
+00:01:51,980 --> 00:01:53,329
+And so now we're kind of in this
+
+95
+00:01:53,530 --> 00:01:55,180
+situation, in this transition,
+
+96
+00:01:55,180 --> 00:01:55,689
+2024,
+
+97
+00:01:55,780 --> 00:01:57,590
+we're feeling the repercussions of
+
+98
+00:01:57,599 --> 00:01:59,359
+kind of like the mass printing and
+
+99
+00:01:59,359 --> 00:02:01,099
+where we were at in market with
+
+100
+00:02:01,180 --> 00:02:03,769
+2020, kind of in a bear market,
+
+101
+00:02:03,780 --> 00:02:06,170
+fear of inflation, recession, all
+
+102
+00:02:06,170 --> 00:02:07,090
+that stuff.
+
+103
+00:02:07,090 --> 00:02:08,758
+And the consumer just has
+
+104
+00:02:08,840 --> 00:02:09,439
+less cash.
+
+105
+00:02:09,560 --> 00:02:11,159
+They're getting less money.
+
+106
+00:02:11,159 --> 00:02:12,770
+Costs of living are rising.
+
+107
+00:02:12,770 --> 00:02:14,780
+And so people just have less money
+
+108
+00:02:14,860 --> 00:02:16,620
+than they did in like 2020, 2021,
+
+109
+00:02:16,620 --> 00:02:17,759
+when they were getting just money
+
+110
+00:02:17,759 --> 00:02:18,449
+thrown at them.
+
+111
+00:02:18,520 --> 00:02:20,039
+And then on top
+
+112
+00:02:20,120 --> 00:02:21,300
+of that, consumers are just more
+
+113
+00:02:21,300 --> 00:02:22,729
+skeptical and they're buying less.
+
+114
+00:02:22,729 --> 00:02:23,770
+The rate at which they're
+
+115
+00:02:23,860 --> 00:02:25,430
+buying is less than in prior
+
+116
+00:02:25,430 --> 00:02:25,969
+years.
+
+117
+00:02:26,039 --> 00:02:27,939
+One, because they have less money
+
+118
+00:02:28,229 --> 00:02:29,740
+and two, because they're
+
+119
+00:02:29,819 --> 00:02:30,300
+skeptical.
+
+120
+00:02:30,300 --> 00:02:31,539
+People have been scammed online
+
+121
+00:02:31,539 --> 00:02:32,919
+before and they're more protective
+
+122
+00:02:32,930 --> 00:02:33,699
+on their money.
+
+123
+00:02:33,699 --> 00:02:34,280
+And so
+
+124
+00:02:34,360 --> 00:02:35,810
+there's a little bit more
+
+125
+00:02:35,810 --> 00:02:36,699
+skeptical.
+
+126
+00:02:36,699 --> 00:02:38,449
+And so what happens, we have so
+
+127
+00:02:38,729 --> 00:02:40,650
+many more e-com brands on the
+
+128
+00:02:40,860 --> 00:02:43,530
+scene, but less people buying that
+
+129
+00:02:43,659 --> 00:02:46,330
+obviously makes e-com brands make
+
+130
+00:02:46,330 --> 00:02:47,139
+less money.
+
+131
+00:02:47,400 --> 00:02:48,780
+And so we can have two
+
+132
+00:02:48,860 --> 00:02:49,770
+options here.
+
+133
+00:02:49,819 --> 00:02:50,969
+E-com brands continue as usual
+
+134
+00:02:51,039 --> 00:02:52,240
+with the old funnel, which we'll
+
+135
+00:02:52,330 --> 00:02:53,780
+go over and they're just going to
+
+136
+00:02:53,819 --> 00:02:54,330
+fizzle out.
+
+137
+00:02:54,330 --> 00:02:55,580
+And then we have e-com brands who
+
+138
+00:02:55,580 --> 00:02:56,990
+are actually focusing on profit.
+
+139
+00:02:56,990 --> 00:02:57,780
+Those are the ones who are going
+
+140
+00:02:57,780 --> 00:02:57,780
+to
+
+141
+00:02:57,860 --> 00:02:59,229
+thrive, not just the revenue, we
+
+142
+00:02:59,280 --> 00:02:59,930
+want profit.
+
+143
+00:02:59,930 --> 00:03:01,240
+And so those are the ones who will
+
+144
+00:03:01,319 --> 00:03:02,780
+survive for the coming years.
+
+145
+00:03:02,860 --> 00:03:04,189
+So let's talk about the top three
+
+146
+00:03:04,199 --> 00:03:06,930
+e-commerce problems and how that
+
+147
+00:03:06,930 --> 00:03:07,780
+relates to everything.
+
+148
+00:03:07,819 --> 00:03:09,009
+I've talked, I talked to hundreds
+
+149
+00:03:09,009 --> 00:03:10,240
+of e-commerce brands and these are
+
+150
+00:03:10,240 --> 00:03:11,110
+the ones that come up
+
+151
+00:03:11,110 --> 00:03:11,780
+consistently.
+
+152
+00:03:11,860 --> 00:03:12,930
+The only thing, the only things
+
+153
+00:03:12,930 --> 00:03:14,180
+that really matter and they're all
+
+154
+00:03:14,180 --> 00:03:15,780
+kind of related to each other.
+
+155
+00:03:15,860 --> 00:03:16,979
+So number one, cost per
+
+156
+00:03:16,979 --> 00:03:18,669
+acquisition, how much you spend on
+
+157
+00:03:18,729 --> 00:03:20,780
+average to acquire one customer.
+
+158
+00:03:20,780 --> 00:03:21,780
+And so essentially
+
+159
+00:03:21,860 --> 00:03:22,770
+you have to pay on marketing.
+
+160
+00:03:22,780 --> 00:03:24,370
+What good is like a website where
+
+161
+00:03:24,430 --> 00:03:25,780
+you're selling products if nobody
+
+162
+00:03:25,780 --> 00:03:25,780
+knows
+
+163
+00:03:25,860 --> 00:03:26,770
+of it.
+
+164
+00:03:26,849 --> 00:03:28,129
+And so you have to spend on
+
+165
+00:03:28,129 --> 00:03:29,780
+marketing to get people in.
+
+166
+00:03:29,780 --> 00:03:31,780
+So how much are you spending to
+
+167
+00:03:31,780 --> 00:03:31,780
+get people in?
+
+168
+00:03:31,860 --> 00:03:34,370
+For example, if you're running
+
+169
+00:03:34,449 --> 00:03:37,310
+Facebook ads, you pay $6 in total
+
+170
+00:03:37,310 --> 00:03:39,780
+Facebook ads to get one purchase
+
+171
+00:03:39,780 --> 00:03:39,780
+for
+
+172
+00:03:39,860 --> 00:03:41,960
+like your bakery or something.
+
+173
+00:03:41,960 --> 00:03:44,110
+Then your cost per acquisition is
+
+174
+00:03:44,219 --> 00:03:44,780
+$6.
+
+175
+00:03:44,780 --> 00:03:45,780
+The problem which we'll talk
+
+176
+00:03:45,860 --> 00:03:47,490
+about and I'll go, I go more in
+
+177
+00:03:47,520 --> 00:03:48,780
+depth in a second.
+
+178
+00:03:48,780 --> 00:03:50,780
+But let's talk about retention.
+
+179
+00:03:50,780 --> 00:03:52,770
+So after cost per
+
+180
+00:03:52,860 --> 00:03:54,169
+acquisition, cost per acquisition
+
+181
+00:03:54,169 --> 00:03:55,360
+implies that you made that first
+
+182
+00:03:55,439 --> 00:03:55,780
+sale.
+
+183
+00:03:55,780 --> 00:03:57,780
+Retention is now what's the rate
+
+184
+00:03:57,780 --> 00:03:57,780
+at
+
+185
+00:03:57,860 --> 00:03:59,900
+which your customers come back and
+
+186
+00:03:59,900 --> 00:04:00,669
+buy again.
+
+187
+00:04:00,729 --> 00:04:01,939
+So how many times do your
+
+188
+00:04:02,229 --> 00:04:03,780
+customers come back on average?
+
+189
+00:04:03,860 --> 00:04:05,300
+One time, is it two times, three
+
+190
+00:04:05,300 --> 00:04:05,780
+times?
+
+191
+00:04:05,780 --> 00:04:07,780
+And so that's the rate and that
+
+192
+00:04:07,780 --> 00:04:09,280
+contributes to your lifetime
+
+193
+00:04:09,280 --> 00:04:09,780
+value.
+
+194
+00:04:09,860 --> 00:04:11,340
+And then we have profitability,
+
+195
+00:04:11,340 --> 00:04:12,780
+which is your take home cash,
+
+196
+00:04:12,780 --> 00:04:14,780
+revenue minus expenses.
+
+197
+00:04:14,780 --> 00:04:15,780
+Profitability is
+
+198
+00:04:15,860 --> 00:04:17,149
+directly related to cost per
+
+199
+00:04:17,149 --> 00:04:18,550
+acquisition and retention.
+
+200
+00:04:18,730 --> 00:04:19,939
+Literally the formula for
+
+201
+00:04:19,939 --> 00:04:22,139
+profitability is your cost per
+
+202
+00:04:22,399 --> 00:04:22,779
+acquisition
+
+203
+00:04:22,860 --> 00:04:25,529
+and your expenses and everything.
+
+204
+00:04:25,660 --> 00:04:27,509
+Profitability relies on
+
+205
+00:04:27,509 --> 00:04:28,779
+everything.
+
+206
+00:04:28,779 --> 00:04:29,779
+I kind of butchered that.
+
+207
+00:04:29,860 --> 00:04:31,420
+But revenue minus expenses, it's
+
+208
+00:04:31,420 --> 00:04:32,779
+all that really matters.
+
+209
+00:04:32,779 --> 00:04:35,220
+So problem number one, let's talk
+
+210
+00:04:35,220 --> 00:04:35,779
+about cost of acquisition.
+
+211
+00:04:35,860 --> 00:04:37,779
+So this is the ideal scenario.
+
+212
+00:04:37,779 --> 00:04:40,779
+We are absolutely blessed today
+
+213
+00:04:40,779 --> 00:04:41,399
+with easy ways to get site
+
+214
+00:04:41,410 --> 00:04:41,779
+traffic.
+
+215
+00:04:41,779 --> 00:04:42,779
+It is so simple.
+
+216
+00:04:42,860 --> 00:04:44,220
+You can just put some creatives
+
+217
+00:04:44,279 --> 00:04:45,550
+together in Canva or Figma,
+
+218
+00:04:45,730 --> 00:04:46,779
+whatever you want.
+
+219
+00:04:46,779 --> 00:04:48,779
+Toss Mr.
+
+220
+00:04:48,779 --> 00:04:49,779
+Zuckerberg some cash and you're
+
+221
+00:04:49,860 --> 00:04:51,230
+pretty much guaranteed to get site
+
+222
+00:04:51,279 --> 00:04:51,779
+traffic.
+
+223
+00:04:51,779 --> 00:04:53,029
+You are guaranteed if you give
+
+224
+00:04:53,040 --> 00:04:53,779
+enough money.
+
+225
+00:04:53,779 --> 00:04:55,779
+And so what we have, this is the
+
+226
+00:04:55,779 --> 00:04:55,779
+goal.
+
+227
+00:04:55,860 --> 00:04:57,470
+You have some money, spend it on
+
+228
+00:04:57,470 --> 00:04:58,100
+paid ads.
+
+229
+00:04:58,100 --> 00:04:59,779
+You throw some cash at Zuck.
+
+230
+00:04:59,779 --> 00:05:02,029
+He will bring you site traffic and
+
+231
+00:05:02,029 --> 00:05:03,779
+hopefully you can make some money.
+
+232
+00:05:03,860 --> 00:05:05,310
+And then you can just refund it
+
+233
+00:05:05,310 --> 00:05:05,779
+here.
+
+234
+00:05:05,779 --> 00:05:06,779
+Now you have more money.
+
+235
+00:05:06,779 --> 00:05:08,779
+You spend more on paid ads.
+
+236
+00:05:08,779 --> 00:05:09,779
+You get more site traffic and
+
+237
+00:05:09,779 --> 00:05:10,779
+hopefully you can make more money.
+
+238
+00:05:10,860 --> 00:05:12,620
+But this all revolves around site
+
+239
+00:05:12,620 --> 00:05:14,509
+traffic and making some money from
+
+240
+00:05:14,519 --> 00:05:15,779
+your site traffic.
+
+241
+00:05:15,779 --> 00:05:18,300
+The problem is on your site
+
+242
+00:05:18,379 --> 00:05:19,779
+traffic, people aren't buying.
+
+243
+00:05:19,860 --> 00:05:20,620
+They're not buying like they used
+
+244
+00:05:20,620 --> 00:05:20,769
+to.
+
+245
+00:05:20,850 --> 00:05:22,079
+You're paying for these cold
+
+246
+00:05:22,079 --> 00:05:23,939
+traffic ads, but so little people
+
+247
+00:05:24,180 --> 00:05:27,230
+are actually purchasing at a much,
+
+248
+00:05:27,230 --> 00:05:28,939
+they're purchasing at a much lower
+
+249
+00:05:29,180 --> 00:05:29,769
+rate than before.
+
+250
+00:05:29,860 --> 00:05:31,230
+The modern customer just doesn't
+
+251
+00:05:31,279 --> 00:05:32,759
+want to buy from you because there
+
+252
+00:05:32,759 --> 00:05:33,779
+are a few reasons.
+
+253
+00:05:33,779 --> 00:05:35,779
+For one, they have options.
+
+254
+00:05:35,860 --> 00:05:37,120
+Thanks to Shopify, so many e-com
+
+255
+00:05:37,129 --> 00:05:38,370
+brands popping up every single
+
+256
+00:05:38,439 --> 00:05:38,779
+day.
+
+257
+00:05:38,779 --> 00:05:41,230
+And the average customer sees over
+
+258
+00:05:41,230 --> 00:05:43,550
+70 e-commerce ads per day, which
+
+259
+00:05:43,550 --> 00:05:43,779
+is ridiculous.
+
+260
+00:05:43,860 --> 00:05:45,750
+If you think it's about every two
+
+261
+00:05:45,750 --> 00:05:47,569
+or three posts on Instagram,
+
+262
+00:05:47,600 --> 00:05:49,230
+you'll see an ad, some of them
+
+263
+00:05:49,230 --> 00:05:50,769
+being e-com, some not.
+
+264
+00:05:50,860 --> 00:05:52,220
+But if somebody scrolls for like
+
+265
+00:05:52,279 --> 00:05:53,670
+an hour a day, it's way more than
+
+266
+00:05:53,730 --> 00:05:54,779
+70 e-com ads.
+
+267
+00:05:54,779 --> 00:05:56,779
+And so they're seeing a lot of
+
+268
+00:05:56,779 --> 00:05:58,029
+brands that are getting exposed to
+
+269
+00:05:58,029 --> 00:05:58,779
+a lot of new brands.
+
+270
+00:05:58,860 --> 00:05:59,769
+And so they know what's out there.
+
+271
+00:05:59,779 --> 00:06:01,279
+They know when they see your
+
+272
+00:06:01,279 --> 00:06:03,079
+brand, they know there are
+
+273
+00:06:03,230 --> 00:06:04,310
+probably hundreds of other brands,
+
+274
+00:06:04,310 --> 00:06:05,540
+thousands of other brands in your
+
+275
+00:06:05,540 --> 00:06:06,779
+niche that they could choose.
+
+276
+00:06:06,860 --> 00:06:08,810
+And two, they have the options and
+
+277
+00:06:08,810 --> 00:06:10,779
+they just like to shop around.
+
+278
+00:06:10,779 --> 00:06:11,779
+It's fun to shop around.
+
+279
+00:06:11,779 --> 00:06:13,050
+It's fun to see what other brands
+
+280
+00:06:13,050 --> 00:06:13,759
+are out there.
+
+281
+00:06:13,860 --> 00:06:14,699
+It's fun to see what kind of
+
+282
+00:06:14,699 --> 00:06:15,579
+branding is there, what
+
+283
+00:06:15,579 --> 00:06:16,779
+influencers are promoting.
+
+284
+00:06:16,779 --> 00:06:17,779
+It's fun.
+
+285
+00:06:17,779 --> 00:06:18,779
+People like shopping around.
+
+286
+00:06:18,860 --> 00:06:20,189
+That's why people go to the mall.
+
+287
+00:06:20,209 --> 00:06:21,240
+You like to check out your
+
+288
+00:06:21,240 --> 00:06:21,779
+options.
+
+289
+00:06:21,779 --> 00:06:22,779
+And so that's the other thing.
+
+290
+00:06:22,779 --> 00:06:23,779
+It's just they like to.
+
+291
+00:06:23,860 --> 00:06:25,410
+And then three, they're wary about
+
+292
+00:06:25,410 --> 00:06:26,779
+buying online right away.
+
+293
+00:06:26,779 --> 00:06:28,209
+If they see your brand one time
+
+294
+00:06:28,230 --> 00:06:30,769
+off an ad, it's really difficult.
+
+295
+00:06:30,860 --> 00:06:32,029
+They don't know who you are and
+
+296
+00:06:32,029 --> 00:06:33,370
+they don't know if they can trust
+
+297
+00:06:33,439 --> 00:06:33,779
+you.
+
+298
+00:06:33,779 --> 00:06:35,829
+They're not just buying from you
+
+299
+00:06:35,829 --> 00:06:36,779
+right away.
+
+300
+00:06:36,829 --> 00:06:38,290
+I've been scammed online before
+
+301
+00:06:38,290 --> 00:06:39,680
+buying stuff or I haven't just
+
+302
+00:06:39,730 --> 00:06:40,779
+received my order.
+
+303
+00:06:40,779 --> 00:06:42,779
+And so a lot of people have too.
+
+304
+00:06:42,860 --> 00:06:43,769
+And so that just like scars you.
+
+305
+00:06:43,839 --> 00:06:45,509
+And so you always like to do your
+
+306
+00:06:45,509 --> 00:06:46,779
+due diligence now.
+
+307
+00:06:46,860 --> 00:06:48,339
+And so those are kind of like the
+
+308
+00:06:48,339 --> 00:06:50,019
+reasons why people are buying at a
+
+309
+00:06:50,019 --> 00:06:51,779
+much lower rate on the website.
+
+310
+00:06:51,860 --> 00:06:53,009
+So kind of what we have to do is
+
+311
+00:06:53,009 --> 00:06:54,100
+we have to cross the trust
+
+312
+00:06:54,100 --> 00:06:56,129
+threshold, which is just like a
+
+313
+00:06:56,230 --> 00:06:57,779
+concept that I've made up.
+
+314
+00:06:57,860 --> 00:06:59,810
+But it relies on the fact, like
+
+315
+00:06:59,860 --> 00:07:01,939
+the concept is what I made, but
+
+316
+00:07:02,160 --> 00:07:03,779
+the fact that the modern customer
+
+317
+00:07:03,779 --> 00:07:05,120
+needs to see your brand five plus
+
+318
+00:07:05,120 --> 00:07:06,089
+times to trust you enough to
+
+319
+00:07:06,089 --> 00:07:06,779
+purchase is fact.
+
+320
+00:07:06,860 --> 00:07:07,970
+People need to see your brand
+
+321
+00:07:07,970 --> 00:07:08,779
+multiple times.
+
+322
+00:07:08,779 --> 00:07:10,779
+Maybe it's not times.
+
+323
+00:07:10,779 --> 00:07:12,779
+Maybe it's time exposure.
+
+324
+00:07:12,860 --> 00:07:14,610
+Like if somebody watches like a
+
+325
+00:07:14,610 --> 00:07:16,779
+one hour podcast with the founder,
+
+326
+00:07:16,779 --> 00:07:17,480
+that could be enough to get
+
+327
+00:07:17,480 --> 00:07:18,339
+somebody to trust you enough to
+
+328
+00:07:18,339 --> 00:07:18,779
+purchase.
+
+329
+00:07:18,860 --> 00:07:20,410
+But we're talking like ads, little
+
+330
+00:07:20,410 --> 00:07:21,879
+bits of content has to be at least
+
+331
+00:07:21,879 --> 00:07:22,779
+like five plus.
+
+332
+00:07:22,860 --> 00:07:24,339
+If you ever heard of the rule of
+
+333
+00:07:24,339 --> 00:07:25,779
+seven, the rule of seven is
+
+334
+00:07:25,779 --> 00:07:27,610
+essentially somebody needs to see
+
+335
+00:07:27,620 --> 00:07:28,949
+you seven times enough to
+
+336
+00:07:28,949 --> 00:07:29,769
+purchase.
+
+337
+00:07:29,860 --> 00:07:31,220
+Someone needs to see you seven
+
+338
+00:07:31,220 --> 00:07:32,670
+times to purchase from you, to
+
+339
+00:07:32,730 --> 00:07:33,779
+trust you enough.
+
+340
+00:07:33,860 --> 00:07:35,860
+And also if you just, if they only
+
+341
+00:07:35,870 --> 00:07:37,779
+see you like one or two times,
+
+342
+00:07:37,779 --> 00:07:39,060
+they don't know enough about you
+
+343
+00:07:39,139 --> 00:07:39,779
+to purchase.
+
+344
+00:07:39,860 --> 00:07:41,370
+And so you just need to be able to
+
+345
+00:07:41,370 --> 00:07:42,779
+give that information.
+
+346
+00:07:42,860 --> 00:07:44,060
+So choose like the theoretical
+
+347
+00:07:44,060 --> 00:07:45,370
+trust threshold, say it's right
+
+348
+00:07:45,430 --> 00:07:47,110
+here, number of times exposed to
+
+349
+00:07:47,230 --> 00:07:48,180
+the brand, first brand
+
+350
+00:07:48,180 --> 00:07:49,149
+introduction, not ready to
+
+351
+00:07:49,399 --> 00:07:49,759
+purchase.
+
+352
+00:07:49,860 --> 00:07:50,980
+And then once they cross that
+
+353
+00:07:50,980 --> 00:07:52,370
+trust threshold, they're ready to
+
+354
+00:07:52,449 --> 00:07:53,779
+purchase in every exposure.
+
+355
+00:07:53,860 --> 00:07:54,720
+After that, it doesn't mean
+
+356
+00:07:54,720 --> 00:07:55,819
+necessarily that they're going to
+
+357
+00:07:55,860 --> 00:07:56,779
+buy right at this point.
+
+358
+00:07:56,860 --> 00:07:58,509
+It just means they're ready and
+
+359
+00:07:58,519 --> 00:08:00,350
+they trust you enough to where if
+
+360
+00:08:00,350 --> 00:08:01,850
+you, if they have a strong enough
+
+361
+00:08:01,850 --> 00:08:02,959
+need for the product, if your
+
+362
+00:08:02,959 --> 00:08:04,079
+marketing is strong enough, they
+
+363
+00:08:04,079 --> 00:08:05,779
+trust you enough to buy.
+
+364
+00:08:05,860 --> 00:08:07,779
+So that's what that is.
+
+365
+00:08:07,860 --> 00:08:09,639
+But where it gets expensive is the
+
+366
+00:08:09,639 --> 00:08:11,779
+customer doesn't buy from your ad.
+
+367
+00:08:11,860 --> 00:08:13,089
+They get the first brand
+
+368
+00:08:13,089 --> 00:08:14,870
+introduction and they don't buy
+
+369
+00:08:14,879 --> 00:08:16,639
+from you this time, this time,
+
+370
+00:08:16,639 --> 00:08:18,769
+this time, this time, this time.
+
+371
+00:08:18,860 --> 00:08:20,959
+The thing is each time costs
+
+372
+00:08:21,029 --> 00:08:21,779
+money.
+
+373
+00:08:21,860 --> 00:08:24,310
+If you are using ads, you're just
+
+374
+00:08:24,310 --> 00:08:25,800
+constantly buying more ads to get
+
+375
+00:08:25,800 --> 00:08:26,779
+more visibility.
+
+376
+00:08:26,860 --> 00:08:28,750
+And so what happens, your expenses
+
+377
+00:08:28,750 --> 00:08:30,779
+go up and the cost of acquisition.
+
+378
+00:08:30,860 --> 00:08:31,939
+Every single time you're having to
+
+379
+00:08:31,939 --> 00:08:32,970
+pay for a Facebook ad, you're
+
+380
+00:08:33,038 --> 00:08:34,240
+paying for these clicks, the cost
+
+381
+00:08:34,330 --> 00:08:36,230
+of acquisition inevitably just is
+
+382
+00:08:36,230 --> 00:08:37,620
+going up to the point where
+
+383
+00:08:37,620 --> 00:08:39,250
+potentially you're just breaking
+
+384
+00:08:39,250 --> 00:08:40,779
+even on your first purchase.
+
+385
+00:08:40,860 --> 00:08:42,059
+That's what a lot of econ brands
+
+386
+00:08:42,059 --> 00:08:43,240
+are doing, especially with
+
+387
+00:08:43,240 --> 00:08:43,779
+margins.
+
+388
+00:08:43,860 --> 00:08:45,730
+Even if you have a 2X, 3X ROAS,
+
+389
+00:08:45,730 --> 00:08:47,700
+depends on your margins, you might
+
+390
+00:08:47,700 --> 00:08:49,340
+be breaking even on that first
+
+391
+00:08:49,340 --> 00:08:51,230
+purchase and you're hoping to make
+
+392
+00:08:51,230 --> 00:08:52,779
+it back in the back end.
+
+393
+00:08:52,860 --> 00:08:54,509
+And so that's where it really gets
+
+394
+00:08:54,509 --> 00:08:55,899
+expensive, where cost of
+
+395
+00:08:55,899 --> 00:08:57,779
+acquisition is a real problem.
+
+396
+00:08:57,860 --> 00:08:59,100
+Now let's talk about customer
+
+397
+00:08:59,110 --> 00:08:59,779
+retention.
+
+398
+00:08:59,860 --> 00:09:01,659
+So kind of related to cost of
+
+399
+00:09:01,659 --> 00:09:03,529
+acquisition, once you have your
+
+400
+00:09:03,529 --> 00:09:04,779
+cost of acquisition price,
+
+401
+00:09:04,779 --> 00:09:06,139
+somebody buys from you, what
+
+402
+00:09:06,399 --> 00:09:07,779
+happens after they buy from you?
+
+403
+00:09:07,860 --> 00:09:09,000
+Are they not buying again or are
+
+404
+00:09:09,000 --> 00:09:10,179
+they going to continue to come
+
+405
+00:09:10,179 --> 00:09:11,169
+back because your cost of
+
+406
+00:09:11,169 --> 00:09:12,779
+acquisition isn't going to change.
+
+407
+00:09:12,860 --> 00:09:14,740
+And so no matter what, if you have
+
+408
+00:09:14,740 --> 00:09:16,779
+a set $5 cost per acquisition,
+
+409
+00:09:16,779 --> 00:09:17,970
+somebody buys from you once, you
+
+410
+00:09:17,970 --> 00:09:19,769
+have a set cost per acquisition,
+
+411
+00:09:19,779 --> 00:09:20,730
+somebody buys from you twice, you
+
+412
+00:09:20,730 --> 00:09:21,389
+have more profit with that
+
+413
+00:09:21,500 --> 00:09:23,320
+customer because you don't have to
+
+414
+00:09:23,350 --> 00:09:24,779
+pay for cost of acquisition twice.
+
+415
+00:09:24,860 --> 00:09:26,129
+So we're talking about customer
+
+416
+00:09:26,129 --> 00:09:26,779
+retention.
+
+417
+00:09:26,860 --> 00:09:28,779
+Your product just isn't enough.
+
+418
+00:09:28,860 --> 00:09:30,389
+Just relying on the quality of
+
+419
+00:09:30,389 --> 00:09:32,240
+your product for retention used to
+
+420
+00:09:32,259 --> 00:09:32,779
+work.
+
+421
+00:09:32,860 --> 00:09:33,769
+It used to be just if you have
+
+422
+00:09:33,820 --> 00:09:34,970
+something really good, people
+
+423
+00:09:35,039 --> 00:09:35,779
+would come back.
+
+424
+00:09:35,860 --> 00:09:37,590
+Like in 1900s, if you had good
+
+425
+00:09:37,590 --> 00:09:39,120
+pantaloons, people didn't have
+
+426
+00:09:39,120 --> 00:09:39,779
+options.
+
+427
+00:09:39,860 --> 00:09:41,580
+You had good enough pantaloons,
+
+428
+00:09:41,580 --> 00:09:43,240
+this dude would, you just have
+
+429
+00:09:43,259 --> 00:09:44,779
+your customer for life.
+
+430
+00:09:44,860 --> 00:09:45,769
+That's all you had.
+
+431
+00:09:45,860 --> 00:09:47,610
+But today the modern customer is
+
+432
+00:09:47,610 --> 00:09:49,779
+spoiled because thanks to Shopify,
+
+433
+00:09:49,779 --> 00:09:51,049
+there are just millions and
+
+434
+00:09:51,049 --> 00:09:52,789
+millions and millions of brands
+
+435
+00:09:52,789 --> 00:09:54,279
+out there with new ones popping up
+
+436
+00:09:54,279 --> 00:09:54,779
+every day.
+
+437
+00:09:54,860 --> 00:09:55,769
+People just like new.
+
+438
+00:09:55,860 --> 00:09:57,049
+Even if your product is awesome,
+
+439
+00:09:57,049 --> 00:09:58,200
+you have the best pantaloons in
+
+440
+00:09:58,200 --> 00:09:58,779
+the world.
+
+441
+00:09:58,860 --> 00:10:00,169
+People are curious what else are
+
+442
+00:10:00,169 --> 00:10:00,779
+out there.
+
+443
+00:10:00,860 --> 00:10:01,769
+What other pantaloons are there?
+
+444
+00:10:01,860 --> 00:10:02,769
+What other styles are there?
+
+445
+00:10:02,860 --> 00:10:04,070
+And they can find them because
+
+446
+00:10:04,070 --> 00:10:04,779
+it's so easy.
+
+447
+00:10:04,860 --> 00:10:06,779
+They just pull out their phone,
+
+448
+00:10:06,779 --> 00:10:08,779
+but the pantaloons galore.
+
+449
+00:10:08,860 --> 00:10:10,870
+Whereas like in the past, you
+
+450
+00:10:10,879 --> 00:10:12,779
+didn't quite have that.
+
+451
+00:10:12,860 --> 00:10:13,659
+So we kind of just have the
+
+452
+00:10:13,659 --> 00:10:15,029
+situation where it's like, hmm, I
+
+453
+00:10:15,039 --> 00:10:15,779
+like this brand.
+
+454
+00:10:15,850 --> 00:10:17,549
+I just saw this cool new young
+
+455
+00:10:17,549 --> 00:10:18,779
+brand on TikTok.
+
+456
+00:10:18,860 --> 00:10:19,769
+Maybe I'll try them.
+
+457
+00:10:19,860 --> 00:10:21,450
+And so customer retention has been
+
+458
+00:10:21,450 --> 00:10:22,889
+going down with the increased
+
+459
+00:10:22,889 --> 00:10:23,779
+competition.
+
+460
+00:10:23,860 --> 00:10:24,769
+It's increasingly harder.
+
+461
+00:10:24,860 --> 00:10:26,190
+So what you need to do is you need
+
+462
+00:10:26,210 --> 00:10:27,779
+to maintain their attention.
+
+463
+00:10:27,860 --> 00:10:28,769
+You have their attention.
+
+464
+00:10:28,860 --> 00:10:29,769
+You got their purchase once.
+
+465
+00:10:29,860 --> 00:10:30,769
+You need to have a good product.
+
+466
+00:10:30,860 --> 00:10:31,769
+You need a good product.
+
+467
+00:10:31,860 --> 00:10:33,779
+But it's not game over from there.
+
+468
+00:10:33,860 --> 00:10:35,779
+It's not you're locked in.
+
+469
+00:10:35,860 --> 00:10:36,610
+You need to maintain their
+
+470
+00:10:36,610 --> 00:10:37,669
+attention and keep their loyalty
+
+471
+00:10:37,679 --> 00:10:38,779
+for them to keep coming back.
+
+472
+00:10:38,860 --> 00:10:40,179
+You need to keep building upon the
+
+473
+00:10:40,179 --> 00:10:41,490
+attention you gathered or else
+
+474
+00:10:41,490 --> 00:10:42,779
+they're going to try someone else.
+
+475
+00:10:42,860 --> 00:10:44,490
+Many will just rely on continued
+
+476
+00:10:44,490 --> 00:10:46,240
+paid ads, which definitely will
+
+477
+00:10:46,259 --> 00:10:47,779
+work in keeping attention.
+
+478
+00:10:47,860 --> 00:10:49,779
+Just continue to expose people.
+
+479
+00:10:49,860 --> 00:10:50,769
+That's very expensive.
+
+480
+00:10:50,850 --> 00:10:51,460
+It's kind of the basis of
+
+481
+00:10:51,580 --> 00:10:52,419
+everything that we're talking
+
+482
+00:10:52,419 --> 00:10:52,779
+about.
+
+483
+00:10:52,850 --> 00:10:53,769
+Paid ads are very expensive.
+
+484
+00:10:53,860 --> 00:10:54,769
+You need ads.
+
+485
+00:10:54,860 --> 00:10:55,769
+Don't get me wrong.
+
+486
+00:10:55,809 --> 00:10:56,769
+I'm not saying do not use ads.
+
+487
+00:10:56,860 --> 00:10:58,779
+You absolutely need them.
+
+488
+00:10:58,860 --> 00:11:00,389
+But what about your budget for
+
+489
+00:11:00,389 --> 00:11:02,129
+acquiring new customers if you're
+
+490
+00:11:02,129 --> 00:11:04,279
+spending so much on these past
+
+491
+00:11:04,279 --> 00:11:05,779
+customers?
+
+492
+00:11:05,860 --> 00:11:07,070
+Better ways to go about it because
+
+493
+00:11:07,070 --> 00:11:07,919
+you constantly want to be
+
+494
+00:11:07,919 --> 00:11:09,779
+increasing your budget to acquire
+
+495
+00:11:09,779 --> 00:11:09,779
+new customers.
+
+496
+00:11:09,860 --> 00:11:12,779
+So that's the main problem.
+
+497
+00:11:12,860 --> 00:11:14,029
+So we've talked about cost per
+
+498
+00:11:14,029 --> 00:11:14,779
+acquisition.
+
+499
+00:11:14,860 --> 00:11:15,769
+Facebook ads going up.
+
+500
+00:11:15,860 --> 00:11:17,190
+People need to see your brand
+
+501
+00:11:17,200 --> 00:11:18,779
+multiple times to purchase.
+
+502
+00:11:18,860 --> 00:11:19,769
+That's not cheap.
+
+503
+00:11:19,860 --> 00:11:21,409
+And so cost of acquisition goes
+
+504
+00:11:21,409 --> 00:11:21,779
+up.
+
+505
+00:11:21,860 --> 00:11:22,769
+And then with customer retention,
+
+506
+00:11:22,850 --> 00:11:24,370
+the problem with that is retention
+
+507
+00:11:24,429 --> 00:11:26,620
+is low because there's so many
+
+508
+00:11:26,620 --> 00:11:27,779
+brands out there.
+
+509
+00:11:27,860 --> 00:11:29,779
+People want to try out new things.
+
+510
+00:11:29,860 --> 00:11:30,460
+People want to try these new
+
+511
+00:11:30,580 --> 00:11:30,769
+things.
+
+512
+00:11:30,860 --> 00:11:31,769
+They're seeing so many new things.
+
+513
+00:11:31,860 --> 00:11:33,070
+And so that leads to lower
+
+514
+00:11:33,070 --> 00:11:34,860
+profitability, which is problem
+
+515
+00:11:34,860 --> 00:11:35,779
+number three.
+
+516
+00:11:35,860 --> 00:11:37,100
+Revenue is awesome, but it means
+
+517
+00:11:37,100 --> 00:11:38,779
+absolutely nothing without profit.
+
+518
+00:11:38,860 --> 00:11:39,399
+You can't reinvest and grow
+
+519
+00:11:39,399 --> 00:11:39,769
+without it.
+
+520
+00:11:39,809 --> 00:11:40,769
+I talked to a brand the other day.
+
+521
+00:11:40,860 --> 00:11:42,289
+They're doing a million dollars a
+
+522
+00:11:42,289 --> 00:11:42,779
+month.
+
+523
+00:11:42,860 --> 00:11:44,100
+And then they just went out of
+
+524
+00:11:44,110 --> 00:11:44,779
+business.
+
+525
+00:11:44,860 --> 00:11:46,009
+You think they're doing a million
+
+526
+00:11:46,009 --> 00:11:46,779
+dollars a month.
+
+527
+00:11:46,860 --> 00:11:47,769
+Holy cow.
+
+528
+00:11:47,860 --> 00:11:48,769
+Holy cow.
+
+529
+00:11:48,860 --> 00:11:49,769
+Holy cow.
+
+530
+00:11:49,860 --> 00:11:50,769
+They weren't profiting anything.
+
+531
+00:11:50,860 --> 00:11:51,769
+They were unprofitable.
+
+532
+00:11:51,860 --> 00:11:53,110
+They were taking, they were
+
+533
+00:11:53,120 --> 00:11:54,350
+spending more money than they were
+
+534
+00:11:54,350 --> 00:11:54,779
+making.
+
+535
+00:11:54,860 --> 00:11:55,769
+And so they failed.
+
+536
+00:11:55,860 --> 00:11:57,100
+And so revenue doesn't mean
+
+537
+00:11:57,100 --> 00:11:58,519
+anything, even if you're at a
+
+538
+00:11:58,519 --> 00:11:59,779
+million a month plus.
+
+539
+00:11:59,850 --> 00:12:00,769
+It's very tough to overcome.
+
+540
+00:12:00,860 --> 00:12:02,159
+Profitability issues are a result
+
+541
+00:12:02,159 --> 00:12:03,360
+of one of the, both of the prior
+
+542
+00:12:03,450 --> 00:12:05,500
+problems of cost of acquisition
+
+543
+00:12:05,500 --> 00:12:06,779
+and customer retention.
+
+544
+00:12:06,860 --> 00:12:08,179
+In a perfect world, you would
+
+545
+00:12:08,179 --> 00:12:09,779
+acquire customers for cheap.
+
+546
+00:12:09,860 --> 00:12:11,769
+So you acquire a customer for $1
+
+547
+00:12:11,769 --> 00:12:13,779
+and you retain them for cheap.
+
+548
+00:12:13,860 --> 00:12:15,110
+They come back 10 plus times and
+
+549
+00:12:15,120 --> 00:12:16,230
+you don't really have to spend
+
+550
+00:12:16,230 --> 00:12:16,779
+anything.
+
+551
+00:12:16,860 --> 00:12:17,769
+That would be ideal.
+
+552
+00:12:17,860 --> 00:12:18,769
+That leads to the most profit.
+
+553
+00:12:18,860 --> 00:12:20,220
+However, you need to get new
+
+554
+00:12:20,220 --> 00:12:21,840
+attention to get your brand, to
+
+555
+00:12:21,840 --> 00:12:22,779
+your brand, to get new customers
+
+556
+00:12:22,779 --> 00:12:23,779
+in.
+
+557
+00:12:23,860 --> 00:12:25,779
+That's, that's not a problem.
+
+558
+00:12:25,860 --> 00:12:26,769
+You need ads.
+
+559
+00:12:26,860 --> 00:12:27,769
+And so that's the problem.
+
+560
+00:12:27,860 --> 00:12:29,779
+Ad prices are higher than ever.
+
+561
+00:12:29,860 --> 00:12:30,980
+So it's very hard to acquire
+
+562
+00:12:30,980 --> 00:12:32,779
+customers for quote unquote cheap.
+
+563
+00:12:32,860 --> 00:12:34,230
+Cost of acquisition, we need to
+
+564
+00:12:34,279 --> 00:12:34,779
+accept.
+
+565
+00:12:34,860 --> 00:12:35,769
+Yes, we want to minimize the cost,
+
+566
+00:12:35,779 --> 00:12:38,000
+but we need to accept that it's
+
+567
+00:12:38,000 --> 00:12:38,779
+going to go up.
+
+568
+00:12:38,860 --> 00:12:40,460
+Cost of acquisition is going to go
+
+569
+00:12:40,460 --> 00:12:40,779
+up.
+
+570
+00:12:40,850 --> 00:12:41,669
+It's going to keep going up and
+
+571
+00:12:41,669 --> 00:12:42,779
+it's going to keep being pricey.
+
+572
+00:12:42,860 --> 00:12:43,220
+Mr.
+
+573
+00:12:43,230 --> 00:12:45,779
+Zuck just has us in a chokehold.
+
+574
+00:12:45,860 --> 00:12:47,620
+We need him and so he can charge
+
+575
+00:12:47,620 --> 00:12:49,240
+whatever he wants and then we just
+
+576
+00:12:49,240 --> 00:12:49,779
+have to deal with it.
+
+577
+00:12:49,860 --> 00:12:51,779
+So this is how we maintain profit.
+
+578
+00:12:51,860 --> 00:12:53,080
+We need to pay for our site
+
+579
+00:12:53,080 --> 00:12:53,779
+traffic.
+
+580
+00:12:53,860 --> 00:12:55,220
+We need to pay to get the
+
+581
+00:12:55,220 --> 00:12:56,919
+attention with paid ads or
+
+582
+00:12:56,919 --> 00:12:57,779
+whatever.
+
+583
+00:12:57,860 --> 00:13:00,779
+Paying for influencers, paying for
+
+584
+00:13:00,779 --> 00:13:03,269
+SEO, organic search, whatever you
+
+585
+00:13:03,269 --> 00:13:03,779
+need to do.
+
+586
+00:13:03,850 --> 00:13:04,769
+UGC content.
+
+587
+00:13:04,850 --> 00:13:05,769
+We need, we need site traffic.
+
+588
+00:13:05,860 --> 00:13:06,769
+We need to bring it.
+
+589
+00:13:06,860 --> 00:13:07,769
+We need to get people in.
+
+590
+00:13:07,860 --> 00:13:09,029
+So the only way to maintain
+
+591
+00:13:09,029 --> 00:13:10,779
+profitability is in the back end.
+
+592
+00:13:10,860 --> 00:13:12,909
+You're able to retain rather than
+
+593
+00:13:12,909 --> 00:13:14,779
+spending more money on ads,
+
+594
+00:13:14,779 --> 00:13:15,779
+influencers, all that stuff.
+
+595
+00:13:15,860 --> 00:13:17,220
+In the back end, you can retain
+
+596
+00:13:17,279 --> 00:13:18,519
+more profit by using cheaper
+
+597
+00:13:18,730 --> 00:13:19,779
+methods of retention, which
+
+598
+00:13:19,860 --> 00:13:20,769
+is email.
+
+599
+00:13:20,860 --> 00:13:22,299
+And so you'd be okay paying top
+
+600
+00:13:22,299 --> 00:13:23,940
+dollar and you'd be comfortable
+
+601
+00:13:23,950 --> 00:13:25,779
+with your cost of acquisition
+
+602
+00:13:25,860 --> 00:13:27,179
+being high to acquire a customer
+
+603
+00:13:27,179 --> 00:13:28,519
+if you knew that they would make
+
+604
+00:13:28,659 --> 00:13:29,779
+10 plus purchases over
+
+605
+00:13:29,860 --> 00:13:30,769
+a lifetime.
+
+606
+00:13:30,860 --> 00:13:32,039
+So that's kind of like the concept
+
+607
+00:13:32,039 --> 00:13:32,779
+on a wide level.
+
+608
+00:13:32,860 --> 00:13:33,929
+And we also want to talk about the
+
+609
+00:13:33,929 --> 00:13:34,779
+top of mind effect.
+
+610
+00:13:34,860 --> 00:13:36,379
+So this is really how to solve all
+
+611
+00:13:36,379 --> 00:13:37,779
+three problems at scale.
+
+612
+00:13:37,860 --> 00:13:39,190
+If you're always in the face of
+
+613
+00:13:39,210 --> 00:13:40,960
+your customer, you're going to, no
+
+614
+00:13:40,970 --> 00:13:41,779
+matter what, hold mental
+
+615
+00:13:41,860 --> 00:13:42,769
+real estate.
+
+616
+00:13:42,860 --> 00:13:44,929
+If you just, if you see a brand
+
+617
+00:13:44,929 --> 00:13:47,690
+every day, like Coke, a lot, if
+
+618
+00:13:47,710 --> 00:13:49,779
+somebody says soda, it's
+
+619
+00:13:49,860 --> 00:13:51,230
+just the first brand that comes to
+
+620
+00:13:51,279 --> 00:13:51,779
+my mind.
+
+621
+00:13:51,860 --> 00:13:53,779
+They have top of mind.
+
+622
+00:13:53,860 --> 00:13:54,980
+Any given moment, they think about
+
+623
+00:13:54,980 --> 00:13:56,100
+industry or product, you want to
+
+624
+00:13:56,100 --> 00:13:56,779
+be the first brand
+
+625
+00:13:56,860 --> 00:13:57,769
+that comes to mind.
+
+626
+00:13:57,860 --> 00:14:00,320
+Because if Coke, somebody asks me,
+
+627
+00:14:00,320 --> 00:14:01,779
+do you want a soda?
+
+628
+00:14:01,860 --> 00:14:03,009
+And Coke is the first one that
+
+629
+00:14:03,009 --> 00:14:03,779
+comes to mind.
+
+630
+00:14:03,860 --> 00:14:04,899
+They don't have to pay cost of
+
+631
+00:14:04,899 --> 00:14:05,779
+acquisition on me.
+
+632
+00:14:05,860 --> 00:14:07,289
+They don't have literally any
+
+633
+00:14:07,289 --> 00:14:08,779
+costs directly with that.
+
+634
+00:14:08,860 --> 00:14:10,100
+So that's where that's super
+
+635
+00:14:10,110 --> 00:14:10,779
+valuable.
+
+636
+00:14:10,860 --> 00:14:12,230
+And email is the cheapest way to
+
+637
+00:14:12,279 --> 00:14:12,779
+do this.
+
+638
+00:14:12,860 --> 00:14:13,639
+This way you and all your
+
+639
+00:14:13,639 --> 00:14:14,730
+customers will get the random
+
+640
+00:14:14,730 --> 00:14:15,779
+sales when the customer is going
+
+641
+00:14:15,860 --> 00:14:16,950
+about their day and think of a
+
+642
+00:14:16,950 --> 00:14:18,190
+need for you that your product
+
+643
+00:14:18,190 --> 00:14:18,779
+fulfills.
+
+644
+00:14:18,860 --> 00:14:20,220
+So sometimes you're just going
+
+645
+00:14:20,220 --> 00:14:22,000
+about your day and you're like, oh
+
+646
+00:14:22,000 --> 00:14:23,779
+shoot, I need laundry
+
+647
+00:14:23,860 --> 00:14:24,769
+detergent.
+
+648
+00:14:24,860 --> 00:14:25,460
+What's the first brand that comes
+
+649
+00:14:25,549 --> 00:14:25,769
+to mind?
+
+650
+00:14:25,860 --> 00:14:26,460
+Whatever the first brand that
+
+651
+00:14:26,580 --> 00:14:27,230
+comes to mind is, that's what I'm
+
+652
+00:14:27,279 --> 00:14:28,779
+going to pull out my phone
+
+653
+00:14:28,860 --> 00:14:31,659
+and order on like Amazon or on the
+
+654
+00:14:31,659 --> 00:14:32,779
+website.
+
+655
+00:14:32,820 --> 00:14:33,769
+I just thought of Tide.
+
+656
+00:14:33,860 --> 00:14:35,730
+And so I'd go like on Amazon,
+
+657
+00:14:35,730 --> 00:14:37,909
+search Tide, and then Tide just
+
+658
+00:14:37,909 --> 00:14:38,779
+got that sale because they
+
+659
+00:14:38,860 --> 00:14:40,779
+hold top of mind for me.
+
+660
+00:14:40,860 --> 00:14:43,080
+And so that's kind of the way to
+
+661
+00:14:43,080 --> 00:14:43,779
+do it.
+
+662
+00:14:43,860 --> 00:14:45,960
+And email is the cheapest, costs
+
+663
+00:14:46,039 --> 00:14:47,779
+pennies to send emails.
+
+664
+00:14:47,860 --> 00:14:48,940
+And it's just content, just like
+
+665
+00:14:48,940 --> 00:14:49,779
+any other platform.
+
+666
+00:14:49,860 --> 00:14:50,769
+And everybody checks email.
+
+667
+00:14:50,860 --> 00:14:51,769
+That's the thing.
+
+668
+00:14:51,860 --> 00:14:52,769
+Everybody checks their email.
+
+669
+00:14:52,860 --> 00:14:54,080
+If you're in their email, they
+
+670
+00:14:54,080 --> 00:14:54,779
+will see you.
+
+671
+00:14:54,860 --> 00:14:55,769
+They will see your brand.
+
+672
+00:14:55,860 --> 00:14:58,269
+And so that's why email is the
+
+673
+00:14:58,269 --> 00:14:59,779
+best for that.
+
+674
+00:14:59,860 --> 00:15:01,340
+So let's talk about the old versus
+
+675
+00:15:01,340 --> 00:15:02,779
+the new e-commerce funnel.
+
+676
+00:15:02,860 --> 00:15:03,769
+So this was the old funnel.
+
+677
+00:15:03,860 --> 00:15:05,779
+What used to work fine.
+
+678
+00:15:05,860 --> 00:15:07,809
+Top of funnel is essentially
+
+679
+00:15:07,809 --> 00:15:09,779
+attention acquisition.
+
+680
+00:15:09,860 --> 00:15:11,120
+So you have paid ads, referrals,
+
+681
+00:15:11,129 --> 00:15:12,759
+word of mouth, SEO, organic social
+
+682
+00:15:12,759 --> 00:15:13,779
+media, et cetera.
+
+683
+00:15:13,860 --> 00:15:15,389
+But most stuff is coming from paid
+
+684
+00:15:15,389 --> 00:15:15,779
+ads.
+
+685
+00:15:15,860 --> 00:15:16,769
+So you're paying money.
+
+686
+00:15:16,860 --> 00:15:18,639
+You get site traffic and people
+
+687
+00:15:18,639 --> 00:15:21,779
+who don't buy like 99, 97.
+
+688
+00:15:21,860 --> 00:15:23,450
+Usually conversion rates are
+
+689
+00:15:23,450 --> 00:15:25,779
+between 1 and 3% for e-com stores.
+
+690
+00:15:25,860 --> 00:15:27,460
+And so they all leave and then
+
+691
+00:15:27,460 --> 00:15:28,779
+they go back to the top.
+
+692
+00:15:28,860 --> 00:15:29,769
+And then you pay more on paid ads.
+
+693
+00:15:29,860 --> 00:15:32,139
+You get whatever to bring you site
+
+694
+00:15:32,139 --> 00:15:32,779
+traffic.
+
+695
+00:15:32,860 --> 00:15:34,059
+And then eventually you'll get
+
+696
+00:15:34,059 --> 00:15:34,779
+conversions.
+
+697
+00:15:34,860 --> 00:15:35,870
+That used to be fine when cost of
+
+698
+00:15:35,870 --> 00:15:36,779
+acquisition was low.
+
+699
+00:15:36,860 --> 00:15:38,960
+Paid ads were easy when you could
+
+700
+00:15:39,039 --> 00:15:40,779
+get a 6X ROAS easily.
+
+701
+00:15:40,860 --> 00:15:42,779
+That's not what we get now.
+
+702
+00:15:42,860 --> 00:15:45,779
+So this used to work okay.
+
+703
+00:15:45,860 --> 00:15:47,110
+And you could just keep, even if
+
+704
+00:15:47,120 --> 00:15:48,909
+people buy, you could pay more on
+
+705
+00:15:48,919 --> 00:15:49,779
+this stuff.
+
+706
+00:15:49,860 --> 00:15:52,370
+Paid ads, pay for social media
+
+707
+00:15:52,450 --> 00:15:54,779
+teams to run your profiles.
+
+708
+00:15:54,860 --> 00:15:57,360
+That used to be okay, but now we
+
+709
+00:15:57,450 --> 00:15:58,779
+really can't.
+
+710
+00:15:58,860 --> 00:15:59,769
+This is what's profitable now.
+
+711
+00:15:59,860 --> 00:16:01,460
+We need to have stuff in the back
+
+712
+00:16:01,460 --> 00:16:02,779
+end to retain profit.
+
+713
+00:16:02,860 --> 00:16:04,700
+We need to send as much content
+
+714
+00:16:04,700 --> 00:16:06,539
+cheaply as we can rather than
+
+715
+00:16:06,539 --> 00:16:07,779
+spending more.
+
+716
+00:16:07,860 --> 00:16:10,669
+So this is why we have in-depth
+
+717
+00:16:10,730 --> 00:16:13,269
+and very strong ways to grow our
+
+718
+00:16:13,269 --> 00:16:13,779
+email list.
+
+719
+00:16:13,860 --> 00:16:15,669
+So that we can be able to actually
+
+720
+00:16:15,679 --> 00:16:17,779
+contact these people for cheap.
+
+721
+00:16:17,860 --> 00:16:19,220
+And then they become an email
+
+722
+00:16:19,220 --> 00:16:19,779
+member.
+
+723
+00:16:19,860 --> 00:16:21,509
+And then we have strong systems
+
+724
+00:16:21,519 --> 00:16:23,539
+set up in the back end and systems
+
+725
+00:16:23,539 --> 00:16:24,779
+and emails that repeat and send.
+
+726
+00:16:24,860 --> 00:16:26,970
+We have automation set up that are
+
+727
+00:16:27,029 --> 00:16:28,940
+going to automate the customer
+
+728
+00:16:29,230 --> 00:16:29,779
+journey.
+
+729
+00:16:29,860 --> 00:16:30,769
+Give them a customized experience
+
+730
+00:16:30,840 --> 00:16:31,779
+and convert them at key parts.
+
+731
+00:16:31,860 --> 00:16:33,960
+Just like when they abandon
+
+732
+00:16:34,039 --> 00:16:36,779
+checkout or abandon your site.
+
+733
+00:16:36,860 --> 00:16:37,769
+This is what we need.
+
+734
+00:16:37,860 --> 00:16:39,139
+And this is what's profitable
+
+735
+00:16:39,139 --> 00:16:39,779
+right now.
+
+736
+00:16:39,860 --> 00:16:41,220
+So to summarize, increased
+
+737
+00:16:41,279 --> 00:16:42,980
+competition has made it very, very
+
+738
+00:16:42,980 --> 00:16:44,429
+difficult to scale your e-com
+
+739
+00:16:44,429 --> 00:16:45,779
+brand profitably.
+
+740
+00:16:45,860 --> 00:16:47,350
+There are just a lot more e-com
+
+741
+00:16:47,350 --> 00:16:48,860
+brands and that's also why ad
+
+742
+00:16:48,860 --> 00:16:49,779
+prices are so high.
+
+743
+00:16:49,860 --> 00:16:51,190
+And cost of acquisition is going
+
+744
+00:16:51,210 --> 00:16:52,779
+up and retention is going down.
+
+745
+00:16:52,860 --> 00:16:54,490
+But email is the cheapest way to
+
+746
+00:16:54,500 --> 00:16:56,179
+nurture your customers into a
+
+747
+00:16:56,179 --> 00:16:56,779
+purchase.
+
+748
+00:16:56,860 --> 00:16:57,990
+Which can help with lowering your
+
+749
+00:16:57,990 --> 00:16:58,779
+cost of acquisition.
+
+750
+00:16:58,860 --> 00:17:00,169
+Rather than showing somebody an ad
+
+751
+00:17:00,169 --> 00:17:01,779
+10 times to get them a purchase.
+
+752
+00:17:01,860 --> 00:17:03,779
+Show them an ad once or twice.
+
+753
+00:17:03,860 --> 00:17:04,769
+Get them on the email list.
+
+754
+00:17:04,859 --> 00:17:06,779
+Send eight emails.
+
+755
+00:17:06,859 --> 00:17:08,078
+Much cheaper to lower your cost of
+
+756
+00:17:08,078 --> 00:17:08,779
+acquisition.
+
+757
+00:17:08,859 --> 00:17:10,390
+And then once you have them to
+
+758
+00:17:10,390 --> 00:17:11,470
+buy, you can retain them for
+
+759
+00:17:11,470 --> 00:17:11,779
+cheap.
+
+760
+00:17:11,859 --> 00:17:13,220
+Get them into multi-time buyers
+
+761
+00:17:13,279 --> 00:17:15,029
+with email and keeping them
+
+762
+00:17:15,039 --> 00:17:17,779
+nurtured and holding top of mind.
+
+763
+00:17:17,859 --> 00:17:18,769
+So that when they think of your
+
+764
+00:17:18,828 --> 00:17:19,920
+brand, when they think of your
+
+765
+00:17:19,920 --> 00:17:21,900
+product or industry, you're the
+
+766
+00:17:21,900 --> 00:17:22,779
+one that comes to mind.
+
+767
+00:17:22,859 --> 00:17:23,769
+So that is the profitable
+
+768
+00:17:23,818 --> 00:17:24,779
+e-commerce funnel.
+
+769
+00:17:24,859 --> 00:17:26,568
+This is essentially the basis that
+
+770
+00:17:26,568 --> 00:17:28,170
+we will be talking about in this
+
+771
+00:17:28,170 --> 00:17:28,779
+course.
+
+772
+00:17:28,859 --> 00:17:30,779
+So hopefully that all made sense.
+
+773
+00:17:30,859 --> 00:17:31,460
+Let me know if you have any
+
+774
+00:17:31,579 --> 00:17:32,359
+questions and we'll get to the
+
+775
+00:17:32,359 --> 00:17:32,779
+next one.
+
+776
+00:17:32,859 --> 00:17:33,109
+Hello.
+
+777
+00:17:33,119 --> 00:17:33,119
+Hello.

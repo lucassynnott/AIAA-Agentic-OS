@@ -1,0 +1,1083 @@
+1
+00:00:00,020 --> 00:00:01,429
+All right, so in this video, we're
+
+2
+00:00:01,429 --> 00:00:02,720
+going to cover how to customize
+
+3
+00:00:02,720 --> 00:00:04,759
+your subaccount and your snapshot,
+
+4
+00:00:04,759 --> 00:00:05,419
+okay?
+
+5
+00:00:05,719 --> 00:00:08,900
+So if or when you go into your
+
+6
+00:00:08,900 --> 00:00:11,509
+subaccount, you're going to see
+
+7
+00:00:11,599 --> 00:00:12,949
+this thing right here, the
+
+8
+00:00:12,949 --> 00:00:13,720
+launchpad.
+
+9
+00:00:13,750 --> 00:00:14,750
+You don't really have to do
+
+10
+00:00:14,750 --> 00:00:15,859
+anything in this page.
+
+11
+00:00:15,890 --> 00:00:17,280
+It's just high-level trying to
+
+12
+00:00:17,280 --> 00:00:18,690
+kind of guide you on how to start
+
+13
+00:00:18,690 --> 00:00:20,300
+using all of their features, but
+
+14
+00:00:20,300 --> 00:00:21,539
+you don't need to worry about all
+
+15
+00:00:21,589 --> 00:00:21,879
+that.
+
+16
+00:00:21,929 --> 00:00:23,800
+To access your subaccount, if you
+
+17
+00:00:23,839 --> 00:00:25,710
+are not in it yet, just click here
+
+18
+00:00:25,710 --> 00:00:27,379
+on this section and select the
+
+19
+00:00:27,600 --> 00:00:29,300
+subaccount you want to use.
+
+20
+00:00:30,019 --> 00:00:32,289
+All right, now the first thing you
+
+21
+00:00:32,320 --> 00:00:34,240
+want to do is go to settings,
+
+22
+00:00:34,240 --> 00:00:36,710
+okay, and then business profile,
+
+23
+00:00:36,710 --> 00:00:38,759
+and you want to fill all of this
+
+24
+00:00:38,759 --> 00:00:40,140
+out, all right?
+
+25
+00:00:40,159 --> 00:00:41,450
+The reason you want to do it now
+
+26
+00:00:41,450 --> 00:00:42,869
+is because down the line, we're
+
+27
+00:00:42,869 --> 00:00:44,229
+going to do what's called A2P
+
+28
+00:00:44,229 --> 00:00:46,159
+registration, which is what will
+
+29
+00:00:46,320 --> 00:00:48,750
+allow you to send text messages to
+
+30
+00:00:48,750 --> 00:00:50,880
+other businesses and, you know,
+
+31
+00:00:50,920 --> 00:00:52,100
+anyone really through our
+
+32
+00:00:52,320 --> 00:00:53,630
+automations, all right?
+
+33
+00:00:53,700 --> 00:00:55,109
+And by doing it now, this is going
+
+34
+00:00:55,109 --> 00:00:56,439
+to save you a bunch of time.
+
+35
+00:00:56,460 --> 00:00:59,159
+So make sure to fill it out fully.
+
+36
+00:01:00,020 --> 00:01:01,000
+Just all of this is going to take
+
+37
+00:01:01,000 --> 00:01:01,899
+you at most five minutes.
+
+38
+00:01:02,289 --> 00:01:04,709
+And then once you do that, you
+
+39
+00:01:04,709 --> 00:01:07,780
+want to go down to integrations,
+
+40
+00:01:07,790 --> 00:01:08,579
+okay?
+
+41
+00:01:08,609 --> 00:01:09,900
+So in integrations, here you can
+
+42
+00:01:09,900 --> 00:01:11,200
+connect your Google Calendar,
+
+43
+00:01:11,200 --> 00:01:12,530
+Facebook, Instagram, Stripe,
+
+44
+00:01:12,579 --> 00:01:14,079
+Slack, anything you may use.
+
+45
+00:01:14,109 --> 00:01:15,549
+If you use Notion or ClickUp for
+
+46
+00:01:15,549 --> 00:01:17,359
+project management, Airtable, you
+
+47
+00:01:17,390 --> 00:01:18,700
+could do that in here as well,
+
+48
+00:01:18,829 --> 00:01:19,420
+okay?
+
+49
+00:01:19,450 --> 00:01:20,540
+But again, just make sure to
+
+50
+00:01:20,540 --> 00:01:21,879
+connect all of your accounts we're
+
+51
+00:01:21,950 --> 00:01:22,870
+going to be using for your
+
+52
+00:01:22,870 --> 00:01:23,500
+business.
+
+53
+00:01:24,840 --> 00:01:26,269
+Then what you want to do is
+
+54
+00:01:26,269 --> 00:01:28,299
+connect a domain, okay?
+
+55
+00:01:28,329 --> 00:01:29,849
+So I prefer to just buy it from
+
+56
+00:01:29,930 --> 00:01:31,840
+Squarespace or Porkbun or wherever
+
+57
+00:01:31,840 --> 00:01:32,379
+else.
+
+58
+00:01:32,400 --> 00:01:33,680
+But if you want, you can just
+
+59
+00:01:33,680 --> 00:01:35,260
+purchase it directly through High
+
+60
+00:01:35,269 --> 00:01:35,760
+Level.
+
+61
+00:01:35,790 --> 00:01:37,730
+So to connect it, you're going to
+
+62
+00:01:37,730 --> 00:01:39,700
+click there on Connect Domain and
+
+63
+00:01:39,700 --> 00:01:41,239
+then choose this option right
+
+64
+00:01:41,489 --> 00:01:42,450
+here, okay?
+
+65
+00:01:43,489 --> 00:01:44,150
+So you're going to put your
+
+66
+00:01:44,180 --> 00:01:44,500
+domain.
+
+67
+00:01:44,519 --> 00:01:47,400
+So I'm just going to get my stuff
+
+68
+00:01:47,560 --> 00:01:48,620
+in here.
+
+69
+00:01:48,640 --> 00:01:49,290
+Give me one second.
+
+70
+00:01:49,329 --> 00:01:49,780
+All right.
+
+71
+00:01:49,799 --> 00:01:50,469
+All right.
+
+72
+00:01:50,510 --> 00:01:52,109
+So we're going to use one of our,
+
+73
+00:01:52,170 --> 00:01:53,930
+or one of my, you know, secondary
+
+74
+00:01:53,930 --> 00:01:54,650
+domains.
+
+75
+00:01:54,689 --> 00:01:55,579
+So I'm just going to put a
+
+76
+00:01:55,579 --> 00:01:56,420
+subdomain here.
+
+77
+00:01:56,439 --> 00:01:59,799
+So let's call test.begin.
+
+78
+00:02:00,189 --> 00:02:03,260
+But this could be your main
+
+79
+00:02:03,260 --> 00:02:04,689
+domain.
+
+80
+00:02:04,750 --> 00:02:06,890
+I'm using a subdomain mainly
+
+81
+00:02:06,980 --> 00:02:09,439
+because I don't have like a fake
+
+82
+00:02:09,439 --> 00:02:11,280
+domain to connect.
+
+83
+00:02:11,300 --> 00:02:13,319
+But put your domain in there.
+
+84
+00:02:13,710 --> 00:02:14,860
+Click Continue.
+
+85
+00:02:14,879 --> 00:02:16,180
+And then you're going to select
+
+86
+00:02:16,180 --> 00:02:17,520
+Add Record Manually, usually
+
+87
+00:02:17,520 --> 00:02:18,719
+because what will happen if you
+
+88
+00:02:18,719 --> 00:02:20,199
+click Continue and set up and try
+
+89
+00:02:20,199 --> 00:02:21,860
+to do it automatically, it's going
+
+90
+00:02:21,860 --> 00:02:22,469
+to think for a bit.
+
+91
+00:02:22,550 --> 00:02:23,460
+And then it's going to ask you to
+
+92
+00:02:23,460 --> 00:02:24,360
+do it manually anyways.
+
+93
+00:02:24,870 --> 00:02:26,560
+So just click Add Record Manually
+
+94
+00:02:26,560 --> 00:02:28,219
+and then just copy the records it
+
+95
+00:02:28,219 --> 00:02:28,990
+gives you.
+
+96
+00:02:29,030 --> 00:02:30,139
+If you're connecting your main
+
+97
+00:02:30,199 --> 00:02:31,400
+domain, you're going to have two
+
+98
+00:02:31,400 --> 00:02:31,889
+records.
+
+99
+00:02:31,930 --> 00:02:32,990
+It's going to be an A record and a
+
+100
+00:02:32,990 --> 00:02:33,419
+C name.
+
+101
+00:02:33,800 --> 00:02:34,849
+Because I'm doing a subdomain,
+
+102
+00:02:34,849 --> 00:02:36,250
+it's going to give me the C name,
+
+103
+00:02:36,250 --> 00:02:36,729
+okay?
+
+104
+00:02:36,780 --> 00:02:38,930
+But it's the same exact process.
+
+105
+00:02:39,050 --> 00:02:40,439
+We're going to go to your domain
+
+106
+00:02:40,439 --> 00:02:41,139
+registrar.
+
+107
+00:02:41,530 --> 00:02:42,240
+Click on DNS.
+
+108
+00:02:42,590 --> 00:02:44,259
+Add a record here.
+
+109
+00:02:44,650 --> 00:02:46,080
+Okay.
+
+110
+00:02:46,110 --> 00:02:47,629
+It's asking me to verify, so give
+
+111
+00:02:47,710 --> 00:02:48,439
+me a second.
+
+112
+00:02:48,830 --> 00:02:50,990
+There we go.
+
+113
+00:02:51,020 --> 00:02:52,500
+You're going to put the host,
+
+114
+00:02:52,500 --> 00:02:54,219
+which it gives you right there.
+
+115
+00:02:54,240 --> 00:02:55,539
+Make sure to select the correct
+
+116
+00:02:55,539 --> 00:02:56,039
+record.
+
+117
+00:02:56,430 --> 00:03:00,900
+Then the required value.
+
+118
+00:03:01,289 --> 00:03:04,860
+And then save.
+
+119
+00:03:05,250 --> 00:03:05,879
+Okay.
+
+120
+00:03:05,900 --> 00:03:07,960
+So once you do that, you're going
+
+121
+00:03:07,960 --> 00:03:10,169
+to click here, verify records.
+
+122
+00:03:10,210 --> 00:03:11,319
+You're going to let it think for a
+
+123
+00:03:11,379 --> 00:03:12,080
+couple seconds.
+
+124
+00:03:15,729 --> 00:03:16,810
+I'm going to pause here while we
+
+125
+00:03:16,810 --> 00:03:17,159
+wait.
+
+126
+00:03:17,180 --> 00:03:18,039
+All right.
+
+127
+00:03:18,090 --> 00:03:19,449
+So once you finish connecting your
+
+128
+00:03:19,449 --> 00:03:20,879
+domain, it'll just automatically
+
+129
+00:03:20,879 --> 00:03:22,259
+send you to this page right here.
+
+130
+00:03:22,280 --> 00:03:24,009
+And here you can just link any
+
+131
+00:03:24,009 --> 00:03:25,780
+funnels with your domain.
+
+132
+00:03:25,810 --> 00:03:26,800
+So if you have a website built
+
+133
+00:03:26,800 --> 00:03:28,159
+out, you could click on Website.
+
+134
+00:03:28,550 --> 00:03:29,300
+Okay.
+
+135
+00:03:29,340 --> 00:03:30,860
+And then select any websites you
+
+136
+00:03:30,860 --> 00:03:32,039
+have, like this one.
+
+137
+00:03:32,069 --> 00:03:33,060
+Or if you prefer to connect
+
+138
+00:03:33,060 --> 00:03:34,409
+directly to a funnel, you can just
+
+139
+00:03:34,409 --> 00:03:35,620
+select Funnel and then click
+
+140
+00:03:35,620 --> 00:03:36,949
+whichever one you want to use.
+
+141
+00:03:37,129 --> 00:03:39,159
+So let's say we go with a website.
+
+142
+00:03:39,550 --> 00:03:40,699
+Okay.
+
+143
+00:03:40,719 --> 00:03:41,840
+Then you're going to select which
+
+144
+00:03:41,900 --> 00:03:42,689
+one is the homepage.
+
+145
+00:03:42,719 --> 00:03:44,330
+It's obviously home.
+
+146
+00:03:44,360 --> 00:03:46,099
+And then additional options.
+
+147
+00:03:46,129 --> 00:03:47,569
+If you want to have like an error
+
+148
+00:03:47,569 --> 00:03:49,000
+page created, you could add that
+
+149
+00:03:49,159 --> 00:03:49,740
+in here.
+
+150
+00:03:49,770 --> 00:03:51,409
+Or you could just go ahead and
+
+151
+00:03:51,430 --> 00:03:53,250
+select the homepage as well for
+
+152
+00:03:53,250 --> 00:03:54,180
+the agency.
+
+153
+00:03:54,199 --> 00:03:54,340
+Right.
+
+154
+00:03:54,500 --> 00:03:55,780
+And then you click Proceed to
+
+155
+00:03:55,780 --> 00:03:56,319
+Finish.
+
+156
+00:03:56,710 --> 00:04:01,039
+And again, it's going to think for
+
+157
+00:04:01,039 --> 00:04:02,719
+a little bit.
+
+158
+00:04:03,110 --> 00:04:05,879
+And then we're good to go.
+
+159
+00:04:05,900 --> 00:04:06,159
+Okay.
+
+160
+00:04:06,189 --> 00:04:07,039
+So we've got this one here.
+
+161
+00:04:07,080 --> 00:04:08,770
+If you ever want to edit
+
+162
+00:04:08,770 --> 00:04:11,289
+something, you click Manage and
+
+163
+00:04:11,289 --> 00:04:13,520
+you can connect a new thing,
+
+164
+00:04:13,520 --> 00:04:13,810
+right?
+
+165
+00:04:13,849 --> 00:04:15,520
+A new website funnel or set
+
+166
+00:04:15,520 --> 00:04:17,939
+another default page if you want.
+
+167
+00:04:18,329 --> 00:04:18,800
+Right.
+
+168
+00:04:18,819 --> 00:04:20,970
+So pretty easy to follow.
+
+169
+00:04:21,060 --> 00:04:21,899
+All right.
+
+170
+00:04:23,560 --> 00:04:25,490
+From there, we have the custom
+
+171
+00:04:25,529 --> 00:04:26,399
+values.
+
+172
+00:04:26,680 --> 00:04:26,899
+Okay.
+
+173
+00:04:26,930 --> 00:04:28,459
+So custom values, essentially a
+
+174
+00:04:28,529 --> 00:04:30,009
+value that is the same across the
+
+175
+00:04:30,009 --> 00:04:31,029
+full subaccount.
+
+176
+00:04:31,060 --> 00:04:31,399
+Okay.
+
+177
+00:04:31,420 --> 00:04:33,509
+And you can use it to customize
+
+178
+00:04:33,509 --> 00:04:35,980
+like your website landing pages in
+
+179
+00:04:35,980 --> 00:04:37,420
+a much easier way than having
+
+180
+00:04:37,660 --> 00:04:39,670
+to upload a new image or link or
+
+181
+00:04:39,670 --> 00:04:41,860
+whatever every single time.
+
+182
+00:04:41,879 --> 00:04:43,410
+Let me show you how I use it.
+
+183
+00:04:43,439 --> 00:04:45,879
+So to update a custom value.
+
+184
+00:04:45,949 --> 00:04:47,379
+So let's use the account logo, for
+
+185
+00:04:47,379 --> 00:04:47,959
+example.
+
+186
+00:04:48,329 --> 00:04:48,540
+Right.
+
+187
+00:04:48,589 --> 00:04:50,110
+So to edit it, you're going to
+
+188
+00:04:50,110 --> 00:04:51,750
+click here and then edit custom
+
+189
+00:04:51,750 --> 00:04:52,980
+value and put in the value
+
+190
+00:04:53,000 --> 00:04:53,920
+that you want to use.
+
+191
+00:04:53,939 --> 00:04:54,379
+Okay.
+
+192
+00:04:54,399 --> 00:04:56,779
+So for an account logo, right?
+
+193
+00:04:56,810 --> 00:04:57,990
+So let's say you want to use your
+
+194
+00:04:57,990 --> 00:04:58,329
+logo.
+
+195
+00:04:58,379 --> 00:04:59,910
+What you want to do is go to media
+
+196
+00:04:59,990 --> 00:05:02,319
+storage, upload, and then select
+
+197
+00:05:02,360 --> 00:05:04,180
+whatever logo you want to use.
+
+198
+00:05:04,199 --> 00:05:05,439
+Now I'm just going to pick any
+
+199
+00:05:05,439 --> 00:05:06,449
+random image here.
+
+200
+00:05:06,480 --> 00:05:08,629
+Let's say this one, get link.
+
+201
+00:05:10,160 --> 00:05:12,240
+Go back to settings, custom
+
+202
+00:05:12,240 --> 00:05:14,689
+values, and then edit the custom
+
+203
+00:05:14,689 --> 00:05:15,519
+value.
+
+204
+00:05:15,550 --> 00:05:16,899
+We're going to paste that link
+
+205
+00:05:16,899 --> 00:05:17,939
+here and update it.
+
+206
+00:05:17,959 --> 00:05:20,689
+So what this does then is if the
+
+207
+00:05:20,689 --> 00:05:23,420
+custom value is added inside the
+
+208
+00:05:23,670 --> 00:05:26,199
+funnel or website in the logo
+
+209
+00:05:26,199 --> 00:05:27,899
+field or in the image field for
+
+210
+00:05:27,899 --> 00:05:28,389
+the logo,
+
+211
+00:05:28,600 --> 00:05:30,300
+then it'll automatically update to
+
+212
+00:05:30,300 --> 00:05:31,680
+whatever we have in here.
+
+213
+00:05:31,699 --> 00:05:34,410
+So to add it into a website, you
+
+214
+00:05:34,410 --> 00:05:35,970
+would just click the custom value
+
+215
+00:05:35,980 --> 00:05:36,310
+key.
+
+216
+00:05:36,709 --> 00:05:38,959
+Then you would go into the sides.
+
+217
+00:05:38,980 --> 00:05:40,149
+And again, just to show you
+
+218
+00:05:40,149 --> 00:05:41,740
+quickly how custom values work.
+
+219
+00:05:42,259 --> 00:05:44,220
+And then assuming it's added in
+
+220
+00:05:44,220 --> 00:05:46,139
+here, if we open up the page,
+
+221
+00:05:46,139 --> 00:05:48,259
+you'll see it right here, right?
+
+222
+00:05:49,579 --> 00:05:51,629
+So let me go back to our other
+
+223
+00:05:51,629 --> 00:05:52,279
+page.
+
+224
+00:05:52,560 --> 00:05:54,740
+And just to quickly show you what
+
+225
+00:05:54,800 --> 00:05:57,110
+that looks like or where to put
+
+226
+00:05:57,110 --> 00:05:58,139
+that key.
+
+227
+00:05:58,170 --> 00:06:01,970
+So here's the image and here's the
+
+228
+00:06:01,970 --> 00:06:05,589
+image, you know, link would go
+
+229
+00:06:05,589 --> 00:06:06,759
+here.
+
+230
+00:06:06,790 --> 00:06:08,050
+So we just put a custom value
+
+231
+00:06:08,050 --> 00:06:09,050
+instead, right?
+
+232
+00:06:09,110 --> 00:06:10,189
+So whenever you put the custom
+
+233
+00:06:10,189 --> 00:06:11,250
+value or wherever you put the
+
+234
+00:06:11,250 --> 00:06:13,139
+custom value, it will populate
+
+235
+00:06:13,139 --> 00:06:15,660
+whatever value is in there, right?
+
+236
+00:06:15,689 --> 00:06:17,410
+It's inside the key or the code
+
+237
+00:06:17,410 --> 00:06:18,379
+here, okay?
+
+238
+00:06:19,490 --> 00:06:20,399
+So that's how they work.
+
+239
+00:06:20,420 --> 00:06:21,949
+And I have created three for you
+
+240
+00:06:22,029 --> 00:06:23,120
+guys to start with.
+
+241
+00:06:23,149 --> 00:06:23,990
+You can create as many as you
+
+242
+00:06:24,040 --> 00:06:24,360
+want.
+
+243
+00:06:24,639 --> 00:06:26,930
+But we have a logo, a booking page
+
+244
+00:06:26,939 --> 00:06:27,639
+link.
+
+245
+00:06:27,670 --> 00:06:28,860
+So whenever you create your
+
+246
+00:06:28,860 --> 00:06:30,279
+booking page, you just take the
+
+247
+00:06:30,279 --> 00:06:31,990
+link, click the three dots, edit,
+
+248
+00:06:32,009 --> 00:06:33,120
+and then paste the booking link
+
+249
+00:06:33,329 --> 00:06:33,500
+here.
+
+250
+00:06:33,519 --> 00:06:34,920
+That way, when you create
+
+251
+00:06:34,920 --> 00:06:36,910
+automations for yourself, right,
+
+252
+00:06:36,910 --> 00:06:38,720
+for follow-ups or whatever it may
+
+253
+00:06:38,740 --> 00:06:38,980
+be,
+
+254
+00:06:39,079 --> 00:06:40,769
+you just take this value and you
+
+255
+00:06:40,769 --> 00:06:42,540
+put it in there instead of having
+
+256
+00:06:42,550 --> 00:06:43,970
+to go and find the booking link
+
+257
+00:06:44,300 --> 00:06:45,790
+for your business, okay?
+
+258
+00:06:45,920 --> 00:06:47,339
+And same thing with colors is
+
+259
+00:06:47,339 --> 00:06:49,160
+similar to the account logo idea.
+
+260
+00:06:49,670 --> 00:06:52,470
+For the websites or landing pages,
+
+261
+00:06:52,470 --> 00:06:55,279
+you just pretty much in the color
+
+262
+00:06:55,279 --> 00:06:57,959
+selector thing, instead of a hex
+
+263
+00:06:57,959 --> 00:06:59,459
+code, just put the custom value
+
+264
+00:06:59,459 --> 00:07:00,689
+and it'll populate your actual
+
+265
+00:07:00,759 --> 00:07:02,810
+company color, okay?
+
+266
+00:07:03,250 --> 00:07:04,850
+So that's pretty much on how to
+
+267
+00:07:04,879 --> 00:07:06,500
+take the first couple steps in
+
+268
+00:07:06,579 --> 00:07:08,560
+setting up your snapshot, okay?
+
+269
+00:07:08,589 --> 00:07:10,079
+If you run into any issues, let me
+
+270
+00:07:10,079 --> 00:07:11,660
+know and I'll be happy to help.
+
+271
+00:07:11,689 --> 00:07:12,199
+Bye.

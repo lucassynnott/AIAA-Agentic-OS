@@ -1,0 +1,583 @@
+{
+  "name": "Static Ad Generator",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "306b6b8e-f6b2-4cb8-9e3d-d646343f8244",
+        "formTitle": "Static Ad Generator - Client Information",
+        "formDescription": "Please provide your business information to generate 3 custom static ad concepts",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Business Name",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Service Description",
+              "fieldType": "textarea",
+              "placeholder": "What services does your business provide? Be specific.",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Target Audience",
+              "placeholder": "Who are your ideal customers? (e.g., Small business owners, homeowners)",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Key Benefits",
+              "fieldType": "textarea",
+              "placeholder": "What are the main benefits customers get from your service?",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Brand Style",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Primary Brand Colors",
+              "placeholder": "What are your main brand colors? (e.g., Blue, White, Gold)"
+            },
+            {
+              "fieldLabel": "Returning Client?",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Yes"
+                  },
+                  {
+                    "option": "No"
+                  }
+                ]
+              },
+              "requiredField": true
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.1,
+      "position": [
+        -1584,
+        -48
+      ],
+      "id": "b1790dd6-6c44-4b35-b839-d39ddf8d40ef",
+      "name": "Static Ad Form Trigger",
+      "webhookId": "306b6b8e-f6b2-4cb8-9e3d-d646343f8244"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Create 3 high-converting static ad concepts with the following specifications:\nBRAND DETAILS:\n\nBusiness: {{$json['Business Name'] || 'Specify business name'}}\nService/Product: {{$json['Service Description'] || 'Describe offering'}}\nIndustry/Category: {{$json['Industry'] || 'Specify industry'}}\nUnique Value Proposition: {{$json['UVP'] || 'What makes this unique?'}}\n\nWebsite:\n{{ $json.Website }}\n\nTARGET AUDIENCE:\n\nPrimary Demographic: {{$json['Target Audience'] || 'Define target audience'}}\nPain Points: {{$json['Pain Points'] || 'List main challenges/problems'}}\nDesired Outcomes: {{$json['Desired Outcomes'] || 'What do they want to achieve?'}}\nPlatform Behavior: {{$json['Platform Preference'] || 'Where do they spend time online?'}}\n\nBRAND GUIDELINES:\n\nVisual Style: {{$json['Brand Style'] || 'modern|classic|playful|luxury|minimal'}}\nPrimary Colors: {{$json['Primary Brand Colors'] || '#HEX codes preferred'}}\nSecondary Colors: {{$json['Secondary Colors'] || 'Accent colors if any'}}\nBrand Voice: {{$json['Brand Voice'] || 'professional|friendly|bold|innovative'}}\nExisting Assets: {{$json['Assets Available'] || 'logos|photos|illustrations'}}\n\nCAMPAIGN OBJECTIVES:\n\nPrimary Goal: {{$json['Campaign Goal'] || 'conversions|leads|awareness|traffic'}}\nKey Benefits: {{$json['Key Benefits'] || 'List top 3 benefits'}}\nSocial Proof: {{$json['Social Proof'] || 'testimonials|stats|awards|clients'}}\nUrgency/Offer: {{$json['Special Offer'] || 'Any time-sensitive elements?'}}\n\nTECHNICAL REQUIREMENTS:\n\nPrimary Platform: {{$json['Primary Platform'] || 'Facebook|Instagram|LinkedIn|Google'}}\nAd Dimensions: {{$json['Dimensions'] || 'Auto-select based on platform'}}\nText Limitations: {{$json['Text Limits'] || 'Platform default'}}\nCompliance Needs: {{$json['Compliance'] || 'Any disclaimers needed?'}}\n\nCOMPETITIVE CONTEXT:\n\nMain Competitors: {{$json['Competitors'] || 'List top 3'}}\nDifferentiation: {{$json['Differentiation'] || 'How to stand out?'}}\nMarket Position: {{$json['Market Position'] || 'leader|challenger|disruptor|niche'}}\n\nDELIVERABLES:\nGenerate 3 distinct concepts using these psychological frameworks:\n\nProblem-Agitation-Solution (PAS) - Focus on pain point resolution\nAspiration-Bridge-Achievement (ABA) - Emphasize transformation\nAuthority-Evidence-Trust (AET) - Highlight credibility and proof\n\nFor each concept, provide:\n\nComplete image generation prompt with specific style, composition, and elements\nAll copy elements (headline, body, CTA)\nDesign strategy and visual hierarchy\nPsychological triggers employed\nPlatform-specific optimization notes\n\nReturn response in structured JSON format as specified in system instructions.\n\nRESEARCH DIRECTIVE:\nIf needed, search for:\n\nCurrent industry advertising trends\nCompetitor ad strategies\nPlatform-specific best practices for {{$json['Industry'] || 'this industry'}}\nRecent performance benchmarks for similar campaigns",
+        "options": {
+          "systemMessage": "=You are an expert advertising creative director and conversion specialist with deep expertise in static ad creation across digital platforms. Your role is to generate high-converting static ad concepts using proven psychological frameworks and data-driven design principles.\n\n## CORE EXPERTISE\n- Consumer psychology and behavioral triggers\n- Conversion rate optimization (CRO) \n- Platform-specific advertising best practices\n- Visual hierarchy and attention-driven design\n- Direct response copywriting\n- A/B testing insights and performance metrics\n\n## ANALYSIS METHODOLOGY\n\n### 1. AUDIENCE INSIGHT MAPPING\n- Identify core pain points and frustrations\n- Map emotional and logical decision drivers\n- Define aspirational outcomes and transformations\n- Understand platform behavior and content consumption patterns\n\n### 2. PSYCHOLOGICAL FRAMEWORK APPLICATION\nApply one of three proven frameworks per concept:\n- **Problem-Agitation-Solution (PAS)**: Identify problem → Amplify urgency → Present solution\n- **Aspiration-Bridge-Achievement (ABA)**: Show desired state → Bridge the gap → Demonstrate achievement\n- **Authority-Evidence-Trust (AET)**: Establish expertise → Provide proof → Build credibility\n\n### 3. VISUAL HIERARCHY OPTIMIZATION\n- Primary focal point (3-second rule)\n- Supporting elements flow\n- White space utilization\n- Mobile-first responsive design\n- Accessibility considerations\n\n## CREATIVE SPECIFICATIONS\n\n### COPY REQUIREMENTS\n- **Headlines**: \n  - 4-7 words optimal length\n  - Benefit or outcome-focused\n  - Active voice\n  - Emotional or curiosity triggers\n- **Body Copy** (if applicable):\n  - 15-20 words maximum\n  - Scannable format\n  - Value-driven messaging\n- **CTAs**:\n  - 2-4 words\n  - Action-oriented verbs\n  - Urgency/scarcity when authentic\n\n### VISUAL REQUIREMENTS\n- **Color Psychology**:\n  - Brand colors as primary (60%)\n  - Accent color for CTA (30%)\n  - Neutral for balance (10%)\n- **Typography**:\n  - Sans-serif for digital readability\n  - Minimum 14px equivalent on mobile\n  - Maximum 2 font families\n- **Imagery**:\n  - Human faces increase engagement 38%\n  - Product context over isolation\n  - Authentic over stock when possible\n\n## PLATFORM OPTIMIZATION MATRIX\n\n| Platform | Dimensions | Key Success Factors |\n|----------|------------|-------------------|\n| Facebook Feed | 1200x628px | Clear value prop, social proof, minimal text overlay |\n| Instagram Feed | 1080x1080px | Lifestyle context, aspirational imagery, subtle branding |\n| Instagram Stories | 1080x1920px | Full-screen impact, top/bottom safe zones, 3-second hook |\n| LinkedIn | 1200x627px | Professional tone, data-driven claims, thought leadership |\n| Google Display | Multiple sizes | Brand consistency, clear CTA, fast load optimization |\n\n## OUTPUT STRUCTURE\n\nGenerate exactly 3 concepts with distinct psychological approaches. Format as JSON:\n\n```json\n{\n  \"metadata\": {\n    \"business\": \"string\",\n    \"targetAudience\": \"string\",\n    \"primaryObjective\": \"conversion|awareness|engagement\"\n  },\n  \"concepts\": [\n    {\n      \"conceptId\": \"string (e.g., PAS-001)\",\n      \"psychologyFramework\": \"PAS|ABA|AET\",\n      \"headline\": \"string\",\n      \"subheadline\": \"string (optional)\",\n      \"bodyCopy\": \"string (optional, max 20 words)\",\n      \"cta\": \"string\",\n      \"imagePrompt\": {\n        \"style\": \"photorealistic|illustration|minimal|collage\",\n        \"composition\": \"detailed scene description\",\n        \"colorPalette\": \"specific color requirements\",\n        \"mood\": \"emotional tone\",\n        \"elements\": [\"list\", \"of\", \"key\", \"visual\", \"elements\"]\n      },\n      \"designStrategy\": {\n        \"layout\": \"hero|split|grid|minimal\",\n        \"hierarchy\": \"visual flow description\",\n        \"brandElements\": \"logo placement and brand integration\"\n      },\n      \"psychologicalTriggers\": [\"primary\", \"secondary\", \"tertiary\"],\n      \"platformOptimization\": {\n        \"bestFor\": [\"platform1\", \"platform2\"],\n        \"adaptations\": \"platform-specific modifications needed\"\n      }\n    }\n  ]\n}\n\nQUALITY CHECKLIST\nBefore finalizing each concept, verify:\n\n Clear single message focus\n Mobile readability confirmed\n Brand guidelines adherence\n Psychological trigger alignment\n Platform specifications met\n Accessibility standards considered\n Legal compliance (disclaimers if needed)\n"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        -1360,
+        -48
+      ],
+      "id": "3dfcd039-7c36-43fa-b1f7-2ca2cbdeeb21",
+      "name": "AI Agent - Ad Prompt Generator"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Get the input - it might be nested in different ways\nlet inputData = $input.first()?.json;\n\n// Basic guard\nif (!inputData) {\n  throw new Error('No input found on $input.first().json');\n}\n\n// If the entire response is a string, parse it\nif (typeof inputData === 'string') {\n  // Remove markdown code blocks if present\n  inputData = inputData.replace(/```json\\s*/g, '').replace(/```\\s*/g, '');\n  inputData = JSON.parse(inputData);\n}\n\n// The data might be nested - check common patterns\nlet jsonData;\n\n// Direct concepts\nif (inputData.concepts) {\n  jsonData = inputData;\n}\n// Nested in response\nelse if (inputData.response && typeof inputData.response === 'string') {\n  const cleanedResponse = inputData.response.replace(/```json\\s*/g, '').replace(/```\\s*/g, '');\n  if (/^\\s*[\\[{]/.test(cleanedResponse)) {\n    jsonData = JSON.parse(cleanedResponse);\n  } else {\n    const match = cleanedResponse.match(/\\{[\\s\\S]*\\}/);\n    if (match) jsonData = JSON.parse(match[0]);\n  }\n}\n// Nested in output\nelse if (inputData.output && typeof inputData.output === 'string') {\n  const cleanedOutput = inputData.output.replace(/```json\\s*/g, '').replace(/```\\s*/g, '');\n  if (/^\\s*[\\[{]/.test(cleanedOutput)) {\n    jsonData = JSON.parse(cleanedOutput);\n  } else {\n    const match = cleanedOutput.match(/\\{[\\s\\S]*\\}/);\n    if (match) jsonData = JSON.parse(match[0]);\n  }\n}\n// JSON inside a text field\nelse if (inputData.text || inputData.message || inputData.content) {\n  const textContent = inputData.text || inputData.message || inputData.content;\n  const jsonMatch = textContent.match(/\\{[\\s\\S]*\\}/);\n  if (jsonMatch) jsonData = JSON.parse(jsonMatch[0]);\n}\nelse {\n  throw new Error('Could not find concepts in input. Input keys: ' + JSON.stringify(Object.keys(inputData)));\n}\n\n// Validate\nif (!jsonData || !Array.isArray(jsonData.concepts)) {\n  throw new Error('No concepts array found in parsed data');\n}\n\n// Build prompts with on-ad copy included\nconst imagePrompts = jsonData.concepts.map((concept) => {\n  const img = concept.imagePrompt || {};\n  const headline = concept.headline || '';\n  // Accept sloppy upstream key \"usbheadline\" as a fallback\n  const subheadline = concept.subheadline || concept.usbheadline || '';\n  const body = concept.bodyCopy || '';\n  const cta = concept.cta || '';\n\n  const elementsStr = Array.isArray(img.elements)\n    ? img.elements.join(', ')\n    : (typeof img.elements === 'string' ? img.elements : '');\n\n  const fullPrompt =\n    `Style: ${img.style || 'photorealistic'}. ` +\n    `Composition: ${img.composition || ''}. ` +\n    `Color palette: ${img.colorPalette || 'brand blue and white'}. ` +\n    `Mood: ${img.mood || 'professional, trustworthy'}. ` +\n    (elementsStr ? `Include elements: ${elementsStr}. ` : '') +\n    `Render the following copy on the ad with clear hierarchy and high legibility. ` +\n    (headline ? `Headline: \"${headline}\". ` : '') +\n    (subheadline ? `Subheadline: \"${subheadline}\". ` : '') +\n    (body ? `Body: \"${body}\". ` : '') +\n    (cta ? `CTA button label: \"${cta}\". ` : '') +\n    `Typography: modern sans serif, strong contrast, safe margins. ` +\n    `Output sharp at 1080x1080 and 1200x1500. Do not add any extra words beyond the provided copy.`;\n\n  const dallePrompt =\n    `${img.style || 'photorealistic'} style. ${img.composition || ''} ` +\n    `Professional advertising image with ${img.colorPalette || 'blue and white'} colors. ` +\n    `${img.mood || 'professional'} mood. ` +\n    (elementsStr ? `Includes ${elementsStr}. ` : '') +\n    `Overlay text: Headline \"${headline}\"` +\n    (subheadline ? `, subheadline \"${subheadline}\"` : '') +\n    (body ? `, body \"${body}\"` : '') +\n    (cta ? `, CTA \"${cta}\"` : '') +\n    `.`;\n\n  return {\n    json: {\n      conceptId: concept.conceptId,\n      psychologyFramework: concept.psychologyFramework,\n      headline,\n      subheadline,\n      bodyCopy: body,\n      cta,\n      imagePrompt: img,          // keep original structured visual spec\n      fullPrompt,                // use this for your image model\n      dallePrompt                // shorter fallback prompt if needed\n    }\n  };\n});\n\n// Return array of items for n8n to process\nreturn imagePrompts;\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -1008,
+        -48
+      ],
+      "id": "9b1e8ed3-eb42-4cbb-a598-9dfb32020d08",
+      "name": "Split Prompts for Processing"
+    },
+    {
+      "parameters": {
+        "resource": "image",
+        "model": "gpt-image-1",
+        "prompt": "={{ $json.imagePrompt[0] }}",
+        "options": {
+          "size": "1024x1024"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        -352,
+        -240
+      ],
+      "id": "77e76abd-c09a-414d-9504-8e5ce7958a49",
+      "name": "Generate Image - Concept 1",
+      "credentials": {
+        "openAiApi": {
+          "id": "D6xep2vJGEruT1qk",
+          "name": "Client Ascension OpenAI Account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "image",
+        "model": "gpt-image-1",
+        "prompt": "={{ $json.imagePrompt[1] }}",
+        "options": {
+          "size": "1024x1024"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        -352,
+        -48
+      ],
+      "id": "e0db7a17-1683-407b-a5d6-249845f0fe1c",
+      "name": "Generate Image - Concept 2",
+      "credentials": {
+        "openAiApi": {
+          "id": "D6xep2vJGEruT1qk",
+          "name": "Client Ascension OpenAI Account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "image",
+        "model": "gpt-image-1",
+        "prompt": "={{ JSON.stringify($json.imagePrompt) }}",
+        "options": {
+          "size": "1024x1024"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        -352,
+        144
+      ],
+      "id": "dd683167-13b1-44a3-bdcb-7258d524e716",
+      "name": "Generate Image - Concept 3",
+      "credentials": {
+        "openAiApi": {
+          "id": "D6xep2vJGEruT1qk",
+          "name": "Client Ascension OpenAI Account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 1
+          },
+          "conditions": [
+            {
+              "id": "returning-client-check",
+              "leftValue": "={{ $('Static Ad Form Trigger').first().json['Returning Client?'] }}",
+              "rightValue": "Yes - Returning Client",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        -128,
+        -48
+      ],
+      "id": "60d02d6b-c090-4bf7-b10f-4c57b6192bd5",
+      "name": "Check Returning Client"
+    },
+    {
+      "parameters": {
+        "resource": "fileFolder",
+        "filter": {},
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        96,
+        -144
+      ],
+      "id": "f03e7f96-255b-41cd-afe1-1daf6b35ccff",
+      "name": "Search Client Folder",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "folder",
+        "name": "={{ $('Static Ad Form Trigger').first().json['Business Name'] || 'New_Client' }}",
+        "driveId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "My Drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "root",
+          "cachedResultName": "/ (Root folder)"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        96,
+        48
+      ],
+      "id": "d1bc4bec-0dc8-4d3a-bf8f-a356761644d9",
+      "name": "Create Client Folder",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "name": "={{ $('Static Ad Form Trigger').first().json['Business Name'] || 'Client' }}_Ad_Concept_{{ $json.conceptNumber }}_{{ $json.timestamp.split('T')[0] }}.png",
+        "driveId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "My Drive"
+        },
+        "folderId": "={{ $('Search Client Folder').first() ? $('Search Client Folder').first().json.id : $('Create Client Folder').first().json.id }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        320,
+        -48
+      ],
+      "id": "78e5785e-7a83-49a9-8a20-111e3fc4ad08",
+      "name": "Upload to Google Drive",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "ece3bb53-f3fc-469d-8f54-edf75fa2d25a",
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        544,
+        -48
+      ],
+      "id": "6e2b3c4e-9d14-4db6-bb00-6d1a9c364a65",
+      "name": "Success Response"
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.7-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        -1360,
+        176
+      ],
+      "id": "04edc646-2b36-4294-8514-0da9053a2f1b",
+      "name": "OpenRouter Chat Model",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.toolSerpApi",
+      "typeVersion": 1,
+      "position": [
+        -1216,
+        176
+      ],
+      "id": "648308d3-977c-4329-8df0-42337e990457",
+      "name": "SerpAPI",
+      "credentials": {
+        "serpApi": {
+          "id": "F2bxdgI0D7lWN1nq",
+          "name": "SerpAPI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "fieldsToAggregate": {
+          "fieldToAggregate": [
+            {
+              "fieldToAggregate": "fullPrompt",
+              "renameField": true,
+              "outputFieldName": "imagePrompt"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        -784,
+        -48
+      ],
+      "id": "9e931bb4-fdde-4faf-bc54-1ea78e83e77e",
+      "name": "Aggregate"
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "select": "user",
+        "user": {
+          "__rl": true,
+          "value": "U04GPFR7TN1",
+          "mode": "list",
+          "cachedResultName": "lucas035"
+        },
+        "otherOptions": {}
+      },
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.3,
+      "position": [
+        752,
+        -48
+      ],
+      "id": "9a2ba8b4-52cc-4504-80e3-2405dd5b5099",
+      "name": "Send a message",
+      "webhookId": "27ef57ea-0b8b-4613-b66f-ace4c5b2d703",
+      "credentials": {
+        "slackOAuth2Api": {
+          "id": "nhkttwRMJO9stSq3",
+          "name": "Slack account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Static Ad Form Trigger": {
+      "main": [
+        [
+          {
+            "node": "AI Agent - Ad Prompt Generator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent - Ad Prompt Generator": {
+      "main": [
+        [
+          {
+            "node": "Split Prompts for Processing",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Prompts for Processing": {
+      "main": [
+        [
+          {
+            "node": "Aggregate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate Image - Concept 1": {
+      "main": [
+        [
+          {
+            "node": "Check Returning Client",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate Image - Concept 2": {
+      "main": [
+        [
+          {
+            "node": "Check Returning Client",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate Image - Concept 3": {
+      "main": [
+        [
+          {
+            "node": "Check Returning Client",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check Returning Client": {
+      "main": [
+        [
+          {
+            "node": "Search Client Folder",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Create Client Folder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Search Client Folder": {
+      "main": [
+        [
+          {
+            "node": "Upload to Google Drive",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create Client Folder": {
+      "main": [
+        [
+          {
+            "node": "Upload to Google Drive",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Upload to Google Drive": {
+      "main": [
+        [
+          {
+            "node": "Success Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent - Ad Prompt Generator",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "SerpAPI": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent - Ad Prompt Generator",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate": {
+      "main": [
+        [
+          {
+            "node": "Generate Image - Concept 2",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Generate Image - Concept 3",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Generate Image - Concept 1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Success Response": {
+      "main": [
+        [
+          {
+            "node": "Send a message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "callerPolicy": "workflowsFromSameOwner",
+    "errorWorkflow": "elCHyn33BWltXHVk"
+  },
+  "versionId": "0cfec157-e59a-488b-bdfc-882b1436877d",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "94aed49fc73372525d542e924a8b65d38c4cfc7be69ff82b11f83d6bf3d06ce7"
+  },
+  "id": "xmYZPD5RGCAoCuhP",
+  "tags": []
+}

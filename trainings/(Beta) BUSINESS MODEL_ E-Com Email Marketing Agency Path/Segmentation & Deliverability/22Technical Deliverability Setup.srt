@@ -1,0 +1,819 @@
+1
+00:00:00,070 --> 00:00:02,640
+Okay, so technical deliverability
+
+2
+00:00:02,640 --> 00:00:03,229
+setup.
+
+3
+00:00:03,399 --> 00:00:05,639
+This is just like the first step
+
+4
+00:00:05,639 --> 00:00:06,360
+that you need to do,
+
+5
+00:00:06,419 --> 00:00:07,820
+which you might already have all
+
+6
+00:00:07,870 --> 00:00:09,589
+of this set up, but you might not.
+
+7
+00:00:09,750 --> 00:00:11,140
+If you're starting like a new
+
+8
+00:00:11,199 --> 00:00:12,550
+account, new domain, then you're
+
+9
+00:00:12,550 --> 00:00:13,730
+going to need to make sure that
+
+10
+00:00:13,730 --> 00:00:14,369
+all this is set.
+
+11
+00:00:14,539 --> 00:00:15,689
+But super duper
+
+12
+00:00:15,759 --> 00:00:16,160
+easy.
+
+13
+00:00:16,170 --> 00:00:18,179
+So seems very complex, but again,
+
+14
+00:00:18,179 --> 00:00:19,859
+most domains already have the
+
+15
+00:00:19,859 --> 00:00:21,399
+correct records in place,
+
+16
+00:00:21,480 --> 00:00:22,460
+maybe one missing.
+
+17
+00:00:22,500 --> 00:00:23,940
+So you need to make sure that you
+
+18
+00:00:23,940 --> 00:00:24,629
+have these.
+
+19
+00:00:24,629 --> 00:00:26,149
+You need to make sure that you
+
+20
+00:00:26,239 --> 00:00:27,219
+have SPF, you need to make sure
+
+21
+00:00:27,260 --> 00:00:28,260
+you have DMARC, and you need to
+
+22
+00:00:28,260 --> 00:00:29,320
+make sure that you have DKIM.
+
+23
+00:00:29,379 --> 00:00:31,780
+You can use this website here,
+
+24
+00:00:31,780 --> 00:00:34,509
+GlockApps, to just see if you have
+
+25
+00:00:34,509 --> 00:00:35,750
+everything.
+
+26
+00:00:35,750 --> 00:00:37,520
+Super duper easy.
+
+27
+00:00:37,520 --> 00:00:37,780
+You
+
+28
+00:00:37,840 --> 00:00:39,000
+can just create like a free
+
+29
+00:00:39,000 --> 00:00:39,530
+account.
+
+30
+00:00:39,579 --> 00:00:40,240
+Super easy.
+
+31
+00:00:40,240 --> 00:00:41,679
+Or you can do like a spam checker
+
+32
+00:00:41,679 --> 00:00:42,479
+right here.
+
+33
+00:00:42,479 --> 00:00:42,759
+But
+
+34
+00:00:42,829 --> 00:00:45,100
+literally, if like right here, you
+
+35
+00:00:45,130 --> 00:00:47,030
+could do DMARC Analyzer, Inbox
+
+36
+00:00:47,189 --> 00:00:49,500
+Insight, or you can literally just
+
+37
+00:00:49,560 --> 00:00:50,840
+look up on the internet how to
+
+38
+00:00:50,850 --> 00:00:52,229
+check if I have SPF and they're
+
+39
+00:00:52,329 --> 00:00:53,770
+like free, free everything.
+
+40
+00:00:53,929 --> 00:00:54,840
+More than
+
+41
+00:00:54,899 --> 00:00:56,140
+likely you won't have DMARC.
+
+42
+00:00:56,140 --> 00:00:57,390
+And so that's like the main one
+
+43
+00:00:57,390 --> 00:00:58,070
+that I call out.
+
+44
+00:00:58,140 --> 00:00:59,109
+So just see if you have
+
+45
+00:00:59,179 --> 00:00:59,479
+them.
+
+46
+00:00:59,490 --> 00:01:00,859
+If you enter your domain and it's
+
+47
+00:01:00,859 --> 00:01:02,189
+like, hey, you have it, then
+
+48
+00:01:02,189 --> 00:01:03,000
+you're all good.
+
+49
+00:01:03,000 --> 00:01:03,659
+If it says,
+
+50
+00:01:03,719 --> 00:01:05,370
+hey, you don't have it, then make
+
+51
+00:01:05,370 --> 00:01:06,319
+sure you have it.
+
+52
+00:01:06,319 --> 00:01:07,930
+If you're missing a record, this
+
+53
+00:01:08,090 --> 00:01:08,750
+link right here
+
+54
+00:01:08,840 --> 00:01:09,620
+has everything.
+
+55
+00:01:09,629 --> 00:01:10,930
+I didn't want to explain it for
+
+56
+00:01:10,930 --> 00:01:11,250
+you.
+
+57
+00:01:11,250 --> 00:01:13,019
+SPF, DKIM, and DMARC for Klaviyo.
+
+58
+00:01:13,019 --> 00:01:13,989
+Holy cookies.
+
+59
+00:01:14,140 --> 00:01:16,189
+It's just all set up right here.
+
+60
+00:01:16,189 --> 00:01:17,680
+So super duper easy.
+
+61
+00:01:17,680 --> 00:01:19,769
+Just test to make sure you have
+
+62
+00:01:19,859 --> 00:01:20,159
+it,
+
+63
+00:01:20,319 --> 00:01:21,709
+and then you're all good.
+
+64
+00:01:21,709 --> 00:01:23,489
+So super duper easy right there.
+
+65
+00:01:23,670 --> 00:01:25,319
+And then Klaviyo dedicated sending
+
+66
+00:01:25,379 --> 00:01:26,370
+domain is like the last step.
+
+67
+00:01:26,400 --> 00:01:27,459
+So you have your records and then
+
+68
+00:01:27,459 --> 00:01:28,549
+you need to make sure you have
+
+69
+00:01:28,609 --> 00:01:29,760
+a Klaviyo dedicated sending
+
+70
+00:01:29,769 --> 00:01:31,209
+domain, which this is part of like
+
+71
+00:01:31,209 --> 00:01:32,560
+the Klaviyo setup process that
+
+72
+00:01:32,560 --> 00:01:32,680
+they're
+
+73
+00:01:32,739 --> 00:01:34,640
+going to help walk you through.
+
+74
+00:01:34,640 --> 00:01:36,390
+This is like a new thing that is
+
+75
+00:01:36,390 --> 00:01:38,599
+like required as of 2024,
+
+76
+00:01:38,599 --> 00:01:39,299
+February.
+
+77
+00:01:39,359 --> 00:01:40,930
+So relatively new.
+
+78
+00:01:40,930 --> 00:01:43,549
+But this article walks you through
+
+79
+00:01:43,549 --> 00:01:45,819
+everything that you need.
+
+80
+00:01:45,819 --> 00:01:47,310
+Super duper easy.
+
+81
+00:01:47,379 --> 00:01:48,489
+This was like really big at the
+
+82
+00:01:48,500 --> 00:01:49,739
+beginning of 2024.
+
+83
+00:01:49,739 --> 00:01:51,299
+They were making this like switch.
+
+84
+00:01:51,299 --> 00:01:51,980
+A lot of emails
+
+85
+00:01:52,040 --> 00:01:53,159
+came with this, like you were
+
+86
+00:01:53,159 --> 00:01:53,920
+sharing from it.
+
+87
+00:01:53,920 --> 00:01:55,109
+You were sending from a shared
+
+88
+00:01:55,109 --> 00:01:56,250
+domain, but now you're
+
+89
+00:01:56,319 --> 00:01:57,719
+now that's not a thing because you
+
+90
+00:01:57,730 --> 00:01:58,930
+can't really be sending.
+
+91
+00:01:58,930 --> 00:02:00,519
+You're just going to go to the
+
+92
+00:02:00,530 --> 00:02:01,340
+spam inbox.
+
+93
+00:02:01,400 --> 00:02:02,730
+So just make sure you have that.
+
+94
+00:02:02,739 --> 00:02:03,840
+And then you're all set.
+
+95
+00:02:03,840 --> 00:02:05,290
+That's literally it for technical
+
+96
+00:02:05,290 --> 00:02:05,609
+setup.
+
+97
+00:02:05,780 --> 00:02:07,150
+Don't have to do anything else
+
+98
+00:02:07,150 --> 00:02:07,950
+besides that.
+
+99
+00:02:07,959 --> 00:02:09,150
+So super duper simple.
+
+100
+00:02:09,150 --> 00:02:11,038
+Get this, knock this out within
+
+101
+00:02:11,099 --> 00:02:12,770
+a couple hours if that should take
+
+102
+00:02:12,770 --> 00:02:14,740
+you like 20, 30 minutes.
+
+103
+00:02:14,800 --> 00:02:15,349
+Okay.
+
+104
+00:02:15,349 --> 00:02:18,280
+So technical deliverability setup.
+
+105
+00:02:18,280 --> 00:02:20,419
+This is just like the first step
+
+106
+00:02:20,419 --> 00:02:21,479
+that you need to do,
+
+107
+00:02:21,539 --> 00:02:22,939
+which you might already have all
+
+108
+00:02:22,990 --> 00:02:24,710
+of this set up, but you might not.
+
+109
+00:02:24,870 --> 00:02:26,210
+If you're starting like a new
+
+110
+00:02:26,300 --> 00:02:27,650
+account, new domain, then you're
+
+111
+00:02:27,650 --> 00:02:28,830
+going to need to make sure that
+
+112
+00:02:28,830 --> 00:02:29,469
+all this is set.
+
+113
+00:02:29,629 --> 00:02:31,080
+But super duper easy.
+
+114
+00:02:31,139 --> 00:02:33,050
+So seems very complex, but again,
+
+115
+00:02:33,099 --> 00:02:34,800
+most domains already have the
+
+116
+00:02:34,800 --> 00:02:36,919
+correct records in place, maybe
+
+117
+00:02:36,979 --> 00:02:37,610
+one missing.
+
+118
+00:02:37,629 --> 00:02:39,050
+So you need to make sure that you
+
+119
+00:02:39,050 --> 00:02:39,650
+have these.
+
+120
+00:02:39,750 --> 00:02:41,020
+You need to make sure that you
+
+121
+00:02:41,020 --> 00:02:41,960
+have SPF.
+
+122
+00:02:42,020 --> 00:02:42,800
+You need to make sure you have
+
+123
+00:02:42,810 --> 00:02:43,689
+DMARC and you need to make sure
+
+124
+00:02:43,689 --> 00:02:44,439
+that you have DKIM.
+
+125
+00:02:44,439 --> 00:02:45,599
+You can use this
+
+126
+00:02:45,669 --> 00:02:48,310
+website here, Glock apps, to just
+
+127
+00:02:48,310 --> 00:02:50,569
+see if you have everything.
+
+128
+00:02:50,569 --> 00:02:52,099
+Super duper easy.
+
+129
+00:02:52,099 --> 00:02:53,340
+You can just create
+
+130
+00:02:53,419 --> 00:02:54,500
+like a free account.
+
+131
+00:02:54,500 --> 00:02:55,240
+Super easy.
+
+132
+00:02:55,240 --> 00:02:57,030
+Or you can do like a spam checker
+
+133
+00:02:57,030 --> 00:02:57,599
+right here.
+
+134
+00:02:57,599 --> 00:02:59,639
+But literally, if like right
+
+135
+00:02:59,699 --> 00:03:01,759
+here, you could do DMARC analyzer,
+
+136
+00:03:01,759 --> 00:03:03,219
+inbox insight, or you can
+
+137
+00:03:03,219 --> 00:03:04,740
+literally just look up on the
+
+138
+00:03:04,819 --> 00:03:05,840
+internet how to
+
+139
+00:03:05,900 --> 00:03:07,300
+check if I have SPF and they're
+
+140
+00:03:07,349 --> 00:03:08,969
+like free, free everything.
+
+141
+00:03:08,969 --> 00:03:10,650
+More than likely, you won't have
+
+142
+00:03:10,650 --> 00:03:11,060
+DMARC.
+
+143
+00:03:11,120 --> 00:03:12,199
+And so that's like the main one
+
+144
+00:03:12,199 --> 00:03:12,939
+that I call out.
+
+145
+00:03:12,939 --> 00:03:15,050
+So just see if you have them.
+
+146
+00:03:15,050 --> 00:03:16,379
+If you enter your domain
+
+147
+00:03:16,439 --> 00:03:17,539
+and it's like, hey, you have it,
+
+148
+00:03:17,539 --> 00:03:18,340
+then you're all good.
+
+149
+00:03:18,340 --> 00:03:19,419
+If it says, hey, you don't have
+
+150
+00:03:19,419 --> 00:03:21,110
+it, then make sure you
+
+151
+00:03:21,180 --> 00:03:21,530
+have it.
+
+152
+00:03:21,539 --> 00:03:22,860
+If you're missing a record, this
+
+153
+00:03:22,860 --> 00:03:24,240
+link right here has everything.
+
+154
+00:03:24,240 --> 00:03:25,340
+I didn't want to explain it
+
+155
+00:03:25,400 --> 00:03:25,990
+for you.
+
+156
+00:03:25,990 --> 00:03:28,270
+SPF, DKIM, and DMARC for Klaviyo.
+
+157
+00:03:28,270 --> 00:03:29,300
+Holy cookies.
+
+158
+00:03:29,300 --> 00:03:31,539
+It's just all set up right here.
+
+159
+00:03:31,539 --> 00:03:32,159
+So super
+
+160
+00:03:32,319 --> 00:03:33,129
+duper easy.
+
+161
+00:03:33,340 --> 00:03:35,080
+Just test to make sure you have it
+
+162
+00:03:35,120 --> 00:03:36,759
+and then you're all good.
+
+163
+00:03:36,759 --> 00:03:38,460
+So super duper easy right
+
+164
+00:03:38,520 --> 00:03:38,840
+there.
+
+165
+00:03:38,860 --> 00:03:40,259
+And then Klaviyo dedicated sending
+
+166
+00:03:40,259 --> 00:03:41,490
+domain is like the last step.
+
+167
+00:03:41,490 --> 00:03:42,939
+So you have your records and then
+
+168
+00:03:43,000 --> 00:03:43,979
+you need to make sure you have a
+
+169
+00:03:44,020 --> 00:03:45,270
+Klaviyo dedicated sending domain,
+
+170
+00:03:45,270 --> 00:03:46,370
+which this is part of like the
+
+171
+00:03:46,370 --> 00:03:46,719
+Klaviyo
+
+172
+00:03:46,780 --> 00:03:48,340
+setup process that they're going
+
+173
+00:03:48,340 --> 00:03:49,659
+to help walk you through.
+
+174
+00:03:49,680 --> 00:03:51,060
+This is like a new thing.
+
+175
+00:03:51,189 --> 00:03:54,610
+that is like required as of 2024,
+
+176
+00:03:54,610 --> 00:03:55,659
+February.
+
+177
+00:03:55,719 --> 00:03:57,419
+So relatively new.
+
+178
+00:03:57,419 --> 00:03:59,620
+But this article walks you
+
+179
+00:03:59,689 --> 00:04:01,240
+through everything that you need.
+
+180
+00:04:01,240 --> 00:04:02,110
+Super duper easy.
+
+181
+00:04:02,110 --> 00:04:03,389
+This was like really big at the
+
+182
+00:04:03,389 --> 00:04:03,879
+beginning
+
+183
+00:04:04,039 --> 00:04:04,860
+of 2024.
+
+184
+00:04:05,060 --> 00:04:06,469
+They were making this like switch.
+
+185
+00:04:06,469 --> 00:04:07,860
+A lot of emails came with this.
+
+186
+00:04:07,860 --> 00:04:08,520
+Like you were
+
+187
+00:04:08,590 --> 00:04:10,110
+sharing from a, you were sending
+
+188
+00:04:10,110 --> 00:04:11,520
+from a shared domain, but now
+
+189
+00:04:11,520 --> 00:04:13,060
+you're, now that's not a thing
+
+190
+00:04:13,159 --> 00:04:14,180
+because you can't really be
+
+191
+00:04:14,180 --> 00:04:14,650
+sending.
+
+192
+00:04:14,650 --> 00:04:15,759
+You're just going to go to the
+
+193
+00:04:15,759 --> 00:04:16,329
+spam inbox.
+
+194
+00:04:16,480 --> 00:04:17,620
+So just make sure
+
+195
+00:04:17,680 --> 00:04:18,220
+you have that.
+
+196
+00:04:18,220 --> 00:04:19,170
+And then you're all set.
+
+197
+00:04:19,170 --> 00:04:20,339
+That's literally it for technical
+
+198
+00:04:20,449 --> 00:04:20,819
+setup.
+
+199
+00:04:20,819 --> 00:04:21,620
+Don't have
+
+200
+00:04:21,680 --> 00:04:23,329
+to do anything else besides that.
+
+201
+00:04:23,329 --> 00:04:24,509
+So super duper simple.
+
+202
+00:04:24,509 --> 00:04:26,120
+Get this, knock this out within
+
+203
+00:04:26,170 --> 00:04:26,920
+a couple hours.
+
+204
+00:04:26,920 --> 00:04:28,410
+If, if that should take you like
+
+205
+00:04:28,410 --> 00:04:29,800
+20, 30 minutes.

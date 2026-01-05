@@ -1,0 +1,1574 @@
+{
+  "name": "Email Flow Writer",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "Email Flow Writer",
+        "formDescription": "=Input brand details below to generate the following email flows\n\n- Welcome Flow\n- Cart Abandon Flow\n- Checkout Abandon Flow\n- Browse Abandon Flow\n- Post-Purchase Flow\n- Site Abandon Flow\n- Win-Back Flow\n",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Brand Name",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Brand Website",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Industry / Niche",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Existing Client?",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Yes"
+                  },
+                  {
+                    "option": "No"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Personalization Notes",
+              "fieldType": "textarea"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.3,
+      "position": [
+        -224,
+        840
+      ],
+      "id": "c58c6dd3-e45e-4285-894b-dffc8c8d18f4",
+      "name": "On form submission",
+      "webhookId": "fd04b033-113c-4251-a4a3-85983c5b3a90"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Conduct comprehensive brand research for {{ $json.brandName }} to enable the creation of a high-converting Welcome Flow. I need complete intelligence on this e-commerce brand to craft emails that convert at 10%+ rates.\n\nBRAND TO RESEARCH: {{ $json.brandName }}\nWEBSITE: {{ $json.brandWebsite }}\nINDUSTRY/NICHE: {{ $json.niche }}\nEXTRA INFO: {{ $json.notes }}\n\nREQUIRED RESEARCH AREAS:\n\n1. BRAND FOUNDATION INTELLIGENCE\n   - Complete company background, founding story, and mission\n   - Core values, brand personality, and positioning\n   - Unique selling propositions and key differentiators\n   - Brand voice, tone, and communication style examples\n   - Visual identity and design aesthetic preferences\n\n2. PRODUCT PORTFOLIO ANALYSIS\n   - Complete product catalog and main categories\n   - Best-selling products and customer favorites\n   - Price ranges and average order values\n   - Key product benefits and unique features\n   - Customer use cases and application scenarios\n\n3. CUSTOMER AVATAR DEEP DIVE\n   - Target demographics (age, gender, income, location, lifestyle)\n   - Psychographic profile (values, interests, motivations, fears)\n   - Primary pain points and frustrations they solve\n   - Shopping behaviors and purchase decision factors\n   - Language patterns and communication preferences from reviews\n\n4. COMPETITIVE LANDSCAPE MAPPING\n   - Top 5-7 direct competitors and their positioning\n   - Competitive advantages and unique differentiators\n   - Pricing strategies compared to competition\n   - Market gaps and positioning opportunities\n   - Competitor messaging and email marketing approaches\n\n5. SOCIAL PROOF MINING\n   - Customer testimonials and review themes (positive and negative)\n   - Media mentions, press coverage, and third-party validation\n   - Social media presence, engagement, and customer interactions\n   - Influencer partnerships and brand collaborations\n   - Awards, certifications, and industry recognition\n\n6. MARKETING INTELLIGENCE GATHERING\n   - Current email marketing strategy and messaging examples\n   - Website conversion elements and value propositions\n   - Social media content strategy and engagement patterns\n   - Advertising approaches and creative messaging\n   - Customer acquisition and retention strategies\n\nSPECIFIC DELIVERABLES NEEDED:\n- Brand voice examples with specific quotes\n- Customer language patterns from reviews and social media\n- Competitive differentiation opportunities\n- Emotional triggers and psychological motivators\n- Specific product benefits and customer outcomes\n- Social proof examples and credibility indicators\n- Pricing strategy and value positioning insights\n- Customer journey and touchpoint analysis\n\nRESEARCH DEPTH REQUIREMENTS:\n- Use webSearch tool to gather comprehensive, current information\n- Include specific quotes, examples, and data points\n- Verify information across multiple sources\n- Focus on customer-generated content and authentic feedback\n- Identify unique angles and positioning opportunities\n- Provide actionable insights for Welcome Flow creation\n\nOUTPUT FORMAT:\nOrganize findings into clear sections with:\n- Executive summary of key insights\n- Detailed findings for each research area\n- Specific quotes and examples\n- Quantifiable data points where available\n- Competitive differentiation opportunities\n- Recommended messaging angles and positioning\n- Source citations for all major findings\n\nThis research will be used to create a Welcome Flow that converts at industry-leading rates by speaking directly to customer needs and positioning the brand uniquely in the market.",
+        "options": {
+          "systemMessage": "You are an expert brand research analyst specializing in e-commerce email marketing intelligence. Your role is to conduct comprehensive brand research to enable the creation of high-converting Welcome Flows using Max Sturtavant's proven methodology.\n\nYou have access to the webSearch tool (Perplexity) to gather real-time information about brands, competitors, and market positioning.\n\nRESEARCH OBJECTIVES:\nYour research must provide complete intelligence for crafting Welcome Flows that convert at 10%+ rates by understanding:\n- Brand positioning and unique value propositions\n- Customer psychology and pain points\n- Competitive landscape and differentiation opportunities\n- Brand voice, messaging, and communication style\n- Product portfolio and bestsellers\n- Social proof and credibility indicators\n\nRESEARCH METHODOLOGY:\n1. BRAND FOUNDATION ANALYSIS\n   - Company history, founding story, and mission\n   - Core values and brand personality\n   - Unique selling propositions and differentiators\n   - Brand voice and communication style\n   - Visual identity and aesthetic preferences\n\n2. PRODUCT INTELLIGENCE\n   - Complete product catalog and categories\n   - Best-selling products and customer favorites\n   - Price points and average order values\n   - Product benefits and key features\n   - Customer use cases and applications\n\n3. CUSTOMER AVATAR RESEARCH\n   - Target demographics (age, income, location, lifestyle)\n   - Psychographics (values, interests, motivations)\n   - Pain points and frustrations\n   - Shopping behaviors and preferences\n   - Customer reviews and feedback themes\n\n4. COMPETITIVE LANDSCAPE\n   - Direct and indirect competitors\n   - Competitive positioning and messaging\n   - Pricing strategies and value propositions\n   - Market gaps and opportunities\n   - Competitive advantages and weaknesses\n\n5. SOCIAL PROOF MINING\n   - Customer testimonials and reviews\n   - Media mentions and press coverage\n   - Social media presence and engagement\n   - Influencer partnerships and endorsements\n   - Awards, certifications, and credentials\n\n6. MARKETING INTELLIGENCE\n   - Current email marketing approach\n   - Website messaging and conversion elements\n   - Social media content and engagement\n   - Advertising strategies and creative approaches\n   - Customer acquisition and retention tactics\n\nRESEARCH STANDARDS:\n- Use multiple sources to verify information\n- Focus on recent data (last 12-24 months)\n- Prioritize customer-generated content and reviews\n- Identify specific quotes and messaging examples\n- Look for emotional triggers and psychological motivators\n- Find concrete data points (numbers, statistics, metrics)\n\nOUTPUT REQUIREMENTS:\nProvide comprehensive research organized into clear sections with:\n- Specific quotes and examples\n- Quantifiable data points where available\n- Customer voice and language patterns\n- Competitive differentiation opportunities\n- Actionable insights for Welcome Flow creation\n- Source citations for verification\n\nRESEARCH QUALITY STANDARDS:\n- Minimum 3 sources per major finding\n- Include both positive and negative customer feedback\n- Identify gaps in current marketing approach\n- Provide specific examples rather than generalizations\n- Focus on conversion-relevant insights\n- Highlight unique angles and positioning opportunities"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        224,
+        840
+      ],
+      "id": "47335925-6098-4cac-a854-78059614d6fd",
+      "name": "Brand Research Agent"
+    },
+    {
+      "parameters": {
+        "model": "sonar-deep-research",
+        "messages": {
+          "message": [
+            {
+              "content": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('message0_Text', ``, 'string') }}"
+            }
+          ]
+        },
+        "simplify": true,
+        "options": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-base.perplexityTool",
+      "typeVersion": 1,
+      "position": [
+        360,
+        1064
+      ],
+      "id": "ae45eeef-62ba-49bf-af88-52ffebfa8167",
+      "name": "Message a model in Perplexity",
+      "credentials": {
+        "perplexityApi": {
+          "id": "tDkFR32KWXKeIPzc",
+          "name": "Perplexity account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "openai/gpt-5",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        232,
+        1064
+      ],
+      "id": "e2332720-aea3-4654-b738-7e464000b216",
+      "name": "OpenRouter Chat Model",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "1f471fc5-29dc-4d7b-a816-a9417b3963be",
+              "name": "brandName",
+              "value": "={{ $json['Brand Name'] }}",
+              "type": "string"
+            },
+            {
+              "id": "47bc03fe-9bfd-4223-b32b-d5b7b1413f62",
+              "name": "brandWebsite",
+              "value": "={{ $json['Brand Website'] }}",
+              "type": "string"
+            },
+            {
+              "id": "25732b11-0aea-42c6-a312-17f1a18895d3",
+              "name": "niche",
+              "value": "={{ $json['Industry / Niche'] }}",
+              "type": "string"
+            },
+            {
+              "id": "549efd89-0ce8-4a6a-a6bd-3730374a0eaf",
+              "name": "notes",
+              "value": "={{ $json['Personalization Notes'] }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        0,
+        840
+      ],
+      "id": "43dfc905-3542-43bc-bbe4-c7640b32a969",
+      "name": "Set Brand Details"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "1836e28b-dde9-42bd-8860-ac4061460407",
+              "name": "brandResearch",
+              "value": "={{ $json.output }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        576,
+        840
+      ],
+      "id": "f970a224-d1fb-485a-a84b-816bf2824227",
+      "name": "Set Research Details"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Create a master-level 8-email Welcome Flow for {{ $('Set Brand Details').item.json.brandName }} using advanced copywriting principles that maximize conversions and engagement.\n\nBRAND INTELLIGENCE:\n- Brand Name: {{ $('Set Brand Details').item.json.brandName }}\n- Brand Website: {{ $('Set Brand Details').item.json.brandWebsite }}\n- Niche: {{ $('Set Brand Details').item.json.niche }}\n- Notes: {{ $('Set Brand Details').item.json.notes }}\n- Brand Research: {{ $json.brandResearch }}\n\nCOPYWRITING SPECIFICATIONS:\n- Apply SCE framework (Skimmable, Clear & Concise, Engaging)\n- Maximum 3-5 second reading time per email\n- One microtopic focus per email\n- Punchy, dopamine-triggering copy\n- Educational positioning without being salesy\n- Include infographic opportunities where relevant\n\nTECHNICAL REQUIREMENTS:\n- Detailed layout markers for complete design control\n- Multiple subject line options (2-5 words, curiosity-driven)\n- Preview text with open loops (ending in \"...\")\n- Specific button text and strategic placement\n- Designer briefs for each visual element\n- Mobile-first copy optimization\n- Dynamic personalization opportunities\n\nDELIVERABLES:\n1. Complete 8-email sequence with advanced copywriting\n2. Subject line + preview text combinations for each email\n3. Detailed layout markers and design instructions\n4. Infographic concepts and copy for visual elements\n5. A/B testing variations for key elements\n6. Time delay recommendations between emails\n7. Klaviyo setup instructions with filters\n\nCONVERSION OPTIMIZATION:\n- Apply psychological triggers (urgency, social proof, scarcity)\n- Use microtopic education to build trust\n- Position products as solutions without being pushy\n- Include risk reversals and objection handling\n- Create dopamine hits through valuable content\n- Build emotional connection through storytelling\n\nMake this Welcome Flow a conversion masterpiece using Max Sturtavant's $40M+ proven methodology combined with advanced copywriting psychology.",
+        "options": {
+          "systemMessage": "You are a master email copywriter specializing exclusively in high-converting Welcome Flows for e-commerce brands. You follow Max Sturtavant's proven methodology that has generated over $40 million in email revenue, incorporating advanced copywriting principles for maximum conversion.\n\nCORE COPYWRITING PRINCIPLES:\n- Customers have 3-5 second attention spans - optimize for SKIMMING, not reading\n- Customer IQ drops 50% when opening emails (zombie brain mode)\n- Use SCE framework: Skimmable, Clear & Concise, Engaging\n- One microtopic per email = one clear takeaway\n- Punchy copy that packs information into tight spaces\n- Educational + positioning = sales without discounts\n\nSKIMMABLE COPY RULES:\n- Avoid blocks of text at all costs\n- Bold main points for easy scanning\n- Use line breaks and visual hierarchy\n- Keep emails to 1-2 scrolls maximum\n- Make buttons highly visible and clickable\n\nCLEAR & CONCISE REQUIREMENTS:\n- Maximum 100 words of body copy per email\n- One takeaway per email (customer remembers 1 thing vs 0 things)\n- Short and sweet - shorter copy = higher engagement\n- Remove all unnecessary fluff and implied information\n\nENGAGING COPY ELEMENTS:\n- Punchy headlines that pack a punch\n- Informational content (people love to learn)\n- Entertaining elements (humor, puns, powerful words)\n- Trigger dopamine through novelty and value\n- Use powerful words and emotional triggers\n\nWELCOME FLOW STRUCTURE (8 emails):\n1. Strong Introduction - Deliver discount, introduce USPs, social proof, bestsellers\n2. Brand Background - Founding story, face to name, emotional connection, mission\n3. Highlight Products - Bestsellers with clear benefits, make choice easy\n4. Create Urgency - Expiring discount, risk reversals, testimonials\n5. Us vs Them - Distinguish from competitors, clear differentiation\n6. Heavy Social Proof - Testimonials, media features, prove legitimacy  \n7. Last Chance - Aggressive urgency, discount expiring\n8. Founder Note - Personal text-based email, extend discount, offer support\n\nLAYOUT CONTROL SYSTEM:\nUse detailed layout markers to give copywriters complete control:\n- [LOGO SECTION] - Brand logo placement\n- [HERO SECTION] - Main headline, subheadline, hero image\n- [BUTTON: \"Shop Now\"] - Specific button text and placement\n- [BRIDGE SECTION] - Supporting copy and information\n- [PRODUCT SECTION] - Product showcases with individual buttons\n- [TESTIMONIAL SECTION] - Social proof placement\n- [FOOTER SECTION] - Category buttons and social links\n\nCOPY OPTIMIZATION RULES:\n- Always include discount reminder in every email\n- Use dynamic personalization where possible\n- Include specific image/graphic directions for designers\n- Provide multiple subject line options (2-5 words, title case, curiosity-driven)\n- End preview text with \"...\" for open loops\n- Include alt text suggestions for images\n\nOUTPUT REQUIREMENTS:\n- Complete email copy with detailed layout markers\n- Subject line + preview text combinations\n- Specific button text and placement\n- Designer notes for images/graphics needed\n- Recommended time delays (1-2 days between emails)\n- Filter setup instructions"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        800,
+        -464
+      ],
+      "id": "62da827e-4c4d-4f35-a31d-c9c6b368261e",
+      "name": "Welcome Flow Agent"
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.7-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        872,
+        -240
+      ],
+      "id": "87ba873c-96d2-43a1-b975-7d5e81045117",
+      "name": "OpenRouter Chat Model1",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://md2doc.n8n.aemalsayer.com ",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleDocsOAuth2Api",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "fileName",
+              "value": "=Welcome Flow - {{ $('Set Brand Details').first().json.brandName }}"
+            },
+            {
+              "name": "output",
+              "value": "={{ $json.output }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1152,
+        -360
+      ],
+      "id": "cb3bbf90-2c78-4666-a5ed-22396d24c3ae",
+      "name": "Welcome Flow Google Doc Creator",
+      "credentials": {
+        "googleDocsOAuth2Api": {
+          "id": "l6gkJBk6UFQH05ci",
+          "name": "Google Docs account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.7-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        872,
+        160
+      ],
+      "id": "dca5f37b-08c9-4cfb-957f-d532343ede33",
+      "name": "OpenRouter Chat Model2",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Create a master-level Cart Abandonment Flow using the provided brand intelligence and advanced copywriting principles that maximize cart recovery rates.\n\nBRAND INTELLIGENCE:\n- Brand Name: {{ $('Set Brand Details').item.json.brandName }}\n- Brand Website: {{ $('Set Brand Details').item.json.brandWebsite }}\n- Niche: {{ $('Set Brand Details').item.json.niche }}\n- Notes: {{ $('Set Brand Details').item.json.notes }}\n- Brand Research: {{ $json.brandResearch }}\n\nCART ABANDON FLOW SPECIFICATIONS:\nCreate a complete 6-8 email Cart Abandonment sequence that:\n- Recovers 25-50% more abandoned cart sales\n- Uses Max Sturtavant's proven $40M+ methodology\n- Applies advanced copywriting psychology\n- Focuses specifically on cart abandoners (not checkout abandoners)\n\nCOPYWRITING REQUIREMENTS:\n- Apply SCE framework (Skimmable, Clear & Concise, Engaging)\n- Maximum 3-5 second reading time per email\n- Under 75 words of body copy per email\n- Show exact abandoned products in every email\n- One clear objective per email\n- Address specific abandonment objections\n- Use psychological triggers (loss aversion, social proof, urgency)\n\nEMAIL SEQUENCE STRUCTURE:\n1. Quick Reminder (30-45 min) - Simple nudge, show items, easy completion\n2. Founder Nudge (1-2 days) - Personal text-based, build trust and connection\n3. Brand Differentiation (2-3 days) - Why us vs competitors, unique value props\n4. Social Proof Focus (3-4 days) - Testimonials for specific abandoned products\n5. Urgency Creation (4-5 days) - Can't hold cart forever, others want these items\n6. Customer Split:\n   - 6A: Support Offer (past customers) - Personal help, no discount\n   - 6B: Flash Discount (new customers) - First-time buyer incentive\n7. Discount Reminder (1 day) - Final urgency push\n8. Final Founder Check-in - Personal note, extend discount, offer support\n\nTECHNICAL SPECIFICATIONS:\n- Detailed layout markers for complete design control\n- Dynamic product section instructions for abandoned items\n- Subject line + preview text combinations (urgency/curiosity focused)\n- Specific button text optimized for cart completion\n- Mobile-first copy optimization\n- Personalization opportunities beyond first name\n- Risk reversal and objection handling copy\n\nPSYCHOLOGICAL OPTIMIZATION:\n- Address why they abandoned (common objections)\n- Use loss aversion (losing this specific item)\n- Create appropriate urgency without being pushy\n- Build trust through founder communication\n- Provide social proof for exact products abandoned\n- Remove friction with risk reversals\n\nDELIVERABLES REQUIRED:\n1. Complete 6-8 email sequence with advanced copywriting\n2. Subject line + preview text options for each email\n3. Detailed layout markers and dynamic product instructions\n4. Customer segmentation split logic (new vs returning)\n5. Time delay recommendations between emails\n6. A/B testing variations for key conversion elements\n7. Klaviyo setup instructions with proper triggers and filters\n\nCONVERSION OPTIMIZATION FOCUS:\n- Maximize cart recovery rates through proven psychology\n- Address specific abandonment reasons for this brand/niche\n- Create urgency without damaging brand reputation\n- Build trust and remove purchase friction\n- Use brand voice and personality from research\n- Include product-specific benefits and social proof\n\nMake this Cart Abandonment Flow a conversion masterpiece that recovers maximum abandoned sales using advanced copywriting psychology tailored specifically to this brand's customers and products.",
+        "options": {
+          "systemMessage": "You are a master email copywriter specializing exclusively in high-converting Cart Abandonment Flows for e-commerce brands. You follow Max Sturtavant's proven methodology that has generated over $40 million in email revenue, focusing specifically on recovering abandoned cart sales.\n\nCART ABANDONMENT INTELLIGENCE:\n- 70-85% of e-commerce carts are abandoned (industry standard)\n- Cart abandonment is DIFFERENT from checkout abandonment (critical distinction)\n- Cart abandon = user adds item to cart but doesn't proceed to checkout\n- These customers are high-intent but need nurturing to convert\n- Primary reasons: got distracted, comparison shopping, needed time to decide, waiting for payday\n\nCORE COPYWRITING PRINCIPLES:\n- Customers have 3-5 second attention spans - optimize for SKIMMING\n- Customer IQ drops 50% when opening emails (zombie brain mode)  \n- Use SCE framework: Skimmable, Clear & Concise, Engaging\n- One microtopic per email = one clear takeaway\n- Show EXACTLY what they abandoned with dynamic product sections\n- Focus on removing friction and objections\n\nCART ABANDON FLOW STRUCTURE (6-8 emails):\n1. Quick Reminder (30-45 min delay) - Simple nudge, show abandoned items\n2. Nudge from Founder (1-2 days) - Personal text-based email, build trust\n3. Brand USPs (2-3 days) - Why choose us over competitors, address objections\n4. Social Proof (3-4 days) - Testimonials specific to abandoned products\n5. Last Chance Urgency (4-5 days) - Create urgency, can't hold cart forever\n6A. Support Offer (for past customers) - Personal founder note, offer help\n6B. Flash Discount (for new customers) - First-time buyer incentive\n7. Discount Reminder (1 day later) - Final chance with urgency\n8. Final Founder Note - Everything okay? Last extension of discount\n\nCART ABANDON COPY RULES:\n- ALWAYS show dynamic abandoned product sections in every email\n- Keep copy under 75 words per email (shorter than welcome flows)\n- Focus on the specific item they abandoned, not general products\n- Use product-specific testimonials when possible\n- Address common objections: shipping, returns, quality, timing\n- Create urgency without being pushy (other customers want this item)\n- Split flow based on customer type (new vs returning)\n\nPSYCHOLOGICAL TRIGGERS:\n- Loss aversion (you're about to lose this item)\n- Social proof (others love this specific product)\n- Scarcity (limited stock, can't hold forever)\n- Authority (founder reaching out personally)\n- Reciprocity (we're holding this for you)\n\nLAYOUT CONTROL SYSTEM:\n- [LOGO SECTION] - Brand logo placement\n- [HERO SECTION] - Main headline addressing abandonment\n- [DYNAMIC PRODUCT SECTION] - Exact abandoned items with prices\n- [BUTTON: \"Complete Order\"] - Specific action-oriented button text\n- [BRIDGE SECTION] - Supporting copy and objection handling\n- [TESTIMONIAL SECTION] - Product-specific social proof\n- [FOOTER SECTION] - Category shopping options\n\nTECHNICAL REQUIREMENTS:\n- Use dynamic product blocks showing exact abandoned items\n- Include product images, names, prices, and direct links\n- Personalize with customer's first name\n- Show \"You may also like\" recommendations\n- Include risk reversals (free returns, guarantees)\n- Mobile-optimized button placement\n\nOUTPUT SPECIFICATIONS:\n- Complete email copy with detailed layout markers\n- Subject line options (2-4 words, urgency/curiosity driven)\n- Preview text with open loops\n- Specific button text and placement\n- Dynamic product section instructions\n- Time delay recommendations\n- A/B testing variations for key elements"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        800,
+        -64
+      ],
+      "id": "4f951823-ce79-4cc1-9a81-76c54287efcd",
+      "name": "Cart Abandon Flow Agent"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://md2doc.n8n.aemalsayer.com ",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleDocsOAuth2Api",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "fileName",
+              "value": "=Cart Abandon Flow - {{ $('Set Brand Details').first().json.brandName }}"
+            },
+            {
+              "name": "output",
+              "value": "={{ $json.output }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1152,
+        40
+      ],
+      "id": "c99c18b6-9d7a-4c41-b638-63c33cfcf3f3",
+      "name": "Cart Abandon Google Doc Creator",
+      "credentials": {
+        "googleDocsOAuth2Api": {
+          "id": "l6gkJBk6UFQH05ci",
+          "name": "Google Docs account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.7-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        872,
+        560
+      ],
+      "id": "0be4c650-0ffc-4b65-b4d9-34ec97b776b1",
+      "name": "OpenRouter Chat Model3",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Create a master-level Checkout Abandonment Flow using the provided brand intelligence and advanced copywriting principles that maximize checkout completion rates for the highest-intent customers.\n\nBRAND INTELLIGENCE:\n- Brand Name: {{ $('Set Brand Details').item.json.brandName }}\n- Brand Website: {{ $('Set Brand Details').item.json.brandWebsite }}\n- Niche: {{ $('Set Brand Details').item.json.niche }}\n- Notes: {{ $('Set Brand Details').item.json.notes }}\n- Brand Research: {{ $json.brandResearch }}\n\nCHECKOUT ABANDON FLOW SPECIFICATIONS:\nCreate a complete 6-8 email Checkout Abandonment sequence that:\n- Recovers 40-60% of checkout abandoners (highest conversion flow)\n- Uses Max Sturtavant's proven $40M+ methodology\n- Applies advanced copywriting psychology for high-intent customers\n- Focuses specifically on checkout abandoners (furthest down funnel)\n\nCOPYWRITING REQUIREMENTS:\n- Apply SCE framework (Skimmable, Clear & Concise, Engaging)\n- Maximum 3-5 second reading time per email\n- Under 60 words of body copy per email (shortest of all flows)\n- Show exact checkout order details in every email\n- Address specific checkout friction and objections\n- Use completion and urgency psychology\n- Emphasize how close they were to finishing\n\nEMAIL SEQUENCE STRUCTURE:\n1. Immediate Reminder (30 min) - \"Your order is ready\" - frictionless completion\n2. Founder Personal Note (1-2 days) - Text-based care, address concerns, offer help\n3. Objection Crusher (2-3 days) - Address shipping, security, returns - remove barriers\n4. Social Proof Power (3-4 days) - Testimonials for exact checkout products\n5. Urgency + Stock Alert (4-5 days) - Inventory levels, demand pressure\n6. Customer Journey Split:\n   - 6A: VIP Treatment (past customers) - Priority support, expedited processing\n   - 6B: First-Purchase Incentive (new customers) - Small completion bonus\n7. Final Urgency Wave (1 day) - Order expiring, last chance messaging\n8. Founder Care Follow-up (2 days) - Personal check-in, feedback request, final extension\n\nCHECKOUT-SPECIFIC OPTIMIZATION:\n- Address exact checkout abandonment reasons for this niche\n- Include order summary with transparent pricing\n- Emphasize security and trust signals\n- Show exact product configurations (size, color, quantity)\n- Use \"complete your order\" vs \"shop now\" language\n- Include estimated delivery dates\n- Display payment options and security badges\n\nTECHNICAL SPECIFICATIONS:\n- Detailed layout markers for checkout-specific elements\n- Dynamic checkout section with order summary\n- Subject line + preview text focused on order completion\n- Completion-optimized button text and placement\n- Trust signal and security badge instructions\n- Mobile checkout completion optimization\n- Personalization beyond name (order details, preferences)\n\nPSYCHOLOGICAL OPTIMIZATION:\n- Leverage completion bias (they were so close)\n- Use loss aversion for specific order configuration\n- Create appropriate urgency around stock and demand\n- Build trust through founder communication and security\n- Address checkout-specific fears and objections\n- Emphasize the value of their specific order\n\nDELIVERABLES REQUIRED:\n1. Complete 6-8 email sequence optimized for checkout completion\n2. Subject line + preview text options emphasizing order status\n3. Detailed layout markers and dynamic checkout instructions\n4. Customer segmentation logic (new vs returning customers)\n5. Shorter time delay recommendations (higher urgency)\n6. Trust signal and security element placement\n7. Klaviyo setup instructions with checkout abandonment triggers\n8. A/B testing variations for completion optimization\n\nCONVERSION OPTIMIZATION FOCUS:\n- Maximize checkout completion rates through proven psychology\n- Address specific checkout friction points for this brand/niche\n- Create completion urgency without seeming desperate\n- Build trust and security confidence\n- Use brand voice while maintaining urgency\n- Include order-specific benefits and social proof\n- Optimize for mobile checkout completion\n\nCHECKOUT ABANDONMENT CONTEXT:\nRemember: These customers were SECONDS away from purchasing. They entered checkout, provided information, saw the total, and stopped. They have the highest purchase intent of any email flow. Your copy must acknowledge this high intent while removing the specific barriers that prevented completion.\n\nMake this Checkout Abandonment Flow a conversion masterpiece that recovers maximum high-intent customers using advanced copywriting psychology tailored specifically to checkout abandoners for this brand.\n\nIn your ouput never use ``` or ''' formatting around emails ections",
+        "options": {
+          "systemMessage": "You are a master email copywriter specializing exclusively in high-converting Checkout Abandonment Flows for e-commerce brands. You follow Max Sturtavant's proven methodology that has generated over $40 million in email revenue, focusing specifically on recovering checkout abandoners - the highest-intent customers.\n\nCHECKOUT ABANDONMENT INTELLIGENCE:\n- Checkout abandoners are FURTHER down the funnel than cart abandoners (critical distinction)\n- Checkout abandon = user enters checkout process, inputs information, but doesn't complete purchase\n- These are your HIGHEST INTENT customers - they were seconds away from buying\n- Primary reasons: unexpected costs, payment issues, security concerns, got distracted, comparison shopping\n- Higher conversion potential than any other abandonment flow due to demonstrated purchase intent\n\nCORE COPYWRITING PRINCIPLES:\n- Customers have 3-5 second attention spans - optimize for SKIMMING\n- Customer IQ drops 50% when opening emails (zombie brain mode)\n- Use SCE framework: Skimmable, Clear & Concise, Engaging\n- One microtopic per email = one clear takeaway\n- Show EXACTLY what they almost purchased with dynamic checkout sections\n- Address specific checkout objections and friction points\n\nCHECKOUT ABANDON FLOW STRUCTURE (6-8 emails):\n1. Immediate Reminder (30 min delay) - \"Your order is ready\" - remove friction\n2. Founder Personal Note (1-2 days) - Text-based, address concerns, offer help\n3. Address Objections (2-3 days) - Shipping, security, returns - remove barriers\n4. Social Proof Power (3-4 days) - Testimonials for exact products in checkout\n5. Urgency + Scarcity (4-5 days) - Stock levels, other customers wanting items\n6. Customer Journey Split:\n   - 6A: VIP Support (past customers) - Personal assistance, priority handling\n   - 6B: First-Timer Incentive (new customers) - Small discount to complete first purchase\n7. Final Urgency Push (1 day) - Last chance, order expiring\n8. Founder Care Check (2 days) - Personal concern, extend offer, request feedback\n\nCHECKOUT ABANDON COPY RULES:\n- ALWAYS show dynamic checkout items with exact details (size, color, quantity)\n- Keep copy under 60 words per email (even shorter than cart abandon)\n- Address specific checkout friction: shipping costs, security, payment options\n- Use \"Your order\" language (they already mentally committed)\n- Create urgency around stock levels and demand\n- Emphasize how close they were to completing purchase\n- Include order summary and total prominently\n\nPSYCHOLOGICAL TRIGGERS FOR CHECKOUT ABANDONERS:\n- Completion bias (you were so close to finishing)\n- Loss aversion (losing this specific order configuration)\n- Social proof (others completed similar orders)\n- Authority (founder personally ensuring smooth process)\n- Reciprocity (we've held your exact order)\n- Urgency (stock moving, others want these exact items)\n\nCHECKOUT-SPECIFIC OBJECTION HANDLING:\n- Shipping costs and delivery times\n- Payment security and options\n- Return/exchange policies\n- Product availability and stock\n- Sizing and fit concerns\n- Total cost transparency\n\nLAYOUT CONTROL SYSTEM:\n- [LOGO SECTION] - Brand logo placement\n- [HERO SECTION] - \"Your order is ready\" messaging\n- [DYNAMIC CHECKOUT SECTION] - Exact checkout items with quantities, sizes, colors\n- [ORDER SUMMARY] - Subtotal, shipping, taxes, total\n- [BUTTON: \"Complete Your Order\"] - Specific completion-focused button text\n- [BRIDGE SECTION] - Objection handling and reassurance\n- [TESTIMONIAL SECTION] - Product-specific social proof\n- [FOOTER SECTION] - Support contact and shopping options\n\nTECHNICAL REQUIREMENTS:\n- Use dynamic checkout blocks showing exact order details\n- Include product images, names, quantities, sizes, colors, prices\n- Show order total and breakdown\n- Personalize with customer's first name and order specifics\n- Include \"Continue where you left off\" functionality\n- Display security badges and trust signals\n- Mobile-optimized checkout completion\n\nOUTPUT SPECIFICATIONS:\n- Complete email copy with detailed layout markers\n- Subject line options (2-4 words, completion/urgency focused)\n- Preview text emphasizing order status\n- Specific button text for checkout completion\n- Dynamic checkout section instructions\n- Time delay recommendations (shorter intervals than other flows)\n- Trust signal and security badge placement"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        800,
+        336
+      ],
+      "id": "33d663cd-e08e-4efa-a53c-3f97af1d252f",
+      "name": "Checkout Abandon Flow Agent"
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.7-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        872,
+        960
+      ],
+      "id": "1b8d6aed-1374-4aae-a009-20d69e9b3614",
+      "name": "OpenRouter Chat Model4",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Create a master-level Browse Abandonment Flow using the provided brand intelligence and advanced copywriting principles that maximize conversion of product browsers into purchasers.\n\nBRAND INTELLIGENCE:\n- Brand Name: {{ $('Set Brand Details').item.json.brandName }}\n- Brand Website: {{ $('Set Brand Details').item.json.brandWebsite }}\n- Niche: {{ $('Set Brand Details').item.json.niche }}\n- Notes: {{ $('Set Brand Details').item.json.notes }}\n- Brand Research: {{ $json.brandResearch }}\n\nBROWSE ABANDON FLOW SPECIFICATIONS:\nCreate a complete 3-5 email Browse Abandonment sequence that:\n- Converts 15-25% of browse abandoners into purchasers\n- Uses Max Sturtavant's proven $40M+ methodology\n- Applies advanced copywriting psychology for mid-funnel customers\n- Focuses specifically on browse abandoners (viewed products, didn't add to cart)\n\nCOPYWRITING REQUIREMENTS:\n- Apply SCE framework (Skimmable, Clear & Concise, Engaging)\n- Maximum 3-5 second reading time per email\n- Under 80 words of body copy per email\n- Show exact viewed products in every email\n- Focus on education and trust-building over hard selling\n- Address browsing-specific objections and concerns\n- Build curiosity and interest progressively\n\nEMAIL SEQUENCE STRUCTURE:\n1. Gentle Reminder (45 min) - \"Something catch your eye?\" - show viewed products, easy browsing\n2. Trust Builder (1-2 days) - Brand credibility, risk reversals, why choose us\n3. Social Proof Power (2-3 days) - Testimonials and reviews for specific viewed products\n4. Value Incentive (3-4 days) - First discount offer to encourage purchase decision\n5. Final Nudge (1 day later) - Last chance messaging with urgency\n\nBROWSE-SPECIFIC OPTIMIZATION:\n- Address why they browsed but didn't add to cart\n- Build trust and credibility before pushing for sale\n- Use curiosity and interest rather than urgency initially\n- Show product benefits and unique features\n- Include sizing guides, material info, usage tips\n- Demonstrate value proposition clearly\n- Use \"continue browsing\" vs \"buy now\" language initially\n\nTECHNICAL SPECIFICATIONS:\n- Detailed layout markers for browse-specific elements\n- Dynamic product section showing exact viewed items\n- Subject line + preview text focused on curiosity and interest\n- Browse-optimized button text and placement\n- Trust signal and credibility element instructions\n- Mobile browsing optimization\n- Personalization based on browsing behavior\n\nPSYCHOLOGICAL OPTIMIZATION:\n- Leverage curiosity about products they showed interest in\n- Use social proof for exact products viewed\n- Build trust through education and transparency\n- Address common browsing hesitations\n- Create gentle urgency without being pushy\n- Use product-specific benefits and features\n- Include risk reversals to reduce purchase anxiety\n\nDELIVERABLES REQUIRED:\n1. Complete 3-5 email sequence optimized for browse conversion\n2. Subject line + preview text options emphasizing curiosity/interest\n3. Detailed layout markers and dynamic product instructions\n4. Progressive trust-building and education content\n5. Time delay recommendations (longer intervals than cart/checkout)\n6. Trust building and risk reversal elements\n7. Klaviyo setup instructions with browse abandonment triggers\n8. A/B testing variations for conversion optimization\n\nCONVERSION OPTIMIZATION FOCUS:\n- Maximize browse-to-purchase conversion through education\n- Address specific browsing hesitations for this brand/niche\n- Build trust and credibility progressively\n- Use product-specific benefits and social proof\n- Create gentle momentum toward purchase decision\n- Include browsing-friendly navigation and recommendations\n- Optimize for mobile browsing experience\n\nBROWSE ABANDONMENT CONTEXT:\nRemember: These customers showed interest by viewing specific products but weren't ready to add to cart. They need education, trust-building, and gentle persuasion rather than aggressive selling. Focus on why the products they viewed are perfect for them and address any hesitations they might have.\n\nIMPORTANT FORMATTING INSTRUCTION:\nIn your output never use ``` or ''' formatting around email sections. Use clean text formatting with clear section headers and layout markers only.\n\nMake this Browse Abandonment Flow a conversion masterpiece that nurtures interested browsers into confident purchasers using advanced copywriting psychology tailored specifically to this brand's products and customers.",
+        "options": {
+          "systemMessage": "You are a master email copywriter specializing exclusively in high-converting Browse Abandonment Flows for e-commerce brands. You follow Max Sturtavant's proven methodology that has generated over $40 million in email revenue, focusing specifically on recovering browse abandoners who viewed products but didn't add to cart.\n\nBROWSE ABANDONMENT INTELLIGENCE:\n- Browse abandoners viewed specific products but didn't add to cart (mid-funnel customers)\n- Lower intent than cart/checkout abandoners but higher than site visitors\n- Primary reasons: comparison shopping, not fully convinced, got distracted, price concerns, need more information\n- Opportunity to educate and build trust before they move to competitors\n- Critical to show EXACT products they viewed with dynamic content\n\nCORE COPYWRITING PRINCIPLES:\n- Customers have 3-5 second attention spans - optimize for SKIMMING\n- Customer IQ drops 50% when opening emails (zombie brain mode)\n- Use SCE framework: Skimmable, Clear & Concise, Engaging\n- One microtopic per email = one clear takeaway\n- Show EXACTLY what they browsed with dynamic product sections\n- Focus on education and trust-building rather than hard selling\n\nBROWSE ABANDON FLOW STRUCTURE (3-5 emails):\n1. Simple Reminder (45 min delay) - \"Something catch your eye?\" - show viewed products\n2. Brand Info + Risk Reversals (1-2 days) - Build trust, remove purchase barriers\n3. Social Proof Focus (2-3 days) - Testimonials specific to viewed products\n4. Discount Introduction (3-4 days) - First incentive offer to move them to purchase\n5. Final Reminder (1 day later) - Last chance with urgency\n\nBROWSE ABANDON COPY RULES:\n- ALWAYS show dynamic viewed product sections in every email\n- Keep copy under 80 words per email\n- Focus on the specific products they viewed, not general catalog\n- Use product-specific testimonials and benefits\n- Build trust before pushing for sale\n- Address common browsing objections: quality, fit, value, shipping\n- Don't discount immediately - try to convert without margin sacrifice first\n\nPSYCHOLOGICAL TRIGGERS FOR BROWSE ABANDONERS:\n- Curiosity (you were interested in this specific item)\n- Social proof (others love this exact product)\n- Education (here's why this product is perfect for you)\n- Trust building (we're reputable, here's proof)\n- Loss aversion (this product might not be available later)\n- Authority (expert recommendations and testimonials)\n\nBROWSE-SPECIFIC OBJECTION HANDLING:\n- Product quality and materials\n- Sizing and fit concerns\n- Value for money questions\n- Shipping costs and times\n- Return and exchange policies\n- Brand credibility and trustworthiness\n\nLAYOUT CONTROL SYSTEM:\n- [LOGO SECTION] - Brand logo placement\n- [HERO SECTION] - \"Something catch your eye?\" messaging\n- [DYNAMIC PRODUCT SECTION] - Exact viewed products with details\n- [BUTTON: \"Take Another Look\"] - Browsing-focused button text\n- [BRIDGE SECTION] - Trust building and education content\n- [TESTIMONIAL SECTION] - Product-specific social proof\n- [RECOMMENDED SECTION] - \"You may also like\" similar products\n- [FOOTER SECTION] - Category browsing options\n\nTECHNICAL REQUIREMENTS:\n- Use dynamic product blocks showing exact viewed items\n- Include product images, names, prices, and key benefits\n- Personalize with customer's first name and browsing behavior\n- Show \"You may also like\" recommendations based on viewed products\n- Include trust signals and risk reversals\n- Mobile-optimized browsing experience\n\nOUTPUT SPECIFICATIONS:\n- Complete email copy with detailed layout markers\n- Subject line options (2-4 words, curiosity/interest driven)\n- Preview text that builds intrigue\n- Specific button text optimized for continued browsing\n- Dynamic product section instructions\n- Time delay recommendations between emails\n- Trust building and educational content suggestions\n\nIMPORTANT FORMATTING RULE:\nIn your output never use ``` or ''' formatting around email sections. Use clean text formatting with clear section headers and layout markers only."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        800,
+        736
+      ],
+      "id": "39e439fe-7b40-4694-82de-09b28d2cde18",
+      "name": "Browse Abandon Flow Agent"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://md2doc.n8n.aemalsayer.com ",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleDocsOAuth2Api",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "fileName",
+              "value": "=Checkout Abandon Flow - {{ $('Set Brand Details').first().json.brandName }}"
+            },
+            {
+              "name": "output",
+              "value": "={{ $json.output }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1152,
+        440
+      ],
+      "id": "3b24e1d3-722c-482a-bf81-11e589a538f3",
+      "name": "Checkout Abandon Google Doc Creator",
+      "credentials": {
+        "googleDocsOAuth2Api": {
+          "id": "l6gkJBk6UFQH05ci",
+          "name": "Google Docs account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://md2doc.n8n.aemalsayer.com ",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleDocsOAuth2Api",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "fileName",
+              "value": "=Browse Abandon Flow - {{ $('Set Brand Details').first().json.brandName }}"
+            },
+            {
+              "name": "output",
+              "value": "={{ $json.output }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1152,
+        840
+      ],
+      "id": "d24feb9f-4618-41a4-b23f-b6a2aa5094b8",
+      "name": "Browse Abandon Google Doc Creator",
+      "credentials": {
+        "googleDocsOAuth2Api": {
+          "id": "l6gkJBk6UFQH05ci",
+          "name": "Google Docs account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.7-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        872,
+        1360
+      ],
+      "id": "955e646e-f154-472e-97e0-8d971cba8d46",
+      "name": "OpenRouter Chat Model5",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Create a master-level Post-Purchase Flow using the provided brand intelligence and advanced copywriting principles that maximizes customer lifetime value and creates exceptional post-purchase experiences.\n\nBRAND INTELLIGENCE:\n- Brand Name: {{ $('Set Brand Details').item.json.brandName }}\n- Brand Website: {{ $('Set Brand Details').item.json.brandWebsite }}\n- Niche: {{ $('Set Brand Details').item.json.niche }}\n- Notes: {{ $('Set Brand Details').item.json.notes }}\n- Brand Research: {{ $json.brandResearch }}\n\nPOST-PURCHASE FLOW SPECIFICATIONS:\nCreate a complete 3-4 email Post-Purchase sequence that:\n- Maximizes the 27% higher purchase propensity window\n- Uses Max Sturtavant's proven $40M+ methodology\n- Applies advanced copywriting psychology for post-purchase customers\n- Focuses on customer experience, loyalty, and lifetime value\n\nCOPYWRITING REQUIREMENTS:\n- Apply SCE framework (Skimmable, Clear & Concise, Engaging)\n- Maximum 3-5 second reading time per email\n- Under 100 words of body copy per email (welcome flow length)\n- Focus on customer experience and value delivery\n- Use sincere, heartfelt tone acknowledging their trust\n- Include subtle upsell opportunities without being pushy\n- Split messaging based on purchase history (1st, 2nd, 3rd+ buyers)\n\nEMAIL SEQUENCE STRUCTURE:\n1. Immediate Thank You (0 minutes) - Founder gratitude, order confirmation, subtle upsell opportunity\n2. Community Building (2 days) - Social media engagement, brand community invitation\n3. Product Education (3 days) - Usage tips, maximization advice, getting best results\n4. Review Request (2-3 weeks) - After delivery and usage, feedback and testimonial request\n\nPOST-PURCHASE OPTIMIZATION:\n- Remove buyer's remorse through reassurance and excitement\n- Leverage high-propensity buying window for additional sales\n- Build brand loyalty and community connection\n- Educate customers for better product results and satisfaction\n- Generate reviews and user-generated content\n- Increase customer lifetime value through relationship building\n\nTECHNICAL SPECIFICATIONS:\n- Detailed layout markers for post-purchase elements\n- Purchase-specific personalization (product, order details)\n- Subject line + preview text focused on gratitude and excitement\n- Upsell-optimized button text and placement (subtle, not pushy)\n- Community engagement and social media integration\n- Support contact prominence and accessibility\n- Mobile post-purchase experience optimization\n\nPSYCHOLOGICAL OPTIMIZATION:\n- Express sincere gratitude for their trust and purchase\n- Build excitement and anticipation for product delivery\n- Create sense of community and belonging\n- Provide value through education and tips\n- Use reciprocity through extra value and care\n- Build long-term relationship rather than transactional interaction\n\nDELIVERABLES REQUIRED:\n1. Complete 3-4 email sequence optimized for post-purchase experience\n2. Subject line + preview text options emphasizing gratitude and value\n3. Detailed layout markers and purchase personalization instructions\n4. Customer segmentation based on purchase history (new vs returning)\n5. Time delay recommendations optimized for post-purchase psychology\n6. Community building and engagement elements\n7. Klaviyo setup instructions with post-purchase triggers\n8. Upsell integration that feels natural and helpful\n\nCONVERSION OPTIMIZATION FOCUS:\n- Maximize customer lifetime value through relationship building\n- Leverage high-propensity post-purchase window for additional sales\n- Build brand loyalty and community engagement\n- Generate reviews and social proof for future customers\n- Create exceptional customer experience that drives referrals\n- Use brand voice while maintaining sincere appreciation\n- Include educational value that improves product satisfaction\n\nPOST-PURCHASE CONTEXT:\nRemember: These customers just trusted you with their money and made a purchase. They're in a heightened emotional state (excitement, anticipation, possible buyer's remorse). Your emails must acknowledge this trust, build excitement, remove any doubts, and create a foundation for a long-term relationship. Focus on their experience and success with your products.\n\nIMPORTANT FORMATTING INSTRUCTION:\nIn your output never use ``` or ''' formatting around email sections. Use clean text formatting with clear section headers and layout markers only.\n\nMake this Post-Purchase Flow a customer experience masterpiece that maximizes lifetime value and builds lasting brand loyalty using advanced copywriting psychology tailored specifically to this brand's post-purchase customer journey.",
+        "options": {
+          "systemMessage": "You are a master email copywriter specializing exclusively in high-converting Post-Purchase Flows for e-commerce brands. You follow Max Sturtavant's proven methodology that has generated over $40 million in email revenue, focusing specifically on maximizing customer lifetime value and creating exceptional post-purchase experiences.\n\nPOST-PURCHASE INTELLIGENCE:\n- Post-purchase window is one of the most profitable times to market (27% more likely to purchase within 3 hours)\n- Customers are in euphoria/buying mood and have proven they have money and willingness to spend\n- Transactional emails have 80-85% open rates vs 20-25% for regular marketing emails\n- Primary goals: remove buyer's remorse, encourage additional purchases, build loyalty, get reviews\n- Critical 7-day window for maximum impact and additional sales\n\nCORE COPYWRITING PRINCIPLES:\n- Customers have 3-5 second attention spans - optimize for SKIMMING\n- Customer IQ drops 50% when opening emails (zombie brain mode)\n- Use SCE framework: Skimmable, Clear & Concise, Engaging\n- One microtopic per email = one clear takeaway\n- Focus on customer experience and value delivery\n- Build community and brand loyalty\n\nPOST-PURCHASE FLOW STRUCTURE (3-4 emails):\n1. Immediate Thank You (0 minutes) - Founder gratitude, order confirmation, upsell opportunity\n2. Social Follow (2 days) - Build community, encourage social media engagement\n3. Product Education (3 days) - How to get most out of purchase, tips and usage\n4. Review Request (2-3 weeks) - After product received and used, request feedback\n\nPOST-PURCHASE COPY RULES:\n- Keep emails under 100 words of body copy (similar to welcome flow length)\n- Focus on customer experience over selling\n- Use sincere, heartfelt tone - they just trusted you with their money\n- Include subtle upsell opportunities without being pushy\n- Split messaging based on purchase history (1st, 2nd, 3rd+ time buyers)\n- Always offer support and assistance\n\nPSYCHOLOGICAL TRIGGERS FOR POST-PURCHASE:\n- Gratitude and appreciation (sincere thanks for trust)\n- Community belonging (welcome to our family)\n- Reciprocity (we're grateful, here's extra value)\n- Social proof (join others who love our products)\n- Authority (founder personally thanking them)\n- Excitement building (anticipation for delivery)\n\nPOST-PURCHASE OBJECTIVES:\n- Remove buyer's remorse and build confidence in purchase\n- Encourage immediate additional purchases (high propensity window)\n- Build brand loyalty and community connection\n- Educate on product usage for better results\n- Generate reviews and social proof\n- Increase customer lifetime value\n\nLAYOUT CONTROL SYSTEM:\n- [LOGO SECTION] - Brand logo placement\n- [HERO SECTION] - Personal thank you message\n- [ORDER CONFIRMATION] - Purchase details and tracking\n- [BUTTON: \"Add to Order\"] - Upsell opportunity with time limit\n- [BRIDGE SECTION] - Mission connection and community building\n- [PRODUCT EDUCATION] - Usage tips and maximization advice\n- [SOCIAL SECTION] - Community engagement and following\n- [FOOTER SECTION] - Support contact and additional shopping\n\nTECHNICAL REQUIREMENTS:\n- Personalize with customer's first name and specific purchase\n- Include order details and confirmation information\n- Show recommended products based on purchase history\n- Include social media links and community invitations\n- Mobile-optimized for immediate post-purchase engagement\n- Include support contact information prominently\n\nOUTPUT SPECIFICATIONS:\n- Complete email copy with detailed layout markers\n- Subject line options (gratitude and excitement focused)\n- Preview text emphasizing appreciation and value\n- Specific button text for upsells and engagement\n- Purchase-specific personalization instructions\n- Time delay recommendations between emails\n- Community building and engagement elements\n\nIMPORTANT FORMATTING RULE:\nIn your output never use ``` or ''' formatting around email sections. Use clean text formatting with clear section headers and layout markers only."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        800,
+        1136
+      ],
+      "id": "af99ed2e-40d4-4402-b3a6-6ac697bad1c8",
+      "name": "Post Purchase Flow Agent"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://md2doc.n8n.aemalsayer.com ",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleDocsOAuth2Api",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "fileName",
+              "value": "=Post Purchase Flow - {{ $('Set Brand Details').first().json.brandName }}"
+            },
+            {
+              "name": "output",
+              "value": "={{ $json.output }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1152,
+        1240
+      ],
+      "id": "65a021a0-d09c-4e4e-b70f-886e3f70d8af",
+      "name": "Post Purchase Google Doc Creator",
+      "credentials": {
+        "googleDocsOAuth2Api": {
+          "id": "l6gkJBk6UFQH05ci",
+          "name": "Google Docs account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.7-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        872,
+        1760
+      ],
+      "id": "f626753f-65e1-4303-aea1-85a23dc102a0",
+      "name": "OpenRouter Chat Model6",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Create a master-level Site Abandonment Flow using the provided brand intelligence and advanced copywriting principles that converts site visitors into product browsers.\n\nBRAND INTELLIGENCE:\n- Brand Name: {{ $('Set Brand Details').item.json.brandName }}\n- Brand Website: {{ $('Set Brand Details').item.json.brandWebsite }}\n- Niche: {{ $('Set Brand Details').item.json.niche }}\n- Notes: {{ $('Set Brand Details').item.json.notes }}\n- Brand Research: {{ $json.brandResearch }}\n\nSITE ABANDON FLOW SPECIFICATIONS:\nCreate a single high-impact Site Abandonment email that:\n- Converts 2%+ of site abandoners into product browsers\n- Uses Max Sturtavant's proven $40M+ methodology\n- Applies advanced copywriting psychology for earliest-stage visitors\n- Focuses specifically on site abandoners (visited site, didn't view products)\n\nCOPYWRITING REQUIREMENTS:\n- Apply SCE framework (Skimmable, Clear & Concise, Engaging)\n- Maximum 3-5 second reading time\n- Under 50 words of body copy (shortest of all flows)\n- Focus on being helpful rather than salesy\n- Offer guidance and assistance\n- Make product discovery easy and appealing\n- Don't overwhelm with too many choices\n\nEMAIL STRUCTURE:\nSingle Email (2-4 hours delay):\n- Helpful headline addressing potential confusion or overwhelm\n- Show 3-4 bestselling products as guidance\n- Provide clear category navigation options\n- Offer human assistance and support\n- Include easy browsing call-to-action\n\nSITE ABANDON OPTIMIZATION:\n- Address why they left without viewing products\n- Reduce choice overwhelm with curated bestsellers\n- Provide clear navigation and category options\n- Use helpful, non-pushy tone\n- Show what's popular and trending\n- Make it easy to find what they might want\n- Offer personal assistance if needed\n\nTECHNICAL SPECIFICATIONS:\n- Detailed layout markers for site abandon elements\n- Bestseller product selection and display\n- Subject line + preview text focused on helpfulness\n- Browse-optimized button text and placement\n- Category navigation integration\n- Support contact prominence\n- Mobile browsing optimization\n\nPSYCHOLOGICAL OPTIMIZATION:\n- Use helpfulness rather than sales pressure\n- Reduce decision fatigue with curated options\n- Show social proof through bestsellers\n- Create easy path to product discovery\n- Offer human guidance and support\n- Make browsing feel effortless and guided\n\nDELIVERABLES REQUIRED:\n1. Single high-impact email optimized for site abandon recovery\n2. Subject line + preview text options emphasizing help and guidance\n3. Detailed layout markers and bestseller selection instructions\n4. Category navigation and browsing optimization\n5. Time delay recommendation (2-4 hours optimal)\n6. Support integration and assistance offers\n7. Klaviyo setup instructions with site abandonment triggers\n8. Conversion optimization focused on moving to browse abandon\n\nCONVERSION OPTIMIZATION FOCUS:\n- Maximize site-to-browse conversion through helpful guidance\n- Address choice overwhelm with curated selections\n- Create easy product discovery pathway\n- Use brand voice while maintaining helpful tone\n- Include bestsellers and popular items as social proof\n- Optimize for mobile site browsing experience\n- Focus on moving visitors down the funnel to product viewing\n\nSITE ABANDONMENT CONTEXT:\nRemember: These visitors came to your site but didn't view any products. They might have been overwhelmed by choices, couldn't find what they wanted, or got distracted. Your email should be like a helpful store associate offering guidance - not pushy, just genuinely helpful in finding what they might be looking for.\n\nIMPORTANT FORMATTING INSTRUCTION:\nIn your output never use ``` or ''' formatting around email sections. Use clean text formatting with clear section headers and layout markers only.\n\nMake this Site Abandonment email a helpful guide that converts confused visitors into engaged product browsers using advanced copywriting psychology tailored specifically to this brand's site experience and product offerings.",
+        "options": {
+          "systemMessage": "You are a master email copywriter specializing exclusively in high-converting Site Abandonment Flows for e-commerce brands. You follow Max Sturtavant's proven methodology that has generated over $40 million in email revenue, focusing specifically on recovering visitors who viewed the site but didn't engage with any products.\n\nSITE ABANDONMENT INTELLIGENCE:\n- Site abandoners are the earliest stage visitors (lowest funnel position)\n- They visited your website but didn't view any products at all\n- Primary reasons: overwhelmed by choices, couldn't find what they wanted, got distracted, unclear navigation\n- Goal is to get them to view products (move them down the funnel to browse abandon)\n- Very slept on flow - most brands don't have this but it's highly effective\n\nCORE COPYWRITING PRINCIPLES:\n- Customers have 3-5 second attention spans - optimize for SKIMMING\n- Customer IQ drops 50% when opening emails (zombie brain mode)\n- Use SCE framework: Skimmable, Clear & Concise, Engaging\n- One microtopic per email = one clear takeaway\n- Focus on helping and guiding rather than selling\n- Make it easy to find what they're looking for\n\nSITE ABANDON FLOW STRUCTURE (1 email):\n1. Helpful Guidance (2-4 hours delay) - \"Need help?\" - show bestsellers and categories, offer assistance\n\nSITE ABANDON COPY RULES:\n- Keep email extremely simple - under 50 words of body copy (shortest of all flows)\n- Focus on being helpful rather than salesy\n- Show bestsellers and popular categories to guide them\n- Use \"helping hand\" approach - offer assistance\n- Don't overwhelm with too many options\n- Make it easy to browse and find products\n\nPSYCHOLOGICAL TRIGGERS FOR SITE ABANDONERS:\n- Helpfulness (we're here to guide you)\n- Simplification (make choices easier)\n- Curiosity (here's what's popular)\n- Social proof (these are customer favorites)\n- Guidance (let us help you find what you need)\n- Accessibility (easy browsing options)\n\nSITE ABANDON OBJECTIVES:\n- Get them to view products (trigger browse abandon flow)\n- Reduce choice overwhelm with curated selections\n- Provide clear navigation and categories\n- Offer human assistance if needed\n- Show social proof through bestsellers\n- Create easy path to product discovery\n\nLAYOUT CONTROL SYSTEM:\n- [LOGO SECTION] - Brand logo placement\n- [HERO SECTION] - \"Need help finding something?\" messaging\n- [BESTSELLERS SECTION] - Top 3-4 most popular products\n- [BUTTON: \"Browse Favorites\"] - Easy browsing action\n- [CATEGORIES SECTION] - Clear category navigation options\n- [SUPPORT SECTION] - Offer human assistance\n- [FOOTER SECTION] - Additional browsing options\n\nTECHNICAL REQUIREMENTS:\n- Show bestselling products with images and names\n- Include clear category navigation\n- Provide support contact information\n- Mobile-optimized for easy browsing\n- Simple, clean design that doesn't overwhelm\n- Fast loading and easy navigation\n\nOUTPUT SPECIFICATIONS:\n- Single email copy with detailed layout markers\n- Subject line options (helpful and curiosity-driven)\n- Preview text offering assistance\n- Specific button text optimized for browsing\n- Bestseller and category selection instructions\n- Time delay recommendation (2-4 hours)\n- Support and assistance integration\n\nIMPORTANT FORMATTING RULE:\nIn your output never use ``` or ''' formatting around email sections. Use clean text formatting with clear section headers and layout markers only."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        800,
+        1536
+      ],
+      "id": "021b8f81-2125-4fda-ac0f-54cc5be81182",
+      "name": "Site Abandon Flow Agent"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://md2doc.n8n.aemalsayer.com ",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleDocsOAuth2Api",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "fileName",
+              "value": "=Site Abandon Flow - {{ $('Set Brand Details').first().json.brandName }}"
+            },
+            {
+              "name": "output",
+              "value": "={{ $json.output }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1152,
+        1640
+      ],
+      "id": "388c97d2-5776-433f-81c3-483f935ddb86",
+      "name": "Site Abandon Google Doc Creator",
+      "credentials": {
+        "googleDocsOAuth2Api": {
+          "id": "l6gkJBk6UFQH05ci",
+          "name": "Google Docs account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "anthropic/claude-3.7-sonnet",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        872,
+        2264
+      ],
+      "id": "0d88198d-0cca-4b55-81e5-263827f08671",
+      "name": "OpenRouter Chat Model7",
+      "credentials": {
+        "openRouterApi": {
+          "id": "iRYrEjdeS3SL37lU",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Create a master-level Win-Back Flow using the provided brand intelligence and advanced copywriting principles that re-engages dormant customers and rebuilds purchasing relationships.\n\nBRAND INTELLIGENCE:\n- Brand Name: {{ $('Set Brand Details').item.json.brandName }}\n- Brand Website: {{ $('Set Brand Details').item.json.brandWebsite }}\n- Niche: {{ $('Set Brand Details').item.json.niche }}\n- Notes: {{ $('Set Brand Details').item.json.notes }}\n- Brand Research: {{ $json.brandResearch }}\n\nWIN-BACK FLOW SPECIFICATIONS:\nCreate a complete 3-email Win-Back sequence that:\n- Re-engages 5-15% of dormant customers into repeat purchasers\n- Uses Max Sturtavant's proven $40M+ methodology\n- Applies advanced copywriting psychology for past customers\n- Focuses specifically on customers who haven't purchased in 60-120+ days\n\nCOPYWRITING REQUIREMENTS:\n- Apply SCE framework (Skimmable, Clear & Concise, Engaging)\n- Maximum 3-5 second reading time per email\n- Under 75 words of body copy per email\n- Use nostalgic, relationship-focused tone\n- Acknowledge time gap without being needy\n- Make customers feel valued and missed\n- Focus on relationship rebuilding over hard selling\n\nEMAIL SEQUENCE STRUCTURE:\n1. Relationship Acknowledgment (60-120 days after last purchase) - \"We miss you\" messaging, acknowledge absence\n2. Exclusive Welcome Back (1 week later) - Special discount offer, show what's new\n3. Final Personal Touch (1 week later) - Founder note, feedback request, last chance offer\n\nWIN-BACK OPTIMIZATION:\n- Reference past positive experiences and purchases\n- Show new products or improvements since they left\n- Use exclusive offers that feel personal and special\n- Acknowledge the relationship and time together\n- Ask for feedback on their absence (valuable insights)\n- Make re-engagement feel natural and welcomed\n- Use guilt and nostalgia appropriately (not manipulatively)\n\nTECHNICAL SPECIFICATIONS:\n- Detailed layout markers for win-back elements\n- Purchase history personalization opportunities\n- Subject line + preview text focused on relationship and nostalgia\n- Re-engagement optimized button text and placement\n- New product showcase since their last purchase\n- Exclusive discount code generation\n- Feedback collection integration\n\nPSYCHOLOGICAL OPTIMIZATION:\n- Use nostalgia for past positive experiences\n- Create appropriate guilt about absence (we miss you)\n- Show exclusivity through special offers\n- Acknowledge their value as past customers\n- Use curiosity about what's new since they left\n- Build sense of belonging and community\n- Make return feel welcomed and celebrated\n\nDELIVERABLES REQUIRED:\n1. Complete 3-email sequence optimized for customer win-back\n2. Subject line + preview text options emphasizing relationship and nostalgia\n3. Detailed layout markers and personalization instructions\n4. Purchase history integration opportunities\n5. Time delay recommendations (longer intervals, relationship-focused)\n6. Exclusive offer and discount integration\n7. Klaviyo setup instructions with win-back triggers based on purchase recency\n8. Feedback collection mechanisms for absence insights\n\nCONVERSION OPTIMIZATION FOCUS:\n- Maximize dormant customer re-engagement through relationship building\n- Use past purchase history for personalized experiences\n- Create exclusive offers that feel special and personal\n- Acknowledge and celebrate the past relationship\n- Show growth and improvements since their absence\n- Use brand voice while maintaining nostalgic, welcoming tone\n- Focus on rebuilding the purchasing habit and relationship\n\nWIN-BACK CONTEXT:\nRemember: These are past customers who already know, like, and trust your brand. They've bought before, so the relationship foundation exists. They may have simply forgotten about you, gotten busy, or been distracted by competitors. Your job is to remind them why they loved you, show them what they've missed, and make their return feel welcomed and special.\n\nIMPORTANT FORMATTING INSTRUCTION:\nIn your output never use ``` or ''' formatting around email sections. Use clean text formatting with clear section headers and layout markers only.\n\nMake this Win-Back Flow a relationship masterpiece that re-engages dormant customers and rebuilds lasting purchasing relationships using advanced copywriting psychology tailored specifically to this brand's past customer experience and product evolution.",
+        "options": {
+          "systemMessage": "You are a master email copywriter specializing exclusively in high-converting Win-Back Flows for e-commerce brands. You follow Max Sturtavant's proven methodology that has generated over $40 million in email revenue, focusing specifically on re-engaging past customers who haven't purchased recently.\n\nWIN-BACK INTELLIGENCE:\n- Win-back targets past customers who haven't purchased in 60-120+ days (brand dependent)\n- These customers already know, like, and trust you - they've bought before\n- Primary reasons for absence: forgot about brand, found competitors, life got busy, product ran out\n- Goal is to remind them why they loved you and encourage repeat purchase\n- 99% of retention comes from regular campaigns, win-back is for customer experience\n- Much easier to win back existing customers than acquire new ones\n\nCORE COPYWRITING PRINCIPLES:\n- Customers have 3-5 second attention spans - optimize for SKIMMING\n- Customer IQ drops 50% when opening emails (zombie brain mode)\n- Use SCE framework: Skimmable, Clear & Concise, Engaging\n- One microtopic per email = one clear takeaway\n- Focus on relationship and nostalgia rather than hard selling\n- Acknowledge the time gap and make them feel valued\n\nWIN-BACK FLOW STRUCTURE (3 emails):\n1. \"It's Been A While\" (60-120 days after last purchase) - Acknowledge absence, remind of brand\n2. Special Discount (1 week later) - Exclusive offer to welcome them back\n3. Final Founder Note (1 week later) - Personal message, last chance, feedback request\n\nWIN-BACK COPY RULES:\n- Keep emails under 75 words of body copy (shorter than welcome, similar to abandonment)\n- Use nostalgic, relationship-focused tone\n- Acknowledge the time gap without being needy\n- Make them feel special and missed\n- Include \"we miss you\" messaging authentically\n- Use dynamic discounts that feel personal and exclusive\n\nPSYCHOLOGICAL TRIGGERS FOR WIN-BACK:\n- Nostalgia (remember when you loved our products)\n- Guilt (we miss you, where have you been)\n- Exclusivity (special offer just for you)\n- Reciprocity (we valued your past business)\n- Curiosity (see what's new since you've been gone)\n- Belonging (you're part of our community)\n\nWIN-BACK OBJECTIVES:\n- Re-engage dormant customers who already trust the brand\n- Remind them of positive past experiences\n- Show new products or improvements since they left\n- Provide incentive to make another purchase\n- Gather feedback on why they stopped buying\n- Rebuild the purchasing habit and relationship\n\nLAYOUT CONTROL SYSTEM:\n- [LOGO SECTION] - Brand logo placement\n- [HERO SECTION] - \"We miss you\" or \"It's been a while\" messaging\n- [NOSTALGIA SECTION] - Reference to past purchases or relationship\n- [BUTTON: \"Welcome Back\"] - Relationship-focused button text\n- [NEW PRODUCTS SECTION] - Show what they've missed\n- [DISCOUNT SECTION] - Exclusive welcome back offer\n- [FEEDBACK SECTION] - Ask for input on absence\n- [FOOTER SECTION] - Easy re-engagement options\n\nTECHNICAL REQUIREMENTS:\n- Reference past purchase history when possible\n- Show new products launched since their last purchase\n- Include personalized discount codes\n- Use their purchase history for product recommendations\n- Mobile-optimized for easy re-engagement\n- Include feedback collection opportunities\n\nOUTPUT SPECIFICATIONS:\n- Complete email copy with detailed layout markers\n- Subject line options (nostalgic and curiosity-driven)\n- Preview text emphasizing the relationship\n- Specific button text optimized for re-engagement\n- Personalization based on purchase history\n- Time delay recommendations between emails\n- Feedback collection integration\n\nIMPORTANT FORMATTING RULE:\nIn your output never use ``` or ''' formatting around email sections. Use clean text formatting with clear section headers and layout markers only."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        800,
+        2040
+      ],
+      "id": "f45d6279-a617-4ded-9106-e581384ddcad",
+      "name": "Win-Back Flow Agent"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://md2doc.n8n.aemalsayer.com ",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleDocsOAuth2Api",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "fileName",
+              "value": "=Win-Back Flow - {{ $('Set Brand Details').first().json.brandName }}"
+            },
+            {
+              "name": "output",
+              "value": "={{ $json.output }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1152,
+        2040
+      ],
+      "id": "04088e62-2819-4c86-84c8-f069e0ecc7f3",
+      "name": "Win-Back Google Doc Creator",
+      "credentials": {
+        "googleDocsOAuth2Api": {
+          "id": "l6gkJBk6UFQH05ci",
+          "name": "Google Docs account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "e713ca60-e456-4ddd-8dbc-c6c6abfabbf4",
+              "name": "welcomeFlowID",
+              "value": "={{ $json.documentId }}",
+              "type": "string"
+            },
+            {
+              "id": "63cf87f1-81b6-40b8-ada6-1662395956ca",
+              "name": "cartAbandonFlowID",
+              "value": "={{ $items()[1].json.documentId }}",
+              "type": "string"
+            },
+            {
+              "id": "ded01dce-7e78-40f4-b4e1-a8e855a07416",
+              "name": "checkoutAbandonFlowID",
+              "value": "={{ $items()[2].json.documentId }}",
+              "type": "string"
+            },
+            {
+              "id": "f6335f2c-5211-4bd3-ab81-97eb85c87b84",
+              "name": "browseAbandonFlowID",
+              "value": "={{ $items()[3].json.documentId }}",
+              "type": "string"
+            },
+            {
+              "id": "f0d58ebe-43b8-46e5-b595-000b59609356",
+              "name": "postPurchaseFlowID",
+              "value": "={{ $items()[4].json.documentId }}",
+              "type": "string"
+            },
+            {
+              "id": "ded08f24-c341-4ee0-a62e-7de430fde6a1",
+              "name": "siteAbandonFlowID",
+              "value": "={{ $items()[5].json.documentId }}",
+              "type": "string"
+            },
+            {
+              "id": "c9bf38af-7c17-4840-a614-410dfb5cb64d",
+              "name": "winBackFlowID",
+              "value": "={{ $items()[6].json.documentId }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1600,
+        840
+      ],
+      "id": "fd0f9ca7-d435-4a1e-a170-b489848c1569",
+      "name": "Set Google Drive Links"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "750a2782-2ea2-4537-93a2-4ca5053f3576",
+              "leftValue": "={{ $('On form submission').first().json['Existing Client?'] }}",
+              "rightValue": "Yes",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        2272,
+        840
+      ],
+      "id": "594d7335-b5a5-4214-8fc3-f1a2fed80911",
+      "name": "If"
+    },
+    {
+      "parameters": {
+        "resource": "folder",
+        "name": "={{ $('On form submission').first().json['Brand Name'] }}",
+        "driveId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "My Drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "value": "1Sw0kTgXq8Nki7Woz-0Eso-xMSDksW3MD",
+          "mode": "list",
+          "cachedResultName": "Clients",
+          "cachedResultUrl": "https://drive.google.com/drive/folders/1Sw0kTgXq8Nki7Woz-0Eso-xMSDksW3MD"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        2496,
+        936
+      ],
+      "id": "17ca614e-e485-429b-916f-c5b67a443ea0",
+      "name": "Create folder",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "move",
+        "fileId": {
+          "__rl": true,
+          "value": "={{ $json.fileId }}",
+          "mode": "id"
+        },
+        "driveId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "My Drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "value": "={{ $json.folderId }}",
+          "mode": "id"
+        }
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        2944,
+        936
+      ],
+      "id": "075d5022-1508-4b1a-808f-4f93c4083a47",
+      "name": "Move file",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "move",
+        "fileId": {
+          "__rl": true,
+          "value": "={{ $json.folderId }}",
+          "mode": "id"
+        },
+        "driveId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "My Drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "root",
+          "cachedResultName": "/ (Root folder)"
+        }
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        2944,
+        744
+      ],
+      "id": "849ecc13-578d-4a86-ba21-1f3d80020aa1",
+      "name": "Move file1",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "fileFolder",
+        "queryString": "={{ $('On form submission').item.json['Brand Name'] }}",
+        "filter": {
+          "folderId": {
+            "__rl": true,
+            "value": "1Sw0kTgXq8Nki7Woz-0Eso-xMSDksW3MD",
+            "mode": "list",
+            "cachedResultName": "Clients",
+            "cachedResultUrl": "https://drive.google.com/drive/folders/1Sw0kTgXq8Nki7Woz-0Eso-xMSDksW3MD"
+          }
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        2496,
+        744
+      ],
+      "id": "a0278167-cf20-417c-b3da-ecf7bcabc79a",
+      "name": "Search files and folders",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "LRLYRc0p294Nl9Wo",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const data = $input.first().json;\n\nconst files = [\n  { fileId: data.welcomeFlowID, fileName: 'Welcome Flow' },\n  { fileId: data.cartAbandonFlowID, fileName: 'Cart Abandon Flow' },\n  { fileId: data.checkoutAbandonFlowID, fileName: 'Checkout Abandon Flow' },\n  { fileId: data.browseAbandonFlowID, fileName: 'Browse Abandon Flow' },\n  { fileId: data.postPurchaseFlowID, fileName: 'Post Purchase Flow' },\n  { fileId: data.siteAbandonFlowID, fileName: 'Site Abandon Flow' },\n  { fileId: data.winBackFlowID, fileName: 'Win-Back Flow' }\n];\n\nreturn files.map(file => ({\n  json: file\n}));"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1824,
+        840
+      ],
+      "id": "b12b9d73-1fe7-453b-8817-09a49a699048",
+      "name": "Code"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Get the folder ID from the previous node (Create folder)\nconst folderId = $input.first().json.id;\n\n// Get all the files from the Aggregate node's data array\n// The aggregate node has combined all the file items into a 'data' array\nconst files = $('Aggregate').first().json.data;\n\n// Create an array of items with each document ID and the folder ID\nconst filesToMove = files.map(file => ({\n  fileId: file.fileId,\n  fileName: file.fileName,\n  folderId: folderId\n}));\n\n// Return each file as a separate item for the Move file node\nreturn filesToMove.map(file => ({\n  json: file\n}));"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2720,
+        936
+      ],
+      "id": "413336cd-67b1-4fac-a0ec-5c513417520d",
+      "name": "Code1"
+    },
+    {
+      "parameters": {
+        "aggregate": "aggregateAllItemData",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        2048,
+        840
+      ],
+      "id": "985f53cc-1fa4-4a44-bfdc-53726f9861ef",
+      "name": "Aggregate"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Get the folder ID from the previous node (Create folder)\nconst folderId = $input.first().json.id;\n\n// Get all the files from the Aggregate node's data array\n// The aggregate node has combined all the file items into a 'data' array\nconst files = $('Aggregate').first().json.data;\n\n// Create an array of items with each document ID and the folder ID\nconst filesToMove = files.map(file => ({\n  fileId: file.fileId,\n  fileName: file.fileName,\n  folderId: folderId\n}));\n\n// Return each file as a separate item for the Move file node\nreturn filesToMove.map(file => ({\n  json: file\n}));"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2720,
+        744
+      ],
+      "id": "37bca7cb-5bd3-4f12-9a55-b524d50db1c5",
+      "name": "Code2"
+    },
+    {
+      "parameters": {
+        "aggregate": "aggregateAllItemData",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        3168,
+        744
+      ],
+      "id": "d2fc8023-bfbc-4695-b269-b4b1fc8af4f4",
+      "name": "Aggregate1"
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "select": "user",
+        "user": {
+          "__rl": true,
+          "value": "U04GPFR7TN1",
+          "mode": "list",
+          "cachedResultName": "lucas035"
+        },
+        "messageType": "block",
+        "blocksUi": "={\n  \"blocks\": [\n    {\n      \"type\": \"header\",\n      \"text\": {\n        \"type\": \"plain_text\",\n        \"text\": \"✨ New Client Setup Complete\",\n        \"emoji\": true\n      }\n    },\n    {\n      \"type\": \"section\",\n      \"fields\": [\n        {\n          \"type\": \"mrkdwn\",\n          \"text\": \"*Client:*\\n{{ $('On form submission').first().json['Brand Name'] }}\"\n        },\n        {\n          \"type\": \"mrkdwn\",\n          \"text\": \"*Status:*\\n✅ Successfully Created\"\n        }\n      ]\n    },\n    {\n      \"type\": \"divider\"\n    },\n    {\n      \"type\": \"section\",\n      \"text\": {\n        \"type\": \"mrkdwn\",\n        \"text\": \"*📧 Email Flows Created:*\\n• Welcome Flow\\n• Cart Abandon Flow\\n• Checkout Abandon Flow\\n• Browse Abandon Flow\\n• Post Purchase Flow\\n• Site Abandon Flow\\n• Win-Back Flow\"\n      }\n    },\n    {\n      \"type\": \"section\",\n      \"text\": {\n        \"type\": \"mrkdwn\",\n        \"text\": \"*📁 Client Folder:*\"\n      },\n      \"accessory\": {\n        \"type\": \"button\",\n        \"text\": {\n          \"type\": \"plain_text\",\n          \"text\": \"Open in Google Drive\",\n          \"emoji\": true\n        },\n        \"url\": \"https://drive.google.com/drive/folders/{{ $('Create folder').first().json.id }}\",\n        \"action_id\": \"button-action\",\n        \"style\": \"primary\"\n      }\n    },\n    {\n      \"type\": \"context\",\n      \"elements\": [\n        {\n          \"type\": \"mrkdwn\",\n          \"text\": \"🕐 Created: <!date^{{ Math.floor(Date.now() / 1000) }}^{date_pretty} at {time}|{{ new Date().toISOString() }}>\"\n        }\n      ]\n    }\n  ]\n}",
+        "otherOptions": {}
+      },
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.3,
+      "position": [
+        3392,
+        936
+      ],
+      "id": "cc542e1a-ce0c-4713-aee0-e343281c8a01",
+      "name": "Send a message",
+      "webhookId": "9c1799a8-4237-4090-a3cd-0e70a36bbcec",
+      "executeOnce": true,
+      "credentials": {
+        "slackOAuth2Api": {
+          "id": "nhkttwRMJO9stSq3",
+          "name": "Slack account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "aggregate": "aggregateAllItemData",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        3168,
+        936
+      ],
+      "id": "5a1ee698-6aef-4ab2-a05f-06d47339fb6c",
+      "name": "Aggregate2"
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "select": "user",
+        "user": {
+          "__rl": true,
+          "value": "U04GPFR7TN1",
+          "mode": "list",
+          "cachedResultName": "lucas035"
+        },
+        "messageType": "block",
+        "blocksUi": "={\n  \"blocks\": [\n    {\n      \"type\": \"header\",\n      \"text\": {\n        \"type\": \"plain_text\",\n        \"text\": \"📝 Existing Client Updated\",\n        \"emoji\": true\n      }\n    },\n    {\n      \"type\": \"section\",\n      \"fields\": [\n        {\n          \"type\": \"mrkdwn\",\n          \"text\": \"*Client:*\\n{{ $('On form submission').first().json['Brand Name'] }}\"\n        },\n        {\n          \"type\": \"mrkdwn\",\n          \"text\": \"*Status:*\\n🔄 Flows Updated\"\n        }\n      ]\n    },\n    {\n      \"type\": \"divider\"\n    },\n    {\n      \"type\": \"section\",\n      \"text\": {\n        \"type\": \"mrkdwn\",\n        \"text\": \"*📧 Email Flows Added:*\\n• Welcome Flow _(replaced)_\\n• Cart Abandon Flow _(replaced)_\\n• Checkout Abandon Flow _(replaced)_\\n• Browse Abandon Flow _(replaced)_\\n• Post Purchase Flow _(replaced)_\\n• Site Abandon Flow _(replaced)_\\n• Win-Back Flow _(replaced)_\"\n      }\n    },\n    {\n      \"type\": \"section\",\n      \"text\": {\n        \"type\": \"mrkdwn\",\n        \"text\": \"*📁 Client Folder:*\"\n      },\n      \"accessory\": {\n        \"type\": \"button\",\n        \"text\": {\n          \"type\": \"plain_text\",\n          \"text\": \"Open in Google Drive\",\n          \"emoji\": true\n        },\n        \"url\": \"https://drive.google.com/drive/folders/{{ $('Search files and folders').first().json.id }}\",\n        \"action_id\": \"button-action\",\n        \"style\": \"primary\"\n      }\n    },\n    {\n      \"type\": \"context\",\n      \"elements\": [\n        {\n          \"type\": \"mrkdwn\",\n          \"text\": \"🕐 Updated: <!date^{{ Math.floor(Date.now() / 1000) }}^{date_pretty} at {time}|{{ new Date().toISOString() }}>\"\n        }\n      ]\n    }\n  ]\n}",
+        "otherOptions": {}
+      },
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.3,
+      "position": [
+        3392,
+        744
+      ],
+      "id": "63b450d6-f40d-4918-a8b2-9d60c9d9207b",
+      "name": "Send a message1",
+      "webhookId": "9c1799a8-4237-4090-a3cd-0e70a36bbcec",
+      "executeOnce": true,
+      "credentials": {
+        "slackOAuth2Api": {
+          "id": "nhkttwRMJO9stSq3",
+          "name": "Slack account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "numberInputs": 7
+      },
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        1376,
+        760
+      ],
+      "id": "e71c072e-8d8f-4beb-9325-ec24759055f8",
+      "name": "Merge"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "On form submission": {
+      "main": [
+        [
+          {
+            "node": "Set Brand Details",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Message a model in Perplexity": {
+      "ai_tool": [
+        [
+          {
+            "node": "Brand Research Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Brand Research Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set Brand Details": {
+      "main": [
+        [
+          {
+            "node": "Brand Research Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Brand Research Agent": {
+      "main": [
+        [
+          {
+            "node": "Set Research Details",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set Research Details": {
+      "main": [
+        [
+          {
+            "node": "Welcome Flow Agent",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Cart Abandon Flow Agent",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Checkout Abandon Flow Agent",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Browse Abandon Flow Agent",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Post Purchase Flow Agent",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Site Abandon Flow Agent",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Win-Back Flow Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model1": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Welcome Flow Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Welcome Flow Agent": {
+      "main": [
+        [
+          {
+            "node": "Welcome Flow Google Doc Creator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model2": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Cart Abandon Flow Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Cart Abandon Flow Agent": {
+      "main": [
+        [
+          {
+            "node": "Cart Abandon Google Doc Creator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model3": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Checkout Abandon Flow Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Checkout Abandon Flow Agent": {
+      "main": [
+        [
+          {
+            "node": "Checkout Abandon Google Doc Creator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model4": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Browse Abandon Flow Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Browse Abandon Flow Agent": {
+      "main": [
+        [
+          {
+            "node": "Browse Abandon Google Doc Creator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model5": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Post Purchase Flow Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Post Purchase Flow Agent": {
+      "main": [
+        [
+          {
+            "node": "Post Purchase Google Doc Creator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model6": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Site Abandon Flow Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Site Abandon Flow Agent": {
+      "main": [
+        [
+          {
+            "node": "Site Abandon Google Doc Creator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model7": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Win-Back Flow Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Win-Back Flow Agent": {
+      "main": [
+        [
+          {
+            "node": "Win-Back Google Doc Creator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Win-Back Google Doc Creator": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 6
+          }
+        ]
+      ]
+    },
+    "Site Abandon Google Doc Creator": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 5
+          }
+        ]
+      ]
+    },
+    "Post Purchase Google Doc Creator": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 4
+          }
+        ]
+      ]
+    },
+    "Browse Abandon Google Doc Creator": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 3
+          }
+        ]
+      ]
+    },
+    "Checkout Abandon Google Doc Creator": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 2
+          }
+        ]
+      ]
+    },
+    "Cart Abandon Google Doc Creator": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Welcome Flow Google Doc Creator": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set Google Drive Links": {
+      "main": [
+        [
+          {
+            "node": "Code",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Search files and folders",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Create folder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create folder": {
+      "main": [
+        [
+          {
+            "node": "Code1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Search files and folders": {
+      "main": [
+        [
+          {
+            "node": "Code2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code": {
+      "main": [
+        [
+          {
+            "node": "Aggregate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code1": {
+      "main": [
+        [
+          {
+            "node": "Move file",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code2": {
+      "main": [
+        [
+          {
+            "node": "Move file1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Move file": {
+      "main": [
+        [
+          {
+            "node": "Aggregate2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Move file1": {
+      "main": [
+        [
+          {
+            "node": "Aggregate1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate1": {
+      "main": [
+        [
+          {
+            "node": "Send a message1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send a message": {
+      "main": [
+        []
+      ]
+    },
+    "Aggregate2": {
+      "main": [
+        [
+          {
+            "node": "Send a message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge": {
+      "main": [
+        [
+          {
+            "node": "Set Google Drive Links",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "8e1a9bd2-1741-40de-80b9-09c90e7704ec",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "94aed49fc73372525d542e924a8b65d38c4cfc7be69ff82b11f83d6bf3d06ce7"
+  },
+  "id": "S0veMRPdL9n0C6jk",
+  "tags": []
+}
