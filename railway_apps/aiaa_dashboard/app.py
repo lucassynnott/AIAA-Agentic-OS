@@ -2999,6 +2999,18 @@ def workflow_page():
             "project_id": "3b96c81f-9518-4131-b2bc-bcd7a524a5ef",
             "project_url": "https://railway.com/project/3b96c81f-9518-4131-b2bc-bcd7a524a5ef",
             "service_id": "5fbf1961-5c49-41ec-a776-fb4c7723bf69"
+        },
+        {
+            "name": "YouTube Automation",
+            "description": "YouTube content automation workflow - TEST DELETE TARGET",
+            "schedule": "Manual",
+            "cron": "",
+            "status": "active",
+            "platform": "Railway",
+            "last_run": "N/A",
+            "project_id": "3b96c81f-9518-4131-b2bc-bcd7a524a5ef",
+            "project_url": "https://railway.com/project/3b96c81f-9518-4131-b2bc-bcd7a524a5ef/service/415686bb-d10c-40c5-b610-4c5e41bbe762?environmentId=951885c9-85a5-46f5-96a1-2151936b0314",
+            "service_id": "415686bb-d10c-40c5-b610-4c5e41bbe762"
         }
     ]
     return render_template_string(WORKFLOW_TEMPLATE, base_url=base_url, endpoints=endpoints, active_workflows=active_workflows, sidebar=render_sidebar("workflow", username))
@@ -3326,6 +3338,10 @@ WORKFLOW_TEMPLATE = f'''
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12.22 2h-.44a2 2 0 00-2 2v.18a2 2 0 01-1 1.73l-.43.25a2 2 0 01-2 0l-.15-.08a2 2 0 00-2.73.73l-.22.38a2 2 0 00.73 2.73l.15.1a2 2 0 011 1.72v.51a2 2 0 01-1 1.74l-.15.09a2 2 0 00-.73 2.73l.22.38a2 2 0 002.73.73l.15-.08a2 2 0 012 0l.43.25a2 2 0 011 1.73V20a2 2 0 002 2h.44a2 2 0 002-2v-.18a2 2 0 011-1.73l.43-.25a2 2 0 012 0l.15.08a2 2 0 002.73-.73l.22-.39a2 2 0 00-.73-2.73l-.15-.08a2 2 0 01-1-1.74v-.5a2 2 0 011-1.74l.15-.09a2 2 0 00.73-2.73l-.22-.38a2 2 0 00-2.73-.73l-.15.08a2 2 0 01-2 0l-.43-.25a2 2 0 01-1-1.73V4a2 2 0 00-2-2z"/><circle cx="12" cy="12" r="3"/></svg>
                     Settings
                 </a>
+                <button onclick="deleteWorkflow('{{{{ wf.service_id }}}}', '{{{{ wf.name }}}}')" class="btn-control btn-delete" style="background:#fee2e2;color:#dc2626;border:1px solid #fecaca;" title="Delete this workflow from Railway">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2"/><line x1="10" y1="11" x2="10" y2="17"/><line x1="14" y1="11" x2="14" y2="17"/></svg>
+                    Delete
+                </button>
                 {{% endif %}}
                 {{% if wf.project_url %}}
                 <a href="{{{{ wf.project_url }}}}" target="_blank" style="font-size:0.8125rem;color:var(--accent);text-decoration:none;display:inline-flex;align-items:center;gap:0.375rem;margin-left:auto;">
@@ -3363,6 +3379,49 @@ WORKFLOW_TEMPLATE = f'''
                 }}
             }} catch (err) {{
                 showToast('Network error: ' + err.message, 'error');
+            }} finally {{
+                btn.classList.remove('loading');
+            }}
+        }}
+
+        async function deleteWorkflow(serviceId, name) {{
+            // Confirm deletion
+            if (!confirm(`Are you sure you want to delete "${{name}}"?\n\nThis will permanently delete the service from Railway and cannot be undone.`)) {{
+                return;
+            }}
+
+            const btn = event.target.closest('.btn-control');
+            if (btn.classList.contains('loading')) return;
+
+            btn.classList.add('loading');
+            btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="spin"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg> Deleting...';
+
+            try {{
+                const response = await fetch('/api/workflow/delete', {{
+                    method: 'POST',
+                    headers: {{ 'Content-Type': 'application/json' }},
+                    body: JSON.stringify({{ service_id: serviceId, name: name }})
+                }});
+                const data = await response.json();
+
+                if (response.ok) {{
+                    showToast(`${{name}} deleted successfully`, 'success');
+                    // Remove the workflow card from the page
+                    const card = btn.closest('.workflow-card');
+                    if (card) {{
+                        card.style.opacity = '0';
+                        card.style.transform = 'translateX(-20px)';
+                        card.style.transition = 'all 0.3s ease';
+                        setTimeout(() => card.remove(), 300);
+                    }}
+                }} else {{
+                    showToast(data.error || 'Failed to delete workflow', 'error');
+                    // Restore button
+                    btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2"/><line x1="10" y1="11" x2="10" y2="17"/><line x1="14" y1="11" x2="14" y2="17"/></svg> Delete';
+                }}
+            }} catch (err) {{
+                showToast('Network error: ' + err.message, 'error');
+                btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2"/><line x1="10" y1="11" x2="10" y2="17"/><line x1="14" y1="11" x2="14" y2="17"/></svg> Delete';
             }} finally {{
                 btn.classList.remove('loading');
             }}
@@ -3637,6 +3696,10 @@ WORKFLOW_TEMPLATE = f'''
     <style>
         @keyframes slideIn {{ from {{ transform: translateX(100%); opacity: 0; }} to {{ transform: translateX(0); opacity: 1; }} }}
         @keyframes fadeOut {{ to {{ opacity: 0; transform: translateY(10px); }} }}
+        @keyframes spin {{ from {{ transform: rotate(0deg); }} to {{ transform: rotate(360deg); }} }}
+        .spin {{ animation: spin 1s linear infinite; }}
+        .btn-delete:hover {{ background: #fecaca !important; border-color: #f87171 !important; }}
+        .btn-delete.loading {{ pointer-events: none; opacity: 0.7; }}
     </style>
 </body>
 </html>
@@ -3793,6 +3856,60 @@ def api_workflow_start():
         "service_id": service_id,
         "name": workflow_name,
         "message": f"{workflow_name} triggered for immediate execution"
+    })
+
+
+@app.route('/api/workflow/delete', methods=['POST'])
+def api_workflow_delete():
+    """Delete a Railway service (workflow deployment)."""
+    if not session.get('logged_in'):
+        return jsonify({"error": "Unauthorized"}), 401
+
+    data = request.get_json()
+    if not data or 'service_id' not in data:
+        return jsonify({"error": "Missing service_id"}), 400
+
+    service_id = data['service_id']
+    workflow_name = data.get('name', 'Unknown')
+
+    # First verify the service exists
+    verify_query = """
+    query service($id: String!) {
+        service(id: $id) {
+            id
+            name
+        }
+    }
+    """
+
+    verify_result = railway_api_call(verify_query, {"id": service_id})
+    if verify_result.get("errors") or not verify_result.get("data", {}).get("service"):
+        error_msg = "Service not found or already deleted"
+        if verify_result.get("errors"):
+            error_msg = verify_result["errors"][0].get("message", error_msg)
+        log_event("workflow", "delete_failed", {"service_id": service_id, "error": error_msg}, source="api")
+        return jsonify({"error": error_msg}), 404
+
+    # Delete the service using Railway API
+    delete_mutation = """
+    mutation serviceDelete($id: String!) {
+        serviceDelete(id: $id)
+    }
+    """
+
+    result = railway_api_call(delete_mutation, {"id": service_id})
+
+    if "error" in result or result.get("errors"):
+        error_msg = result.get("error") or result.get("errors", [{}])[0].get("message", "Unknown error")
+        log_event("workflow", "delete_failed", {"service_id": service_id, "error": error_msg}, source="api")
+        return jsonify({"error": error_msg}), 500
+
+    log_event("workflow", "deleted", {"service_id": service_id, "name": workflow_name}, source="api")
+    return jsonify({
+        "status": "deleted",
+        "service_id": service_id,
+        "name": workflow_name,
+        "message": f"{workflow_name} has been deleted from Railway"
     })
 
 
