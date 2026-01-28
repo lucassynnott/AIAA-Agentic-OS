@@ -22,7 +22,16 @@ Never treat all abandonment the same. Cart abandonment (adding to cart) represen
 Structure each flow as an escalating sequence: start gentle, build urgency, end with incentives. Email 1 should be a soft reminder, Email 2 adds social proof and mild urgency, Email 3 provides strong incentives. This progression respects customer psychology while maximizing conversion opportunities.
 
 ### 3. Timing Psychology Optimization
-Respect natural purchase consideration windows. Cart abandoners get 4 hours to complete naturally (not pushy), then 1-day intervals. Checkout abandoners get 1 hour (higher intent, act faster), then shorter intervals. Timing affects perception and conversion rates significantly.
+
+> **📊 STANDARDIZED CART TIMING (Cross-Reference: SKILL_BIBLE_cart_abandonment_recovery.md, SKILL_BIBLE_klaviyo_mastery.md)**
+> | Product/Context | Email 1 | Reasoning |
+> |-----------------|---------|-----------|
+> | High-intent/impulse (under $100) | 10-30 min | Strike while hot |
+> | Standard e-commerce | 1 hour | Industry standard |
+> | Considered purchase ($200+) | 2-4 hours | Allow natural completion |
+> | Complex/B2B products | 4+ hours | Longer decision cycle |
+
+Respect natural purchase consideration windows. Cart abandoners get timing based on product complexity and price point. Checkout abandoners get 1 hour (higher intent, act faster), then shorter intervals. Timing affects perception and conversion rates significantly.
 
 ### 4. Dynamic Content Personalization
 Every email must show exactly what they abandoned with dynamic product blocks, personalized messaging, and relevant recommendations. Generic abandonment emails perform poorly. Use customer data to create personalized experiences that feel relevant and valuable.

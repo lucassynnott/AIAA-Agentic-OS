@@ -221,6 +221,22 @@ vs.
 **The Key:**
 > "Don't stop or don't just become a master of one because when you do that, these five benefits are not available to you."
 
+> **📊 CROSS-REFERENCE/STANDARDIZED: Channel Strategy (FIX #30)**
+>
+> Choose sequential vs diversified based on your situation:
+>
+> | Business Type | Strategy | Channels | Rationale |
+> |---------------|----------|----------|-----------|
+> | Startups with limited time | Sequential | One at a time, master before adding | Avoid spreading too thin |
+> | Businesses with resources (team, capital) | Diversified | All four simultaneously | Amplification, diversification, market capture |
+>
+> **When to switch from sequential to diversified:**
+> - Have team members who can own channels
+> - Can afford to experiment without immediate ROI
+> - Primary channel hitting diminishing returns
+>
+> See also: `SKILL_BIBLE_10m_lead_generation.md` - Stage-based approach for resource-constrained startups.
+
 ---
 
 ## The Funnel Flow

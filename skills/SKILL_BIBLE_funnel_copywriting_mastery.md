@@ -125,6 +125,15 @@ Every step in your funnel is a potential drop-off point. Your job is to make the
 - Lack of trust signals
 - No mobile optimization
 
+> **📊 STANDARDIZED FUNNEL COMPLEXITY MATRIX (Cross-Reference: SKILL_BIBLE_sales_funnel_building_high_con.md, SKILL_BIBLE_self_liquidating_funnels.md)**
+> | Complexity | Steps | Traffic Type | Use Case |
+> |------------|-------|--------------|----------|
+> | Simple (3 steps) | Ad -> Landing/VSL -> Call/Purchase | Warm traffic, referrals, existing audience | Quick wins, proven offers, high-trust situations |
+> | Standard (4-5 steps) | Ad -> Opt-in -> VSL -> Application -> Call | Mixed traffic, retargeting, nurture sequences | Most B2B services, coaching, consulting |
+> | Complex (6+ steps) | Ad -> Opt-in -> Challenge/Webinar -> Nurture -> Application -> Call -> Follow-up | Cold traffic, education-heavy offers, high-ticket | Sophisticated markets, awareness building, long sales cycles |
+>
+> **Decision factors**: Match funnel complexity to traffic temperature and education requirements. Simple funnels for warm traffic and clear offers. Complex funnels ONLY when cold traffic needs significant education before purchase decision.
+
 ---
 
 ## 3. FRAMEWORKS

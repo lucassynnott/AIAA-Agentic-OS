@@ -8,6 +8,12 @@ This skill bible documents Daniel Fazio's counterintuitive pricing framework: so
 
 ---
 
+> **📊 CROSS-REFERENCE: SKILL_BIBLE_charging_more_money.md**
+> This skill bible explains when to LOWER prices. The companion document explains when to RAISE prices.
+> **Decision Framework:**
+> - **Lower prices when:** Close rate <20%, sales feel like constant uphill battle, clients NOT telling you to charge more
+> - **Raise prices when:** Close rate >30% consistently, you have perceived authority (content/recommendations), you can transfer logistical intensity (do more than competitors)
+
 ## Section 1: The Fixed Expense Reality
 
 ### Why Agencies Are Different

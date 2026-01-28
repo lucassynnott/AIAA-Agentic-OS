@@ -194,6 +194,20 @@ For each client, create:
 | $3K-$10K/month | Weekly | 45 min |
 | $10K+/month | Weekly + as needed | 60 min |
 
+> **📊 CROSS-REFERENCE/STANDARDIZED: Communication Frequency (FIX #27)**
+>
+> Standardized communication cadence combining meetings AND async updates:
+>
+> | Phase/Tier | Async Updates | Meetings |
+> |------------|---------------|----------|
+> | First 30 days (all clients) | Daily | Per tier above |
+> | After 30 days (standard <$10K) | Weekly | Per tier above |
+> | High-ticket ($10K+/month) | Daily ongoing | Weekly + as needed |
+>
+> **Key insight:** Meeting cadence (above) plus async updates (this table) together create full communication system.
+>
+> See also: `SKILL_BIBLE_agency_offer_creation.md` - Daily communication for retention, `SKILL_BIBLE_client_onboarding_agency_agenc.md` - Onboarding communication.
+
 ### The Weekly Update
 
 Even if no call, send weekly written update:

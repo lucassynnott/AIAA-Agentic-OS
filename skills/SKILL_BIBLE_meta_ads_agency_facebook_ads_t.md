@@ -36,6 +36,14 @@ Leverage live streaming and real-time content to build trust and authentic conne
 ### 7. Data-Driven Flexibility
 Maintain platform agnostic workflows and regularly benchmark performance across tools to avoid vendor lock-in as AI capabilities rapidly evolve.
 
+> **📊 STANDARDIZED CREATIVE TESTING PHILOSOPHY (Cross-Reference: SKILL_BIBLE_meta_ads_tutorial_facebook_adv.md)**
+> | Approach | Definition | When to Use |
+> |----------|------------|-------------|
+> | Quality-focused | No superficial variations (color swaps, minor text changes); each creative tests a distinct ANGLE or CONCEPT | Authority-based campaigns, high-ticket offers, brand-conscious businesses |
+> | Volume-focused | Many distinct ANGLES (not slight variations); different hooks, personas, pain points, formats | Direct response, e-commerce, testing new markets |
+>
+> **Key distinction**: Volume does NOT mean creating 50 versions with different background colors. Volume means testing 50 different ANGLES - different hooks, different pain points, different personas, different formats. Both approaches reject superficial variations; they differ in how many distinct angles to test simultaneously.
+
 ---
 
 ## Complete Process (Step-by-Step)

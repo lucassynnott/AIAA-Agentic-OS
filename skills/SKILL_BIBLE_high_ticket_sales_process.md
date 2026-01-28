@@ -154,6 +154,20 @@ Purpose: Maximize customer lifetime value through payment optimization
 
 ### The Sales Step-Down Hierarchy
 
+> **📊 CROSS-REFERENCE/STANDARDIZED: Closing Frequency (FIX #16)**
+>
+> The diagnostic sales process uses **customer-led closing** rather than multiple pressure closes:
+>
+> | Offer Type | Closing Approach | Rationale |
+> |------------|------------------|-----------|
+> | One-time projects | Multiple asks appropriate | Single transaction, resolve all concerns |
+> | Retainers/Recurring | Avoid pressure closing | Long-term relationship requires trust |
+> | Diagnostic Sales (this file) | Customer-led via step-down | Customer selects payment level; no pressure needed |
+>
+> **Key insight:** Multiple closes are appropriate for genuine objections, but the step-down hierarchy below eliminates the need for pressure by giving customers multiple ways to say "yes" at different investment levels.
+>
+> See also: `SKILL_BIBLE_sales_concepts_mastery.md` - Multiple-Ask Strategy for transactional sales.
+
 **Level 1: Prepayment (Highest Margin)**
 - 20% discount for paying full amount upfront
 - Positions discount as benefit for customer action

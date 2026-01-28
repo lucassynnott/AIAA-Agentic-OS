@@ -44,7 +44,15 @@ Never send to large lists immediately with a new domain or IP. Max's warming pro
 Inbox providers look for consistent sending patterns. Max recommends sending at least 2-3 emails per week to maintain visibility with providers. Sporadic sending patterns appear spammy and hurt deliverability.
 
 **5. Segmentation Prevents Reputation Damage**
-Sending to unengaged subscribers destroys your reputation. Max uses 90-day engagement windows—only sending to people who have opened an email, clicked, or been active on site within 90 days.
+Sending to unengaged subscribers destroys your reputation. Max uses engagement windows—only sending to people who have engaged within specific timeframes.
+
+> **📊 STANDARDIZED ENGAGEMENT TIERS (Cross-Reference: SKILL_BIBLE_ecom_email_advanced_strategies.md, SKILL_BIBLE_email_list_segmentation.md)**
+> | Tier | Window | Use Case |
+> |------|--------|----------|
+> | Highly Engaged | 30 days | Warming, testing, critical sends |
+> | Engaged | 60 days | Regular campaigns (primary revenue driver) |
+> | Lapsing | 90 days | Re-engagement campaigns |
+> | At-Risk | 120 days | Final re-engagement before suppression |
 
 **6. Volume Scaling Must Be Gradual**
 Sudden volume spikes trigger spam filters. Max's approach involves careful volume increases, monitoring engagement at each level before expanding further.
@@ -384,6 +392,14 @@ No hard feelings either way.
 - Warning: Below 40% indicates deliverability issues
 - Critical: Below 30% requires immediate action
 - Track by provider (Gmail, Yahoo, Outlook)
+
+> **📊 CROSS-REFERENCE: STANDARDIZED OPEN RATE TARGETS (Cross-Reference: SKILL_BIBLE_email_marketing_system.md, SKILL_BIBLE_value_dense_emails.md)**
+> | Audience Type | Target Open Rate | Context |
+> |---------------|------------------|---------|
+> | General campaigns | 25-35% | Broad promotional sends |
+> | Engaged segments (30-60 days) | 50%+ | Opened/clicked recently |
+> | Value-dense sequences | 60-70% | High-frequency nurture emails |
+> | Note: 50%+ targets require sending only to engaged subscribers within engagement windows
 
 **Click Rates:**
 - Target: 5%+ for regular campaigns

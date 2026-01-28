@@ -25,7 +25,15 @@ Cold email is the highest-ROI client acquisition channel when executed correctly
 4. CTA (simple, low-friction ask)
 
 **Critical Success Factors**:
-- Under 75 words total
+
+> **📊 EMAIL LENGTH GUIDELINES (Cross-Reference: SKILL_BIBLE_cold_email_leadgen_v2.md)**
+> | Type | Target | Maximum |
+> |------|--------|---------|
+> | SMB/Startup outreach | 50-75 words | 75 words |
+> | Enterprise outreach | 75-100 words | 100 words |
+> | Follow-ups | 25-50 words | 50 words |
+
+- Under 75 words total (SMB default)
 - Lead with PROOF before claims
 - Include at least 1 "because" statement
 - Single, clear CTA
@@ -625,6 +633,14 @@ PERSONALIZATION VARIABLES:
 3. **DMARC (Domain-based Message Authentication)**: Policy for handling failed authentication
 
 **Warmup Process**:
+
+> **📊 STANDARDIZED WARMUP PROTOCOL (Cross-Reference: SKILL_BIBLE_cold_email_leadgen_v2.md, SKILL_BIBLE_cold_email_infrastructure.md)**
+> | Duration | Risk Level | Use Case |
+> |----------|------------|----------|
+> | **14 days (minimum)** | Higher risk | Experienced senders, urgent campaigns |
+> | **21-30 days (standard)** | Moderate risk | Recommended for most campaigns |
+> | **4-6 weeks (conservative)** | Lower risk | New senders, high-value domains |
+
 - Day 1-7: Send 5-10 emails/day per inbox
 - Day 8-14: Ramp to 20-30 emails/day
 - Day 15-21: Ramp to 40-50 emails/day
@@ -634,10 +650,14 @@ PERSONALIZATION VARIABLES:
 
 ### Sending Volume Guidelines
 
-**Per Inbox Limits**:
-- Maximum: 50-100 emails/day per inbox
-- Conservative: 30-50 emails/day per inbox (recommended)
-- Never exceed provider limits (Gmail: 500/day, Outlook: 300/day)
+> **📊 STANDARDIZED VOLUME PROTOCOL (Cross-Reference: SKILL_BIBLE_cold_email.md, SKILL_BIBLE_cold_email_leadgen_v2.md)**
+
+**Per Inbox Limits (Tiered by Account Age)**:
+- **New accounts (0-14 days)**: Maximum 20 emails/day per inbox
+- **Warming accounts (14-30 days)**: Maximum 30-40 emails/day per inbox
+- **Established accounts (30+ days)**: Maximum 40-50 emails/day per inbox (recommended ceiling)
+- **NEVER exceed 50 emails/day per account** regardless of age
+- Provider limits (Gmail: 500/day, Outlook: 300/day) are per-account TOTALS, not per-inbox targets
 
 **Scaling Formula**:
 - 10 inboxes × 40 emails/day = 400 contacts/day
@@ -822,7 +842,23 @@ Either way, thanks for pointing me in the right direction.
 | Meeting Book Rate | <20% | 20-30% | 30-50% | 50%+ |
 | Bounce Rate | >5% | 2-5% | 1-2% | <1% |
 
-**Important Note on Open Rates**: Open rate tracking can trigger spam filters. Many experts recommend disabling open tracking entirely and focusing on reply rates instead.
+> **📊 OPEN RATE TRACKING PROTOCOL (Cross-Reference: SKILL_BIBLE_cold_email_analytics.md, SKILL_BIBLE_smartlead_setup.md)**
+> **Default: DISABLED** - Open tracking destroys deliverability for cold email.
+> | Phase | Open Tracking | Why |
+> |-------|---------------|-----|
+> | Warmup | OFF | Building reputation |
+> | Campaign testing (first 3 days) | Optional ON | Quick deliverability check only |
+> | Ongoing campaigns | **OFF** | Tracking pixels flag spam filters |
+>
+> Focus on **reply rates** as primary KPI, not open rates.
+
+> **📊 CUSTOM TRACKING DOMAINS (Cross-Reference: SKILL_BIBLE_cold_email.md, SKILL_BIBLE_email_domain_warmup.md)**
+> **Default: REMOVE** - Custom tracking domains flag accounts as cold email operations.
+> | Phase | Tracking Domain |
+> |-------|-----------------|
+> | Warmup (if platform requires) | Platform default only |
+> | Live campaigns | **Remove CNAME records**, delete custom tracking |
+> Delete all custom tracking domains from DNS before launching campaigns.
 
 ### Optimization Playbook
 

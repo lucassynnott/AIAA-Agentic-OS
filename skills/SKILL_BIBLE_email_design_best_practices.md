@@ -843,6 +843,14 @@ Test these variables systematically:
 - **Solution**: Mobile-first design approach, single column layouts, large touch targets
 - **Revenue Impact**: Can lose 70%+ of potential mobile revenue
 
+> **📊 CROSS-REFERENCE: STANDARDIZED TEXT VS IMAGE GUIDELINES (Cross-Reference: SKILL_BIBLE_email_marketing_complete.md)**
+> | Email Type | Text % | Images | Purpose |
+> |------------|--------|--------|---------|
+> | Cold email / Nurture sequences | 90%+ | Minimal | Deliverability, personal feel |
+> | E-commerce campaigns | 60-70% | Branded templates OK | Showcase products visually |
+> | Transactional / Founder emails | 95%+ | Logo only | Maximum inbox placement |
+> | Note: "Production polish" (design quality) differs from "message quality" (copy effectiveness). Focus on message quality first; visual polish secondary for most email types
+
 **Mistake 4: Weak Visual Hierarchy**
 - **Problem**: Customers can't quickly identify what's important
 - **Solution**: Clear size, color, and spacing hierarchy that guides the eye

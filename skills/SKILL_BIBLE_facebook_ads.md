@@ -24,6 +24,15 @@ Results = (Creative Quality × Offer Strength × Landing Page) / Audience Satura
 - Cost per lead: $20-$100
 - Cost per booked call: $50-$300
 
+> **📊 STANDARDIZED CAMPAIGN STRUCTURE (Cross-Reference: SKILL_BIBLE_meta_ads_tutorial_facebook_adv.md)**
+> | Experience Level | Structure | Reasoning |
+> |------------------|-----------|-----------|
+> | Beginners (simplified approach) | Max 2 campaigns (scaling + testing), single ad set each | Reduces complexity, lets AI optimize, prevents management overwhelm |
+> | Scaling (structured approach) | Multiple ad sets per campaign, audience segmentation | Enables controlled testing, budget allocation by audience, advanced optimization |
+> | Transition trigger | After consistent profitability at $500+/day spend | Scale complexity only after proving fundamentals work |
+>
+> Both approaches are valid - match structure to skill level and scale. Beginners should NOT attempt multi-ad-set structures until they've mastered simplified campaigns.
+
 ---
 
 ## 2. WHAT MAKES A GOOD AD
@@ -177,6 +186,15 @@ Campaign (Objective)
 
 ### ABO vs CBO
 
+> **📊 CBO vs ABO GUIDANCE (Cross-Reference: SKILL_BIBLE_meta_ads_tutorial_facebook_adv.md)**
+> Modern Meta algorithm strongly favors CBO. Use this decision matrix:
+> | Phase | Approach | Reasoning |
+> |-------|----------|-----------|
+> | Testing new creatives | ABO | Control spend, ensure fair testing |
+> | Scaling proven winners | **CBO** | Let algorithm optimize |
+> | Beginners (simplified) | **CBO only** | Less to manage, better results |
+> | Advanced media buyers | ABO for testing, CBO for scale | Maximum control |
+
 **ABO (Ad Set Budget Optimization)**:
 - Budget set at ad set level
 - More control over spend allocation
@@ -185,9 +203,10 @@ Campaign (Objective)
 
 **CBO (Campaign Budget Optimization)**:
 - Budget set at campaign level
-- Facebook allocates spend
+- Meta allocates spend automatically
 - Better for scaling
 - Best for: Scaling proven winners
+- **Note: Meta's algorithm now strongly favors CBO for most use cases**
 
 ### Testing Structure (ABO)
 
@@ -266,9 +285,18 @@ Facebook targeting has become more limited (iOS 14, privacy changes). Today's ap
 
 ### Audience Sizing
 
-**Too Small** (<100K): Limits delivery, high CPMs
-**Sweet Spot**: 500K-5M
-**Broad**: 5M+ (requires excellent creative)
+> **📊 STANDARDIZED AUDIENCE SIZE TIERS (Cross-Reference: SKILL_BIBLE_meta_ads_manager_tutorial_face.md)**
+> | Tier | Size Range | Use Case | Strategy |
+> |------|------------|----------|----------|
+> | Targeted | 500K-2M | Niche B2B, specific demographics, interest stacks | Precise targeting, higher CPM acceptable, quality over quantity |
+> | Balanced | 2M-10M | General B2B services, most campaigns | Sweet spot for most advertisers, good data volume for AI optimization |
+> | Broad | 10M+ | Scale phase, strong creative, let AI optimize | Requires excellent creative, lowest CPM, highest volume potential |
+>
+> **Decision factors**: Start with Balanced (2M-10M) for most campaigns. Use Targeted only when audience is truly specific. Graduate to Broad only after proving creative performance in smaller audiences.
+
+**Too Small** (<500K): Limits delivery, high CPMs, insufficient data for AI optimization
+**Sweet Spot**: 2M-10M (balanced tier)
+**Broad**: 10M+ (requires excellent creative, best for scaling)
 
 ---
 

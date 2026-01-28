@@ -21,6 +21,16 @@ Direct customer feedback and interviews provide infinitely more valuable insight
 **2. Emotion-First, Logic-Second Framework**
 High-converting landing pages lead with emotional hooks that create immediate connection, then provide logical justification for the purchase decision. The emotional response drives action; logic prevents buyer's remorse.
 
+> **📊 LANDING PAGE CONVERSION BENCHMARKS (Cross-Reference: SKILL_BIBLE_funnel_copywriting_mastery.md, SKILL_BIBLE_high_converting_landing_pages_.md)**
+> | Page Type | Cold Traffic | Warm Traffic |
+> |-----------|--------------|--------------|
+> | Lead magnet opt-in | 20-40% | 40-60% |
+> | Low-ticket sale ($50-500) | 2-5% | 5-15% |
+> | High-ticket application | 5-15% | 15-30% |
+> | Direct call booking | 3-8% | 10-20% |
+>
+> **Note:** 10x variance in benchmarks is due to different page types, not inconsistent data.
+
 **3. Market Urgency Hierarchy**
 Market selection trumps everything else: Market > Copy > Funnel > Product. Target audiences with severe pain points seeking immediate solutions rather than trying to create urgency where none exists naturally.
 

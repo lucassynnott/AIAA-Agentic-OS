@@ -29,6 +29,15 @@ The modern Meta advertising landscape demands expertise across multiple intercon
 
 **7. Platform Evolution Adaptation**: Stay current with Meta's platform updates and algorithm changes, adjusting strategies proactively rather than reactively to maintain competitive advantage.
 
+> **📊 STANDARDIZED AUDIENCE SIZE TIERS (Cross-Reference: SKILL_BIBLE_facebook_ads.md)**
+> | Tier | Size Range | Use Case | Strategy |
+> |------|------------|----------|----------|
+> | Targeted | 500K-2M | Niche B2B, specific demographics, interest stacks | Precise targeting, higher CPM acceptable, quality over quantity |
+> | Balanced | 2M-10M | General B2B services, most campaigns | Sweet spot for most advertisers, good data volume for AI optimization |
+> | Broad | 10M+ | Scale phase, strong creative, let AI optimize | Requires excellent creative, lowest CPM, highest volume potential |
+>
+> **Decision factors**: Start with Balanced (2M-10M) for most campaigns. Use Targeted only when audience is truly specific. Graduate to Broad only after proving creative performance in smaller audiences.
+
 ---
 
 ## Complete Process (Step-by-Step)

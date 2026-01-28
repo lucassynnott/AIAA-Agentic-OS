@@ -250,9 +250,20 @@ Direct Response Ad → VSL Page + Application → Book Call → Sales Call → C
 
 ### 12. Lead Magnets
 
-**Ranking:** C Tier
+**Ranking:** C Tier (for high-ticket direct sales)
 
-**Why C Tier:**
+> **📊 CONTEXT CLARIFICATION (Cross-Reference: SKILL_BIBLE_funnel_copywriting_mastery.md, SKILL_BIBLE_agency_scaling_100k_month.md)**
+> Lead magnets are C Tier for **high-ticket direct sales** but remain valid for:
+> | Use Case | Viability | Notes |
+> |----------|-----------|-------|
+> | High-ticket ($5K+) cold traffic | **C TIER** | Creates friction, sabotages sale |
+> | Nurture-based long funnels | B-/C+ | Can work with automation |
+> | Warm traffic (YouTube, organic) | **B TIER** | Works for list building |
+> | Low-ticket offers ($500-2K) | B TIER | Appropriate friction |
+>
+> **Fazio warning:** "I've never seen anyone profitably run paid ads to lead magnets" for cold traffic.
+
+**Why C Tier (for high-ticket):**
 - Point of friction for rich demographics
 - Why opt-in for free thing if selling high-ticket?
 - Low activation and consumption rates
@@ -261,10 +272,10 @@ Direct Response Ad → VSL Page + Application → Book Call → Sales Call → C
 > "Kind of a funnel that's died. Not nearly as used or effective as it once was."
 
 **When Still Works:**
-- Right lead magnet
-- Fast consumption
-- High activation
-- Doesn't sabotage high-ticket
+- Right lead magnet (fast consumption, high activation)
+- Warm traffic sources (YouTube, blog, referral)
+- Lower-ticket offers where friction is appropriate
+- Nurture sequences with strong email automation
 
 ---
 

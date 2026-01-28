@@ -22,6 +22,16 @@ This skill bible documents all 30 client acquisition methods Daniel Fazio has pe
 
 **Key rule:** Max 20 emails per inbox per day.
 
+> **📊 CROSS-REFERENCE: STANDARDIZED COLD EMAIL VOLUME INFRASTRUCTURE (Cross-Reference: SKILL_BIBLE_10m_lead_generation.md)**
+> | Daily Volume | Inboxes Required | Calculation | Infrastructure Notes |
+> |--------------|------------------|-------------|----------------------|
+> | 100/day | 5 inboxes | 20 emails/inbox x 5 = 100 | Beginner setup |
+> | 500/day | 25 inboxes | 20 emails/inbox x 25 = 500 | Growing operation |
+> | 1,000/day | 50 inboxes | 20 emails/inbox x 50 = 1,000 | Established system |
+> | 5,000/day | 250 inboxes | 20 emails/inbox x 250 = 5,000 | Scaled operation |
+> | 10,000/day | 500 inboxes | 20 emails/inbox x 500 = 10,000 | Enterprise scale (ListKit level) |
+> | Note: Max 20 emails per inbox per day to maintain deliverability. Requires domain warming, multiple sending domains (3-5 inboxes per domain), and proper DNS setup
+
 **Warning:** Only works with offers that have product-market fit. Test with Dream 100 first.
 
 ---

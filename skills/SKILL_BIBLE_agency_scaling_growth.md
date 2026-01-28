@@ -19,6 +19,14 @@ Solo ($0-$20K) → First Hire ($20-$50K) → Small Team ($50-$100K) → Organiza
 
 ---
 
+> **📊 CROSS-REFERENCE: SKILL_BIBLE_agency_scaling_100k_month.md (Fazio Method)**
+> This document uses simplified stages. Fazio's more granular breakdown:
+> - Stage 1 ($0-10K): Manual outreach, case study acquisition
+> - Stage 2 ($10K-30K): Systematization, YouTube, email list building
+> - Stage 3 ($30K-100K): Paid ads viable, team building
+>
+> **Critical Threshold: Don't run paid ads until $30K/month** with $6-10K/month ad budget.
+
 ## 2. STAGE 1: SOLO ($0-$20K/mo)
 
 ### Focus
@@ -67,6 +75,21 @@ Solo ($0-$20K) → First Hire ($20-$50K) → Small Team ($50-$100K) → Organiza
 **Operations**: Someone to handle admin
 
 **Recommendation**: Usually delivery first—free yourself to sell.
+
+> **📊 CROSS-REFERENCE/STANDARDIZED: First Hire Timing (FIX #25)**
+>
+> First hire depends on **business model**. Use this decision tree:
+>
+> | Business Model | First Hire | Revenue Trigger | Rationale |
+> |----------------|------------|-----------------|-----------|
+> | Service-heavy (fulfillment bottleneck) | Service Delivery | $15-20K/month | Free yourself to sell |
+> | High-volume outreach (cold email, DMs) | Admin/Inbox Manager | Day 1 of outreach | Volume requires immediate support |
+> | Sales-heavy (you are fulfillment) | Sales Support | $20K/month | You can't do both at scale |
+> | Content-focused | Thumbnail/Video Editor | After 100 videos | Build skills first |
+>
+> **Key insight:** The $15-20K threshold applies to service delivery roles. Admin/inbox roles can come earlier if your model is volume-based.
+>
+> See also: `SKILL_BIBLE_agency_scaling_roadmap.md` - Detailed hiring sequence with specific triggers.
 
 ### Priorities
 

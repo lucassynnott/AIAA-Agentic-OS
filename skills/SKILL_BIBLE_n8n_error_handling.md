@@ -15,6 +15,15 @@ The framework covers everything from basic node-level error configuration to sop
 
 ## Core Principles
 
+> **📊 STANDARDIZED THREE-LAYER ERROR HANDLING ARCHITECTURE (Cross-Reference: SKILL_BIBLE_ai_automation_agency.md)**
+> | Layer | Behavior | Use Cases | Implementation |
+> |-------|----------|-----------|----------------|
+> | Critical | **Fail-fast**: Stop immediately on failure | Payments, database writes, core API calls, data mutations | Continue on Fail = OFF, immediate alerting, transaction rollback |
+> | Non-critical | **Continue with alerts**: Log error, alert team, workflow proceeds | Notifications, logging, analytics, secondary enrichments | Continue on Fail = ON, error logged to tracking system |
+> | All operations | **Add fallbacks**: Retry logic, alternative services, graceful degradation | Every external dependency | Exponential backoff, circuit breakers, fallback chains |
+>
+> **Architecture principle**: Never rely on a single layer. Critical operations fail-fast to prevent corruption. Non-critical operations continue to prevent cascade failures. ALL operations have fallback strategies to maximize reliability.
+
 ### 1. Fail-Fast for Critical Operations, Continue for Non-Critical
 Critical operations (payments, data writes, API calls) should stop the workflow immediately on failure to prevent data corruption. Non-critical operations (notifications, logging) should continue on failure to ensure core business logic completes. This principle prevents notification failures from blocking essential business processes.
 

@@ -44,9 +44,22 @@ Successful workflow implementation follows a pattern of starting simple and addi
 ### Phase 1: Platform Setup and Configuration
 
 #### Step 1: Choose Deployment Strategy
+
+> **📊 STANDARDIZED SELF-HOSTED VS CLOUD DECISION MATRIX (Cross-Reference: SKILL_BIBLE_n8n_self_hosted.md, SKILL_BIBLE_ai_automation_agency_v2.md)**
+> | Factor | Cloud Recommended | Self-Hosted Recommended |
+> |--------|-------------------|-------------------------|
+> | Workflow count | <50 active workflows | 50+ active workflows |
+> | Execution volume | <2,500/month | >5,000/month |
+> | Technical resources | Limited DevOps capability | In-house or outsourced DevOps |
+> | Data sensitivity | Standard business data | PII, healthcare, financial data |
+> | Budget priority | Minimize upfront investment | Minimize long-term costs |
+> | Scaling trajectory | Uncertain/testing phase | Proven, predictable growth |
+>
+> **Combined threshold**: Consider self-hosting when EITHER (a) 50+ workflows OR (b) 5,000+ executions/month. The break-even typically occurs around $50-100/month in cloud costs, which maps to roughly 50-100 active workflows at standard execution rates.
+
 **Decision Matrix:**
-- **Cloud Deployment**: Choose for rapid prototyping, low initial volume (under 1,000 executions/month), or when technical resources are limited
-- **Self-Hosting**: Choose for high volume operations (over 5,000 executions/month), strict data privacy requirements, or when cost optimization is critical
+- **Cloud Deployment**: Choose for rapid prototyping, low initial volume (under 2,500 executions/month), fewer than 50 workflows, or when technical resources are limited
+- **Self-Hosting**: Choose for high volume operations (over 5,000 executions/month), 50+ active workflows, strict data privacy requirements, or when cost optimization is critical
 
 **Cloud Setup Process:**
 1. Navigate to n8n.cloud and create account

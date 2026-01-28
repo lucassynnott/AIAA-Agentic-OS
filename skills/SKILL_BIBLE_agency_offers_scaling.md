@@ -284,6 +284,20 @@ Webinars → Tool demos
 | Fulfillment time | ≤ 10 hours |
 | CAC coverage | 100% |
 
+> **📊 CROSS-REFERENCE/STANDARDIZED: Intro Offer Pricing (FIX #23)**
+>
+> $2,500 is the **ceiling**, not the target. Price strategy depends on goals:
+>
+> | Strategy | Price Point | When to Use |
+> |----------|-------------|-------------|
+> | Volume-focused | As low as viable ($500-1,500) | Need case studies, high lead flow, scaling |
+> | Margin-focused | Near ceiling (~$2,500) | Limited capacity, premium market |
+> | Hybrid | $1,000-2,000 | Balanced approach |
+>
+> **Purpose of intro offer:** CAC recovery + foot-in-door, NOT profit center. Lower price = more conversions = more upsell opportunities to recurring service.
+>
+> See also: `SKILL_BIBLE_agency_offer_creation.md` - Intro offer design framework.
+
 ### Program Specs
 
 | Metric | Target |

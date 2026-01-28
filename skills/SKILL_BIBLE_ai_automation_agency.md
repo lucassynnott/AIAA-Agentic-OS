@@ -26,6 +26,15 @@ Save Time + Reduce Errors + Scale Operations = Automation ROI
 - Retainer: $1,000-$10,000/month
 - Hybrid: Project + ongoing management
 
+> **📊 STANDARDIZED THREE-LAYER ERROR HANDLING ARCHITECTURE (Cross-Reference: SKILL_BIBLE_n8n_error_handling.md)**
+> | Layer | Behavior | Use Cases | Implementation |
+> |-------|----------|-----------|----------------|
+> | Critical | **Fail-fast**: Stop immediately on failure | Payments, database writes, core API calls, data mutations | Continue on Fail = OFF, immediate alerting, transaction rollback |
+> | Non-critical | **Continue with alerts**: Log error, alert team, workflow proceeds | Notifications, logging, analytics, secondary enrichments | Continue on Fail = ON, error logged to tracking system |
+> | All operations | **Add fallbacks**: Retry logic, alternative services, graceful degradation | Every external dependency | Exponential backoff, circuit breakers, fallback chains |
+>
+> **Architecture principle**: Never rely on a single layer. Critical operations fail-fast to prevent corruption. Non-critical operations continue to prevent cascade failures. ALL operations have fallback strategies to maximize reliability.
+
 ---
 
 ## 2. WHAT IS AN AUTOMATION AGENCY?

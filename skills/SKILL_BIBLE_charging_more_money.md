@@ -8,6 +8,13 @@ This skill bible documents the three mechanisms for raising prices without losin
 
 ---
 
+> **📊 CROSS-REFERENCE: SKILL_BIBLE_pricing_strategy.md**
+> This skill bible explains when to RAISE prices. The companion document explains when to LOWER prices.
+> **Decision Framework:**
+> - **Raise prices when:** Close rate >30% consistently, you have perceived authority, you can transfer logistical intensity
+> - **Lower prices when:** Close rate <20%, sales feel like constant uphill battle, clients NOT telling you to charge more
+> Both strategies can be correct—the key is DIAGNOSING which situation applies to you.
+
 ## Section 1: The Two Problems
 
 ### Problem 1: Price Resistance

@@ -112,7 +112,10 @@ Cold email should seamlessly integrate with CRM systems, sales processes, and ot
 - Write personalized opening lines referencing specific research
 - Craft clear value proposition focused on prospect benefits
 - Include single, clear call-to-action (typically meeting request)
-- Keep emails under 150 words
+- Keep emails under 100 words (target 50-75 for SMB, up to 100 for enterprise)
+
+> **📊 Note (Cross-Reference: SKILL_BIBLE_cold_email_mastery.md)**
+> Previous guidance of 150 words is MAX ceiling for complex enterprise. Standard target: 50-75 words.
 - Use conversational, professional tone
 
 **Step 12: Follow-Up Sequence Creation**
@@ -326,11 +329,17 @@ P.S. If you're not the right person for this conversation, who would you recomme
 - Maintain separate suppression lists for each campaign
 
 **Volume Management:**
-- Start with 50-100 emails per day per sending address
-- Increase volume gradually based on engagement metrics
-- Never exceed 200-300 emails per day per address
+
+> **📊 STANDARDIZED VOLUME PROTOCOL (Cross-Reference: SKILL_BIBLE_cold_email.md, SKILL_BIBLE_cold_email_mastery.md)**
+
+- **New accounts (0-14 days)**: Start with 20 emails/day per sending address
+- **Warming accounts (14-30 days)**: Gradually increase to 30-40 emails/day
+- **Established accounts (30+ days)**: Maximum 40-50 emails/day (recommended ceiling)
+- **NEVER exceed 50 emails/day per account** - scale through MORE accounts, not higher volume
 - Spread sending throughout business hours
 - Avoid sending on Mondays and Fridays when possible
+
+**Note**: Previous guidance of 200-300/day refers to TOTAL daily volume across multiple accounts (e.g., 200 emails = ~5 accounts × 40 emails each), NOT per-account limits.
 
 ### Copy and Content Best Practices
 

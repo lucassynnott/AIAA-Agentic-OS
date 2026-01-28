@@ -8,6 +8,18 @@ The business model centers on identifying manual, repetitive processes within cl
 
 The skill encompasses technical implementation, business development, client management, team building, and strategic positioning within the rapidly evolving AI automation landscape. Success requires balancing technical expertise with business acumen, client education capabilities, and the ability to demonstrate clear, measurable value to justify premium pricing.
 
+> **📊 STANDARDIZED SELF-HOSTED VS CLOUD DECISION MATRIX (Cross-Reference: SKILL_BIBLE_n8n_automation_v2.md, SKILL_BIBLE_n8n_self_hosted.md)**
+> | Factor | Cloud Recommended | Self-Hosted Recommended |
+> |--------|-------------------|-------------------------|
+> | Workflow count | <50 active workflows | 50+ active workflows |
+> | Execution volume | <2,500/month | >5,000/month |
+> | Technical resources | Limited DevOps capability | In-house or outsourced DevOps |
+> | Data sensitivity | Standard business data | PII, healthcare, financial data |
+> | Budget priority | Minimize upfront investment | Minimize long-term costs |
+> | Scaling trajectory | Uncertain/testing phase | Proven, predictable growth |
+>
+> **Combined threshold**: Consider self-hosting when EITHER (a) 50+ workflows OR (b) 5,000+ executions/month. The break-even typically occurs around $50-100/month in cloud costs, which maps to roughly 50-100 active workflows at standard execution rates.
+
 ## Source
 - **Type:** Internal SOP/Skill Document
 - **Category:** archive

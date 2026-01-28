@@ -23,16 +23,27 @@ VSLs are not creative exercises—they're data-driven question-answer sequences 
 
 ### B2B vs B2C Distinction
 
-This methodology is **exclusively for B2B offers** where decisions are logic-based, not emotion-based:
+> **📊 B2B VSL PHILOSOPHY (Cross-Reference: SKILL_BIBLE_mini_vsl_writing.md, SKILL_BIBLE_vsl_funnel_structure_sales_pag.md)**
+> B2B decisions require BOTH emotion AND logic, not logic alone:
+> | Phase | Approach | Purpose |
+> |-------|----------|---------|
+> | Hook/Problem | **Emotion first** | Create urgency, connect with pain |
+> | Mechanism/Solution | **Logic** | Explain how it works, build credibility |
+> | Proof/ROI | **Logic + Social proof** | Justify decision rationally |
+> | CTA | **Emotion** | Urgency, fear of missing out |
+>
+> **Summary:** Lead with emotion (problem acknowledgment), follow with logic (mechanism/proof).
+
+This methodology emphasizes **logic-heavy B2B content** but effective VSLs still require emotional hooks:
 
 | B2B (This Method) | B2C (Different Method) |
 |---|---|
-| Logic-based arguments | Emotion-based arguments |
+| Logic-heavy arguments (after emotional hook) | Emotion-dominant throughout |
 | ROI calculations | Desire/aspiration |
 | Process explanation | Story-driven |
 | Qualification-focused | Volume-focused |
 
-**Critical Rule:** Do NOT use this method for emotional/impulse purchase markets.
+**Critical Rule:** Even B2B requires emotional connection to the problem before logical solutions.
 
 ---
 
@@ -205,15 +216,35 @@ A3: [Case studies + guarantees]
 
 ### Revealing Pricing in the VSL
 
-**Daniel Fazio's position:** Reveal pricing for B2B offers.
+> **📊 CROSS-REFERENCE: SKILL_BIBLE_vsl_writing_production.md**
+> Pricing disclosure depends on offer price point and sales process complexity.
 
-**Benefits:**
+**Pricing Disclosure Decision Matrix:**
+
+| Offer Type | Price Range | Recommendation |
+|------------|-------------|----------------|
+| Lower-ticket B2B | $500-$2,500 | **REVEAL** - Qualify by budget |
+| Mid-ticket B2B | $2,500-$5,000 | **TEST BOTH** - A/B test reveal vs conceal |
+| High-ticket B2B | $5,000+ | **CONCEAL** - Requires consultation to scope |
+| Custom/Variable pricing | Varies | **CONCEAL** - Cannot state accurate price |
+
+**When to REVEAL pricing (Daniel Fazio's position for setup offers):**
+- Fixed-price offers with clear deliverables
+- Lower-ticket offers where budget is main qualifier
+- When you want to filter out unqualified leads aggressively
+
+**Benefits of Revealing:**
 - Only qualified prospects book calls
 - Sales team doesn't waste time on unqualified leads
 - Pixel learns to find qualified buyers
 - Higher close rates (no price shock)
-- Lower sales team churn (better calls)
 - Prospects who book are serious
+
+**When to CONCEAL pricing:**
+- High-ticket retainers requiring discovery
+- Custom scoping needed
+- Complex offers with variable pricing
+- When consultation adds significant value
 
 **For B2C:** May want to conceal pricing (different psychology)
 

@@ -163,7 +163,14 @@ For B2B services, direct response wins.
 - The guarantee
 - Investment level (if stated)
 
-**Note**: For B2B services, often don't state price in VSL. Purpose is to get them on a call.
+**Note**: Pricing disclosure depends on offer price point and complexity.
+
+> **📊 CROSS-REFERENCE: SKILL_BIBLE_vsl_script_mastery.md**
+> | Price Range | Recommendation |
+> |-------------|----------------|
+> | $500-$2,500 | REVEAL price - filter by budget |
+> | $2,500-$5,000 | A/B test reveal vs conceal |
+> | $5,000+ or custom | CONCEAL - requires consultation |
 
 ### Part 8: Address Objections (14:00-16:00)
 
@@ -324,11 +331,18 @@ Document created BEFORE scripting that captures all the strategic thinking.
 
 ### Script Length Guidelines
 
-| VSL Length | Word Count | Use Case |
-|------------|------------|----------|
-| 5-10 min | 750-1,500 | Simple offer, warm traffic |
-| 10-15 min | 1,500-2,250 | Standard B2B service |
-| 15-25 min | 2,250-3,750 | Complex offer, cold traffic |
+> **📊 STANDARDIZED VSL LENGTH MATRIX (Cross-Reference: SKILL_BIBLE_mini_vsl_writing.md, SKILL_BIBLE_long_form_vsl_writing.md)**
+
+| VSL Type | Length | Word Count | Best For |
+|----------|--------|------------|----------|
+| **Mini** | 2-5 min | 300-750 | Warm traffic, simple offers, problem-aware audiences |
+| **Standard** | 5-10 min | 750-1,500 | B2B services, mid-ticket offers, mixed traffic |
+| **Long-form** | 10-25 min | 1,500-3,750 | Cold traffic, high-ticket ($5K+), complex offers |
+
+**Decision Factors:**
+- **Traffic temperature**: Warmer = shorter; colder = longer education needed
+- **Offer complexity**: Simple = shorter; mechanism-heavy = longer
+- **Ticket price**: Under $2K = shorter; $5K+ = longer trust-building needed
 
 ### Transition Words
 

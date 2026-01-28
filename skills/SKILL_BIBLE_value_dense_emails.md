@@ -55,6 +55,14 @@ PROCESS:
 | Traditional | <20% | 20-30% | 30-40% | 40-50% |
 | Value-Dense | <40% | 40-50% | 50-60% | 60-70% |
 
+> **📊 CROSS-REFERENCE: STANDARDIZED OPEN RATE TARGETS (Cross-Reference: SKILL_BIBLE_email_marketing_system.md, SKILL_BIBLE_email_deliverability_mastery.md)**
+> | Audience Type | Target Open Rate | Context |
+> |---------------|------------------|---------|
+> | General campaigns | 25-35% | Broad promotional sends |
+> | Engaged segments (30-60 days) | 50%+ | Opened/clicked recently |
+> | Value-dense sequences | 60-70% | High-frequency nurture emails |
+> | Note: 50%+ targets require sending only to engaged subscribers within engagement windows
+
 ### The Floor/Ceiling Concept
 
 Your emails will have a natural range:

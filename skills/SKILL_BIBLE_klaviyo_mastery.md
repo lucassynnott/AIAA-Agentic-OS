@@ -178,7 +178,11 @@ This bible provides everything needed to implement the complete system: technica
 **Step 1: Create Welcome List**
 1. Go to Lists & Segments
 2. Create new list: "Newsletter Subscribers"
-3. Set up double opt-in (recommended)
+3. Set up double opt-in (context-dependent)
+
+> **📊 DOUBLE OPT-IN GUIDANCE (Cross-Reference: SKILL_BIBLE_klaviyo_setup.md)**
+> Standard US e-commerce: **OFF** | GDPR regions: **ON** | List quality issues: **ON**
+
 4. Configure list settings
 
 **Step 2: Design Pop-up Form**

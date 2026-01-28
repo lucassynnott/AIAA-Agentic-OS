@@ -11,6 +11,15 @@ The methodology centers on "The Educational Sales Letter" philosophy—making pr
 - **Category:** VSL (Video Sales Letter)
 - **Original File:** write_long_form_vsl.md
 
+> **📊 VSL LENGTH DECISION MATRIX (Cross-Reference: SKILL_BIBLE_vsl_writing_production.md, SKILL_BIBLE_mini_vsl_writing.md)**
+> | Type | Length | Best For |
+> |------|--------|----------|
+> | Mini VSL | 2-5 min | Warm traffic, simple offers, problem-aware audiences |
+> | Standard VSL | 5-10 min | B2B services, mid-ticket offers, mixed traffic |
+> | **Long-form VSL** | 10-25 min | Cold traffic, high-ticket ($5K+), complex offers requiring education |
+>
+> This document covers **Long-form VSL (10-25 min)** for cold traffic and high-ticket offers.
+
 ## Core Principles
 
 ### 1. Educational Authority Over Direct Selling

@@ -16,6 +16,19 @@ Railway.app was chosen as the hosting platform due to its simplicity, automatic 
 ## Core Principles
 
 ### 1. Cost Optimization Through Self-Hosting
+
+> **📊 STANDARDIZED SELF-HOSTED VS CLOUD DECISION MATRIX (Cross-Reference: SKILL_BIBLE_n8n_automation_v2.md, SKILL_BIBLE_ai_automation_agency_v2.md)**
+> | Factor | Cloud Recommended | Self-Hosted Recommended |
+> |--------|-------------------|-------------------------|
+> | Workflow count | <50 active workflows | 50+ active workflows |
+> | Execution volume | <2,500/month | >5,000/month |
+> | Technical resources | Limited DevOps capability | In-house or outsourced DevOps |
+> | Data sensitivity | Standard business data | PII, healthcare, financial data |
+> | Budget priority | Minimize upfront investment | Minimize long-term costs |
+> | Scaling trajectory | Uncertain/testing phase | Proven, predictable growth |
+>
+> **Combined threshold**: Consider self-hosting when EITHER (a) 50+ workflows OR (b) 5,000+ executions/month. The break-even typically occurs around $50-100/month in cloud costs, which maps to roughly 50-100 active workflows at standard execution rates.
+
 Self-hosting N8N eliminates per-execution costs that can quickly escalate with N8N Cloud. The break-even point occurs around 50-100 active workflows, where the fixed hosting cost ($5-15/month) becomes significantly cheaper than execution-based pricing ($20-150/month depending on volume).
 
 ### 2. Infrastructure as Code Mentality

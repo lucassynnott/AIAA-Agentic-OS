@@ -101,6 +101,18 @@ The framework prioritizes proof over profit in early stages, building compelling
     - Make real-time adjustments based on results
     - Maintain daily communication during launch phase
 
+> **📊 CROSS-REFERENCE/STANDARDIZED: Communication Frequency (FIX #27)**
+>
+> Standardized communication cadence:
+>
+> | Phase/Tier | Frequency | Purpose |
+> |------------|-----------|---------|
+> | First 30 days (all clients) | Daily | Build trust, reduce buyer remorse, catch issues early |
+> | After 30 days (standard) | Weekly | Maintain relationship without overhead |
+> | High-ticket ($10K+/month) | Daily ongoing | Premium experience justifies premium pricing |
+>
+> See also: `SKILL_BIBLE_agency_offer_creation.md`, `SKILL_BIBLE_client_operations_retention.md`
+
 11. **Track and Report Results**
     - Monitor key metrics (conversion rates, lead quality, revenue impact)
     - Create weekly performance reports

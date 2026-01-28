@@ -36,6 +36,15 @@ Price strategically and compete on perceived value rather than cost. Target high
 ### 7. Speed Over Perfection
 Prioritize rapid market testing with minimum viable funnels over perfect products. Real sales data provides better validation than theoretical analysis or surveys.
 
+> **📊 STANDARDIZED FUNNEL COMPLEXITY MATRIX (Cross-Reference: SKILL_BIBLE_funnel_copywriting_mastery.md, SKILL_BIBLE_self_liquidating_funnels.md)**
+> | Complexity | Steps | Traffic Type | Use Case |
+> |------------|-------|--------------|----------|
+> | Simple (3 steps) | Ad -> Landing/VSL -> Call/Purchase | Warm traffic, referrals, existing audience | Quick wins, proven offers, high-trust situations |
+> | Standard (4-5 steps) | Ad -> Opt-in -> VSL -> Application -> Call | Mixed traffic, retargeting, nurture sequences | Most B2B services, coaching, consulting |
+> | Complex (6+ steps) | Ad -> Opt-in -> Challenge/Webinar -> Nurture -> Application -> Call -> Follow-up | Cold traffic, education-heavy offers, high-ticket | Sophisticated markets, awareness building, long sales cycles |
+>
+> **Decision factors**: Match funnel complexity to traffic temperature and education requirements. Simple funnels for warm traffic and clear offers. Complex funnels ONLY when cold traffic needs significant education before purchase decision.
+
 ---
 
 ## Complete Process (Step-by-Step)

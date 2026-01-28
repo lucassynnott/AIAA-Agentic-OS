@@ -213,6 +213,15 @@ The system operates on three core components: signup forms for list building, au
 - **Return on Investment**: Email marketing should achieve 20:1 to 40:1 ROI
 - **Deliverability Rate**: Maintain 95%+ delivery rate to inboxes
 
+> **📊 CROSS-REFERENCE: STANDARDIZED EMAIL REVENUE % OF TOTAL (Cross-Reference: SKILL_BIBLE_klaviyo_setup.md, SKILL_BIBLE_ecom_email_copywriting.md)**
+> | Store Stage | Target Email Revenue % | Context |
+> |-------------|------------------------|---------|
+> | New stores (0-6 months) | 15-25% | Building list, flows being optimized |
+> | Growing stores (6-18 months) | 25-40% | Flows mature, campaigns scaling |
+> | Optimized stores (18+ months) | 40-50% | Full system operational |
+> | Exceptional (mature + expert) | 50-60% | Highly refined, segmented approach |
+> | Note: >60% may indicate over-reliance on email; diversify paid acquisition
+
 ### Engagement Quality
 - **Unsubscribe Rate**: Keep below 0.5% per email
 - **Spam Complaint Rate**: Maintain below 0.1%

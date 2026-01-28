@@ -116,6 +116,18 @@ Top performers operate with both "on-call" and "off-call" standard operating pro
 4. **Gather Context:** "What's your experience been with X?"
 5. **Control Information Flow:** Only provide answers when you know they align with prospect desires
 
+> **📊 CROSS-REFERENCE/STANDARDIZED: Answering Prospect Questions (FIX #15)**
+>
+> This framework applies primarily to **Early Discovery Phase**. Use tiered approach based on sales phase:
+>
+> | Sales Phase | Approach | Rationale |
+> |-------------|----------|-----------|
+> | Early Discovery | Question-based responses | Gather intelligence, maintain control, understand motivations |
+> | Pitch/Presentation | Provide direct answers | Build credibility, demonstrate expertise, address concerns |
+> | Objection Handling | Hybrid approach | Use questions to clarify, then provide targeted answers |
+>
+> See also: `SKILL_BIBLE_objection_handling_mastery.md` - Phase 2 framework allows direct answers after proper discovery.
+
 ### The Best-Case/Worst-Case Decision Framework
 **Purpose:** Remove emotion from buying decisions
 **Process:**
@@ -188,6 +200,20 @@ When addressing difficult topics:
 2. **Concern Resolution:** Handle objection thoroughly
 3. **Re-Ask:** "Based on what we just discussed, are you ready to move forward?"
 4. **Pattern Repeat:** Continue cycle until clear yes or no
+
+> **📊 CROSS-REFERENCE/STANDARDIZED: Closing Frequency (FIX #16)**
+>
+> Multiple closing attempts are appropriate for **genuine objections** but must be calibrated to offer type:
+>
+> | Offer Type | Closing Approach | Rationale |
+> |------------|------------------|-----------|
+> | One-time projects | Multiple asks appropriate | Single transaction, address all concerns now |
+> | Retainers/Recurring | Avoid pressure closing | Long-term relationship requires trust, not coercion |
+> | High-ticket ($5K+) | Balance persistence with respect | Higher stakes require more careful handling |
+>
+> **Key distinction:** Multiple closes resolve genuine objections; pressure closing creates resentment and churn.
+>
+> See also: `SKILL_BIBLE_high_ticket_sales_process.md` - Diagnostic approach for high-ticket retainer sales.
 
 **Post-Call Immediate Actions:**
 1. **CRM Update:** Detailed notes within 5 minutes

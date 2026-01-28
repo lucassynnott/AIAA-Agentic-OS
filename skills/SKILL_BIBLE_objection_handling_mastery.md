@@ -97,6 +97,18 @@ Address the core concern using logic, emotion, and their own discovery data. Use
 "We do it this way because..." [Insert reason]
 ```
 
+> **📊 CROSS-REFERENCE/STANDARDIZED: Answering Prospect Questions (FIX #15)**
+>
+> This step involves **providing direct answers** - which is appropriate during objection handling after discovery is complete. Use tiered approach based on sales phase:
+>
+> | Sales Phase | Approach | Rationale |
+> |-------------|----------|-----------|
+> | Early Discovery | Question-based responses | Gather intelligence, maintain control |
+> | Pitch/Presentation | Provide direct answers | Build credibility, demonstrate expertise |
+> | Objection Handling | Hybrid approach | Use questions to clarify (Step 2-3), then provide targeted answers (Step 4) |
+>
+> See also: `SKILL_BIBLE_sales_concepts_mastery.md` - Question-Only Response Framework for discovery phase tactics.
+
 **Step 5: Trial Close**
 Test if you've successfully resolved their concern.
 

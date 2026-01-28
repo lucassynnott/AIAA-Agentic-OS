@@ -157,6 +157,15 @@ Before configuration, verify current status using these tools:
    - Target range: 30-50% of total revenue
    - Over 60%: Increase paid advertising investment
    - Under 30%: Improve email marketing systems
+
+> **📊 CROSS-REFERENCE: STANDARDIZED EMAIL REVENUE % OF TOTAL (Cross-Reference: SKILL_BIBLE_klaviyo_email.md, SKILL_BIBLE_ecom_email_copywriting.md)**
+> | Store Stage | Target Email Revenue % | Context |
+> |-------------|------------------------|---------|
+> | New stores (0-6 months) | 15-25% | Building list, flows being optimized |
+> | Growing stores (6-18 months) | 25-40% | Flows mature, campaigns scaling |
+> | Optimized stores (18+ months) | 40-50% | Full system operational |
+> | Exceptional (mature + expert) | 50-60% | Highly refined, segmented approach |
+> | Note: >60% may indicate over-reliance on email; diversify paid acquisition
 4. **Campaign vs. Flow Revenue Split:**
    - Campaigns: One-time broadcast emails
    - Flows: Automated trigger-based sequences
@@ -316,7 +325,16 @@ Before configuration, verify current status using these tools:
 - [ ] Unsubscribe page branding applied
 
 **List Settings Framework:**
-- [ ] Double opt-in setting (recommended: OFF for e-commerce)
+
+> **📊 DOUBLE OPT-IN GUIDANCE (Cross-Reference: SKILL_BIBLE_klaviyo_mastery.md)**
+> | Scenario | Setting | Reasoning |
+> |----------|---------|-----------|
+> | Standard US e-commerce | **OFF** | Maximize signup rate |
+> | GDPR regions (EU) | **ON** | Legal compliance |
+> | List quality issues | **ON** | Improve engagement |
+> | Purchased/imported lists | **ON** | Verify consent |
+
+- [ ] Double opt-in setting (OFF for standard e-commerce; ON for GDPR or list quality issues)
 - [ ] Default list for new subscribers designated
 - [ ] List suppression settings configured
 

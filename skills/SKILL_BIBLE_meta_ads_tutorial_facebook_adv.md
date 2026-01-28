@@ -11,6 +11,15 @@ Meta advertising has fundamentally transformed in 2025-2026, shifting from compl
 
 The core methodology revolves around three pillars: (1) All-funnel campaign structures that let Meta's AI personalize ad delivery, (2) Creator-generated content systems for authentic, high-converting ads, and (3) Irresistible offer frameworks that maximize conversion rates regardless of campaign mechanics. This approach has proven to improve ROAS from 2x to 6x while dramatically reducing campaign management complexity.
 
+> **📊 STANDARDIZED CAMPAIGN STRUCTURE (Cross-Reference: SKILL_BIBLE_facebook_ads.md)**
+> | Experience Level | Structure | Reasoning |
+> |------------------|-----------|-----------|
+> | Beginners (simplified approach) | Max 2 campaigns (scaling + testing), single ad set each | Reduces complexity, lets AI optimize, prevents management overwhelm |
+> | Scaling (structured approach) | Multiple ad sets per campaign, audience segmentation | Enables controlled testing, budget allocation by audience, advanced optimization |
+> | Transition trigger | After consistent profitability at $500+/day spend | Scale complexity only after proving fundamentals work |
+>
+> Both approaches are valid - match structure to skill level and scale. Beginners should NOT attempt multi-ad-set structures until they've mastered simplified campaigns.
+
 ---
 
 ## Core Principles
@@ -35,6 +44,14 @@ Use maximum two campaigns (scaling + testing) with single ad sets and broad targ
 
 **7. Continuous Testing Pipeline Prevents Ad Fatigue**
 Maintain constant creative testing with 20% of budget while scaling winners with 80%. Only 1 in 10 ads becomes a performance outlier, requiring high-volume testing.
+
+> **📊 STANDARDIZED CREATIVE TESTING PHILOSOPHY (Cross-Reference: SKILL_BIBLE_meta_ads_agency_facebook_ads_t.md)**
+> | Approach | Definition | When to Use |
+> |----------|------------|-------------|
+> | Quality-focused | No superficial variations (color swaps, minor text changes); each creative tests a distinct ANGLE or CONCEPT | Authority-based campaigns, high-ticket offers, brand-conscious businesses |
+> | Volume-focused | Many distinct ANGLES (not slight variations); different hooks, personas, pain points, formats | Direct response, e-commerce, testing new markets |
+>
+> **Key distinction**: Volume does NOT mean creating 50 versions with different background colors. Volume means testing 50 different ANGLES - different hooks, different pain points, different personas, different formats. Both approaches reject superficial variations; they differ in how many distinct angles to test simultaneously.
 
 ---
 

@@ -78,6 +78,13 @@ Don't want: Attracts target audience + everyone below them (ruins pixel data, wa
 - Measure opt-in rates
 - Collect data on what actually works (not what you think will work)
 
+> **⚠️ CRITICAL WARNING (Cross-Reference: SKILL_BIBLE_agency_scaling_100k_month.md)**
+> This testing approach is for OFFER VALIDATION only, NOT a recommendation to run paid ads to lead magnets as your primary acquisition strategy. Daniel Fazio states: "I've never seen anyone profitably run ads to lead magnets" for cold traffic acquisition. Use this testing method with:
+> - Small budgets ($50-100 per offer test)
+> - Short timeframes (1-2 weeks max)
+> - Warm/retargeting audiences when possible
+> - The goal of identifying which OFFER resonates, then build a proper sales funnel (VSL/call booking) around the winner
+
 ---
 
 ## Two Golden Rules for Offers
@@ -170,6 +177,20 @@ Same double revenue, but 5x profit increase.
    - Morning: What we're doing today
    - Evening: What we did
 
+> **📊 CROSS-REFERENCE/STANDARDIZED: Communication Frequency (FIX #27)**
+>
+> Standardized communication cadence by client phase and tier:
+>
+> | Phase/Tier | Frequency | Format |
+> |------------|-----------|--------|
+> | First 30 days (all clients) | Daily | Morning plan + evening recap |
+> | After 30 days (standard) | Weekly | Written update + optional call |
+> | High-ticket ($10K+/month) | Daily ongoing | Maintains premium experience |
+>
+> **Key insight:** Daily communication in first 30 days reduces buyer remorse and builds trust. Transition to weekly only after relationship is established.
+>
+> See also: `SKILL_BIBLE_client_operations_retention.md`, `SKILL_BIBLE_client_onboarding_agency_agenc.md`
+
 3. **Daily Reporting** (not weekly)
    - Day over day
    - Week over week
@@ -182,8 +203,16 @@ Same double revenue, but 5x profit increase.
 
 5. **Price Testing**
    - Increase 20% every 4 clients
-   - Continue until close rate drops to 15%
-   - 15% close rate on cold = optimal pricing
+   - Continue until close rate drops to 20-25%
+   - **Standard optimal: 20-25% close rate**
+   - 15% close rate acceptable ONLY for high-ticket cold traffic ($5K+)
+
+> **📊 Cross-Reference: SKILL_BIBLE_pricing_strategy.md**
+> Close rate benchmarks vary by traffic temperature and offer price:
+> - <15%: Catastrophic - major problems (overpriced or sales process issue)
+> - 15-20%: Below optimal for most offers
+> - 20-30%: Optimal range for warm/mixed traffic
+> - 15% on cold: Acceptable ONLY for high-ticket ($5K+) where qualification is stricter
 
 **Result:** Churn dropped from 26% to 9%
 
@@ -206,6 +235,20 @@ Rich prospects calculate real risk, not just fee risk.
 - Minimum $250/hour effective rate
 - Strong guarantee (can't do on main service)
 - Gets foot in the door with large clients
+
+> **📊 CROSS-REFERENCE/STANDARDIZED: Intro Offer Pricing (FIX #23)**
+>
+> $2,500 is the **ceiling**, not the target. Price as low as viable for volume:
+>
+> | Strategy | Price Point | Use Case |
+> |----------|-------------|----------|
+> | Volume-focused | As low as viable ($500-1,500) | High lead flow, need more case studies, scaling fast |
+> | Margin-focused | Near ceiling (~$2,500) | Limited capacity, premium positioning, established proof |
+> | Hybrid | $1,000-2,000 | Balanced approach for most agencies |
+>
+> **Key principle:** The intro offer's purpose is CAC recovery and foot-in-door, NOT profit. Lower price = more conversions = more upsell opportunities.
+>
+> See also: `SKILL_BIBLE_agency_offers_scaling.md` - "Price as LOW as possible (defeats purpose if $8K)"
 
 **Case Study: Cold Email Agency**
 - Before: $15K upfront for 3 months = high friction

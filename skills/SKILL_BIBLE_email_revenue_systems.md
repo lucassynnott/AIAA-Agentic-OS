@@ -104,6 +104,14 @@ High-performing brands send 3-4 email campaigns per week plus 1-2 SMS campaigns.
 - 20% Community/lifestyle content (customer stories, brand values)
 - 10% Direct promotional (sales, discounts, urgency)
 
+> **📊 CROSS-REFERENCE: STANDARDIZED VALUE-TO-PROMOTION RATIO (Cross-Reference: SKILL_BIBLE_email_marketing_system.md, SKILL_BIBLE_email_campaign_mastery.md)**
+> | Audience Temperature | Ratio (Value:Promotion) | Context |
+> |----------------------|-------------------------|---------|
+> | Cold (new subscribers) | 5:1 | Build trust first, minimal asks |
+> | Warm (engaged 30-60 days) | 3:1 | Balanced nurture with offers |
+> | Hot (recent buyers/highly engaged) | 2:1 | Can handle more promotional content |
+> | Note: 80/20 rule (80% value, 20% promotion) represents overall program mix across all segments
+
 ### The Revenue Attribution Model
 
 Understanding how email drives revenue across the customer journey is crucial for optimization:

@@ -1169,6 +1169,15 @@ P.S. We've got some exciting new products launching next month. Might be worth s
 - **Tracking Period**: Monthly and quarterly
 - **Benchmark Sources**: Klaviyo industry reports, internal data
 
+> **📊 CROSS-REFERENCE: STANDARDIZED EMAIL REVENUE % OF TOTAL (Cross-Reference: SKILL_BIBLE_klaviyo_setup.md, SKILL_BIBLE_klaviyo_email.md)**
+> | Store Stage | Target Email Revenue % | Context |
+> |-------------|------------------------|---------|
+> | New stores (0-6 months) | 15-25% | Building list, flows being optimized |
+> | Growing stores (6-18 months) | 25-40% | Flows mature, campaigns scaling |
+> | Optimized stores (18+ months) | 40-50% | Full system operational |
+> | Exceptional (mature + expert) | 50-60% | Highly refined, segmented approach |
+> | Note: >60% may indicate over-reliance on email; diversify paid acquisition
+
 **Revenue Per Email (RPE)**:
 - **Calculation**: Total email revenue / Number of emails sent
 - **Industry Average**: $0.10-$0.50 per email

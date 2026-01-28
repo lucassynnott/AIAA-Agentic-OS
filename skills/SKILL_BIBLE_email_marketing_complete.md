@@ -35,11 +35,28 @@ HubSpot research shows 791% ROI increase from list segmentation. Different audie
 ### 6. Consistency Over Perfection
 Regular, good emails outperform sporadic, perfect emails. Building email habits and reader expectations creates brand equity that compounds over time. McDonald's succeeds because customers know exactly what to expect—apply this same principle to email.
 
+> **📊 STANDARDIZED EMAIL FREQUENCY BY USE CASE (Cross-Reference: SKILL_BIBLE_email_revenue_systems.md, SKILL_BIBLE_value_dense_emails.md)**
+> | Use Case | Frequency | Notes |
+> |----------|-----------|-------|
+> | Promotional campaigns | 3-4x/week | General promotional content |
+> | Nurture sequences | Daily acceptable | Value-dense content OK daily |
+> | Call funnels (warm) | Up to 6x/day | High-intent booking sequences only |
+> | Cold traffic nurture | 2-3x/week | Build trust before increasing |
+> | Re-engagement | 1x/week then decrease | Sunset non-responders after 30 days |
+
 ### 7. Deliverability as Foundation
 None of the tactics matter if emails don't reach inboxes. 16.99% of B2B marketing emails never reach the inbox. Every design and content decision must consider deliverability implications, from link quantity to money language to engagement metrics.
 
 ### 8. Anti-Promotional Design
 Emails should look like personal communications, not marketing materials. This means text-heavy content, minimal links, no flashy graphics, and conversational tone. The goal is avoiding the promotional tab while maximizing engagement.
+
+> **📊 CROSS-REFERENCE: STANDARDIZED TEXT VS IMAGE GUIDELINES (Cross-Reference: SKILL_BIBLE_email_design_best_practices.md)**
+> | Email Type | Text % | Images | Purpose |
+> |------------|--------|--------|---------|
+> | Cold email / Nurture sequences | 90%+ | Minimal | Deliverability, personal feel |
+> | E-commerce campaigns | 60-70% | Branded templates OK | Showcase products visually |
+> | Transactional / Founder emails | 95%+ | Logo only | Maximum inbox placement |
+> | Note: "Production polish" (design quality) differs from "message quality" (copy effectiveness). Focus on message quality first; visual polish secondary for most email types
 
 ### 9. Unsubscribes as List Health Indicators
 High unsubscribe rates on initial emails indicate list cleaning rather than failure. Engaged subscribers are more valuable than vanity metrics. Making unsubscribing easy improves deliverability for engaged subscribers while removing disinterested contacts.

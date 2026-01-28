@@ -133,6 +133,14 @@ Value delivery creates "deposits" in relationship accounts that enable "withdraw
 - Warm audience: 3:1 ratio required
 - Hot audience: 2:1 ratio acceptable
 
+> **📊 CROSS-REFERENCE: STANDARDIZED VALUE-TO-PROMOTION RATIO (Cross-Reference: SKILL_BIBLE_email_marketing_system.md, SKILL_BIBLE_email_revenue_systems.md)**
+> | Audience Temperature | Ratio (Value:Promotion) | Context |
+> |----------------------|-------------------------|---------|
+> | Cold (new subscribers) | 5:1 | Build trust first, minimal asks |
+> | Warm (engaged 30-60 days) | 3:1 | Balanced nurture with offers |
+> | Hot (recent buyers/highly engaged) | 2:1 | Can handle more promotional content |
+> | Note: 80/20 rule (80% value, 20% promotion) represents overall program mix across all segments
+
 ### The Email Revenue Optimization Framework
 **Stage 1: List Audit and Segmentation**
 1. Analyze engagement patterns over 90 days

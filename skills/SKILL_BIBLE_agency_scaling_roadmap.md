@@ -199,6 +199,24 @@
 | Video Editor | After 100 YouTube videos | Develop skills first |
 | Client Success Manager | 12+ clients AND 25+ calls/week | Both criteria met |
 
+> **📊 CROSS-REFERENCE/STANDARDIZED: First Hire Timing (FIX #25)**
+>
+> First hire timing depends on **business model**, not just revenue:
+>
+> | Business Model | First Hire | Revenue Trigger | Rationale |
+> |----------------|------------|-----------------|-----------|
+> | Service-heavy (fulfillment bottleneck) | Service Delivery | $15-20K/month | Free yourself to sell |
+> | High-volume outreach | Admin/Inbox Manager | Day 1 of outreach | Volume requires support |
+> | Content-focused | Thumbnail Designer | Day 1 of YouTube | Visual quality matters early |
+> | Sales-heavy | Closer | 25+ calls/week | Need call volume first |
+>
+> **Decision tree:**
+> 1. Is fulfillment your bottleneck? → Service delivery hire at $15-20K/month
+> 2. Is volume your bottleneck? → Admin/Inbox Manager early (even Day 1)
+> 3. Is content your bottleneck? → Content support at consistency milestone
+>
+> See also: `SKILL_BIBLE_agency_scaling_growth.md` - Stage-based scaling framework.
+
 ### Key Hiring Principles
 
 **Admin Assistant:**
