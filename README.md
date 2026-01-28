@@ -105,7 +105,7 @@ Say: "Great! Let me download and install AIAA Agentic OS for you..."
 
 Then RUN these commands automatically:
 
-git clone https://github.com/stopmoclay/AIAA-Agentic-OS.git
+git clone https://github.com/lucassynnott/AIAA-Agentic-OS/
 cd AIAA-Agentic-OS
 pip install -r requirements.txt
 
