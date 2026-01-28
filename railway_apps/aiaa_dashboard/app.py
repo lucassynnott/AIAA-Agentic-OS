@@ -2765,9 +2765,9 @@ def render_sidebar(active="overview", username="admin"):
             </div>
             <div class="nav-section">
                 <div class="nav-label">Management</div>
-                <a href="/workflows" class="nav-item {'active' if active == 'workflows' else ''}"><svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" stroke-width="2"/></svg>Workflows</a>
+                <a href="/workflows" class="nav-item {'active' if active == 'workflows' else ''}"><svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" stroke-width="2"/></svg>Active Workflows</a>
+                <a href="/workflow-catalog" class="nav-item {'active' if active == 'workflow-catalog' else ''}"><svg viewBox="0 0 24 24"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71" stroke-width="2"/></svg>Workflow Catalog</a>
                 <a href="/env" class="nav-item {'active' if active == 'env' else ''}"><svg viewBox="0 0 24 24"><path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" stroke-width="2"/></svg>Environment</a>
-                <a href="/workflow" class="nav-item {'active' if active == 'workflow' else ''}"><svg viewBox="0 0 24 24"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71" stroke-width="2"/></svg>Workflow</a>
                 <a href="/logs" class="nav-item {'active' if active == 'logs' else ''}"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z M14 2v6h6 M16 13H8 M16 17H8 M10 9H8" stroke-width="2"/></svg>Logs</a>
             </div>
         </nav>
@@ -2870,12 +2870,12 @@ DASHBOARD_TEMPLATE = f'''
 </html>
 '''
 
-@app.route('/workflows')
+@app.route('/workflow-catalog')
 @login_required
 def workflows_page():
     username = session.get('username', 'admin')
     workflows_list = sorted(WORKFLOWS.items(), key=lambda x: x[0])
-    return render_template_string(WORKFLOWS_TEMPLATE, workflows=workflows_list, sidebar=render_sidebar("workflows", username))
+    return render_template_string(WORKFLOWS_TEMPLATE, workflows=workflows_list, sidebar=render_sidebar("workflow-catalog", username))
 
 WORKFLOWS_TEMPLATE = f'''
 <!DOCTYPE html>
@@ -2889,7 +2889,7 @@ WORKFLOWS_TEMPLATE = f'''
 <body>
     {{{{ sidebar | safe }}}}
     <main class="main">
-        <div class="page-header"><div><h1 class="page-title">Workflows</h1><p class="page-subtitle">{{{{ workflows | length }}}} available workflows</p></div></div>
+        <div class="page-header"><div><h1 class="page-title">Workflow Catalog</h1><p class="page-subtitle">{{{{ workflows | length }}}} available workflows</p></div></div>
         <div class="search-box"><input type="text" id="search" placeholder="Search workflows..." oninput="filterWorkflows()"></div>
         <div class="workflows-grid" id="grid">{{% for name, wf in workflows %}}<a href="/workflow/{{{{ name }}}}" class="workflow-card" data-name="{{{{ name }}}} {{{{ wf.category }}}} {{{{ wf.description }}}}"><div class="workflow-name">{{{{ name.replace('_', ' ').title() }}}}</div><div class="workflow-desc">{{{{ wf.description }}}}</div><div class="workflow-meta"><span class="badge badge-category">{{{{ wf.category }}}}</span><span class="badge {{{{ 'badge-success' if wf.has_script else 'badge-muted' }}}}">{{{{ 'Script' if wf.has_script else 'Directive' }}}}</span></div></a>{{% endfor %}}</div>
     </main>
@@ -2974,7 +2974,8 @@ ENV_TEMPLATE = f'''
 </html>
 '''
 
-@app.route('/workflow')
+@app.route('/workflows')
+@app.route('/workflow')  # Keep old route for backward compatibility
 @app.route('/webhooks')  # Keep old route for backward compatibility
 @login_required
 def workflow_page():
@@ -2999,18 +3000,6 @@ def workflow_page():
             "project_id": "3b96c81f-9518-4131-b2bc-bcd7a524a5ef",
             "project_url": "https://railway.com/project/3b96c81f-9518-4131-b2bc-bcd7a524a5ef",
             "service_id": "5fbf1961-5c49-41ec-a776-fb4c7723bf69"
-        },
-        {
-            "name": "YouTube Automation",
-            "description": "YouTube content automation workflow - TEST DELETE TARGET",
-            "schedule": "Manual",
-            "cron": "",
-            "status": "active",
-            "platform": "Railway",
-            "last_run": "N/A",
-            "project_id": "3b96c81f-9518-4131-b2bc-bcd7a524a5ef",
-            "project_url": "https://railway.com/project/3b96c81f-9518-4131-b2bc-bcd7a524a5ef/service/415686bb-d10c-40c5-b610-4c5e41bbe762?environmentId=951885c9-85a5-46f5-96a1-2151936b0314",
-            "service_id": "415686bb-d10c-40c5-b610-4c5e41bbe762"
         }
     ]
     return render_template_string(WORKFLOW_TEMPLATE, base_url=base_url, endpoints=endpoints, active_workflows=active_workflows, sidebar=render_sidebar("workflow", username))
@@ -3256,8 +3245,8 @@ WORKFLOW_TEMPLATE = f'''
     <main class="main">
         <div class="page-header">
             <div>
-                <h1 class="page-title">Workflow</h1>
-                <p class="page-subtitle">Webhooks and active scheduled workflows</p>
+                <h1 class="page-title">Active Workflows</h1>
+                <p class="page-subtitle">Running workflow deployments</p>
             </div>
         </div>
 
