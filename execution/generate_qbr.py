@@ -39,7 +39,7 @@ def main():
     parser.add_argument("--client", "-c", required=True)
     parser.add_argument("--metrics", "-m", required=True, help="Key metrics achieved")
     parser.add_argument("--wins", "-w", default="", help="Key wins this quarter")
-    parser.add_argument("--challenges", "-h", default="", help="Challenges faced")
+    parser.add_argument("--challenges", "-ch", default="", help="Challenges faced")
     parser.add_argument("--next_quarter", "-n", default="", help="Next quarter goals")
     parser.add_argument("--output", "-o", default=".tmp/qbr.md")
     args = parser.parse_args()

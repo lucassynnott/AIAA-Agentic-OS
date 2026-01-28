@@ -182,3 +182,20 @@ Understand prospect's current stack and pain points.
 - Private company: Limited data, focus on job posts
 - New executive: Check previous company history
 - No LinkedIn: Use alternative sources
+
+## Related Skill Bibles
+
+**[SKILL_BIBLE_hormozi_lead_generation.md](../skills/SKILL_BIBLE_hormozi_lead_generation.md)**
+- Lead qualification principles
+- Prospect research depth
+- Outreach preparation
+
+**[SKILL_BIBLE_hormozi_sales_training.md](../skills/SKILL_BIBLE_hormozi_sales_training.md)**
+- Pre-call preparation
+- Discovery question frameworks
+- Pain point identification
+
+**[SKILL_BIBLE_cold_email_mastery.md](../skills/SKILL_BIBLE_cold_email_mastery.md)**
+- Personalization research
+- Prospect insights for outreach
+- Relevance bridging

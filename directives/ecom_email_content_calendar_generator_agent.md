@@ -166,6 +166,34 @@ Data is normalized/transformed for the next step.
 - API rate limits for external services
 - AI model failures or timeouts
 
+## Related Skill Bibles
+
+### PRIMARY: Max Sturtevant's $40M+ Ecommerce Email Methodology
+
+**[SKILL_BIBLE_sturtevant_email_master_system.md](../skills/SKILL_BIBLE_sturtevant_email_master_system.md)** ⭐ ESSENTIAL
+- Complete ecommerce email system (6,968 words)
+- Campaign calendar planning
+- Optimal send frequencies (3-4/week)
+
+**[SKILL_BIBLE_sturtevant_black_friday.md](../skills/SKILL_BIBLE_sturtevant_black_friday.md)** ⭐ FOR Q4 PLANNING
+- BFCM & Q4 calendar strategies (7,101 words)
+- Holiday campaign sequencing
+- Key date optimization
+
+**[SKILL_BIBLE_sturtevant_copywriting.md](../skills/SKILL_BIBLE_sturtevant_copywriting.md)**
+- Campaign theme ideas
+- Subject line variety
+
+**[SKILL_BIBLE_sturtevant_revenue_systems.md](../skills/SKILL_BIBLE_sturtevant_revenue_systems.md)**
+- Revenue-focused calendar planning (5,812 words)
+- Campaign mix optimization
+
+### SUPPLEMENTARY
+
+**[SKILL_BIBLE_hormozi_marketing_mastery.md](../skills/SKILL_BIBLE_hormozi_marketing_mastery.md)**
+- Promotional calendar strategies
+- Campaign timing psychology
+
 ## Original N8N Workflow
 This directive was generated from: `N8N Workflows/Workflows/Ecom Email Marketing Agency/Ecom Email Content Calendar Generator Agent.json`
 Generated on: 2026-01-02

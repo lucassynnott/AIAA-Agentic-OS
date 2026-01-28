@@ -28,7 +28,7 @@ from google.auth.transport.requests import Request
 
 # Import our modules
 from scrape_google_maps import scrape_google_maps
-from extract_website_contacts import scrape_website_contacts
+from scrape_website_contacts import scrape_contacts as scrape_website_contacts
 
 load_dotenv()
 

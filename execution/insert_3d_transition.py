@@ -6,12 +6,22 @@ Inserts a "swivel teaser" at a specified point in a video - a fast-forward
 preview of video content starting at 1 minute with 3D rotation effects.
 Original audio continues playing throughout.
 
+See: directives/pan_3d_transition.md for effect parameters.
+
 Usage:
+    # Insert 5-second swivel teaser at 3 seconds (previews from 1:00 to end)
     python execution/insert_3d_transition.py input.mp4 output.mp4
-    python execution/insert_3d_transition.py input.mp4 output.mp4 --bg-image .tmp/bg.png
+
+    # Custom teaser content start point
+    python execution/insert_3d_transition.py input.mp4 output.mp4 \
+        --teaser-start 90  # Preview starts at 1:30
+
+    # With background image
+    python execution/insert_3d_transition.py input.mp4 output.mp4 \
+        --bg-image .tmp/background.png
 
 Timeline Result:
-    Video: [0-3s original] [3-8s swivel teaser] [8s+ original]
+    Video: [0-3s original] [3-8s swivel teaser showing content from 1:00 onwards] [8s+ original]
     Audio: [original audio plays continuously throughout]
 """
 
@@ -19,168 +29,22 @@ import subprocess
 import tempfile
 import os
 import argparse
-import shutil
+import json
+import sys
 from pathlib import Path
 
-# Video encoding settings - H.265/HEVC at 17Mbps, 30fps
-HARDWARE_ENCODER = "hevc_videotoolbox"
-SOFTWARE_ENCODER = "libx265"
-HARDWARE_BITRATE = "17M"
-SOFTWARE_CRF = "18"
-TARGET_FPS = 30
+# Add execution directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent))
 
-# Cache for hardware encoder availability
-_hardware_encoder_available = None
+# Import the transition creator
+from pan_3d_transition import create_transition, get_video_info
+# Import hardware encoding functions
+from jump_cut_vad import get_cached_encoder_args
 
-DEFAULT_INSERT_AT = 3.0
-DEFAULT_DURATION = 5.0
-DEFAULT_TEASER_START = 60.0
-MAX_PLAYBACK_RATE = 100.0
-
-# Path to video_effects Remotion project
-VIDEO_EFFECTS_DIR = Path(__file__).parent / "video_effects"
-
-
-def check_hardware_encoder_available() -> bool:
-    """Check if hevc_videotoolbox hardware encoder is available."""
-    try:
-        result = subprocess.run(
-            ["ffmpeg", "-hide_banner", "-encoders"],
-            capture_output=True, text=True, timeout=5
-        )
-        return "hevc_videotoolbox" in result.stdout
-    except Exception:
-        return False
-
-
-def get_cached_encoder_args() -> list[str]:
-    """Get encoder args with cached hardware availability check."""
-    global _hardware_encoder_available
-    if _hardware_encoder_available is None:
-        _hardware_encoder_available = check_hardware_encoder_available()
-        if _hardware_encoder_available:
-            print(f"🚀 Hardware encoding enabled (hevc_videotoolbox)")
-        else:
-            print(f"💻 Using software encoding (libx265)")
-
-    if _hardware_encoder_available:
-        return ["-c:v", HARDWARE_ENCODER, "-b:v", HARDWARE_BITRATE, "-r", str(TARGET_FPS), "-tag:v", "hvc1"]
-    else:
-        return ["-c:v", SOFTWARE_ENCODER, "-preset", "fast", "-crf", SOFTWARE_CRF, "-r", str(TARGET_FPS), "-tag:v", "hvc1"]
-
-
-def get_video_info(input_path: str) -> dict:
-    """Get video information using ffprobe."""
-    cmd = [
-        "ffprobe", "-v", "error",
-        "-select_streams", "v:0",
-        "-show_entries", "stream=width,height,r_frame_rate,duration",
-        "-show_entries", "format=duration",
-        "-of", "json", input_path
-    ]
-    result = subprocess.run(cmd, capture_output=True, text=True)
-    import json
-    data = json.loads(result.stdout)
-
-    stream = data.get("streams", [{}])[0]
-    format_data = data.get("format", {})
-
-    # Parse frame rate (can be "60/1" or "59.94")
-    fps_str = stream.get("r_frame_rate", "30/1")
-    if "/" in fps_str:
-        num, den = fps_str.split("/")
-        fps = float(num) / float(den)
-    else:
-        fps = float(fps_str)
-
-    # Duration from stream or format
-    duration = float(stream.get("duration") or format_data.get("duration", 0))
-
-    return {
-        "width": int(stream.get("width", 1920)),
-        "height": int(stream.get("height", 1080)),
-        "fps": fps,
-        "duration": duration
-    }
-
-
-def create_transition(
-    input_path: str,
-    output_path: str,
-    start: float,
-    source_duration: float,
-    output_duration: float,
-    playback_rate: float,
-    bg_color: str = "#2d3436",
-    bg_image: str = None,
-) -> None:
-    """
-    Create 3D swivel transition using Remotion.
-
-    Extracts frames from video, renders with 3D rotation effect.
-    """
-    info = get_video_info(input_path)
-    width, height, fps = info["width"], info["height"], info["fps"]
-
-    print(f"📹 Input: {width}x{height} @ {fps:.2f}fps")
-
-    # Remotion expects 60fps, extract 300 frames for 5-second teaser
-    REMOTION_FPS = 60
-    frame_count = int(output_duration * REMOTION_FPS)
-    print(f"📸 Extracting {frame_count} frames...")
-
-    # Setup public/frames directory
-    frames_dir = VIDEO_EFFECTS_DIR / "public" / "frames"
-    frames_dir.mkdir(parents=True, exist_ok=True)
-
-    # Clear old frames
-    for f in frames_dir.glob("frame_*.jpg"):
-        f.unlink()
-
-    # Extract frames at playback_rate speed
-    # We need frame_count frames spanning source_duration seconds
-    frame_interval = source_duration / frame_count
-
-    cmd = [
-        "ffmpeg", "-y", "-i", input_path,
-        "-ss", str(start),
-        "-vf", f"fps={1/frame_interval}",
-        "-vframes", str(frame_count),
-        "-q:v", "2",
-        "-loglevel", "error",
-        str(frames_dir / "frame_%04d.jpg")
-    ]
-    subprocess.run(cmd, check=True)
-
-    # Copy background image if provided
-    bg_dest = frames_dir / "bg_image.png"
-    if bg_image and os.path.exists(bg_image):
-        shutil.copy(bg_image, bg_dest)
-    else:
-        # Create solid color background
-        cmd = [
-            "ffmpeg", "-y",
-            "-f", "lavfi", "-i", f"color=c={bg_color.replace('#', '0x')}:s={width}x{height}:d=1",
-            "-vframes", "1",
-            "-loglevel", "error",
-            str(bg_dest)
-        ]
-        subprocess.run(cmd, check=True)
-
-    # Render with Remotion
-    print(f"🎬 Rendering 3D transition...")
-
-    cmd = [
-        "npx", "remotion", "render",
-        "src/dynamic-index.ts", "Pan3D",
-        output_path,
-        "--props", f'{{"frameCount": {frame_count}, "playbackRate": {playback_rate}}}',
-        "--concurrency", "4",
-        "--log", "error"
-    ]
-    subprocess.run(cmd, cwd=VIDEO_EFFECTS_DIR, check=True)
-
-    print(f"✅ Rendered to {output_path}")
+DEFAULT_INSERT_AT = 3.0    # Insert transition at 3 seconds
+DEFAULT_DURATION = 5.0     # 5-second transition
+DEFAULT_TEASER_START = 60.0  # Teaser content starts at 1 minute
+MAX_PLAYBACK_RATE = 100.0  # Cap teaser speed at 100x for readability
 
 
 def composite_with_transition(
@@ -194,20 +58,37 @@ def composite_with_transition(
 ) -> None:
     """
     Insert a swivel teaser into video while preserving original audio.
+
+    The swivel teaser shows video content from teaser_start to end,
+    compressed into the specified duration with 3D rotation effects.
+
+    Args:
+        input_path: Source video file
+        output_path: Output video file
+        insert_at: Where to insert teaser in timeline (seconds)
+        duration: Teaser duration (seconds)
+        teaser_start: Where to start sourcing teaser content (seconds, default 60)
+        bg_color: Background color for teaser
+        bg_image: Optional background image for teaser
     """
+    # Get video info
     info = get_video_info(input_path)
     total_duration = info["duration"]
 
+    # Validate teaser_start
     if teaser_start >= total_duration:
         raise ValueError(f"Teaser start ({teaser_start}s) must be less than video duration ({total_duration}s)")
 
+    # Calculate content to preview (from teaser_start to end)
+    # Cap playback rate at MAX_PLAYBACK_RATE for readability
     available_content = total_duration - teaser_start
     uncapped_rate = available_content / duration
 
     if uncapped_rate > MAX_PLAYBACK_RATE:
+        # Cap at max speed, take only as much content as fits
         playback_rate = MAX_PLAYBACK_RATE
-        teaser_content = duration * MAX_PLAYBACK_RATE
-        print(f"   Capping speed at {MAX_PLAYBACK_RATE}x (would have been {uncapped_rate:.1f}x)")
+        teaser_content = duration * MAX_PLAYBACK_RATE  # e.g., 5s × 100x = 500s of content
+        print(f"   ⚠️  Capping speed at {MAX_PLAYBACK_RATE}x (would have been {uncapped_rate:.1f}x)")
     else:
         playback_rate = uncapped_rate
         teaser_content = available_content
@@ -216,28 +97,32 @@ def composite_with_transition(
     print(f"   Input: {input_path}")
     print(f"   Insert at: {insert_at}s")
     print(f"   Teaser duration: {duration}s")
-    print(f"   Teaser content: {teaser_start}s -> {total_duration:.1f}s ({teaser_content:.1f}s at {playback_rate:.1f}x speed)")
+    print(f"   Teaser content: {teaser_start}s → {total_duration:.1f}s ({teaser_content:.1f}s at {playback_rate:.1f}x speed)")
     print()
 
     if insert_at + duration > total_duration:
         raise ValueError(f"Insert point + duration ({insert_at + duration}s) exceeds video duration ({total_duration}s)")
 
     with tempfile.TemporaryDirectory() as tmpdir:
+        # Step 1: Generate the swivel teaser (content from teaser_start to end)
         transition_path = os.path.join(tmpdir, "transition.mp4")
         print(f"📐 Generating swivel teaser...")
 
         create_transition(
             input_path=input_path,
             output_path=transition_path,
-            start=teaser_start,
-            source_duration=teaser_content,
+            start=teaser_start,  # Start sourcing from teaser_start (default 60s)
+            source_duration=teaser_content,  # Content from teaser_start to end
             output_duration=duration,
-            playback_rate=playback_rate,
+            playback_rate=playback_rate,  # Calculated to fit all content
             bg_color=bg_color,
             bg_image=bg_image,
         )
 
+        # Step 2: Extract segments from original video (video only)
         print(f"\n✂️  Extracting video segments...")
+
+        # Get encoder args (hardware if available)
         encoder_args = get_cached_encoder_args()
 
         # Segment 1: 0 to insert_at
@@ -245,17 +130,24 @@ def composite_with_transition(
         cmd = [
             "ffmpeg", "-y", "-i", input_path,
             "-t", str(insert_at),
-            "-an",
-        ] + encoder_args + ["-loglevel", "error", seg1_path]
+            "-an",  # No audio
+        ] + encoder_args + [
+            "-loglevel", "error",
+            seg1_path
+        ]
         subprocess.run(cmd, check=True)
         print(f"   Segment 1: 0s - {insert_at}s")
 
-        # Segment 2: transition
+        # Segment 2 is the transition (already has no audio from Remotion)
+        # But we need to ensure it's in the right format
         seg2_path = os.path.join(tmpdir, "seg2.mp4")
         cmd = [
             "ffmpeg", "-y", "-i", transition_path,
-            "-an",
-        ] + encoder_args + ["-loglevel", "error", seg2_path]
+            "-an",  # No audio
+        ] + encoder_args + [
+            "-loglevel", "error",
+            seg2_path
+        ]
         subprocess.run(cmd, check=True)
         print(f"   Segment 2: transition ({duration}s)")
 
@@ -264,13 +156,16 @@ def composite_with_transition(
         cmd = [
             "ffmpeg", "-y", "-i", input_path,
             "-ss", str(insert_at + duration),
-            "-an",
-        ] + encoder_args + ["-loglevel", "error", seg3_path]
+            "-an",  # No audio
+        ] + encoder_args + [
+            "-loglevel", "error",
+            seg3_path
+        ]
         subprocess.run(cmd, check=True)
         remaining = total_duration - (insert_at + duration)
         print(f"   Segment 3: {insert_at + duration}s - end ({remaining:.1f}s)")
 
-        # Concatenate video segments
+        # Step 3: Concatenate video segments
         print(f"\n🔗 Concatenating video segments...")
         concat_video_path = os.path.join(tmpdir, "concat_video.mp4")
 
@@ -283,13 +178,13 @@ def composite_with_transition(
         cmd = [
             "ffmpeg", "-y", "-f", "concat", "-safe", "0",
             "-i", concat_list,
-            "-c", "copy",
+            "-c", "copy",  # Stream copy since segments are already encoded
             "-loglevel", "error",
             concat_video_path
         ]
         subprocess.run(cmd, check=True)
 
-        # Extract original audio
+        # Step 4: Extract original audio
         print(f"🎵 Extracting original audio...")
         audio_path = os.path.join(tmpdir, "audio.aac")
         cmd = [
@@ -300,7 +195,7 @@ def composite_with_transition(
         ]
         subprocess.run(cmd, check=True)
 
-        # Merge video and audio
+        # Step 5: Merge video and audio
         print(f"🎞️  Merging video and audio...")
         cmd = [
             "ffmpeg", "-y",
@@ -308,7 +203,7 @@ def composite_with_transition(
             "-i", audio_path,
             "-c:v", "copy",
             "-c:a", "copy",
-            "-shortest",
+            "-shortest",  # In case of tiny duration mismatches
             "-loglevel", "error",
             output_path
         ]
@@ -316,6 +211,7 @@ def composite_with_transition(
 
     print(f"\n✅ Output saved to {output_path}")
     print(f"   Timeline: [0-{insert_at}s] [swivel teaser {duration}s] [{insert_at+duration}s-end]")
+    print(f"   Teaser shows: {teaser_start}s → {total_duration:.1f}s ({teaser_content:.1f}s at {playback_rate:.1f}x speed)")
     print(f"   Audio: Original audio preserved throughout")
 
 
@@ -330,11 +226,11 @@ def main():
     parser.add_argument("--duration", type=float, default=DEFAULT_DURATION,
                         help=f"Transition duration in seconds (default: {DEFAULT_DURATION})")
     parser.add_argument("--teaser-start", type=float, default=DEFAULT_TEASER_START,
-                        help=f"Where to start sourcing teaser content (default: {DEFAULT_TEASER_START}s)")
+                        help=f"Where to start sourcing teaser content (default: {DEFAULT_TEASER_START}s = 1 minute)")
     parser.add_argument("--bg-color", type=str, default="#2d3436",
                         help="Background color (hex, default: #2d3436)")
     parser.add_argument("--bg-image", type=str, default=None,
-                        help="Background image path")
+                        help="Background image path (overrides --bg-color)")
 
     args = parser.parse_args()
 

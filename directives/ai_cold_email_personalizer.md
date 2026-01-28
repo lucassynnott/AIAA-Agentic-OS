@@ -186,3 +186,20 @@ Source: TechCrunch funding announcement + 3 SDR job posts
 - No research found: Use industry-generic personalization
 - Outdated info: Flag for manual review
 - Competitor customer: Note in research, may deprioritize
+
+## Related Skill Bibles
+
+**[SKILL_BIBLE_hormozi_email_marketing_complete.md](../skills/SKILL_BIBLE_hormozi_email_marketing_complete.md)**
+- Email personalization tactics
+- Subject line optimization
+- Engagement strategies
+
+**[SKILL_BIBLE_cold_email_mastery.md](../skills/SKILL_BIBLE_cold_email_mastery.md)**
+- Cold email personalization frameworks
+- First line formulas
+- Response optimization
+
+**[SKILL_BIBLE_hormozi_lead_generation.md](../skills/SKILL_BIBLE_hormozi_lead_generation.md)**
+- Lead research principles
+- Prospect qualification
+- Outreach positioning

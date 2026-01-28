@@ -195,3 +195,25 @@ echo '[JSON]' | python3 execution/create_proposal.py
 5. **Notify User**
    - Show the "internalLink" to the user for review and editing in PandaDoc
    - Confirm that the follow-up email was sent successfully
+
+## Related Skill Bibles
+
+**[SKILL_BIBLE_hormozi_sales_training.md](../skills/SKILL_BIBLE_hormozi_sales_training.md)**
+- Ultimate sales training framework
+- Proposal positioning
+- Value communication
+
+**[SKILL_BIBLE_hormozi_10x_pricing.md](../skills/SKILL_BIBLE_hormozi_10x_pricing.md)**
+- Pricing psychology
+- Value stack creation
+- Investment framing
+
+**[SKILL_BIBLE_hormozi_closing_deals.md](../skills/SKILL_BIBLE_hormozi_closing_deals.md)**
+- 4000+ sales closing methodology
+- Proposal-to-close strategies
+- Deal acceleration
+
+**[SKILL_BIBLE_agency_sales_system.md](../skills/SKILL_BIBLE_agency_sales_system.md)**
+- Agency proposal best practices
+- Pricing and packaging
+- Client acquisition

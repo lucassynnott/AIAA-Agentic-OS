@@ -145,3 +145,34 @@ Generate variations for testing:
 
 ## Cost
 - ~$0.05-0.10 per ad set
+
+## Related Skill Bibles
+
+Load these skill bibles for high-converting ad creative:
+
+**[SKILL_BIBLE_meta_ads_manager_technical.md](../skills/SKILL_BIBLE_meta_ads_manager_technical.md)** (PRIMARY)
+- Complete Meta Ads Manager technical setup and optimization
+- Pixel implementation, Conversions API, audience infrastructure
+- Persona-led creative diversification (90% success rate)
+- Andromeda update strategies and incremental reach optimization
+- Campaign structure, budget allocation, and scaling frameworks
+
+**[SKILL_BIBLE_hormozi_paid_ads_mastery.md](../skills/SKILL_BIBLE_hormozi_paid_ads_mastery.md)**
+- Complete paid ads framework (30 minutes condensed)
+- Ad structure and hook formulas
+- Platform-specific optimization tactics
+
+**[SKILL_BIBLE_hormozi_ad_analysis.md](../skills/SKILL_BIBLE_hormozi_ad_analysis.md)**
+- Analysis of top-performing ads (Superbowl tier list)
+- What makes ads convert vs fail
+- Creative direction insights
+
+**[SKILL_BIBLE_hormozi_marketing_strategy_ryan.md](../skills/SKILL_BIBLE_hormozi_marketing_strategy_ryan.md)**
+- Ryan Reynolds $1.3B marketing strategy
+- Attention-grabbing creative concepts
+- Brand voice in advertising
+
+**[SKILL_BIBLE_hormozi_customer_acquisition_fast.md](../skills/SKILL_BIBLE_hormozi_customer_acquisition_fast.md)**
+- Fast customer acquisition through ads
+- Offer positioning in ad copy
+- Direct response ad principles

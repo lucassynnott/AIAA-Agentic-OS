@@ -43,7 +43,7 @@ def main():
     parser = argparse.ArgumentParser(description="Generate case studies")
     parser.add_argument("--client", "-c", required=True, help="Client name")
     parser.add_argument("--industry", "-i", default="", help="Client industry")
-    parser.add_argument("--challenge", "-h", required=True, help="Main challenge/problem")
+    parser.add_argument("--challenge", "-ch", required=True, help="Main challenge/problem")
     parser.add_argument("--solution", "-s", required=True, help="Solution implemented")
     parser.add_argument("--results", "-r", required=True, help="Results achieved")
     parser.add_argument("--timeline", "-t", default="", help="Project timeline")

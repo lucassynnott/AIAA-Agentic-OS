@@ -200,19 +200,27 @@ Sam"""
 # For local testing
 if __name__ == "__main__":
     import sys
+    import argparse
     from pathlib import Path
+
+    parser = argparse.ArgumentParser(description="Send welcome email sequence to new clients (requires token.json)")
+    parser.add_argument("--client-name", default="John Smith", help="Client name")
+    parser.add_argument("--client-email", default="test@example.com", help="Client email")
+    parser.add_argument("--company-name", default="Acme Corp", help="Company name")
+    args = parser.parse_args()
 
     # Test payload
     test_payload = {
-        "client_name": "John Smith",
-        "client_email": "nickolassaraev@gmail.com",
-        "company_name": "Acme Corp"
+        "client_name": args.client_name,
+        "client_email": args.client_email,
+        "company_name": args.company_name
     }
 
     # Load token
     token_path = Path(__file__).parent.parent / "token.json"
     if not token_path.exists():
-        print("❌ token.json not found")
+        print(f"❌ token.json not found at {token_path}")
+        print("Please create token.json with Google OAuth credentials")
         sys.exit(1)
 
     with open(token_path) as f:

@@ -196,3 +196,27 @@ Drag-drop recording to process.
 - Poor audio quality: Flag for manual review
 - Multiple speakers: Use diarization
 - Long calls (60+ min): Chunk processing
+
+## Related Skill Bibles
+
+Load these skill bibles for better call analysis and insights:
+
+**[SKILL_BIBLE_hormozi_sales_training.md](../skills/SKILL_BIBLE_hormozi_sales_training.md)**
+- Ultimate Sales Training 2025 framework
+- Objection handling patterns to identify
+- Sales psychology and buying signals
+
+**[SKILL_BIBLE_hormozi_closing_deals.md](../skills/SKILL_BIBLE_hormozi_closing_deals.md)**
+- 4000+ sales closing methodology
+- Deal acceleration techniques
+- Close probability indicators
+
+**[SKILL_BIBLE_hormozi_sales_concepts.md](../skills/SKILL_BIBLE_hormozi_sales_concepts.md)**
+- 9 core sales concepts
+- Framework for understanding buyer behavior
+- Sales conversation patterns
+
+**[SKILL_BIBLE_agency_sales_system.md](../skills/SKILL_BIBLE_agency_sales_system.md)**
+- Agency-specific sales frameworks
+- Discovery call structure
+- Deal qualification criteria

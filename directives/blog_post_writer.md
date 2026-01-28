@@ -164,3 +164,25 @@ python3 execution/write_blog_post.py \
 
 ## Cost
 - ~$0.30-0.50 per 2500-word article
+
+## Related Skill Bibles
+
+**[SKILL_BIBLE_hormozi_content_strategy.md](../skills/SKILL_BIBLE_hormozi_content_strategy.md)**
+- 30-day content strategy framework
+- Content that drives business results
+- Engagement and value optimization
+
+**[SKILL_BIBLE_hormozi_marketing_mastery.md](../skills/SKILL_BIBLE_hormozi_marketing_mastery.md)**
+- 14 years of marketing advice
+- Content marketing principles
+- Audience building strategies
+
+**[SKILL_BIBLE_hormozi_lead_generation.md](../skills/SKILL_BIBLE_hormozi_lead_generation.md)**
+- Content as lead generation tool
+- Blog-to-lead conversion
+- Value-first content approach
+
+**[SKILL_BIBLE_hormozi_persuasion_speaking.md](../skills/SKILL_BIBLE_hormozi_persuasion_speaking.md)**
+- Compelling writing techniques
+- Hook and engagement formulas
+- Persuasive content structure

@@ -123,6 +123,30 @@ Data is normalized/transformed for the next step.
 - API rate limits for external services
 - AI model failures or timeouts
 
+## Related Skill Bibles
+
+**[SKILL_BIBLE_meta_ads_manager_technical.md](../skills/SKILL_BIBLE_meta_ads_manager_technical.md)** (PRIMARY)
+- Complete Meta Ads Manager technical setup and optimization
+- Pixel implementation and conversion tracking
+- Persona-led creative diversification strategies
+- Andromeda update best practices
+- Campaign structure and budget optimization
+
+**[SKILL_BIBLE_hormozi_paid_ads_mastery.md](../skills/SKILL_BIBLE_hormozi_paid_ads_mastery.md)**
+- Paid ads framework
+- Ad creative principles
+- Platform optimization
+
+**[SKILL_BIBLE_hormozi_ad_analysis.md](../skills/SKILL_BIBLE_hormozi_ad_analysis.md)**
+- Ad analysis and critique
+- What makes ads convert
+- Creative direction insights
+
+**[SKILL_BIBLE_hormozi_marketing_mastery.md](../skills/SKILL_BIBLE_hormozi_marketing_mastery.md)**
+- Marketing psychology
+- Attention-grabbing techniques
+- Conversion optimization
+
 ## Original N8N Workflow
 This directive was generated from: `N8N Workflows/Workflows/Funnels, Ads, & Copywriting Agency/Static Ad Generator.json`
 Generated on: 2026-01-02

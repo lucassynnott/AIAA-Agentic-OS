@@ -202,3 +202,25 @@ Multi-slide visual content.
 - Engage in comments within first hour
 - Reply to every comment
 - Best times: 7-8am, 12pm, 5-6pm (audience timezone)
+
+## Related Skill Bibles
+
+**[SKILL_BIBLE_hormozi_content_strategy.md](../skills/SKILL_BIBLE_hormozi_content_strategy.md)**
+- 30-day content strategy framework
+- Engagement optimization
+- Content that drives business
+
+**[SKILL_BIBLE_hormozi_persuasion_speaking.md](../skills/SKILL_BIBLE_hormozi_persuasion_speaking.md)**
+- Speak so well people give you money
+- Hook formulas and attention grabbing
+- Persuasive writing techniques
+
+**[SKILL_BIBLE_hormozi_marketing_mastery.md](../skills/SKILL_BIBLE_hormozi_marketing_mastery.md)**
+- 14 years of marketing advice
+- Content marketing principles
+- Audience building strategies
+
+**[SKILL_BIBLE_hormozi_unknown_advantage.md](../skills/SKILL_BIBLE_hormozi_unknown_advantage.md)**
+- Leverage being unknown
+- Building authority from scratch
+- Underdog positioning

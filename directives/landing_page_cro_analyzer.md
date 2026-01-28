@@ -151,6 +151,38 @@ Global rules:
 - API rate limits for external services
 - AI model failures or timeouts
 
+## Related Skill Bibles
+
+Load these skill bibles for comprehensive CRO analysis:
+
+**[SKILL_BIBLE_landing_page_ai_mastery.md](../skills/SKILL_BIBLE_landing_page_ai_mastery.md)** (PRIMARY)
+- Complete landing page optimization framework
+- AI-powered content creation and design automation
+- Conversion-first design philosophy
+- Mobile-first responsive design principles
+- A/B testing and optimization methodologies
+- Pre-launch and technical performance checklists
+
+**[SKILL_BIBLE_hormozi_marketing_mastery.md](../skills/SKILL_BIBLE_hormozi_marketing_mastery.md)**
+- 14 years of marketing advice condensed
+- Landing page optimization principles
+- Conversion psychology
+
+**[SKILL_BIBLE_hormozi_10x_sales_process.md](../skills/SKILL_BIBLE_hormozi_10x_sales_process.md)**
+- 10x revenue sales process
+- Funnel optimization frameworks
+- Conversion rate improvement tactics
+
+**[SKILL_BIBLE_funnel_copywriting_mastery.md](../skills/SKILL_BIBLE_funnel_copywriting_mastery.md)**
+- Funnel copy optimization
+- CRO best practices
+- Conversion element analysis
+
+**[SKILL_BIBLE_hormozi_customer_acquisition_fast.md](../skills/SKILL_BIBLE_hormozi_customer_acquisition_fast.md)**
+- Fast customer acquisition principles
+- Landing page psychology
+- Offer presentation optimization
+
 ## Original N8N Workflow
 This directive was generated from: `N8N Workflows/Workflows/Funnels, Ads, & Copywriting Agency/Landing Page CRO Analyzer.json`
 Generated on: 2026-01-02

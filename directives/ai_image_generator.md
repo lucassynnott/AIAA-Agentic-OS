@@ -27,19 +27,19 @@ pip install openai requests
 
 ## How to Run
 
-### Step 1: Generate Image
+### Step 1: Generate Image Prompts
 ```bash
-python3 execution/generate_image.py \
-  --prompt "Professional businessman smiling, corporate headshot" \
+python3 execution/generate_image_prompt.py \
+  --concept "Professional businessman smiling, corporate headshot" \
   --style photorealistic \
-  --size 1024x1024 \
+  --platform midjourney \
   --variations 4 \
-  --output .tmp/images/
+  --output .tmp/image_prompts.md
 ```
 
 ### Quick One-Liner
 ```bash
-python3 execution/generate_image.py --prompt "[DESCRIPTION]" --size 1024x1024
+python3 execution/generate_image_prompt.py --concept "[DESCRIPTION]" --style photorealistic --variations 4
 ```
 
 ## Goal

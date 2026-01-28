@@ -18,7 +18,7 @@ from dotenv import load_dotenv
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from scrape_google_maps import scrape_google_maps
-from extract_website_contacts import scrape_website_contacts
+from scrape_website_contacts import scrape_contacts as scrape_website_contacts
 from gmaps_lead_pipeline import (
     flatten_lead, get_or_create_sheet, get_existing_lead_ids,
     LEAD_COLUMNS

@@ -40,15 +40,16 @@ Create `test_data.json`:
 
 ### Step 2: Analyze Results
 ```bash
-python3 execution/analyze_ab_test.py \
-  --data test_data.json \
-  --confidence 95 \
+python3 execution/generate_ab_test_analysis.py \
+  --control '{"visitors": 5000, "conversions": 250}' \
+  --variant '{"visitors": 5000, "conversions": 325}' \
+  --test_name "Homepage CTA" \
   --output .tmp/analysis.md
 ```
 
 ### Quick One-Liner
 ```bash
-python3 execution/analyze_ab_test.py --data test_data.json --confidence 95
+python3 execution/generate_ab_test_analysis.py --control '{"visitors": 1000, "conversions": 50}' --variant '{"visitors": 1000, "conversions": 65}' --test_name "Test Name"
 ```
 
 ## Goal
@@ -139,3 +140,15 @@ of +30% in click-through rate with 98.2% confidence.
 
 ## Cost
 - ~$0.02 per analysis
+
+## Related Skill Bibles
+
+**[SKILL_BIBLE_hormozi_marketing_mastery.md](../skills/SKILL_BIBLE_hormozi_marketing_mastery.md)**
+- Testing methodology
+- Conversion optimization
+- Data-driven decisions
+
+**[SKILL_BIBLE_hormozi_10x_sales_process.md](../skills/SKILL_BIBLE_hormozi_10x_sales_process.md)**
+- Funnel optimization
+- Conversion improvement
+- Revenue impact analysis

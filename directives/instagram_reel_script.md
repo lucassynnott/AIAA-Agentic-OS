@@ -139,3 +139,20 @@ Follow @handle for more [topic] tips
 
 ## Cost
 - ~$0.02-0.05 per script
+
+## Related Skill Bibles
+
+**[SKILL_BIBLE_hormozi_content_strategy.md](../skills/SKILL_BIBLE_hormozi_content_strategy.md)**
+- 30-day content strategy framework
+- Short-form content optimization
+- Engagement tactics
+
+**[SKILL_BIBLE_hormozi_persuasion_speaking.md](../skills/SKILL_BIBLE_hormozi_persuasion_speaking.md)**
+- Hook and attention formulas
+- Compelling script delivery
+- Engagement optimization
+
+**[SKILL_BIBLE_hormozi_marketing_mastery.md](../skills/SKILL_BIBLE_hormozi_marketing_mastery.md)**
+- 14 years of marketing advice
+- Social content principles
+- Audience growth strategies

@@ -1,0 +1,26 @@
+{
+  "name": "video_effects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts Transition3DDemo out/demo.mp4",
+    "render-spring": "remotion render src/index.ts Transition3DSpring out/spring.mp4",
+    "render-subtle": "remotion render src/index.ts Transition3DSubtle out/subtle.mp4",
+    "render-all": "npm run render && npm run render-spring && npm run render-subtle"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@remotion/cli": "^4.0.380",
+    "@remotion/renderer": "^4.0.380",
+    "@types/react": "^19.2.7",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "remotion": "^4.0.380",
+    "typescript": "^5.9.3"
+  }
+}

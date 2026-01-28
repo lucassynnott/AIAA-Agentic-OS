@@ -317,19 +317,32 @@ def run(payload: dict, token_data: dict, slack_notify=None) -> dict:
 # For local testing
 if __name__ == "__main__":
     import sys
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Instantly autoreply webhook handler (requires token.json)")
+    parser.add_argument("--campaign-id", default="LeftClick", help="Campaign ID")
+    parser.add_argument("--lead-email", default="test@example.com", help="Lead email")
+    parser.add_argument("--email-account", default="outreach@leftclick.ai", help="Email account")
+    parser.add_argument("--reply-text", default="This sounds interesting, tell me more.", help="Reply text")
+    args = parser.parse_args()
 
     # Test with sample payload
     test_payload = {
-        "campaign_id": "LeftClick",
-        "lead_email": "test@example.com",
-        "email_account": "outreach@leftclick.ai",
+        "campaign_id": args.campaign_id,
+        "lead_email": args.lead_email,
+        "email_account": args.email_account,
         "email_id": "test-uuid",
         "reply_subject": "Re: Test",
-        "reply_text": "This sounds interesting, tell me more about pricing."
+        "reply_text": args.reply_text
     }
 
     # Load token from file
-    with open("../token.json") as f:
+    token_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "token.json")
+    if not os.path.exists(token_path):
+        print(f"Error: token.json not found at {token_path}")
+        print("Please create token.json with Google OAuth credentials")
+        exit(1)
+    with open(token_path) as f:
         token_data = json.load(f)
 
     result = run(test_payload, token_data, print)

@@ -167,3 +167,25 @@ and what their experience was..."
 
 ## Cost
 - ~$0.02 per objection handled
+
+## Related Skill Bibles
+
+**[SKILL_BIBLE_hormozi_sales_training.md](../skills/SKILL_BIBLE_hormozi_sales_training.md)**
+- Ultimate sales training framework
+- Objection handling psychology
+- Closing techniques
+
+**[SKILL_BIBLE_hormozi_closing_deals.md](../skills/SKILL_BIBLE_hormozi_closing_deals.md)**
+- 4000+ sales closing methodology
+- Objection crusher frameworks
+- Deal acceleration
+
+**[SKILL_BIBLE_hormozi_sales_concepts.md](../skills/SKILL_BIBLE_hormozi_sales_concepts.md)**
+- 9 core sales concepts
+- Buyer psychology
+- Reframe techniques
+
+**[SKILL_BIBLE_hormozi_influence_psychology.md](../skills/SKILL_BIBLE_hormozi_influence_psychology.md)**
+- Get anyone to do anything framework
+- Persuasion psychology
+- Response optimization

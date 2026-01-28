@@ -62,6 +62,25 @@ def get_model() -> str:
     return "gpt-4o"
 
 
+def load_landing_page_skill_bible() -> str:
+    """Load landing page skill bible for enhanced funnel copy generation."""
+    skill_path = Path(__file__).parent.parent / "skills" / "SKILL_BIBLE_landing_page_ai_mastery.md"
+    if skill_path.exists():
+        content = skill_path.read_text(encoding="utf-8")
+        # Extract key sections for context
+        sections = []
+        for section in ["## Core Principles", "## Best Practices"]:
+            if section in content:
+                start = content.find(section)
+                next_section = content.find("\n## ", start + len(section))
+                if next_section > start:
+                    sections.append(content[start:next_section])
+                else:
+                    sections.append(content[start:start + 1500])
+        return "\n".join(sections)[:3000]
+    return ""
+
+
 def call_llm(client: OpenAI, system_prompt: str, user_prompt: str, temperature: float = 0.7) -> str:
     """Call LLM with retry logic."""
     for attempt in range(3):
@@ -178,8 +197,20 @@ Be specific with copy angles, not generic advice."""
 def generate_sales_page(client: OpenAI, config: dict, research: str, strategy: str) -> str:
     """Generate complete sales page copy."""
     print("📝 Writing sales page copy...")
-    
-    system_prompt = """You are a world-class direct response copywriter who has written millions in sales. Write high-converting sales page copy."""
+
+    # Load skill bible for enhanced context
+    skill_context = load_landing_page_skill_bible()
+
+    skill_section = ""
+    if skill_context:
+        skill_section = f"""
+
+APPLY THESE LANDING PAGE BEST PRACTICES:
+{skill_context[:2000]}
+"""
+
+    system_prompt = f"""You are a world-class direct response copywriter who has written millions in sales. Write high-converting sales page copy.
+{skill_section}"""
     
     user_prompt = f"""Write a complete high-converting sales page for this business:
 

@@ -1,181 +1,217 @@
 # Product Photoshoot Generator
 
+> **Status:** ✅ Tested & Working | **Last Updated:** January 6, 2026
+
 ## What This Workflow Is
-This workflow generates AI product photoshoot images using DALL-E or similar, creating professional-looking product shots without photography.
+Generates 5 professional AI product photoshoot images using Fal.ai Nano Banana Pro. Takes a product image, analyzes it, generates branded prompts, creates 5 distinct photo styles, uploads to Google Drive, and notifies via Slack.
 
 ## What It Does
-1. Takes product image or description
-2. Generates scene/background concepts
-3. Creates AI product images
-4. Outputs multiple variations
-5. Optimizes for e-commerce use
+1. Uploads product image directly to Fal.ai CDN
+2. Analyzes product with GPT-4o vision
+3. **Researches brand and ICP via Perplexity** (brand identity, target audience, photography recommendations)
+4. Generates 5 branded photoshoot prompts via AI (Claude) - informed by research
+5. Creates 5 images with Fal.ai Nano Banana Pro
+6. Downloads and uploads to Google Drive
+7. Sends Slack notification with Drive link
+
+## The 5 Photo Styles
+1. **Hero Product Shot** - Clean, e-commerce ready, minimal background
+2. **Lifestyle Context** - Product in natural use environment
+3. **Detail/Macro Focus** - Close-up on textures and craftsmanship
+4. **Aspirational Scene** - Premium, luxury positioning
+5. **Creative/Artistic** - Unconventional angle for social media impact
 
 ## Prerequisites
 
-### Required API Keys (add to .env)
-```
-OPENAI_API_KEY=your_openai_key            # For DALL-E
-```
+### Required API Keys (configured in .env)
+```bash
+# Fal.ai
+FAL_API_KEY=832eef9f-...              # Your Fal.ai API key
 
-### Required Tools
-- Python 3.10+
+# AI (for prompt generation and image analysis)
+OPENAI_API_KEY=sk-...                 # For GPT-4o vision
+OPENROUTER_API_KEY=sk-or-...          # Alternative for Claude
+
+# Google Drive (OAuth)
+GOOGLE_DRIVE_FOLDER_ID=...            # Where to save images
+
+# Slack
+SLACK_BOT_TOKEN=xoxb-...
+SLACK_CONTENT_CHANNEL_ID=C0...        # Where to post notifications
+```
 
 ### Installation
 ```bash
-pip install openai requests
+pip install requests openai google-api-python-client google-auth-oauthlib python-dotenv
 ```
 
 ## How to Run
 
-### Via N8N Form
-Submit form with product details and style preferences.
-
-### Quick One-Liner
+### CLI Command
 ```bash
-python3 execution/generate_product_photos.py --product "[DESCRIPTION]" --style "lifestyle"
+python3 execution/generate_product_photoshoot.py \
+  --image "path/to/product.png" \
+  --brand "Brand Name" \
+  --website "brand.com" \
+  --niche "Skincare"
 ```
 
-## Goal
-This workflow uses AI to process inputs and generate structured outputs.
-
-## Trigger
-- **Type**: Form
-- **Node**: On form submission
+### Full Options
+```bash
+python3 execution/generate_product_photoshoot.py \
+  --image "product.png" \
+  --brand "Luxe Cosmetics" \
+  --website "luxecosmetics.com" \
+  --niche "Premium Skincare" \
+  --goals "Holiday campaign imagery" \
+  --context "Target audience is women 25-45, premium positioning"
+```
 
 ## Inputs
-- **Brand Name**: text (required)
-- **Brand Website**: text (required)
-- **Brand Niche**: text (required)
-- **Photoshoot Goals**: text
-- **Additional Context**: text
-- **Existing Client?**: dropdown
-- **Product Photo (PNG Preferable)**: file
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| image | file path | Yes | Product image (PNG preferred) |
+| brand | string | Yes | Brand name |
+| website | string | No | Brand website for research |
+| niche | string | No | Brand niche (default: E-commerce) |
+| goals | string | No | Photoshoot goals |
+| context | string | No | Additional context |
 
-## Integrations Required
-- Slack
+## Process Flow
 
-## Process
-### 1. Create Image
-[Describe what this step does]
+### 1. Upload Image to Fal.ai CDN
+Product image is uploaded directly to Fal.ai's CDN storage. Falls back to base64 data URL if CDN upload fails.
 
-### 2. Set data
-Data is normalized/transformed for the next step.
+### 2. Analyze Product Image
+GPT-4o vision analyzes the product image and generates a detailed description including:
+- Product shape and form
+- Colors and materials
+- Visible features and details
+- Overall aesthetic
 
-### 3. Completed?
-[Describe what this step does]
+### 3. Research Brand & ICP (Perplexity)
+Perplexity researches the brand and target audience to inform photography direction:
+- **Brand Identity:** Positioning, personality, visual style, key colors
+- **Target Audience (ICP):** Demographics, psychographics, problems solved, emotional benefits
+- **Competitive Positioning:** Differentiation, USPs, competitors
+- **Photography Recommendations:** Visual style, color palettes, props, settings, lifestyle contexts
 
-### 4. Wait 60 sec.
-[Describe what this step does]
+### 4. Generate 5 Photoshoot Prompts
+AI (Claude or GPT-4) generates 5 distinct Nano Banana prompts based on:
+- Brand identity research
+- Product description
+- Target audience
+- Photoshoot goals
 
-### 5. Get status
-[Describe what this step does]
-
-### 6. Get Url image
-[Describe what this step does]
-
-### 7. Get File image
-[Describe what this step does]
-
-### 8. On form submission
-Workflow is triggered via form.
-
-### 9. Analyze image
-[Describe what this step does]
-
-### 10. OpenRouter Chat Model
-[Describe what this step does]
-
-### 11. Message a model in Perplexity
-[Describe what this step does]
-
-### 12. Photoshoot Research Agent
-AI agent processes the input with the following instructions:
+Each prompt follows the structure:
 ```
-=Conduct comprehensive brand research for {{ $json.brandName }} and generate 5 detailed Nano Banana prompts for visually distinct product photoshoot scenes that align with brand identity and drive visual engagement.
-BRAND TO RESEARCH: {{ $json.brandName }}
-WEBSITE: {{ $json.brandWebsite }}
-PRODUCT DESCRIPTION: {{ $('Analyze image').first().json.content}}
-PHOTOSHOOT GOALS: {{ $json.photoshootGoals }}
-ADDITIONAL CONTEXT: {{ $json.context }}
-
-
-REQUIRED RESEARCH AREAS:
-
-1. VISUAL BRAND IDENTITY ANALYSIS
-   - Brand aesthetic, color palettes, and visual style guidelines
-   - Existing product photography style and presentation
-   - Visual storytelling themes and motifs
-   - Typography, textures, and design elements
-   - Mood and emotional tone in visual content
-
-2. PRODUCT PRESENTATION INTELLIGENCE
-   - How products are currently showcased (angles, lighting, staging)
-   - Hero product features to highlight visually
-... [truncated]
+"[Product] photographed in [setting], [arrangement], surrounded by [props], 
+[lighting], [color palette], [camera angle], [mood], professional product 
+photography, high resolution, 8K quality"
 ```
 
-### 13. Code
-[Describe what this step does]
+### 5. Create Images via Fal.ai
+For each of the 5 prompts:
+- Submit job to `fal-ai/nano-banana/edit` queue
+- Poll status every 30 seconds
+- Retrieve completed image URL
+- Download image locally
 
-### 14. Loop Over Items
-[Describe what this step does]
+### 6. Upload to Google Drive
+- Create brand folder in configured Drive location
+- Upload all 5 images with descriptive filenames
+- Generate shareable folder URL
 
-### 15. Upload Original Image to imgbb
-[Describe what this step does]
+### 7. Send Slack Notification
+Rich block notification including:
+- Brand name
+- Number of images generated
+- List of 5 deliverables
+- Clickable link to Google Drive folder
 
-### 16. Check If Returning Client
-[Describe what this step does]
+## Output
 
-### 17. Search for Existing Folder
-[Describe what this step does]
+### Local Files
+```
+.tmp/photoshoot_{brand}_{timestamp}/
+├── 01_Hero_Product_Shot.png
+├── 02_Lifestyle_Context.png
+├── 03_Detail_Texture_Focus.png
+├── 04_Aspirational_Scene.png
+├── 05_Creative_Artistic.png
+└── results.json
+```
 
-### 18. Create New Client Folder
-[Describe what this step does]
+### results.json Schema
+```json
+{
+  "brand_name": "Brand Name",
+  "website": "brand.com",
+  "niche": "Skincare",
+  "timestamp": "20260106_120000",
+  "original_image_url": "https://fal.ai/cdn/...",
+  "product_description": "A sleek glass bottle...",
+  "prompts": ["prompt1", "prompt2", ...],
+  "images": [
+    {
+      "scene_type": "Hero Product Shot",
+      "prompt": "...",
+      "fal_url": "https://fal.ai/...",
+      "local_path": ".tmp/.../01_Hero_Product_Shot.png",
+      "drive_url": "https://drive.google.com/..."
+    }
+  ],
+  "drive_folder_url": "https://drive.google.com/drive/folders/..."
+}
+```
 
-### 19. Move to Existing Folder
-[Describe what this step does]
+## Error Handling
+| Scenario | Behavior |
+|----------|----------|
+| Fal.ai CDN upload fails | Falls back to base64 data URL |
+| Image analysis fails | Falls back to generic description |
+| Fal.ai timeout (10 min) | Raises exception for that image, continues |
+| Drive upload fails | Logs warning, images saved locally |
+| Slack fails | Logs warning, continues |
 
-### 20. Move to New Folder
-[Describe what this step does]
+## Performance
+- Image upload: ~2 seconds
+- Image analysis: ~5 seconds
+- Prompt generation: ~10 seconds
+- Each Fal.ai image: 1-3 minutes
+- **Total workflow time: ~8-15 minutes**
 
-### 21. Slack Notification
-[Describe what this step does]
+## API Endpoints Used
+- **Fal.ai CDN:** `POST https://rest.alpha.fal.ai/storage/upload/initiate`
+- **Fal.ai Queue:** `POST https://queue.fal.run/fal-ai/nano-banana/edit`
+- **Fal.ai Status:** `GET https://queue.fal.run/fal-ai/nano-banana/requests/{id}/status`
+- **Google Drive:** OAuth file upload
+- **Slack:** `POST https://slack.com/api/chat.postMessage`
 
-### 22. Upload file
-[Describe what this step does]
+## Tested Example
 
-### 23. Aggregate
-[Describe what this step does]
+```bash
+# Download a product image
+curl -o .tmp/monster_ultra.jpg "https://example.com/product.jpg"
 
-### 24. Code1
-[Describe what this step does]
+# Run photoshoot generator
+python3 execution/generate_product_photoshoot.py \
+  --image ".tmp/monster_ultra.jpg" \
+  --brand "Monster Energy" \
+  --website "monsterenergy.com" \
+  --niche "Energy Drinks" \
+  --goals "Lifestyle and action sports imagery"
 
-### 25. Loop Over Items1
-[Describe what this step does]
+# Output:
+# ✅ 5 images generated
+# 📁 .tmp/photoshoot_Monster_Energy_20260106_165614/
+# 🔗 https://drive.google.com/drive/folders/...
+```
 
-### 26. Prepare Notification Data (New Client)
-Data is normalized/transformed for the next step.
-
-### 27. Prepare Notification Data (Existing Client)
-Data is normalized/transformed for the next step.
-
-### 28. Slack Notification1
-[Describe what this step does]
-
-### 29. Code2
-[Describe what this step does]
-
-### 30. Loop Over Items2
-[Describe what this step does]
-
-## Output Schema
-[Define expected output structure]
-
-## Edge Cases
-- Handle empty/missing input fields
-- API rate limits for external services
-- AI model failures or timeouts
+## Related Files
+- `execution/generate_product_photoshoot.py` - Main execution script (500+ lines)
+- `N8N Workflows/Workflows/Ecom Email Marketing Agency/Product Photoshoot Generator.json` - Original N8N workflow
 
 ## Original N8N Workflow
-This directive was generated from: `N8N Workflows/Workflows/Ecom Email Marketing Agency/Product Photoshoot Generator.json`
-Generated on: 2026-01-02
+Converted from: `Product Photoshoot Generator.json`
+Last tested: January 6, 2026 - Monster Energy Ultra photoshoot successful

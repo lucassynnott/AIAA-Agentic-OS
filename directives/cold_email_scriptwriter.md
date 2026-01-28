@@ -397,6 +397,30 @@ Value Proposition: {{ $('Campaign Request Form').first().json['Value Proposition
 - API rate limits for external services
 - AI model failures or timeouts
 
+## Related Skill Bibles
+
+Load these skill bibles for maximum email effectiveness:
+
+**[SKILL_BIBLE_hormozi_email_marketing_complete.md](../skills/SKILL_BIBLE_hormozi_email_marketing_complete.md)**
+- Complete email marketing framework from Alex Hormozi
+- Subject line formulas and open rate optimization
+- Email structure and copywriting principles
+
+**[SKILL_BIBLE_hormozi_email_campaigns.md](../skills/SKILL_BIBLE_hormozi_email_campaigns.md)**
+- Sales-generating email campaign breakdowns
+- Sequence timing and follow-up strategies
+- Revenue-focused email tactics
+
+**[SKILL_BIBLE_cold_email_mastery.md](../skills/SKILL_BIBLE_cold_email_mastery.md)**
+- Cold outreach specific frameworks
+- Personalization at scale techniques
+- Response rate optimization
+
+**[SKILL_BIBLE_hormozi_lead_generation.md](../skills/SKILL_BIBLE_hormozi_lead_generation.md)**
+- Lead generation principles to apply in outreach
+- Value-first approach to cold contact
+- Building interest through education
+
 ## Original N8N Workflow
 This directive was generated from: `N8N Workflows/Workflows/Cold Email Lead Generation Agency/Cold Email Scriptwriter.json`
 Generated on: 2026-01-02

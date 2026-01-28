@@ -154,3 +154,20 @@ Contact: [Client Contact] - [Email] - [Phone]
 ## Cost
 - Monitoring: Free
 - ROI: Prevents churn (high value)
+
+## Related Skill Bibles
+
+**[SKILL_BIBLE_hormozi_customer_retention.md](../skills/SKILL_BIBLE_hormozi_customer_retention.md)**
+- Customer retention strategies
+- Churn prevention tactics
+- Lifetime value optimization
+
+**[SKILL_BIBLE_hormozi_sales_training.md](../skills/SKILL_BIBLE_hormozi_sales_training.md)**
+- Client relationship recovery
+- Re-engagement frameworks
+- Win-back conversations
+
+**[SKILL_BIBLE_hormozi_profit_maximization.md](../skills/SKILL_BIBLE_hormozi_profit_maximization.md)**
+- MRR protection strategies
+- Revenue optimization
+- Client value focus

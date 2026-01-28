@@ -386,6 +386,58 @@ Data is normalized/transformed for the next step.
 - API rate limits for external services
 - AI model failures or timeouts
 
+## Related Skill Bibles
+
+### PRIMARY: Max Sturtevant's $40M+ Ecommerce Email Methodology
+
+**[SKILL_BIBLE_sturtevant_email_master_system.md](../skills/SKILL_BIBLE_sturtevant_email_master_system.md)** ⭐ ESSENTIAL
+- Complete ecommerce email marketing system (6,968 words)
+- SCE Framework (Skimmable, Clear, Engaging)
+- 75-word max body copy rule
+- Flow architecture and sequencing
+
+**[SKILL_BIBLE_sturtevant_welcome_flow.md](../skills/SKILL_BIBLE_sturtevant_welcome_flow.md)** ⭐ FOR WELCOME FLOWS
+- 8-email welcome sequence blueprint (7,281 words)
+- Brand story integration
+- Educational positioning without being salesy
+- 10%+ conversion rate methodology
+
+**[SKILL_BIBLE_sturtevant_cart_recovery.md](../skills/SKILL_BIBLE_sturtevant_cart_recovery.md)** ⭐ FOR ABANDON FLOWS
+- Cart, checkout, browse abandonment systems (7,144 words)
+- Timing sequences (1hr, 4hr, 24hr, 48hr, 72hr)
+- 25-50% cart recovery methodology
+- Urgency without desperation
+
+**[SKILL_BIBLE_sturtevant_copywriting.md](../skills/SKILL_BIBLE_sturtevant_copywriting.md)**
+- Email copywriting formulas (5,395 words)
+- Subject line swipe files
+- CTA optimization
+
+**[SKILL_BIBLE_sturtevant_email_design.md](../skills/SKILL_BIBLE_sturtevant_email_design.md)**
+- High-converting email design (6,686 words)
+- Mobile-first layouts
+
+**[SKILL_BIBLE_sturtevant_high_converting_email_design.md](../skills/SKILL_BIBLE_sturtevant_high_converting_email_design.md)** ⭐ DESIGN BLUEPRINTS
+- 10 Commandments of High-Converting Design
+- Figma design process step-by-step
+- Klaviyo upload process
+- Before/After brand teardowns (Calvin Klein, Whoop, Gymshark, etc.)
+- Visual hierarchy
+
+**[SKILL_BIBLE_sturtevant_deliverability.md](../skills/SKILL_BIBLE_sturtevant_deliverability.md)**
+- List health and inbox placement (5,464 words)
+- Dead list revival strategies
+
+### SUPPLEMENTARY: Hormozi Sales Psychology
+
+**[SKILL_BIBLE_hormozi_email_marketing_complete.md](../skills/SKILL_BIBLE_hormozi_email_marketing_complete.md)**
+- Sales psychology for email copy
+- Urgency and scarcity frameworks
+
+**[SKILL_BIBLE_hormozi_customer_retention.md](../skills/SKILL_BIBLE_hormozi_customer_retention.md)**
+- Customer retention for post-purchase flows
+- Win-back frameworks
+
 ## Original N8N Workflow
 This directive was generated from: `N8N Workflows/Workflows/Ecom Email Marketing Agency/Email Flow Writer.json`
 Generated on: 2026-01-02

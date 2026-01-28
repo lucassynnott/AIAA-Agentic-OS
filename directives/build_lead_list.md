@@ -178,3 +178,20 @@ Google Sheet with columns:
 - Email enrichment: ~$0.02-0.05 per email
 - LLM classification: ~$0.0003 per lead
 - **Total for 1000 leads**: ~$30-50
+
+## Related Skill Bibles
+
+**[SKILL_BIBLE_hormozi_lead_generation.md](../skills/SKILL_BIBLE_hormozi_lead_generation.md)**
+- Generate 1000s of leads framework
+- ICP definition
+- Lead qualification principles
+
+**[SKILL_BIBLE_hormozi_customer_acquisition_fast.md](../skills/SKILL_BIBLE_hormozi_customer_acquisition_fast.md)**
+- Fast customer acquisition
+- Lead-to-customer conversion
+- Quality over quantity
+
+**[SKILL_BIBLE_monetizable_agentic_workflows.md](../skills/SKILL_BIBLE_monetizable_agentic_workflows.md)**
+- Lead scraping automation
+- Pipeline monetization
+- Workflow optimization

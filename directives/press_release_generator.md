@@ -118,3 +118,15 @@ and key facts]
 
 ## Cost
 - ~$0.10-0.20 per release
+
+## Related Skill Bibles
+
+**[SKILL_BIBLE_hormozi_marketing_mastery.md](../skills/SKILL_BIBLE_hormozi_marketing_mastery.md)**
+- PR and media principles
+- Newsworthy positioning
+- Brand communication
+
+**[SKILL_BIBLE_hormozi_persuasion_speaking.md](../skills/SKILL_BIBLE_hormozi_persuasion_speaking.md)**
+- Compelling storytelling
+- Headline formulas
+- Quote crafting

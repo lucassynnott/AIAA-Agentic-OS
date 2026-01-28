@@ -135,6 +135,23 @@ Workflow is triggered via manual.
 - API rate limits for external services
 - AI model failures or timeouts
 
+## Related Skill Bibles
+
+**[SKILL_BIBLE_hormozi_lead_generation.md](../skills/SKILL_BIBLE_hormozi_lead_generation.md)**
+- Dream 100 strategy
+- Targeted outreach
+- High-value prospect engagement
+
+**[SKILL_BIBLE_hormozi_free_customer_acquisition.md](../skills/SKILL_BIBLE_hormozi_free_customer_acquisition.md)**
+- Organic outreach tactics
+- DM personalization
+- Relationship building
+
+**[SKILL_BIBLE_hormozi_content_strategy.md](../skills/SKILL_BIBLE_hormozi_content_strategy.md)**
+- Content-based outreach
+- Engagement triggers
+- Value-first messaging
+
 ## Original N8N Workflow
 This directive was generated from: `N8N Workflows/Workflows/Funnels, Ads, & Copywriting Agency/Dream 100 Instagram Personalized DM Automation.json`
 Generated on: 2026-01-02

@@ -453,13 +453,23 @@ Questions? Just reply to this email.
 
 # For local testing
 if __name__ == "__main__":
+    import argparse
+    
+    parser = argparse.ArgumentParser(description="Post-kickoff client onboarding automation (requires token.json)")
+    parser.add_argument("--client-name", default="TestPlumbing", help="Client name")
+    parser.add_argument("--client-email", default="test@example.com", help="Client email")
+    parser.add_argument("--service-type", default="plumbers", help="Service type/niche")
+    parser.add_argument("--target-location", default="Austin TX", help="Target location")
+    parser.add_argument("--lead-limit", type=int, default=5, help="Number of leads")
+    args = parser.parse_args()
+
     # Test payload
     test_payload = {
-        "client_name": "TestPlumbing",
-        "client_email": "nickolassaraev@gmail.com",
-        "service_type": "plumbers",
-        "target_location": "Austin TX",
-        "lead_limit": 5,
+        "client_name": args.client_name,
+        "client_email": args.client_email,
+        "service_type": args.service_type,
+        "target_location": args.target_location,
+        "lead_limit": args.lead_limit,
         "offers": "Free inspection|10% off first service|24/7 emergency",
         "target_audience": "homeowners and property managers",
         "social_proof": "15 years in business, 500+ satisfied customers"
@@ -468,7 +478,8 @@ if __name__ == "__main__":
     # Load token
     token_path = WORKSPACE_DIR / "token.json"
     if not token_path.exists():
-        print("❌ token.json not found")
+        print(f"❌ token.json not found at {token_path}")
+        print("Please create token.json with Google OAuth credentials")
         sys.exit(1)
 
     with open(token_path) as f:

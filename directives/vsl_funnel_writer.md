@@ -58,13 +58,13 @@ This workflow uses AI to process inputs and generate structured outputs.
 
 ## Process
 ### 1. Prepare Context
-[Describe what this step does]
+Calls market research agent to conduct in depth market research
 
 ### 2. Compile Final Script
 [Describe what this step does]
 
 ### 3. Create VSL Script Doc
-[Describe what this step does]
+calls Google Doc agent to create the formatted google doc
 
 ### 4. VSL Hook Creation Agent
 AI agent processes the input with the following instructions:
@@ -231,6 +231,24 @@ Data is normalized/transformed for the next step.
 - Handle empty/missing input fields
 - API rate limits for external services
 - AI model failures or timeouts
+
+## Related Skill Bibles
+
+**[SKILL_BIBLE_landing_page_ai_mastery.md](../skills/SKILL_BIBLE_landing_page_ai_mastery.md)** (PRIMARY)
+- Complete landing page optimization framework
+- AI-powered content creation and design automation
+- Conversion-first design philosophy
+- A/B testing and optimization methodologies
+
+**[SKILL_BIBLE_vsl_writing_production.md](../skills/SKILL_BIBLE_vsl_writing_production.md)**
+- 10-part VSL structure framework
+- Hook formulas and pattern interrupts
+- Direct response principles
+
+**[SKILL_BIBLE_funnel_copywriting_mastery.md](../skills/SKILL_BIBLE_funnel_copywriting_mastery.md)**
+- Sales page structure and flow
+- Conversion element placement
+- CTA optimization
 
 ## Original N8N Workflow
 This directive was generated from: `N8N Workflows/Workflows/Funnels, Ads, & Copywriting Agency/VSL Funnel Writer.json`

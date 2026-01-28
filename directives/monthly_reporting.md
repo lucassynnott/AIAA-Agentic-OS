@@ -148,3 +148,20 @@ python3 execution/generate_monthly_report.py \
 ## Cost
 - Data gathering: API costs
 - Report generation: ~$0.10-0.20
+
+## Related Skill Bibles
+
+**[SKILL_BIBLE_hormozi_profit_maximization.md](../skills/SKILL_BIBLE_hormozi_profit_maximization.md)**
+- Performance metrics that matter
+- ROI analysis frameworks
+- Growth indicators
+
+**[SKILL_BIBLE_hormozi_customer_retention.md](../skills/SKILL_BIBLE_hormozi_customer_retention.md)**
+- Client communication
+- Success metrics presentation
+- Relationship building through reports
+
+**[SKILL_BIBLE_hormozi_marketing_mastery.md](../skills/SKILL_BIBLE_hormozi_marketing_mastery.md)**
+- Marketing metrics analysis
+- Campaign performance evaluation
+- Data-driven recommendations

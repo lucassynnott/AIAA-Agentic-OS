@@ -344,15 +344,21 @@ def convert_batch(directory: str, output_dir: str = None) -> list:
     return results
 
 def main():
-    if len(sys.argv) < 2:
-        print("Usage: python convert_n8n_to_directive.py <workflow.json|directory> [--batch]")
+    import argparse
+    parser = argparse.ArgumentParser(description="Convert N8N workflow JSON to directive markdown")
+    parser.add_argument("path", nargs="?", help="Workflow JSON file or directory")
+    parser.add_argument("--batch", "-b", action="store_true", help="Process all JSON files in directory")
+    args = parser.parse_args()
+    
+    if not args.path:
+        parser.print_help()
         print("\nExamples:")
         print("  python convert_n8n_to_directive.py workflow.json")
         print("  python convert_n8n_to_directive.py workflows/ --batch")
         sys.exit(1)
     
-    path = sys.argv[1]
-    batch_mode = '--batch' in sys.argv
+    path = args.path
+    batch_mode = args.batch
     
     if batch_mode or os.path.isdir(path):
         results = convert_batch(path)

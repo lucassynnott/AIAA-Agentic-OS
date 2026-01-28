@@ -237,3 +237,32 @@ Industry news with brief commentary.
 - Clear unsubscribe option
 - Segment by engagement
 - A/B test subject lines
+
+## Related Skill Bibles
+
+### PRIMARY: Max Sturtevant's $40M+ Email Methodology
+
+**[SKILL_BIBLE_sturtevant_email_master_system.md](../skills/SKILL_BIBLE_sturtevant_email_master_system.md)** ⭐ ESSENTIAL
+- SCE Framework (Skimmable, Clear, Engaging)
+- Email structure principles
+- 75-word body copy guideline
+
+**[SKILL_BIBLE_sturtevant_copywriting.md](../skills/SKILL_BIBLE_sturtevant_copywriting.md)**
+- Subject line formulas (5,395 words)
+- Email copywriting tactics
+- CTA optimization
+
+**[SKILL_BIBLE_sturtevant_deliverability.md](../skills/SKILL_BIBLE_sturtevant_deliverability.md)**
+- List health for newsletters (5,464 words)
+- Inbox placement optimization
+- Engagement metrics
+
+### SUPPLEMENTARY
+
+**[SKILL_BIBLE_hormozi_content_strategy.md](../skills/SKILL_BIBLE_hormozi_content_strategy.md)**
+- Value-driven content creation
+- Audience engagement
+
+**[SKILL_BIBLE_hormozi_marketing_mastery.md](../skills/SKILL_BIBLE_hormozi_marketing_mastery.md)**
+- Newsletter positioning
+- List building strategies

@@ -155,3 +155,20 @@ Share with someone who needs this
 - Content: ~$0.05
 - Design: ~$0.10/slide
 - **10-slide carousel: ~$1.00**
+
+## Related Skill Bibles
+
+**[SKILL_BIBLE_hormozi_content_strategy.md](../skills/SKILL_BIBLE_hormozi_content_strategy.md)**
+- Content structure optimization
+- Engagement tactics
+- Value-driven content
+
+**[SKILL_BIBLE_hormozi_marketing_mastery.md](../skills/SKILL_BIBLE_hormozi_marketing_mastery.md)**
+- Visual content principles
+- Social media marketing
+- Audience engagement
+
+**[SKILL_BIBLE_hormozi_persuasion_speaking.md](../skills/SKILL_BIBLE_hormozi_persuasion_speaking.md)**
+- Hook formulas
+- Compelling storytelling
+- CTA optimization

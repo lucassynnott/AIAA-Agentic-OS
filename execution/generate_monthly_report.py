@@ -29,7 +29,7 @@ def main():
     parser = argparse.ArgumentParser(description="Generate monthly reports")
     parser.add_argument("--client", "-c", required=True)
     parser.add_argument("--metrics", "-m", required=True, help="Metrics JSON")
-    parser.add_argument("--highlights", "-h", default="", help="Key highlights")
+    parser.add_argument("--highlights", "-hl", default="", help="Key highlights")
     parser.add_argument("--challenges", default="", help="Challenges faced")
     parser.add_argument("--month", default="", help="Report month (default: last month)")
     parser.add_argument("--output", "-o", default=".tmp/monthly_report.md")

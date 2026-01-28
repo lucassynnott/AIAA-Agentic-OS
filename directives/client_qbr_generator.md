@@ -149,3 +149,20 @@ python3 execution/generate_qbr.py \
 ## Cost
 - Data gathering: API costs
 - Generation: ~$0.30-0.50
+
+## Related Skill Bibles
+
+**[SKILL_BIBLE_hormozi_customer_retention.md](../skills/SKILL_BIBLE_hormozi_customer_retention.md)**
+- Client relationship building
+- Value demonstration
+- Retention through reporting
+
+**[SKILL_BIBLE_hormozi_profit_maximization.md](../skills/SKILL_BIBLE_hormozi_profit_maximization.md)**
+- ROI presentation
+- Performance metrics
+- Growth opportunities
+
+**[SKILL_BIBLE_hormozi_sales_training.md](../skills/SKILL_BIBLE_hormozi_sales_training.md)**
+- Client communication
+- Upsell opportunities
+- Expectation management

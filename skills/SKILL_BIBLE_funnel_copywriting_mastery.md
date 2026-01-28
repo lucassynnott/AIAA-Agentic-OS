@@ -1112,7 +1112,129 @@ The ad and landing page must feel connected. Jarring transitions kill conversion
 
 ---
 
-*Word Count: ~5,000*
-*Version: 1.0*
-*Sources: Breakthrough Advertising (Schwartz), Influence (Cialdini), 16-Word Sales Letter, Gary Bencivenga Marketing Bullets, Ad Writer's Arsenal, Forbidden Keys to Persuasion, On Writing Well, Adweek Handbook, Marketing to GOM, Client Ascension Ads-Funnels-Copywriting Training, VSL Advanced Training, Every Funnel Type Explained Training*
-*Structure: 17 Sections following Autonomous Idea Execution System Skill Bible format*
+## 2026 UPDATE: ADVANCED FUNNEL PAGE TECHNIQUES
+
+> **Source**: YouTube Expert Analysis (Jan 2026) - 6 videos on VSL funnels, sales pages, landing page conversion
+> **Videos Analyzed**: YTK4kXzrmzE, K9kYwUWUjLc, zpTsCrOvGao, lHB-8fPinIQ, az1Zh-FNSno, GgsNokXQjMc
+
+### The PROPS Formula (Proven 327% Conversion Increase)
+
+**P** - Problem Amplification (3-layer deep)
+**R** - Result Demonstration (Triple R: Real, Relatable, Reachable)
+**O** - Objection Removal (systematic grid)
+**P** - Proof Stacking (pyramid structure)
+**S** - Simple Next Step (single CTA focus)
+
+### 17-Step Landing Page Checklist
+
+1. Call out your audience (eyebrow/headline/subheadline)
+2. Demand attention with compelling headline
+3. Back up your promise in subheadline
+4. Identify the problem (most important copy after headline)
+5. Problem amplification using 3-layer deep process
+6. Result demonstration with Triple R formula
+7. Objection removal using systematic grid
+8. Proof stacking with pyramid structure
+9. Simple next step with single CTA focus
+
+### Problem Amplification (3-Layer Process)
+
+1. **Surface Problem**: "Can't lose weight"
+2. **Layer 2**: "Tried everything, nothing works"
+3. **Layer 3**: "Starting to believe it's impossible"
+4. **Future Pace**: Where problem leads if not fixed
+
+### Triple R Result Formula
+
+- **Real**: Specific numbers ("lose 23 pounds in 47 days")
+- **Relatable**: Life change picture ("imagine putting on favorite jeans from college")
+- **Reachable**: Break into chunks ("just 1.5 lbs per week")
+
+### Proof Pyramid Structure
+
+```
+        [Home Run Case Study]
+           /            \
+    [Journey Testimonials]
+   /         |           \
+[Data] [Statistics] [Studies]
+```
+
+**Testimonial Trio Pattern:**
+1. **Perfect Skeptic** - tried everything, convinced nothing works
+2. **Imperfect User** - missed days, still got results
+3. **Home Run** - biggest transformation
+
+### Above-the-Fold Requirements
+
+1. Audience callout: "ATTENTION [TARGET AUDIENCE]" in all caps
+2. Attention-grabbing headline with big promise
+3. Supporting subheadline that backs up promise
+4. Hero image/video that tells the story
+5. Primary CTA button strategically placed
+6. Key social proof near critical action points
+
+### Headline Formulas (2026 Tested)
+
+- "Why is this [authority] giving away his [big number] [benefit] in his controversial [credibility piece]"
+- "Finally a way to [benefit] without [common struggle]"
+- "How to [specific outcome] and turn your [platform] into a money making machine"
+- **Frustration Hook**: "Feeling frustrated that [problem] even though you [effort]"
+- **Results Hook**: "Are you ready to [desired outcome]?"
+
+### Systematic Objection Grid
+
+| Objection Type | Response Framework |
+|----------------|-------------------|
+| Time | "System requires only 27 minutes a day" |
+| Past Failure | "Those plans were designed to fail because they relied on willpower" |
+| Money | Address ROI with value testimonials |
+| Skepticism | Use skeptic testimonials and proof |
+| Technical Ability | Show simplicity, no-code solutions |
+
+### CTA Best Practices
+
+- **Single action focus** - strip away all other options
+- **No navigation menu, sidebar, or competing links**
+- **Value stack close**: "Click button below to get instant access to [value]"
+- Multiple CTAs throughout long-form pages
+- Always after major value/proof sections
+
+### Conversion Killers to Avoid
+
+**Design Mistakes:**
+- Multiple competing elements on same page
+- Busy backgrounds that distract from copy
+- Too many font sizes/weights/colors
+- Navigation options competing with main CTA
+
+**Copy Mistakes:**
+- Selling immediately instead of warming up audience
+- Assuming video consumption (less than 50% watch)
+- Generic testimonials not matching pain points
+- Fake urgency/scarcity in sophisticated markets
+
+### Benchmark Metrics (2026)
+
+| Metric | Benchmark |
+|--------|-----------|
+| Landing page opt-in | 20-40% |
+| High-converting sales pages | 11%+ |
+| Video play rates | <50% typically |
+| PROPS formula lift | 327% increase |
+| Social proof optimization | 80% increase |
+| Testimonial strategic placement | 2x+ revenue |
+
+### Compliance Notes (Facebook/Meta Traffic)
+
+- **No countdown timers** for Facebook traffic
+- **Avoid "price going up"** for digital products
+- **No fake scarcity** for sophisticated markets
+- **Match claims to proof level**
+
+---
+
+*Word Count: ~6,500+*
+*Version: 2.0 (Updated Jan 2026)*
+*Sources: Breakthrough Advertising (Schwartz), Influence (Cialdini), 16-Word Sales Letter, Gary Bencivenga Marketing Bullets, Ad Writer's Arsenal, Forbidden Keys to Persuasion, On Writing Well, Adweek Handbook, Marketing to GOM, Client Ascension Ads-Funnels-Copywriting Training, VSL Advanced Training, Every Funnel Type Explained Training, YouTube Expert Analysis Jan 2026 (6 videos)*
+*Structure: 17+ Sections following Autonomous Idea Execution System Skill Bible format*

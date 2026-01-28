@@ -3,6 +3,7 @@
 Parse VTT subtitle files and extract clean transcript text.
 """
 
+import os
 import re
 import sys
 from pathlib import Path
@@ -68,12 +69,22 @@ def parse_vtt(vtt_path: str) -> str:
 
 
 def main():
-    if len(sys.argv) < 2:
-        print("Usage: python parse_vtt_transcript.py <vtt_file> [output_file]")
+    import argparse
+    parser = argparse.ArgumentParser(description="Parse VTT subtitle files and extract clean transcript text")
+    parser.add_argument("vtt_file", nargs="?", help="VTT file to parse")
+    parser.add_argument("--output", "-o", help="Output file path (prints to stdout if not specified)")
+    args = parser.parse_args()
+    
+    if not args.vtt_file:
+        parser.print_help()
         sys.exit(1)
     
-    vtt_path = sys.argv[1]
-    output_path = sys.argv[2] if len(sys.argv) > 2 else None
+    vtt_path = args.vtt_file
+    output_path = args.output
+    
+    if not os.path.exists(vtt_path):
+        print(f"Error: File not found: {vtt_path}")
+        sys.exit(1)
     
     transcript = parse_vtt(vtt_path)
     

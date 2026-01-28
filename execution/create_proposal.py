@@ -208,12 +208,17 @@ def create_document(config: ProposalConfig) -> Dict[str, Any]:
 
 def main() -> None:
     """Main entry point - reads JSON input and creates PandaDoc document."""
-    if len(sys.argv) > 1:
+    import argparse
+    parser = argparse.ArgumentParser(description="Create PandaDoc proposal from JSON input")
+    parser.add_argument("input_file", nargs="?", help="JSON file with proposal data (or pass via stdin)")
+    args = parser.parse_args()
+    
+    if args.input_file:
         try:
-            with open(sys.argv[1], 'r') as f:
+            with open(args.input_file, 'r') as f:
                 data = json.load(f)
         except FileNotFoundError:
-            print(json.dumps({"success": False, "error": {"message": f"Input file not found: {sys.argv[1]}"}}, indent=2))
+            print(json.dumps({"success": False, "error": {"message": f"Input file not found: {args.input_file}"}}, indent=2))
             sys.exit(1)
         except json.JSONDecodeError as e:
             print(json.dumps({"success": False, "error": {"message": f"Invalid JSON in file: {e}"}}, indent=2))

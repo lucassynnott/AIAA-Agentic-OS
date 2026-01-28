@@ -1,59 +1,5 @@
 # Jump Cut Editor (VAD-based)
 
-## What This Workflow Is
-This workflow automatically removes silences from talking-head videos using neural voice activity detection (Silero VAD), with optional audio enhancement and color grading.
-
-## What It Does
-1. Extracts audio from video
-2. Runs neural VAD to detect speech
-3. Optionally detects "cut cut" restarts
-4. Concatenates speech segments
-5. Applies audio enhancement and LUT
-
-## Prerequisites
-
-### Required API Keys (add to .env)
-```
-# No API keys required - local processing
-```
-
-### Required Tools
-- Python 3.10+
-- FFmpeg (brew install ffmpeg)
-
-### Installation
-```bash
-pip install torch whisper  # whisper optional for restart detection
-```
-
-## How to Run
-
-### Basic Silence Removal
-```bash
-python3 execution/jump_cut_vad.py input.mp4 output.mp4
-```
-
-### With Audio Enhancement
-```bash
-python3 execution/jump_cut_vad.py input.mp4 output.mp4 \
-  --enhance-audio \
-  --apply-lut .tmp/cinematic.cube
-```
-
-### With Restart Detection
-```bash
-python3 execution/jump_cut_vad.py input.mp4 output.mp4 \
-  --detect-restarts \
-  --enhance-audio
-```
-
-### Quick One-Liner
-```bash
-python3 execution/jump_cut_vad.py input.mp4 output.mp4 --enhance-audio
-```
-
-## Overview
-
 Automatically remove silences from talking-head videos using neural voice activity detection (Silero VAD). More accurate than FFmpeg silence detection, especially for videos with background noise, breathing sounds, or quiet speech.
 
 ## Execution Script

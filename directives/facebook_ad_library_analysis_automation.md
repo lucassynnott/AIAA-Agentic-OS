@@ -149,6 +149,20 @@ Workflow is triggered via form.
 - API rate limits for external services
 - AI model failures or timeouts
 
+## Related Skill Bibles
+
+**[SKILL_BIBLE_meta_ads_manager_technical.md](../skills/SKILL_BIBLE_meta_ads_manager_technical.md)** (PRIMARY)
+- Complete Meta Ads Manager technical mastery
+- Persona-led creative diversification (90% success rate)
+- Understanding what makes Meta ads perform
+- Andromeda update impact analysis
+- Creative development best practices
+
+**[SKILL_BIBLE_hormozi_ad_analysis.md](../skills/SKILL_BIBLE_hormozi_ad_analysis.md)**
+- Ad analysis and critique framework
+- What makes ads convert vs fail
+- Creative direction insights
+
 ## Original N8N Workflow
 This directive was generated from: `N8N Workflows/Workflows/Funnels, Ads, & Copywriting Agency/Facebook Ad Library Analysis Automation.json`
 Generated on: 2026-01-02

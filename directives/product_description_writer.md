@@ -127,3 +127,20 @@ python3 execution/write_product_description.py \
 
 ## Cost
 - ~$0.05-0.10 per description
+
+## Related Skill Bibles
+
+**[SKILL_BIBLE_hormozi_marketing_mastery.md](../skills/SKILL_BIBLE_hormozi_marketing_mastery.md)**
+- Product positioning
+- Benefit-focused copywriting
+- Conversion optimization
+
+**[SKILL_BIBLE_hormozi_10x_pricing.md](../skills/SKILL_BIBLE_hormozi_10x_pricing.md)**
+- Value communication
+- Pricing presentation
+- Premium positioning
+
+**[SKILL_BIBLE_hormozi_persuasion_speaking.md](../skills/SKILL_BIBLE_hormozi_persuasion_speaking.md)**
+- Compelling product copy
+- Feature-to-benefit translation
+- Persuasive writing

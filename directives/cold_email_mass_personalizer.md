@@ -160,6 +160,23 @@ Workflow is triggered via form.
 - API rate limits for external services
 - AI model failures or timeouts
 
+## Related Skill Bibles
+
+**[SKILL_BIBLE_hormozi_email_marketing_complete.md](../skills/SKILL_BIBLE_hormozi_email_marketing_complete.md)**
+- Email personalization tactics
+- Subject line optimization
+- Engagement strategies
+
+**[SKILL_BIBLE_cold_email_mastery.md](../skills/SKILL_BIBLE_cold_email_mastery.md)**
+- Mass personalization frameworks
+- Icebreaker formulas
+- Response optimization
+
+**[SKILL_BIBLE_hormozi_lead_generation.md](../skills/SKILL_BIBLE_hormozi_lead_generation.md)**
+- Lead research principles
+- Prospect qualification
+- Outreach at scale
+
 ## Original N8N Workflow
 This directive was generated from: `N8N Workflows/Workflows/Cold Email Lead Generation Agency/Cold Email Mass Personalizer.json`
 Generated on: 2026-01-02

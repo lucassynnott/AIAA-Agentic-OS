@@ -154,3 +154,20 @@ python3 execution/create_content_calendar.py \
 
 ## Deliverable
 Google Sheet URL with complete content calendar, ready for execution.
+
+## Related Skill Bibles
+
+**[SKILL_BIBLE_hormozi_content_strategy.md](../skills/SKILL_BIBLE_hormozi_content_strategy.md)**
+- 30-day content strategy framework
+- Content pillars and mix
+- Engagement optimization
+
+**[SKILL_BIBLE_hormozi_marketing_mastery.md](../skills/SKILL_BIBLE_hormozi_marketing_mastery.md)**
+- Content marketing principles
+- Audience building
+- Platform-specific strategies
+
+**[SKILL_BIBLE_hormozi_lead_generation.md](../skills/SKILL_BIBLE_hormozi_lead_generation.md)**
+- Content as lead generation
+- Value-first approach
+- Content-to-conversion

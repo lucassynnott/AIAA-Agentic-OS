@@ -1,0 +1,28 @@
+created_at: '2026-01-09T10:43:20.984474'
+days_ahead: 7
+frequency: weekly
+instagram:
+- category: events
+  handle: '@do512'
+  priority: medium
+- category: events
+  handle: '@austin_events'
+  priority: medium
+location: Austin, TX
+newsletter_name: Austin Weekly
+sections:
+- Featured Events
+- Music & Nightlife
+- Food & Drink
+- Arts & Culture
+- Sports & Fitness
+- Family-Friendly
+- Free Events
+- Other
+web_aggregators:
+- url: https://do512.com/events
+  priority: high
+- url: https://www.austin360.com/things-to-do
+  priority: high  
+- url: https://austinot.com/austin-events
+  priority: medium

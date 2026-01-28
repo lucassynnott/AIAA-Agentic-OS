@@ -119,3 +119,32 @@ Day 14: Phone call
 - CRM
 - LinkedIn automation
 - Phone dialer (optional)
+
+## Related Skill Bibles
+
+### PRIMARY: Max Sturtevant's $40M+ Email Methodology
+
+**[SKILL_BIBLE_sturtevant_email_master_system.md](../skills/SKILL_BIBLE_sturtevant_email_master_system.md)** ⭐ ESSENTIAL
+- Sequence timing and structure (6,968 words)
+- SCE Framework for follow-ups
+- 75-word max body copy
+
+**[SKILL_BIBLE_sturtevant_cart_recovery.md](../skills/SKILL_BIBLE_sturtevant_cart_recovery.md)**
+- Follow-up timing (1hr, 4hr, 24hr, 48hr, 72hr)
+- Urgency without desperation
+- Re-engagement tactics
+
+**[SKILL_BIBLE_sturtevant_copywriting.md](../skills/SKILL_BIBLE_sturtevant_copywriting.md)**
+- Follow-up email copy formulas
+- Subject line variations for sequences
+
+### SUPPLEMENTARY
+
+**[SKILL_BIBLE_hormozi_sales_training.md](../skills/SKILL_BIBLE_hormozi_sales_training.md)**
+- Follow-up psychology
+- Persistence frameworks
+- Closing from follow-up
+
+**[SKILL_BIBLE_cold_email_mastery.md](../skills/SKILL_BIBLE_cold_email_mastery.md)**
+- Cold follow-up best practices
+- Multi-touch sequences

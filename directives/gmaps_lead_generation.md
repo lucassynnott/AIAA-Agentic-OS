@@ -220,3 +220,25 @@ python-dotenv
 Active lead database: https://docs.google.com/spreadsheets/d/1ATrOiq3wfph8Or5BE8VCybgvqK5gh7hVPWiSlgb3QiU
 
 Contains: plumbers, electricians, HVAC contractors, roofing contractors (Austin TX)
+
+## Related Skill Bibles
+
+**[SKILL_BIBLE_hormozi_lead_generation.md](../skills/SKILL_BIBLE_hormozi_lead_generation.md)**
+- Generate 1000s of leads framework
+- Lead qualification principles
+- Outreach strategy after scraping
+
+**[SKILL_BIBLE_hormozi_free_customer_acquisition.md](../skills/SKILL_BIBLE_hormozi_free_customer_acquisition.md)**
+- 7 ways to get customers for free
+- Organic lead generation tactics
+- Cost-effective acquisition strategies
+
+**[SKILL_BIBLE_hormozi_customer_acquisition_fast.md](../skills/SKILL_BIBLE_hormozi_customer_acquisition_fast.md)**
+- Fast customer acquisition methods
+- Lead-to-customer conversion
+- Speed optimization
+
+**[SKILL_BIBLE_monetizable_agentic_workflows.md](../skills/SKILL_BIBLE_monetizable_agentic_workflows.md)**
+- Google Maps lead pipeline workflow
+- Automation best practices
+- Monetization of lead generation

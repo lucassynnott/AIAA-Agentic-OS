@@ -31,9 +31,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 APIFY_TOKEN = os.getenv("APIFY_API_TOKEN") or os.getenv("APIFY_TOKEN")
-if not APIFY_TOKEN:
-    print("Error: APIFY_API_TOKEN required in .env")
-    sys.exit(1)
+
+def check_apify_token():
+    """Check for APIFY token and exit if not found."""
+    if not APIFY_TOKEN:
+        print("Error: APIFY_API_TOKEN required in .env")
+        print("Get your token from: https://console.apify.com/account/integrations")
+        sys.exit(1)
 
 
 def scrape_linkedin_profiles(
@@ -173,6 +177,9 @@ def main():
     parser.add_argument("--output", "-o", default=".tmp/linkedin_leads.json", help="Output file")
     
     args = parser.parse_args()
+    
+    # Check for API token after argparse (so --help works)
+    check_apify_token()
     
     titles = [t.strip() for t in args.titles.split(",")]
     industries = [i.strip() for i in args.industries.split(",") if i.strip()] if args.industries else None

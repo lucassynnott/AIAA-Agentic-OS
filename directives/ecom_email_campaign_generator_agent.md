@@ -355,6 +355,44 @@ Data is normalized/transformed for the next step.
 - API rate limits for external services
 - AI model failures or timeouts
 
+## Related Skill Bibles
+
+### PRIMARY: Max Sturtevant's $40M+ Ecommerce Email Methodology
+
+**[SKILL_BIBLE_sturtevant_email_master_system.md](../skills/SKILL_BIBLE_sturtevant_email_master_system.md)** ⭐ ESSENTIAL
+- Complete ecommerce email system (6,968 words)
+- Campaign architecture and revenue optimization
+- SCE Framework (Skimmable, Clear, Engaging)
+
+**[SKILL_BIBLE_sturtevant_copywriting.md](../skills/SKILL_BIBLE_sturtevant_copywriting.md)** ⭐ FOR CAMPAIGNS
+- Email copywriting formulas (5,395 words)
+- Subject line swipe files (25+ examples)
+- CTA optimization patterns
+
+**[SKILL_BIBLE_sturtevant_black_friday.md](../skills/SKILL_BIBLE_sturtevant_black_friday.md)** ⭐ FOR PROMOS
+- BFCM & Q4 campaign strategies (7,101 words)
+- Sale campaign sequencing
+- Urgency and scarcity tactics
+
+**[SKILL_BIBLE_sturtevant_email_design.md](../skills/SKILL_BIBLE_sturtevant_email_design.md)**
+- High-converting email design (6,686 words)
+- Mobile-first layouts
+- Visual hierarchy for campaigns
+
+**[SKILL_BIBLE_sturtevant_revenue_systems.md](../skills/SKILL_BIBLE_sturtevant_revenue_systems.md)**
+- Revenue optimization tactics (5,812 words)
+- Campaign ROI maximization
+
+### SUPPLEMENTARY: Hormozi Sales Psychology
+
+**[SKILL_BIBLE_hormozi_email_marketing_complete.md](../skills/SKILL_BIBLE_hormozi_email_marketing_complete.md)**
+- Sales psychology for email campaigns
+- Urgency and scarcity frameworks
+
+**[SKILL_BIBLE_hormozi_marketing_mastery.md](../skills/SKILL_BIBLE_hormozi_marketing_mastery.md)**
+- Promotional strategies
+- Conversion optimization
+
 ## Original N8N Workflow
 This directive was generated from: `N8N Workflows/Workflows/Ecom Email Marketing Agency/Ecom Email Campaign Generator Agent.json`
 Generated on: 2026-01-02

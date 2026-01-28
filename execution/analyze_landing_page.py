@@ -51,6 +51,25 @@ def get_model() -> str:
     return "anthropic/claude-sonnet-4" if os.getenv("OPENROUTER_API_KEY") else "gpt-4o"
 
 
+def load_landing_page_skill_bible() -> str:
+    """Load landing page skill bible for enhanced CRO analysis context."""
+    skill_path = Path(__file__).parent.parent / "skills" / "SKILL_BIBLE_landing_page_ai_mastery.md"
+    if skill_path.exists():
+        content = skill_path.read_text(encoding="utf-8")
+        # Extract key sections for context
+        sections = []
+        for section in ["## Best Practices", "## Common Mistakes", "## Quick Reference Checklist"]:
+            if section in content:
+                start = content.find(section)
+                next_section = content.find("\n## ", start + len(section))
+                if next_section > start:
+                    sections.append(content[start:next_section])
+                else:
+                    sections.append(content[start:start + 2000])
+        return "\n".join(sections)[:4000]
+    return ""
+
+
 def call_llm(client: OpenAI, system_prompt: str, user_prompt: str, temperature: float = 0.7) -> str:
     for attempt in range(3):
         try:
@@ -131,8 +150,20 @@ PAGE CONTENT (first 5000 chars):
 def analyze_cro(client: OpenAI, page_content: str, config: dict) -> str:
     """Analyze landing page for CRO opportunities."""
     print("🔍 Analyzing for CRO opportunities...")
-    
-    system_prompt = """You are a CRO expert who has optimized hundreds of landing pages. Provide specific, actionable recommendations backed by conversion data."""
+
+    # Load skill bible for enhanced context
+    skill_context = load_landing_page_skill_bible()
+
+    skill_section = ""
+    if skill_context:
+        skill_section = f"""
+
+APPLY THESE EXPERT CRO PRINCIPLES IN YOUR ANALYSIS:
+{skill_context[:3000]}
+"""
+
+    system_prompt = f"""You are a CRO expert who has optimized hundreds of landing pages. Provide specific, actionable recommendations backed by conversion data.
+{skill_section}"""
     
     user_prompt = f"""Analyze this landing page for conversion rate optimization:
 

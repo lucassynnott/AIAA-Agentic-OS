@@ -407,6 +407,28 @@ SEO PACKAGE:
 - API rate limits for external services
 - AI model failures or timeouts
 
+## Related Skill Bibles
+
+**[SKILL_BIBLE_hormozi_content_strategy.md](../skills/SKILL_BIBLE_hormozi_content_strategy.md)**
+- 30-day content strategy framework
+- YouTube content optimization
+- Audience retention tactics
+
+**[SKILL_BIBLE_hormozi_persuasion_speaking.md](../skills/SKILL_BIBLE_hormozi_persuasion_speaking.md)**
+- Speak so well people give you money
+- Hook and attention formulas
+- Script delivery optimization
+
+**[SKILL_BIBLE_hormozi_marketing_mastery.md](../skills/SKILL_BIBLE_hormozi_marketing_mastery.md)**
+- 14 years of marketing advice
+- Content marketing principles
+- Audience building strategies
+
+**[SKILL_BIBLE_youtube_lead_generation.md](../skills/SKILL_BIBLE_youtube_lead_generation.md)**
+- YouTube as lead generation tool
+- Content-to-conversion frameworks
+- Channel growth tactics
+
 ## Original N8N Workflow
 This directive was generated from: `N8N Workflows/Workflows/Content Marketing Agency/YouTube Script Creator.json`
 Generated on: 2026-01-02

@@ -222,3 +222,20 @@ Heavy on the pain point, quick to solution.
 - Include timeline for credibility
 - Add visuals (charts, screenshots)
 - End with clear CTA
+
+## Related Skill Bibles
+
+**[SKILL_BIBLE_hormozi_marketing_mastery.md](../skills/SKILL_BIBLE_hormozi_marketing_mastery.md)**
+- Social proof positioning
+- Results-focused storytelling
+- Marketing psychology
+
+**[SKILL_BIBLE_hormozi_sales_training.md](../skills/SKILL_BIBLE_hormozi_sales_training.md)**
+- Proof stacking techniques
+- Building credibility
+- Testimonial frameworks
+
+**[SKILL_BIBLE_hormozi_persuasion_speaking.md](../skills/SKILL_BIBLE_hormozi_persuasion_speaking.md)**
+- Compelling storytelling
+- Results presentation
+- Hook formulas for case studies

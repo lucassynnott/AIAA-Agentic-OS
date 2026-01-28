@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.aiaa.x_youtube_content</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/lucasnolan/Agentic OS/AIAA-Agentic-OS/execution/x_keyword_youtube_content.py</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/lucasnolan/Agentic OS/AIAA-Agentic-OS</string>
+
+    <key>StartInterval</key>
+    <integer>10800</integer>
+    <!-- 10800 seconds = 3 hours -->
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/lucasnolan/Agentic OS/AIAA-Agentic-OS/.tmp/logs/x_youtube_stdout.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/lucasnolan/Agentic OS/AIAA-Agentic-OS/.tmp/logs/x_youtube_stderr.log</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    </dict>
+</dict>
+</plist>

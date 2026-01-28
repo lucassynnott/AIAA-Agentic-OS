@@ -1,0 +1,10 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "python3 run.py"
+restartPolicyType = "never"
+
+# Run every 3 hours (Railway cron syntax)
+[deploy.cron]
+schedule = "0 */3 * * *"

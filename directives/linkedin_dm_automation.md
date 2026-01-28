@@ -134,3 +134,20 @@ Worth a quick chat?
 ## Cost
 - Automation tools: $50-100/mo
 - Or custom scripts: Free
+
+## Related Skill Bibles
+
+**[SKILL_BIBLE_hormozi_lead_generation.md](../skills/SKILL_BIBLE_hormozi_lead_generation.md)**
+- LinkedIn outreach strategy
+- Connection building
+- Lead qualification
+
+**[SKILL_BIBLE_hormozi_free_customer_acquisition.md](../skills/SKILL_BIBLE_hormozi_free_customer_acquisition.md)**
+- Organic outreach tactics
+- Relationship building
+- Value-first messaging
+
+**[SKILL_BIBLE_cold_email_mastery.md](../skills/SKILL_BIBLE_cold_email_mastery.md)**
+- DM personalization frameworks
+- Follow-up sequences
+- Response optimization

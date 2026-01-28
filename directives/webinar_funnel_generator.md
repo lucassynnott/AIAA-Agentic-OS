@@ -268,6 +268,39 @@ Data is normalized/transformed for the next step.
 - API rate limits for external services
 - AI model failures or timeouts
 
+## Related Skill Bibles
+
+**[SKILL_BIBLE_landing_page_ai_mastery.md](../skills/SKILL_BIBLE_landing_page_ai_mastery.md)** (PRIMARY FOR REGISTRATION PAGE)
+- Complete landing page optimization framework
+- AI-powered content creation and design automation
+- Conversion-first design philosophy
+- Registration page best practices
+
+**[SKILL_BIBLE_hormozi_marketing_mastery.md](../skills/SKILL_BIBLE_hormozi_marketing_mastery.md)**
+- Webinar marketing principles
+- Funnel optimization
+- Conversion psychology
+
+**[SKILL_BIBLE_hormozi_sales_training.md](../skills/SKILL_BIBLE_hormozi_sales_training.md)**
+- Webinar closing techniques
+- Pitch structure
+- Objection handling
+
+**[SKILL_BIBLE_hormozi_email_marketing_complete.md](../skills/SKILL_BIBLE_hormozi_email_marketing_complete.md)**
+- Pre/post webinar email sequences
+- Registration optimization
+- Attendance boosting
+
+**[SKILL_BIBLE_hormozi_persuasion_speaking.md](../skills/SKILL_BIBLE_hormozi_persuasion_speaking.md)**
+- Webinar presentation skills
+- Hook and attention formulas
+- Compelling delivery
+
+**[SKILL_BIBLE_hormozi_106m_launch.md](../skills/SKILL_BIBLE_hormozi_106m_launch.md)**
+- Launch strategies
+- Urgency and scarcity
+- High-ticket closing
+
 ## Original N8N Workflow
 This directive was generated from: `N8N Workflows/Workflows/Funnels, Ads, & Copywriting Agency/Webinar Funnel Generator.json`
 Generated on: 2026-01-02

@@ -17,25 +17,24 @@ import argparse
 import time
 from pathlib import Path
 
-# Video encoding settings - H.265/HEVC at 17Mbps, 30fps
-HARDWARE_ENCODER = "hevc_videotoolbox"
-SOFTWARE_ENCODER = "libx265"
-HARDWARE_BITRATE = "17M"
+# Video encoding settings
+HARDWARE_ENCODER = "h264_videotoolbox"
+SOFTWARE_ENCODER = "libx264"
+HARDWARE_BITRATE = "10M"
 SOFTWARE_CRF = "18"
-TARGET_FPS = 30
 
 # Cache for hardware encoder availability
 _hardware_encoder_available = None
 
 
 def check_hardware_encoder_available() -> bool:
-    """Check if hevc_videotoolbox hardware encoder is available."""
+    """Check if h264_videotoolbox hardware encoder is available."""
     try:
         result = subprocess.run(
             ["ffmpeg", "-hide_banner", "-encoders"],
             capture_output=True, text=True, timeout=5
         )
-        return "hevc_videotoolbox" in result.stdout
+        return "h264_videotoolbox" in result.stdout
     except Exception:
         return False
 
@@ -46,14 +45,14 @@ def get_cached_encoder_args() -> list[str]:
     if _hardware_encoder_available is None:
         _hardware_encoder_available = check_hardware_encoder_available()
         if _hardware_encoder_available:
-            print(f"🚀 Hardware encoding enabled (hevc_videotoolbox)")
+            print(f"🚀 Hardware encoding enabled (h264_videotoolbox)")
         else:
-            print(f"💻 Using software encoding (libx265)")
+            print(f"💻 Using software encoding (libx264)")
 
     if _hardware_encoder_available:
-        return ["-c:v", HARDWARE_ENCODER, "-b:v", HARDWARE_BITRATE, "-r", str(TARGET_FPS), "-tag:v", "hvc1"]
+        return ["-c:v", HARDWARE_ENCODER, "-b:v", HARDWARE_BITRATE]
     else:
-        return ["-c:v", SOFTWARE_ENCODER, "-preset", "fast", "-crf", SOFTWARE_CRF, "-r", str(TARGET_FPS), "-tag:v", "hvc1"]
+        return ["-c:v", SOFTWARE_ENCODER, "-preset", "fast", "-crf", SOFTWARE_CRF]
 
 
 def extract_audio(input_path: str, output_path: str, sample_rate: int = 16000):

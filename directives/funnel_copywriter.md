@@ -239,6 +239,41 @@ SALES PAGE CONTEXT:
 - API rate limits for external services
 - AI model failures or timeouts
 
+## Related Skill Bibles
+
+Load these skill bibles for high-converting funnel copy:
+
+**[SKILL_BIBLE_landing_page_ai_mastery.md](../skills/SKILL_BIBLE_landing_page_ai_mastery.md)** (PRIMARY)
+- Complete landing page optimization framework
+- AI-powered content creation and design automation
+- Conversion-first design philosophy
+- A/B testing and optimization methodologies
+
+**[SKILL_BIBLE_hormozi_marketing_mastery.md](../skills/SKILL_BIBLE_hormozi_marketing_mastery.md)**
+- 14 years of marketing advice condensed
+- Funnel strategy and optimization
+- Conversion psychology principles
+
+**[SKILL_BIBLE_hormozi_email_marketing_complete.md](../skills/SKILL_BIBLE_hormozi_email_marketing_complete.md)**
+- Complete email marketing framework
+- Email sequence optimization
+- Revenue-driving email tactics
+
+**[SKILL_BIBLE_hormozi_sales_training.md](../skills/SKILL_BIBLE_hormozi_sales_training.md)**
+- Sales copy psychology
+- Objection handling in copy
+- Urgency and scarcity frameworks
+
+**[SKILL_BIBLE_funnel_copywriting_mastery.md](../skills/SKILL_BIBLE_funnel_copywriting_mastery.md)**
+- Funnel copy best practices
+- Sales page structure
+- Conversion optimization
+
+**[SKILL_BIBLE_hormozi_10x_pricing.md](../skills/SKILL_BIBLE_hormozi_10x_pricing.md)**
+- Pricing psychology for offers
+- Value stack creation
+- Premium positioning
+
 ## Original N8N Workflow
 This directive was generated from: `N8N Workflows/Workflows/Funnels, Ads, & Copywriting Agency/Funnel Copywriter.json`
 Generated on: 2026-01-02

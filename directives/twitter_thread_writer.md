@@ -226,3 +226,20 @@ Suggested posting time: [Time]
 - Quote tweet your own hook after 2 hours
 - Reply to every comment
 - Space tweets 1-2 min apart when posting
+
+## Related Skill Bibles
+
+**[SKILL_BIBLE_hormozi_content_strategy.md](../skills/SKILL_BIBLE_hormozi_content_strategy.md)**
+- Content strategy framework
+- Thread structure optimization
+- Engagement tactics
+
+**[SKILL_BIBLE_hormozi_persuasion_speaking.md](../skills/SKILL_BIBLE_hormozi_persuasion_speaking.md)**
+- Hook formulas
+- Compelling storytelling
+- Attention-grabbing techniques
+
+**[SKILL_BIBLE_hormozi_marketing_mastery.md](../skills/SKILL_BIBLE_hormozi_marketing_mastery.md)**
+- Social media marketing principles
+- Audience growth
+- Content positioning
